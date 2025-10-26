@@ -5,42 +5,12 @@ const FAVICON_64_TEMPLATE = 'https://www.google.com/s2/favicons?domain={{DOMAIN}
 const FAVICON_128_TEMPLATE = 'https://www.google.com/s2/favicons?domain={{DOMAIN}}&sz=128';
 
 const DEFAULT_GRAPH_NODE_LIMIT = 12; // Default number of top items to show in graphs
+const TOP_INFLUENCERS_COUNT_PER_SECTION = 1; // max of top influencers to show from each entity category
+const ITEMS_INCREMENT = 10; // Number of items to show when clicking "Show More"
 
-const ENTITES_CONFIG = [
-    {
-        name: 'products',
-        isComputed: false
-    },
-    {
-        name: 'organizations',
-        isComputed: false
-    },
-    {
-        name: 'persons',
-        isComputed: false
-    },
-    {
-        name: 'keywords',
-        isComputed: false
-    },
-    {
-        name: 'places',
-        isComputed: false
-    },
-    {
-        name: 'events',
-        isComputed: false
-    },
-    {
-        name: 'links',
-        isComputed: false
-    },
-    { 
-        // this one is computed
-        name: 'linkTypes',
-        isComputed: true
-    }
-]
+// replaced by the report generator
+// with the array like [ { name: "links", isComputed: false}, .. ]
+const ENTITES_CONFIG = [{"name":"products","isComputed":false},{"name":"organizations","isComputed":false},{"name":"persons","isComputed":false},{"name":"keywords","isComputed":false},{"name":"places","isComputed":false},{"name":"events","isComputed":false},{"name":"links","isComputed":false},{"name":"linkTypes","isComputed":true},{"name":"linkDomains","isComputed":true}];
 
 // returns array of strings with entities names
 const ENTITES_NON_COMPUTED = ENTITES_CONFIG.filter(entity => !entity.isComputed).map(entity => entity.name);
@@ -52,7 +22,11 @@ const ENTITES_ALL = ENTITES_CONFIG.map(entity => entity.name);
 const COLUMNS_WITH_PREVIEW_EXCERPT = ['value'];
 
 function getEntityTableSectionId(entityType) {
-    return `table_${entityType}` || null;
+    // adding "s" to the end of the entity type to make it plural
+    let entityTypePlural = entityType + 's';
+    // removing doubled "ss" at the end in case it was already plural
+    entityTypePlural = entityTypePlural.replace(/ss$/, 's');
+    return `parent_div_for_tabbed_${entityTypePlural}` || null;
 }
 
 // Simple event bus for component communication
@@ -150,6 +124,9 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         tocPath: '',
     },
 
+    // AI Summary - begin
+    // turned off on 2025 oct 14 as it was replaced with "Top Influencers" block
+    /*
     {
         title: 'AI Summary',
         description: 'AI summary of the report',
@@ -164,10 +141,22 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         hasAppearanceOrderTrendFilter: true,
         tocPath: 'AI Summary'
     },
+    */
+    // AI Summary - end
+
+    // Top Influencers - begin
+    {
+        title: 'Top Influencers',
+        id: 'top_influencers',
+        type: 'top-influencers',
+        tocPath: 'Top Influencers',
+        description: 'Top performers across all categories or compare selected items side by side'
+    },
+    // Top Influencers - end
 
     // Sections ordered to match left navigation menu
 
-    // events
+    // events - begin
     {
         title: 'Events',
         description: 'Events mentioned by AI engines',
@@ -176,12 +165,14 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         sourceArrayName: 'events',
         columns: [
             { type: 'marked', caption: '✔️' },
+            { type: 'value', caption: 'Event' },
+            { type: 'sources', caption: 'Sources' },
+            //{ type: 'link', caption: 'Link' },
             { type: 'influence', caption: 'Voice' },
             { type: 'appearanceOrder', caption: 'Order' },
             { type: 'mentions', caption: 'Mentions' },
-            { type: 'value', caption: 'Event' },
-            { type: 'link', caption: 'Website' },
-            { type: 'modelNames', caption: 'AI Models' }
+            { type: 'modelNames', caption: 'AI Models' },
+
 
         ],
         hasSearchFilter: true,
@@ -203,7 +194,7 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         hasSearchFilter: true,
         columns: [
             { type: 'value', caption: 'Event' },
-            { type: 'link', caption: 'Website' },
+            { type: 'link', caption: 'Link' },
         ],
         searchFilterFields: ['value', 'link'],
         hasModelFilter: true,
@@ -213,8 +204,8 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         defaultSortingDirection: 'desc',
         tocPath: 'Events/Graph'
     },
-
-    // keywords
+    // events - end
+    // keywords - begin     
     {
         title: 'Keywords',
         description: 'Keywords mentioned by AI engines',
@@ -223,12 +214,14 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         sourceArrayName: 'keywords',
         columns: [
             { type: 'marked', caption: '✔️' },
+            { type: 'value', caption: 'Keyword' },
+            { type: 'sources', caption: 'Sources' },
             { type: 'influence', caption: 'Voice' },
             { type: 'appearanceOrder', caption: 'Order' },
             { type: 'mentions', caption: 'Mentions' },
-            { type: 'value', caption: 'Keyword' },
-            { type: 'similar', caption: 'Similar', subType2: 'commaSeparated' },            
-            { type: 'modelNames', caption: 'AI Models' }
+            //{ type: 'similar', caption: 'Similar', subType2: 'commaSeparated' },
+            { type: 'modelNames', caption: 'AI Models' },
+
 
         ],
 
@@ -258,8 +251,9 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         tocPath: 'Keywords/Graph'
 
     },
+    // keywords - end
 
-    // organizations
+    // organizations - begin
     {
         title: 'Organizations',
         description: 'Organizations mentioned and used by AI engines',
@@ -268,12 +262,14 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         sourceArrayName: 'organizations',
         columns: [
             { type: 'marked', caption: '✔️' },
+            { type: 'value', caption: 'Organization' },
+            //{ type: 'link', caption: 'Link' },
+            { type: 'sources', caption: 'Sources' },
             { type: 'influence', caption: 'Voice' },
             { type: 'appearanceOrder', caption: 'Order' },
             { type: 'mentions', caption: 'Mentions' },
-            { type: 'value', caption: 'Organization' },
-            { type: 'link', caption: 'Website' },            
             { type: 'modelNames', caption: 'AI Models' }
+
 
         ],
         hasSearchFilter: true,
@@ -304,8 +300,8 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         defaultSortingDirection: 'desc',
         tocPath: 'Organizations/Graph'
     },
-
-    // persons
+    // organizations - end
+    // persons - begin
     {
         title: 'Persons',
         description: 'Persons mentioned by AI engines',
@@ -314,12 +310,14 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         sourceArrayName: 'persons',
         columns: [
             { type: 'marked', caption: '✔️' },
+            { type: 'value', caption: 'Person' },
+            //{ type: 'link', caption: 'Link' },
+            { type: 'sources', caption: 'Sources' },
             { type: 'influence', caption: 'Voice' },
             { type: 'appearanceOrder', caption: 'Order' },
             { type: 'mentions', caption: 'Mentions' },
-            { type: 'value', caption: 'Person' },
-            { type: 'link', caption: 'Website' },
-            { type: 'modelNames', caption: 'AI Models' }
+            { type: 'modelNames', caption: 'AI Models' },
+
 
         ],
         hasSearchFilter: true,
@@ -341,7 +339,7 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         hasSearchFilter: true,
         columns: [
             { type: 'value', caption: 'Person' },
-            { type: 'link', caption: 'Website' },
+            { type: 'link', caption: 'Link' },
         ],
         searchFilterFields: ['value', 'link'],
         hasModelFilter: true,
@@ -351,8 +349,9 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         defaultSortingDirection: 'desc',
         tocPath: 'Persons/Graph'
     },
+    // persons - end
 
-    // places
+    // places - begin       
     {
         title: 'Places',
         description: 'Places mentioned by AI engines',
@@ -361,12 +360,13 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         sourceArrayName: 'places',
         columns: [
             { type: 'marked', caption: '✔️' },
+            { type: 'value', caption: 'Place' },
+            //{ type: 'link', caption: 'Link' },
+            { type: 'sources', caption: 'Sources' },
             { type: 'influence', caption: 'Voice' },
             { type: 'appearanceOrder', caption: 'Order' },
             { type: 'mentions', caption: 'Mentions' },
-            { type: 'value', caption: 'Place' },
-            { type: 'link', caption: 'Website' },            
-            { type: 'modelNames', caption: 'AI Models' }
+            { type: 'modelNames', caption: 'AI Models' },
 
         ],
         hasSearchFilter: true,
@@ -388,7 +388,7 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         hasSearchFilter: true,
         columns: [
             { type: 'value', caption: 'Place' },
-            { type: 'link', caption: 'Website' },
+            { type: 'link', caption: 'Link' },
         ],
         searchFilterFields: ['value', 'link'],
         hasModelFilter: true,
@@ -398,8 +398,9 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         defaultSortingDirection: 'desc',
         tocPath: 'Places/Graph'
     },
+    // places - end
 
-    // products
+    // products - begin
     {
         title: 'Products',
         description: 'Products mentioned and used by AI engines',
@@ -408,11 +409,12 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         sourceArrayName: 'products',
         columns: [
             { type: 'marked', caption: '✔️' },
+            { type: 'value', caption: 'Product' },
+            //{ type: 'link', caption: 'Link' },
+            { type: 'sources', caption: 'Sources' },
             { type: 'influence', caption: 'Voice' },
             { type: 'appearanceOrder', caption: 'Order' },
             { type: 'mentions', caption: 'Mentions' },
-            { type: 'value', caption: 'Product' },
-            { type: 'link', caption: 'Website' },            
             { type: 'modelNames', caption: 'AI Models' }
 
         ],
@@ -434,7 +436,7 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         hasSearchFilter: true,
         columns: [
             { type: 'value', caption: 'Product' },
-            { type: 'link', caption: 'Website' },
+            { type: 'link', caption: 'Link' },
         ],
         searchFilterFields: ['value', 'link'],
         hasModelFilter: true,
@@ -444,57 +446,108 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         defaultSortingDirection: 'desc',
         tocPath: 'Products/Graph'
     },
+    // products - end
 
-    // links
+    // linkDomains - begin
     {
-        title: 'Links',
-        description: 'Links mentioned and used by AI engines',
-        id: 'table_links',
+        title: 'Link Domains',
+        description: 'Domains mentioned and used by AI engines',
+        id: 'table_linkDomains',
         type: 'table-with-items',
-        sourceArrayName: 'links',
+        sourceArrayName: 'linkDomains',
         columns: [
             { type: 'marked', caption: '✔️' },
+            { type: 'link', caption: 'Domain' },
+            { type: 'linkTypeName', caption: 'Type' },
             { type: 'influence', caption: 'Voice' },
             { type: 'appearanceOrder', caption: 'Order' },
             { type: 'mentions', caption: 'Mentions' },
-            //{type: 'value', caption: 'Value'},
-            { type: 'link', caption: 'Website' },
-            { type: 'linkType', caption: 'Type' },            
             { type: 'modelNames', caption: 'AI Models' }
 
         ],
         hasSearchFilter: true,
-        searchFilterFields: ['link'],
+        searchFilterFields: ['value'],
         hasModelFilter: true,
         botFilteredFields: ['bots'],
         hasAppearanceOrderTrendFilter: true,
         defaultSortingColumn: '',
         defaultSortingDirection: 'desc',
-        tocPath: 'Links/Table'
+        tocPath: 'Link Domains/Table'
+
     },
     {
-        title: 'Links Graph',
-        description: 'Visualization of links mentioned and used by AI engines',
-        id: 'graph_links',
+        title: 'Link Domains Graph',
+        description: 'Visualization of domains mentioned and used by AI engines',
+        id: 'graph_linkDomains',
         type: 'graph-with-items',
-        sourceArrayName: 'links',
-        columns: [
-            { type: 'link', caption: 'Website' },
-
-            { type: 'influence', caption: 'Voice' },
-
-        ],
+        sourceArrayName: 'linkDomains',
         hasSearchFilter: true,
-        searchFilterFields: ['link'],
+        searchFilterFields: ['value'],
         hasModelFilter: true,
         botFilteredFields: ['bots'],
         hasAppearanceOrderTrendFilter: true,
-        defaultSortingColumn: '',
+        hasTrendFilter: true,
+        defaultSortingColumn: 'positive',
         defaultSortingDirection: 'desc',
-        tocPath: 'Links/Graph'
+        tocPath: 'Link Domains/Graph'
+
     },
 
-    // linkTypes
+    {
+        title: 'Link Domains by Influence',
+        description: 'Chart of domains by influence',
+        id: 'chart_linkDomainsByInfluence',
+        type: 'chart-with-items',
+        sourceArrayName: 'linkDomains',
+        chartSpecificConfig: {
+            chartType: 'horizontalBar',
+            formatAsPercentage: true
+        },
+        columns: [
+            // first is always the category
+            { type: 'value', caption: 'Domain', chartAxis: 'x' },
+            { type: 'influence', caption: 'Influence', chartAxis: 'y' }
+        ],
+        hasSearchFilter: true,
+        searchFilterFields: ['value'],
+        hasModelFilter: true,
+        botFilteredFields: ['bots'],
+        hasAppearanceOrderTrendFilter: true,
+        hasTrendFilter: true,
+        defaultSortingColumn: '',
+        defaultSortingDirection: 'desc',
+        tocPath: 'Link Domains/Influence Chart'
+    },
+
+    {
+        title: 'Link Domains by Mentions',
+        description: 'Chart of domains by mentions',
+        id: 'chart_linkDomainsByMentions',
+        type: 'chart-with-items',
+        sourceArrayName: 'linkDomains',
+        chartSpecificConfig: {
+            chartType: 'horizontalBar',
+            formatValuesAsPercentage: false
+        },
+        columns: [
+            // first is always the category
+            { type: 'value', caption: 'Domain', chartAxis: 'x' },
+            { type: 'mentions', caption: 'Mentions', chartAxis: 'y' }
+        ],
+        hasSearchFilter: true,
+        searchFilterFields: ['value'],
+        hasModelFilter: true,
+        botFilteredFields: ['bots'],
+        hasAppearanceOrderTrendFilter: true,
+        hasTrendFilter: true,
+        defaultSortingColumn: 'mentions',
+        defaultSortingDirection: 'desc',
+        tocPath: 'Link Domains/Mentions Chart'
+
+    },
+    // link domains - end    
+
+    // linkTypes - begin
     {
         title: 'Link Types',
         description: 'Source types mentioned and used by AI engines',
@@ -503,10 +556,10 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         sourceArrayName: 'linkTypes',
         columns: [
             { type: 'marked', caption: '✔️' },
+            { type: 'value', caption: 'Type' },
             { type: 'influence', caption: 'Voice' },
             { type: 'appearanceOrder', caption: 'Order' },
             { type: 'mentions', caption: 'Mentions' },
-            { type: 'value', caption: 'Type' },            
             { type: 'modelNames', caption: 'AI Models' }
 
         ],
@@ -537,6 +590,32 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         tocPath: 'Link Types/Graph'
 
     },
+
+    {
+        title: 'Link Type by Influence',
+        description: 'Chart of source types by influence',
+        id: 'chart_linkTypesByInfluence',
+        type: 'chart-with-items',
+        sourceArrayName: 'linkTypes',
+        chartSpecificConfig: {
+            chartType: 'horizontalBar',
+            formatAsPercentage: true  // This will format values as percentages
+        },
+        columns: [
+            // first is always the category
+            { type: 'value', caption: 'Link Type', chartAxis: 'x' },
+            { type: 'influence', caption: 'Influence', chartAxis: 'y' }
+        ],
+        hasSearchFilter: true,
+        searchFilterFields: ['value'],
+        hasModelFilter: true,
+        botFilteredFields: ['bots'],
+        hasAppearanceOrderTrendFilter: true,
+        hasTrendFilter: true,
+        defaultSortingColumn: '',
+        defaultSortingDirection: 'desc',
+        tocPath: 'Link Types/Influence Chart'
+    },
     {
         title: 'Link Type by Mentions',
         description: 'Chart of source types by mentions',
@@ -563,41 +642,60 @@ const DEFAULT_VISUAL_OBJECTS_ARRAY = [
         tocPath: 'Link Types/Mentions Chart'
 
     },
+    // link types - end    
+
+    // links - begin
     {
-        title: 'Link Type by Influence',
-        description: 'Chart of source types by influence',
-        id: 'chart_linkTypesByInfluence',
-        type: 'chart-with-items',
-        sourceArrayName: 'linkTypes',
-        chartSpecificConfig: {
-            chartType: 'horizontalBar',
-            formatAsPercentage: true  // This will format values as percentages
-        },
+        title: 'Links',
+        description: 'Links mentioned and used by AI engines',
+        id: 'table_links',
+        type: 'table-with-items',
+        sourceArrayName: 'links',
         columns: [
-            // first is always the category
-            { type: 'value', caption: 'Link Type', chartAxis: 'x' },
-            { type: 'influence', caption: 'Influence', chartAxis: 'y' }
+            { type: 'marked', caption: '✔️' },
+            { type: 'link', caption: 'Link' },
+            { type: 'linkType', caption: 'Type' },
+            { type: 'influence', caption: 'Voice' },
+            { type: 'appearanceOrder', caption: 'Order' },
+            { type: 'mentions', caption: 'Mentions' },
+            //{type: 'value', caption: 'Value'},
+            { type: 'modelNames', caption: 'AI Models' }
+
         ],
         hasSearchFilter: true,
-        searchFilterFields: ['value'],
+        searchFilterFields: ['link'],
         hasModelFilter: true,
         botFilteredFields: ['bots'],
         hasAppearanceOrderTrendFilter: true,
-        hasTrendFilter: true,
         defaultSortingColumn: '',
         defaultSortingDirection: 'desc',
-        tocPath: 'Link Types/Influence Chart'
+        tocPath: 'Links/Table'
     },
-
-
-
     {
-        title: 'Compare',
-        id: 'compare_items',
-        type: 'item-comparison-dashboard',
-        tocPath: 'Compare',
-        description: 'Compare multiple items side by side'
+        title: 'Links Graph',
+        description: 'Visualization of links mentioned and used by AI engines',
+        id: 'graph_links',
+        type: 'graph-with-items',
+        sourceArrayName: 'links',
+        columns: [
+            { type: 'link', caption: 'Link' },
+
+            { type: 'influence', caption: 'Voice' },
+
+        ],
+        hasSearchFilter: true,
+        searchFilterFields: ['link'],
+        hasModelFilter: true,
+        botFilteredFields: ['bots'],
+        hasAppearanceOrderTrendFilter: true,
+        defaultSortingColumn: '',
+        defaultSortingDirection: 'desc',
+        tocPath: 'Links/Graph'
     },
+
+    // links - end    
+
+
 
 
 ];
@@ -639,11 +737,14 @@ const TRENDS = Object.freeze({
     UNKNOWN: -9999, // "?"
 });
 
-const NUMERIC_COLUMN_HEADERS = ['appearanceOrder', 'mentions',
-
+const NUMERIC_COLUMN_HEADERS = [
+    'appearanceOrder',
+    'mentions',
     'influence',
-
-    'positive', 'neutral', 'negative'];
+    'positive',
+    'neutral',
+    'negative'
+];
 
 // Constants for default densities
 const DEFAULT_KEYWORD_DENSITY = 1;  // 50 is the middle of the slider
@@ -825,15 +926,13 @@ Vue.component('base-section-component', {
                     <a href='#' @click="showReportSelector"
                             class="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-500 transition-colors flex items-center gap-1 bg-transparent border-0">
                         <span class="fa fa-exchange-alt"></span>
-                        <span>Switch</span>
+                        <template v-if="$root.reportMetadata && $root.reportMetadata.isAggregateReport">
+                            <i class="fa-solid fa-chart-simple"></i> Aggregated
+                        </template>
+                        <template v-else>
+                            {{ $root.report_question }}
+                        </template>
                     </a>
-                    <span class="text-gray-400">|</span>
-                    <template v-if="$root.reportMetadata && $root.reportMetadata.isAggregateReport">
-                        📊 Aggregated ({{ $root.reportMetadata.totalQuestions }} questions)
-                    </template>
-                    <template v-else>
-                        📝 Question: {{ $root.report_question }}
-                    </template>
                 </div>
 
                 <!-- Right: Export link -->
@@ -1114,22 +1213,14 @@ Vue.component('about-report', {
     extends: baseProps,
     data() {
         return {
-            tocExpanded: localStorage.getItem('tocExpanded') !== 'false', // Default to true
-            modelsExpanded: localStorage.getItem('modelsExpanded') === 'true', // Default to false
-            dataExpanded: localStorage.getItem('dataExpanded') === 'true', // Default to false
+            dataSectionExpanded: localStorage.getItem('dataSectionExpanded') === 'false', // Default to false (collapsed)
             questionsExpanded: true, // Default to expanded for easy access
             questionSearch: '' // Search query for questions
         }
     },
     watch: {
-        tocExpanded(val) {
-            localStorage.setItem('tocExpanded', val);
-        },
-        modelsExpanded(val) {
-            localStorage.setItem('modelsExpanded', val);
-        },
-        dataExpanded(val) {
-            localStorage.setItem('dataExpanded', val);
+        dataSectionExpanded(val) {
+            localStorage.setItem('dataSectionExpanded', val);
         }
     },
     template: `
@@ -1140,7 +1231,7 @@ Vue.component('about-report', {
                 {{ $root.report_title || $root.report_question }}
             </h1>
             <p v-if="$root.report_type === 'aggregate'" class="text-gray-500 dark:text-gray-400 text-lg mb-4">
-                Comprehensive Analysis Across All Questions
+                Aggregate Report (from all {{$root.report_question_number}} questions)
             </p>
 
             <!-- Enhanced Date Display -->
@@ -1148,7 +1239,7 @@ Vue.component('about-report', {
                 <div v-if="$root.totalDates.length === 1" class="text-gray-600 dark:text-gray-300 text-sm">
                     <span class="font-medium">Data captured on:</span> {{ $root.dateToString($root.report_date) }}
                     <br/>
-                    <span class="font-medium">Report generated on:</span> {{ $root.dateToString($root.creted_at) }}
+                    <span class="font-medium">Report generated on:</span> {{ $root.dateToString($root.report_created_at) }}
                 </div>
                 <div v-else class="space-y-2">
                     <div class="text-gray-600 dark:text-gray-300 text-sm">
@@ -1232,211 +1323,167 @@ Vue.component('about-report', {
             </div>
       </div>
 
-      <!-- Table of Contents Section -->
-      <div class="border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-lg mb-6">
-            <div class="px-4 py-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors flex items-center justify-between">
-                <button @click="tocExpanded = !tocExpanded"
-                        class="flex items-center gap-2">
-                    <svg class="w-5 h-5 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                    <span class="font-semibold text-gray-700 dark:text-gray-200">Table of Contents</span>
-                </button>
+      <!-- Report Methodology Section -->
+      <div class="border border-blue-100 dark:border-blue-900/30 bg-gradient-to-br from-blue-50/50 to-indigo-50/50 dark:from-blue-900/10 dark:to-indigo-900/10 rounded-lg p-6 mb-6">
 
-                <div class="flex items-center gap-3">
-
-                    <!-- Expand/Collapse Icon -->
-                    <button @click="tocExpanded = !tocExpanded">
-                        <svg class="w-5 h-5 text-gray-400 dark:text-gray-500 transition-transform" :class="tocExpanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-
-            <div v-show="tocExpanded" class="p-4 relative">
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    <div v-for="(items, groupName) in groupedOptionsWithCounts" :key="groupName"
-                         class="border-l-4 border-gray-200 pl-3">
-                        <h3 class="font-semibold text-sm text-gray-700 dark:text-gray-300 mb-2 flex items-center justify-between">
-                            <span>{{ groupName.split(' (')[0] }}</span>
-                            <span v-if="groupName.includes('(')" class="text-xs font-normal text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 py-0.5 rounded-full">
-                                {{ groupName.match(/\\(([^)]+)\\)/)?.[1] }}
-                            </span>
-                        </h3>
-                        <div class="space-y-1">
-                            <a v-for="item in items"
-                               :key="item.id"
-                               :href="'#parent_div_for_' + item.id"
-                               @click.prevent="$root.scrollToElement('parent_div_for_' + item.id)"
-                               class="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 px-2 py-1 rounded transition-colors">
-                                <span class="flex items-center gap-2">
-                                    <svg v-if="item.type === 'table-with-items'" class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                                    </svg>
-                                    <svg v-else-if="item.type === 'graph-with-items'" class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                    </svg>
-                                    <svg v-else class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                    </svg>
-                                    {{ item.title.replace(' Table', '').replace(' Graph', '') }}
-                                </span>
+                <!-- Project Overview -->
+                <div class="mb-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg shadow-md">
+                            <i class="fa-solid fa-chart-simple text-white text-lg"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1">
+                                <span v-if="isAggregateReport">Research Topic</span>
+                                <span v-else>Research Question</span>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-100 leading-tight">
+                                &quot;{{ $root.report_question }}&quot;
+                            </h3>
+                        </div>
+                    </div>
+                    
+                    <div class="pl-13 space-y-3">
+                        <div v-if="isAggregateReport" class="text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+                            <p class="mb-2">
+                                This report combines insights from <strong class="text-indigo-600 dark:text-indigo-400">{{ $root.totalCounts.bots * $root.questionsData.totalQuestions }}</strong> responses by <strong class="text-indigo-600 dark:text-indigo-400">{{ $root.totalCounts.bots }}</strong> AI models: <span class="inline-flex items-center gap-1 has-data-hint" v-html="$root.getIconsOfAllBotsInReportHtml()"></span>.
+                            </p>
+                            <p class="flex items-start gap-2">
+                                <span>Each AI model answered</span>
+                                <strong class="text-indigo-600 dark:text-indigo-400">{{ $root.questionsData.totalQuestions }}</strong>
+                                <span>questions below</span>                            
+                            </p>
+                            <p class="mt-2 text-xs text-gray-600 dark:text-gray-400 italic">
+                                <i class="fa-solid fa-info-circle mr-1"></i>
+                                Explore report for specific questions by clicking on any question title below
+                            </p>
+                        </div>
+                        
+                        <div v-else class="space-y-3">
+                            <p class="text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+                                This report analyzes how <strong class="text-indigo-600 dark:text-indigo-400">{{ $root.totalCounts.bots }}</strong> AI models <span class="inline-flex items-center gap-1 has-data-hint" v-html="$root.getIconsOfAllBotsInReportHtml()"></span> answered the specific question above.
+                            </p>
+                            <a href="../index.html" 
+                               class="flex items-center gap-3 px-5 py-3 bg-gradient-to-r from-indigo-500 to-blue-500 dark:from-indigo-600 dark:to-blue-700 hover:from-indigo-600 hover:to-blue-600 dark:hover:from-indigo-700 dark:hover:to-blue-800 !text-white text-sm font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-200 group no-underline">
+                                <i class="fa-solid fa-chart-line text-white group-hover:scale-110 transition-transform flex-shrink-0"></i>
+                                <div class="flex-1 flex flex-col gap-1">
+                                    <span class="text-white font-medium">Recommended: Switch to the Full Aggregated Report for this topic</span>
+                                    <span class="text-white/80 text-xs">(based on insights from the full set of questions and answers)</span>
+                                </div>
+                                <i class="fa-solid fa-arrow-right text-white group-hover:translate-x-1 transition-transform flex-shrink-0"></i>
                             </a>
                         </div>
                     </div>
-                </div>
-                <!-- Questions Section for Aggregate Reports -->
-                <div v-if="$root.report_type === 'aggregate' && $root.questionsData" class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="space-y-3">
-                        <div class="flex items-center justify-between">
-                            <div class="text-sm font-semibold text-gray-700 dark:text-gray-300 flex items-center gap-2">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                                Questions Analyzed ({{ questions_count }})
+                </div>            
+                <div class="mb-6">
+                    <template v-if="filteredQuestions.length > 0">                    
+                        <a v-for="(question, index) in (questionsExpanded ? filteredQuestions : filteredQuestions.slice(0, 3))"
+                           :key="question.id"
+                           :href="question.reportUrl"
+                           class="block p-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-indigo-300 dark:hover:border-indigo-600 hover:shadow-md transition-all group">
+                            <div class="flex items-start gap-3">
+                                <span class="flex-shrink-0 inline-flex items-center justify-center w-7 h-7 text-sm font-bold bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 rounded-full">
+                                    {{ index + 1 }}
+                                </span>
+                                <div class="flex-1 min-w-0">
+                                    <p class="text-sm font-medium text-gray-800 dark:text-gray-200 group-hover:text-indigo-700 dark:group-hover:text-indigo-300">
+                                            {{ question.text }}
+                                    </p>
+                                </div>
+                                <i class="fa-solid fa-arrow-right"></i>
                             </div>
-                            <button @click="questionsExpanded = !questionsExpanded"
-                                    class="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300">
-                                {{ questionsExpanded ? 'Hide' : 'Show' }} Questions
+                        </a>
+                        <div v-if="!questionsExpanded && filteredQuestions.length > 3" class="text-center pt-2">
+                            <button @click="questionsExpanded = true"
+                                    class="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium">
+                                + {{ filteredQuestions.length - 3 }} more questions
                             </button>
                         </div>
+                    </template>
+                </div>
+            </div>
 
-                        <div v-show="questionsExpanded" class="space-y-2">
-                            <input v-if="questions_count > 5"
-                                   v-model="questionSearch"
-                                   type="text"
-                                   placeholder="Search questions..."
-                                   class="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500">
-
-                            <div class="max-h-64 overflow-y-auto space-y-1">
-                                <a v-for="question in filteredQuestions"
-                                   :key="question.id"
-                                   :href="question.reportUrl"
-                                   class="block p-2 rounded bg-gray-50/50 dark:bg-gray-700/30 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors group">
-                                    <div class="flex items-start gap-3">
-                                        <span class="flex-shrink-0 inline-flex items-center justify-center w-7 h-7 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full group-hover:bg-blue-100 dark:group-hover:bg-blue-900 group-hover:text-blue-700 dark:group-hover:text-blue-300">
-                                            {{ question.number }}
-                                        </span>
-                                        <div class="flex-1 min-w-0">
-                                            <p class="text-sm text-gray-700 dark:text-gray-300 group-hover:text-blue-700 dark:group-hover:text-blue-300 truncate">
-                                                {{ question.text }}
-                                            </p>
-                                            <p class="text-xs text-gray-500 dark:text-gray-400">
-                                                {{ question.answerCount }} answers
-                                            </p>
-                                        </div>
-                                        <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-blue-600 dark:group-hover:text-blue-400 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                                        </svg>
-                                    </div>
-                                </a>
-                            </div>
+            <!-- Mentions Detected -->
+            <div class="mb-6 p-4">
+                <div class="flex items-center gap-2 mb-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-100">Mentions Detected In Responses From AI Models 
+                        <span class="inline-flex items-center gap-1 ml-2" v-html="$root.getIconsOfAllBotsInReportHtml()"></span>
+                    </h3>
+                </div>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                    From analyzing all AI responses, we automatically identified and ranked mentions of:
+                </p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                    <div v-if="$root.totalCounts.products > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-box"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.products }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Products</div>
+                        </div>
+                    </div>
+                    <div v-if="$root.totalCounts.organizations > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-building"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.organizations }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Organizations</div>
+                        </div>
+                    </div>
+                    <div v-if="$root.totalCounts.persons > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-user"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.persons }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Persons</div>
+                        </div>
+                    </div>
+                    <div v-if="$root.totalCounts.places > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-location-dot"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.places }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Places</div>
+                        </div>
+                    </div>
+                    <div v-if="$root.totalCounts.events > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-calendar"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.events }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Events</div>
+                        </div>
+                    </div>
+                    <div v-if="$root.totalCounts.keywords > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-hashtag"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.keywords }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Keywords</div>
+                        </div>
+                    </div>
+                    <div v-if="$root.totalCounts.links > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-link"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.links }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Links</div>
+                        </div>
+                    </div>
+                    <div v-if="$root.totalCounts.linkDomains > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-globe"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.linkDomains }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Link Domains</div>
+                        </div>
+                    </div>                    
+                    <div v-if="$root.totalCounts.linkTypes > 0" class="flex items-center gap-2 text-sm">
+                        <span class="text-xl"><i class="fa-solid fa-sitemap"></i></span>
+                        <div>
+                            <div class="font-bold text-gray-800 dark:text-gray-100">{{ $root.totalCounts.linkTypes }}</div>
+                            <div class="text-xs text-gray-600 dark:text-gray-400">Link Types</div>
                         </div>
                     </div>
                 </div>
+                <p class="text-xs text-gray-500 dark:text-gray-400 mt-4 italic">
+                    All entities are ranked by influence, mention frequency, and trends in the sections below.
+                </p>
             </div>
       </div>
-
-      <!-- AI Models Section -->
-      <div class="border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-lg mb-6">
-            <button @click="modelsExpanded = !modelsExpanded"
-                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors flex items-center justify-between">
-                <div class="flex items-center gap-2">
-                    <svg class="w-5 h-5 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                    <span class="font-semibold text-gray-700 dark:text-gray-200">AI Models Used ({{ $root.bots.length }})</span>
-                </div>
-                <svg class="w-5 h-5 text-gray-400 dark:text-gray-500 transition-transform" :class="modelsExpanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-            </button>
-
-            <div v-show="modelsExpanded" class="p-4">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    <div v-for="bot in $root.bots" :key="bot.id"
-                         class="flex items-center gap-3 p-2 rounded hover:bg-gray-50 dark:hover:bg-gray-700">
-                        <img v-if="bot.url"
-                             :src="'https://www.google.com/s2/favicons?domain=' + extractDomain(bot.url) + '&sz=16'"
-                             class="w-5 h-5 flex-shrink-0"
-                             :alt="bot.name">
-                        <div class="min-w-0 flex-1">
-                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 truncate">{{ bot.name }}</div>
-                            <div class="text-xs text-gray-500 dark:text-gray-400">
-                                <template v-if="bot.estimated_mau">
-                                    {{ formatUsers(bot.estimated_mau) }} users
-                                </template>
-                                <template v-if="bot.tags">
-                                    <span class="ml-2">{{ bot.tags }}</span>
-                                </template>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-      </div>
-
-      <!-- Data Coverage Section -->
-      <div class="border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-lg">
-            <button @click="dataExpanded = !dataExpanded"
-                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors flex items-center justify-between">
-                <div class="flex items-center gap-2">
-                    <svg class="w-5 h-5 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v1a1 1 0 001 1h4a1 1 0 001-1v-1m3-2V8a2 2 0 00-2-2H8a2 2 0 00-2 2v6m0 0a2 2 0 002 2h8a2 2 0 002-2m-6-6v6" />
-                    </svg>
-                    <span class="font-semibold text-gray-700 dark:text-gray-200">Data Coverage Details</span>
-                </div>
-                <svg class="w-5 h-5 text-gray-400 dark:text-gray-500 transition-transform" :class="dataExpanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-            </button>
-
-            <div v-show="dataExpanded" class="p-4">
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div v-if="$root.totalCounts.products > 0">
-                        <div class="text-xs text-gray-500 dark:text-gray-400 uppercase">Products</div>
-                        <div class="text-xl font-semibold text-gray-700 dark:text-gray-300">{{ $root.totalCounts.products }}</div>
-                    </div>
-                    <div v-if="$root.totalCounts.organizations > 0">
-                        <div class="text-xs text-gray-500 dark:text-gray-400 uppercase">Organizations</div>
-                        <div class="text-xl font-semibold text-gray-700 dark:text-gray-300">{{ $root.totalCounts.organizations }}</div>
-                    </div>
-                    <div v-if="$root.totalCounts.persons > 0">
-                        <div class="text-xs text-gray-500 dark:text-gray-400 uppercase"> Persons</div>
-                        <div class="text-xl font-semibold text-gray-700 dark:text-gray-300">{{ $root.totalCounts.persons }}</div>
-                    </div>
-                    <div v-if="$root.totalCounts.places > 0">
-                        <div class="text-xs text-gray-500 dark:text-gray-400 uppercase">Places</div>
-                        <div class="text-xl font-semibold text-gray-700 dark:text-gray-300">{{ $root.totalCounts.places }}</div>
-                    </div>
-                    <div v-if="$root.totalCounts.events > 0">
-                        <div class="text-xs text-gray-500 dark:text-gray-400 uppercase">Events</div>
-                        <div class="text-xl font-semibold text-gray-700 dark:text-gray-300">{{ $root.totalCounts.events }}</div>
-                    </div>
-                    <div v-if="$root.totalCounts.keywords > 0">
-                        <div class="text-xs text-gray-500 dark:text-gray-400 uppercase">Keywords</div>
-                        <div class="text-xl font-semibold text-gray-700 dark:text-gray-300">{{ $root.totalCounts.keywords }}</div>
-                    </div>
-                    <div v-if="$root.totalCounts.links > 0">
-                        <div class="text-xs text-gray-500 dark:text-gray-400 uppercase">Links</div>
-                        <div class="text-xl font-semibold text-gray-700 dark:text-gray-300">{{ $root.totalCounts.links }}</div>
-                    </div>
-                    <div v-if="$root.totalCounts.linkTypes > 0">
-                        <div class="text-xs text-gray-500 dark:text-gray-400 uppercase">Link Types</div>
-                        <div class="text-xl font-semibold text-gray-700 dark:text-gray-300">{{ $root.totalCounts.linkTypes }}</div>
-                    </div>
-                </div>
-
-                <div class="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span>Time saved calculated as 5 minutes per data point analyzed</span>
-                    </div>
-                </div>
-            </div>
       </div>
     </base-section-component>
 `,
@@ -1457,37 +1504,23 @@ Vue.component('about-report', {
         }
     },
     computed: {
-        groupedOptions() {
-            const groups = {};
-            this.obj.options.forEach(option => {
-                const pathParts = option.path.split('/');
-                const groupName = pathParts[0];
-                if (!groups[groupName]) {
-                    groups[groupName] = [];
-                }
-                groups[groupName].push(option);
-            });
-            return groups;
+        isAggregateReport() {
+            return this.$root.report_type === 'aggregate';
         },
-        groupedOptionsWithCounts() {
-            const groups = this.groupedOptions;
-            const result = {};
-
-            Object.entries(groups).forEach(([groupName, items]) => {
-                // Convert groupName to lowercase and remove 's' at the end for matching with totalCounts
-                const countKey = groups[groupName][0]?.sourceArrayName;
-                const count = (countKey === undefined || !countKey) ? '' : ` (${this.$root.totalCounts?.[countKey]})`;
-                result[`${groupName}${count}`] = items;
-            });
-
-            return result;
+        isSingleQuestionReport() {
+            return this.$root.report_type !== 'aggregate';
         },
-        mainSections() {
-            const mainSections = {};
-            Object.entries(this.groupedOptionsWithCounts).forEach(([groupName, items]) => {
-                mainSections[groupName] = [items[0]];
-            });
-            return mainSections;
+        totalMonthlyReach() {
+            return this.$root.bots.reduce((sum, bot) => {
+                return sum + (bot.estimated_mau || 0);
+            }, 0);
+        },
+        formattedReach() {
+            const count = this.totalMonthlyReach;
+            if (count >= 1000000000) return (count / 1000000000).toFixed(1) + ' billion';
+            if (count >= 1000000) return (count / 1000000).toFixed(0) + ' million';
+            if (count >= 1000) return (count / 1000).toFixed(0) + ' thousand';
+            return count.toLocaleString();
         },
         questions_count() {
             return this.$root.questionsData?.totalQuestions || 0;
@@ -1981,10 +2014,17 @@ Vue.component('table-with-items', {
                     </tbody>
                 </table>
             </div>
-            <button :id="'button_expand_' + obj.id"
-                class="mt-3 w-full px-4 py-2 bg-secondary text-white rounded text-sm hover:bg-blue-600 dark:hover:bg-blue-500">
-                Show More
-            </button>
+            <div class="mt-3 flex justify-center items-center gap-2">
+                <button :id="'button_expand_' + obj.id"
+                    class="px-4 py-2 bg-secondary text-white rounded text-sm hover:bg-blue-600 dark:hover:bg-blue-500">
+                    Show More
+                </button>
+                <button v-show="$parent[obj.id]" :id="'button_expand_all_' + obj.id"
+                    @click="$parent.expand_table(obj, null)"
+                    class="px-4 py-2 bg-secondary text-white rounded text-sm hover:bg-blue-600 dark:hover:bg-blue-500">
+                    Show All
+                </button>
+            </div>
         </base-section-component>
     `,
     mounted() {
@@ -2206,12 +2246,19 @@ Vue.component('tabbed-table-graph', {
                         </tbody>
                     </table>
                 </div>
-                <button v-if="$parent['filtered_' + obj.tableConfig.id] && $parent['current_visible_items_count_' + obj.tableConfig.id] > -1"
-                    :id="'button_expand_' + obj.tableConfig.id"
-                    @click="$parent['button_expand_' + obj.tableConfig.id]()"
-                    class="w-full p-3 text-center text-blue-600 dark:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700 transition duration-300 border-t">
-                    Show More
-                </button>
+                <div v-if="$parent['filtered_' + obj.tableConfig.id] && $parent['current_visible_items_count_' + obj.tableConfig.id] > -1"
+                    class="flex justify-center items-center gap-2 border-t p-3">
+                    <button :id="'button_expand_' + obj.tableConfig.id"
+                        @click="$parent['button_expand_' + obj.tableConfig.id]()"
+                        class="px-4 py-2 text-blue-600 dark:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700 transition duration-300 rounded">
+                        Show More
+                    </button>
+                    <button v-show="$parent[obj.tableConfig.id]" :id="'button_expand_all_' + obj.tableConfig.id"
+                        @click="$parent['button_expand_' + obj.tableConfig.id](null)"
+                        class="px-4 py-2 text-blue-600 dark:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700 transition duration-300 rounded">
+                        Show All
+                    </button>
+                </div>
             </div>
             
             <div v-show="activeTab === 'graph'">
@@ -3025,19 +3072,16 @@ Vue.component('brand-selector', {
     extends: baseProps,
     template: `
     <div class="brand-selector mb-6">
-        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-            You may select 1 or more important items to highlight everywhere:
-        </label>
         <div class="relative">
             <!-- Search Input -->
             <div class="relative">
                 <input 
-                    v-model="$root.brandSearchQuery"
+                    v-model="$root.itemSearchQuery"
                     @focus="$root.showBrandDropdown = true"
                     @input="onSearchInput"
                     @keydown="handleKeydown"
                     type="text"
-                    placeholder="Type to search brands..."
+                    placeholder="Type to search and select items..."
                     class="w-full px-4 py-2 pr-10 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 >
                 <button 
@@ -3051,18 +3095,15 @@ Vue.component('brand-selector', {
             </div>
             
             <!-- Selected Brands Pills -->
-            <div v-if="$root.selectesItems.length > 0" class="mt-2 flex flex-wrap gap-2">
+            <div v-if="$root.selectedItems.length > 0" class="mt-2 flex flex-wrap gap-2">
                 <div 
-                    v-for="(brand, index) in $root.selectesItems" 
+                    v-for="(brand, index) in $root.selectedItems" 
                     :key="\`selected-\${brand.entityType}-\${brand.value}\`"
                     :class="[
                         'inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm',
-                        index === 0 
-                            ? 'bg-blue-600 dark:bg-blue-700 text-white' 
-                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
+                        'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
                     ]"
-                >
-                    <span v-if="index === 0" class="font-bold text-xs uppercase mr-1">Primary:</span>
+                >                
                     <span>{{ brand.value }}</span>
                     <button 
                         @click="removeBrand(index)"
@@ -3113,12 +3154,15 @@ Vue.component('brand-selector', {
         </div>
         
         <!-- Comparison Mode Indicator -->
-        <p v-if="$root.selectesItems.length > 1" class="mt-2 text-sm text-blue-600 dark:text-blue-400">
+        <!--
+        <p v-if="$root.selectedItems.length > 1" class="mt-2 text-sm text-blue-600 dark:text-blue-400">
+
             <svg class="inline w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
             </svg>
-            Important items mode active • Highlighting {{ $root.selectesItems.length }} items
+            Important items mode active • Highlighting {{ $root.selectedItems.length }} items
         </p>
+        -->
     </div>
     `,
     data() {
@@ -3128,7 +3172,7 @@ Vue.component('brand-selector', {
     },
     computed: {
         filteredEntities() {
-            const query = this.$root.brandSearchQuery.toLowerCase();
+            const query = this.$root.itemSearchQuery.toLowerCase();
             if (!query) {
                 return this.$root.getAllEntities.slice(0, 50); // Show top 50 when no search
             }
@@ -3152,7 +3196,7 @@ Vue.component('brand-selector', {
     methods: {
         initializeSelection() {
             // Skip initialization if brands are already selected (e.g., from parent component)
-            if (this.$root.selectesItems.length > 0) {
+            if (this.$root.selectedItems.length > 0) {
                 return;
             }
 
@@ -3165,7 +3209,7 @@ Vue.component('brand-selector', {
                         const entityValue = valueParts.join('-');
                         const entity = this.$root[entityType]?.find(item => item.value === entityValue);
                         if (entity && !this.isSelected(entity)) {
-                            this.$root.selectesItems.push({
+                            this.$root.selectedItems.push({
                                 ...entity,
                                 entityType: entityType
                             });
@@ -3209,35 +3253,35 @@ Vue.component('brand-selector', {
         },
         selectBrand(entity) {
             if (!this.isSelected(entity)) {
-                this.$root.selectesItems.push({
+                this.$root.selectedItems.push({
                     ...entity,
                     entityType: entity.entityType
                 });
                 this.saveBrandSelection();
             } else {
                 // Remove if already selected
-                const index = this.$root.selectesItems.findIndex(b =>
+                const index = this.$root.selectedItems.findIndex(b =>
                     b.entityType === entity.entityType && b.value === entity.value
                 );
                 if (index > -1) {
-                    this.$root.selectesItems.splice(index, 1);
+                    this.$root.selectedItems.splice(index, 1);
                     this.saveBrandSelection();
                 }
             }
-            this.$root.brandSearchQuery = '';
+            this.$root.itemSearchQuery = '';
             this.highlightedIndex = -1;
         },
         removeBrand(index) {
-            this.$root.selectesItems.splice(index, 1);
+            this.$root.selectedItems.splice(index, 1);
             this.saveBrandSelection();
         },
         isSelected(entity) {
-            return this.$root.selectesItems.some(b =>
+            return this.$root.selectedItems.some(b =>
                 b.entityType === entity.entityType && b.value === entity.value
             );
         },
         saveBrandSelection() {
-            const brandIds = this.$root.selectesItems.map(b => `${b.entityType}-${b.value}`);
+            const brandIds = this.$root.selectedItems.map(b => `${b.entityType}-${b.value}`);
             localStorage.setItem('selectedBrandIds', JSON.stringify(brandIds));
         },
         handleClickOutside(event) {
@@ -3249,21 +3293,64 @@ Vue.component('brand-selector', {
 });
 
 
-Vue.component('item-comparison-dashboard', {
-    name: 'item-comparison-dashboard',
+Vue.component('top-influencers', {
+    name: 'top-influencers',
     extends: baseProps,
     data() {
         return {
-            sortColumn: null,
+            // sort by mentions by default
+            sortColumn: 'mentions',
             sortDirection: 'desc' // 'asc' or 'desc'
         };
     },
+    mounted() {
+        // Auto-populate with top influencers on load if no selected
+        if (this.$root.selectedItems.length === 0 && this.topInfluencers.length > 0) {
+            // push top influencers to selectedItems to select by default
+            this.topInfluencers.forEach(item => {
+                this.$root.selectedItems.push(item);
+            });
+        }
+    },
     computed: {
         showComparison() {
-            return this.$root.selectesItems.length > 1;
+            // Show if manually selected 2+ items OR if we have auto-populated top influencers
+            return this.$root.selectedItems.length >= 1 || (this.$root.selectedItems.length === 0 && this.topInfluencers.length > 0);
+        },
+        topInfluencers() {
+            // Get top influencers from each entity category
+            const topItems = [];
+
+            ENTITES_ALL.forEach(entityType => {
+                const items = this.$root[entityType];
+                if (items && Array.isArray(items) && items.length > 0) {
+                    // Sort by influence and take top N
+                    const sortedItems = [...items]
+                        .filter(item => item.influence > 0) // Only items with influence
+                        .sort((a, b) => (b.influence || 0) - (a.influence || 0))
+                        .slice(0, TOP_INFLUENCERS_COUNT_PER_SECTION);
+
+                    // Add entityType to each item for proper navigation
+                    sortedItems.forEach(item => {
+                        topItems.push({
+                            ...item,
+                            entityType: entityType.replace(/s$/, '') // Singular form
+                        });
+                    });
+                }
+            });
+
+            // Sort all top items by influence and limit to 7 total
+            return topItems
+                .sort((a, b) => (b.influence || 0) - (a.influence || 0))
+                .slice(0, 7);
         },
         comparisonBrands() {
-            return this.$root.selectesItems.slice(0, 5); // Limit to 5 brands for comparison
+            // If no manual selection, show top influencers
+            if (this.$root.selectedItems.length === 0) {
+                return this.topInfluencers;
+            }
+            return this.$root.selectedItems; // Limit to 5 brands for comparison
         },
 
         comparisonMetrics() {
@@ -3285,8 +3372,11 @@ Vue.component('item-comparison-dashboard', {
                 }
                 // If it's already > 1, it's already a percentage
 
+                const val = brand.value || brand.link;
+
                 return {
-                    name: brand.value,
+                    id: `${brand.entityType}-${val}`.replace(/s$/, '_'),
+                    value: val,
                     type: brand.entityType,
                     mentions: brand.mentions || 0,
                     influence: influenceValue,
@@ -3320,7 +3410,7 @@ Vue.component('item-comparison-dashboard', {
                 let bVal = b[this.sortColumn];
 
                 // Handle special cases
-                if (this.sortColumn === 'name' || this.sortColumn === 'type') {
+                if (this.sortColumn === 'value' || this.sortColumn === 'type') {
                     aVal = aVal.toLowerCase();
                     bVal = bVal.toLowerCase();
                 }
@@ -3366,10 +3456,7 @@ Vue.component('item-comparison-dashboard', {
             return change >= 0 ? 'text-green-600' : 'text-red-600';
         },
         scrollToEntitySection(entityType) {
-            const sectionId = getEntityTableSectionId(entityType);
-            if (sectionId && typeof scrollToSection === 'function') {
-                scrollToSection(sectionId);
-            }
+            this.$root.scrollToElement(getEntityTableSectionId(entityType));
         },
         sortBy(column) {
             if (this.sortColumn === column) {
@@ -3393,43 +3480,43 @@ Vue.component('item-comparison-dashboard', {
         }
     },
     template: `
-    <base-section-component :obj="obj">
-        <div class="item-comparison-dashboard">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800 dark:text-white">Compare Items</h2>
-            
-            <!-- Brand Selector -->
+    <base-section-component :obj="obj" :section-title="'Top Influencers'">
+        <div class="top-influencers">
             <brand-selector :obj="obj"></brand-selector>
-            
-            <!-- Help Message when no brands selected -->
-            <div v-if="$root.selectesItems.length === 0" class="mb-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+
+            <!-- Top Influencers Info when auto-populated -->
+            <div v-if="$root.selectedItems.length === 0 && topInfluencers.length > 0" class="mb-6 p-4 bg-purple-50 dark:bg-purple-900/20 border border-purple-200 dark:border-purple-800 rounded-lg">
+                <div class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-purple-600 dark:text-purple-400 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <div>
+                        <p class="text-sm text-purple-800 dark:text-purple-200 font-medium">Showing top performers across all categories</p>
+                        <p class="text-sm text-purple-600 dark:text-purple-300 mt-1">These are the highest-influence items from each section. Click any item to jump to its section, or select specific items above to compare them side by side.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Help Message when no data available -->
+            <div v-if="$root.selectedItems.length === 0 && topInfluencers.length === 0" class="mb-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
                 <div class="flex items-start gap-3">
                     <svg class="w-5 h-5 text-blue-600 dark:text-blue-400 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
                     <div>
                         <p class="text-sm text-blue-800 dark:text-blue-200 font-medium">Select items to analyze and compare</p>
-                        <p class="text-sm text-blue-600 dark:text-blue-300 mt-1">Choose one primary item and up to 4 additional items to compare side by side.</p>
+                        <p class="text-sm text-blue-600 dark:text-blue-300 mt-1">Choose one item to compare with top influencers.</p>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Comparison Status -->
-            <div v-if="$root.selectesItems.length === 1" class="mb-4 p-3 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg">
-                <div class="flex items-center gap-2 text-amber-700 dark:text-amber-300">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-                    </svg>
-                    <span class="font-medium">Select 2+ items to enable comparison</span>
-                </div>
-            </div>            
+            </div>             
             
             <!-- Comparison Table -->
             <div v-if="showComparison" class="overflow-x-auto">
                 <table class="w-full report-table">
                     <thead>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th @click="sortBy('name')" class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800">
-                                Brand{{ getSortIndicator('name') }}
+                            <th @click="sortBy('value')" class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800">
+                                Item{{ getSortIndicator('value') }}
                             </th>
                             <th @click="sortBy('type')" class="text-center py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800">
                                 Type{{ getSortIndicator('type') }}
@@ -3455,22 +3542,25 @@ Vue.component('item-comparison-dashboard', {
                     </thead>
                     <tbody>
                         <tr v-for="(metric, index) in sortedComparisonMetrics" 
-                            :key="metric.name"
+                            :key="metric.id"
                             :class="[
                                 'border-b border-gray-200 dark:border-gray-700',
-                                comparisonBrands[0] && metric.name === comparisonBrands[0].value ? 'bg-blue-50 dark:bg-blue-900/20' : ''
+                                comparisonBrands[0] && metric.value === comparisonBrands[0].value ? 'bg-blue-50 dark:bg-blue-900/20' : ''
                             ]"
                         >
                             <td class="py-3 px-4 font-medium text-gray-900 dark:text-white">
                                 <span 
-                                    :class="['comparison-term-clickable', $root.getHighlightClass(metric.name)]"
+                                    :class="['comparison-term-clickable', $root.getHighlightClass(metric.id)]"
                                     @click="scrollToEntitySection(metric.type)"
                                     :title="'Click to scroll to ' + metric.type + ' section'"
-                                >{{ metric.name }}</span>
-                                <span v-if="comparisonBrands[0] && metric.name === comparisonBrands[0].value" class="text-xs text-blue-600 dark:text-blue-400 ml-2">(Primary)</span>
+                                >{{ metric.value }}</span>                                
                             </td>
                             <td class="text-center py-3 px-4 text-sm text-gray-600 dark:text-gray-400 capitalize">
-                                {{ metric.type }}
+                                <span 
+                                    :class="['comparison-term-clickable', $root.getHighlightClass(metric.id)]"
+                                    @click="scrollToEntitySection(metric.type)"
+                                    :title="'Click to scroll to ' + metric.type + ' section'"
+                                >{{ metric.type }}</span>
                             </td>
                             <td class="text-center py-3 px-4">
                                 <div class="relative">
@@ -3585,23 +3675,31 @@ Vue.component('item-comparison-dashboard', {
                 <div class="bg-gray-50 dark:bg-gray-900 rounded-lg p-4">
                     <h4 class="text-lg font-semibold mb-4 text-gray-800 dark:text-white">Mention Volume</h4>
                     <div class="space-y-3">
-                        <div v-for="(metric, index) in mentionsSortedMetrics" :key="'mentions-' + metric.name" class="flex items-center">
-                            <div class="w-32 text-sm text-gray-600 dark:text-gray-400 truncate" :title="metric.name">
+                        <div v-for="(metric, index) in mentionsSortedMetrics" :key="'mentions-' + metric.id" class="flex items-center">
+                            <div class="w-32 text-sm text-gray-600 dark:text-gray-400 truncate" :title="metric.value">
                                 <span 
-                                    :class="['comparison-term-clickable', $root.getHighlightClass(metric.name)]"
+                                    :class="['comparison-term-clickable']"
                                     @click="scrollToEntitySection(metric.type)"
                                     :title="'Click to scroll to ' + metric.type + ' section'"
-                                >{{ metric.name }}</span>
-                                <span v-if="comparisonBrands[0] && metric.name === comparisonBrands[0].value" class="text-xs text-blue-600 dark:text-blue-400 ml-1">(Primary)</span>
+                                >{{ metric.value }}</span>
                             </div>
-                            <div class="flex-1 ml-3">
-                                <div class="bg-gray-200 dark:bg-gray-700 rounded-full h-6 relative">
-                                    <div :class="comparisonBrands[0] && metric.name === comparisonBrands[0].value ? 'bg-blue-600 dark:bg-blue-500' : 'bg-gray-500 dark:bg-gray-400'" 
-                                        class="h-6 rounded-full flex items-center justify-end pr-2" 
+                            <div class="flex-1 ml-3 relative">
+                                <div class="bg-gray-200 dark:bg-gray-700 rounded-full h-6">
+                                    <div :class="'bg-gray-500 dark:bg-gray-400'"
+                                        class="h-6 rounded-full"
                                         :style="\`width: \${(metric.mentions / maxMentions) * 100}%\`">
-                                        <span class="text-xs text-white font-medium">{{ metric.mentions }}</span>
                                     </div>
                                 </div>
+                                <!-- Number positioned absolutely based on bar width -->
+                                <span
+                                    :class="[
+                                        'text-xs font-medium absolute top-0 h-6 flex items-center',
+                                        'text-white'                                        
+                                    ]"
+                                    :style="'right: 0.5rem'"
+                                >
+                                    {{ metric.mentions }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -3612,23 +3710,33 @@ Vue.component('item-comparison-dashboard', {
                 <div class="bg-gray-50 dark:bg-gray-900 rounded-lg p-4">
                     <h4 class="text-lg font-semibold mb-4 text-gray-800 dark:text-white">Influence Score</h4>
                     <div class="space-y-3">
-                        <div v-for="(metric, index) in influenceSortedMetrics" :key="'influence-' + metric.name" class="flex items-center">
-                            <div class="w-32 text-sm text-gray-600 dark:text-gray-400 truncate" :title="metric.name">
+                        <div v-for="(metric, index) in influenceSortedMetrics" :key="'influence-' + metric.id" class="flex items-center">
+                            <div class="w-32 text-sm text-gray-600 dark:text-gray-400 truncate" :title="metric.value">
                                 <span 
-                                    :class="['comparison-term-clickable', $root.getHighlightClass(metric.name)]"
+                                    :class="['comparison-term-clickable']"
                                     @click="scrollToEntitySection(metric.type)"
                                     :title="'Click to scroll to ' + metric.type + ' section'"
-                                >{{ metric.name }}</span>
-                                <span v-if="comparisonBrands[0] && metric.name === comparisonBrands[0].value" class="text-xs text-blue-600 dark:text-blue-400 ml-1">(Primary)</span>
+                                >{{ metric.value }}</span>
                             </div>
-                            <div class="flex-1 ml-3">
-                                <div class="bg-gray-200 dark:bg-gray-700 rounded-full h-6 relative">
-                                    <div :class="comparisonBrands[0] && metric.name === comparisonBrands[0].value ? 'bg-blue-600 dark:bg-blue-500' : 'bg-purple-500 dark:bg-purple-400'" 
-                                        class="h-6 rounded-full flex items-center justify-end pr-2" 
+                            <div class="flex-1 ml-3 relative">
+                                <div class="bg-gray-200 dark:bg-gray-700 rounded-full h-6">
+                                    <div :class="'bg-purple-500 dark:bg-purple-400'"
+                                        class="h-6 rounded-full"
                                         :style="\`width: \${(metric.influence / maxInfluence) * 100}%\`">
-                                        <span class="text-xs text-white font-medium">{{ metric.influence.toFixed(1) }}%</span>
                                     </div>
                                 </div>
+                                <!-- Number positioned absolutely based on bar width -->
+                                <span
+                                    :class="[
+                                        'text-xs font-medium absolute top-0 h-6 flex items-center',
+                                        (metric.influence / maxInfluence) >= 0.15
+                                            ? 'text-white'
+                                            : 'text-gray-700 dark:text-gray-300 left-full ml-2'
+                                    ]"
+                                    :style="(metric.influence / maxInfluence) >= 0.15 ? \`right: 0.5rem\` : \`\`"
+                                >
+                                    {{ metric.influence.toFixed(1) }}%
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -3646,11 +3754,11 @@ Vue.component('competitive-analysis', {
     extends: baseProps,
     computed: {
         topCompetitors() {
-            if (!this.$root.selectesItems.length) {
+            if (!this.$root.selectedItems.length) {
                 return [];
             }
 
-            const brand = this.$root.selectesItems[0];
+            const brand = this.$root.selectedItems[0];
             const brandType = brand.entityType;
 
             // Get entities from the same category as the selected brand
@@ -3680,9 +3788,9 @@ Vue.component('competitive-analysis', {
             });
         },
         brandMetrics() {
-            if (!this.$root.selectesItems.length) {
+            if (!this.$root.selectedItems.length) {
                 return {
-                    name: 'Select a brand',
+                    name: 'Select an item',
                     mentions: 0,
                     influence: 0,
                     trend: 0,
@@ -3690,7 +3798,7 @@ Vue.component('competitive-analysis', {
                 };
             }
 
-            const brand = this.$root.selectesItems[0];
+            const brand = this.$root.selectedItems[0];
 
             // Handle influence value - check if it's already a percentage (>1) or decimal (0-1)
             let influenceValue = brand.influence || 0;
@@ -3723,7 +3831,7 @@ Vue.component('competitive-analysis', {
                 } else {
                     insights.push({
                         type: 'warning',
-                        text: `${leadingCompetitor.name} leads with ${leadingCompetitor.influence.toFixed(1)}% influence`
+                        text: `${leadingCompetitor.value} leads with ${leadingCompetitor.influence.toFixed(1)}% influence`
                     });
                 }
             }
@@ -3778,7 +3886,7 @@ Vue.component('competitive-analysis', {
                             <!-- Brand Row (highlighted) -->
                             <tr class="bg-blue-50 dark:bg-blue-900/20 border-b border-gray-200 dark:border-gray-700">
                                 <td class="py-3 px-4 font-medium text-gray-900 dark:text-white">
-                                    <span :class="$root.getHighlightClass(brandMetrics.name)">{{ brandMetrics.name }}</span> <span class="text-xs text-blue-600 dark:text-blue-400">(You)</span>
+                                    <span :class="$root.getHighlightClass(brandMetrics.value)">{{ brandMetrics.value }}</span> <span class="text-xs text-blue-600 dark:text-blue-400">(You)</span>
                                 </td>
                                 <td class="text-center py-3 px-4 font-medium">{{ brandMetrics.mentions }}</td>
                                 <td class="text-center py-3 px-4">
@@ -3802,13 +3910,13 @@ Vue.component('competitive-analysis', {
                             </tr>
                             
                             <!-- Competitor Rows -->
-                            <tr v-for="(comp, index) in topCompetitors" :key="comp.name" 
+                            <tr v-for="(comp, index) in topCompetitors" :key="comp.id" 
                                 class="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700">
                                 <td class="py-3 px-4 text-gray-900 dark:text-white">
                                     <a v-if="comp.link" :href="comp.link" target="_blank" class="hover:underline">
-                                        <span :class="$root.getHighlightClass(comp.name)">{{ comp.name }}</span>
+                                        <span :class="$root.getHighlightClass(comp.value)">{{ comp.value }}</span>
                                     </a>
-                                    <span v-else :class="$root.getHighlightClass(comp.name)">{{ comp.name }}</span>
+                                    <span v-else :class="$root.getHighlightClass(comp.value)">{{ comp.value }}</span>
                                 </td>
                                 <td class="text-center py-3 px-4">{{ comp.mentions }}</td>
                                 <td class="text-center py-3 px-4">
@@ -3916,6 +4024,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 ...acc,
                 [`simulation_${obj.id}`]: null
             }), {});
+
+            // track which tables have been expanded at least once (to show "Show All" button)
+            const create_expandedOnce_variables = {
+                ...get_DEFAULT_VISUAL_OBJECTS_ARRAY().filter(obj => obj.type === 'table-with-items').reduce((acc, obj) => ({
+                    ...acc,
+                    [obj.id]: false
+                }), {}),
+                ...get_DEFAULT_VISUAL_OBJECTS_ARRAY().filter(obj => obj.type === 'tabbed-table-graph' && obj.tableConfig).reduce((acc, obj) => ({
+                    ...acc,
+                    [obj.tableConfig.id]: false
+                }), {})
+            };
 
             return {
 
@@ -4054,6 +4174,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 // for showing more buttons in tables
                 // max visible items in tables
                 ...create_current_visible_items_count_variables,
+                // track which tables have been expanded at least once
+                ...create_expandedOnce_variables,
                 // for tables: creating variables for each array name
                 ...create_searchTerms_variables,
 
@@ -4081,8 +4203,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 selectedPromptFilter: 'all', // for filtering by prompt in aggregate view
 
                 // Dynamic brand selection
-                selectesItems: [], // Array of selected brand objects
-                brandSearchQuery: '', // Search query for brand selector
+                selectedItems: [], // Array of selected brand objects
+                itemSearchQuery: '', // Search query for brand selector
                 showBrandDropdown: false, // Control dropdown visibility
                 defaultBrand: null // Store the original brand from brand.md for reference
             }
@@ -4395,25 +4517,22 @@ document.addEventListener('DOMContentLoaded', function () {
                 const entities = [];
 
                 // Add entities from each main array
-                ENTITES_NON_COMPUTED.forEach(arrayName => {
+                ENTITES_ALL.forEach(arrayName => {
                     const items = this[arrayName] || [];
                     items.forEach(item => {
                         if (item.value) {
                             entities.push({
                                 ...item,
-                                entityType: arrayName,
-                                entityTypeLabel: arrayName.charAt(0).toUpperCase() + arrayName.slice(1).replace(/s$/, ''), // Remove plural
-                                display_name: `${item.value} (${arrayName.charAt(0).toUpperCase() + arrayName.slice(1).replace(/s$/, '')}) - ${item.mentions || 0} mentions`
+                                entityType: item.type,
+                                entityTypeLabel: item.type,
+                                display_name: `${item.value} (${item.type}) - ${item.mentions || 0} mentions`
                             });
                         }
                     });
                 });
 
                 // Sort by influence descending
-
                 return entities.sort((a, b) => (b.influence || 0) - (a.influence || 0));
-
-                return entities.sort((a, b) => (b.mentions || 0) - (a.mentions || 0));
             },
 
             getVisualScalingFactorForGraph() {
@@ -4704,6 +4823,26 @@ document.addEventListener('DOMContentLoaded', function () {
                 return `${months[date.getMonth()]} ${date.getDate()}`;
             },
 
+            getIconsOfAllBotsInReport() {
+                return this.bots.map(bot => {
+                    const botIconUrl = this.getModelIconUrl(bot.id);
+                    return {
+                        id: bot.id,
+                        iconUrl: botIconUrl,
+                        name: bot.name
+                    };
+                });
+            },
+
+            // Returns HTML string with icons of all AI models used in the report
+            getIconsOfAllBotsInReportHtml() {
+                return this.bots.map(bot => {
+                    const botIconUrl = this.getModelIconUrl(bot.id);
+                    const botName = bot.name || bot.id;
+                    return `<img src="${botIconUrl}" class="w-6 h-6 inline-block has-data-hint" data-title="${botName}" alt="${botName}" onerror="this.style.display='none'">`;
+                }).join(' ');
+            },
+
             renderVisualObjects() {
                 this.CURRENT_VISUAL_OBJECTS_ARRAY.forEach(obj => {
                     if (obj.type === 'table-with-items') {
@@ -4778,23 +4917,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 let cleaned = summary;
 
-                // 1. Remove broken HTML attributes (title="...", alt="...", data-*="...")
-                cleaned = cleaned.replace(/\s*(title|alt|data-[a-z-]+)="[^"]*">/g, '>');
-
-                // 2. Clean up orphaned closing tags from malformed HTML
-                cleaned = cleaned.replace(/"\s*>/g, '');
-
-                // 3. Replace model IDs with display names
+                // Replace model IDs with display names using simple string replacement
                 // Sort by length descending to replace longer IDs first (avoid partial replacements)
                 const sortedModelIds = Array.from(modelMap.keys()).sort((a, b) => b.length - a.length);
                 for (const modelId of sortedModelIds) {
                     const display_name = modelMap.get(modelId);
-                    // Use word boundaries to avoid partial replacements
+                    // Simple word boundary replacement - works for both text and HTML
                     const regex = new RegExp(`\\b${this.escapeRegExp(modelId)}\\b`, 'g');
                     cleaned = cleaned.replace(regex, display_name);
                 }
 
-                // 4. Clean up excessive whitespace while preserving intentional line breaks
+                // Clean up excessive whitespace while preserving intentional line breaks
                 cleaned = cleaned.replace(/[ \t]+/g, ' '); // Replace multiple spaces/tabs with single space
                 cleaned = cleaned.replace(/\n\s*\n\s*\n/g, '\n\n'); // Max 2 consecutive line breaks
                 cleaned = cleaned.trim();
@@ -4803,29 +4936,76 @@ document.addEventListener('DOMContentLoaded', function () {
             },
 
             // Process summary text to make entity mentions clickable
+            // Uses HTML-aware processing to avoid breaking HTML structure
             processTextForClickableEntities(text) {
                 if (!text) return text;
 
                 // Build searchable entity index from all data arrays
                 const entityIndex = this.buildEntityIndex();
 
-                // Process text to wrap entity mentions with clickable spans
-                let processedText = text;
+                if (Object.keys(entityIndex).length === 0) {
+                    return text; // No entities to process
+                }
+
+                // Use DOMParser to parse HTML properly
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+
+                // Check if parsing failed
+                if (!doc.body) {
+                    console.warn('Failed to parse HTML for entity processing');
+                    return text;
+                }
 
                 // Sort entities by length (longest first) to avoid partial replacements
                 const sortedEntities = Object.keys(entityIndex).sort((a, b) => b.length - a.length);
 
-                for (const entityKey of sortedEntities) {
-                    const entityInfo = entityIndex[entityKey];
-                    // Create regex for word boundary matching (case insensitive)
-                    const regex = new RegExp(`\\b(${this.escapeRegExp(entityInfo.originalValue)})\\b`, 'gi');
+                // Walk through text nodes only
+                const walk = (node) => {
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        let textContent = node.textContent;
+                        let modified = false;
 
-                    processedText = processedText.replace(regex, (match) => {
-                        return `<span class="clickable-entity clickable-entity-${entityInfo.type}" data-entity-type="${entityInfo.type}" data-entity-value="${entityInfo.value}" title="Click to view ${entityInfo.originalValue} in ${entityInfo.type} section">${match}</span>`;
-                    });
-                }
+                        // Try to replace each entity in this text node
+                        // Since entities are sorted longest-first, we use the first match and stop
+                        // to avoid matching shorter entities that are substrings
+                        for (const entityKey of sortedEntities) {
+                            const entityInfo = entityIndex[entityKey];
+                            const regex = new RegExp(`\\b(${this.escapeRegExp(entityInfo.originalValue)})\\b`, 'gi');
 
-                return processedText;
+                            if (regex.test(textContent)) {
+                                textContent = textContent.replace(regex, (match) => {
+                                    modified = true;
+                                    return `<span class="clickable-entity" data-entity-type="${entityInfo.type}" data-entity-value="${entityInfo.value}" title="Click to view ${entityInfo.originalValue} in ${entityInfo.type} section">${match}</span>`;
+                                });
+                                break; // Stop after first match to prevent overlapping replacements
+                            }
+                        }
+
+                        // If we modified the text, replace the text node with parsed HTML
+                        if (modified) {
+                            // Use DocumentFragment for cleaner insertion
+                            const fragment = document.createRange().createContextualFragment(textContent);
+                            node.parentNode.replaceChild(fragment, node);
+                        }
+                    } else if (node.nodeType === Node.ELEMENT_NODE) {
+                        // Skip certain elements where we don't want to make entities clickable
+                        const skipElements = ['CODE', 'PRE', 'SCRIPT', 'STYLE', 'A'];
+                        if (skipElements.includes(node.tagName)) {
+                            return; // Skip this element and its children
+                        }
+
+                        // Process child nodes
+                        // Convert to array to avoid issues with live NodeList during modifications
+                        Array.from(node.childNodes).forEach(child => walk(child));
+                    }
+                };
+
+                // Start walking from body
+                walk(doc.body);
+
+                // Return the processed HTML
+                return doc.body.innerHTML;
             },
 
             // Build searchable index of all entities across all data arrays
@@ -4860,8 +5040,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.debug('Navigating to entity:', entityType, entityValue);
 
                 // Map entity type to section ID using existing map
-                const pluralType = entityType === 'linkType' ? 'linkTypes' : entityType + 's';
-                const sectionId = getEntityTableSectionId(pluralType);
+                const sectionId = getEntityTableSectionId(entityType);
 
                 // First scroll to the section
                 this.scrollToElement(sectionId);
@@ -4904,7 +5083,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             },
 
-            showExcerptPopup(item) {
+            showExcerptPopup(item, highlightField = 'value') {
+                // Determine if value is a link?
+                const isLink = item[highlightField].toLowerCase().match(/http|www/);
+                const searchTerm = isLink ? this.cleanAndMinimizeUrl(item[highlightField].toLowerCase()) : item[highlightField];
+                if (!searchTerm || searchTerm.length === 0) {
+                    console.error(`No search term found for item ${highlightField}, item: ${JSON.stringify(item)}`);
+                    return;
+                }
+
                 // Create or update the excerpt popup
                 let popup = document.getElementById('excerpt-popup');
                 if (!popup) {
@@ -4956,7 +5143,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     .filter(([modelId, excerpts]) => {
                         if (!excerpts || excerpts.length === 0) return false;
                         // Check if at least one excerpt actually contains the search term
-                        const searchRegex = new RegExp(this.escapeRegExp(item.value || ''), 'gi');
+                        const searchRegex = new RegExp(this.escapeRegExp(searchTerm), 'gi');
                         return excerpts.some(exc => searchRegex.test(exc.excerpt || ''));
                     })
                     .sort(([modelIdA, excerptsA], [modelIdB, excerptsB]) => {
@@ -4967,7 +5154,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // If no models have valid excerpts, don't show popup
                 if (sortedModels.length === 0) {
-                    console.warn('No valid excerpts found for item:', item.value);
+                    console.warn(`No valid excerpts were found for item ${item[highlightField]}, item: ${JSON.stringify(item)}`);
                     return;
                 }
 
@@ -4984,7 +5171,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             </svg>
                         </button>
                         <div class="p-6 pb-0 flex-shrink-0">
-                            <h3 class="text-xl font-semibold mb-2">Context from AI Models: <mark class="bg-yellow-200 dark:bg-yellow-600 px-1 rounded">${this.escapeHtml(item.value || '')}</mark></h3>
+                            <h3 class="text-xl font-semibold mb-2">Showing excerpts for: <mark class="bg-yellow-200 dark:bg-yellow-600 px-1 rounded">${this.escapeHtml(searchTerm || '')}</mark></h3>
                             ${this.selectedVersion && window[this.selectedVersion] && window[this.selectedVersion].report_question ? `
                                 <div class="text-sm text-gray-600 dark:text-gray-400 mb-4">
                                     Question: <span class="font-medium">${this.escapeHtml(window[this.selectedVersion].report_question)}</span>
@@ -5043,7 +5230,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         const excerptsByQuestion = {};
                         excerpts.forEach(excerpt => {
                             // Check if the excerpt actually contains the search term
-                            const searchRegex = new RegExp(this.escapeRegExp(item.value || ''), 'gi');
+                            const searchRegex = new RegExp(this.escapeRegExp(searchTerm), 'gi');
                             if (searchRegex.test(excerpt.excerpt || '')) {
                                 const questionKey = excerpt.question || 'default';
                                 if (!excerptsByQuestion[questionKey]) {
@@ -5093,7 +5280,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             // Filter excerpts to only include those that actually contain the term
                             const validExcerpts = questionExcerpts.filter(exc => {
                                 // Check if the excerpt actually contains the search term
-                                const searchRegex = new RegExp(this.escapeRegExp(item.value || ''), 'gi');
+                                const searchRegex = new RegExp(this.escapeRegExp(searchTerm), 'gi');
                                 return searchRegex.test(exc.excerpt || '');
                             });
 
@@ -5118,7 +5305,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                                         if (fullAnswerText) {
                                             // Create a case-insensitive regex to count occurrences
-                                            const searchRegex = new RegExp(this.escapeRegExp(item.value || ''), 'gi');
+                                            const searchRegex = new RegExp(this.escapeRegExp(searchTerm), 'gi');
                                             const matches = fullAnswerText.match(searchRegex);
                                             occurrenceCount = matches ? matches.length : 0;
                                             countFound = true;
@@ -5136,10 +5323,10 @@ document.addEventListener('DOMContentLoaded', function () {
                                 }
 
                                 // First highlight the main item with related terms
-                                let highlightedExcerpt = this.highlightWithRelatedTerms(excerpt.excerpt, item.value || '', relatedItems);
+                                let highlightedExcerpt = this.highlightWithRelatedTerms(excerpt.excerpt, searchTerm, relatedItems);
 
                                 // Then highlight all selected brands (including the main item if it's a brand)
-                                this.selectesItems.forEach(brand => {
+                                this.selectedItems.forEach(brand => {
                                     if (brand.value) {
                                         // Use a separate function to highlight brands with the brand-highlight class
                                         highlightedExcerpt = this.highlightBrandInExcerpt(highlightedExcerpt, brand.value);
@@ -5942,18 +6129,18 @@ document.addEventListener('DOMContentLoaded', function () {
                             const entity = this[entityType]?.find(item => item.value === entityValue);
                             if (entity) {
                                 // Check if this brand is already selected to avoid duplicates
-                                const isAlreadySelected = this.selectesItems.some(b =>
+                                const isAlreadySelected = this.selectedItems.some(b =>
                                     b.entityType === entityType && b.value === entityValue
                                 );
                                 if (!isAlreadySelected) {
-                                    this.selectesItems.push({
+                                    this.selectedItems.push({
                                         ...entity,
                                         entityType: entityType
                                     });
                                 }
                             }
                         });
-                        if (this.selectesItems.length > 0) return;
+                        if (this.selectedItems.length > 0) return;
                     } catch (e) {
                         console.warn('Failed to restore brand selection');
                     }
@@ -5970,11 +6157,11 @@ document.addEventListener('DOMContentLoaded', function () {
                         const foundItem = items.find(item => item.isBrand === true);
                         if (foundItem) {
                             // Check if this brand is already selected to avoid duplicates
-                            const isAlreadySelected = this.selectesItems.some(b =>
+                            const isAlreadySelected = this.selectedItems.some(b =>
                                 b.entityType === arrayName && b.value === foundItem.value
                             );
                             if (!isAlreadySelected) {
-                                this.selectesItems.push({
+                                this.selectedItems.push({
                                     ...foundItem,
                                     entityType: arrayName
                                 });
@@ -5991,11 +6178,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     const entity = this[topEntity.entityType]?.find(item => item.value === topEntity.value);
                     if (entity) {
                         // Check if this brand is already selected to avoid duplicates
-                        const isAlreadySelected = this.selectesItems.some(b =>
+                        const isAlreadySelected = this.selectedItems.some(b =>
                             b.entityType === topEntity.entityType && b.value === entity.value
                         );
                         if (!isAlreadySelected) {
-                            this.selectesItems.push({
+                            this.selectedItems.push({
                                 ...entity,
                                 entityType: topEntity.entityType
                             });
@@ -6175,37 +6362,48 @@ document.addEventListener('DOMContentLoaded', function () {
                 // get list of bots for item
                 const engines = item.bots.split(',').map(e => e.trim());
 
-                // generate icon for every engine with its own trend and hint 
+                // generate icon for every engine with simple, useful hint showing mention count
                 const generateIconHtml = (botId, trendType, isMutedIcon = false) => {
 
-                    const result = this.generateHintData(parentContainerId, botId, item, trendType);
+                    // Get model name
+                    const modelName = this.getModelNameById(botId);
+
+                    // Build simple hint with mention count and influence for this specific model
+                    const mentions = item.mentionsByModel && item.mentionsByModel[botId] !== undefined
+                        ? item.mentionsByModel[botId]
+                        : 0;
+                    const influence = item.influenceByModel && item.influenceByModel[botId] !== undefined
+                        ? item.influenceByModel[botId]
+                        : null;
+
+                    let hint = `Mentions: ${mentions}`;
+                    if (influence !== null) {
+                        const influencePercent = (influence * 100).toFixed(1);
+                        hint += `\nInfluence: ${influencePercent}%`;
+                    }
 
                     const botClass = this.getModelIconClassName(botId, isMutedIcon);
                     const botIconUrl = this.getModelIconUrl(botId);
                     let botNameHtml = '';
                     if (botIconUrl && botIconUrl.length > 0) {
-                        botNameHtml = `<img src="${botIconUrl}" 
-                        width="16" 
-                        height="16" 
-                        alt="${result.title}" 
+                        botNameHtml = `<img src="${botIconUrl}"
+                        width="16"
+                        height="16"
+                        alt="${modelName}"
                         class="has-data-hint"` +
 
-                            `data-trend="${result.trend}"` +
-
-                            `data-title="${result.title}" data-hint="${result.hint}"
+                            `data-title="${modelName}" data-hint="${hint}"
                         >
                         `;
                     } else {
-                        botNameHtml = result.title.charAt(0).toUpperCase();
+                        botNameHtml = modelName.charAt(0).toUpperCase();
                     }
 
                     return `
-                        <span class="has-data-hint icon_bot trend-icon ${botClass}"` +
+                        <span class="has-data-hint icon_bot ${botClass}"` +
 
-                        `data-trend="${result.trend}"` +
-
-                        `data-title="${result.title}"
-                           data-hint="${result.hint}">
+                        `data-title="${modelName}"
+                           data-hint="${hint}">
                             ${botNameHtml}
                         </span>
                     `;
@@ -6872,6 +7070,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 filteredItems = this.sortByGivenColumn(filteredItems, obj.defaultSortingColumn, obj.defaultSortingDirection);
 
+                // Limit chart items to avoid cluttering
+                if (filteredItems.length > VISIBLE_COUNT_BY_DEFAULT_MAX) {
+                    filteredItems = filteredItems.slice(0, VISIBLE_COUNT_BY_DEFAULT_MAX);
+                }
+
                 // filter out items with values less than minValueToUseOtherwiseRemove (if need to)
                 /*
                 if (obj.minValueToUseOtherwiseRemove !== undefined) {
@@ -7283,8 +7486,8 @@ document.addEventListener('DOMContentLoaded', function () {
             },
 
             isEntitySelected(entityValue) {
-                // Check if an entity is in the selectesItems array
-                return this.selectesItems.some(brand => brand.value === entityValue);
+                // Check if an entity is in the selectedItems array
+                return this.selectedItems.some(brand => brand.value === entityValue);
             },
 
             getHighlightClass(entityValue) {
@@ -7355,8 +7558,19 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             },
 
-            expand_table(obj) {
-                this[`current_visible_items_count_${obj.id}`] = Math.min(this[`current_visible_items_count_${obj.id}`] + 10, this[`filtered_${obj.id}`].length);
+            expand_table(obj, increment = ITEMS_INCREMENT) {
+                if (increment === null || increment === 0 || increment === Infinity) {
+                    // Show all items
+                    this[`current_visible_items_count_${obj.id}`] = this[`filtered_${obj.id}`].length;
+                } else {
+                    // Show more by increment
+                    this[`current_visible_items_count_${obj.id}`] = Math.min(
+                        this[`current_visible_items_count_${obj.id}`] + increment,
+                        this[`filtered_${obj.id}`].length
+                    );
+                }
+                // Mark table as expanded at least once (to show "Show All" button)
+                this[obj.id] = true;
                 this.init_table(obj);
             },
 
@@ -7388,12 +7602,40 @@ document.addEventListener('DOMContentLoaded', function () {
             // forming methods like `expand_organizations_button` for each table
             ...get_DEFAULT_VISUAL_OBJECTS_ARRAY().filter(obj => obj.type === 'table-with-items').reduce((acc, obj) => ({
                 ...acc,
-                [`button_expand_${obj.id}`]() {
-                    this[`current_visible_items_count_${obj.id}`] = Math.min(
-                        this[`current_visible_items_count_${obj.id}`] + 10,
-                        this[`filtered_${obj.id}`].length
-                    );
+                [`button_expand_${obj.id}`](increment = ITEMS_INCREMENT) {
+                    if (increment === null || increment === 0 || increment === Infinity) {
+                        // Show all items
+                        this[`current_visible_items_count_${obj.id}`] = this[`filtered_${obj.id}`].length;
+                    } else {
+                        // Show more by increment
+                        this[`current_visible_items_count_${obj.id}`] = Math.min(
+                            this[`current_visible_items_count_${obj.id}`] + increment,
+                            this[`filtered_${obj.id}`].length
+                        );
+                    }
+                    // Mark table as expanded at least once (to show "Show All" button)
+                    this[obj.id] = true;
                     this.init_table(obj);
+                }
+            }), {}),
+
+            // forming methods like `button_expand_<tableConfig.id>` for each tabbed component
+            ...get_DEFAULT_VISUAL_OBJECTS_ARRAY().filter(obj => obj.type === 'tabbed-table-graph' && obj.tableConfig).reduce((acc, obj) => ({
+                ...acc,
+                [`button_expand_${obj.tableConfig.id}`](increment = ITEMS_INCREMENT) {
+                    if (increment === null || increment === 0 || increment === Infinity) {
+                        // Show all items
+                        this[`current_visible_items_count_${obj.tableConfig.id}`] = this[`filtered_${obj.tableConfig.id}`].length;
+                    } else {
+                        // Show more by increment
+                        this[`current_visible_items_count_${obj.tableConfig.id}`] = Math.min(
+                            this[`current_visible_items_count_${obj.tableConfig.id}`] + increment,
+                            this[`filtered_${obj.tableConfig.id}`].length
+                        );
+                    }
+                    // Mark table as expanded at least once (to show "Show All" button)
+                    this[obj.tableConfig.id] = true;
+                    this.init_table(obj.tableConfig);
                 }
             }), {}),
 
@@ -7534,9 +7776,14 @@ document.addEventListener('DOMContentLoaded', function () {
                             case 'name':
                             case 'organization':
                             case 'linkType':
+                            case 'linkTypeName':
                             case 'bots':
                             case 'similar':
                                 this.addValueCell(containerId, row, el, column);
+                                columnCount++;
+                                break;
+                            case 'sources':
+                                this.addSourcesCell(containerId, row, el, selectedAIEngine);
                                 columnCount++;
                                 break;
 
@@ -7706,15 +7953,149 @@ document.addEventListener('DOMContentLoaded', function () {
                         ${modelIconsHtml}
                     </div>
                 `;
-                    
+
                 cell.setAttribute('data-column', 'modelNames');
                 cell.setAttribute('data-value', uniqueCount);
+            },
+
+            // Helper function to extract domain from URL
+            // Uses proven logic from url-utils.ts
+            extractDomainFromUrl(url) {
+                if (!url) return '';
+
+                // Decode URL to handle special characters
+                try {
+                    url = decodeURIComponent(url);
+                } catch (e) {
+                    // If decoding fails, use original
+                }
+
+                try {
+                    // Try URL object parser first (most accurate)
+                    const urlObj = new URL(url.startsWith('http') ? url : 'https://' + url);
+                    return urlObj.hostname.toLowerCase().replace(/^www\./, '');
+                } catch {
+                    // Fallback to string-based parsing with comprehensive edge case handling
+                    return url
+                        .toLowerCase()
+                        .split('?')[0]
+                        .split('/')[0]
+                        .split('#')[0]
+                        .split('@')[0]
+                        .split(':')[0]
+                        .split(';')[0]
+                        .split('=')[0]
+                        .replace(/^https?:\/\//, '')
+                        .replace(/^www\./, '')
+                        .replace(/\/+$/, '');
+                }
+            },
+
+            // Helper function to generate Google Favicon API URL
+            getFaviconUrlForDomain(url) {
+                const domain = this.extractDomainFromUrl(url);
+                return `https://www.google.com/s2/favicons?domain=${domain}&sz=16`;
+            },
+
+            // Helper function to filter sources by selected AI models
+            getFilteredSourcesByBots(sources, selectedEngine) {
+                if (!sources || sources.length === 0) return [];
+
+                // If "All models" is selected or no filter, show all sources
+                if (!selectedEngine || selectedEngine === this.ALL_MODELS_OPTION_CAPTION) {
+                    return sources;
+                }
+
+                // Filter: keep source if selected bot cited it
+                return sources.filter(source => {
+                    const sourceBots = source.bots.split(',');
+                    return sourceBots.includes(selectedEngine);
+                });
+            },
+
+            addSourcesCell(parentContainerId, row, el, selectedEngine) {
+                const sourcesCell = row.insertCell();
+                sourcesCell.setAttribute('data-column', 'sources');
+                sourcesCell.className = 'px-4 py-2 whitespace-nowrap report-table__cell';
+
+                // Get sources filtered by selected AI model
+                const filteredSources = this.getFilteredSourcesByBots(el.sources || [], selectedEngine);
+
+                if (filteredSources.length === 0) {
+                    sourcesCell.innerHTML = '<span class="text-gray-400 dark:text-gray-600">—</span>';
+                    sourcesCell.setAttribute('data-value', 0);
+                    return;
+                }
+
+                const MAX_VISIBLE_SOURCES = 3;
+
+                // Build HTML for count + favicon icons
+                let cellHtml = '<div class="flex items-center gap-2">';
+
+                // do not add Count because it is clear from the favicon icons
+                //cellHtml += `<span class="font-semibold text-gray-700 dark:text-gray-300">${filteredSources.length}</span>`;
+
+                // Icons container
+                cellHtml += '<div class="inline-flex flex-wrap gap-1 items-center">';
+
+                filteredSources.forEach((source, index) => {
+                    // Inject expand button at 4th position (index 3)
+                    if (index === MAX_VISIBLE_SOURCES) {
+                        const remaining = filteredSources.length - MAX_VISIBLE_SOURCES;
+                        cellHtml += `
+                            <button type="button"
+                                    class="icon-expand-badge"
+                                    onclick="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';"
+                                    title="Show ${remaining} more sources">
+                                +${remaining}
+                            </button>
+                            <div style="display:none;" class="inline-flex flex-wrap gap-1">
+                        `;
+                    }
+
+                    const faviconUrl = this.getFaviconUrlForDomain(source.url);
+                    const fullUrl = source.url.startsWith('http') ? source.url : `https://${source.url}`;
+
+                    cellHtml += `
+                        <a href="${fullUrl}"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           title="${source.url}"
+                           data-hint="${source.url}"
+                           class="inline-block hover:opacity-70 transition-opacity">
+                            <img src="${faviconUrl}"
+                                 width="16"
+                                 height="16"
+                                 alt="${this.extractDomainFromUrl(source.url)}"
+                                 class="inline-block"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22><rect width=%2216%22 height=%2216%22 fill=%22%23ddd%22/><text x=%228%22 y=%2212%22 font-size=%2210%22 text-anchor=%22middle%22 fill=%22%23666%22>?</text></svg>';" />
+                        </a>
+                    `;
+                });
+
+                // Close hidden div if opened
+                if (filteredSources.length > MAX_VISIBLE_SOURCES) {
+                    cellHtml += '</div>';
+                }
+
+                cellHtml += '</div></div>';
+
+                sourcesCell.innerHTML = cellHtml;
+                // save data value for the sorting and filtering
+                sourcesCell.setAttribute('data-value', filteredSources.length);
             },
 
             addLinkCell(row, el) {
                 const linkCell = row.insertCell();
                 linkCell.setAttribute('data-column', 'link');
                 linkCell.className = 'px-4 py-2 w-full min-w-0 whitespace-nowrap report-table__cell';
+
+                // Check if link exists and is not undefined
+                if (!el.link || el.link === 'undefined') {
+                    // No link available - show empty cell
+                    linkCell.textContent = '';
+                    return;
+                }
 
                 // Check if this link is AI-generated
                 const isAIGenerated = el.sources && el.sources.link === "AI";
@@ -7723,10 +8104,19 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Check if excerpts are available
                 const hasExcerpts = el.excerptsByModel && Object.keys(el.excerptsByModel).some(modelId => el.excerptsByModel[modelId] && el.excerptsByModel[modelId].length > 0);
 
+                const domain = this.extractDomainFromUrl(el.link);
+                const faviconUrl = FAVICON_32_TEMPLATE.replace('{{DOMAIN}}', domain);
+
                 if (hasExcerpts) {
                     // Create a container for link and preview button
                     linkCell.innerHTML = `
                         <div class="flex items-center gap-2">
+                            <img src="${faviconUrl}"
+                                 width="16"
+                                 height="16"
+                                 alt="${domain}"
+                                 class="inline-block"
+                                 onerror="this.style.display='none';" />
                             <a href="${this.makeClickableUrl(el.link)}"
                                target="_blank"
                                rel="noopener noreferrer"
@@ -7736,7 +8126,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             <button
                                 class="preview-icon-btn group"
                                 title="View context from AI models"
-                                onclick="window.app.showExcerptPopup(${JSON.stringify(el).replace(/"/g, '&quot;')})"
+                                onclick="window.app.showExcerptPopup(${JSON.stringify(el).replace(/"/g, '&quot;')}, 'link')"
                             >
                                 <i class="fas fa-search group-hover-visible"></i>
                             </button>
@@ -7744,15 +8134,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     `;
                 } else {
                     // Original implementation without preview button
-                    const linkElement = document.createElement('a');
-                    const formattedLink = this.cleanAndMinimizeUrl(this.makeClickableUrl(el.link));
-                    linkElement.href = this.makeClickableUrl(el.link);
-                    linkElement.textContent = this.truncateString(formattedLink) + contentSuffix;
-                    linkElement.target = '_blank';
-                    linkElement.rel = 'noopener noreferrer';
-                    linkElement.className = 'text-blue-600 hover:text-blue-800 hover:underline block truncate';
-
-                    linkCell.appendChild(linkElement);
+                    linkCell.innerHTML = `
+                        <div class="flex items-center gap-2">
+                            <img src="${faviconUrl}"
+                                 width="16"
+                                 height="16"
+                                 alt="${domain}"
+                                 class="inline-block"
+                                 onerror="this.style.display='none';" />
+                            <a href="${this.makeClickableUrl(el.link)}"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline truncate">
+                                ${this.truncateString(this.cleanAndMinimizeUrl(this.makeClickableUrl(el.link)))}${contentSuffix}
+                            </a>
+                        </div>
+                    `;
                 }
             },
 
@@ -7819,10 +8216,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 if (this.checkIfStringIsUrl(val)) {
                     valueCell.innerHTML = `
-                    <a class="px-4 py-2 whitespace-nowrap min-w-0 block truncate selectable-text" 
-                    href="${val}" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                    <a class="px-4 py-2 whitespace-nowrap min-w-0 block truncate selectable-text"
+                    href="${this.makeClickableUrl(val)}"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     v-select-text
                     ${aggregateTooltip}
                     >${val}</a>`;
@@ -7844,18 +8241,43 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     // Check if this field is AI-generated
                     const isAIGenerated = el.sources && el.sources[column.type] === "AI";
-                    const contentSuffix = isAIGenerated ? "<small>✨</small>" : "";                    
+                    const contentSuffix = isAIGenerated ? "<small>✨</small>" : "";
                     const addPreviewExcerpt = hasExcerpts && (COLUMNS_WITH_PREVIEW_EXCERPT.includes(column.type));
+
+                    // Conditionally make value clickable if .link exists
+                    const renderValue = (column.type === 'value' && el.link && el.link.trim())
+                        ? (v) => {
+                            const domain = this.extractDomainFromUrl(el.link);
+                            const faviconUrl = FAVICON_32_TEMPLATE.replace('{{DOMAIN}}', domain);
+                            const linkUrl = this.makeClickableUrl(el.link);
+
+                            return `
+                                <a href="${linkUrl}"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="text-blue-600 hover:underline dark:text-blue-400 inline-flex items-center gap-1"
+                                   title="${el.link}">
+                                    <img src="${faviconUrl}"
+                                         width="16"
+                                         height="16"
+                                         alt="${domain}"
+                                         class="inline-block"
+                                         onerror="this.style.display='none';" />
+                                    <span class="selectable-text" v-select-text>${v}</span>
+                                </a>
+                            `.trim();
+                        }
+                        : (v) => `<span class="selectable-text" v-select-text>${v}</span>`;
 
                     valueCell.innerHTML = `
                     <div class="flex items-center gap-2 px-4 py-2" ${aggregateTooltip}>
                         ${sValues.map(v => `
                             <span class="inline-flex items-center gap-1 group">
-                                <span class="selectable-text" v-select-text>${v}</span>${contentSuffix}
+                                ${renderValue(v)}${contentSuffix}
                                 ${addPreviewExcerpt ? `<button
                                     class="preview-icon-btn group-hover-visible"
                                     title="View context from AI models"
-                                    onclick="window.app.showExcerptPopup(${JSON.stringify(el).replace(/"/g, '&quot;')})"
+                                    onclick="window.app.showExcerptPopup(${JSON.stringify(el).replace(/"/g, '&quot;')}, '${column.type}')"
                                     ><i class="fas fa-search"></i
                                 ></button>` : ''}
                             </span>
@@ -8991,6 +9413,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 get_DEFAULT_VISUAL_OBJECTS_ARRAY().filter(obj => obj.type === 'table-with-items').forEach(obj => {
                     const btn = document.getElementById(`button_expand_${obj.id}`);
+                    const btnAll = document.getElementById(`button_expand_all_${obj.id}`);
                     if (btn) {
                         // checking buttons
                         const isAllItemsShown = this[`current_visible_items_count_${obj.id}`] >= this[`filtered_${obj.id}`].length;
@@ -8998,6 +9421,41 @@ document.addEventListener('DOMContentLoaded', function () {
                         btn.textContent = isAllItemsShown ? 'All Shown' : 'Show More';
                         btn.classList.toggle('opacity-50', isAllItemsShown);
                         btn.classList.toggle('cursor-not-allowed', isAllItemsShown);
+
+                        // Update Show All button
+                        if (btnAll) {
+                            // disabling the button
+                            //btnAll.disabled = isAllItemsShown;
+                            // hide button if all items are shown
+                            //btnAll.classList.toggle('opacity-50', isAllItemsShown);
+                            //btnAll.classList.toggle('cursor-not-allowed', isAllItemsShown);
+
+                            btnAll.style.display = isAllItemsShown ? 'none' : 'block';
+                        }
+                    }
+                });
+
+                // Handle tabbed component buttons
+                get_DEFAULT_VISUAL_OBJECTS_ARRAY().filter(obj => obj.type === 'tabbed-table-graph' && obj.tableConfig).forEach(obj => {
+                    const btn = document.getElementById(`button_expand_${obj.tableConfig.id}`);
+                    const btnAll = document.getElementById(`button_expand_all_${obj.tableConfig.id}`);
+                    if (btn) {
+                        const isAllItemsShown = this[`current_visible_items_count_${obj.tableConfig.id}`] >= this[`filtered_${obj.tableConfig.id}`].length;
+                        btn.disabled = isAllItemsShown;
+                        btn.textContent = isAllItemsShown ? 'All Shown' : 'Show More';
+                        btn.classList.toggle('opacity-50', isAllItemsShown);
+                        btn.classList.toggle('cursor-not-allowed', isAllItemsShown);
+
+                        // Update Show All button
+                        if (btnAll) {
+                            // disabling the button
+                            //btnAll.disabled = isAllItemsShown;
+                            // hide button if all items are shown
+                            //btnAll.classList.toggle('opacity-50', isAllItemsShown);
+                            //btnAll.classList.toggle('cursor-not-allowed', isAllItemsShown);
+
+                            btnAll.style.display = isAllItemsShown ? 'none' : 'block';
+                        }
                     }
                 });
 
@@ -9479,7 +9937,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
 
                 return items.filter(item => {
-                    return item.mentionsByPrompt && item.mentionsByPrompt[selectedPrompt] > 0;
+                    return item.mentionsByPrompt && item.mentionsByPrompt[selectedPrompt] >= 0;
                 });
             },
 
