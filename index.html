@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Chat Watch - Monitor What AI Says About Your Brand, Competitors and Industry</title>
-    <meta name="description" content="Free open-source tool to track what ChatGPT, Claude, Gemini and other AI models say about your brand, products, and competitors. Generate comprehensive reports with knowledge graphs and trend analysis.">
-    <meta property="og:title" content="AI Chat Watch - Monitor What AI Says About Your Brand">
-    <meta property="og:description" content="Track your brand presence across multiple AI models. Free, open-source, and powerful.">
+    <title>AI Chat Watch - Grade Your AI Visibility & Monitor What AI Says About Your Brand</title>
+    <meta name="description" content="Free open-source tool to check if AI can find your website, then track what ChatGPT, Claude, Gemini and other AI models say about your brand. Get instant AI visibility audit and comprehensive competitive intelligence reports.">
+    <meta property="og:title" content="AI Chat Watch - Grade Your AI Visibility & Monitor AI Brand Mentions">
+    <meta property="og:description" content="Check your AI visibility in 30 seconds. Track your brand across 20+ AI models. Free, open-source, runs on your computer.">
     <meta property="og:image" content="https://aichatwatch.com/preview.png">
     <meta property="og:url" content="https://aichatwatch.com">
     
@@ -42,16 +42,15 @@
         <div class="container">
             <div class="hero-content animate-in">
                 <h1 class="hero-title">AI Chat Watch</h1>
-                <p class="hero-subtitle">Monitor what AI says about your brand across all major models</p>
+                <p class="hero-subtitle" style="margin-bottom: 2.5rem;">Grade Your AI Visibility & Monitor What AI Says About Your Brand</p>
 
-                <!-- Quick Install Section - More Prominent -->
-                <div class="quick-install-hero">
-                    <a name="install"></a>
-                    <h3 class="install-title">✨ Try it instantly — no installation needed</h3>
-                    <p class="install-subtext">Open your terminal and run:</p>
-                    <div class="install-command-hero" data-command="npx @aichatwatch/aicw">
-                        <code>npx @aichatwatch/aicw</code>
-                        <button type="button" class="copy-btn-hero" data-copy-command="npx @aichatwatch/aicw" aria-label="Copy npx command">
+                <!-- Quick AI Visibility Check - Lead with Instant Value -->
+                <div class="quick-install-hero" style="margin-bottom: 2rem;">
+                    <h3 class="install-title">⚡ Check Your AI Visibility in 30 Seconds</h3>
+                    <p class="install-subtext">Is AI ignoring your website? Find out instantly:</p>
+                    <div class="install-command-hero" data-command="npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com">
+                        <code>npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com</code>
+                        <button type="button" class="copy-btn-hero" data-copy-command="npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com" aria-label="Copy AI visibility command">
                             <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
                                 <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
@@ -59,30 +58,26 @@
                             <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            <span class="copy-text">Copy</span>
+                            <span class="copy-text"></span>
                         </button>
                     </div>
-                    <p class="install-subtext" style="margin-top: 1rem; margin-bottom: 0; font-size: 0.85rem; opacity: 0.7;">
-                        Or install globally: <code style="padding: 2px 8px; background: rgba(139, 92, 246, 0.1); border-radius: 4px; font-size: 0.85rem;">npm install -g @aichatwatch/aicw</code>
-                        <button type="button" class="copy-btn-inline" data-copy-command="npm install -g @aichatwatch/aicw" aria-label="Copy install command" style="display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; margin-left: 8px; background: rgba(139, 92, 246, 0.2); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 4px; color: #a78bfa; font-size: 0.75rem; cursor: pointer; transition: all 0.2s;">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
-                                <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
-                            </svg>
-                            <span class="copy-label">Copy</span>
-                        </button>
+                    <p class="install-subtext" style="margin-top: 1rem; margin-bottom: 0; font-size: 0.85rem; opacity: 0.8;">
+                        No signup required • Free & open-source • Runs on your computer
                     </p>
                 </div>
                 
                 <div class="cta-buttons">
-                    <a href="/demo/reports/" class="btn btn-primary btn-large">
-                        <span>📊 Explore Reports</span>
+                    <a href="#ai-visibility" class="btn btn-primary btn-large">
+                        <span>🚀 See How It Works</span>
+                    </a>
+                    <a href="/demo/reports/" class="btn btn-secondary">
+                        <span>📊 View Sample Reports</span>
                     </a>
                     <a href="https://github.com/aichatwatch/aicw" class="btn btn-secondary" target="_blank" rel="noopener">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle;">
                             <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.43 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02.01 2.05.14 3.01.4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
                         </svg>
-                        <span>View on GitHub</span>
+                        <span>Star on GitHub</span>
                     </a>
                 </div>
                 <div class="github-stats">
@@ -92,6 +87,47 @@
             </div>
         </div>
     </header>
+
+    <!-- AI Visibility Grading Section - NEW LEAD FEATURE -->
+    <section id="ai-visibility" class="terminal-action-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <div class="container">
+            <div class="section-intro">
+                <h2 style="color: white;">AI Visibility Grading</h2>
+                <p style="color: rgba(255, 255, 255, 0.9);">Discover if AI engines can find and understand your website—get your AI visibility score in seconds</p>
+            </div>
+
+            <div class="terminal-screenshots">
+                <div class="terminal-card" style="background: rgba(255, 255, 255, 0.95);">
+                    <div class="terminal-screenshot">
+                        <img src="./assets/images/screenshots/aicw-check-ai-visibility-report.png" alt="AI Visibility Report showing technical analysis" loading="lazy" />
+                    </div>
+                    <div class="terminal-content">
+                        <h3>🎯 Detailed AI Visibility Audit</h3>
+                        <p><strong>Find out why AI might be ignoring your website.</strong> Our AI visibility checker analyzes your site's structure, metadata, content architecture, and technical setup to identify barriers preventing AI engines from discovering and citing your content.</p>
+                        <ul style="text-align: left; margin-top: 1rem;">
+                            <li><strong>Technical Analysis:</strong> robots.txt, sitemaps, structured data</li>
+                            <li><strong>Content Assessment:</strong> AI-readability of your pages</li>
+                            <li><strong>Actionable Fixes:</strong> Step-by-step optimization recommendations</li>
+                            <li><strong>Competitive Edge:</strong> Make sure AI recommends YOU, not competitors</li>
+                        </ul>
+                        <div class="install-command-hero" data-command="npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com" style="margin-top: 1.5rem;">
+                            <code style="font-size: 0.9rem;">npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com</code>
+                            <button type="button" class="copy-btn-hero" data-copy-command="npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com" aria-label="Copy AI visibility command">
+                                <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+                                    <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+                                </svg>
+                                <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                <span class="copy-text"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Terminal in Action Section -->
     <section id="terminal" class="terminal-action-section">
@@ -104,7 +140,7 @@
             <div class="terminal-screenshots">
                 <div class="terminal-card">
                     <div class="terminal-screenshot">
-                        <img src="/assets/images/screenshots/aicw-running-in-terminal.png" alt="AICW command line interface in terminal" loading="lazy" />
+                        <img src="./assets/images/screenshots/aicw-main-menu.png" alt="AICW command line interface in terminal" loading="lazy" />
                     </div>
                     <div class="terminal-content">
                         <h3>💻 Interactive CLI</h3>
@@ -114,7 +150,7 @@
 
                 <div class="terminal-card">
                     <div class="terminal-screenshot">
-                        <img src="/assets/images/screenshots/aicw-running-in-terminal-processing.png" alt="AICW processing and fetching AI responses" loading="lazy" />
+                        <img src="./assets/images/screenshots/aicw-running-in-terminal-processing.png" alt="AICW processing and fetching AI responses" loading="lazy" />
                     </div>
                     <div class="terminal-content">
                         <h3>⚡ Extensive Analysis</h3>
@@ -129,15 +165,15 @@
     <section id="features" class="features-section">
         <div class="container">
             <div class="section-intro">
-                <h2>Explore and Analyze What AI Says</h2>
-                <p>Explore and analyze AI responses with filtering and visualization tools</p>
+                <h2>AI Brand Monitoring & Competitive Intelligence</h2>
+                <p>Track mentions, analyze trends, and understand how different AI models position your brand vs. competitors</p>
             </div>
 
             <div class="features-grid">
 
                 <div class="feature-card">
                     <div class="feature-screenshot">
-                        <img src="/assets/images/screenshots/aicw-report-screenshot-top-influencers.png" alt="See top influencers" loading="lazy" />
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-top-influencers.png" alt="See top influencers" loading="lazy" />
                     </div>
                     <div class="feature-content">
                         <h3>🤖 See Top Influencers</h3>
@@ -147,7 +183,7 @@
 
                 <div class="feature-card">
                     <div class="feature-screenshot">
-                        <img src="/assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Filter reports by AI model" loading="lazy" />
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Filter reports by AI model" loading="lazy" />
                     </div>
                     <div class="feature-content">
                         <h3>🤖 Filter by AI Model</h3>
@@ -157,7 +193,7 @@
 
                 <div class="feature-card">
                     <div class="feature-screenshot">
-                        <img src="/assets/images/screenshots/aicw-report-screenshot-filter-by-trend.png" alt="Filter by trending mentions" loading="lazy" />
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-trend.png" alt="Filter by trending mentions" loading="lazy" />
                     </div>
                     <div class="feature-content">
                         <h3>📈 Track Trends</h3>
@@ -167,7 +203,7 @@
 
                 <div class="feature-card">
                     <div class="feature-screenshot">
-                        <img src="/assets/images/screenshots/aicw-report-screenshot-view-table.png" alt="View detailed table data" loading="lazy" />
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-view-table.png" alt="View detailed table data" loading="lazy" />
                     </div>
                     <div class="feature-content">
                         <h3>📊 Table View</h3>
@@ -177,7 +213,7 @@
 
                 <div class="feature-card">
                     <div class="feature-screenshot">
-                        <img src="/assets/images/screenshots/aicw-report-screenshot-filter-by-ai-graph.png" alt="View items as graphs" loading="lazy" />
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-ai-graph.png" alt="View items as graphs" loading="lazy" />
                     </div>
                     <div class="feature-content">
                         <h3>📊 Graph View</h3>
@@ -198,42 +234,42 @@
 
             <div class="demo-reports">
                 <a href="/demo/reports/" class="demo-screenshot">
-                    <img src="/assets/images/screenshots/aichatwatch-report-best-cities-for-nomads.png" alt="Best Cities for Nomads Report" />
+                    <img src="./assets/images/screenshots/aichatwatch-report-best-cities-for-nomads.png" alt="Best Cities for Nomads Report" />
                     <div class="demo-screenshot-overlay">
                         <h3>Best Cities for Nomads</h3>
                         <p>Travel & lifestyle tracking</p>
                     </div>
                 </a>
                 <a href="/demo/reports/" class="demo-screenshot">
-                    <img src="/assets/images/screenshots/aichatwatch-report-top-ai-tools.png" alt="Top AI Tools Report" />
+                    <img src="./assets/images/screenshots/aichatwatch-report-top-ai-tools.png" alt="Top AI Tools Report" />
                     <div class="demo-screenshot-overlay">
                         <h3>Top AI Tools</h3>
                         <p>Technology & platforms</p>
                     </div>
                 </a>
                 <a href="/demo/reports/" class="demo-screenshot">
-                    <img src="/assets/images/screenshots/aichatwatch-report-y-combinator.png" alt="Y Combinator Report" />
+                    <img src="./assets/images/screenshots/aichatwatch-report-y-combinator.png" alt="Y Combinator Report" />
                     <div class="demo-screenshot-overlay">
                         <h3>Y Combinator</h3>
                         <p>Analyzing specific topic (Y Combinator)</p>
                     </div>
                 </a>
                 <a href="/demo/reports/" class="demo-screenshot">
-                    <img src="/assets/images/screenshots/aicw-report-screenshot-view-table.png" alt="High Blood Pressure & Hypertension Report" />
+                    <img src="./assets/images/screenshots/aicw-report-screenshot-view-table.png" alt="High Blood Pressure & Hypertension Report" />
                     <div class="demo-screenshot-overlay">
                         <h3>High Blood Pressure & Hypertension</h3>
                         <p>Healthcare & treatment recommendations from AI models</p>
                     </div>
                 </a>
                 <a href="/demo/reports/" class="demo-screenshot">
-                    <img src="/assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Best Lawyer for a Startup Report" />
+                    <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Best Lawyer for a Startup Report" />
                     <div class="demo-screenshot-overlay">
                         <h3>Best Lawyer for a Startup</h3>
                         <p>Legal services & professionals</p>
                     </div>
                 </a>
                 <a href="/demo/reports/" class="demo-screenshot">
-                    <img src="/assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Best Lawyer for a Startup Report" />
+                    <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Best Lawyer for a Startup Report" />
                     <div class="demo-screenshot-overlay">
                         <h3>Angel Investors</h3>
                         <p>Angel Investors Research</p>
@@ -246,6 +282,69 @@
                         <p style="font-size: 1.2rem; margin-top: 1rem; opacity: 0.9;">Browse all demo reports →</p>
                     </div>
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section id="install" class="terminal-action-section" style="background: #1a1a2e;">
+        <div class="container">
+            <div class="section-intro">
+                <h2 style="color: white;">Get Started with AICW</h2>
+                <p style="color: rgba(255, 255, 255, 0.8);">Free, open-source, runs on your computer—you control everything</p>
+            </div>
+
+            <div class="terminal-screenshots">
+                <div class="terminal-card" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(139, 92, 246, 0.3);">
+                    <div class="terminal-content">
+                        <h3 style="color: white;">⚡ Quick Start (No Installation)</h3>
+                        <p style="color: rgba(255, 255, 255, 0.8);">Try AICW instantly with npx—no installation required:</p>
+                        <div class="install-command-hero" data-command="npx @aichatwatch/aicw" style="margin-top: 1rem;">
+                            <code>npx @aichatwatch/aicw</code>
+                            <button type="button" class="copy-btn-hero" data-copy-command="npx @aichatwatch/aicw" aria-label="Copy npx command">
+                                <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+                                    <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+                                </svg>
+                                <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="terminal-card" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(139, 92, 246, 0.3); margin-top: 2rem;">
+                    <div class="terminal-content">
+                        <h3 style="color: white;">📦 Install Globally (Recommended for Continuous Monitoring)</h3>
+                        <p style="color: rgba(255, 255, 255, 0.8);">For regular monitoring and easier access, install globally:</p>
+                        <div class="install-command-hero" data-command="npm install -g @aichatwatch/aicw" style="margin-top: 1rem;">
+                            <code>npm install -g @aichatwatch/aicw</code>
+                            <button type="button" class="copy-btn-hero" data-copy-command="npm install -g @aichatwatch/aicw" aria-label="Copy install command">
+                                <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+                                    <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+                                </svg>
+                                <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+                        <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.9rem; margin-top: 1rem;">
+                            After installation, just run <code style="padding: 2px 8px; background: rgba(139, 92, 246, 0.2); border-radius: 4px;">aicw</code> from anywhere
+                        </p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem; padding: 1.5rem; background: rgba(139, 92, 246, 0.1); border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                    <h4 style="color: white; margin-top: 0;">Requirements</h4>
+                    <ul style="color: rgba(255, 255, 255, 0.8); margin-bottom: 0;">
+                        <li>Node.js 18+ (<a href="https://nodejs.org/" target="_blank" style="color: #a78bfa;">Download</a>)</li>
+                        <li>API key from <a href="https://openrouter.ai/keys" target="_blank" style="color: #a78bfa;">OpenRouter</a> (recommended, free tier available) or <a href="https://platform.openai.com/api-keys" target="_blank" style="color: #a78bfa;">OpenAI</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -415,10 +514,10 @@
                     if (copied) {
                         button.classList.add('copied');
                         if (copyText) {
-                            copyText.textContent = 'Copied!';
+                            copyText.textContent = '!';
                         }
                         if (label) {
-                            label.textContent = 'Copied!';
+                            label.textContent = '!';
                         }
                         if (copyIcon && checkIcon) {
                             copyIcon.style.display = 'none';

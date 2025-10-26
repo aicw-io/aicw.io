@@ -2,7 +2,7 @@ window.AppData20251017 = {
   "report_question": "What metrics or KPIs should be tracked to measure success in AI Tools for Marketers?",
   "report_date": "2025-10-17",
   "report_question_id": "4-what-metrics-or-kpis-sho-0c04cde1",
-  "report_created_at": "Oct 18, 2025, 1:35:46 AM",
+  "report_created_at": "Oct 26, 2025, 1:29:07 PM",
   "bots": [
     {
       "id": "perplexity_with_search_latest",
@@ -14,84 +14,630 @@ window.AppData20251017 = {
       "id": "anthropic_claude_with_search_latest",
       "name": "Anthropic Claude Sonnet (latest)",
       "url": "https://anthropic.com",
-      "estimated_mau": 7500000
+      "estimated_mau": 30000000
     },
     {
       "id": "openai_chatgpt_with_search_latest",
       "name": "OpenAI ChatGPT Latest",
       "url": "https://openai.com/gpt-4",
-      "estimated_mau": 105000000
+      "estimated_mau": 800000000
     }
   ],
-  "products": [
+  "products": [],
+  "organizations": [],
+  "persons": [],
+  "keywords": [
     {
-      "value": "Google Analytics 4",
-      "type": "product",
+      "value": "KPI",
+      "type": "keyword",
       "sources": [
         {
-          "url": "support.google.com/analytics/answer/9355949",
-          "bots": "anthropic_claude_with_search_latest"
+          "url": "databox.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
         },
         {
-          "url": "analytics.google.com",
-          "bots": "anthropic_claude_with_search_latest"
+          "url": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "datadab.com/blog/ai-marketing-tools-roi-measurement",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.hurree.co/how-to-create-smart-kpis",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "online.hbs.edu/blog/post/marketing-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "owox.com/blog/articles/digital-marketing-metrics-and-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "codiste.com/blog/ai-marketing-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
         }
       ],
       "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 2,
-        "openai_chatgpt_with_search_latest": 0
+        "perplexity_with_search_latest": 45,
+        "anthropic_claude_with_search_latest": 3,
+        "openai_chatgpt_with_search_latest": 15
       },
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 2045,
-        "openai_chatgpt_with_search_latest": -1
+        "perplexity_with_search_latest": 68,
+        "anthropic_claude_with_search_latest": 18,
+        "openai_chatgpt_with_search_latest": 105
       },
       "excerptsByModel": {
         "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 2045,
-            "excerpt": "ough AI campaigns\n- **Return on ad spend (ROAS)**: Revenue generated per dollar spent\n\n**Source**: [Google Analytics 4 Documentation](https://support.google.com/analytics/answer/9355949)\n\n## 4. **Customer Experience Me",
-            "line": 46,
-            "column": 14,
+            "appearanceOrder": 18,
+            "excerpt": "# Key Metrics and KPIs for AI Marketing Tools\n\nWhen implementing AI tools in marketing, tracking the right metrics is cru",
+            "line": 1,
+            "column": 19,
             "captureDate": "2025-10-17"
           },
           {
-            "appearanceOrder": 5164,
-            "excerpt": "novation index**: New capabilities deployed vs. industry\n\n## Tools for Tracking These Metrics\n\n- **[Google Analytics 4](https://analytics.google.com/)**: Web analytics and conversion tracking\n- **[Tableau](https://www.",
-            "line": 121,
-            "column": 6,
+            "appearanceOrder": 180,
+            "excerpt": "keting, tracking the right metrics is crucial for measuring ROI and success. Here are the essential KPIs to monitor:\n\n## 1. **Efficiency & Productivity Metrics**\n\n### Time Savings\n- **Hours saved per tas",
+            "line": 3,
+            "column": 134,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 5380,
+            "excerpt": "w.tableau.com/)**: Data visualization and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n- **[Supe",
+            "line": 123,
+            "column": 40,
             "captureDate": "2025-10-17"
           }
         ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 105,
+            "excerpt": "fectively measure the success of AI tools in marketing, it’s critical to track specific metrics and KPIs (Key Performance Indicators) that align with your business goals. Here are some recommended metric",
+            "line": 1,
+            "column": 106,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2526,
+            "excerpt": "Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\nThese KPIs provide a comprehensive method to evaluate the impact of AI on marketing efforts, ensuring that in",
+            "line": 19,
+            "column": 7,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3933,
+            "excerpt": ", or efficiency rates - to create a benchmark.\n\n2. [The AI Digital Marketing Playbook: 12 Marketing KPIs for Explosive ...](https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis",
+            "line": 27,
+            "column": 53,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4429,
+            "excerpt": "impact of AI and marketing automation. > ##### By focusing on the right Key Performance Indicators (KPIs), businesses can transform AI from a buzzword into a powerful engine for revenue growth. This comp",
+            "line": 29,
+            "column": 370,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4589,
+            "excerpt": "werful engine for revenue growth. This comprehensive digital marketing playbook reveals 12 critical KPIs that empower marketers to decode complex data, optimize campaigns, and drive superior ROI.\n\n3. [Ho",
+            "line": 29,
+            "column": 530,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 68,
+            "excerpt": "To measure success in AI tools for marketers, the key **metrics and KPIs** to track include:\n\n- **Engagement Rate:** Measures how users interact with AI-generated marketin",
+            "line": 1,
+            "column": 69,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 593,
+            "excerpt": "ures visibility in new AI-driven search and interaction models[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Sentiment:** Understanding whether",
+            "line": 5,
+            "column": 209,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 844,
+            "excerpt": ", or neutral helps gauge brand perception shaped by AI outputs[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Competitive Share of Voice:** Meas",
+            "line": 7,
+            "column": 187,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1085,
+            "excerpt": "lative to competitors in AI-powered channels and conversations[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Click-through Rate (CTR):** Indica",
+            "line": 9,
+            "column": 177,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1355,
+            "excerpt": "ds, reflecting recommendation or targeting relevance[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Time on Site (TOS):** Tracks user engagement duration, showi",
+            "line": 11,
+            "column": 206,
+            "captureDate": "2025-10-17"
+          }
+        ]
       },
-      "mentions": 2,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.25,
+      "mentions": 63,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest",
+      "botCount": 3,
+      "uniqueModelCount": 3,
+      "mentionsAsPercent": 0.31343,
       "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.25,
-        "openai_chatgpt_with_search_latest": 0
+        "perplexity_with_search_latest": 0.56962,
+        "anthropic_claude_with_search_latest": 0.03659,
+        "openai_chatgpt_with_search_latest": 0.375
       },
       "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 1
+        "perplexity_with_search_latest": 3,
+        "anthropic_claude_with_search_latest": 2,
+        "openai_chatgpt_with_search_latest": 3
+      },
+      "appearanceOrder": 2,
+      "influence": 0.94133,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.01715,
+        "anthropic_claude_with_search_latest": 0.00197,
+        "openai_chatgpt_with_search_latest": 0.20786
+      },
+      "weightedInfluence": 0.94133,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 63
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.94133
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 45
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 3
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 15
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.01715
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00197
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.20786
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 3
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 3
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 63,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 63
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "metrics",
+      "type": "keyword",
+      "sources": [
+        {
+          "url": "blog.hubspot.com/marketing/metrics",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "contentmarketinginstitute.com/articles/metrics-measure-content-marketing",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "zendesk.com/blog/customer-service-metrics",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "ahrefs.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "sproutsocial.com/insights/social-media-metrics",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "supermetrics.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "datadab.com/blog/ai-marketing-tools-roi-measurement",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "moesif.com/blog/technical/api-development/5-AI-Product-Metrics-to-Track-A-Guide-to-Measuring-Success",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "owox.com/blog/articles/digital-marketing-metrics-and-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 13,
+        "anthropic_claude_with_search_latest": 20,
+        "openai_chatgpt_with_search_latest": 9
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 56,
+        "anthropic_claude_with_search_latest": 6,
+        "openai_chatgpt_with_search_latest": 93
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 6,
+            "excerpt": "# Key Metrics and KPIs for AI Marketing Tools\n\nWhen implementing AI tools in marketing, tracking the right metric",
+            "line": 1,
+            "column": 7,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 107,
+            "excerpt": "etrics and KPIs for AI Marketing Tools\n\nWhen implementing AI tools in marketing, tracking the right metrics is crucial for measuring ROI and success. Here are the essential KPIs to monitor:\n\n## 1. **Efficien",
+            "line": 3,
+            "column": 61,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 232,
+            "excerpt": "asuring ROI and success. Here are the essential KPIs to monitor:\n\n## 1. **Efficiency & Productivity Metrics**\n\n### Time Savings\n- **Hours saved per task/campaign**: Measure time reduction in content creation",
+            "line": 5,
+            "column": 35,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 532,
+            "excerpt": "s. manual intervention needed\n- **Speed to market**: Time from concept to campaign launch\n\n### Cost Metrics\n- **Cost per output**: Compare AI-generated content/analysis costs vs. traditional methods\n- **Labo",
+            "line": 12,
+            "column": 10,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 794,
+            "excerpt": "sks\n- **Tool ROI**: (Value generated - Tool cost) / Tool cost × 100\n\n**Source**: [HubSpot Marketing Metrics Guide](https://blog.hubspot.com/marketing/metrics)\n\n## 2. **Content Performance Metrics**\n\n### AI-G",
+            "line": 17,
+            "column": 32,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 93,
+            "excerpt": "To effectively measure the success of AI tools in marketing, it’s critical to track specific metrics and KPIs (Key Performance Indicators) that align with your business goals. Here are some recommende",
+            "line": 1,
+            "column": 94,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 202,
+            "excerpt": "nd KPIs (Key Performance Indicators) that align with your business goals. Here are some recommended metrics based on the resources:\n\n1. **SMART Goals**: Begin by defining [SMART objectives](https://blog.hurr",
+            "line": 1,
+            "column": 203,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 988,
+            "excerpt": "the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers)).\n\n3. **Customer Engagement**: Metrics related to customer interactions and engagement can help assess AI's impact on enhancing customer e",
+            "line": 7,
+            "column": 29,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1798,
+            "excerpt": ".com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\n6. **Model Accuracy and Robustness**: Metrics such as accuracy, precision, and recall help evaluate how accurately AI models predict outcomes and",
+            "line": 13,
+            "column": 39,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3033,
+            "excerpt": "ing AI tool effectiveness in marketing.\n\n# CITATIONS\n\n1. [Measuring the ROI of AI in Marketing: Key Metrics and Strategies for ...](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and",
+            "line": 23,
+            "column": 47,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 56,
+            "excerpt": "To measure success in AI tools for marketers, the key **metrics and KPIs** to track include:\n\n- **Engagement Rate:** Measures how users interact with AI-generated",
+            "line": 1,
+            "column": 57,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 345,
+            "excerpt": "levance to the target audience[[6]](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers).\n\n- **Mentions:** Tracking brand or product mentions in AI-generated",
+            "line": 3,
+            "column": 252,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2562,
+            "excerpt": "m/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth).\n\n- **Operational Efficiency Metrics:** Such as process times, error rates, and automation levels, reflecting AI's impact on marketing o",
+            "line": 23,
+            "column": 28,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2731,
+            "excerpt": "reflecting AI's impact on marketing operations[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/).\n\n- **AI Model Performance Metrics:** Including accuracy, precision,",
+            "line": 23,
+            "column": 197,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2796,
+            "excerpt": "seacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/).\n\n- **AI Model Performance Metrics:** Including accuracy, precision, recall, and F1 score, essential for understanding the quality and",
+            "line": 25,
+            "column": 26,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 42,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest",
+      "botCount": 3,
+      "uniqueModelCount": 3,
+      "mentionsAsPercent": 0.20896,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.16456,
+        "anthropic_claude_with_search_latest": 0.2439,
+        "openai_chatgpt_with_search_latest": 0.225
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 2,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 2
       },
       "appearanceOrder": 1,
       "influence": 1,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
+        "perplexity_with_search_latest": 0.00625,
+        "anthropic_claude_with_search_latest": 0.02079,
+        "openai_chatgpt_with_search_latest": 0.15737
       },
       "weightedInfluence": 1,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 2
+          "value": 42
         }
       ],
       "influenceTrendVals": [
@@ -104,6 +650,1034 @@ window.AppData20251017 = {
         {
           "date": "2025-10-17",
           "value": 1
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 13
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 20
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 9
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00625
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.02079
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.15737
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 42,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 42
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "AI tools",
+      "type": "keyword",
+      "sources": [
+        {
+          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "online.hbs.edu/blog/post/marketing-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 3,
+        "anthropic_claude_with_search_latest": 4,
+        "openai_chatgpt_with_search_latest": 2
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 22,
+        "anthropic_claude_with_search_latest": 65,
+        "openai_chatgpt_with_search_latest": 38
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 65,
+            "excerpt": "# Key Metrics and KPIs for AI Marketing Tools\n\nWhen implementing AI tools in marketing, tracking the right metrics is crucial for measuring ROI and success. Here are the ess",
+            "line": 3,
+            "column": 19,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4629,
+            "excerpt": "doption & Usage Metrics**\n\n### Internal Adoption\n- **User adoption rate**: % of team actively using AI tools\n- **Feature utilization**: Which AI capabilities are most used\n- **Training completion**: Team prof",
+            "line": 105,
+            "column": 52,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4798,
+            "excerpt": "ed\n- **Training completion**: Team proficiency with tools\n- **User satisfaction**: Internal NPS for AI tools\n\n**Source**: [Pendo Product Analytics](https://www.pendo.io/product/)\n\n## 10. **Competitive Metrics",
+            "line": 108,
+            "column": 43,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 5830,
+            "excerpt": "Best Practices for Measurement\n\n1. **Establish baselines**: Measure performance before implementing AI tools\n2. **A/B testing**: Compare AI-generated vs. human-created outputs\n3. **Regular audits**: Monthly o",
+            "line": 131,
+            "column": 69,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 38,
+            "excerpt": "To effectively measure the success of AI tools in marketing, it’s critical to track specific metrics and KPIs (Key Performance Indicators) that al",
+            "line": 1,
+            "column": 39,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2080,
+            "excerpt": "s://www.multimodal.dev/post/ai-kpis)).\n\n7. **User Engagement**: Understanding user interaction with AI tools can provide insights into which features are most effective and identify areas for enhancement ([Go",
+            "line": 15,
+            "column": 61,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 22,
+            "excerpt": "To measure success in AI tools for marketers, the key **metrics and KPIs** to track include:\n\n- **Engagement Rate:** Measures how",
+            "line": 1,
+            "column": 23,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2919,
+            "excerpt": "curacy, precision, recall, and F1 score, essential for understanding the quality and reliability of AI tools underlying marketing initiatives[[5]](https://www.multimodal.dev/post/ai-kpis).\n\n- **Impressions an",
+            "line": 25,
+            "column": 149,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3366,
+            "excerpt": "isibility, efficiency, financial impact, and AI model efficacy**, providing a comprehensive view of AI tools' success in marketing contexts[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-stra",
+            "line": 29,
+            "column": 148,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 9,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest",
+      "botCount": 3,
+      "uniqueModelCount": 3,
+      "mentionsAsPercent": 0.04478,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.03797,
+        "anthropic_claude_with_search_latest": 0.04878,
+        "openai_chatgpt_with_search_latest": 0.05
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 3,
+        "openai_chatgpt_with_search_latest": 1
+      },
+      "appearanceOrder": 1,
+      "influence": 0.20661,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00229,
+        "anthropic_claude_with_search_latest": 0.00208,
+        "openai_chatgpt_with_search_latest": 0.05543
+      },
+      "weightedInfluence": 0.20661,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 9
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.20661
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 3
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00229
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00208
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.05543
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 3
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 9,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 9
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "ROI",
+      "type": "keyword",
+      "sources": [
+        {
+          "url": "marketingprofs.com/articles/2023/49017/how-to-measure-marketing-roi",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "datadab.com/blog/ai-marketing-tools-roi-measurement",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 5,
+        "anthropic_claude_with_search_latest": 4,
+        "openai_chatgpt_with_search_latest": 6
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 318,
+        "anthropic_claude_with_search_latest": 140,
+        "openai_chatgpt_with_search_latest": 2342
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 140,
+            "excerpt": "Tools\n\nWhen implementing AI tools in marketing, tracking the right metrics is crucial for measuring ROI and success. Here are the essential KPIs to monitor:\n\n## 1. **Efficiency & Productivity Metrics**",
+            "line": 3,
+            "column": 94,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 707,
+            "excerpt": "vs. traditional methods\n- **Labor cost reduction**: Calculate savings from automated tasks\n- **Tool ROI**: (Value generated - Tool cost) / Tool cost × 100\n\n**Source**: [HubSpot Marketing Metrics Guide](h",
+            "line": 15,
+            "column": 10,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1677,
+            "excerpt": "alization\n- **Personalization score**: Relevance of AI-targeted messages\n- **Segment performance**: ROI by AI-identified audience segments\n- **Predictive accuracy**: How well AI predictions match actual",
+            "line": 38,
+            "column": 28,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1803,
+            "excerpt": "nce segments\n- **Predictive accuracy**: How well AI predictions match actual outcomes\n\n### Campaign ROI\n- **Revenue attribution**: Sales directly from AI-optimized campaigns\n- **Customer acquisition cost",
+            "line": 41,
+            "column": 14,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 2342,
+            "excerpt": "n-ai-kpis-measuring-ai-success-deep-dive)).\n\n8. **Financial Impact**: Measure the overall financial ROI by comparing the costs of AI implementations with the derived benefits ([Google Cloud Blog](https:/",
+            "line": 17,
+            "column": 56,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3005,
+            "excerpt": "ional strategies for optimizing AI tool effectiveness in marketing.\n\n# CITATIONS\n\n1. [Measuring the ROI of AI in Marketing: Key Metrics and Strategies for ...](https://blog.hurree.co/measuring-the-roi-of",
+            "line": 23,
+            "column": 19,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4680,
+            "excerpt": "critical KPIs that empower marketers to decode complex data, optimize campaigns, and drive superior ROI.\n\n3. [How to Actually Measure ROI from AI Marketing Tools (Without Crying in Your Dashboard)](https",
+            "line": 29,
+            "column": 621,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4714,
+            "excerpt": "rs to decode complex data, optimize campaigns, and drive superior ROI.\n\n3. [How to Actually Measure ROI from AI Marketing Tools (Without Crying in Your Dashboard)](https://www.datadab.com/blog/ai-marketi",
+            "line": 31,
+            "column": 29,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4988,
+            "excerpt": "ve clean before/after metrics? | | **Time horizon clarity** | Are you tracking long- and short-term ROI? | | **Executive comms** | Can you clearly report AI impact? | 1. **Tool-led strategy**: Buying AI",
+            "line": 33,
+            "column": 144,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 318,
+            "excerpt": "gagement signals content relevance to the target audience[[6]](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers).\n\n- **Mentions:** Tracking brand or pr",
+            "line": 3,
+            "column": 225,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3875,
+            "excerpt": "ive-growth)[[5]](https://www.multimodal.dev/post/ai-kpis)[[6]](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers)[[9]](https://online.hbs.edu/blog/post/",
+            "line": 29,
+            "column": 657,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4713,
+            "excerpt": "-growth\n\n- MultiModal on AI KPIs: https://www.multimodal.dev/post/ai-kpis\n\n- Hurree on Measuring AI ROI in Marketing: https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategie",
+            "line": 47,
+            "column": 26,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4768,
+            "excerpt": "l.dev/post/ai-kpis\n\n- Hurree on Measuring AI ROI in Marketing: https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers\n\n- Harvard Business School on Marketing",
+            "line": 47,
+            "column": 81,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 5762,
+            "excerpt": "imodal.dev/post/ai-kpis](https://www.multimodal.dev/post/ai-kpis)\n\n6. [blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers](https://blog.hurree.co/measuring-the-r",
+            "line": 63,
+            "column": 34,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 15,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest",
+      "botCount": 3,
+      "uniqueModelCount": 3,
+      "mentionsAsPercent": 0.07463,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.06329,
+        "anthropic_claude_with_search_latest": 0.04878,
+        "openai_chatgpt_with_search_latest": 0.15
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 5,
+        "anthropic_claude_with_search_latest": 4,
+        "openai_chatgpt_with_search_latest": 6
+      },
+      "appearanceOrder": 4,
+      "influence": 0.17102,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00147,
+        "anthropic_claude_with_search_latest": 0.00179,
+        "openai_chatgpt_with_search_latest": 0.05923
+      },
+      "weightedInfluence": 0.17102,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 15
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.17102
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 4
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 5
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 6
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00147
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00179
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.05923
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 5
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 6
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 15,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 15
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "efficiency",
+      "type": "keyword",
+      "sources": [
+        {
+          "url": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "online.hbs.edu/blog/post/marketing-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 5,
+        "anthropic_claude_with_search_latest": 2,
+        "openai_chatgpt_with_search_latest": 4
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 1477,
+        "anthropic_claude_with_search_latest": 206,
+        "openai_chatgpt_with_search_latest": 778
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 206,
+            "excerpt": "metrics is crucial for measuring ROI and success. Here are the essential KPIs to monitor:\n\n## 1. **Efficiency & Productivity Metrics**\n\n### Time Savings\n- **Hours saved per task/campaign**: Measure time reduct",
+            "line": 5,
+            "column": 9,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 6361,
+            "excerpt": "---\n\nThe specific metrics you prioritize should align with your business goals, but tracking across efficiency, quality, performance, and adoption categories will give you a comprehensive view of your AI market",
+            "line": 141,
+            "column": 96,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 778,
+            "excerpt": "launching AI projects, establish benchmarks such as sales figures, customer satisfaction scores, or efficiency rates to measure progress against an initial state ([Hurree Blog](https://blog.hurree.co/measuring-",
+            "line": 5,
+            "column": 138,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1523,
+            "excerpt": "layllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth)).\n\n5. **Operational Efficiency**: Evaluate how much time and resources are saved through AI deployment, and measure improvements i",
+            "line": 11,
+            "column": 18,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3838,
+            "excerpt": "ching any AI project, capture key metrics - such as sales figures, customer satisfaction scores, or efficiency rates - to create a benchmark.\n\n2. [The AI Digital Marketing Playbook: 12 Marketing KPIs for Explos",
+            "line": 25,
+            "column": 671,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 5743,
+            "excerpt": "re the effectiveness of your gen AI? Here's the KPIs that'll help track model accuracy, operational efficiency, user engagement, and financial impact — ensuring that AI investments deliver tangible ROI. As the",
+            "line": 37,
+            "column": 122,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 1477,
+            "excerpt": "ess-deep-dive).\n\n- **Time on Site (TOS):** Tracks user engagement duration, showing satisfaction or efficiency of AI-enhanced content discovery or personalization[[3]](https://cloud.google.com/transform/gen-ai-",
+            "line": 13,
+            "column": 84,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1679,
+            "excerpt": "/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Revenue per Visit (RPV):** Measures monetization efficiency per visitor when AI influences purchasing pathways or recommendations[[3]](https://cloud.google.com",
+            "line": 15,
+            "column": 54,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2193,
+            "excerpt": "quisition (CPA):** Expense incurred to acquire a customer through AI-driven campaigns, highlighting efficiency[[4]](https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-",
+            "line": 19,
+            "column": 116,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2551,
+            "excerpt": "tplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth).\n\n- **Operational Efficiency Metrics:** Such as process times, error rates, and automation levels, reflecting AI's impact on mar",
+            "line": 23,
+            "column": 17,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3277,
+            "excerpt": "nline.hbs.edu/blog/post/marketing-kpis).\n\nThese KPIs collectively capture **engagement, visibility, efficiency, financial impact, and AI model efficacy**, providing a comprehensive view of AI tools' success in",
+            "line": 29,
+            "column": 59,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 11,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest",
+      "botCount": 3,
+      "uniqueModelCount": 3,
+      "mentionsAsPercent": 0.05473,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.06329,
+        "anthropic_claude_with_search_latest": 0.02439,
+        "openai_chatgpt_with_search_latest": 0.1
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 8,
+        "anthropic_claude_with_search_latest": 5,
+        "openai_chatgpt_with_search_latest": 4
+      },
+      "appearanceOrder": 4,
+      "influence": 0.12024,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.0012,
+        "anthropic_claude_with_search_latest": 0.0008,
+        "openai_chatgpt_with_search_latest": 0.04774
+      },
+      "weightedInfluence": 0.12024,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 11
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.12024
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 4
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 5
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0012
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0008
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.04774
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 8
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 5
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 11,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 11
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "productivity",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 219,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 219,
+            "excerpt": "rucial for measuring ROI and success. Here are the essential KPIs to monitor:\n\n## 1. **Efficiency & Productivity Metrics**\n\n### Time Savings\n- **Hours saved per task/campaign**: Measure time reduction in content",
+            "line": 5,
+            "column": 22,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 6
+      },
+      "appearanceOrder": 6,
+      "influence": 0.00037,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00037,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00037,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00037
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 6
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -131,7 +1705,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 2
+            "value": 1
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -156,7 +1730,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00037
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -181,7 +1755,1024 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
+            "value": 6
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "time savings",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 247,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 247,
+            "excerpt": "success. Here are the essential KPIs to monitor:\n\n## 1. **Efficiency & Productivity Metrics**\n\n### Time Savings\n- **Hours saved per task/campaign**: Measure time reduction in content creation, analysis, or campa",
+            "line": 7,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 7
+      },
+      "appearanceOrder": 7,
+      "influence": 0.00035,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00035,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00035,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00035
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 7
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
             "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00035
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 7
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "cost per output",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 544,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 544,
+            "excerpt": "tervention needed\n- **Speed to market**: Time from concept to campaign launch\n\n### Cost Metrics\n- **Cost per output**: Compare AI-generated content/analysis costs vs. traditional methods\n- **Labor cost reduction**:",
+            "line": 13,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 8
+      },
+      "appearanceOrder": 8,
+      "influence": 0.00033,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00033,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00033,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00033
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 8
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00033
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 8
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "labor cost reduction",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 635,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 635,
+            "excerpt": "rics\n- **Cost per output**: Compare AI-generated content/analysis costs vs. traditional methods\n- **Labor cost reduction**: Calculate savings from automated tasks\n- **Tool ROI**: (Value generated - Tool cost) / Tool cost",
+            "line": 14,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 9
+      },
+      "appearanceOrder": 9,
+      "influence": 0.00031,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00031,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00031,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00031
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 9
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00031
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 9
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "tool ROI",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 702,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 702,
+            "excerpt": "osts vs. traditional methods\n- **Labor cost reduction**: Calculate savings from automated tasks\n- **Tool ROI**: (Value generated - Tool cost) / Tool cost × 100\n\n**Source**: [HubSpot Marketing Metrics Guide](h",
+            "line": 15,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 10
+      },
+      "appearanceOrder": 10,
+      "influence": 0.0003,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0003,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0003,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0003
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 10
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0003
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 10
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "engagement rate",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 2,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 98,
+        "anthropic_claude_with_search_latest": 930,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 930,
+            "excerpt": "com/marketing/metrics)\n\n## 2. **Content Performance Metrics**\n\n### AI-Generated Content Quality\n- **Engagement rate**: Likes, shares, comments on AI-assisted content\n- **Click-through rate (CTR)**: Performance of AI",
+            "line": 22,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3849,
+            "excerpt": "hrefs](https://ahrefs.com/)\n\n## 7. **Social Media Metrics**\n\n### AI-Assisted Social Performance\n- **Engagement rate**: Interactions per follower on AI-scheduled posts\n- **Best time to post accuracy**: How AI timing",
+            "line": 87,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 98,
+            "excerpt": "To measure success in AI tools for marketers, the key **metrics and KPIs** to track include:\n\n- **Engagement Rate:** Measures how users interact with AI-generated marketing content (e.g., social posts, emails). Hi",
+            "line": 3,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 3,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest",
+      "botCount": 2,
+      "uniqueModelCount": 2,
+      "mentionsAsPercent": 0.01493,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.01266,
+        "anthropic_claude_with_search_latest": 0.02439,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 4,
+        "anthropic_claude_with_search_latest": 11
+      },
+      "appearanceOrder": 4,
+      "influence": 0.00178,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00033,
+        "anthropic_claude_with_search_latest": 0.00058,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00178,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00178
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 4
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00033
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00058
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 11
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 3,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 3
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "click-through rate (CTR)",
+      "type": "keyword",
+      "sources": [
+        {
+          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 1154,
+        "anthropic_claude_with_search_latest": 1000,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 1000,
+            "excerpt": "Generated Content Quality\n- **Engagement rate**: Likes, shares, comments on AI-assisted content\n- **Click-through rate (CTR)**: Performance of AI-written headlines/copy\n- **Conversion rate**: Sales or leads from AI-generated",
+            "line": 23,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 1154,
+            "excerpt": "ttps://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Click-through Rate (CTR):** Indicates how often users click on AI-recommended products, content, or ads, reflecting recommend",
+            "line": 11,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 2,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest",
+      "botCount": 2,
+      "uniqueModelCount": 2,
+      "mentionsAsPercent": 0.00995,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.01266,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 7,
+        "anthropic_claude_with_search_latest": 12
+      },
+      "appearanceOrder": 7,
+      "influence": 0.00109,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00025,
+        "anthropic_claude_with_search_latest": 0.00028,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00109,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00109
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 7
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00025
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00028
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 7
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 12
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -202,3022 +2793,95 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://support.google.com/analytics/answer/9355949"
+      "volatility": 0
     },
     {
-      "value": "Tableau",
-      "type": "product",
-      "sources": [
-        {
-          "url": "tableau.com",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5261,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5261,
-            "excerpt": "**[Google Analytics 4](https://analytics.google.com/)**: Web analytics and conversion tracking\n- **[Tableau](https://www.tableau.com/)**: Data visualization and dashboard creation\n- **[Databox](https://datab",
-            "line": 122,
-            "column": 6,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.125,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.125,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 2
-      },
-      "appearanceOrder": 2,
-      "influence": 0.31546,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.31546,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.31546
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://www.tableau.com/"
-    },
-    {
-      "value": "Databox",
-      "type": "product",
-      "sources": [
-        {
-          "url": "databox.com",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5346,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5346,
-            "excerpt": "tracking\n- **[Tableau](https://www.tableau.com/)**: Data visualization and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Produc",
-            "line": 123,
-            "column": 6,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.125,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.125,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 3
-      },
-      "appearanceOrder": 3,
-      "influence": 0.25,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.25,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.25
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 3
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 3
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://databox.com/"
-    },
-    {
-      "value": "Mixpanel",
-      "type": "product",
-      "sources": [
-        {
-          "url": "mixpanel.com",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5411,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5411,
-            "excerpt": "zation and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n- **[Supermetrics](https://supermetrics.com/)",
-            "line": 124,
-            "column": 6,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.125,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.125,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 4
-      },
-      "appearanceOrder": 4,
-      "influence": 0.21534,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.21534,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.21534
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 4
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://mixpanel.com/"
-    },
-    {
-      "value": "Supermetrics",
-      "type": "product",
-      "sources": [
-        {
-          "url": "supermetrics.com",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5479,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5479,
-            "excerpt": "KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n- **[Supermetrics](https://supermetrics.com/)**: Marketing data aggregation\n- **[Looker Studio (formerly Data Studio)",
-            "line": 125,
-            "column": 6,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.125,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.125,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 5
-      },
-      "appearanceOrder": 5,
-      "influence": 0.19343,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.19343,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.19343
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 5
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 5
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://supermetrics.com/"
-    },
-    {
-      "value": "Looker Studio",
-      "type": "product",
-      "sources": [
-        {
-          "url": "lookerstudio.google.com",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5555,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5555,
-            "excerpt": "and user analytics\n- **[Supermetrics](https://supermetrics.com/)**: Marketing data aggregation\n- **[Looker Studio (formerly Data Studio)](https://lookerstudio.google.com/)**: Free reporting platform\n- **[Klipfolio",
-            "line": 126,
-            "column": 6,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.125,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.125,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 6
-      },
-      "appearanceOrder": 6,
-      "influence": 0.1781,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.1781,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.1781
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 6
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 6
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://lookerstudio.google.com/"
-    },
-    {
-      "value": "Klipfolio",
-      "type": "product",
-      "sources": [
-        {
-          "url": "klipfolio.com",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5659,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5659,
-            "excerpt": "er Studio (formerly Data Studio)](https://lookerstudio.google.com/)**: Free reporting platform\n- **[Klipfolio](https://www.klipfolio.com/)**: Real-time dashboard tool\n\n## Best Practices for Measurement\n\n1. **E",
-            "line": 127,
-            "column": 6,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.125,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.125,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 7
-      },
-      "appearanceOrder": 7,
-      "influence": 0.16667,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.16667,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.16667
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 7
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 7
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://www.klipfolio.com/"
-    }
-  ],
-  "organizations": [
-    {
-      "value": "HubSpot",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "blog.hubspot.com/marketing/metrics",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 776,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 776,
-            "excerpt": "from automated tasks\n- **Tool ROI**: (Value generated - Tool cost) / Tool cost × 100\n\n**Source**: [HubSpot Marketing Metrics Guide](https://blog.hubspot.com/marketing/metrics)\n\n## 2. **Content Performance M",
-            "line": 17,
-            "column": 14,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.02703,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.11111,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 1
-      },
-      "appearanceOrder": 1,
-      "influence": 0.39688,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.39688,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.39688
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://blog.hubspot.com/marketing/metrics"
-    },
-    {
-      "value": "Content Marketing Institute",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "contentmarketinginstitute.com/articles/metrics-measure-content-marketing",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 1394,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 1394,
-            "excerpt": "ted with AI assistance\n- **Publication frequency**: Consistency of content production\n\n**Source**: [Content Marketing Institute Metrics](https://contentmarketinginstitute.com/articles/metrics-measure-content-marketing/)\n\n## 3.",
-            "line": 32,
-            "column": 14,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.02703,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.11111,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 2
-      },
-      "appearanceOrder": 2,
-      "influence": 0.25042,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.25042,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.25042
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://contentmarketinginstitute.com/articles/metrics-measure-content-marketing/"
-    },
-    {
-      "value": "Google",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "support.google.com/analytics/answer/9355949",
-          "bots": "anthropic_claude_with_search_latest"
-        },
-        {
-          "url": "search.google.com/search-console/about",
-          "bots": "anthropic_claude_with_search_latest"
-        },
-        {
-          "url": "semrush.com",
-          "bots": "anthropic_claude_with_search_latest"
-        },
-        {
-          "url": "analytics.google.com",
-          "bots": "anthropic_claude_with_search_latest"
-        },
-        {
-          "url": "lookerstudio.google.com",
-          "bots": "anthropic_claude_with_search_latest"
-        },
-        {
-          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
-          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 7,
-        "anthropic_claude_with_search_latest": 3,
-        "openai_chatgpt_with_search_latest": 4
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 1327,
-        "anthropic_claude_with_search_latest": 2045,
-        "openai_chatgpt_with_search_latest": 1659
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 2045,
-            "excerpt": "ough AI campaigns\n- **Return on ad spend (ROAS)**: Revenue generated per dollar spent\n\n**Source**: [Google Analytics 4 Documentation](https://support.google.com/analytics/answer/9355949)\n\n## 4. **Customer E",
-            "line": 46,
-            "column": 14,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3638,
-            "excerpt": "edibility improvements\n- **Featured snippets earned**: SERP features captured\n\n**Tools to track**: [Google Search Console](https://search.google.com/search-console/about), [SEMrush](https://www.semrush.com/",
-            "line": 82,
-            "column": 22,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 5164,
-            "excerpt": "novation index**: New capabilities deployed vs. industry\n\n## Tools for Tracking These Metrics\n\n- **[Google Analytics 4](https://analytics.google.com/)**: Web analytics and conversion tracking\n- **[Tableau](",
-            "line": 121,
-            "column": 6,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "appearanceOrder": 1659,
-            "excerpt": "and resources are saved through AI deployment, and measure improvements in operational processes ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\n6. **",
-            "line": 11,
-            "column": 154,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 2186,
-            "excerpt": "ls can provide insights into which features are most effective and identify areas for enhancement ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\n8. **",
-            "line": 15,
-            "column": 167,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 2419,
-            "excerpt": "the overall financial ROI by comparing the costs of AI implementations with the derived benefits ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\nThese",
-            "line": 17,
-            "column": 133,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 5523,
-            "excerpt": "g a changelog of your AI usage and model updates.\n\n4. [KPIs for gen AI: Measuring your AI success | Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)\n\n#### Lo",
-            "line": 35,
-            "column": 50,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 1327,
-            "excerpt": "nded products, content, or ads, reflecting recommendation or targeting relevance[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Time on Site (TOS):** Tracks user e",
-            "line": 11,
-            "column": 178,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 1559,
-            "excerpt": "g satisfaction or efficiency of AI-enhanced content discovery or personalization[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Revenue per Visit (RPV):** Measures",
-            "line": 13,
-            "column": 166,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 1779,
-            "excerpt": "efficiency per visitor when AI influences purchasing pathways or recommendations[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Conversion Rate:** Percentage of us",
-            "line": 15,
-            "column": 154,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3615,
-            "excerpt": "s://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)[[4]](https://blog.brandsatplayllc.com/blo",
-            "line": 29,
-            "column": 397,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4369,
-            "excerpt": "initiatives: https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/\n\n- Google Cloud on Generative AI KPIs: https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-de",
-            "line": 41,
-            "column": 3,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
-      "mentions": 14,
-      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest",
-      "botCount": 3,
-      "uniqueModelCount": 3,
-      "mentionsAsPercent": 0.37838,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.38889,
-        "anthropic_claude_with_search_latest": 0.33333,
-        "openai_chatgpt_with_search_latest": 0.4
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 3,
-        "perplexity_with_search_latest": 2,
-        "openai_chatgpt_with_search_latest": 3
-      },
-      "appearanceOrder": 2.67,
-      "influence": 0.93955,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0.26439,
-        "anthropic_claude_with_search_latest": 0.07143,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "weightedInfluence": 0.93955,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 14
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.93955
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2.67
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 3
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 7
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 3
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.26439
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.07143
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 3
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 3
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 14,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 14
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://support.google.com/analytics/answer/9355949"
-    },
-    {
-      "value": "Zendesk",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "zendesk.com/blog/customer-service-metrics",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 2546,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 2546,
-            "excerpt": "tions handled entirely by AI\n- **Escalation rate**: How often human agents are needed\n\n**Source**: [Zendesk AI Metrics Guide](https://www.zendesk.com/blog/customer-service-metrics/)\n\n### Personalization Impa",
-            "line": 57,
-            "column": 14,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.02703,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.11111,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 4
-      },
-      "appearanceOrder": 4,
-      "influence": 0.17091,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.17091,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.17091
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 4
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://www.zendesk.com/blog/customer-service-metrics/"
-    },
-    {
-      "value": "Pendo",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "pendo.io/product",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 4821,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 4821,
-            "excerpt": "ion**: Team proficiency with tools\n- **User satisfaction**: Internal NPS for AI tools\n\n**Source**: [Pendo Product Analytics](https://www.pendo.io/product/)\n\n## 10. **Competitive Metrics**\n\n### Market Posit",
-            "line": 110,
-            "column": 14,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.02703,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.11111,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 7
-      },
-      "appearanceOrder": 7,
-      "influence": 0.13229,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.13229,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.13229
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 7
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 7
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://www.pendo.io/product/"
-    },
-    {
-      "value": "Gartner",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "gartner.com/en/marketing/topics/marketing-analytics",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 3219,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 3219,
-            "excerpt": "orts/insights\n- **Anomaly detection rate**: AI's ability to identify unusual patterns\n\n**Source**: [Gartner Marketing Analytics](https://www.gartner.com/en/marketing/topics/marketing-analytics)\n\n## 6. **SEO",
-            "line": 72,
-            "column": 14,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.02703,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.11111,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 5
-      },
-      "appearanceOrder": 5,
-      "influence": 0.15352,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.15352,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.15352
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 5
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 5
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://www.gartner.com/en/marketing/topics/marketing-analytics"
-    },
-    {
-      "value": "Sprout Social",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "sproutsocial.com/insights/social-media-metrics",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 4125,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 4125,
-            "excerpt": "ment trends from AI monitoring\n- **Share of voice**: Brand visibility vs. competitors\n\n**Source**: [Sprout Social Metrics Guide](https://sproutsocial.com/insights/social-media-metrics/)\n\n## 8. **Quality Assurance",
-            "line": 92,
-            "column": 14,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.02703,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.11111,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 6
-      },
-      "appearanceOrder": 6,
-      "influence": 0.14135,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.14135,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.14135
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 6
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 6
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://sproutsocial.com/insights/social-media-metrics/"
-    },
-    {
-      "value": "Brands at Play",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
-          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 2
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 4486,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": 1108
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "appearanceOrder": 1108,
-            "excerpt": "ustomer interactions and engagement can help assess AI's impact on enhancing customer experiences ([Brands at Play Blog](https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive",
-            "line": 7,
-            "column": 149,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 1380,
-            "excerpt": "ly impacted by AI implementations can provide clear insights into the financial benefits realized ([Brands at Play Blog](https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive",
-            "line": 9,
-            "column": 147,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 4486,
-            "excerpt": "enerative AI KPIs: https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive\n\n- Brands At Play on Marketing KPIs: https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-",
-            "line": 43,
-            "column": 3,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
-      "mentions": 3,
-      "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
-      "botCount": 2,
-      "uniqueModelCount": 2,
-      "mentionsAsPercent": 0.08108,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.05556,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0.2
-      },
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 4,
-        "openai_chatgpt_with_search_latest": 2
-      },
-      "appearanceOrder": 3,
-      "influence": 0.44366,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0.04085,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "weightedInfluence": 0.44366,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 3
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.44366
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 3
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.04085
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 3,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 3
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth"
-    },
-    {
-      "value": "Hurree",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
-          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest"
-        },
-        {
-          "url": "blog.hurree.co/how-to-create-smart-kpis",
-          "bots": "openai_chatgpt_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 5,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 2
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 294,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": 523
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "appearanceOrder": 523,
-            "excerpt": "ives support your organization's overall strategy and provide a framework for success measurement ([Hurree Blog](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-ma",
-            "line": 3,
-            "column": 289,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 842,
-            "excerpt": "s, customer satisfaction scores, or efficiency rates to measure progress against an initial state ([Hurree Blog](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-ma",
-            "line": 5,
-            "column": 202,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 294,
-            "excerpt": "posts, emails). High engagement signals content relevance to the target audience[[6]](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers).\n\n- **Mentions:**",
-            "line": 3,
-            "column": 201,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3851,
-            "excerpt": "ybook-12-kpis-for-explosive-growth)[[5]](https://www.multimodal.dev/post/ai-kpis)[[6]](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers)[[9]](https://onli",
-            "line": 29,
-            "column": 633,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4690,
-            "excerpt": "k-12-kpis-for-explosive-growth\n\n- MultiModal on AI KPIs: https://www.multimodal.dev/post/ai-kpis\n\n- Hurree on Measuring AI ROI in Marketing: https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-m",
-            "line": 47,
-            "column": 3,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4744,
-            "excerpt": "s: https://www.multimodal.dev/post/ai-kpis\n\n- Hurree on Measuring AI ROI in Marketing: https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers\n\n- Harvard Busines",
-            "line": 47,
-            "column": 57,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 5738,
-            "excerpt": "ve-growth)\n\n5. [www.multimodal.dev/post/ai-kpis](https://www.multimodal.dev/post/ai-kpis)\n\n6. [blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers](https://blog.hurr",
-            "line": 63,
-            "column": 10,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
-      "mentions": 7,
-      "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
-      "botCount": 2,
-      "uniqueModelCount": 2,
-      "mentionsAsPercent": 0.18919,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.27778,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0.2
-      },
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "appearanceOrder": 1,
-      "influence": 1,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0.29931,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "weightedInfluence": 1,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 7
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 5
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.29931
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 7,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 7
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers"
-    },
-    {
-      "value": "MultiModal",
-      "type": "organization",
-      "sources": [
-        {
-          "url": "multimodal.dev/post/ai-kpis",
-          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest"
-        },
-        {
-          "url": "datadab.com/blog/ai-marketing-tools-roi-measurement",
-          "bots": "openai_chatgpt_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 5,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 2
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 2978,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": 1959
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "appearanceOrder": 1959,
-            "excerpt": "how accurately AI models predict outcomes and how reliably they perform under various conditions ([Multimodal Blog](https://www.multimodal.dev/post/ai-kpis)).\n\n7. **User Engagement**: Understanding user intera",
-            "line": 13,
-            "column": 200,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 2832,
-            "excerpt": "like the [Datadab Blog](https://www.datadab.com/blog/ai-marketing-tools-roi-measurement/) and the [Multimodal List](https://www.multimodal.dev/post/ai-kpis) may offer additional strategies for optimizing AI to",
-            "line": 19,
-            "column": 313,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 2978,
-            "excerpt": "rstanding the quality and reliability of AI tools underlying marketing initiatives[[5]](https://www.multimodal.dev/post/ai-kpis).\n\n- **Impressions and Search Engine Rankings:** Traditional digital marketing KPI",
-            "line": 25,
-            "column": 208,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3804,
-            "excerpt": "atplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth)[[5]](https://www.multimodal.dev/post/ai-kpis)[[6]](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-",
-            "line": 29,
-            "column": 586,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4624,
-            "excerpt": "s://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth\n\n- MultiModal on AI KPIs: https://www.multimodal.dev/post/ai-kpis\n\n- Hurree on Measuring AI ROI in Marketing: htt",
-            "line": 45,
-            "column": 3,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4659,
-            "excerpt": "he-ai-digital-marketing-playbook-12-kpis-for-explosive-growth\n\n- MultiModal on AI KPIs: https://www.multimodal.dev/post/ai-kpis\n\n- Hurree on Measuring AI ROI in Marketing: https://blog.hurree.co/measuring-the-r",
-            "line": 45,
-            "column": 38,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 5658,
-            "excerpt": "g.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth)\n\n5. [www.multimodal.dev/post/ai-kpis](https://www.multimodal.dev/post/ai-kpis)\n\n6. [blog.hurree.co/measuring-the-roi-of",
-            "line": 61,
-            "column": 9,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
-      "mentions": 7,
-      "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
-      "botCount": 2,
-      "uniqueModelCount": 2,
-      "mentionsAsPercent": 0.18919,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.27778,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0.2
-      },
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 3,
-        "openai_chatgpt_with_search_latest": 4
-      },
-      "appearanceOrder": 3.5,
-      "influence": 0.45449,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0.34751,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "weightedInfluence": 0.45449,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 7
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.45449
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 3.5
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 5
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.34751
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 3
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 7,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 7
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0,
-      "link": "https://www.multimodal.dev/post/ai-kpis"
-    }
-  ],
-  "persons": [],
-  "keywords": [
-    {
-      "value": "Efficiency metrics",
+      "value": "conversion rate",
       "type": "keyword",
       "sources": [
         {
-          "url": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
-          "bots": "perplexity_with_search_latest"
+          "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
         }
       ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
         "openai_chatgpt_with_search_latest": 0
       },
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 2551,
-        "anthropic_claude_with_search_latest": -1,
+        "perplexity_with_search_latest": 1850,
+        "anthropic_claude_with_search_latest": 1073,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 1073,
+            "excerpt": "on AI-assisted content\n- **Click-through rate (CTR)**: Performance of AI-written headlines/copy\n- **Conversion rate**: Sales or leads from AI-generated content\n- **Bounce rate**: User retention on AI-created pages\n-",
+            "line": 24,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
         "openai_chatgpt_with_search_latest": [],
         "perplexity_with_search_latest": [
           {
-            "appearanceOrder": 2551,
-            "excerpt": "tplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth).\n\n- **Operational Efficiency Metrics:** Such as process times, error rates, and automation levels, reflecting AI's impact on marketing o",
-            "line": 23,
-            "column": 17,
+            "appearanceOrder": 1850,
+            "excerpt": "endations[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Conversion Rate:** Percentage of users completing desired actions (purchases, sign-ups) driven by AI-powered market",
+            "line": 17,
+            "column": 5,
             "captureDate": "2025-10-17"
           }
         ]
       },
-      "mentions": 1,
-      "bots": "perplexity_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
+      "mentions": 2,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest",
+      "botCount": 2,
+      "uniqueModelCount": 2,
+      "mentionsAsPercent": 0.00995,
       "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.25,
-        "anthropic_claude_with_search_latest": 0,
+        "perplexity_with_search_latest": 0.01266,
+        "anthropic_claude_with_search_latest": 0.0122,
         "openai_chatgpt_with_search_latest": 0
       },
       "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 4
+        "perplexity_with_search_latest": 9,
+        "anthropic_claude_with_search_latest": 13
       },
-      "appearanceOrder": 4,
-      "influence": 0.2475,
+      "appearanceOrder": 9,
+      "influence": 0.00102,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
+        "perplexity_with_search_latest": 0.00023,
+        "anthropic_claude_with_search_latest": 0.00027,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.2475,
+      "weightedInfluence": 0.00102,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 1
+          "value": 2
         }
       ],
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.2475
+          "value": 0.00102
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 4
+          "value": 9
         }
       ],
       "uniqueModelCountTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 1
+          "value": 2
         }
       ],
       "mentionsTrend": 999,
@@ -3226,7 +2890,7 @@ window.AppData20251017 = {
       "uniqueModelCountTrend": 999,
       "mentionsByModelTrend": {
         "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
         "openai_chatgpt_with_search_latest": -9999
       },
       "mentionsByModelTrendVals": {
@@ -3239,7 +2903,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0
+            "value": 1
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -3251,20 +2915,20 @@ window.AppData20251017 = {
       },
       "influenceByModelTrend": {
         "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
         "openai_chatgpt_with_search_latest": -9999
       },
       "influenceByModelTrendVals": {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00023
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0
+            "value": 0.00027
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -3276,20 +2940,20 @@ window.AppData20251017 = {
       },
       "appearanceOrderByModelTrend": {
         "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
         "openai_chatgpt_with_search_latest": -9999
       },
       "appearanceOrderByModelTrendVals": {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 4
+            "value": 9
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": -1
+            "value": 13
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -3300,12 +2964,12 @@ window.AppData20251017 = {
         ]
       },
       "previous_mentions": 0,
-      "mentions_change": 1,
+      "mentions_change": 2,
       "changePercent": 100,
       "mentionsHistory": [
         {
           "date": "2025-10-17",
-          "mentions": 1
+          "mentions": 2
         }
       ],
       "lastSeen": "2025-10-17",
@@ -3313,7 +2977,7 @@ window.AppData20251017 = {
       "volatility": 0
     },
     {
-      "value": "Cost metrics",
+      "value": "bounce rate",
       "type": "keyword",
       "sources": [],
       "mentionsByModel": {
@@ -3323,15 +2987,15 @@ window.AppData20251017 = {
       },
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 527,
+        "anthropic_claude_with_search_latest": 1137,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
         "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 527,
-            "excerpt": "tes vs. manual intervention needed\n- **Speed to market**: Time from concept to campaign launch\n\n### Cost Metrics\n- **Cost per output**: Compare AI-generated content/analysis costs vs. traditional methods\n- **Labo",
-            "line": 12,
+            "appearanceOrder": 1137,
+            "excerpt": "ce of AI-written headlines/copy\n- **Conversion rate**: Sales or leads from AI-generated content\n- **Bounce rate**: User retention on AI-created pages\n- **Time on page**: Engagement depth\n\n### Content Volume\n- **",
+            "line": 25,
             "column": 5,
             "captureDate": "2025-10-17"
           }
@@ -3343,1003 +3007,23 @@ window.AppData20251017 = {
       "bots": "anthropic_claude_with_search_latest",
       "botCount": 1,
       "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
+      "mentionsAsPercent": 0.00498,
       "mentionsAsPercentByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 1
-      },
-      "appearanceOrder": 1,
-      "influence": 0.57466,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.57466,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.57466
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Content performance metrics",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 862,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 862,
-            "excerpt": "**Source**: [HubSpot Marketing Metrics Guide](https://blog.hubspot.com/marketing/metrics)\n\n## 2. **Content Performance Metrics**\n\n### AI-Generated Content Quality\n- **Engagement rate**: Likes, shares, comments on AI-assisted c",
-            "line": 19,
-            "column": 9,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 2
-      },
-      "appearanceOrder": 2,
-      "influence": 0.36257,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.36257,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.36257
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Campaign performance metrics",
-      "type": "keyword",
-      "sources": [
-        {
-          "url": "contentmarketinginstitute.com/articles/metrics-measure-content-marketing",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 1523,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 1523,
-            "excerpt": "etrics](https://contentmarketinginstitute.com/articles/metrics-measure-content-marketing/)\n\n## 3. **Campaign Performance Metrics**\n\n### Targeting & Personalization\n- **Personalization score**: Relevance of AI-targeted messages\n-",
-            "line": 34,
-            "column": 9,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 5
-      },
-      "appearanceOrder": 5,
-      "influence": 0.22231,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.22231,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.22231
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 5
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 5
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Customer experience metrics",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 2141,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 2141,
-            "excerpt": "*: [Google Analytics 4 Documentation](https://support.google.com/analytics/answer/9355949)\n\n## 4. **Customer Experience Metrics**\n\n### AI Chatbot/Assistant Performance\n- **First response time**: Speed of initial AI response\n- *",
-            "line": 48,
-            "column": 9,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 11
-      },
-      "appearanceOrder": 11,
-      "influence": 0.1603,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.1603,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.1603
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 11
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 11
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Data & insights metrics",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 2878,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 2878,
-            "excerpt": "ions\n- **Customer lifetime value (CLV)**: Long-term value from AI-personalized experiences\n\n## 5. **Data & Insights Metrics**\n\n### Analysis Quality\n- **Prediction accuracy**: How accurate AI forecasts are vs. actual results",
-            "line": 64,
-            "column": 9,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 12
-      },
-      "appearanceOrder": 12,
-      "influence": 0.1553,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.1553,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.1553
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 12
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 12
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "SEO performance metrics",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 0,
-      "bots": "",
-      "botCount": 0,
-      "uniqueModelCount": 0,
-      "mentionsAsPercent": 0,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {},
-      "appearanceOrder": -1,
-      "influence": 0,
-      "influenceByModel": {},
-      "weightedInfluence": 0,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": -1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "mentionsTrend": -9999,
-      "influenceTrend": -9999,
-      "appearanceOrderTrend": -9999,
-      "uniqueModelCountTrend": -9999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 0,
-      "changePercent": 0,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 0
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Social media metrics",
-      "type": "keyword",
-      "sources": [
-        {
-          "url": "ahrefs.com",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 3786,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 3786,
-            "excerpt": "/search-console/about), [SEMrush](https://www.semrush.com/), [Ahrefs](https://ahrefs.com/)\n\n## 7. **Social Media Metrics**\n\n### AI-Assisted Social Performance\n- **Engagement rate**: Interactions per follower on AI-schedu",
-            "line": 84,
-            "column": 9,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
+        "anthropic_claude_with_search_latest": 0.0122,
         "openai_chatgpt_with_search_latest": 0
       },
       "appearanceOrderByModel": {
         "anthropic_claude_with_search_latest": 14
       },
       "appearanceOrder": 14,
-      "influence": 0.14709,
+      "influence": 0.00027,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00027,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.14709,
+      "weightedInfluence": 0.00027,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -4349,7 +3033,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.14709
+          "value": 0.00027
         }
       ],
       "appearanceOrderTrendVals": [
@@ -4408,7 +3092,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00027
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -4457,14 +3141,9 @@ window.AppData20251017 = {
       "volatility": 0
     },
     {
-      "value": "Quality assurance metrics",
+      "value": "time on page",
       "type": "keyword",
-      "sources": [
-        {
-          "url": "sproutsocial.com/insights/social-media-metrics",
-          "bots": "anthropic_claude_with_search_latest"
-        }
-      ],
+      "sources": [],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -4472,16 +3151,16 @@ window.AppData20251017 = {
       },
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 4220,
+        "anthropic_claude_with_search_latest": 1191,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
         "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 4220,
-            "excerpt": "**: [Sprout Social Metrics Guide](https://sproutsocial.com/insights/social-media-metrics/)\n\n## 8. **Quality Assurance Metrics**\n\n### Accuracy & Reliability\n- **Error rate**: Mistakes in AI-generated outputs\n- **Brand consiste",
-            "line": 94,
-            "column": 9,
+            "appearanceOrder": 1191,
+            "excerpt": "Sales or leads from AI-generated content\n- **Bounce rate**: User retention on AI-created pages\n- **Time on page**: Engagement depth\n\n### Content Volume\n- **Content output volume**: Number of pieces created with",
+            "line": 26,
+            "column": 5,
             "captureDate": "2025-10-17"
           }
         ],
@@ -4492,23 +3171,23 @@ window.AppData20251017 = {
       "bots": "anthropic_claude_with_search_latest",
       "botCount": 1,
       "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
+      "mentionsAsPercent": 0.00498,
       "mentionsAsPercentByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
+        "anthropic_claude_with_search_latest": 0.0122,
         "openai_chatgpt_with_search_latest": 0
       },
       "appearanceOrderByModel": {
         "anthropic_claude_with_search_latest": 15
       },
       "appearanceOrder": 15,
-      "influence": 0.14366,
+      "influence": 0.00026,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00026,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.14366,
+      "weightedInfluence": 0.00026,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -4518,7 +3197,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.14366
+          "value": 0.00026
         }
       ],
       "appearanceOrderTrendVals": [
@@ -4577,7 +3256,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00026
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -4626,157 +3305,7 @@ window.AppData20251017 = {
       "volatility": 0
     },
     {
-      "value": "Adoption metrics",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 0,
-      "bots": "",
-      "botCount": 0,
-      "uniqueModelCount": 0,
-      "mentionsAsPercent": 0,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {},
-      "appearanceOrder": -1,
-      "influence": 0,
-      "influenceByModel": {},
-      "weightedInfluence": 0,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": -1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "mentionsTrend": -9999,
-      "influenceTrend": -9999,
-      "appearanceOrderTrend": -9999,
-      "uniqueModelCountTrend": -9999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 0,
-      "changePercent": 0,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 0
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Market position",
+      "value": "content output volume",
       "type": "keyword",
       "sources": [],
       "mentionsByModel": {
@@ -4786,15 +3315,15 @@ window.AppData20251017 = {
       },
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 4914,
+        "anthropic_claude_with_search_latest": 1248,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
         "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 4914,
-            "excerpt": "ce**: [Pendo Product Analytics](https://www.pendo.io/product/)\n\n## 10. **Competitive Metrics**\n\n### Market Position\n- **Market share changes**: Growth compared to competitors\n- **Competitive response time**: Speed a",
-            "line": 114,
+            "appearanceOrder": 1248,
+            "excerpt": "**: User retention on AI-created pages\n- **Time on page**: Engagement depth\n\n### Content Volume\n- **Content output volume**: Number of pieces created with AI assistance\n- **Publication frequency**: Consistency of content",
+            "line": 29,
             "column": 5,
             "captureDate": "2025-10-17"
           }
@@ -4806,1023 +3335,23 @@ window.AppData20251017 = {
       "bots": "anthropic_claude_with_search_latest",
       "botCount": 1,
       "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
+      "mentionsAsPercent": 0.00498,
       "mentionsAsPercentByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 17
-      },
-      "appearanceOrder": 17,
-      "influence": 0.13782,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.13782,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.13782
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 17
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 17
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Revenue attribution",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 1811,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 1811,
-            "excerpt": "ents\n- **Predictive accuracy**: How well AI predictions match actual outcomes\n\n### Campaign ROI\n- **Revenue attribution**: Sales directly from AI-optimized campaigns\n- **Customer acquisition cost (CAC)**: Cost to acquir",
-            "line": 42,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 8
-      },
-      "appearanceOrder": 8,
-      "influence": 0.18128,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.18128,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.18128
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 8
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 8
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Customer acquisition cost",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 1881,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 1881,
-            "excerpt": "utcomes\n\n### Campaign ROI\n- **Revenue attribution**: Sales directly from AI-optimized campaigns\n- **Customer acquisition cost (CAC)**: Cost to acquire customers through AI campaigns\n- **Return on ad spend (ROAS)**: Revenue ge",
-            "line": 43,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 9
-      },
-      "appearanceOrder": 9,
-      "influence": 0.17299,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.17299,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.17299
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 9
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 9
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Return on ad spend",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 1967,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 1967,
-            "excerpt": "campaigns\n- **Customer acquisition cost (CAC)**: Cost to acquire customers through AI campaigns\n- **Return on ad spend (ROAS)**: Revenue generated per dollar spent\n\n**Source**: [Google Analytics 4 Documentation](https:",
-            "line": 44,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 10
-      },
-      "appearanceOrder": 10,
-      "influence": 0.16611,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.16611,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.16611
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 10
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 10
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Engagement rate",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 2,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 98,
-        "anthropic_claude_with_search_latest": 930,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 930,
-            "excerpt": "com/marketing/metrics)\n\n## 2. **Content Performance Metrics**\n\n### AI-Generated Content Quality\n- **Engagement rate**: Likes, shares, comments on AI-assisted content\n- **Click-through rate (CTR)**: Performance of AI",
-            "line": 22,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3849,
-            "excerpt": "hrefs](https://ahrefs.com/)\n\n## 7. **Social Media Metrics**\n\n### AI-Assisted Social Performance\n- **Engagement rate**: Interactions per follower on AI-scheduled posts\n- **Best time to post accuracy**: How AI timing",
-            "line": 87,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 98,
-            "excerpt": "To measure success in AI tools for marketers, the key **metrics and KPIs** to track include:\n\n- **Engagement Rate:** Measures how users interact with AI-generated marketing content (e.g., social posts, emails). Hi",
-            "line": 3,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
-      "mentions": 3,
-      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest",
-      "botCount": 2,
-      "uniqueModelCount": 2,
-      "mentionsAsPercent": 0.12,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.25,
-        "anthropic_claude_with_search_latest": 0.10526,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 3
-      },
-      "appearanceOrder": 2,
-      "influence": 0.57466,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0.17045,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.57466,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 3
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.57466
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.17045
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 3
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 3,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 3
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Predictive accuracy",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 1720,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 1720,
-            "excerpt": "vance of AI-targeted messages\n- **Segment performance**: ROI by AI-identified audience segments\n- **Predictive accuracy**: How well AI predictions match actual outcomes\n\n### Campaign ROI\n- **Revenue attribution**: Sales",
-            "line": 39,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 7
-      },
-      "appearanceOrder": 7,
-      "influence": 0.19155,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.19155,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.19155
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 7
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 7
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "User satisfaction",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 4760,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 4760,
-            "excerpt": "n**: Which AI capabilities are most used\n- **Training completion**: Team proficiency with tools\n- **User satisfaction**: Internal NPS for AI tools\n\n**Source**: [Pendo Product Analytics](https://www.pendo.io/product/)",
-            "line": 108,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
+        "anthropic_claude_with_search_latest": 0.0122,
         "openai_chatgpt_with_search_latest": 0
       },
       "appearanceOrderByModel": {
         "anthropic_claude_with_search_latest": 16
       },
       "appearanceOrder": 16,
-      "influence": 0.14059,
+      "influence": 0.00025,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00025,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.14059,
+      "weightedInfluence": 0.00025,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -5832,7 +3361,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.14059
+          "value": 0.00025
         }
       ],
       "appearanceOrderTrendVals": [
@@ -5891,7 +3420,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00025
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -5940,7 +3469,171 @@ window.AppData20251017 = {
       "volatility": 0
     },
     {
-      "value": "Personalization score",
+      "value": "publication frequency",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 1321,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 1321,
+            "excerpt": "th\n\n### Content Volume\n- **Content output volume**: Number of pieces created with AI assistance\n- **Publication frequency**: Consistency of content production\n\n**Source**: [Content Marketing Institute Metrics](https://con",
+            "line": 30,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 17
+      },
+      "appearanceOrder": 17,
+      "influence": 0.00025,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00025,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00025,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00025
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 17
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00025
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 17
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "personalization score",
       "type": "keyword",
       "sources": [],
       "mentionsByModel": {
@@ -5970,501 +3663,23 @@ window.AppData20251017 = {
       "bots": "anthropic_claude_with_search_latest",
       "botCount": 1,
       "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
+      "mentionsAsPercent": 0.00498,
       "mentionsAsPercentByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 6
-      },
-      "appearanceOrder": 6,
-      "influence": 0.20471,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.20471,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.20471
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 6
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 6
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Anomaly detection rate",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 3137,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 3137,
-            "excerpt": "AI-generated insights acted upon\n- **Data processing speed**: Time to generate reports/insights\n- **Anomaly detection rate**: AI's ability to identify unusual patterns\n\n**Source**: [Gartner Marketing Analytics](https://www",
-            "line": 70,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 13
-      },
-      "appearanceOrder": 13,
-      "influence": 0.15094,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.15094,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.15094
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 13
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 13
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Segmentation",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 0,
-      "bots": "",
-      "botCount": 0,
-      "uniqueModelCount": 0,
-      "mentionsAsPercent": 0,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {},
-      "appearanceOrder": -1,
-      "influence": 0,
-      "influenceByModel": {},
-      "weightedInfluence": 0,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": -1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "mentionsTrend": -9999,
-      "influenceTrend": -9999,
-      "appearanceOrderTrend": -9999,
-      "uniqueModelCountTrend": -9999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 0,
-      "changePercent": 0,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 0
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "value": "Market share changes",
-      "type": "keyword",
-      "sources": [],
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 4934,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 4934,
-            "excerpt": "Analytics](https://www.pendo.io/product/)\n\n## 10. **Competitive Metrics**\n\n### Market Position\n- **Market share changes**: Growth compared to competitors\n- **Competitive response time**: Speed advantage in market reacti",
-            "line": 115,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 1,
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercent": 0.04,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05263,
+        "anthropic_claude_with_search_latest": 0.0122,
         "openai_chatgpt_with_search_latest": 0
       },
       "appearanceOrderByModel": {
         "anthropic_claude_with_search_latest": 18
       },
       "appearanceOrder": 18,
-      "influence": 0.13528,
+      "influence": 0.00024,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00024,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.13528,
+      "weightedInfluence": 0.00024,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -6474,7 +3689,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.13528
+          "value": 0.00024
         }
       ],
       "appearanceOrderTrendVals": [
@@ -6533,7 +3748,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00024
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -6582,70 +3797,84 @@ window.AppData20251017 = {
       "volatility": 0
     },
     {
-      "value": "Engagement metrics",
+      "value": "segment performance",
       "type": "keyword",
       "sources": [],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
         "openai_chatgpt_with_search_latest": 0
       },
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 1654,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 1654,
+            "excerpt": "### Targeting & Personalization\n- **Personalization score**: Relevance of AI-targeted messages\n- **Segment performance**: ROI by AI-identified audience segments\n- **Predictive accuracy**: How well AI predictions match",
+            "line": 38,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
         "openai_chatgpt_with_search_latest": [],
         "perplexity_with_search_latest": []
       },
-      "mentions": 0,
-      "bots": "",
-      "botCount": 0,
-      "uniqueModelCount": 0,
-      "mentionsAsPercent": 0,
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
       "mentionsAsPercentByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
         "openai_chatgpt_with_search_latest": 0
       },
-      "appearanceOrderByModel": {},
-      "appearanceOrder": -1,
-      "influence": 0,
-      "influenceByModel": {},
-      "weightedInfluence": 0,
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 19
+      },
+      "appearanceOrder": 19,
+      "influence": 0.00024,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00024,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00024,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0
+          "value": 1
         }
       ],
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0
+          "value": 0.00024
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": -1
+          "value": 19
         }
       ],
       "uniqueModelCountTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0
+          "value": 1
         }
       ],
-      "mentionsTrend": -9999,
-      "influenceTrend": -9999,
-      "appearanceOrderTrend": -9999,
-      "uniqueModelCountTrend": -9999,
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
       "mentionsByModelTrend": {
         "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
         "openai_chatgpt_with_search_latest": -9999
       },
       "mentionsByModelTrendVals": {
@@ -6658,7 +3887,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0
+            "value": 1
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -6670,7 +3899,7 @@ window.AppData20251017 = {
       },
       "influenceByModelTrend": {
         "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
         "openai_chatgpt_with_search_latest": -9999
       },
       "influenceByModelTrendVals": {
@@ -6683,7 +3912,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0
+            "value": 0.00024
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -6695,7 +3924,7 @@ window.AppData20251017 = {
       },
       "appearanceOrderByModelTrend": {
         "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
         "openai_chatgpt_with_search_latest": -9999
       },
       "appearanceOrderByModelTrendVals": {
@@ -6708,7 +3937,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": -1
+            "value": 19
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -6719,12 +3948,12 @@ window.AppData20251017 = {
         ]
       },
       "previous_mentions": 0,
-      "mentions_change": 0,
-      "changePercent": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
       "mentionsHistory": [
         {
           "date": "2025-10-17",
-          "mentions": 0
+          "mentions": 1
         }
       ],
       "lastSeen": "2025-10-17",
@@ -6732,12 +3961,1819 @@ window.AppData20251017 = {
       "volatility": 0
     },
     {
-      "value": "Conversion rate",
+      "value": "predictive accuracy",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 1720,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 1720,
+            "excerpt": "vance of AI-targeted messages\n- **Segment performance**: ROI by AI-identified audience segments\n- **Predictive accuracy**: How well AI predictions match actual outcomes\n\n### Campaign ROI\n- **Revenue attribution**: Sales",
+            "line": 39,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 20
+      },
+      "appearanceOrder": 20,
+      "influence": 0.00024,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00024,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00024,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00024
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 20
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00024
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 20
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "revenue attribution",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 1811,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 1811,
+            "excerpt": "ents\n- **Predictive accuracy**: How well AI predictions match actual outcomes\n\n### Campaign ROI\n- **Revenue attribution**: Sales directly from AI-optimized campaigns\n- **Customer acquisition cost (CAC)**: Cost to acquir",
+            "line": 42,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 21
+      },
+      "appearanceOrder": 21,
+      "influence": 0.00023,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00023,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00023,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00023
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 21
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00023
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 21
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "customer acquisition cost (CAC)",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 1881,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 1881,
+            "excerpt": "utcomes\n\n### Campaign ROI\n- **Revenue attribution**: Sales directly from AI-optimized campaigns\n- **Customer acquisition cost (CAC)**: Cost to acquire customers through AI campaigns\n- **Return on ad spend (ROAS)**: Revenue generate",
+            "line": 43,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 22
+      },
+      "appearanceOrder": 22,
+      "influence": 0.00023,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00023,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00023,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00023
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 22
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00023
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 22
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "return on ad spend (ROAS)",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 1967,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 1967,
+            "excerpt": "campaigns\n- **Customer acquisition cost (CAC)**: Cost to acquire customers through AI campaigns\n- **Return on ad spend (ROAS)**: Revenue generated per dollar spent\n\n**Source**: [Google Analytics 4 Documentation](https://suppo",
+            "line": 44,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 23
+      },
+      "appearanceOrder": 23,
+      "influence": 0.00023,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00023,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00023,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00023
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 23
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00023
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 23
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "first response time",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2213,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2213,
+            "excerpt": "cs/answer/9355949)\n\n## 4. **Customer Experience Metrics**\n\n### AI Chatbot/Assistant Performance\n- **First response time**: Speed of initial AI response\n- **Resolution rate**: % of queries solved without human interventi",
+            "line": 51,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 24
+      },
+      "appearanceOrder": 24,
+      "influence": 0.00022,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00022,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00022,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00022
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 24
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00022
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 24
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "resolution rate",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2269,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2269,
+            "excerpt": "*\n\n### AI Chatbot/Assistant Performance\n- **First response time**: Speed of initial AI response\n- **Resolution rate**: % of queries solved without human intervention\n- **Customer satisfaction score (CSAT)**: User ra",
+            "line": 52,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 25
+      },
+      "appearanceOrder": 25,
+      "influence": 0.00022,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00022,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00022,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00022
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 25
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00022
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 25
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "customer satisfaction score (CSAT)",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2339,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2339,
+            "excerpt": "ed of initial AI response\n- **Resolution rate**: % of queries solved without human intervention\n- **Customer satisfaction score (CSAT)**: User ratings of AI interactions\n- **Containment rate**: % of conversations handled entirely by A",
+            "line": 53,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 26
+      },
+      "appearanceOrder": 26,
+      "influence": 0.00022,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00022,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00022,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00022
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 26
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00022
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 26
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "containment rate",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2413,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2413,
+            "excerpt": "ut human intervention\n- **Customer satisfaction score (CSAT)**: User ratings of AI interactions\n- **Containment rate**: % of conversations handled entirely by AI\n- **Escalation rate**: How often human agents are need",
+            "line": 54,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 27
+      },
+      "appearanceOrder": 27,
+      "influence": 0.00022,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00022,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00022,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00022
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 27
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00022
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 27
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "escalation rate",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2479,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2479,
+            "excerpt": "er ratings of AI interactions\n- **Containment rate**: % of conversations handled entirely by AI\n- **Escalation rate**: How often human agents are needed\n\n**Source**: [Zendesk AI Metrics Guide](https://www.zendesk.co",
+            "line": 55,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 28
+      },
+      "appearanceOrder": 28,
+      "influence": 0.00021,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00021,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00021,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00021
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 28
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00021
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 28
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "email open rates",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2660,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2660,
+            "excerpt": "rics Guide](https://www.zendesk.com/blog/customer-service-metrics/)\n\n### Personalization Impact\n- **Email open rates**: AI-optimized subject lines performance\n- **Recommendation CTR**: Click rates on AI product sugge",
+            "line": 60,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 29
+      },
+      "appearanceOrder": 29,
+      "influence": 0.00021,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00021,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00021,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00021
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 29
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00021
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 29
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "recommendation CTR",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2723,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2723,
+            "excerpt": "cs/)\n\n### Personalization Impact\n- **Email open rates**: AI-optimized subject lines performance\n- **Recommendation CTR**: Click rates on AI product suggestions\n- **Customer lifetime value (CLV)**: Long-term value from",
+            "line": 61,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 30
+      },
+      "appearanceOrder": 30,
+      "influence": 0.00021,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00021,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00021,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00021
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 30
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00021
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 30
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "customer lifetime value (CLV)",
       "type": "keyword",
       "sources": [
         {
           "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
-          "bots": "perplexity_with_search_latest"
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
         }
       ],
       "mentionsByModel": {
@@ -6746,16 +5782,16 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": 0
       },
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 1850,
-        "anthropic_claude_with_search_latest": 1073,
+        "perplexity_with_search_latest": 2317,
+        "anthropic_claude_with_search_latest": 2787,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
         "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 1073,
-            "excerpt": "on AI-assisted content\n- **Click-through rate (CTR)**: Performance of AI-written headlines/copy\n- **Conversion rate**: Sales or leads from AI-generated content\n- **Bounce rate**: User retention on AI-created pages\n-",
-            "line": 24,
+            "appearanceOrder": 2787,
+            "excerpt": "mized subject lines performance\n- **Recommendation CTR**: Click rates on AI product suggestions\n- **Customer lifetime value (CLV)**: Long-term value from AI-personalized experiences\n\n## 5. **Data & Insights Metrics**\n\n### Analysi",
+            "line": 62,
             "column": 5,
             "captureDate": "2025-10-17"
           }
@@ -6763,9 +5799,9 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [],
         "perplexity_with_search_latest": [
           {
-            "appearanceOrder": 1850,
-            "excerpt": "endations[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Conversion Rate:** Percentage of users completing desired actions (purchases, sign-ups) driven by AI-powered market",
-            "line": 17,
+            "appearanceOrder": 2317,
+            "excerpt": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth).\n\n- **Customer Lifetime Value (CLV):** Long-term value of customers acquired or engaged through AI marketing tools[[4]](https://blog.bra",
+            "line": 21,
             "column": 5,
             "captureDate": "2025-10-17"
           }
@@ -6775,24 +5811,24 @@ window.AppData20251017 = {
       "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest",
       "botCount": 2,
       "uniqueModelCount": 2,
-      "mentionsAsPercent": 0.08,
+      "mentionsAsPercent": 0.00995,
       "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.25,
-        "anthropic_claude_with_search_latest": 0.05263,
+        "perplexity_with_search_latest": 0.01266,
+        "anthropic_claude_with_search_latest": 0.0122,
         "openai_chatgpt_with_search_latest": 0
       },
       "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 2,
-        "anthropic_claude_with_search_latest": 4
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 31
       },
-      "appearanceOrder": 3,
-      "influence": 0.33332,
+      "appearanceOrder": 10,
+      "influence": 0.00088,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0.11638,
+        "perplexity_with_search_latest": 0.00022,
+        "anthropic_claude_with_search_latest": 0.00021,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.33332,
+      "weightedInfluence": 0.00088,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -6802,13 +5838,13 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.33332
+          "value": 0.00088
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 3
+          "value": 10
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -6855,13 +5891,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00022
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.11638
+            "value": 0.00021
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -6880,13 +5916,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 2
+            "value": 10
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 4
+            "value": 31
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -6910,16 +5946,3664 @@ window.AppData20251017 = {
       "volatility": 0
     },
     {
-      "value": "Operational efficiency",
+      "value": "prediction accuracy",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2930,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2930,
+            "excerpt": "value from AI-personalized experiences\n\n## 5. **Data & Insights Metrics**\n\n### Analysis Quality\n- **Prediction accuracy**: How accurate AI forecasts are vs. actual results\n- **Insights adoption rate**: % of AI-generated",
+            "line": 67,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 32
+      },
+      "appearanceOrder": 32,
+      "influence": 0.00021,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00021,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00021,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00021
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 32
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00021
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 32
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "insights adoption rate",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3006,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3006,
+            "excerpt": "## Analysis Quality\n- **Prediction accuracy**: How accurate AI forecasts are vs. actual results\n- **Insights adoption rate**: % of AI-generated insights acted upon\n- **Data processing speed**: Time to generate reports/insi",
+            "line": 68,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 33
+      },
+      "appearanceOrder": 33,
+      "influence": 0.0002,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0002,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0002,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0002
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 33
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0002
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 33
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "data processing speed",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3074,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3074,
+            "excerpt": "asts are vs. actual results\n- **Insights adoption rate**: % of AI-generated insights acted upon\n- **Data processing speed**: Time to generate reports/insights\n- **Anomaly detection rate**: AI's ability to identify unusual",
+            "line": 69,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 34
+      },
+      "appearanceOrder": 34,
+      "influence": 0.0002,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0002,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0002,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0002
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 34
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0002
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 34
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "anomaly detection rate",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3137,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3137,
+            "excerpt": "AI-generated insights acted upon\n- **Data processing speed**: Time to generate reports/insights\n- **Anomaly detection rate**: AI's ability to identify unusual patterns\n\n**Source**: [Gartner Marketing Analytics](https://www",
+            "line": 70,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 35
+      },
+      "appearanceOrder": 35,
+      "influence": 0.0002,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0002,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0002,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0002
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 35
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0002
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 35
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "organic traffic growth",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3375,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3375,
+            "excerpt": "marketing/topics/marketing-analytics)\n\n## 6. **SEO & Search Performance**\n\n### AI-Optimized SEO\n- **Organic traffic growth**: Traffic from AI-optimized content\n- **Keyword rankings**: Position improvements from AI SEO tool",
+            "line": 77,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 36
+      },
+      "appearanceOrder": 36,
+      "influence": 0.0002,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0002,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0002,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0002
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 36
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0002
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 36
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "keyword rankings",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3439,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3439,
+            "excerpt": "ormance**\n\n### AI-Optimized SEO\n- **Organic traffic growth**: Traffic from AI-optimized content\n- **Keyword rankings**: Position improvements from AI SEO tools\n- **Domain authority**: Overall site credibility improve",
+            "line": 78,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 37
+      },
+      "appearanceOrder": 37,
+      "influence": 0.0002,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0002,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0002,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0002
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 37
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0002
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 37
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "domain authority",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3503,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3503,
+            "excerpt": "affic from AI-optimized content\n- **Keyword rankings**: Position improvements from AI SEO tools\n- **Domain authority**: Overall site credibility improvements\n- **Featured snippets earned**: SERP features captured\n\n**",
+            "line": 79,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 38
+      },
+      "appearanceOrder": 38,
+      "influence": 0.0002,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0002,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0002,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0002
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 38
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0002
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 38
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "featured snippets earned",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3565,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3565,
+            "excerpt": "on improvements from AI SEO tools\n- **Domain authority**: Overall site credibility improvements\n- **Featured snippets earned**: SERP features captured\n\n**Tools to track**: [Google Search Console](https://search.google.com/se",
+            "line": 80,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 39
+      },
+      "appearanceOrder": 39,
+      "influence": 0.0002,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0002,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0002,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0002
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 39
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0002
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 39
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "best time to post accuracy",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3920,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3920,
+            "excerpt": "isted Social Performance\n- **Engagement rate**: Interactions per follower on AI-scheduled posts\n- **Best time to post accuracy**: How AI timing recommendations perform\n- **Sentiment analysis**: Brand sentiment trends from AI m",
+            "line": 88,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 40
+      },
+      "appearanceOrder": 40,
+      "influence": 0.00019,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00019,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00019
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 40
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 40
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "sentiment analysis",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3992,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3992,
+            "excerpt": "r on AI-scheduled posts\n- **Best time to post accuracy**: How AI timing recommendations perform\n- **Sentiment analysis**: Brand sentiment trends from AI monitoring\n- **Share of voice**: Brand visibility vs. competitors",
+            "line": 89,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 41
+      },
+      "appearanceOrder": 41,
+      "influence": 0.00019,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00019,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00019
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 41
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 41
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "share of voice",
+      "type": "keyword",
+      "sources": [
+        {
+          "url": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 925,
+        "anthropic_claude_with_search_latest": 4060,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4060,
+            "excerpt": "ing recommendations perform\n- **Sentiment analysis**: Brand sentiment trends from AI monitoring\n- **Share of voice**: Brand visibility vs. competitors\n\n**Source**: [Sprout Social Metrics Guide](https://sproutsocial",
+            "line": 90,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 925,
+            "excerpt": "hengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Competitive Share of Voice:** Measures how much your brand is present relative to competitors in AI-powered channels and conve",
+            "line": 9,
+            "column": 17,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 2,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest",
+      "botCount": 2,
+      "uniqueModelCount": 2,
+      "mentionsAsPercent": 0.00995,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.01266,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 6,
+        "anthropic_claude_with_search_latest": 42
+      },
+      "appearanceOrder": 6,
+      "influence": 0.00097,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00027,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00097,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00097
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 6
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00027
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 6
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 42
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 2,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 2
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "error rate",
+      "type": "keyword",
+      "sources": [
+        {
+          "url": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 2596,
+        "anthropic_claude_with_search_latest": 4280,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4280,
+            "excerpt": "nsights/social-media-metrics/)\n\n## 8. **Quality Assurance Metrics**\n\n### Accuracy & Reliability\n- **Error rate**: Mistakes in AI-generated outputs\n- **Brand consistency score**: Adherence to brand guidelines\n-",
+            "line": 97,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 2596,
+            "excerpt": "aybook-12-kpis-for-explosive-growth).\n\n- **Operational Efficiency Metrics:** Such as process times, error rates, and automation levels, reflecting AI's impact on marketing operations[[2]](https://chooseacacia.c",
+            "line": 23,
+            "column": 62,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 2,
+      "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest",
+      "botCount": 2,
+      "uniqueModelCount": 2,
+      "mentionsAsPercent": 0.00995,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.01266,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 12,
+        "anthropic_claude_with_search_latest": 43
+      },
+      "appearanceOrder": 12,
+      "influence": 0.00082,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00021,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00082,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00082
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 12
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00021
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 12
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 43
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 2,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 2
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "brand consistency score",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4331,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4331,
+            "excerpt": "urance Metrics**\n\n### Accuracy & Reliability\n- **Error rate**: Mistakes in AI-generated outputs\n- **Brand consistency score**: Adherence to brand guidelines\n- **Fact-checking requirements**: How often AI content needs verif",
+            "line": 98,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 44
+      },
+      "appearanceOrder": 44,
+      "influence": 0.00019,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00019,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00019
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 44
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 44
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "fact-checking requirements",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4392,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4392,
+            "excerpt": ": Mistakes in AI-generated outputs\n- **Brand consistency score**: Adherence to brand guidelines\n- **Fact-checking requirements**: How often AI content needs verification\n- **Human editing time**: Time spent refining AI outputs",
+            "line": 99,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 45
+      },
+      "appearanceOrder": 45,
+      "influence": 0.00019,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00019,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00019
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 45
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 45
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "human editing time",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4466,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4466,
+            "excerpt": "e to brand guidelines\n- **Fact-checking requirements**: How often AI content needs verification\n- **Human editing time**: Time spent refining AI outputs\n\n## 9. **Adoption & Usage Metrics**\n\n### Internal Adoption\n- **Us",
+            "line": 100,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 46
+      },
+      "appearanceOrder": 46,
+      "influence": 0.00019,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00019,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00019
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 46
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 46
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "user adoption rate",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4582,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4582,
+            "excerpt": "me**: Time spent refining AI outputs\n\n## 9. **Adoption & Usage Metrics**\n\n### Internal Adoption\n- **User adoption rate**: % of team actively using AI tools\n- **Feature utilization**: Which AI capabilities are most used",
+            "line": 105,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 47
+      },
+      "appearanceOrder": 47,
+      "influence": 0.00019,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00019,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00019
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 47
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 47
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "feature utilization",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4642,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4642,
+            "excerpt": "ge Metrics**\n\n### Internal Adoption\n- **User adoption rate**: % of team actively using AI tools\n- **Feature utilization**: Which AI capabilities are most used\n- **Training completion**: Team proficiency with tools\n- **U",
+            "line": 106,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 48
+      },
+      "appearanceOrder": 48,
+      "influence": 0.00019,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00019,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00019,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00019
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 48
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00019
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 48
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "training completion",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4705,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4705,
+            "excerpt": "of team actively using AI tools\n- **Feature utilization**: Which AI capabilities are most used\n- **Training completion**: Team proficiency with tools\n- **User satisfaction**: Internal NPS for AI tools\n\n**Source**: [Pen",
+            "line": 107,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 49
+      },
+      "appearanceOrder": 49,
+      "influence": 0.00018,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00018,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00018,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00018
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 49
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00018
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 49
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "user satisfaction",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4760,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4760,
+            "excerpt": "n**: Which AI capabilities are most used\n- **Training completion**: Team proficiency with tools\n- **User satisfaction**: Internal NPS for AI tools\n\n**Source**: [Pendo Product Analytics](https://www.pendo.io/product/)",
+            "line": 108,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 50
+      },
+      "appearanceOrder": 50,
+      "influence": 0.00018,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00018,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00018,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00018
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 50
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00018
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 50
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "market share changes",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4934,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4934,
+            "excerpt": "Analytics](https://www.pendo.io/product/)\n\n## 10. **Competitive Metrics**\n\n### Market Position\n- **Market share changes**: Growth compared to competitors\n- **Competitive response time**: Speed advantage in market reacti",
+            "line": 115,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 51
+      },
+      "appearanceOrder": 51,
+      "influence": 0.00018,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00018,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00018,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00018
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 51
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00018
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 51
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "competitive response time",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4993,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4993,
+            "excerpt": "itive Metrics**\n\n### Market Position\n- **Market share changes**: Growth compared to competitors\n- **Competitive response time**: Speed advantage in market reactions\n- **Innovation index**: New capabilities deployed vs. indust",
+            "line": 116,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 52
+      },
+      "appearanceOrder": 52,
+      "influence": 0.00018,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00018,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00018,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00018
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 52
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00018
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 52
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "innovation index",
+      "type": "keyword",
+      "sources": [],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 5062,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 5062,
+            "excerpt": "th compared to competitors\n- **Competitive response time**: Speed advantage in market reactions\n- **Innovation index**: New capabilities deployed vs. industry\n\n## Tools for Tracking These Metrics\n\n- **[Google Analyti",
+            "line": 117,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      },
+      "mentions": 1,
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercent": 0.00498,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.0122,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 53
+      },
+      "appearanceOrder": 53,
+      "influence": 0.00018,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00018,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00018,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00018
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 53
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00018
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 53
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "operational efficiency",
       "type": "keyword",
       "sources": [
         {
           "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
-          "bots": "openai_chatgpt_with_search_latest"
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
         },
         {
           "url": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
-          "bots": "perplexity_with_search_latest"
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
         }
       ],
       "mentionsByModel": {
@@ -6964,24 +9648,24 @@ window.AppData20251017 = {
       "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
       "botCount": 2,
       "uniqueModelCount": 2,
-      "mentionsAsPercent": 0.12,
+      "mentionsAsPercent": 0.01493,
       "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.25,
+        "perplexity_with_search_latest": 0.01266,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.05
       },
       "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 3,
-        "openai_chatgpt_with_search_latest": 1
+        "perplexity_with_search_latest": 11,
+        "openai_chatgpt_with_search_latest": 5
       },
-      "appearanceOrder": 2,
-      "influence": 1,
+      "appearanceOrder": 5,
+      "influence": 0.02998,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.10476,
+        "perplexity_with_search_latest": 0.00021,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.02144
       },
-      "weightedInfluence": 1,
+      "weightedInfluence": 0.02998,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -6991,13 +9675,13 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 1
+          "value": 0.02998
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 2
+          "value": 5
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -7044,7 +9728,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.10476
+            "value": 0.00021
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -7056,7 +9740,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.02144
           }
         ]
       },
@@ -7069,7 +9753,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 3
+            "value": 11
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -7081,7 +9765,195 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
+            "value": 5
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 3,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 3
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0
+    },
+    {
+      "value": "model performance",
+      "type": "keyword",
+      "sources": [
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 2
+      },
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 2778,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": 6844
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 6844,
+            "excerpt": "ltimodal.dev/post/how-to-get-buy-in-from-stakeholders-for-ai-initiatives) doesn't just come down to model performance. It also depends on a variety of other factors the model’s robustness, accuracy, quality of data, i",
+            "line": 41,
+            "column": 370,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 7168,
+            "excerpt": "to how often and correctly an AI model **predicts outcomes**. It’s an essential KPI for evaluating model performance, ensuring reliable results, minimizing errors, and improving effectiveness.",
+            "line": 41,
+            "column": 694,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 2778,
+            "excerpt": "[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/).\n\n- **AI Model Performance Metrics:** Including accuracy, precision, recall, and F1 score, essential for understanding the qua",
+            "line": 25,
+            "column": 8,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      },
+      "mentions": 3,
+      "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
+      "botCount": 2,
+      "uniqueModelCount": 2,
+      "mentionsAsPercent": 0.01493,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.01266,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.05
+      },
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 13,
+        "openai_chatgpt_with_search_latest": 7
+      },
+      "appearanceOrder": 7,
+      "influence": 0.02646,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.0002,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.01848
+      },
+      "weightedInfluence": 0.02646,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.02646
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 7
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
             "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0002
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.01848
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 13
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 7
           }
         ]
       },
@@ -7107,9 +9979,15 @@ window.AppData20251017 = {
       "value": "blog.hubspot.com/marketing/metrics",
       "link": "blog.hubspot.com/marketing/metrics",
       "linkType": "blg",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "blog.hubspot.com/marketing/metrics",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -7147,13 +10025,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 1
       },
       "appearanceOrder": 1,
-      "influence": 0.20719,
+      "influence": 0.00391,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00391,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.20719,
+      "weightedInfluence": 0.00391,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -7163,7 +10041,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.20719
+          "value": 0.00391
         }
       ],
       "appearanceOrderTrendVals": [
@@ -7222,7 +10100,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00391
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -7275,9 +10153,15 @@ window.AppData20251017 = {
       "value": "contentmarketinginstitute.com/articles/metrics-measure-content-marketing",
       "link": "contentmarketinginstitute.com/articles/metrics-measure-content-marketing",
       "linkType": "blg",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "contentmarketinginstitute.com/articles/metrics-measure-content-marketing",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -7315,13 +10199,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 2
       },
       "appearanceOrder": 2,
-      "influence": 0.13071,
+      "influence": 0.00247,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00247,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.13071,
+      "weightedInfluence": 0.00247,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -7331,7 +10215,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.13071
+          "value": 0.00247
         }
       ],
       "appearanceOrderTrendVals": [
@@ -7390,7 +10274,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00247
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -7443,6 +10327,15 @@ window.AppData20251017 = {
       "value": "support.google.com/analytics/answer/9355949",
       "link": "support.google.com/analytics/answer/9355949",
       "linkType": "tch",
+      "sources": [
+        {
+          "url": "support.google.com/analytics/answer/9355949",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -7480,13 +10373,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 3
       },
       "appearanceOrder": 3,
-      "influence": 0.10358,
+      "influence": 0.00196,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00196,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.10358,
+      "weightedInfluence": 0.00196,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -7496,7 +10389,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.10358
+          "value": 0.00196
         }
       ],
       "appearanceOrderTrendVals": [
@@ -7555,7 +10448,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00196
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -7608,9 +10501,15 @@ window.AppData20251017 = {
       "value": "zendesk.com/blog/customer-service-metrics",
       "link": "zendesk.com/blog/customer-service-metrics",
       "linkType": "tch",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "zendesk.com/blog/customer-service-metrics",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -7648,13 +10547,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 5
       },
       "appearanceOrder": 5,
-      "influence": 0.08015,
+      "influence": 0.00151,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00151,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.08015,
+      "weightedInfluence": 0.00151,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -7664,7 +10563,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.08015
+          "value": 0.00151
         }
       ],
       "appearanceOrderTrendVals": [
@@ -7723,7 +10622,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00151
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -7775,10 +10674,16 @@ window.AppData20251017 = {
       "type": "link",
       "value": "gartner.com/en/marketing/topics/marketing-analytics",
       "link": "gartner.com/en/marketing/topics/marketing-analytics",
-      "linkType": "aca",
-      "sources": {
-        "linkType": "AI"
-      },
+      "linkType": "tch",
+      "sources": [
+        {
+          "url": "gartner.com/en/marketing/topics/marketing-analytics",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -7816,13 +10721,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 6
       },
       "appearanceOrder": 6,
-      "influence": 0.07381,
+      "influence": 0.00139,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00139,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.07381,
+      "weightedInfluence": 0.00139,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -7832,7 +10737,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.07381
+          "value": 0.00139
         }
       ],
       "appearanceOrderTrendVals": [
@@ -7891,7 +10796,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00139
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -7944,6 +10849,22 @@ window.AppData20251017 = {
       "value": "search.google.com/search-console/about",
       "link": "search.google.com/search-console/about",
       "linkType": "tch",
+      "sources": [
+        {
+          "url": "search.google.com/search-console/about",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "semrush.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -7981,13 +10902,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 7
       },
       "appearanceOrder": 7,
-      "influence": 0.06905,
+      "influence": 0.0013,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.0013,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.06905,
+      "weightedInfluence": 0.0013,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -7997,7 +10918,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.06905
+          "value": 0.0013
         }
       ],
       "appearanceOrderTrendVals": [
@@ -8056,7 +10977,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.0013
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -8109,6 +11030,15 @@ window.AppData20251017 = {
       "value": "sproutsocial.com/insights/social-media-metrics",
       "link": "sproutsocial.com/insights/social-media-metrics",
       "linkType": "nws",
+      "sources": [
+        {
+          "url": "sproutsocial.com/insights/social-media-metrics",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -8146,13 +11076,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 8
       },
       "appearanceOrder": 8,
-      "influence": 0.06536,
+      "influence": 0.00123,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00123,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.06536,
+      "weightedInfluence": 0.00123,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -8162,7 +11092,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.06536
+          "value": 0.00123
         }
       ],
       "appearanceOrderTrendVals": [
@@ -8221,7 +11151,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00123
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -8274,9 +11204,15 @@ window.AppData20251017 = {
       "value": "pendo.io/product",
       "link": "pendo.io/product",
       "linkType": "dev",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "pendo.io/product",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -8314,13 +11250,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 9
       },
       "appearanceOrder": 9,
-      "influence": 0.06237,
+      "influence": 0.00118,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00118,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.06237,
+      "weightedInfluence": 0.00118,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -8330,7 +11266,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.06237
+          "value": 0.00118
         }
       ],
       "appearanceOrderTrendVals": [
@@ -8389,7 +11325,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00118
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -8442,6 +11378,15 @@ window.AppData20251017 = {
       "value": "analytics.google.com",
       "link": "analytics.google.com",
       "linkType": "tch",
+      "sources": [
+        {
+          "url": "analytics.google.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -8479,13 +11424,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 10
       },
       "appearanceOrder": 10,
-      "influence": 0.05989,
+      "influence": 0.00113,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00113,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05989,
+      "weightedInfluence": 0.00113,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -8495,7 +11440,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05989
+          "value": 0.00113
         }
       ],
       "appearanceOrderTrendVals": [
@@ -8554,7 +11499,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00113
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -8607,6 +11552,15 @@ window.AppData20251017 = {
       "value": "databox.com",
       "link": "databox.com",
       "linkType": "tch",
+      "sources": [
+        {
+          "url": "databox.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -8644,13 +11598,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 12
       },
       "appearanceOrder": 12,
-      "influence": 0.056,
+      "influence": 0.00106,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00106,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.056,
+      "weightedInfluence": 0.00106,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -8660,7 +11614,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.056
+          "value": 0.00106
         }
       ],
       "appearanceOrderTrendVals": [
@@ -8719,7 +11673,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00106
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -8772,6 +11726,15 @@ window.AppData20251017 = {
       "value": "mixpanel.com",
       "link": "mixpanel.com",
       "linkType": "dev",
+      "sources": [
+        {
+          "url": "mixpanel.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -8809,13 +11772,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 13
       },
       "appearanceOrder": 13,
-      "influence": 0.05442,
+      "influence": 0.00103,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00103,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05442,
+      "weightedInfluence": 0.00103,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -8825,7 +11788,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05442
+          "value": 0.00103
         }
       ],
       "appearanceOrderTrendVals": [
@@ -8884,7 +11847,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00103
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -8937,9 +11900,15 @@ window.AppData20251017 = {
       "value": "supermetrics.com",
       "link": "supermetrics.com",
       "linkType": "dev",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "supermetrics.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -8977,13 +11946,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 14
       },
       "appearanceOrder": 14,
-      "influence": 0.05302,
+      "influence": 0.001,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.001,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05302,
+      "weightedInfluence": 0.001,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -8993,7 +11962,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05302
+          "value": 0.001
         }
       ],
       "appearanceOrderTrendVals": [
@@ -9052,7 +12021,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.001
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -9105,9 +12074,15 @@ window.AppData20251017 = {
       "value": "klipfolio.com",
       "link": "klipfolio.com",
       "linkType": "dev",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "klipfolio.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -9145,13 +12120,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 16
       },
       "appearanceOrder": 16,
-      "influence": 0.05069,
+      "influence": 0.00096,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00096,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05069,
+      "weightedInfluence": 0.00096,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -9161,7 +12136,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05069
+          "value": 0.00096
         }
       ],
       "appearanceOrderTrendVals": [
@@ -9220,7 +12195,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00096
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -9272,10 +12247,16 @@ window.AppData20251017 = {
       "type": "link",
       "value": "marketingprofs.com/articles/2023/49017/how-to-measure-marketing-roi",
       "link": "marketingprofs.com/articles/2023/49017/how-to-measure-marketing-roi",
-      "linkType": "blg",
-      "sources": {
-        "linkType": "AI"
-      },
+      "linkType": "dev",
+      "sources": [
+        {
+          "url": "marketingprofs.com/articles/2023/49017/how-to-measure-marketing-roi",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -9313,13 +12294,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 17
       },
       "appearanceOrder": 17,
-      "influence": 0.04969,
+      "influence": 0.00094,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00094,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.04969,
+      "weightedInfluence": 0.00094,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -9329,7 +12310,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.04969
+          "value": 0.00094
         }
       ],
       "appearanceOrderTrendVals": [
@@ -9388,7 +12369,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00094
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -9441,9 +12422,22 @@ window.AppData20251017 = {
       "value": "blog.hurree.co/how-to-create-smart-kpis",
       "link": "blog.hurree.co/how-to-create-smart-kpis",
       "linkType": "blg",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.hurree.co/how-to-create-smart-kpis",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 4,
         "anthropic_claude_with_search_latest": 0,
@@ -9539,13 +12533,13 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": 1
       },
       "appearanceOrder": 1,
-      "influence": 1,
+      "influence": 0.96479,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.11973,
+        "perplexity_with_search_latest": 0.01148,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.52165
       },
-      "weightedInfluence": 1,
+      "weightedInfluence": 0.96479,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -9555,7 +12549,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 1
+          "value": 0.96479
         }
       ],
       "appearanceOrderTrendVals": [
@@ -9608,7 +12602,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.11973
+            "value": 0.01148
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -9620,7 +12614,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.52165
           }
         ]
       },
@@ -9667,9 +12661,22 @@ window.AppData20251017 = {
       "value": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
       "link": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
       "linkType": "blg",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "blog.hurree.co/how-to-create-smart-kpis",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 4,
         "anthropic_claude_with_search_latest": 0,
@@ -9765,13 +12772,13 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": 2
       },
       "appearanceOrder": 2,
-      "influence": 0.63093,
+      "influence": 0.60871,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.11972,
+        "perplexity_with_search_latest": 0.00724,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.32912
       },
-      "weightedInfluence": 0.63093,
+      "weightedInfluence": 0.60871,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -9781,7 +12788,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.63093
+          "value": 0.60871
         }
       ],
       "appearanceOrderTrendVals": [
@@ -9834,7 +12841,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.11972
+            "value": 0.00724
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -9846,7 +12853,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.32912
           }
         ]
       },
@@ -9893,9 +12900,15 @@ window.AppData20251017 = {
       "value": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
       "link": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
       "linkType": "blg",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 6,
         "anthropic_claude_with_search_latest": 0,
@@ -9983,14 +12996,14 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 6,
         "openai_chatgpt_with_search_latest": 3
       },
-      "appearanceOrder": 4.5,
-      "influence": 0.33364,
+      "appearanceOrder": 3,
+      "influence": 0.38991,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.21324,
+        "perplexity_with_search_latest": 0.00613,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.15649
       },
-      "weightedInfluence": 0.33364,
+      "weightedInfluence": 0.38991,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -10000,13 +13013,13 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.33364
+          "value": 0.38991
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 4.5
+          "value": 3
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -10053,7 +13066,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.21324
+            "value": 0.00613
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -10065,7 +13078,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.15649
           }
         ]
       },
@@ -10112,6 +13125,15 @@ window.AppData20251017 = {
       "value": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
       "link": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
       "linkType": "tch",
+      "sources": [
+        {
+          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 6,
         "anthropic_claude_with_search_latest": 0,
@@ -10207,13 +13229,13 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": 4
       },
       "appearanceOrder": 4,
-      "influence": 0.38781,
+      "influence": 0.46168,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.22449,
+        "perplexity_with_search_latest": 0.00741,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.17973
       },
-      "weightedInfluence": 0.38781,
+      "weightedInfluence": 0.46168,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -10223,7 +13245,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.38781
+          "value": 0.46168
         }
       ],
       "appearanceOrderTrendVals": [
@@ -10276,7 +13298,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.22449
+            "value": 0.00741
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -10288,7 +13310,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.17973
           }
         ]
       },
@@ -10335,6 +13357,15 @@ window.AppData20251017 = {
       "value": "multimodal.dev/post/ai-kpis",
       "link": "multimodal.dev/post/ai-kpis",
       "linkType": "dev",
+      "sources": [
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 4,
         "anthropic_claude_with_search_latest": 0,
@@ -10422,14 +13453,14 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 8,
         "openai_chatgpt_with_search_latest": 6
       },
-      "appearanceOrder": 7,
-      "influence": 0.28936,
+      "appearanceOrder": 6,
+      "influence": 0.28801,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.13256,
+        "perplexity_with_search_latest": 0.00362,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.14865
       },
-      "weightedInfluence": 0.28936,
+      "weightedInfluence": 0.28801,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -10439,13 +13470,13 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.28936
+          "value": 0.28801
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 7
+          "value": 6
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -10492,7 +13523,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.13256
+            "value": 0.00362
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -10504,7 +13535,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.14865
           }
         ]
       },
@@ -10551,9 +13582,22 @@ window.AppData20251017 = {
       "value": "datadab.com/blog/ai-marketing-tools-roi-measurement",
       "link": "datadab.com/blog/ai-marketing-tools-roi-measurement",
       "linkType": "dev",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "datadab.com/blog/ai-marketing-tools-roi-measurement",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 0,
@@ -10598,13 +13642,13 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": 8
       },
       "appearanceOrder": 8,
-      "influence": 0.13071,
+      "influence": 0.06582,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.06582
       },
-      "weightedInfluence": 0.13071,
+      "weightedInfluence": 0.06582,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -10614,7 +13658,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.13071
+          "value": 0.06582
         }
       ],
       "appearanceOrderTrendVals": [
@@ -10679,7 +13723,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.06582
           }
         ]
       },
@@ -10726,6 +13770,15 @@ window.AppData20251017 = {
       "value": "multimodal.dev/post/how-to-get-buy-in-from-stakeholders-for-ai-initiatives",
       "link": "multimodal.dev/post/how-to-get-buy-in-from-stakeholders-for-ai-initiatives",
       "linkType": "dev",
+      "sources": [
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 4,
         "anthropic_claude_with_search_latest": 0,
@@ -10813,14 +13866,14 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 9,
         "openai_chatgpt_with_search_latest": 7
       },
-      "appearanceOrder": 8,
-      "influence": 0.27161,
+      "appearanceOrder": 7,
+      "influence": 0.27201,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.13517,
+        "perplexity_with_search_latest": 0.00345,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.13911
       },
-      "weightedInfluence": 0.27161,
+      "weightedInfluence": 0.27201,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -10830,13 +13883,13 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.27161
+          "value": 0.27201
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 8
+          "value": 7
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -10883,7 +13936,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.13517
+            "value": 0.00345
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -10895,7 +13948,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.13911
           }
         ]
       },
@@ -10942,9 +13995,15 @@ window.AppData20251017 = {
       "value": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
       "link": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
       "linkType": "blg",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 6,
         "anthropic_claude_with_search_latest": 0,
@@ -11010,13 +14069,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 3
       },
       "appearanceOrder": 3,
-      "influence": 0.62154,
+      "influence": 0.00861,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00861,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.62154,
+      "weightedInfluence": 0.00861,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -11026,7 +14085,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.62154
+          "value": 0.00861
         }
       ],
       "appearanceOrderTrendVals": [
@@ -11079,7 +14138,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00861
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -11137,10 +14196,16 @@ window.AppData20251017 = {
       "type": "link",
       "value": "martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing",
       "link": "martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing",
-      "linkType": "blg",
-      "sources": {
-        "linkType": "AI"
-      },
+      "linkType": "dev",
+      "sources": [
+        {
+          "url": "martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 1,
         "anthropic_claude_with_search_latest": 0,
@@ -11178,13 +14243,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 12
       },
       "appearanceOrder": 12,
-      "influence": 0.056,
+      "influence": 0.00078,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00078,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.056,
+      "weightedInfluence": 0.00078,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -11194,7 +14259,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.056
+          "value": 0.00078
         }
       ],
       "appearanceOrderTrendVals": [
@@ -11247,7 +14312,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00078
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -11306,9 +14371,15 @@ window.AppData20251017 = {
       "value": "online.hbs.edu/blog/post/marketing-kpis",
       "link": "online.hbs.edu/blog/post/marketing-kpis",
       "linkType": "edu",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "online.hbs.edu/blog/post/marketing-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 4,
         "anthropic_claude_with_search_latest": 0,
@@ -11367,13 +14438,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 10
       },
       "appearanceOrder": 10,
-      "influence": 0.23954,
+      "influence": 0.00332,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00332,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.23954,
+      "weightedInfluence": 0.00332,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -11383,7 +14454,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.23954
+          "value": 0.00332
         }
       ],
       "appearanceOrderTrendVals": [
@@ -11436,7 +14507,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00332
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -11494,10 +14565,16 @@ window.AppData20251017 = {
       "type": "link",
       "value": "gwi.com/blog/ai-marketing-tools",
       "link": "gwi.com/blog/ai-marketing-tools",
-      "linkType": "tch",
-      "sources": {
-        "linkType": "AI"
-      },
+      "linkType": "dev",
+      "sources": [
+        {
+          "url": "gwi.com/blog/ai-marketing-tools",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 1,
         "anthropic_claude_with_search_latest": 0,
@@ -11535,13 +14612,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 14
       },
       "appearanceOrder": 14,
-      "influence": 0.05302,
+      "influence": 0.00073,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00073,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05302,
+      "weightedInfluence": 0.00073,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -11551,7 +14628,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05302
+          "value": 0.00073
         }
       ],
       "appearanceOrderTrendVals": [
@@ -11604,7 +14681,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00073
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -11663,9 +14740,15 @@ window.AppData20251017 = {
       "value": "owox.com/blog/articles/digital-marketing-metrics-and-kpis",
       "link": "owox.com/blog/articles/digital-marketing-metrics-and-kpis",
       "linkType": "dev",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "owox.com/blog/articles/digital-marketing-metrics-and-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 1,
         "anthropic_claude_with_search_latest": 0,
@@ -11703,13 +14786,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 16
       },
       "appearanceOrder": 16,
-      "influence": 0.05069,
+      "influence": 0.0007,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.0007,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05069,
+      "weightedInfluence": 0.0007,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -11719,7 +14802,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05069
+          "value": 0.0007
         }
       ],
       "appearanceOrderTrendVals": [
@@ -11772,7 +14855,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.0007
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -11831,6 +14914,15 @@ window.AppData20251017 = {
       "value": "tableau.com",
       "link": "tableau.com",
       "linkType": "dev",
+      "sources": [
+        {
+          "url": "tableau.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -11868,13 +14960,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 11
       },
       "appearanceOrder": 11,
-      "influence": 0.0578,
+      "influence": 0.00109,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00109,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.0578,
+      "weightedInfluence": 0.00109,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -11884,7 +14976,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.0578
+          "value": 0.00109
         }
       ],
       "appearanceOrderTrendVals": [
@@ -11943,7 +15035,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00109
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -11996,6 +15088,15 @@ window.AppData20251017 = {
       "value": "lookerstudio.google.com",
       "link": "lookerstudio.google.com",
       "linkType": "tch",
+      "sources": [
+        {
+          "url": "lookerstudio.google.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 1,
@@ -12033,13 +15134,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 15
       },
       "appearanceOrder": 15,
-      "influence": 0.05181,
+      "influence": 0.00098,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00098,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05181,
+      "weightedInfluence": 0.00098,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -12049,7 +15150,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05181
+          "value": 0.00098
         }
       ],
       "appearanceOrderTrendVals": [
@@ -12108,7 +15209,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00098
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -12161,9 +15262,15 @@ window.AppData20251017 = {
       "value": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
       "link": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
       "linkType": "aca",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 4,
         "anthropic_claude_with_search_latest": 0,
@@ -12222,13 +15329,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 7
       },
       "appearanceOrder": 7,
-      "influence": 0.27624,
+      "influence": 0.00383,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00383,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.27624,
+      "weightedInfluence": 0.00383,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -12238,7 +15345,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.27624
+          "value": 0.00383
         }
       ],
       "appearanceOrderTrendVals": [
@@ -12291,7 +15398,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00383
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -12350,9 +15457,15 @@ window.AppData20251017 = {
       "value": "codiste.com/blog/ai-marketing-kpis",
       "link": "codiste.com/blog/ai-marketing-kpis",
       "linkType": "dev",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "codiste.com/blog/ai-marketing-kpis",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 1,
         "anthropic_claude_with_search_latest": 0,
@@ -12390,13 +15503,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 11
       },
       "appearanceOrder": 11,
-      "influence": 0.0578,
+      "influence": 0.0008,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.0008,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.0578,
+      "weightedInfluence": 0.0008,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -12406,7 +15519,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.0578
+          "value": 0.0008
         }
       ],
       "appearanceOrderTrendVals": [
@@ -12459,7 +15572,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.0008
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -12518,9 +15631,15 @@ window.AppData20251017 = {
       "value": "bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better",
       "link": "bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better",
       "linkType": "tch",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 1,
         "anthropic_claude_with_search_latest": 0,
@@ -12558,13 +15677,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 15
       },
       "appearanceOrder": 15,
-      "influence": 0.05181,
+      "influence": 0.00072,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00072,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05181,
+      "weightedInfluence": 0.00072,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -12574,7 +15693,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05181
+          "value": 0.00072
         }
       ],
       "appearanceOrderTrendVals": [
@@ -12627,7 +15746,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00072
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -12686,9 +15805,15 @@ window.AppData20251017 = {
       "value": "implementation.we",
       "link": "implementation.we",
       "linkType": "dev",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "multimodal.dev/post/ai-kpis",
+          "bots": "openai_chatgpt_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 0,
@@ -12726,13 +15851,13 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": 9
       },
       "appearanceOrder": 9,
-      "influence": 0.06237,
+      "influence": 0.03141,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.03141
       },
-      "weightedInfluence": 0.06237,
+      "weightedInfluence": 0.03141,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -12742,7 +15867,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.06237
+          "value": 0.03141
         }
       ],
       "appearanceOrderTrendVals": [
@@ -12807,7 +15932,7 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.03141
           }
         ]
       },
@@ -12854,6 +15979,50 @@ window.AppData20251017 = {
       "value": "google.com",
       "link": "google.com",
       "linkType": "tch",
+      "sources": [
+        {
+          "url": "support.google.com/analytics/answer/9355949",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "search.google.com/search-console/about",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "semrush.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "analytics.google.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "lookerstudio.google.com",
+          "bots": "anthropic_claude_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        },
+        {
+          "url": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "bots": "openai_chatgpt_with_search_latest,perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 7,
         "anthropic_claude_with_search_latest": 4,
@@ -12978,14 +16147,14 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 5,
         "openai_chatgpt_with_search_latest": 5
       },
-      "appearanceOrder": 4.67,
-      "influence": 0.36196,
+      "appearanceOrder": 4,
+      "influence": 0.66423,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.26192,
-        "anthropic_claude_with_search_latest": 0.09942,
-        "openai_chatgpt_with_search_latest": 1
+        "perplexity_with_search_latest": 0.00777,
+        "anthropic_claude_with_search_latest": 0.00674,
+        "openai_chatgpt_with_search_latest": 0.16144
       },
-      "weightedInfluence": 0.36196,
+      "weightedInfluence": 0.66423,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -12995,13 +16164,13 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.36196
+          "value": 0.66423
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 4.67
+          "value": 4
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -13048,19 +16217,19 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.26192
+            "value": 0.00777
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.09942
+            "value": 0.00674
           }
         ],
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.16144
           }
         ]
       },
@@ -13104,163 +16273,18 @@ window.AppData20251017 = {
     },
     {
       "type": "link",
-      "value": "urree.co",
-      "link": "urree.co",
-      "linkType": "oth",
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentions": 0,
-      "bots": "",
-      "botCount": 0,
-      "uniqueModelCount": 0,
-      "mentionsAsPercent": 0,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrderByModel": {},
-      "appearanceOrder": -1,
-      "influence": 0,
-      "influenceByModel": {},
-      "weightedInfluence": 0,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": -1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "mentionsTrend": -9999,
-      "influenceTrend": -9999,
-      "appearanceOrderTrend": -9999,
-      "uniqueModelCountTrend": -9999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 0,
-      "changePercent": 0,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 0
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "link",
       "value": "www.salsify.com",
       "link": "www.salsify.com",
       "linkType": "tch",
-      "sources": {
-        "linkType": "AI"
-      },
+      "sources": [
+        {
+          "url": "salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track",
+          "bots": "perplexity_with_search_latest",
+          "dates": [
+            "2025-10-17"
+          ]
+        }
+      ],
       "mentionsByModel": {
         "perplexity_with_search_latest": 1,
         "anthropic_claude_with_search_latest": 0,
@@ -13298,13 +16322,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 13
       },
       "appearanceOrder": 13,
-      "influence": 0.05442,
+      "influence": 0.00075,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00075,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05442,
+      "weightedInfluence": 0.00075,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -13314,7 +16338,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05442
+          "value": 0.00075
         }
       ],
       "appearanceOrderTrendVals": [
@@ -13367,7 +16391,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00075
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -13427,50 +16451,175 @@ window.AppData20251017 = {
       "type": "linkType",
       "code": "blg",
       "value": "Blogs",
-      "mentions": 37,
+      "mentions": 35,
       "mentionsByModel": {
-        "perplexity_with_search_latest": 21,
-        "anthropic_claude_with_search_latest": 3,
+        "perplexity_with_search_latest": 20,
+        "anthropic_claude_with_search_latest": 2,
         "openai_chatgpt_with_search_latest": 13
       },
+      "sources": [
+        {
+          "link": "blog.hubspot.com/marketing/metrics",
+          "mentions": 1,
+          "appearanceOrder": 1,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 1
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00391,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00391,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00391
+        },
+        {
+          "link": "contentmarketinginstitute.com/articles/metrics-measure-content-marketing",
+          "mentions": 1,
+          "appearanceOrder": 2,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 2
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00247,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00247,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00247
+        },
+        {
+          "link": "blog.hurree.co/how-to-create-smart-kpis",
+          "mentions": 9,
+          "appearanceOrder": 1,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 1
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 4,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 5
+          },
+          "influence": 0.96479,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.01148,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.52165
+          },
+          "weightedInfluence": 0.96479
+        },
+        {
+          "link": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
+          "mentions": 9,
+          "appearanceOrder": 2,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 2,
+            "openai_chatgpt_with_search_latest": 2
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 4,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 5
+          },
+          "influence": 0.60871,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00724,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.32912
+          },
+          "weightedInfluence": 0.60871
+        },
+        {
+          "link": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
+          "mentions": 9,
+          "appearanceOrder": 3,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 6,
+            "openai_chatgpt_with_search_latest": 3
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 6,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 3
+          },
+          "influence": 0.38991,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00613,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.15649
+          },
+          "weightedInfluence": 0.38991
+        },
+        {
+          "link": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
+          "mentions": 6,
+          "appearanceOrder": 3,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 3
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 6,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00861,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00861,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00861
+        }
+      ],
       "bots": "anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest,perplexity_with_search_latest",
       "botCount": 3,
       "uniqueModelCount": 3,
       "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.38182,
-        "anthropic_claude_with_search_latest": 0.15,
+        "perplexity_with_search_latest": 0.36364,
+        "anthropic_claude_with_search_latest": 0.1,
         "openai_chatgpt_with_search_latest": 0.40625
       },
-      "mentionsAsPercent": 0.34579,
-      "appearanceOrder": 5,
+      "mentionsAsPercent": 0.3271,
+      "appearanceOrder": 2,
       "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 5,
-        "anthropic_claude_with_search_latest": 7,
+        "perplexity_with_search_latest": 3,
+        "anthropic_claude_with_search_latest": 2,
         "openai_chatgpt_with_search_latest": 2
       },
-      "influence": 3.0296999999999996,
+      "influence": 0.52201,
       "influenceByModel": {
-        "perplexity_with_search_latest": 2.45269,
-        "anthropic_claude_with_search_latest": 3,
-        "openai_chatgpt_with_search_latest": 3
+        "perplexity_with_search_latest": 0.49688,
+        "anthropic_claude_with_search_latest": 0.21352,
+        "openai_chatgpt_with_search_latest": 0.58108
       },
-      "weightedInfluence": 3.0296999999999996,
+      "weightedInfluence": 0.52201,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 37
+          "value": 35
         }
       ],
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 3.0296999999999996
+          "value": 0.52201
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 5
+          "value": 2
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -13492,13 +16641,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 21
+            "value": 20
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 3
+            "value": 2
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -13517,19 +16666,19 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 2.45269
+            "value": 0.49688
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 3
+            "value": 0.21352
           }
         ],
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 3
+            "value": 0.58108
           }
         ]
       },
@@ -13542,13 +16691,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 5
+            "value": 3
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 7
+            "value": 2
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -13559,12 +16708,12 @@ window.AppData20251017 = {
         ]
       },
       "previous_mentions": 0,
-      "mentions_change": 37,
+      "mentions_change": 35,
       "changePercent": 100,
       "mentionsHistory": [
         {
           "date": "2025-10-17",
-          "mentions": 37
+          "mentions": 35
         }
       ],
       "lastSeen": "2025-10-17",
@@ -13577,32 +16726,257 @@ window.AppData20251017 = {
       "value": "Tech Companies",
       "mentions": 34,
       "mentionsByModel": {
-        "perplexity_with_search_latest": 16,
-        "anthropic_claude_with_search_latest": 10,
+        "perplexity_with_search_latest": 15,
+        "anthropic_claude_with_search_latest": 11,
         "openai_chatgpt_with_search_latest": 8
       },
+      "sources": [
+        {
+          "link": "support.google.com/analytics/answer/9355949",
+          "mentions": 1,
+          "appearanceOrder": 3,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 3
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00196,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00196,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00196
+        },
+        {
+          "link": "zendesk.com/blog/customer-service-metrics",
+          "mentions": 1,
+          "appearanceOrder": 5,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 5
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00151,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00151,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00151
+        },
+        {
+          "link": "gartner.com/en/marketing/topics/marketing-analytics",
+          "mentions": 1,
+          "appearanceOrder": 6,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 6
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00139,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00139,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00139
+        },
+        {
+          "link": "search.google.com/search-console/about",
+          "mentions": 1,
+          "appearanceOrder": 7,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 7
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.0013,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.0013,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.0013
+        },
+        {
+          "link": "analytics.google.com",
+          "mentions": 1,
+          "appearanceOrder": 10,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 10
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00113,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00113,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00113
+        },
+        {
+          "link": "databox.com",
+          "mentions": 1,
+          "appearanceOrder": 12,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 12
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00106,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00106,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00106
+        },
+        {
+          "link": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "mentions": 10,
+          "appearanceOrder": 4,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 4,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 6,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "influence": 0.46168,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00741,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.17973
+          },
+          "weightedInfluence": 0.46168
+        },
+        {
+          "link": "lookerstudio.google.com",
+          "mentions": 1,
+          "appearanceOrder": 15,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 15
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00098,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00098,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00098
+        },
+        {
+          "link": "bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better",
+          "mentions": 1,
+          "appearanceOrder": 15,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 15
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00072,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00072,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00072
+        },
+        {
+          "link": "google.com",
+          "mentions": 15,
+          "appearanceOrder": 4,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 4,
+            "perplexity_with_search_latest": 5,
+            "openai_chatgpt_with_search_latest": 5
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 7,
+            "anthropic_claude_with_search_latest": 4,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "influence": 0.66423,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00777,
+            "anthropic_claude_with_search_latest": 0.00674,
+            "openai_chatgpt_with_search_latest": 0.16144
+          },
+          "weightedInfluence": 0.66423
+        },
+        {
+          "link": "www.salsify.com",
+          "mentions": 1,
+          "appearanceOrder": 13,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 13
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00075,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00075,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00075
+        }
+      ],
       "bots": "anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest,perplexity_with_search_latest",
       "botCount": 3,
       "uniqueModelCount": 3,
       "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.29091,
-        "anthropic_claude_with_search_latest": 0.5,
+        "perplexity_with_search_latest": 0.27273,
+        "anthropic_claude_with_search_latest": 0.55,
         "openai_chatgpt_with_search_latest": 0.25
       },
       "mentionsAsPercent": 0.31776,
       "appearanceOrder": 9,
       "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 10,
+        "perplexity_with_search_latest": 9,
         "anthropic_claude_with_search_latest": 8,
         "openai_chatgpt_with_search_latest": 5
       },
-      "influence": 1.3295,
+      "influence": 0.29993,
       "influenceByModel": {
-        "perplexity_with_search_latest": 3.4864100000000002,
-        "anthropic_claude_with_search_latest": 6.09942,
-        "openai_chatgpt_with_search_latest": 2
+        "perplexity_with_search_latest": 0.24725,
+        "anthropic_claude_with_search_latest": 0.53782,
+        "openai_chatgpt_with_search_latest": 0.19682
       },
-      "weightedInfluence": 1.3295,
+      "weightedInfluence": 0.29993,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -13612,7 +16986,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 1.3295
+          "value": 0.29993
         }
       ],
       "appearanceOrderTrendVals": [
@@ -13640,13 +17014,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 16
+            "value": 15
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 10
+            "value": 11
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -13665,19 +17039,19 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 3.4864100000000002
+            "value": 0.24725
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 6.09942
+            "value": 0.53782
           }
         ],
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 2
+            "value": 0.19682
           }
         ]
       },
@@ -13690,7 +17064,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 10
+            "value": 9
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -13723,50 +17097,334 @@ window.AppData20251017 = {
       "type": "linkType",
       "code": "dev",
       "value": "Developer Tools",
-      "mentions": 26,
+      "mentions": 29,
       "mentionsByModel": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": 5,
+        "perplexity_with_search_latest": 12,
+        "anthropic_claude_with_search_latest": 6,
         "openai_chatgpt_with_search_latest": 11
       },
+      "sources": [
+        {
+          "link": "pendo.io/product",
+          "mentions": 1,
+          "appearanceOrder": 9,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 9
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00118,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00118,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00118
+        },
+        {
+          "link": "mixpanel.com",
+          "mentions": 1,
+          "appearanceOrder": 13,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 13
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00103,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00103,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00103
+        },
+        {
+          "link": "supermetrics.com",
+          "mentions": 1,
+          "appearanceOrder": 14,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 14
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.001,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.001,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.001
+        },
+        {
+          "link": "klipfolio.com",
+          "mentions": 1,
+          "appearanceOrder": 16,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 16
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00096,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00096,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00096
+        },
+        {
+          "link": "marketingprofs.com/articles/2023/49017/how-to-measure-marketing-roi",
+          "mentions": 1,
+          "appearanceOrder": 17,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 17
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00094,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00094,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00094
+        },
+        {
+          "link": "multimodal.dev/post/ai-kpis",
+          "mentions": 8,
+          "appearanceOrder": 6,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 8,
+            "openai_chatgpt_with_search_latest": 6
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 4,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "influence": 0.28801,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00362,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.14865
+          },
+          "weightedInfluence": 0.28801
+        },
+        {
+          "link": "datadab.com/blog/ai-marketing-tools-roi-measurement",
+          "mentions": 2,
+          "appearanceOrder": 8,
+          "appearanceOrderByModel": {
+            "openai_chatgpt_with_search_latest": 8
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 2
+          },
+          "influence": 0.06582,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.06582
+          },
+          "weightedInfluence": 0.06582
+        },
+        {
+          "link": "multimodal.dev/post/how-to-get-buy-in-from-stakeholders-for-ai-initiatives",
+          "mentions": 8,
+          "appearanceOrder": 7,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 9,
+            "openai_chatgpt_with_search_latest": 7
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 4,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "influence": 0.27201,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00345,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.13911
+          },
+          "weightedInfluence": 0.27201
+        },
+        {
+          "link": "martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing",
+          "mentions": 1,
+          "appearanceOrder": 12,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 12
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00078,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00078,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00078
+        },
+        {
+          "link": "gwi.com/blog/ai-marketing-tools",
+          "mentions": 1,
+          "appearanceOrder": 14,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 14
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00073,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00073,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00073
+        },
+        {
+          "link": "owox.com/blog/articles/digital-marketing-metrics-and-kpis",
+          "mentions": 1,
+          "appearanceOrder": 16,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 16
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.0007,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.0007,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.0007
+        },
+        {
+          "link": "tableau.com",
+          "mentions": 1,
+          "appearanceOrder": 11,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 11
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00109,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00109,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00109
+        },
+        {
+          "link": "codiste.com/blog/ai-marketing-kpis",
+          "mentions": 1,
+          "appearanceOrder": 11,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 11
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.0008,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.0008,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.0008
+        },
+        {
+          "link": "implementation.we",
+          "mentions": 1,
+          "appearanceOrder": 9,
+          "appearanceOrderByModel": {
+            "openai_chatgpt_with_search_latest": 9
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 1
+          },
+          "influence": 0.03141,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.03141
+          },
+          "weightedInfluence": 0.03141
+        }
+      ],
       "bots": "anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest,perplexity_with_search_latest",
       "botCount": 3,
       "uniqueModelCount": 3,
       "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.18182,
-        "anthropic_claude_with_search_latest": 0.25,
+        "perplexity_with_search_latest": 0.21818,
+        "anthropic_claude_with_search_latest": 0.3,
         "openai_chatgpt_with_search_latest": 0.34375
       },
-      "mentionsAsPercent": 0.24299,
-      "appearanceOrder": 11,
+      "mentionsAsPercent": 0.27103,
+      "appearanceOrder": 12,
       "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 11,
+        "perplexity_with_search_latest": 12,
         "anthropic_claude_with_search_latest": 13,
         "openai_chatgpt_with_search_latest": 8
       },
-      "influence": 1.14084,
+      "influence": 0.17585,
       "influenceByModel": {
-        "perplexity_with_search_latest": 2.2677300000000002,
-        "anthropic_claude_with_search_latest": 5,
-        "openai_chatgpt_with_search_latest": 4
+        "perplexity_with_search_latest": 0.14969,
+        "anthropic_claude_with_search_latest": 0.2075,
+        "openai_chatgpt_with_search_latest": 0.2221
       },
-      "weightedInfluence": 1.14084,
+      "weightedInfluence": 0.17585,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 26
+          "value": 29
         }
       ],
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 1.14084
+          "value": 0.17585
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 11
+          "value": 12
         }
       ],
       "uniqueModelCountTrendVals": [
@@ -13788,13 +17446,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 10
+            "value": 12
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 5
+            "value": 6
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -13813,19 +17471,19 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 2.2677300000000002
+            "value": 0.14969
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 5
+            "value": 0.2075
           }
         ],
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 4
+            "value": 0.2221
           }
         ]
       },
@@ -13838,7 +17496,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 11
+            "value": 12
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -13855,12 +17513,12 @@ window.AppData20251017 = {
         ]
       },
       "previous_mentions": 0,
-      "mentions_change": 26,
+      "mentions_change": 29,
       "changePercent": 100,
       "mentionsHistory": [
         {
           "date": "2025-10-17",
-          "mentions": 26
+          "mentions": 29
         }
       ],
       "lastSeen": "2025-10-17",
@@ -13871,44 +17529,66 @@ window.AppData20251017 = {
       "type": "linkType",
       "code": "aca",
       "value": "Academic",
-      "mentions": 5,
+      "mentions": 4,
       "mentionsByModel": {
         "perplexity_with_search_latest": 4,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "bots": "anthropic_claude_with_search_latest,perplexity_with_search_latest",
-      "botCount": 2,
-      "uniqueModelCount": 2,
+      "sources": [
+        {
+          "link": "chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives",
+          "mentions": 4,
+          "appearanceOrder": 7,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 7
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 4,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00383,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00383,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00383
+        }
+      ],
+      "bots": "perplexity_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
       "mentionsAsPercentByModel": {
         "perplexity_with_search_latest": 0.07273,
-        "anthropic_claude_with_search_latest": 0.05,
+        "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "mentionsAsPercent": 0.04673,
+      "mentionsAsPercent": 0.03738,
       "appearanceOrder": 7,
       "appearanceOrderByModel": {
         "perplexity_with_search_latest": 7,
-        "anthropic_claude_with_search_latest": 6,
+        "anthropic_claude_with_search_latest": -1,
         "openai_chatgpt_with_search_latest": -1
       },
-      "influence": 0.35005,
+      "influence": 0.00101,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.05688,
+        "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.35005,
+      "weightedInfluence": 0.00101,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 5
+          "value": 4
         }
       ],
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.35005
+          "value": 0.00101
         }
       ],
       "appearanceOrderTrendVals": [
@@ -13920,7 +17600,7 @@ window.AppData20251017 = {
       "uniqueModelCountTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 2
+          "value": 1
         }
       ],
       "mentionsTrend": 999,
@@ -13929,7 +17609,7 @@ window.AppData20251017 = {
       "uniqueModelCountTrend": 999,
       "mentionsByModelTrend": {
         "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": -9999
       },
       "mentionsByModelTrendVals": {
@@ -13942,7 +17622,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -13954,20 +17634,20 @@ window.AppData20251017 = {
       },
       "influenceByModelTrend": {
         "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": -9999
       },
       "influenceByModelTrendVals": {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.05688
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -13979,7 +17659,7 @@ window.AppData20251017 = {
       },
       "appearanceOrderByModelTrend": {
         "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": -9999
       },
       "appearanceOrderByModelTrendVals": {
@@ -13992,7 +17672,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 6
+            "value": -1
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -14003,12 +17683,12 @@ window.AppData20251017 = {
         ]
       },
       "previous_mentions": 0,
-      "mentions_change": 5,
+      "mentions_change": 4,
       "changePercent": 100,
       "mentionsHistory": [
         {
           "date": "2025-10-17",
-          "mentions": 5
+          "mentions": 4
         }
       ],
       "lastSeen": "2025-10-17",
@@ -14025,6 +17705,28 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
+      "sources": [
+        {
+          "link": "online.hbs.edu/blog/post/marketing-kpis",
+          "mentions": 4,
+          "appearanceOrder": 10,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 10
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 4,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00332,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00332,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00332
+        }
+      ],
       "bots": "perplexity_with_search_latest",
       "botCount": 1,
       "uniqueModelCount": 1,
@@ -14040,13 +17742,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": -1,
         "openai_chatgpt_with_search_latest": -1
       },
-      "influence": 0.23954,
+      "influence": 0.00088,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.0493,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.23954,
+      "weightedInfluence": 0.00088,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -14056,7 +17758,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.23954
+          "value": 0.00088
         }
       ],
       "appearanceOrderTrendVals": [
@@ -14109,7 +17811,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.0493
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -14173,6 +17875,28 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 1,
         "openai_chatgpt_with_search_latest": 0
       },
+      "sources": [
+        {
+          "link": "sproutsocial.com/insights/social-media-metrics",
+          "mentions": 1,
+          "appearanceOrder": 8,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 8
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00123,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00123,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00123
+        }
+      ],
       "bots": "anthropic_claude_with_search_latest",
       "botCount": 1,
       "uniqueModelCount": 1,
@@ -14188,13 +17912,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 8,
         "openai_chatgpt_with_search_latest": -1
       },
-      "influence": 0.06536,
+      "influence": 0.00032,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.04116,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.06536,
+      "weightedInfluence": 0.00032,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -14204,7 +17928,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.06536
+          "value": 0.00032
         }
       ],
       "appearanceOrderTrendVals": [
@@ -14263,7 +17987,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.04116
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -14310,150 +18034,6 @@ window.AppData20251017 = {
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
       "volatility": 0
-    },
-    {
-      "type": "linkType",
-      "code": "oth",
-      "value": "Other",
-      "mentions": 0,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "bots": "",
-      "botCount": 0,
-      "uniqueModelCount": 0,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "mentionsAsPercent": 0,
-      "appearanceOrder": 999,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "influence": 0,
-      "influenceByModel": {},
-      "weightedInfluence": 0,
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 999
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0
-        }
-      ],
-      "mentionsTrend": -9999,
-      "influenceTrend": -9999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": -9999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 0,
-      "changePercent": 0,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 0
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
     }
   ],
   "linkDomains": [
@@ -14484,13 +18064,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 0,
             "openai_chatgpt_with_search_latest": 5
           },
-          "influence": 1,
+          "influence": 0.96479,
           "influenceByModel": {
-            "perplexity_with_search_latest": 0.11973,
+            "perplexity_with_search_latest": 0.01148,
             "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
+            "openai_chatgpt_with_search_latest": 0.52165
           },
-          "weightedInfluence": 1
+          "weightedInfluence": 0.96479
         },
         {
           "link": "blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers",
@@ -14505,13 +18085,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 0,
             "openai_chatgpt_with_search_latest": 5
           },
-          "influence": 0.63093,
+          "influence": 0.60871,
           "influenceByModel": {
-            "perplexity_with_search_latest": 0.11972,
+            "perplexity_with_search_latest": 0.00724,
             "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
+            "openai_chatgpt_with_search_latest": 0.32912
           },
-          "weightedInfluence": 0.63093
+          "weightedInfluence": 0.60871
         }
       ],
       "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
@@ -14528,13 +18108,128 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": 1
       },
       "mentionsAsPercent": 0.1,
-      "influence": 1,
+      "influence": 0.96479,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.11973,
+        "perplexity_with_search_latest": 0.01148,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.52165
       },
-      "weightedInfluence": 1,
+      "weightedInfluence": 0.96479,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 9
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.96479
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 5
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.01148
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.52165
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 9,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 9
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": 281,
         "anthropic_claude_with_search_latest": -1,
@@ -14609,849 +18304,7 @@ window.AppData20251017 = {
             "captureDate": "2025-10-17"
           }
         ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 9
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 5
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.11973
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 9,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 9
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "searchengineland.com",
-      "value": "searchengineland.com",
-      "link": "https://searchengineland.com",
-      "linkType": "blg",
-      "linkTypeName": "Blogs",
-      "mentions": 6,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 6,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "sources": [
-        {
-          "link": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
-          "mentions": 6,
-          "appearanceOrder": 3,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 3
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 6,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "influence": 0.62154,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "weightedInfluence": 0.62154
-        }
-      ],
-      "bots": "perplexity_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.12766,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrder": 2,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 2
-      },
-      "mentionsAsPercent": 0.06667,
-      "influence": 0.78429,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.78429,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 561,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 561,
-            "excerpt": "or across digital channels captures visibility in new AI-driven search and interaction models[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Sentiment:** Understanding whether mentions or interactions are positive, negative, or neutr",
-            "line": 5,
-            "column": 177,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 812,
-            "excerpt": "eractions are positive, negative, or neutral helps gauge brand perception shaped by AI outputs[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Competitive Share of Voice:** Measures how much your brand is present relative to competitor",
-            "line": 7,
-            "column": 155,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 1053,
-            "excerpt": "ow much your brand is present relative to competitors in AI-powered channels and conversations[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Click-through Rate (CTR):** Indicates how often users click on AI-recommended products, cont",
-            "line": 9,
-            "column": 145,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3411,
-            "excerpt": "AI model efficacy**, providing a comprehensive view of AI tools' success in marketing contexts[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063)[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)[[3]](htt",
-            "line": 29,
-            "column": 193,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4143,
-            "excerpt": "on AI Marketing KPIs: https://codiste.com/blog/ai-marketing-kpis\n\n- Search Engine Land on AI KPIs: https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063\n\n- Choose Acacia on KPIs for AI initiatives: https://chooseacacia.com/measuring-success-key-metrics",
-            "line": 37,
-            "column": 34,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 6
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.78429
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 6
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 6,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 6
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "multimodal.dev",
-      "value": "multimodal.dev",
-      "link": "https://multimodal.dev",
-      "linkType": "dev",
-      "linkTypeName": "Developer Tools",
-      "mentions": 8,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 4,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 4
-      },
-      "sources": [
-        {
-          "link": "multimodal.dev/post/ai-kpis",
-          "mentions": 8,
-          "appearanceOrder": 7,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 8,
-            "openai_chatgpt_with_search_latest": 6
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 4,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 4
-          },
-          "influence": 0.28936,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 0.13256,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
-          },
-          "weightedInfluence": 0.28936
-        },
-        {
-          "link": "multimodal.dev/post/how-to-get-buy-in-from-stakeholders-for-ai-initiatives",
-          "mentions": 8,
-          "appearanceOrder": 8,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 9,
-            "openai_chatgpt_with_search_latest": 7
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 4,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 4
-          },
-          "influence": 0.27161,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 0.13517,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
-          },
-          "weightedInfluence": 0.27161
-        }
-      ],
-      "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
-      "botCount": 2,
-      "uniqueModelCount": 2,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.08511,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0.17391
-      },
-      "appearanceOrder": 6,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 7,
-        "openai_chatgpt_with_search_latest": 5
-      },
-      "mentionsAsPercent": 0.08889,
-      "influence": 0.31292,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0.12897,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "weightedInfluence": 0.31292,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 2966,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": 1958
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "appearanceOrder": 1958,
-            "excerpt": "e how accurately AI models predict outcomes and how reliably they perform under various conditions ([Multimodal Blog](https://www.multimodal.dev/post/ai-kpis)).\n\n7. **User Engagement**: Understanding user interaction with AI tools can provide insights into",
-            "line": 13,
-            "column": 199,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 2831,
-            "excerpt": "s like the [Datadab Blog](https://www.datadab.com/blog/ai-marketing-tools-roi-measurement/) and the [Multimodal List](https://www.multimodal.dev/post/ai-kpis) may offer additional strategies for optimizing AI tool effectiveness in marketing.\n\n# CITATIONS\n\n1",
-            "line": 19,
-            "column": 312,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 6372,
-            "excerpt": "ness goals, enable data-driven adjustments, and demonstrate the overall value of an AI project.\n\n5. [34 AI KPIs: The Most Comprehensive List of Success Metrics](https://www.multimodal.dev/post/ai-kpis)\n\nAI KPIs are essential for **assessing different AI models**, as well as the effectiveness of busi",
-            "line": 39,
-            "column": 4,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 6713,
-            "excerpt": "comprehensive list of **34 AI and automation KPIs** you can use to assess both. The success of your [AI initiatives](https://www.multimodal.dev/post/how-to-get-buy-in-from-stakeholders-for-ai-initiatives) doesn't just come down to model performance. It also depends on a variety of other factors the mod",
-            "line": 41,
-            "column": 239,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 2966,
-            "excerpt": "ial for understanding the quality and reliability of AI tools underlying marketing initiatives[[5]](https://www.multimodal.dev/post/ai-kpis).\n\n- **Impressions and Search Engine Rankings:** Traditional digital marketing KPIs remain importan",
-            "line": 25,
-            "column": 196,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3792,
-            "excerpt": "/blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth)[[5]](https://www.multimodal.dev/post/ai-kpis)[[6]](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-ma",
-            "line": 29,
-            "column": 574,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4647,
-            "excerpt": "c.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth\n\n- MultiModal on AI KPIs: https://www.multimodal.dev/post/ai-kpis\n\n- Hurree on Measuring AI ROI in Marketing: https://blog.hurree.co/measuring-the-roi-of-ai-in-marke",
-            "line": 45,
-            "column": 26,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 5653,
-            "excerpt": "//blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth)\n\n5. [www.multimodal.dev/post/ai-kpis](https://www.multimodal.dev/post/ai-kpis)\n\n6. [blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers]",
-            "line": 61,
-            "column": 4,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 8
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.31292
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 6
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.12897
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 7
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 5
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 8,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 8
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "cloud.google.com",
-      "value": "cloud.google.com",
-      "link": "https://cloud.google.com",
-      "linkType": "tch",
-      "linkTypeName": "Tech Companies",
-      "mentions": 10,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 6,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 4
-      },
-      "sources": [
-        {
-          "link": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
-          "mentions": 10,
-          "appearanceOrder": 4,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 4,
-            "openai_chatgpt_with_search_latest": 4
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 6,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 4
-          },
-          "influence": 0.38781,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 0.22449,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
-          },
-          "weightedInfluence": 0.38781
-        }
-      ],
-      "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
-      "botCount": 2,
-      "uniqueModelCount": 2,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.12766,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0.17391
-      },
-      "appearanceOrder": 3,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 3,
-        "openai_chatgpt_with_search_latest": 3
-      },
-      "mentionsAsPercent": 0.11111,
-      "influence": 0.45025,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0.22449,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "weightedInfluence": 0.45025,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 1313,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": 1658
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "appearanceOrder": 1658,
-            "excerpt": "e and resources are saved through AI deployment, and measure improvements in operational processes ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\n6. **Model Accuracy and Robustness**: Metrics such as accuracy, precision, and recall help eval",
-            "line": 11,
-            "column": 153,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 2185,
-            "excerpt": "ols can provide insights into which features are most effective and identify areas for enhancement ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\n8. **Financial Impact**: Measure the overall financial ROI by comparing the costs of AI impleme",
-            "line": 15,
-            "column": 166,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 2418,
-            "excerpt": "e the overall financial ROI by comparing the costs of AI implementations with the derived benefits ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\nThese KPIs provide a comprehensive method to evaluate the impact of AI on marketing efforts, en",
-            "line": 17,
-            "column": 132,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 5477,
-            "excerpt": "s facts. 5. **Zero documentation**: Not keeping a changelog of your AI usage and model updates.\n\n4. [KPIs for gen AI: Measuring your AI success | Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)\n\n#### Looking to measure the effectiveness of your gen AI? Here's the KPIs that'll help track mode",
-            "line": 35,
-            "column": 4,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 1313,
-            "excerpt": "on AI-recommended products, content, or ads, reflecting recommendation or targeting relevance[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Time on Site (TOS):** Tracks user engagement duration, showing satisfaction or efficiency of",
-            "line": 11,
-            "column": 164,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 1545,
-            "excerpt": "ration, showing satisfaction or efficiency of AI-enhanced content discovery or personalization[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Revenue per Visit (RPV):** Measures monetization efficiency per visitor when AI influences p",
-            "line": 13,
-            "column": 152,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 1765,
-            "excerpt": "monetization efficiency per visitor when AI influences purchasing pathways or recommendations[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Conversion Rate:** Percentage of users completing desired actions (purchases, sign-ups) driv",
-            "line": 15,
-            "column": 140,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3601,
-            "excerpt": "063)[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)[[4]](https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive",
-            "line": 29,
-            "column": 383,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4405,
-            "excerpt": "m/measuring-success-key-metrics-and-kpis-for-ai-initiatives/\n\n- Google Cloud on Generative AI KPIs: https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive\n\n- Brands At Play on Marketing KPIs: https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing",
-            "line": 41,
-            "column": 39,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 10
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.45025
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 3
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 6
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 4
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0.22449
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 3
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 3
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 10,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 10
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+      }
     },
     {
       "type": "linkDomain",
@@ -15470,7 +18323,7 @@ window.AppData20251017 = {
         {
           "link": "google.com",
           "mentions": 15,
-          "appearanceOrder": 4.67,
+          "appearanceOrder": 4,
           "appearanceOrderByModel": {
             "anthropic_claude_with_search_latest": 4,
             "perplexity_with_search_latest": 5,
@@ -15481,13 +18334,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 4,
             "openai_chatgpt_with_search_latest": 4
           },
-          "influence": 0.36196,
+          "influence": 0.66423,
           "influenceByModel": {
-            "perplexity_with_search_latest": 0.26192,
-            "anthropic_claude_with_search_latest": 0.09942,
-            "openai_chatgpt_with_search_latest": 1
+            "perplexity_with_search_latest": 0.00777,
+            "anthropic_claude_with_search_latest": 0.00674,
+            "openai_chatgpt_with_search_latest": 0.16144
           },
-          "weightedInfluence": 0.36196
+          "weightedInfluence": 0.66423
         }
       ],
       "bots": "perplexity_with_search_latest,anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest",
@@ -15505,13 +18358,128 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": 4
       },
       "mentionsAsPercent": 0.16667,
-      "influence": 0.40071,
+      "influence": 0.71779,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.26193,
-        "anthropic_claude_with_search_latest": 0.0893,
-        "openai_chatgpt_with_search_latest": 1
+        "perplexity_with_search_latest": 0.00865,
+        "anthropic_claude_with_search_latest": 0.00674,
+        "openai_chatgpt_with_search_latest": 0.17973
       },
-      "weightedInfluence": 0.40071,
+      "weightedInfluence": 0.71779,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 15
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.71779
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 4
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 7
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00865
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00674
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.17973
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 4
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 15,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 15
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": 1327,
         "anthropic_claude_with_search_latest": 2095,
@@ -15615,29 +18583,108 @@ window.AppData20251017 = {
             "captureDate": "2025-10-17"
           }
         ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "multimodal.dev",
+      "value": "multimodal.dev",
+      "link": "https://multimodal.dev",
+      "linkType": "dev",
+      "linkTypeName": "Developer Tools",
+      "mentions": 8,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 4,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 4
       },
+      "sources": [
+        {
+          "link": "multimodal.dev/post/ai-kpis",
+          "mentions": 8,
+          "appearanceOrder": 6,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 8,
+            "openai_chatgpt_with_search_latest": 6
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 4,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "influence": 0.28801,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00362,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.14865
+          },
+          "weightedInfluence": 0.28801
+        },
+        {
+          "link": "multimodal.dev/post/how-to-get-buy-in-from-stakeholders-for-ai-initiatives",
+          "mentions": 8,
+          "appearanceOrder": 7,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 9,
+            "openai_chatgpt_with_search_latest": 7
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 4,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "influence": 0.27201,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00345,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.13911
+          },
+          "weightedInfluence": 0.27201
+        }
+      ],
+      "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
+      "botCount": 2,
+      "uniqueModelCount": 2,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.08511,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.17391
+      },
+      "appearanceOrder": 5,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 7,
+        "openai_chatgpt_with_search_latest": 5
+      },
+      "mentionsAsPercent": 0.08889,
+      "influence": 0.30881,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00383,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.16144
+      },
+      "weightedInfluence": 0.30881,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 15
+          "value": 8
         }
       ],
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.40071
+          "value": 0.30881
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 4
+          "value": 5
         }
       ],
       "uniqueModelCountTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 3
+          "value": 2
         }
       ],
       "mentionsTrend": 999,
@@ -15646,20 +18693,20 @@ window.AppData20251017 = {
       "uniqueModelCountTrend": 999,
       "mentionsByModelTrend": {
         "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": 999
       },
       "mentionsByModelTrendVals": {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 7
+            "value": 4
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 4
+            "value": 0
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -15671,45 +18718,236 @@ window.AppData20251017 = {
       },
       "influenceByModelTrend": {
         "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": 999
       },
       "influenceByModelTrendVals": {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.26193
+            "value": 0.00383
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.0893
+            "value": 0
           }
         ],
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.16144
           }
         ]
       },
       "appearanceOrderByModelTrend": {
         "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": 10
       },
       "appearanceOrderByModelTrendVals": {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 4
+            "value": 7
           }
         ],
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 4
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 5
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 8,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 8
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 2966,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": 1958
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 1958,
+            "excerpt": "e how accurately AI models predict outcomes and how reliably they perform under various conditions ([Multimodal Blog](https://www.multimodal.dev/post/ai-kpis)).\n\n7. **User Engagement**: Understanding user interaction with AI tools can provide insights into",
+            "line": 13,
+            "column": 199,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2831,
+            "excerpt": "s like the [Datadab Blog](https://www.datadab.com/blog/ai-marketing-tools-roi-measurement/) and the [Multimodal List](https://www.multimodal.dev/post/ai-kpis) may offer additional strategies for optimizing AI tool effectiveness in marketing.\n\n# CITATIONS\n\n1",
+            "line": 19,
+            "column": 312,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 6372,
+            "excerpt": "ness goals, enable data-driven adjustments, and demonstrate the overall value of an AI project.\n\n5. [34 AI KPIs: The Most Comprehensive List of Success Metrics](https://www.multimodal.dev/post/ai-kpis)\n\nAI KPIs are essential for **assessing different AI models**, as well as the effectiveness of busi",
+            "line": 39,
+            "column": 4,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 6713,
+            "excerpt": "comprehensive list of **34 AI and automation KPIs** you can use to assess both. The success of your [AI initiatives](https://www.multimodal.dev/post/how-to-get-buy-in-from-stakeholders-for-ai-initiatives) doesn't just come down to model performance. It also depends on a variety of other factors the mod",
+            "line": 41,
+            "column": 239,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 2966,
+            "excerpt": "ial for understanding the quality and reliability of AI tools underlying marketing initiatives[[5]](https://www.multimodal.dev/post/ai-kpis).\n\n- **Impressions and Search Engine Rankings:** Traditional digital marketing KPIs remain importan",
+            "line": 25,
+            "column": 196,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3792,
+            "excerpt": "/blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth)[[5]](https://www.multimodal.dev/post/ai-kpis)[[6]](https://blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-ma",
+            "line": 29,
+            "column": 574,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4647,
+            "excerpt": "c.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth\n\n- MultiModal on AI KPIs: https://www.multimodal.dev/post/ai-kpis\n\n- Hurree on Measuring AI ROI in Marketing: https://blog.hurree.co/measuring-the-roi-of-ai-in-marke",
+            "line": 45,
+            "column": 26,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 5653,
+            "excerpt": "//blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth)\n\n5. [www.multimodal.dev/post/ai-kpis](https://www.multimodal.dev/post/ai-kpis)\n\n6. [blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers]",
+            "line": 61,
+            "column": 4,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "cloud.google.com",
+      "value": "cloud.google.com",
+      "link": "https://cloud.google.com",
+      "linkType": "tch",
+      "linkTypeName": "Tech Companies",
+      "mentions": 10,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 6,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 4
+      },
+      "sources": [
+        {
+          "link": "cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive",
+          "mentions": 10,
+          "appearanceOrder": 4,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 4,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 6,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 4
+          },
+          "influence": 0.46168,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00741,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.17973
+          },
+          "weightedInfluence": 0.46168
+        }
+      ],
+      "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
+      "botCount": 2,
+      "uniqueModelCount": 2,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.12766,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.17391
+      },
+      "appearanceOrder": 3,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 3,
+        "openai_chatgpt_with_search_latest": 3
+      },
+      "mentionsAsPercent": 0.11111,
+      "influence": 0.53599,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00861,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.20866
+      },
+      "weightedInfluence": 0.53599,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 10
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.53599
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 3
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 6
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -15719,18 +18957,143 @@ window.AppData20251017 = {
           }
         ]
       },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00861
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.20866
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 3
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 3
+          }
+        ]
+      },
       "previous_mentions": 0,
-      "mentions_change": 15,
+      "mentions_change": 10,
       "changePercent": 100,
       "mentionsHistory": [
         {
           "date": "2025-10-17",
-          "mentions": 15
+          "mentions": 10
         }
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 1313,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": 1658
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 1658,
+            "excerpt": "e and resources are saved through AI deployment, and measure improvements in operational processes ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\n6. **Model Accuracy and Robustness**: Metrics such as accuracy, precision, and recall help eval",
+            "line": 11,
+            "column": 153,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2185,
+            "excerpt": "ols can provide insights into which features are most effective and identify areas for enhancement ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\n8. **Financial Impact**: Measure the overall financial ROI by comparing the costs of AI impleme",
+            "line": 15,
+            "column": 166,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 2418,
+            "excerpt": "e the overall financial ROI by comparing the costs of AI implementations with the derived benefits ([Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)).\n\nThese KPIs provide a comprehensive method to evaluate the impact of AI on marketing efforts, en",
+            "line": 17,
+            "column": 132,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 5477,
+            "excerpt": "s facts. 5. **Zero documentation**: Not keeping a changelog of your AI usage and model updates.\n\n4. [KPIs for gen AI: Measuring your AI success | Google Cloud Blog](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)\n\n#### Looking to measure the effectiveness of your gen AI? Here's the KPIs that'll help track mode",
+            "line": 35,
+            "column": 4,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 1313,
+            "excerpt": "on AI-recommended products, content, or ads, reflecting recommendation or targeting relevance[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Time on Site (TOS):** Tracks user engagement duration, showing satisfaction or efficiency of",
+            "line": 11,
+            "column": 164,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1545,
+            "excerpt": "ration, showing satisfaction or efficiency of AI-enhanced content discovery or personalization[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Revenue per Visit (RPV):** Measures monetization efficiency per visitor when AI influences p",
+            "line": 13,
+            "column": 152,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1765,
+            "excerpt": "monetization efficiency per visitor when AI influences purchasing pathways or recommendations[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive).\n\n- **Conversion Rate:** Percentage of users completing desired actions (purchases, sign-ups) driv",
+            "line": 15,
+            "column": 140,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3601,
+            "excerpt": "063)[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)[[4]](https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive",
+            "line": 29,
+            "column": 383,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4405,
+            "excerpt": "m/measuring-success-key-metrics-and-kpis-for-ai-initiatives/\n\n- Google Cloud on Generative AI KPIs: https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive\n\n- Brands At Play on Marketing KPIs: https://blog.brandsatplayllc.com/blog/the-ai-digital-marketing",
+            "line": 41,
+            "column": 39,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
     },
     {
       "type": "linkDomain",
@@ -15749,7 +19112,7 @@ window.AppData20251017 = {
         {
           "link": "blog.brandsatplayllc.com/blog/the-ai-digital-marketing-playbook-12-kpis-for-explosive-growth",
           "mentions": 9,
-          "appearanceOrder": 4.5,
+          "appearanceOrder": 3,
           "appearanceOrderByModel": {
             "perplexity_with_search_latest": 6,
             "openai_chatgpt_with_search_latest": 3
@@ -15759,13 +19122,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 0,
             "openai_chatgpt_with_search_latest": 3
           },
-          "influence": 0.33364,
+          "influence": 0.38991,
           "influenceByModel": {
-            "perplexity_with_search_latest": 0.21324,
+            "perplexity_with_search_latest": 0.00613,
             "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
+            "openai_chatgpt_with_search_latest": 0.15649
           },
-          "weightedInfluence": 0.33364
+          "weightedInfluence": 0.38991
         }
       ],
       "bots": "perplexity_with_search_latest,openai_chatgpt_with_search_latest",
@@ -15776,19 +19139,134 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0.13043
       },
-      "appearanceOrder": 3.5,
+      "appearanceOrder": 2,
       "appearanceOrderByModel": {
         "perplexity_with_search_latest": 5,
         "openai_chatgpt_with_search_latest": 2
       },
       "mentionsAsPercent": 0.1,
-      "influence": 0.40751,
+      "influence": 0.45173,
       "influenceByModel": {
-        "perplexity_with_search_latest": 0.18353,
+        "perplexity_with_search_latest": 0.00666,
         "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
+        "openai_chatgpt_with_search_latest": 0.19747
       },
-      "weightedInfluence": 0.40751,
+      "weightedInfluence": 0.45173,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 9
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.45173
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 2
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 6
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 3
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00666
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.19747
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 5
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 9,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 9
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": 1974,
         "anthropic_claude_with_search_latest": -1,
@@ -15856,29 +19334,470 @@ window.AppData20251017 = {
             "captureDate": "2025-10-17"
           }
         ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "datadab.com",
+      "value": "datadab.com",
+      "link": "https://datadab.com",
+      "linkType": "dev",
+      "linkTypeName": "Developer Tools",
+      "mentions": 2,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 2
       },
+      "sources": [
+        {
+          "link": "datadab.com/blog/ai-marketing-tools-roi-measurement",
+          "mentions": 2,
+          "appearanceOrder": 8,
+          "appearanceOrderByModel": {
+            "openai_chatgpt_with_search_latest": 8
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 2
+          },
+          "influence": 0.06582,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.06582
+          },
+          "weightedInfluence": 0.06582
+        }
+      ],
+      "bots": "openai_chatgpt_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.08696
+      },
+      "appearanceOrder": 6,
+      "appearanceOrderByModel": {
+        "openai_chatgpt_with_search_latest": 6
+      },
+      "mentionsAsPercent": 0.02222,
+      "influence": 0.07433,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.07433
+      },
+      "weightedInfluence": 0.07433,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 9
+          "value": 2
         }
       ],
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.40751
+          "value": 0.07433
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 3.5
+          "value": 6
         }
       ],
       "uniqueModelCountTrendVals": [
         {
           "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 2
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.07433
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 6
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 2,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 2
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": 2742
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 2742,
+            "excerpt": "AI technology deliver tangible returns. For further insights, exploring in-depth resources like the [Datadab Blog](https://www.datadab.com/blog/ai-marketing-tools-roi-measurement/) and the [Multimodal List](https://www.multimodal.dev/post/ai-kpis) may offer additional strategies",
+            "line": 19,
+            "column": 223,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4689,
+            "excerpt": "KPIs that empower marketers to decode complex data, optimize campaigns, and drive superior ROI.\n\n3. [How to Actually Measure ROI from AI Marketing Tools (Without Crying in Your Dashboard)](https://www.datadab.com/blog/ai-marketing-tools-roi-measurement/)\n\n| | **Benchmarking discipline** | Do you have clean before/after metrics? | | **Time horizon clar",
+            "line": 31,
+            "column": 4,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": []
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "implementation.we",
+      "value": "implementation.we",
+      "link": "https://implementation.we",
+      "linkType": "dev",
+      "linkTypeName": "Developer Tools",
+      "mentions": 1,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 1
+      },
+      "sources": [
+        {
+          "link": "implementation.we",
+          "mentions": 1,
+          "appearanceOrder": 9,
+          "appearanceOrderByModel": {
+            "openai_chatgpt_with_search_latest": 9
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 1
+          },
+          "influence": 0.03141,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0.03141
+          },
+          "weightedInfluence": 0.03141
+        }
+      ],
+      "bots": "openai_chatgpt_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.04348
+      },
+      "appearanceOrder": 7,
+      "appearanceOrderByModel": {
+        "openai_chatgpt_with_search_latest": 7
+      },
+      "mentionsAsPercent": 0.01111,
+      "influence": 0.03478,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0.03478
+      },
+      "weightedInfluence": 0.03478,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.03478
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 7
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.03478
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": 10
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 7
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": 6577
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "appearanceOrder": 6577,
+            "excerpt": "KPIs are essential for **assessing different AI models**, as well as the effectiveness of business implementation.We’ve put together a comprehensive list of **34 AI and automation KPIs** you can use to assess both. T",
+            "line": 41,
+            "column": 103,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "perplexity_with_search_latest": []
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "searchengineland.com",
+      "value": "searchengineland.com",
+      "link": "https://searchengineland.com",
+      "linkType": "blg",
+      "linkTypeName": "Blogs",
+      "mentions": 6,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 6,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "sources": [
+        {
+          "link": "searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063",
+          "mentions": 6,
+          "appearanceOrder": 3,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 3
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 6,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00861,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00861,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00861
+        }
+      ],
+      "bots": "perplexity_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.12766,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrder": 2,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 2
+      },
+      "mentionsAsPercent": 0.06667,
+      "influence": 0.01086,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.01086,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.01086,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 6
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.01086
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
           "value": 2
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
         }
       ],
       "mentionsTrend": 999,
@@ -15888,7 +19807,7 @@ window.AppData20251017 = {
       "mentionsByModelTrend": {
         "perplexity_with_search_latest": 999,
         "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
+        "openai_chatgpt_with_search_latest": -9999
       },
       "mentionsByModelTrendVals": {
         "perplexity_with_search_latest": [
@@ -15906,20 +19825,20 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 3
+            "value": 0
           }
         ]
       },
       "influenceByModelTrend": {
         "perplexity_with_search_latest": 999,
         "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
+        "openai_chatgpt_with_search_latest": -9999
       },
       "influenceByModelTrendVals": {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0.18353
+            "value": 0.01086
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -15931,20 +19850,20 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0
           }
         ]
       },
       "appearanceOrderByModelTrend": {
         "perplexity_with_search_latest": 10,
         "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
+        "openai_chatgpt_with_search_latest": -9999
       },
       "appearanceOrderByModelTrendVals": {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 5
+            "value": 2
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -15956,22 +19875,257 @@ window.AppData20251017 = {
         "openai_chatgpt_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 2
+            "value": -1
           }
         ]
       },
       "previous_mentions": 0,
-      "mentions_change": 9,
+      "mentions_change": 6,
       "changePercent": 100,
       "mentionsHistory": [
         {
           "date": "2025-10-17",
-          "mentions": 9
+          "mentions": 6
         }
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 561,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 561,
+            "excerpt": "or across digital channels captures visibility in new AI-driven search and interaction models[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Sentiment:** Understanding whether mentions or interactions are positive, negative, or neutr",
+            "line": 5,
+            "column": 177,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 812,
+            "excerpt": "eractions are positive, negative, or neutral helps gauge brand perception shaped by AI outputs[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Competitive Share of Voice:** Measures how much your brand is present relative to competitor",
+            "line": 7,
+            "column": 155,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 1053,
+            "excerpt": "ow much your brand is present relative to competitors in AI-powered channels and conversations[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063).\n\n- **Click-through Rate (CTR):** Indicates how often users click on AI-recommended products, cont",
+            "line": 9,
+            "column": 145,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3411,
+            "excerpt": "AI model efficacy**, providing a comprehensive view of AI tools' success in marketing contexts[[1]](https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063)[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)[[3]](htt",
+            "line": 29,
+            "column": 193,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4143,
+            "excerpt": "on AI Marketing KPIs: https://codiste.com/blog/ai-marketing-kpis\n\n- Search Engine Land on AI KPIs: https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063\n\n- Choose Acacia on KPIs for AI initiatives: https://chooseacacia.com/measuring-success-key-metrics",
+            "line": 37,
+            "column": 34,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "blog.hubspot.com",
+      "value": "blog.hubspot.com",
+      "link": "https://blog.hubspot.com",
+      "linkType": "blg",
+      "linkTypeName": "Blogs",
+      "mentions": 1,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 1,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "sources": [
+        {
+          "link": "blog.hubspot.com/marketing/metrics",
+          "mentions": 1,
+          "appearanceOrder": 1,
+          "appearanceOrderByModel": {
+            "anthropic_claude_with_search_latest": 1
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 1,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00391,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0,
+            "anthropic_claude_with_search_latest": 0.00391,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00391
+        }
+      ],
+      "bots": "anthropic_claude_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.05,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrder": 1,
+      "appearanceOrderByModel": {
+        "anthropic_claude_with_search_latest": 1
+      },
+      "mentionsAsPercent": 0.01111,
+      "influence": 0.00391,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0,
+        "anthropic_claude_with_search_latest": 0.00391,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00391,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00391
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00391
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": -9999,
+        "anthropic_claude_with_search_latest": 10,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 775,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 775,
+            "excerpt": "s from automated tasks\n- **Tool ROI**: (Value generated - Tool cost) / Tool cost × 100\n\n**Source**: [HubSpot Marketing Metrics Guide](https://blog.hubspot.com/marketing/metrics)\n\n## 2. **Content Performance Metrics**\n\n### AI-Generated Content Quality\n- **Engagement rate**: Li",
+            "line": 17,
+            "column": 13,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -15999,13 +20153,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 0,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.27624,
+          "influence": 0.00383,
           "influenceByModel": {
-            "perplexity_with_search_latest": 1,
+            "perplexity_with_search_latest": 0.00383,
             "anthropic_claude_with_search_latest": 0,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.27624
+          "weightedInfluence": 0.00383
         }
       ],
       "bots": "perplexity_with_search_latest",
@@ -16021,52 +20175,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 6
       },
       "mentionsAsPercent": 0.04444,
-      "influence": 0.2952,
+      "influence": 0.00409,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00409,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.2952,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 2684,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 2684,
-            "excerpt": "cess times, error rates, and automation levels, reflecting AI's impact on marketing operations[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/).\n\n- **AI Model Performance Metrics:** Including accuracy, precision, recall, and F1 score, essenti",
-            "line": 23,
-            "column": 150,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3511,
-            "excerpt": "https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063)[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)[[4]](https://b",
-            "line": 29,
-            "column": 293,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4282,
-            "excerpt": "rning-mentions-into-strategy-in-the-age-of-llms-463063\n\n- Choose Acacia on KPIs for AI initiatives: https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/\n\n- Google Cloud on Generative AI KPIs: https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-",
-            "line": 39,
-            "column": 45,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 5130,
-            "excerpt": "(https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063)\n\n2. [chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)\n\n3. [cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive](https://cloud.google.c",
-            "line": 55,
-            "column": 4,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
+      "weightedInfluence": 0.00409,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -16076,7 +20191,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.2952
+          "value": 0.00409
         }
       ],
       "appearanceOrderTrendVals": [
@@ -16129,7 +20244,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00409
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -16181,7 +20296,46 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 2684,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 2684,
+            "excerpt": "cess times, error rates, and automation levels, reflecting AI's impact on marketing operations[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/).\n\n- **AI Model Performance Metrics:** Including accuracy, precision, recall, and F1 score, essenti",
+            "line": 23,
+            "column": 150,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3511,
+            "excerpt": "https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063)[[2]](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)[[3]](https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive)[[4]](https://b",
+            "line": 29,
+            "column": 293,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4282,
+            "excerpt": "rning-mentions-into-strategy-in-the-age-of-llms-463063\n\n- Choose Acacia on KPIs for AI initiatives: https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/\n\n- Google Cloud on Generative AI KPIs: https://cloud.google.com/transform/gen-ai-kpis-measuring-ai-",
+            "line": 39,
+            "column": 45,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 5130,
+            "excerpt": "(https://searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-463063)\n\n2. [chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/](https://chooseacacia.com/measuring-success-key-metrics-and-kpis-for-ai-initiatives/)\n\n3. [cloud.google.com/transform/gen-ai-kpis-measuring-ai-success-deep-dive](https://cloud.google.c",
+            "line": 55,
+            "column": 4,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
     },
     {
       "type": "linkDomain",
@@ -16209,13 +20363,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 0,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.23954,
+          "influence": 0.00332,
           "influenceByModel": {
-            "perplexity_with_search_latest": 1,
+            "perplexity_with_search_latest": 0.00332,
             "anthropic_claude_with_search_latest": 0,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.23954
+          "weightedInfluence": 0.00332
         }
       ],
       "bots": "perplexity_with_search_latest",
@@ -16231,52 +20385,13 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": 8
       },
       "mentionsAsPercent": 0.04444,
-      "influence": 0.26142,
+      "influence": 0.00362,
       "influenceByModel": {
-        "perplexity_with_search_latest": 1,
+        "perplexity_with_search_latest": 0.00362,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.26142,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 3168,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
-          {
-            "appearanceOrder": 3168,
-            "excerpt": "igital marketing KPIs remain important, especially as AI reshapes search and content discovery[[9]](https://online.hbs.edu/blog/post/marketing-kpis).\n\nThese KPIs collectively capture **engagement, visibility, efficiency, financial impact, and AI m",
-            "line": 27,
-            "column": 160,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 3945,
-            "excerpt": "/blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers)[[9]](https://online.hbs.edu/blog/post/marketing-kpis).\n\n---\n\n**Relevant source links:**\n\n- Codiste blog on AI Marketing KPIs: https://codiste.com/blog/a",
-            "line": 29,
-            "column": 727,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4878,
-            "excerpt": "in-marketing-key-metrics-and-strategies-for-marketers\n\n- Harvard Business School on Marketing KPIs: https://online.hbs.edu/blog/post/marketing-kpis\n\n# CITATIONS\n\n1. [searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-46",
-            "line": 49,
-            "column": 46,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 6325,
-            "excerpt": "com/blog/technical/api-development/5-AI-Product-Metrics-to-Track-A-Guide-to-Measuring-Success/)\n\n9. [online.hbs.edu/blog/post/marketing-kpis](https://online.hbs.edu/blog/post/marketing-kpis)\n\n10. [www.salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track](https://www.salsif",
-            "line": 69,
-            "column": 4,
-            "captureDate": "2025-10-17"
-          }
-        ]
-      },
+      "weightedInfluence": 0.00362,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -16286,7 +20401,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.26142
+          "value": 0.00362
         }
       ],
       "appearanceOrderTrendVals": [
@@ -16339,7 +20454,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00362
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -16391,196 +20506,46 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "blog.hubspot.com",
-      "value": "blog.hubspot.com",
-      "link": "https://blog.hubspot.com",
-      "linkType": "blg",
-      "linkTypeName": "Blogs",
-      "mentions": 1,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "sources": [
-        {
-          "link": "blog.hubspot.com/marketing/metrics",
-          "mentions": 1,
-          "appearanceOrder": 1,
-          "appearanceOrderByModel": {
-            "anthropic_claude_with_search_latest": 1
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "influence": 0.20719,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "weightedInfluence": 0.20719
-        }
-      ],
-      "bots": "anthropic_claude_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0.05,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrder": 1,
-      "appearanceOrderByModel": {
-        "anthropic_claude_with_search_latest": 1
-      },
-      "mentionsAsPercent": 0.01111,
-      "influence": 0.20719,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.20719,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 775,
+        "perplexity_with_search_latest": 3168,
+        "anthropic_claude_with_search_latest": -1,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
           {
-            "appearanceOrder": 775,
-            "excerpt": "s from automated tasks\n- **Tool ROI**: (Value generated - Tool cost) / Tool cost × 100\n\n**Source**: [HubSpot Marketing Metrics Guide](https://blog.hubspot.com/marketing/metrics)\n\n## 2. **Content Performance Metrics**\n\n### AI-Generated Content Quality\n- **Engagement rate**: Li",
-            "line": 17,
-            "column": 13,
+            "appearanceOrder": 3168,
+            "excerpt": "igital marketing KPIs remain important, especially as AI reshapes search and content discovery[[9]](https://online.hbs.edu/blog/post/marketing-kpis).\n\nThese KPIs collectively capture **engagement, visibility, efficiency, financial impact, and AI m",
+            "line": 27,
+            "column": 160,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 3945,
+            "excerpt": "/blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers)[[9]](https://online.hbs.edu/blog/post/marketing-kpis).\n\n---\n\n**Relevant source links:**\n\n- Codiste blog on AI Marketing KPIs: https://codiste.com/blog/a",
+            "line": 29,
+            "column": 727,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 4878,
+            "excerpt": "in-marketing-key-metrics-and-strategies-for-marketers\n\n- Harvard Business School on Marketing KPIs: https://online.hbs.edu/blog/post/marketing-kpis\n\n# CITATIONS\n\n1. [searchengineland.com/ai-kpis-turning-mentions-into-strategy-in-the-age-of-llms-46",
+            "line": 49,
+            "column": 46,
+            "captureDate": "2025-10-17"
+          },
+          {
+            "appearanceOrder": 6325,
+            "excerpt": "com/blog/technical/api-development/5-AI-Product-Metrics-to-Track-A-Guide-to-Measuring-Success/)\n\n9. [online.hbs.edu/blog/post/marketing-kpis](https://online.hbs.edu/blog/post/marketing-kpis)\n\n10. [www.salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track](https://www.salsif",
+            "line": 69,
+            "column": 4,
             "captureDate": "2025-10-17"
           }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.20719
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
         ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": 10,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+      }
     },
     {
       "type": "linkDomain",
@@ -16608,13 +20573,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.13071,
+          "influence": 0.00247,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00247,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.13071
+          "weightedInfluence": 0.00247
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -16630,31 +20595,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 2
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.13071,
+      "influence": 0.00247,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00247,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.13071,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 1393,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 1393,
-            "excerpt": "ated with AI assistance\n- **Publication frequency**: Consistency of content production\n\n**Source**: [Content Marketing Institute Metrics](https://contentmarketinginstitute.com/articles/metrics-measure-content-marketing/)\n\n## 3. **Campaign Performance Metrics**\n\n### Targeting & Personalization\n- **Personalization score",
-            "line": 32,
-            "column": 13,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00247,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -16664,7 +20611,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.13071
+          "value": 0.00247
         }
       ],
       "appearanceOrderTrendVals": [
@@ -16723,7 +20670,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00247
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -16769,203 +20716,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "datadab.com",
-      "value": "datadab.com",
-      "link": "https://datadab.com",
-      "linkType": "dev",
-      "linkTypeName": "Developer Tools",
-      "mentions": 2,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 2
-      },
-      "sources": [
-        {
-          "link": "datadab.com/blog/ai-marketing-tools-roi-measurement",
-          "mentions": 2,
-          "appearanceOrder": 8,
-          "appearanceOrderByModel": {
-            "openai_chatgpt_with_search_latest": 8
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 2
-          },
-          "influence": 0.13071,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
-          },
-          "weightedInfluence": 0.13071
-        }
-      ],
-      "bots": "openai_chatgpt_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0.08696
-      },
-      "appearanceOrder": 6,
-      "appearanceOrderByModel": {
-        "openai_chatgpt_with_search_latest": 6
-      },
-      "mentionsAsPercent": 0.02222,
-      "influence": 0.14759,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "weightedInfluence": 0.14759,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": 2742
+        "anthropic_claude_with_search_latest": 1393,
+        "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [
+        "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 2742,
-            "excerpt": "AI technology deliver tangible returns. For further insights, exploring in-depth resources like the [Datadab Blog](https://www.datadab.com/blog/ai-marketing-tools-roi-measurement/) and the [Multimodal List](https://www.multimodal.dev/post/ai-kpis) may offer additional strategies",
-            "line": 19,
-            "column": 223,
-            "captureDate": "2025-10-17"
-          },
-          {
-            "appearanceOrder": 4689,
-            "excerpt": "KPIs that empower marketers to decode complex data, optimize campaigns, and drive superior ROI.\n\n3. [How to Actually Measure ROI from AI Marketing Tools (Without Crying in Your Dashboard)](https://www.datadab.com/blog/ai-marketing-tools-roi-measurement/)\n\n| | **Benchmarking discipline** | Do you have clean before/after metrics? | | **Time horizon clar",
-            "line": 31,
-            "column": 4,
+            "appearanceOrder": 1393,
+            "excerpt": "ated with AI assistance\n- **Publication frequency**: Consistency of content production\n\n**Source**: [Content Marketing Institute Metrics](https://contentmarketinginstitute.com/articles/metrics-measure-content-marketing/)\n\n## 3. **Campaign Performance Metrics**\n\n### Targeting & Personalization\n- **Personalization score",
+            "line": 32,
+            "column": 13,
             "captureDate": "2025-10-17"
           }
         ],
+        "openai_chatgpt_with_search_latest": [],
         "perplexity_with_search_latest": []
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 2
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.14759
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 6
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 2
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 6
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 2,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 2
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+      }
     },
     {
       "type": "linkDomain",
@@ -16993,13 +20762,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.10358,
+          "influence": 0.00196,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00196,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.10358
+          "weightedInfluence": 0.00196
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -17015,31 +20784,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 3
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.10358,
+      "influence": 0.00196,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00196,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.10358,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 2044,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 2044,
-            "excerpt": "rough AI campaigns\n- **Return on ad spend (ROAS)**: Revenue generated per dollar spent\n\n**Source**: [Google Analytics 4 Documentation](https://support.google.com/analytics/answer/9355949)\n\n## 4. **Customer Experience Metrics**\n\n### AI Chatbot/Assistant Performance\n- **First response ti",
-            "line": 46,
-            "column": 13,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00196,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -17049,7 +20800,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.10358
+          "value": 0.00196
         }
       ],
       "appearanceOrderTrendVals": [
@@ -17108,7 +20859,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00196
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -17154,7 +20905,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2044,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2044,
+            "excerpt": "rough AI campaigns\n- **Return on ad spend (ROAS)**: Revenue generated per dollar spent\n\n**Source**: [Google Analytics 4 Documentation](https://support.google.com/analytics/answer/9355949)\n\n## 4. **Customer Experience Metrics**\n\n### AI Chatbot/Assistant Performance\n- **First response ti",
+            "line": 46,
+            "column": 13,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -17182,13 +20951,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.08015,
+          "influence": 0.00151,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00151,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.08015
+          "weightedInfluence": 0.00151
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -17204,31 +20973,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 5
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.08015,
+      "influence": 0.00151,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00151,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.08015,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 2545,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 2545,
-            "excerpt": "ations handled entirely by AI\n- **Escalation rate**: How often human agents are needed\n\n**Source**: [Zendesk AI Metrics Guide](https://www.zendesk.com/blog/customer-service-metrics/)\n\n### Personalization Impact\n- **Email open rates**: AI-optimized subject lines performance\n- **Rec",
-            "line": 57,
-            "column": 13,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00151,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -17238,7 +20989,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.08015
+          "value": 0.00151
         }
       ],
       "appearanceOrderTrendVals": [
@@ -17297,7 +21048,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00151
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -17343,15 +21094,33 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 2545,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 2545,
+            "excerpt": "ations handled entirely by AI\n- **Escalation rate**: How often human agents are needed\n\n**Source**: [Zendesk AI Metrics Guide](https://www.zendesk.com/blog/customer-service-metrics/)\n\n### Personalization Impact\n- **Email open rates**: AI-optimized subject lines performance\n- **Rec",
+            "line": 57,
+            "column": 13,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
       "code": "gartner.com",
       "value": "gartner.com",
       "link": "https://gartner.com",
-      "linkType": "aca",
-      "linkTypeName": "Academic",
+      "linkType": "tch",
+      "linkTypeName": "Tech Companies",
       "mentions": 1,
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
@@ -17371,13 +21140,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.07381,
+          "influence": 0.00139,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00139,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.07381
+          "weightedInfluence": 0.00139
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -17393,31 +21162,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 6
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.07381,
+      "influence": 0.00139,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00139,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.07381,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 3218,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 3218,
-            "excerpt": "ports/insights\n- **Anomaly detection rate**: AI's ability to identify unusual patterns\n\n**Source**: [Gartner Marketing Analytics](https://www.gartner.com/en/marketing/topics/marketing-analytics)\n\n## 6. **SEO & Search Performance**\n\n### AI-Optimized SEO\n- **Organic traffic growth**: Traffic fr",
-            "line": 72,
-            "column": 13,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00139,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -17427,7 +21178,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.07381
+          "value": 0.00139
         }
       ],
       "appearanceOrderTrendVals": [
@@ -17486,7 +21237,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00139
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -17532,7 +21283,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3218,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3218,
+            "excerpt": "ports/insights\n- **Anomaly detection rate**: AI's ability to identify unusual patterns\n\n**Source**: [Gartner Marketing Analytics](https://www.gartner.com/en/marketing/topics/marketing-analytics)\n\n## 6. **SEO & Search Performance**\n\n### AI-Optimized SEO\n- **Organic traffic growth**: Traffic fr",
+            "line": 72,
+            "column": 13,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -17560,13 +21329,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.06905,
+          "influence": 0.0013,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.0013,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.06905
+          "weightedInfluence": 0.0013
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -17582,31 +21351,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 7
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.06905,
+      "influence": 0.0013,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.0013,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.06905,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 3637,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 3637,
-            "excerpt": "redibility improvements\n- **Featured snippets earned**: SERP features captured\n\n**Tools to track**: [Google Search Console](https://search.google.com/search-console/about), [SEMrush](https://www.semrush.com/), [Ahrefs](https://ahrefs.com/)\n\n## 7. **Social Media Metrics*",
-            "line": 82,
-            "column": 21,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.0013,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -17616,7 +21367,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.06905
+          "value": 0.0013
         }
       ],
       "appearanceOrderTrendVals": [
@@ -17675,7 +21426,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.0013
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -17721,7 +21472,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 3637,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 3637,
+            "excerpt": "redibility improvements\n- **Featured snippets earned**: SERP features captured\n\n**Tools to track**: [Google Search Console](https://search.google.com/search-console/about), [SEMrush](https://www.semrush.com/), [Ahrefs](https://ahrefs.com/)\n\n## 7. **Social Media Metrics*",
+            "line": 82,
+            "column": 21,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -17749,13 +21518,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.06536,
+          "influence": 0.00123,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00123,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.06536
+          "weightedInfluence": 0.00123
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -17771,31 +21540,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 8
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.06536,
+      "influence": 0.00123,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00123,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.06536,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 4124,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 4124,
-            "excerpt": "iment trends from AI monitoring\n- **Share of voice**: Brand visibility vs. competitors\n\n**Source**: [Sprout Social Metrics Guide](https://sproutsocial.com/insights/social-media-metrics/)\n\n## 8. **Quality Assurance Metrics**\n\n### Accuracy & Reliability\n- **Error rate**: Mistakes in AI-",
-            "line": 92,
-            "column": 13,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00123,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -17805,7 +21556,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.06536
+          "value": 0.00123
         }
       ],
       "appearanceOrderTrendVals": [
@@ -17864,7 +21615,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00123
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -17910,7 +21661,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 4124,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 4124,
+            "excerpt": "iment trends from AI monitoring\n- **Share of voice**: Brand visibility vs. competitors\n\n**Source**: [Sprout Social Metrics Guide](https://sproutsocial.com/insights/social-media-metrics/)\n\n## 8. **Quality Assurance Metrics**\n\n### Accuracy & Reliability\n- **Error rate**: Mistakes in AI-",
+            "line": 92,
+            "column": 13,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -17938,13 +21707,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.06237,
+          "influence": 0.00118,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00118,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.06237
+          "weightedInfluence": 0.00118
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -17960,31 +21729,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 9
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.06237,
+      "influence": 0.00118,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00118,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.06237,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 4820,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 4820,
-            "excerpt": "tion**: Team proficiency with tools\n- **User satisfaction**: Internal NPS for AI tools\n\n**Source**: [Pendo Product Analytics](https://www.pendo.io/product/)\n\n## 10. **Competitive Metrics**\n\n### Market Position\n- **Market share changes**: Growth compared t",
-            "line": 110,
-            "column": 13,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00118,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -17994,7 +21745,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.06237
+          "value": 0.00118
         }
       ],
       "appearanceOrderTrendVals": [
@@ -18053,7 +21804,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00118
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -18099,196 +21850,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "implementation.we",
-      "value": "implementation.we",
-      "link": "https://implementation.we",
-      "linkType": "dev",
-      "linkTypeName": "Developer Tools",
-      "mentions": 1,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "sources": [
-        {
-          "link": "implementation.we",
-          "mentions": 1,
-          "appearanceOrder": 9,
-          "appearanceOrderByModel": {
-            "openai_chatgpt_with_search_latest": 9
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
-          },
-          "influence": 0.06237,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 1
-          },
-          "weightedInfluence": 0.06237
-        }
-      ],
-      "bots": "openai_chatgpt_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0.04348
-      },
-      "appearanceOrder": 7,
-      "appearanceOrderByModel": {
-        "openai_chatgpt_with_search_latest": 7
-      },
-      "mentionsAsPercent": 0.01111,
-      "influence": 0.06905,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 1
-      },
-      "weightedInfluence": 0.06905,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
         "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": 6577
+        "anthropic_claude_with_search_latest": 4820,
+        "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [
+        "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 6577,
-            "excerpt": "KPIs are essential for **assessing different AI models**, as well as the effectiveness of business implementation.We’ve put together a comprehensive list of **34 AI and automation KPIs** you can use to assess both. T",
-            "line": 41,
-            "column": 103,
+            "appearanceOrder": 4820,
+            "excerpt": "tion**: Team proficiency with tools\n- **User satisfaction**: Internal NPS for AI tools\n\n**Source**: [Pendo Product Analytics](https://www.pendo.io/product/)\n\n## 10. **Competitive Metrics**\n\n### Market Position\n- **Market share changes**: Growth compared t",
+            "line": 110,
+            "column": 13,
             "captureDate": "2025-10-17"
           }
         ],
+        "openai_chatgpt_with_search_latest": [],
         "perplexity_with_search_latest": []
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.06905
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 7
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": 10
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 7
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+      }
     },
     {
       "type": "linkDomain",
@@ -18316,13 +21896,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.05989,
+          "influence": 0.00113,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00113,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.05989
+          "weightedInfluence": 0.00113
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -18338,31 +21918,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 10
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.05989,
+      "influence": 0.00113,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00113,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05989,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5163,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5163,
-            "excerpt": "nnovation index**: New capabilities deployed vs. industry\n\n## Tools for Tracking These Metrics\n\n- **[Google Analytics 4](https://analytics.google.com/)**: Web analytics and conversion tracking\n- **[Tableau](https://www.tableau.com/)**: Data visualiza",
-            "line": 121,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00113,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -18372,7 +21934,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05989
+          "value": 0.00113
         }
       ],
       "appearanceOrderTrendVals": [
@@ -18431,7 +21993,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00113
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -18477,7 +22039,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 5163,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 5163,
+            "excerpt": "nnovation index**: New capabilities deployed vs. industry\n\n## Tools for Tracking These Metrics\n\n- **[Google Analytics 4](https://analytics.google.com/)**: Web analytics and conversion tracking\n- **[Tableau](https://www.tableau.com/)**: Data visualiza",
+            "line": 121,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -18505,13 +22085,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.0578,
+          "influence": 0.00109,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00109,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.0578
+          "weightedInfluence": 0.00109
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -18527,31 +22107,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 11
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.0578,
+      "influence": 0.00109,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00109,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.0578,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5260,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5260,
-            "excerpt": "**[Google Analytics 4](https://analytics.google.com/)**: Web analytics and conversion tracking\n- **[Tableau](https://www.tableau.com/)**: Data visualization and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard",
-            "line": 122,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00109,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -18561,7 +22123,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.0578
+          "value": 0.00109
         }
       ],
       "appearanceOrderTrendVals": [
@@ -18620,7 +22182,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00109
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -18666,196 +22228,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "codiste.com",
-      "value": "codiste.com",
-      "link": "https://codiste.com",
-      "linkType": "dev",
-      "linkTypeName": "Developer Tools",
-      "mentions": 1,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "sources": [
-        {
-          "link": "codiste.com/blog/ai-marketing-kpis",
-          "mentions": 1,
-          "appearanceOrder": 11,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 11
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "influence": 0.0578,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "weightedInfluence": 0.0578
-        }
-      ],
-      "bots": "perplexity_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.02128,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrder": 9,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 9
-      },
-      "mentionsAsPercent": 0.01111,
-      "influence": 0.06237,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.06237,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 4066,
-        "anthropic_claude_with_search_latest": -1,
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 5260,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
+        "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 4066,
-            "excerpt": "u/blog/post/marketing-kpis).\n\n---\n\n**Relevant source links:**\n\n- Codiste blog on AI Marketing KPIs: https://codiste.com/blog/ai-marketing-kpis\n\n- Search Engine Land on AI KPIs: https://searchengineland.com/ai-kpis-turning-mentions-into-strate",
-            "line": 35,
-            "column": 38,
+            "appearanceOrder": 5260,
+            "excerpt": "**[Google Analytics 4](https://analytics.google.com/)**: Web analytics and conversion tracking\n- **[Tableau](https://www.tableau.com/)**: Data visualization and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard",
+            "line": 122,
+            "column": 5,
             "captureDate": "2025-10-17"
           }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.06237
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 9
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
         ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 9
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -18883,13 +22274,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.056,
+          "influence": 0.00106,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00106,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.056
+          "weightedInfluence": 0.00106
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -18905,31 +22296,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 12
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.056,
+      "influence": 0.00106,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00106,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.056,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5345,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5345,
-            "excerpt": "n tracking\n- **[Tableau](https://www.tableau.com/)**: Data visualization and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n-",
-            "line": 123,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00106,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -18939,7 +22312,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.056
+          "value": 0.00106
         }
       ],
       "appearanceOrderTrendVals": [
@@ -18998,7 +22371,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00106
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -19044,196 +22417,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "martech.org",
-      "value": "martech.org",
-      "link": "https://martech.org",
-      "linkType": "blg",
-      "linkTypeName": "Blogs",
-      "mentions": 1,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "sources": [
-        {
-          "link": "martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing",
-          "mentions": 1,
-          "appearanceOrder": 12,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 12
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "influence": 0.056,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "weightedInfluence": 0.056
-        }
-      ],
-      "bots": "perplexity_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.02128,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrder": 10,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 10
-      },
-      "mentionsAsPercent": 0.01111,
-      "influence": 0.05989,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.05989,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 5933,
-        "anthropic_claude_with_search_latest": -1,
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 5345,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
+        "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 5933,
-            "excerpt": "//blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers)\n\n7. [martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing/](https://martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing/)\n\n8. [www.moesif.com/blog/technical/api-development/5-AI-Product-Metrics-to-Track-A-Guide-to-Measur",
-            "line": 65,
-            "column": 4,
+            "appearanceOrder": 5345,
+            "excerpt": "n tracking\n- **[Tableau](https://www.tableau.com/)**: Data visualization and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n-",
+            "line": 123,
+            "column": 5,
             "captureDate": "2025-10-17"
           }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.05989
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 10
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
         ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 10
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -19261,13 +22463,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.05442,
+          "influence": 0.00103,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00103,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.05442
+          "weightedInfluence": 0.00103
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -19283,31 +22485,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 13
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.05442,
+      "influence": 0.00103,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00103,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05442,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5410,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5410,
-            "excerpt": "ization and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n- **[Supermetrics](https://supermetrics.com/)**: Marketing data aggr",
-            "line": 124,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00103,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -19317,7 +22501,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05442
+          "value": 0.00103
         }
       ],
       "appearanceOrderTrendVals": [
@@ -19376,7 +22560,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00103
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -19422,196 +22606,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "salsify.com",
-      "value": "salsify.com",
-      "link": "https://salsify.com",
-      "linkType": "tch",
-      "linkTypeName": "Tech Companies",
-      "mentions": 1,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "sources": [
-        {
-          "link": "www.salsify.com",
-          "mentions": 1,
-          "appearanceOrder": 13,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 13
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "influence": 0.05442,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "weightedInfluence": 0.05442
-        }
-      ],
-      "bots": "perplexity_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.02128,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrder": 11,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 11
-      },
-      "mentionsAsPercent": 0.01111,
-      "influence": 0.0578,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.0578,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 6421,
-        "anthropic_claude_with_search_latest": -1,
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 5410,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
+        "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 6421,
-            "excerpt": "9. [online.hbs.edu/blog/post/marketing-kpis](https://online.hbs.edu/blog/post/marketing-kpis)\n\n10. [www.salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track](https://www.salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track)\n\n11. [www.gwi.com/blog/ai-marketing-tools](https://www.gwi.com/blog/ai-marketing-tools)\n\n12. [www.",
-            "line": 71,
+            "appearanceOrder": 5410,
+            "excerpt": "ization and dashboard creation\n- **[Databox](https://databox.com/)**: KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n- **[Supermetrics](https://supermetrics.com/)**: Marketing data aggr",
+            "line": 124,
             "column": 5,
             "captureDate": "2025-10-17"
           }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.0578
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 11
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
         ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 11
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -19639,13 +22652,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.05302,
+          "influence": 0.001,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.001,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.05302
+          "weightedInfluence": 0.001
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -19661,31 +22674,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 14
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.05302,
+      "influence": 0.001,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.001,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05302,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5478,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5478,
-            "excerpt": ": KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n- **[Supermetrics](https://supermetrics.com/)**: Marketing data aggregation\n- **[Looker Studio (formerly Data Studio)](https://lookerstudio.goog",
-            "line": 125,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.001,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -19695,7 +22690,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05302
+          "value": 0.001
         }
       ],
       "appearanceOrderTrendVals": [
@@ -19754,7 +22749,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.001
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -19800,196 +22795,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "gwi.com",
-      "value": "gwi.com",
-      "link": "https://gwi.com",
-      "linkType": "tch",
-      "linkTypeName": "Tech Companies",
-      "mentions": 1,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "sources": [
-        {
-          "link": "gwi.com/blog/ai-marketing-tools",
-          "mentions": 1,
-          "appearanceOrder": 14,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 14
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "influence": 0.05302,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "weightedInfluence": 0.05302
-        }
-      ],
-      "bots": "perplexity_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.02128,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrder": 12,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 12
-      },
-      "mentionsAsPercent": 0.01111,
-      "influence": 0.056,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.056,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 6583,
-        "anthropic_claude_with_search_latest": -1,
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 5478,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
+        "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 6583,
-            "excerpt": "is-to-track](https://www.salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track)\n\n11. [www.gwi.com/blog/ai-marketing-tools](https://www.gwi.com/blog/ai-marketing-tools)\n\n12. [www.bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better](https://www.bcg.co",
-            "line": 73,
+            "appearanceOrder": 5478,
+            "excerpt": ": KPI dashboard aggregation\n- **[Mixpanel](https://mixpanel.com/)**: Product and user analytics\n- **[Supermetrics](https://supermetrics.com/)**: Marketing data aggregation\n- **[Looker Studio (formerly Data Studio)](https://lookerstudio.goog",
+            "line": 125,
             "column": 5,
             "captureDate": "2025-10-17"
           }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.056
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 12
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
         ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 12
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -20017,13 +22841,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.05181,
+          "influence": 0.00098,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00098,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.05181
+          "weightedInfluence": 0.00098
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -20039,31 +22863,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 15
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.05181,
+      "influence": 0.00098,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00098,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05181,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5554,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5554,
-            "excerpt": "and user analytics\n- **[Supermetrics](https://supermetrics.com/)**: Marketing data aggregation\n- **[Looker Studio (formerly Data Studio)](https://lookerstudio.google.com/)**: Free reporting platform\n- **[Klipfolio](https://www.klipfolio.com/)**: Real-time dashboard tool",
-            "line": 126,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00098,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -20073,7 +22879,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05181
+          "value": 0.00098
         }
       ],
       "appearanceOrderTrendVals": [
@@ -20132,7 +22938,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00098
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -20178,196 +22984,25 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "bcg.com",
-      "value": "bcg.com",
-      "link": "https://bcg.com",
-      "linkType": "tch",
-      "linkTypeName": "Tech Companies",
-      "mentions": 1,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "sources": [
-        {
-          "link": "bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better",
-          "mentions": 1,
-          "appearanceOrder": 15,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 15
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "influence": 0.05181,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "weightedInfluence": 0.05181
-        }
-      ],
-      "bots": "perplexity_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.02128,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrder": 13,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 13
-      },
-      "mentionsAsPercent": 0.01111,
-      "influence": 0.05442,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.05442,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 6671,
-        "anthropic_claude_with_search_latest": -1,
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 5554,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
+        "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 6671,
-            "excerpt": "track)\n\n11. [www.gwi.com/blog/ai-marketing-tools](https://www.gwi.com/blog/ai-marketing-tools)\n\n12. [www.bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better](https://www.bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better)\n\n13. [www.owox.com/blog/articles/digital-marketing-metrics-and-kpis](https://www.owox.com/blog/art",
-            "line": 75,
+            "appearanceOrder": 5554,
+            "excerpt": "and user analytics\n- **[Supermetrics](https://supermetrics.com/)**: Marketing data aggregation\n- **[Looker Studio (formerly Data Studio)](https://lookerstudio.google.com/)**: Free reporting platform\n- **[Klipfolio](https://www.klipfolio.com/)**: Real-time dashboard tool",
+            "line": 126,
             "column": 5,
             "captureDate": "2025-10-17"
           }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.05442
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 13
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
         ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 13
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
@@ -20395,13 +23030,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.05069,
+          "influence": 0.00096,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00096,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.05069
+          "weightedInfluence": 0.00096
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -20417,31 +23052,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 16
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.05069,
+      "influence": 0.00096,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00096,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.05069,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 5658,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 5658,
-            "excerpt": "ker Studio (formerly Data Studio)](https://lookerstudio.google.com/)**: Free reporting platform\n- **[Klipfolio](https://www.klipfolio.com/)**: Real-time dashboard tool\n\n## Best Practices for Measurement\n\n1. **Establish baselines**: Measur",
-            "line": 127,
-            "column": 5,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00096,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -20451,7 +23068,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.05069
+          "value": 0.00096
         }
       ],
       "appearanceOrderTrendVals": [
@@ -20510,7 +23127,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00096
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -20556,204 +23173,33 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
-    },
-    {
-      "type": "linkDomain",
-      "code": "owox.com",
-      "value": "owox.com",
-      "link": "https://owox.com",
-      "linkType": "dev",
-      "linkTypeName": "Developer Tools",
-      "mentions": 1,
-      "mentionsByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "sources": [
-        {
-          "link": "owox.com/blog/articles/digital-marketing-metrics-and-kpis",
-          "mentions": 1,
-          "appearanceOrder": 16,
-          "appearanceOrderByModel": {
-            "perplexity_with_search_latest": 16
-          },
-          "mentionsByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "influence": 0.05069,
-          "influenceByModel": {
-            "perplexity_with_search_latest": 1,
-            "anthropic_claude_with_search_latest": 0,
-            "openai_chatgpt_with_search_latest": 0
-          },
-          "weightedInfluence": 0.05069
-        }
-      ],
-      "bots": "perplexity_with_search_latest",
-      "botCount": 1,
-      "uniqueModelCount": 1,
-      "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0.02128,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "appearanceOrder": 14,
-      "appearanceOrderByModel": {
-        "perplexity_with_search_latest": 14
-      },
-      "mentionsAsPercent": 0.01111,
-      "influence": 0.05302,
-      "influenceByModel": {
-        "perplexity_with_search_latest": 1,
-        "anthropic_claude_with_search_latest": 0,
-        "openai_chatgpt_with_search_latest": 0
-      },
-      "weightedInfluence": 0.05302,
+      "volatility": 0,
       "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": 6833,
-        "anthropic_claude_with_search_latest": -1,
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 5658,
         "openai_chatgpt_with_search_latest": -1
       },
       "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": [
+        "anthropic_claude_with_search_latest": [
           {
-            "appearanceOrder": 6833,
-            "excerpt": "cess-better](https://www.bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better)\n\n13. [www.owox.com/blog/articles/digital-marketing-metrics-and-kpis](https://www.owox.com/blog/articles/digital-marketing-metrics-and-kpis)",
-            "line": 77,
+            "appearanceOrder": 5658,
+            "excerpt": "ker Studio (formerly Data Studio)](https://lookerstudio.google.com/)**: Free reporting platform\n- **[Klipfolio](https://www.klipfolio.com/)**: Real-time dashboard tool\n\n## Best Practices for Measurement\n\n1. **Establish baselines**: Measur",
+            "line": 127,
             "column": 5,
             "captureDate": "2025-10-17"
           }
-        ]
-      },
-      "mentionsTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "influenceTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 0.05302
-        }
-      ],
-      "appearanceOrderTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 14
-        }
-      ],
-      "uniqueModelCountTrendVals": [
-        {
-          "date": "2025-10-17",
-          "value": 1
-        }
-      ],
-      "mentionsTrend": 999,
-      "influenceTrend": 999,
-      "appearanceOrderTrend": 999,
-      "uniqueModelCountTrend": 999,
-      "mentionsByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "mentionsByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
         ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "influenceByModelTrend": {
-        "perplexity_with_search_latest": 999,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "influenceByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 1
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 0
-          }
-        ]
-      },
-      "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": 10,
-        "anthropic_claude_with_search_latest": -9999,
-        "openai_chatgpt_with_search_latest": -9999
-      },
-      "appearanceOrderByModelTrendVals": {
-        "perplexity_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": 14
-          }
-        ],
-        "anthropic_claude_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [
-          {
-            "date": "2025-10-17",
-            "value": -1
-          }
-        ]
-      },
-      "previous_mentions": 0,
-      "mentions_change": 1,
-      "changePercent": 100,
-      "mentionsHistory": [
-        {
-          "date": "2025-10-17",
-          "mentions": 1
-        }
-      ],
-      "lastSeen": "2025-10-17",
-      "firstSeen": "2025-10-17",
-      "volatility": 0
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
       "code": "marketingprofs.com",
       "value": "marketingprofs.com",
       "link": "https://marketingprofs.com",
-      "linkType": "blg",
-      "linkTypeName": "Blogs",
+      "linkType": "dev",
+      "linkTypeName": "Developer Tools",
       "mentions": 1,
       "mentionsByModel": {
         "perplexity_with_search_latest": 0,
@@ -20773,13 +23219,13 @@ window.AppData20251017 = {
             "anthropic_claude_with_search_latest": 1,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0.04969,
+          "influence": 0.00094,
           "influenceByModel": {
             "perplexity_with_search_latest": 0,
-            "anthropic_claude_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0.00094,
             "openai_chatgpt_with_search_latest": 0
           },
-          "weightedInfluence": 0.04969
+          "weightedInfluence": 0.00094
         }
       ],
       "bots": "anthropic_claude_with_search_latest",
@@ -20795,31 +23241,13 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": 17
       },
       "mentionsAsPercent": 0.01111,
-      "influence": 0.04969,
+      "influence": 0.00094,
       "influenceByModel": {
         "perplexity_with_search_latest": 0,
-        "anthropic_claude_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0.00094,
         "openai_chatgpt_with_search_latest": 0
       },
-      "weightedInfluence": 0.04969,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": 6140,
-        "openai_chatgpt_with_search_latest": -1
-      },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [
-          {
-            "appearanceOrder": 6140,
-            "excerpt": "touch conversions\n5. **Continuous optimization**: Use insights to refine AI tool usage\n\n**Source**: [MarketingProfs Measurement Framework](https://www.marketingprofs.com/articles/2023/49017/how-to-measure-marketing-roi)\n\n---\n\nThe specific metrics you prioritize should align with your business goals, but tracking acro",
-            "line": 137,
-            "column": 13,
-            "captureDate": "2025-10-17"
-          }
-        ],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
-      },
+      "weightedInfluence": 0.00094,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
@@ -20829,7 +23257,7 @@ window.AppData20251017 = {
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0.04969
+          "value": 0.00094
         }
       ],
       "appearanceOrderTrendVals": [
@@ -20888,7 +23316,7 @@ window.AppData20251017 = {
         "anthropic_claude_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 1
+            "value": 0.00094
           }
         ],
         "openai_chatgpt_with_search_latest": [
@@ -20934,91 +23362,111 @@ window.AppData20251017 = {
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": -1,
+        "anthropic_claude_with_search_latest": 6140,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [
+          {
+            "appearanceOrder": 6140,
+            "excerpt": "touch conversions\n5. **Continuous optimization**: Use insights to refine AI tool usage\n\n**Source**: [MarketingProfs Measurement Framework](https://www.marketingprofs.com/articles/2023/49017/how-to-measure-marketing-roi)\n\n---\n\nThe specific metrics you prioritize should align with your business goals, but tracking acro",
+            "line": 137,
+            "column": 13,
+            "captureDate": "2025-10-17"
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": []
+      }
     },
     {
       "type": "linkDomain",
-      "code": "urree.co",
-      "value": "urree.co",
-      "link": "https://urree.co",
-      "linkType": "oth",
-      "linkTypeName": "Other",
-      "mentions": 0,
+      "code": "martech.org",
+      "value": "martech.org",
+      "link": "https://martech.org",
+      "linkType": "dev",
+      "linkTypeName": "Developer Tools",
+      "mentions": 1,
       "mentionsByModel": {
-        "perplexity_with_search_latest": 0,
+        "perplexity_with_search_latest": 1,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
       "sources": [
         {
-          "link": "urree.co",
-          "mentions": 0,
-          "appearanceOrder": -1,
-          "appearanceOrderByModel": {},
+          "link": "martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing",
+          "mentions": 1,
+          "appearanceOrder": 12,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 12
+          },
           "mentionsByModel": {
-            "perplexity_with_search_latest": 0,
+            "perplexity_with_search_latest": 1,
             "anthropic_claude_with_search_latest": 0,
             "openai_chatgpt_with_search_latest": 0
           },
-          "influence": 0,
-          "influenceByModel": {},
-          "weightedInfluence": 0
+          "influence": 0.00078,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00078,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00078
         }
       ],
-      "bots": "",
-      "botCount": 0,
-      "uniqueModelCount": 0,
+      "bots": "perplexity_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
       "mentionsAsPercentByModel": {
-        "perplexity_with_search_latest": 0,
+        "perplexity_with_search_latest": 0.02128,
         "anthropic_claude_with_search_latest": 0,
         "openai_chatgpt_with_search_latest": 0
       },
-      "appearanceOrder": -1,
-      "appearanceOrderByModel": {},
-      "mentionsAsPercent": 0,
-      "influence": 0,
-      "influenceByModel": {},
-      "weightedInfluence": 0,
-      "firstAppearanceOrderCharByModel": {
-        "perplexity_with_search_latest": -1,
-        "anthropic_claude_with_search_latest": -1,
-        "openai_chatgpt_with_search_latest": -1
+      "appearanceOrder": 10,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 10
       },
-      "excerptsByModel": {
-        "anthropic_claude_with_search_latest": [],
-        "openai_chatgpt_with_search_latest": [],
-        "perplexity_with_search_latest": []
+      "mentionsAsPercent": 0.01111,
+      "influence": 0.00083,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00083,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
       },
+      "weightedInfluence": 0.00083,
       "mentionsTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0
+          "value": 1
         }
       ],
       "influenceTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0
+          "value": 0.00083
         }
       ],
       "appearanceOrderTrendVals": [
         {
           "date": "2025-10-17",
-          "value": -1
+          "value": 10
         }
       ],
       "uniqueModelCountTrendVals": [
         {
           "date": "2025-10-17",
-          "value": 0
+          "value": 1
         }
       ],
-      "mentionsTrend": -9999,
-      "influenceTrend": -9999,
-      "appearanceOrderTrend": -9999,
-      "uniqueModelCountTrend": -9999,
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
       "mentionsByModelTrend": {
-        "perplexity_with_search_latest": -9999,
+        "perplexity_with_search_latest": 999,
         "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": -9999
       },
@@ -21026,7 +23474,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0
+            "value": 1
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -21043,7 +23491,7 @@ window.AppData20251017 = {
         ]
       },
       "influenceByModelTrend": {
-        "perplexity_with_search_latest": -9999,
+        "perplexity_with_search_latest": 999,
         "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": -9999
       },
@@ -21051,7 +23499,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": 0
+            "value": 0.00083
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -21068,7 +23516,7 @@ window.AppData20251017 = {
         ]
       },
       "appearanceOrderByModelTrend": {
-        "perplexity_with_search_latest": -9999,
+        "perplexity_with_search_latest": 10,
         "anthropic_claude_with_search_latest": -9999,
         "openai_chatgpt_with_search_latest": -9999
       },
@@ -21076,7 +23524,7 @@ window.AppData20251017 = {
         "perplexity_with_search_latest": [
           {
             "date": "2025-10-17",
-            "value": -1
+            "value": 10
           }
         ],
         "anthropic_claude_with_search_latest": [
@@ -21093,43 +23541,1006 @@ window.AppData20251017 = {
         ]
       },
       "previous_mentions": 0,
-      "mentions_change": 0,
-      "changePercent": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
       "mentionsHistory": [
         {
           "date": "2025-10-17",
-          "mentions": 0
+          "mentions": 1
         }
       ],
       "lastSeen": "2025-10-17",
       "firstSeen": "2025-10-17",
-      "volatility": 0
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 5933,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 5933,
+            "excerpt": "//blog.hurree.co/measuring-the-roi-of-ai-in-marketing-key-metrics-and-strategies-for-marketers)\n\n7. [martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing/](https://martech.org/essential-kpis-to-measure-generative-ais-success-in-marketing/)\n\n8. [www.moesif.com/blog/technical/api-development/5-AI-Product-Metrics-to-Track-A-Guide-to-Measur",
+            "line": 65,
+            "column": 4,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "codiste.com",
+      "value": "codiste.com",
+      "link": "https://codiste.com",
+      "linkType": "dev",
+      "linkTypeName": "Developer Tools",
+      "mentions": 1,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "sources": [
+        {
+          "link": "codiste.com/blog/ai-marketing-kpis",
+          "mentions": 1,
+          "appearanceOrder": 11,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 11
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.0008,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.0008,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.0008
+        }
+      ],
+      "bots": "perplexity_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.02128,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrder": 9,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 9
+      },
+      "mentionsAsPercent": 0.01111,
+      "influence": 0.00086,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00086,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00086,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00086
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 9
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00086
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 9
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 4066,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 4066,
+            "excerpt": "u/blog/post/marketing-kpis).\n\n---\n\n**Relevant source links:**\n\n- Codiste blog on AI Marketing KPIs: https://codiste.com/blog/ai-marketing-kpis\n\n- Search Engine Land on AI KPIs: https://searchengineland.com/ai-kpis-turning-mentions-into-strate",
+            "line": 35,
+            "column": 38,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "salsify.com",
+      "value": "salsify.com",
+      "link": "https://salsify.com",
+      "linkType": "tch",
+      "linkTypeName": "Tech Companies",
+      "mentions": 1,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "sources": [
+        {
+          "link": "www.salsify.com",
+          "mentions": 1,
+          "appearanceOrder": 13,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 13
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00075,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00075,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00075
+        }
+      ],
+      "bots": "perplexity_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.02128,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrder": 11,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 11
+      },
+      "mentionsAsPercent": 0.01111,
+      "influence": 0.0008,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.0008,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.0008,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.0008
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 11
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.0008
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 11
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 6421,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 6421,
+            "excerpt": "9. [online.hbs.edu/blog/post/marketing-kpis](https://online.hbs.edu/blog/post/marketing-kpis)\n\n10. [www.salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track](https://www.salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track)\n\n11. [www.gwi.com/blog/ai-marketing-tools](https://www.gwi.com/blog/ai-marketing-tools)\n\n12. [www.",
+            "line": 71,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "gwi.com",
+      "value": "gwi.com",
+      "link": "https://gwi.com",
+      "linkType": "dev",
+      "linkTypeName": "Developer Tools",
+      "mentions": 1,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "sources": [
+        {
+          "link": "gwi.com/blog/ai-marketing-tools",
+          "mentions": 1,
+          "appearanceOrder": 14,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 14
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00073,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00073,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00073
+        }
+      ],
+      "bots": "perplexity_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.02128,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrder": 12,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 12
+      },
+      "mentionsAsPercent": 0.01111,
+      "influence": 0.00078,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00078,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00078,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00078
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 12
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00078
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 12
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 6583,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 6583,
+            "excerpt": "is-to-track](https://www.salsify.com/blog/artificial-intelligence-for-ecommerce-kpis-to-track)\n\n11. [www.gwi.com/blog/ai-marketing-tools](https://www.gwi.com/blog/ai-marketing-tools)\n\n12. [www.bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better](https://www.bcg.co",
+            "line": 73,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "bcg.com",
+      "value": "bcg.com",
+      "link": "https://bcg.com",
+      "linkType": "tch",
+      "linkTypeName": "Tech Companies",
+      "mentions": 1,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "sources": [
+        {
+          "link": "bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better",
+          "mentions": 1,
+          "appearanceOrder": 15,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 15
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.00072,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.00072,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.00072
+        }
+      ],
+      "bots": "perplexity_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.02128,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrder": 13,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 13
+      },
+      "mentionsAsPercent": 0.01111,
+      "influence": 0.00075,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00075,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00075,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00075
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 13
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00075
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 13
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 6671,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 6671,
+            "excerpt": "track)\n\n11. [www.gwi.com/blog/ai-marketing-tools](https://www.gwi.com/blog/ai-marketing-tools)\n\n12. [www.bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better](https://www.bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better)\n\n13. [www.owox.com/blog/articles/digital-marketing-metrics-and-kpis](https://www.owox.com/blog/art",
+            "line": 75,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "type": "linkDomain",
+      "code": "owox.com",
+      "value": "owox.com",
+      "link": "https://owox.com",
+      "linkType": "dev",
+      "linkTypeName": "Developer Tools",
+      "mentions": 1,
+      "mentionsByModel": {
+        "perplexity_with_search_latest": 1,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "sources": [
+        {
+          "link": "owox.com/blog/articles/digital-marketing-metrics-and-kpis",
+          "mentions": 1,
+          "appearanceOrder": 16,
+          "appearanceOrderByModel": {
+            "perplexity_with_search_latest": 16
+          },
+          "mentionsByModel": {
+            "perplexity_with_search_latest": 1,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "influence": 0.0007,
+          "influenceByModel": {
+            "perplexity_with_search_latest": 0.0007,
+            "anthropic_claude_with_search_latest": 0,
+            "openai_chatgpt_with_search_latest": 0
+          },
+          "weightedInfluence": 0.0007
+        }
+      ],
+      "bots": "perplexity_with_search_latest",
+      "botCount": 1,
+      "uniqueModelCount": 1,
+      "mentionsAsPercentByModel": {
+        "perplexity_with_search_latest": 0.02128,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "appearanceOrder": 14,
+      "appearanceOrderByModel": {
+        "perplexity_with_search_latest": 14
+      },
+      "mentionsAsPercent": 0.01111,
+      "influence": 0.00073,
+      "influenceByModel": {
+        "perplexity_with_search_latest": 0.00073,
+        "anthropic_claude_with_search_latest": 0,
+        "openai_chatgpt_with_search_latest": 0
+      },
+      "weightedInfluence": 0.00073,
+      "mentionsTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "influenceTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 0.00073
+        }
+      ],
+      "appearanceOrderTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 14
+        }
+      ],
+      "uniqueModelCountTrendVals": [
+        {
+          "date": "2025-10-17",
+          "value": 1
+        }
+      ],
+      "mentionsTrend": 999,
+      "influenceTrend": 999,
+      "appearanceOrderTrend": 999,
+      "uniqueModelCountTrend": 999,
+      "mentionsByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "mentionsByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 1
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "influenceByModelTrend": {
+        "perplexity_with_search_latest": 999,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "influenceByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0.00073
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 0
+          }
+        ]
+      },
+      "appearanceOrderByModelTrend": {
+        "perplexity_with_search_latest": 10,
+        "anthropic_claude_with_search_latest": -9999,
+        "openai_chatgpt_with_search_latest": -9999
+      },
+      "appearanceOrderByModelTrendVals": {
+        "perplexity_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": 14
+          }
+        ],
+        "anthropic_claude_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ],
+        "openai_chatgpt_with_search_latest": [
+          {
+            "date": "2025-10-17",
+            "value": -1
+          }
+        ]
+      },
+      "previous_mentions": 0,
+      "mentions_change": 1,
+      "changePercent": 100,
+      "mentionsHistory": [
+        {
+          "date": "2025-10-17",
+          "mentions": 1
+        }
+      ],
+      "lastSeen": "2025-10-17",
+      "firstSeen": "2025-10-17",
+      "volatility": 0,
+      "firstAppearanceOrderCharByModel": {
+        "perplexity_with_search_latest": 6833,
+        "anthropic_claude_with_search_latest": -1,
+        "openai_chatgpt_with_search_latest": -1
+      },
+      "excerptsByModel": {
+        "anthropic_claude_with_search_latest": [],
+        "openai_chatgpt_with_search_latest": [],
+        "perplexity_with_search_latest": [
+          {
+            "appearanceOrder": 6833,
+            "excerpt": "cess-better](https://www.bcg.com/publications/2024/how-ai-powered-kpis-measure-success-better)\n\n13. [www.owox.com/blog/articles/digital-marketing-metrics-and-kpis](https://www.owox.com/blog/articles/digital-marketing-metrics-and-kpis)",
+            "line": 77,
+            "column": 5,
+            "captureDate": "2025-10-17"
+          }
+        ]
+      }
     }
   ],
   "totalDates": [
     "2025-10-17"
   ],
-  "totalDataPoints": 120,
-  "totalTimeSaved": "10",
+  "totalDataPoints": 131,
+  "totalTimeSaved": "11",
   "totalCounts": {
     "bots": 3,
-    "linkTypes": 7,
-    "products": 7,
-    "organizations": 10,
+    "linkTypes": 6,
+    "products": 0,
+    "organizations": 0,
     "people": 0,
     "places": 0,
-    "links": 35,
-    "keywords": 24,
+    "links": 34,
+    "keywords": 55,
     "events": 0
   },
   "itemCountPerModel": {
     "products": [
       {
-        "id": "anthropic_claude_with_search_latest",
-        "count": 7
+        "id": "perplexity_with_search_latest",
+        "count": 0
       },
       {
-        "id": "perplexity_with_search_latest",
+        "id": "anthropic_claude_with_search_latest",
         "count": 0
       },
       {
@@ -21139,16 +24550,16 @@ window.AppData20251017 = {
     ],
     "organizations": [
       {
-        "id": "anthropic_claude_with_search_latest",
-        "count": 7
+        "id": "perplexity_with_search_latest",
+        "count": 0
       },
       {
-        "id": "perplexity_with_search_latest",
-        "count": 4
+        "id": "anthropic_claude_with_search_latest",
+        "count": 0
       },
       {
         "id": "openai_chatgpt_with_search_latest",
-        "count": 4
+        "count": 0
       }
     ],
     "people": [
@@ -21196,15 +24607,15 @@ window.AppData20251017 = {
     "keywords": [
       {
         "id": "anthropic_claude_with_search_latest",
-        "count": 18
+        "count": 53
       },
       {
         "id": "perplexity_with_search_latest",
-        "count": 4
+        "count": 13
       },
       {
         "id": "openai_chatgpt_with_search_latest",
-        "count": 1
+        "count": 7
       }
     ],
     "events": [
@@ -21223,51 +24634,41 @@ window.AppData20251017 = {
     ],
     "linkTypes": [
       {
+        "id": "perplexity_with_search_latest",
+        "count": 5
+      },
+      {
+        "id": "anthropic_claude_with_search_latest",
+        "count": 4
+      },
+      {
         "id": "openai_chatgpt_with_search_latest",
-        "count": 1
+        "count": 3
       }
     ]
   },
   "itemCountPerAppearanceOrderTrend": {
-    "products": [
-      {
-        "id": "999",
-        "count": 7
-      }
-    ],
-    "organizations": [
-      {
-        "id": "999",
-        "count": 10
-      }
-    ],
+    "products": [],
+    "organizations": [],
     "people": [],
     "places": [],
     "links": [
       {
         "id": "999",
         "count": 34
-      },
-      {
-        "id": "-9999",
-        "count": 1
       }
     ],
     "keywords": [
       {
         "id": "999",
-        "count": 20
-      },
-      {
-        "id": "-9999",
-        "count": 4
+        "count": 55
       }
     ],
     "events": [],
     "linkTypes": [
       {
         "id": "999",
-        "count": 7
+        "count": 6
       }
     ]
   }

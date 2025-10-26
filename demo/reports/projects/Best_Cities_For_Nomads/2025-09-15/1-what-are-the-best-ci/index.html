@@ -3,8 +3,8 @@
 
 <head>
     <script>
-        // update manually when engine version changes
-        const REPORT_ENGINE_VERSION = 3.01; 
+        // auto-populated from package.json version during report generation
+        const REPORT_ENGINE_VERSION = '1.1.00';
     </script>
 
     <meta charset="UTF-8">
@@ -2225,10 +2225,12 @@
             padding-left: 2rem;
             font-size: 0.875rem;
         }
-        
+
         /* Mobile menu open state */
-        #navigation-menu.menu-open {
-            transform: translateX(0);
+        @media (max-width: 1023px) {
+            #navigation-menu.menu-open {
+                transform: translateX(0) !important;
+            }
         }
 
         /* Desktop sidebar collapse */
@@ -2350,87 +2352,6 @@
             transform: translateY(-1px);
         }
 
-        /* Category-specific styling for different entity types */
-        .clickable-entity-product {
-            color: #059669;
-            background-color: rgba(5, 150, 105, 0.1);
-        }
-
-        .clickable-entity-product:hover {
-            color: #047857;
-            background-color: rgba(5, 150, 105, 0.2);
-        }
-
-        .clickable-entity-organization {
-            color: #dc2626;
-            background-color: rgba(220, 38, 38, 0.1);
-        }
-
-        .clickable-entity-organization:hover {
-            color: #b91c1c;
-            background-color: rgba(220, 38, 38, 0.2);
-        }
-
-        .clickable-entity-person {
-            color: #7c2d12;
-            background-color: rgba(124, 45, 18, 0.1);
-        }
-
-        .clickable-entity-person:hover {
-            color: #92400e;
-            background-color: rgba(124, 45, 18, 0.2);
-        }
-
-        .clickable-entity-keyword {
-            color: #7c3aed;
-            background-color: rgba(124, 58, 237, 0.1);
-        }
-
-        .clickable-entity-keyword:hover {
-            color: #6d28d9;
-            background-color: rgba(124, 58, 237, 0.2);
-        }
-
-        .clickable-entity-place {
-            color: #0891b2;
-            background-color: rgba(8, 145, 178, 0.1);
-        }
-
-        .clickable-entity-place:hover {
-            color: #0e7490;
-            background-color: rgba(8, 145, 178, 0.2);
-        }
-
-        .clickable-entity-event {
-            color: #be185d;
-            background-color: rgba(190, 24, 93, 0.1);
-        }
-
-        .clickable-entity-event:hover {
-            color: #9d174d;
-            background-color: rgba(190, 24, 93, 0.2);
-        }
-
-        .clickable-entity-link {
-            color: #ea580c;
-            background-color: rgba(234, 88, 12, 0.1);
-        }
-
-        .clickable-entity-link:hover {
-            color: #c2410c;
-            background-color: rgba(234, 88, 12, 0.2);
-        }
-
-        .clickable-entity-linkType {
-            color: #1f2937;
-            background-color: rgba(31, 41, 55, 0.1);
-        }
-
-        .clickable-entity-linkType:hover {
-            color: #111827;
-            background-color: rgba(31, 41, 55, 0.2);
-        }
-
         /* Entity row highlight animation for table rows */
         .entity-row-highlight {
             background-color: #fbbf24 !important;
@@ -2458,86 +2379,6 @@
             background-color: rgba(59, 130, 246, 0.3);
         }
 
-        html.dark .clickable-entity-product {
-            color: #10b981;
-            background-color: rgba(16, 185, 129, 0.2);
-        }
-
-        html.dark .clickable-entity-product:hover {
-            color: #34d399;
-            background-color: rgba(16, 185, 129, 0.3);
-        }
-
-        html.dark .clickable-entity-organization {
-            color: #f87171;
-            background-color: rgba(248, 113, 113, 0.2);
-        }
-
-        html.dark .clickable-entity-organization:hover {
-            color: #fca5a5;
-            background-color: rgba(248, 113, 113, 0.3);
-        }
-
-        html.dark .clickable-entity-person {
-            color: #fb923c;
-            background-color: rgba(251, 146, 60, 0.2);
-        }
-
-        html.dark .clickable-entity-person:hover {
-            color: #fdba74;
-            background-color: rgba(251, 146, 60, 0.3);
-        }
-
-        html.dark .clickable-entity-keyword {
-            color: #a78bfa;
-            background-color: rgba(167, 139, 250, 0.2);
-        }
-
-        html.dark .clickable-entity-keyword:hover {
-            color: #c4b5fd;
-            background-color: rgba(167, 139, 250, 0.3);
-        }
-
-        html.dark .clickable-entity-place {
-            color: #22d3ee;
-            background-color: rgba(34, 211, 238, 0.2);
-        }
-
-        html.dark .clickable-entity-place:hover {
-            color: #67e8f9;
-            background-color: rgba(34, 211, 238, 0.3);
-        }
-
-        html.dark .clickable-entity-event {
-            color: #f472b6;
-            background-color: rgba(244, 114, 182, 0.2);
-        }
-
-        html.dark .clickable-entity-event:hover {
-            color: #f9a8d4;
-            background-color: rgba(244, 114, 182, 0.3);
-        }
-
-        html.dark .clickable-entity-link {
-            color: #fb923c;
-            background-color: rgba(251, 146, 60, 0.2);
-        }
-
-        html.dark .clickable-entity-link:hover {
-            color: #fdba74;
-            background-color: rgba(251, 146, 60, 0.3);
-        }
-
-        html.dark .clickable-entity-linkType {
-            color: #d1d5db;
-            background-color: rgba(209, 213, 219, 0.2);
-        }
-
-        html.dark .clickable-entity-linkType:hover {
-            color: #f3f4f6;
-            background-color: rgba(209, 213, 219, 0.3);
-        }
-
         html.dark .entity-row-highlight {
             background-color: #d97706 !important;
             box-shadow: 0 0 20px rgba(217, 119, 6, 0.5);
@@ -2557,7 +2398,7 @@
     <nav id="navigation-menu" class="fixed left-0 top-0 h-full w-64 bg-white dark:bg-gray-800 shadow-lg transform -translate-x-full transition-transform duration-300 z-40 lg:translate-x-0 lg:static lg:h-auto lg:w-auto lg:shadow-none">
         <div class="p-4 h-full overflow-y-auto">
             <div class="flex justify-between items-center mb-6 lg:hidden">
-                <h3 class="text-lg font-semibold">Table of Contents</h3>
+                <h3 class="text-lg font-semibold">Navigation Menu</h3>
                 <button id="close-menu" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -2590,9 +2431,9 @@
 
     <div class="report-container">
         <!-- Header -->
-        <header class="shadow-lg pb-4">
+        <header class="shadow-lg pb-2">
 
-            <div class="container mx-auto px-4 py-3 md:py-6">
+            <div class="container mx-auto px-4 py-2 md:py-3">
                 <!-- Mobile Header (shown on small screens) -->
                 <div class="md:hidden flex flex-col items-center justify-center w-full space-y-3">
                     <a href="https://www.AIChatWatch.com" title="Go to AI Chat Watch Homepage"
@@ -2611,21 +2452,21 @@
                         <a href="https://aichatwatch.com/schedule"
                         target="_blank"
                         rel="noopener noreferrer"
-                        title="View AI Chat Watch Cloud"
+                        title="Save time - we'll run reports for you automatically"
                         class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors">
-                            <i class="fas fa-cloud"></i>
-                            Cloud Version
+                            <i class="fas fa-calendar-check"></i>
+                            Schedule a Report
                         </a>                    
                     </div>                    
                 </div>
 
 
                 <!-- Desktop Header (hidden on mobile) -->
-                <div class="hidden md:flex flex-col items-center justify-center w-full space-y-4">
+                <div class="hidden md:flex flex-row items-center justify-between w-full">
                     <a href="https://www.AIChatWatch.com" title="Go to AI Chat Watch Homepage"
                         class="hover:opacity-80 transition-opacity">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 100" preserveAspectRatio="xMidYMid meet"
-                            aria-hidden="true" class="w-full max-w-md">
+                            aria-hidden="true" class="w-full max-w-[280px]">
                             <text x="10" y="70" font-family="Arial, sans-serif" font-size="80" font-weight="bold"
                                 class="header-text" fill="currentColor">AI</text>
                             <text x="110" y="70" font-family="Arial, sans-serif" font-size="40" class="header-text"
@@ -2638,22 +2479,22 @@
                             </g>
                         </svg>
                     </a>
-                    <div class="flex items-center justify-center gap-6">
+                    <div class="flex items-center gap-6">
                         <a href="https://github.com/aichatwatch/aicw"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="View AI Chat Watch on GitHub"
                         class="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors">
                             <i class="fa-brands fa-github"></i>
-                            Github
+                            Source Code
                         </a>
                         <a href="https://aichatwatch.com/schedule"
                         target="_blank"
                         rel="noopener noreferrer"
-                        title="View AI Chat Watch Cloud"
+                        title="Save time - we'll run reports for you automatically"
                         class="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors">
-                            <i class="fas fa-cloud"></i>
-                            Cloud Version
+                            <i class="fas fa-calendar-check"></i>
+                            Schedule a Report
                         </a>                    
                     </div>                        
                 </div>
@@ -2670,10 +2511,10 @@
                     <div class="loading-content">
                         <div class="loading-wrapper">
                             <h1>Welcome to AI Chat Watch!</h1>
-                            <p>Your report is loading, please wait...</p>
+                            <p>Thinking, please wait until report is ready...</p>
                             <div class="spinner-container">
                                 <img src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA=="
-                                    alt="Loading..." />
+                                    alt="Thinking..." />
                             </div>
                         </div>
                     </div>
@@ -2708,7 +2549,7 @@
                             <li><a href="https://github.com/aichatwatch/aicw"
                                     class="hover:text-yellow-300 dark:hover:text-yellow-400 transition duration-300">GitHub Repo</a></li>
                             <li><a href="https://aichatwatch.com/schedule"
-                                class="hover:text-yellow-300 dark:hover:text-yellow-400 transition duration-300">Cloud Version</a></li>
+                                class="hover:text-yellow-300 dark:hover:text-yellow-400 transition duration-300">Schedule a Report</a></li>
     
                             <li><a href="https://aichatwatch.com/#faq"
                                     class="hover:text-yellow-300 dark:hover:text-yellow-400 transition duration-300">Frequently Asked Questions</a></li>
@@ -2725,12 +2566,12 @@
                         </p>
                         <!-- report timestamp begin -->
                         <p class="text-xs text-gray-600 dark:text-gray-400">
-                            generated on 2025-10-08T15:48:16.774Z
+                            generated on 2025-10-26T13:51:38.542Z
                         </p>
                         <!-- report timestamp end -->
                         <!-- app version begin -->
                         <p class="text-xs text-gray-600 dark:text-gray-400">
-                            report engine version: <span class="selectable-text report-engine-version"></span>
+                            engine version: <span class="selectable-text report-engine-version"></span>
                         </p>
                         <!-- app version end -->
                         <p class="text-xs text-gray-500 dark:text-gray-500 mt-4 leading-relaxed max-w-4xl">
@@ -2868,29 +2709,30 @@
             function buildNavigation() {
                 const sections = [
                     { id: 'explore_projects', title: 'Explore Projects', type: 'main', icon: 'fa-turn-up' },
-                    { id: 'about_report', title: 'Table of Contents', type: 'main', icon: 'fa-list' },
+                    { id: 'about_report', title: 'About This Report', type: 'main', icon: 'fa-info-circle' },
                     
+                    /* disabled on 2025 oct 14 as it was replaced with "Top Influencers" block
                     { id: 'text_summary', title: 'AI Summary', type: 'main', icon: 'fa-file-alt' },                                        
-                    
+                    */
+                    { id: 'top_influencers', title: 'Top Influencers', type: 'main', icon: 'fa-balance-scale' },
+
                     { id: 'parent_div_for_tabbed_events', title: 'Events', type: 'main', icon: 'fa-calendar' },
                     { id: 'parent_div_for_tabbed_keywords', title: 'Keywords', type: 'main', icon: 'fa-tags' },
                     { id: 'parent_div_for_tabbed_organizations', title: 'Organizations', type: 'main', icon: 'fa-building' },
                     { id: 'parent_div_for_tabbed_persons', title: 'Persons', type: 'main', icon: 'fa-users' },
                     { id: 'parent_div_for_tabbed_places', title: 'Places', type: 'main', icon: 'fa-map-marker-alt' },
                     { id: 'parent_div_for_tabbed_products', title: 'Products', type: 'main', icon: 'fa-box' },
-                    { id: 'parent_div_for_tabbed_links', title: 'Links', type: 'main', icon: 'fa-link' },
-                    
+                    { id: 'parent_div_for_tabbed_linkDomains', title: 'Link Domains', type: 'main', icon: 'fa-globe' },                    
                     { id: 'parent_div_for_tabbed_linkTypes', title: 'Link Types', type: 'main', icon: 'fa-sitemap' },
-                    { id: 'compare_items', title: 'Compare', type: 'main', icon: 'fa-balance-scale' },
-                    
+                    { id: 'parent_div_for_tabbed_links', title: 'Links', type: 'main', icon: 'fa-link' },
                     { id: 'divider1', type: 'divider' },
                     { id: 'select_report_type', title: 'Switch Report', type: 'action', icon: 'fa-exchange-alt' },
                     { id: 'divider2', type: 'divider' },
                     { id: 'dark_mode_toggle', title: 'Dark Mode', type: 'action', icon: 'fa-moon' },
                     { id: 'divider3', type: 'divider' },
-                    { id: 'link_github', title: 'View on GitHub', type: 'action', icon: 'fa-brands fa-github' },
+                    { id: 'link_github', title: 'Source Code', type: 'action', icon: 'fa-brands fa-github' },
                     { id: 'divider4', type: 'divider' },
-                    { id: 'link_cloud', title: 'Cloud Version', type: 'action', icon: 'fa-solid fa-cloud' },
+                    { id: 'link_cloud', title: 'Schedule a Report', type: 'action', icon: 'fa-solid fa-calendar-check' },
 
                 ];
 
@@ -2946,7 +2788,7 @@
                     return;
                 }
                 else if (sectionId === 'link_cloud') {
-                    window.open('https://aichatwatch.com/cloud', '_blank');
+                    window.open('https://aichatwatch.com/schedule', '_blank');
                     return;
                 }
                 else if (sectionId === 'explore_projects') {
