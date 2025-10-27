@@ -47,6 +47,131 @@
     <!-- LLM Network Visualization -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="llm-network.js" defer></script>
+
+    <!-- JSON-LD Structured Data for AI Visibility -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AI Chat Watch",
+      "alternateName": "AICW",
+      "url": "https://aichatwatch.com",
+      "logo": "https://aichatwatch.com/ai-chat-watch-manifest-512x512.png",
+      "description": "Free open-source tool to grade AI visibility and monitor what ChatGPT, Claude, Gemini and other AI models say about your brand. Track brand mentions across 20+ AI models.",
+      "foundingDate": "2024",
+      "sameAs": [
+        "https://github.com/aichatwatch/aicw",
+        "https://www.npmjs.com/package/@aichatwatch/aicw"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Support",
+        "url": "https://github.com/aichatwatch/aicw/issues"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI Chat Watch",
+      "url": "https://aichatwatch.com",
+      "description": "Grade your AI visibility and monitor what AI says about your brand. Free, open-source tool to track mentions across 20+ AI models including ChatGPT, Claude, and Gemini.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Chat Watch"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://aichatwatch.com/#demos?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AI Chat Watch (AICW)",
+      "applicationCategory": "DeveloperApplication",
+      "applicationSubCategory": "AI Monitoring Tool",
+      "operatingSystem": "Windows, macOS, Linux",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Command-line tool for monitoring and analyzing AI chatbot responses across multiple models. Grade AI visibility, track brand mentions, analyze competitive positioning, and generate comprehensive reports.",
+      "featureList": [
+        "AI Visibility Grading and Scoring",
+        "Monitor 20+ AI Models (ChatGPT, Claude, Gemini, Perplexity)",
+        "Brand Mention Tracking",
+        "Competitive Intelligence Analysis",
+        "Interactive HTML Reports",
+        "Trend Analysis and Tracking",
+        "Entity Extraction and Analysis",
+        "CSV Export",
+        "Local Data Storage"
+      ],
+      "softwareVersion": "latest",
+      "releaseNotes": "Free and open-source CLI tool",
+      "downloadUrl": "https://www.npmjs.com/package/@aichatwatch/aicw",
+      "installUrl": "https://www.npmjs.com/package/@aichatwatch/aicw",
+      "softwareRequirements": "Node.js 18+",
+      "permissions": "Requires API key from OpenRouter or OpenAI",
+      "author": {
+        "@type": "Organization",
+        "name": "aichatwatch"
+      },
+      "sameAs": [
+        "https://github.com/aichatwatch/aicw",
+        "https://www.npmjs.com/package/@aichatwatch/aicw"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who needs this tool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marketers mostly, so they can look which competitors are mentioned by AI, in which order, what are the resources and websites mentioned by AI, etc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The tool is free and open-source. You only need to pay for using AI models via selected provider (like OpenAI, Claude or OpenRouter)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How secure is it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It runs on your computer. AICW sends questions to selected AI models via selected AI model provider - check Terms of Use and Privacy Policy of these providers for more information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I want to add a feature or report an issue?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AICW tool is open-source, check the source code at GitHub (https://github.com/aichatwatch/aicw) and add a feature or report an issue."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <header class="hero">
