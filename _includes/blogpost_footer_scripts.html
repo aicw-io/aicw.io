@@ -1,0 +1,83 @@
+<!-- Include base page scripts -->
+{% include page_footer_scripts.html %}
+
+<!-- Blog-specific scripts -->
+<script>
+// Highlight current section in table of contents (if TOC exists)
+document.addEventListener('DOMContentLoaded', function() {
+    const headings = document.querySelectorAll('.post-body h2, .post-body h3');
+    const tocLinks = document.querySelectorAll('.table-of-contents a');
+
+    if (headings.length > 0 && tocLinks.length > 0) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    tocLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${id}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: '-100px 0px -66%' });
+
+        headings.forEach(heading => observer.observe(heading));
+    }
+
+    // Add copy button to code blocks
+    document.querySelectorAll('pre code').forEach((block) => {
+        const button = document.createElement('button');
+        button.className = 'copy-code-button';
+        button.textContent = 'Copy';
+        button.setAttribute('aria-label', 'Copy code to clipboard');
+
+        button.addEventListener('click', async () => {
+            const code = block.textContent;
+            try {
+                await navigator.clipboard.writeText(code);
+                button.textContent = 'Copied!';
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                }, 2000);
+            } catch (err) {
+                button.textContent = 'Failed';
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                }, 2000);
+            }
+        });
+
+        const pre = block.parentElement;
+        pre.style.position = 'relative';
+        pre.appendChild(button);
+    });
+});
+</script>
+
+<style>
+.copy-code-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.copy-code-button:hover {
+    background: white;
+    transform: translateY(-1px);
+}
+
+.table-of-contents a.active {
+    color: #667eea;
+    font-weight: 600;
+}
+</style>

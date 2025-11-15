@@ -1,0 +1,65 @@
+<!--
+  CTA Banner Component
+
+  Usage example (without the backslashes):
+    {\% include cta_banner.html
+      title="Your Title"
+      description="Your description"
+      button_text="Button Text"
+      button_url="/url"
+      button_style="primary" \%}
+-->
+
+{% assign banner_title = include.title | default: "Ready to Get Started?" %}
+{% assign banner_description = include.description | default: "Install AICW and start monitoring your AI visibility today." %}
+{% assign banner_button_text = include.button_text | default: "Get Started" %}
+{% assign banner_button_url = include.button_url | default: "/#install" %}
+{% assign banner_button_style = include.button_style | default: "primary" %}
+
+<div class="cta-banner">
+    <div class="container">
+        <div class="cta-banner-content">
+            <h2 class="cta-banner-title">{{ banner_title }}</h2>
+            <p class="cta-banner-description">{{ banner_description }}</p>
+            <a href="{{ banner_button_url }}" class="btn btn-{{ banner_button_style }} btn-large">
+                {{ banner_button_text }}
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+.cta-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 4rem 2rem;
+    margin: 4rem 0;
+    border-radius: var(--radius-lg);
+}
+
+.cta-banner-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-banner-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.cta-banner-description {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .cta-banner {
+        padding: 3rem 1.5rem;
+        margin: 2rem 0;
+    }
+}
+</style>

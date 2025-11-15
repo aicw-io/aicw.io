@@ -1,0 +1,12 @@
+<!-- Include base page scripts -->
+{% include page_head_scripts.html %}
+
+<!-- Blog-specific meta tags and scripts -->
+{% if page.reading_time %}
+<meta name="twitter:label1" content="Reading time">
+<meta name="twitter:data1" content="{{ page.reading_time }} min read">
+{% endif %}
+
+{% if page.tags %}
+<meta name="keywords" content="{{ page.tags | join: ', ' }}">
+{% endif %}

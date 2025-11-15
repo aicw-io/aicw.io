@@ -1,0 +1,202 @@
+<!--
+  Install Command Component with Copy Button
+
+  Usage example (without the backslashes):
+    {\% include install_command.html
+      command="npx @aichatwatch/aicw"
+      title="Quick Start"
+      description="Try AICW instantly" \%}
+-->
+
+{% assign cmd = include.command | default: "npx @aichatwatch/aicw" %}
+{% assign cmd_title = include.title | default: "" %}
+{% assign cmd_description = include.description | default: "" %}
+{% assign cmd_id = include.id | default: cmd | slugify %}
+
+<div class="install-command-block">
+    {% if cmd_title %}
+    <h3 class="install-command-title">{{ cmd_title }}</h3>
+    {% endif %}
+    {% if cmd_description %}
+    <p class="install-command-description">{{ cmd_description }}</p>
+    {% endif %}
+
+    <div class="install-command" id="{{ cmd_id }}">
+        <code>{{ cmd }}</code>
+        <button
+            type="button"
+            class="copy-btn-inline"
+            data-copy-command="{{ cmd }}"
+            aria-label="Copy command">
+            <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+                <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+            </svg>
+            <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+                <path d="M20 6L9 17l-5-5"></path>
+            </svg>
+            <span class="copy-text">Copy</span>
+        </button>
+    </div>
+</div>
+
+<style>
+.install-command-block {
+    margin: 2rem 0;
+}
+
+.install-command-title {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.install-command-description {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+}
+
+.install-command {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 20px;
+    background: rgba(15, 12, 41, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.95);
+    transition: all 0.3s ease;
+}
+
+.install-command:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(147, 197, 253, 0.3);
+}
+
+.install-command code {
+    flex: 1;
+    color: #93C5FD;
+    background: transparent;
+    white-space: normal;
+    word-break: break-word;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.copy-btn-inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #93C5FD, #B794F6);
+    border-radius: 12px;
+    border: none;
+    color: #1A1A2E;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.copy-btn-inline:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(147, 197, 253, 0.3);
+}
+
+.copy-btn-inline.copied {
+    background: linear-gradient(135deg, #44EBA0, #2ECC71);
+}
+
+.copy-btn-inline svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+
+@media (max-width: 768px) {
+    .install-command {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+        padding: 16px;
+    }
+
+    .install-command code {
+        text-align: center;
+        font-size: 0.85rem;
+    }
+
+    .copy-btn-inline {
+        width: 100%;
+        justify-content: center;
+    }
+}
+</style>
+
+<script>
+(function() {
+    const buttons = document.querySelectorAll('[data-copy-command]');
+
+    function fallbackCopy(text) {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.setAttribute('readonly', '');
+        textArea.style.position = 'fixed';
+        textArea.style.top = '-9999px';
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        try {
+            document.execCommand('copy');
+        } catch (err) {
+            console.error('Fallback copy failed');
+        }
+        document.body.removeChild(textArea);
+    }
+
+    buttons.forEach(button => {
+        button.addEventListener('click', async function() {
+            const command = this.getAttribute('data-copy-command');
+            const copyText = this.querySelector('.copy-text');
+            const copyIcon = this.querySelector('.copy-icon');
+            const checkIcon = this.querySelector('.check-icon');
+            let copied = false;
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                try {
+                    await navigator.clipboard.writeText(command);
+                    copied = true;
+                } catch (err) {
+                    fallbackCopy(command);
+                    copied = true;
+                }
+            } else {
+                fallbackCopy(command);
+                copied = true;
+            }
+
+            if (copied) {
+                this.classList.add('copied');
+                if (copyText) copyText.textContent = 'Copied!';
+                if (copyIcon) copyIcon.style.display = 'none';
+                if (checkIcon) checkIcon.style.display = 'block';
+
+                setTimeout(() => {
+                    this.classList.remove('copied');
+                    if (copyText) copyText.textContent = 'Copy';
+                    if (copyIcon) copyIcon.style.display = 'block';
+                    if (checkIcon) checkIcon.style.display = 'none';
+                }, 2000);
+            }
+        });
+    });
+})();
+</script>

@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://aichatwatch.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aichatwatch.com/" rel="alternate" type="text/html" hreflang="en_US" /><updated>2025-11-15T04:55:31-08:00</updated><id>https://aichatwatch.com/blog/feed.xml</id><title type="html">AI Chat Watch</title><subtitle>Free open-source tool to check if AI can find your website, then track what ChatGPT, Claude, Gemini and other AI models say about your brand. Get instant AI visibility audit and comprehensive competitive intelligence reports.</subtitle><author><name>AI Chat Watch</name><email>support@aichatwatch.com</email></author><entry><title type="html">Introducing AI Chat Watch: Monitor What AI Says About Your Brand</title><link href="https://aichatwatch.com/blog/introducing-ai-chat-watch/" rel="alternate" type="text/html" title="Introducing AI Chat Watch: Monitor What AI Says About Your Brand" /><published>2024-11-15T10:00:00-08:00</published><updated>2024-11-15T10:00:00-08:00</updated><id>https://aichatwatch.com/blog/introducing-ai-chat-watch</id><content type="html" xml:base="https://aichatwatch.com/blog/introducing-ai-chat-watch/"><![CDATA[<p>In an era where AI chatbots like ChatGPT, Claude, and Gemini are answering millions of questions daily, a new challenge has emerged for marketers and businesses: <strong>How do you know what AI says about your brand?</strong></p>
+
+<h2 id="the-problem-ais-black-box">The Problem: AI’s Black Box</h2>
+
+<p>When someone asks ChatGPT “What are the best project management tools?” or Claude “Which CRM should I use for my startup?”, you have no visibility into:</p>
+
+<ul>
+  <li>Whether your product was mentioned</li>
+  <li>How you rank compared to competitors</li>
+  <li>What information the AI used to form its response</li>
+  <li>Which sources the AI cited</li>
+</ul>
+
+<p>Traditional SEO tools can’t help here. Google Analytics won’t show you ChatGPT traffic. You’re flying blind in what may become your most important marketing channel.</p>
+
+<h2 id="introducing-ai-chat-watch">Introducing AI Chat Watch</h2>
+
+<p>AI Chat Watch (AICW) is an open-source CLI tool that solves this problem. It helps you:</p>
+
+<h3 id="1-track-brand-mentions-across-ai-models">1. Track Brand Mentions Across AI Models</h3>
+
+<p>Query 20+ AI models simultaneously with your brand-related questions:</p>
+<ul>
+  <li>ChatGPT (GPT-4, GPT-3.5)</li>
+  <li>Claude (Opus, Sonnet, Haiku)</li>
+  <li>Google Gemini</li>
+  <li>Perplexity AI</li>
+  <li>And many more…</li>
+</ul>
+
+<h3 id="2-analyze-competitive-positioning">2. Analyze Competitive Positioning</h3>
+
+<p>See exactly how AI models position you against competitors:</p>
+<ul>
+  <li><strong>Mention frequency</strong>: How often you’re mentioned vs. competitors</li>
+  <li><strong>Order of appearance</strong>: Are you listed first, third, or not at all?</li>
+  <li><strong>Share of voice</strong>: What percentage of responses include your brand?</li>
+  <li><strong>Trend analysis</strong>: Are mentions increasing or decreasing over time?</li>
+</ul>
+
+<h3 id="3-identify-citation-sources">3. Identify Citation Sources</h3>
+
+<p>Discover which websites and resources AI models use when discussing your brand:</p>
+<ul>
+  <li>Official documentation</li>
+  <li>Review sites</li>
+  <li>News articles</li>
+  <li>Social media</li>
+  <li>Competitor sites</li>
+</ul>
+
+<h3 id="4-generate-beautiful-reports">4. Generate Beautiful Reports</h3>
+
+<p>Get interactive HTML reports with:</p>
+<ul>
+  <li>Visual graphs and charts</li>
+  <li>Filterable tables</li>
+  <li>Trend analysis</li>
+  <li>CSV export for further analysis</li>
+</ul>
+
+<h2 id="how-it-works">How It Works</h2>
+
+<p>Using AICW is straightforward:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install globally</span>
+npm <span class="nb">install</span> <span class="nt">-g</span> @aichatwatch/aicw
+
+<span class="c"># Run the CLI</span>
+aicw
+
+<span class="c"># Or use without installation</span>
+npx @aichatwatch/aicw
+</code></pre></div></div>
+
+<p>Then follow the interactive prompts to:</p>
+
+<ol>
+  <li>Create a project</li>
+  <li>Write questions (or use templates)</li>
+  <li>Select AI models to query</li>
+  <li>Run the analysis</li>
+  <li>View your report</li>
+</ol>
+
+<h2 id="real-world-use-cases">Real-World Use Cases</h2>
+
+<h3 id="1-product-marketing">1. Product Marketing</h3>
+
+<p><strong>Question</strong>: “What are the best email marketing tools for small businesses?”</p>
+
+<p><strong>Insights</strong>:</p>
+<ul>
+  <li>See if your tool is mentioned</li>
+  <li>Identify which competitors dominate AI recommendations</li>
+  <li>Find opportunities to improve your AI visibility</li>
+</ul>
+
+<h3 id="2-brand-monitoring">2. Brand Monitoring</h3>
+
+<p><strong>Question</strong>: “What do people say about [YourBrand]?”</p>
+
+<p><strong>Insights</strong>:</p>
+<ul>
+  <li>Track sentiment trends over time</li>
+  <li>Identify common themes in AI responses</li>
+  <li>Catch potential PR issues early</li>
+</ul>
+
+<h3 id="3-competitive-intelligence">3. Competitive Intelligence</h3>
+
+<p><strong>Question</strong>: “Compare [YourProduct] vs [Competitor]”</p>
+
+<p><strong>Insights</strong>:</p>
+<ul>
+  <li>See how AI positions you vs competitors</li>
+  <li>Identify your differentiators (according to AI)</li>
+  <li>Find gaps in AI’s knowledge about your product</li>
+</ul>
+
+<h3 id="4-content-strategy">4. Content Strategy</h3>
+
+<p><strong>Question</strong>: “How to solve [problem your product solves]?”</p>
+
+<p><strong>Insights</strong>:</p>
+<ul>
+  <li>Discover which topics AI associates with your brand</li>
+  <li>Identify content gaps</li>
+  <li>Find optimization opportunities</li>
+</ul>
+
+<h2 id="why-open-source">Why Open Source?</h2>
+
+<p>We built AICW as open source because:</p>
+
+<ol>
+  <li><strong>Transparency</strong>: You can inspect exactly what data is collected and how</li>
+  <li><strong>Privacy</strong>: All data stays on your computer</li>
+  <li><strong>Extensibility</strong>: Add new AI models, custom analysis, or integrations</li>
+  <li><strong>Community</strong>: Benefit from and contribute to improvements</li>
+</ol>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>Ready to see what AI says about your brand?</p>
+
+<ol>
+  <li><strong>Quick Start</strong>: <code class="language-plaintext highlighter-rouge">npx @aichatwatch/aicw ai-visibility yourwebsite.com</code></li>
+  <li><strong>Full Analysis</strong>: Install the CLI and create a monitoring project</li>
+  <li><strong>View Demos</strong>: Check out our <a href="/demo/reports/">sample reports</a></li>
+</ol>
+
+<h2 id="whats-next">What’s Next?</h2>
+
+<p>We’re actively developing AICW with features like:</p>
+
+<ul>
+  <li>Scheduled automated monitoring</li>
+  <li>Slack/email notifications for mentions</li>
+  <li>API for programmatic access</li>
+  <li>Integration with analytics platforms</li>
+  <li>Custom AI model support</li>
+</ul>
+
+<h2 id="join-the-community">Join the Community</h2>
+
+<ul>
+  <li>⭐ <a href="https://github.com/aichatwatch/aicw">Star us on GitHub</a></li>
+  <li>🐛 <a href="https://github.com/aichatwatch/aicw/issues">Report issues</a></li>
+  <li>💡 <a href="https://github.com/aichatwatch/aicw/discussions">Suggest features</a></li>
+  <li>📖 <a href="https://github.com/aichatwatch/aicw#readme">Read the docs</a></li>
+</ul>
+
+<hr />
+
+<p><strong>Have questions?</strong> Drop a comment below or open an issue on GitHub. We’d love to hear how you’re using AICW to monitor your AI presence!</p>]]></content><author><name>AI Chat Watch Team</name></author><category term="announcement" /><category term="ai-monitoring" /><category term="brand-tracking" /><summary type="html"><![CDATA[Learn how AI Chat Watch helps marketers and businesses track their brand mentions across 20+ AI models including ChatGPT, Claude, and Gemini.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://aichatwatch.com/assets/images/screenshots/aicw-main-menu.png" /><media:content medium="image" url="https://aichatwatch.com/assets/images/screenshots/aicw-main-menu.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What is AI Visibility and Why It Matters for Your Business</title><link href="https://aichatwatch.com/blog/what-is-ai-visibility-and-why-it-matters/" rel="alternate" type="text/html" title="What is AI Visibility and Why It Matters for Your Business" /><published>2024-11-14T14:30:00-08:00</published><updated>2024-11-14T14:30:00-08:00</updated><id>https://aichatwatch.com/blog/what-is-ai-visibility-and-why-it-matters</id><content type="html" xml:base="https://aichatwatch.com/blog/what-is-ai-visibility-and-why-it-matters/"><![CDATA[<p>If you’ve spent years optimizing for Google, it’s time to think about a new search frontier: <strong>AI chatbots</strong>.</p>
+
+<h2 id="the-shift-in-how-people-search">The Shift in How People Search</h2>
+
+<p>Traditional search behavior is changing:</p>
+
+<ul>
+  <li><strong>Before</strong>: Open Google → Click through 5-10 blue links → Compare options</li>
+  <li><strong>Now</strong>: Ask ChatGPT/Claude/Perplexity → Get direct answer → Done</li>
+</ul>
+
+<p>According to recent studies, AI chatbots are handling billions of queries monthly. For many users, especially tech-savvy early adopters, AI has become their primary “search engine.”</p>
+
+<h2 id="what-is-ai-visibility">What is AI Visibility?</h2>
+
+<p><strong>AI Visibility</strong> is the likelihood that AI chatbots will mention, recommend, or reference your brand when answering relevant questions.</p>
+
+<p>It’s like SEO, but for AI:</p>
+
+<ul>
+  <li><strong>SEO</strong>: Optimize to rank #1 on Google</li>
+  <li><strong>AI Visibility</strong>: Optimize to be mentioned first by ChatGPT</li>
+</ul>
+
+<h3 id="the-ai-visibility-pyramid">The AI Visibility Pyramid</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>┌─────────────────────────────┐
+│   AI Recommends You First   │  ← Best case
+├─────────────────────────────┤
+│   AI Mentions You (Top 5)   │  ← Good
+├─────────────────────────────┤
+│    AI Mentions You (Any)    │  ← Baseline
+├─────────────────────────────┤
+│  AI Knows You Exist (Bare)  │  ← Concerning
+├─────────────────────────────┤
+│    AI Has Never Heard of    │  ← Critical
+│         Your Brand          │
+└─────────────────────────────┘
+</code></pre></div></div>
+
+<h2 id="why-ai-visibility-matters">Why AI Visibility Matters</h2>
+
+<h3 id="1-zero-click-consumption">1. Zero-Click Consumption</h3>
+
+<p>Unlike Google, where users click through to your site, AI provides direct answers. If you’re not mentioned, you’ve lost the opportunity entirely.</p>
+
+<p><strong>Example</strong>:</p>
+
+<p><strong>User</strong>: “What’s the best CRM for startups?”</p>
+
+<p><strong>ChatGPT</strong>: “I recommend HubSpot, Pipedrive, or Close. HubSpot offers a free tier…”</p>
+
+<p>If your CRM isn’t in that list, the user never discovers you. No second chance. No click-through. No conversion.</p>
+
+<h3 id="2-trust-and-authority">2. Trust and Authority</h3>
+
+<p>Being mentioned by AI signals authority:</p>
+
+<ul>
+  <li>“ChatGPT recommended you” carries weight</li>
+  <li>Early movers gain compound advantages</li>
+  <li>AI responses influence buyer perception</li>
+</ul>
+
+<h3 id="3-future-proofing">3. Future-Proofing</h3>
+
+<p>AI adoption is accelerating:</p>
+
+<ul>
+  <li>Microsoft integrating GPT into Windows</li>
+  <li>Google adding AI to Search</li>
+  <li>Apple rumored to integrate AI assistants</li>
+  <li>Enterprise tools embedding AI copilots</li>
+</ul>
+
+<p>In 5 years, most digital interactions may involve AI. Your visibility strategy needs to evolve now.</p>
+
+<h2 id="factors-that-influence-ai-visibility">Factors That Influence AI Visibility</h2>
+
+<p>Based on our analysis of thousands of AI responses, here are the key factors:</p>
+
+<h3 id="1-web-presence--authority">1. <strong>Web Presence &amp; Authority</strong></h3>
+
+<ul>
+  <li>Quality content on your domain</li>
+  <li>Backlinks from authoritative sites</li>
+  <li>Mentions in news and industry publications</li>
+  <li>Wikipedia page (highly influential)</li>
+</ul>
+
+<h3 id="2-structured-data">2. <strong>Structured Data</strong></h3>
+
+<p>AI models love structured information:</p>
+
+<ul>
+  <li><strong>Schema.org markup</strong> helps AI understand your business</li>
+  <li><strong>JSON-LD</strong> for products, reviews, FAQs</li>
+  <li><strong>OpenGraph tags</strong> for social sharing</li>
+  <li><strong>Sitemaps</strong> for discoverability</li>
+</ul>
+
+<h3 id="3-documentation-quality">3. <strong>Documentation Quality</strong></h3>
+
+<p>AI models heavily reference:</p>
+
+<ul>
+  <li>Official documentation</li>
+  <li>Technical specs</li>
+  <li>API docs</li>
+  <li>Help centers</li>
+</ul>
+
+<p>Clear, comprehensive docs dramatically improve AI visibility.</p>
+
+<h3 id="4-third-party-mentions">4. <strong>Third-Party Mentions</strong></h3>
+
+<p>Where your brand appears matters:</p>
+
+<ul>
+  <li><strong>Review sites</strong>: G2, Capterra, TrustPilot</li>
+  <li><strong>Industry publications</strong>: TechCrunch, VentureBeat, etc.</li>
+  <li><strong>Reddit, HackerNews, forums</strong>: Real user discussions</li>
+  <li><strong>YouTube tutorials and reviews</strong></li>
+</ul>
+
+<h3 id="5-recency-and-updates">5. <strong>Recency and Updates</strong></h3>
+
+<p>AI models have knowledge cutoffs, but newer information carries weight:</p>
+
+<ul>
+  <li>Regular blog posts</li>
+  <li>Product updates</li>
+  <li>Press releases</li>
+  <li>Social media activity</li>
+</ul>
+
+<h3 id="6-brand-consistency">6. <strong>Brand Consistency</strong></h3>
+
+<p>Consistent messaging across platforms helps AI understand you:</p>
+
+<ul>
+  <li>Same brand name everywhere</li>
+  <li>Clear category positioning</li>
+  <li>Consistent value propositions</li>
+  <li>Unified terminology</li>
+</ul>
+
+<h2 id="how-to-check-your-ai-visibility">How to Check Your AI Visibility</h2>
+
+<h3 id="quick-check-30-seconds">Quick Check (30 seconds)</h3>
+
+<p>Run our AI Visibility command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npx @aichatwatch/aicw ai-visibility yourwebsite.com
+</code></pre></div></div>
+
+<p>This analyzes:</p>
+<ul>
+  <li>Technical SEO for AI</li>
+  <li>Structured data presence</li>
+  <li>Content optimization</li>
+  <li>AI discoverability issues</li>
+</ul>
+
+<h3 id="comprehensive-analysis">Comprehensive Analysis</h3>
+
+<p>Create a monitoring project:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npx @aichatwatch/aicw
+</code></pre></div></div>
+
+<p>Then query multiple AI models with brand-related questions to see:</p>
+<ul>
+  <li>How often you’re mentioned</li>
+  <li>Your ranking vs. competitors</li>
+  <li>What information AI uses</li>
+  <li>Trends over time</li>
+</ul>
+
+<h2 id="optimizing-for-ai-visibility">Optimizing for AI Visibility</h2>
+
+<h3 id="1-fix-the-basics">1. Fix the Basics</h3>
+
+<ul>
+  <li>✅ Add structured data (Schema.org)</li>
+  <li>✅ Create/update Wikipedia page</li>
+  <li>✅ Ensure robots.txt allows AI crawlers</li>
+  <li>✅ Submit sitemap</li>
+  <li>✅ Add clear “About” page</li>
+</ul>
+
+<h3 id="2-build-authority">2. Build Authority</h3>
+
+<ul>
+  <li>📝 Publish high-quality content regularly</li>
+  <li>🔗 Earn backlinks from authoritative sites</li>
+  <li>📰 Get press coverage</li>
+  <li>⭐ Accumulate reviews on major platforms</li>
+</ul>
+
+<h3 id="3-optimize-content">3. Optimize Content</h3>
+
+<ul>
+  <li>🎯 Use clear, descriptive language</li>
+  <li>📊 Add stats and data points</li>
+  <li>🔢 Create comparison tables</li>
+  <li>❓ Write comprehensive FAQs</li>
+  <li>📖 Maintain detailed documentation</li>
+</ul>
+
+<h3 id="4-monitor-and-iterate">4. Monitor and Iterate</h3>
+
+<ul>
+  <li>📈 Track AI mentions monthly</li>
+  <li>🔍 Identify knowledge gaps</li>
+  <li>🛠️ Fix inaccuracies</li>
+  <li>📝 Update content based on AI feedback</li>
+</ul>
+
+<h2 id="case-study-before--after">Case Study: Before &amp; After</h2>
+
+<h3 id="before-optimization">Before Optimization</h3>
+
+<p><strong>Query</strong>: “Best email marketing tools”</p>
+
+<p><strong>AI Response</strong>: “Mailchimp, SendGrid, ConvertKit…”</p>
+
+<p><strong>Your Brand</strong>: Not mentioned ❌</p>
+
+<h3 id="after-3-months-of-optimization">After 3 Months of Optimization</h3>
+
+<ul>
+  <li>Added structured data to website</li>
+  <li>Published 12 comparison guides</li>
+  <li>Got featured on 3 major review sites</li>
+  <li>Updated Wikipedia page</li>
+</ul>
+
+<p><strong>Query</strong>: “Best email marketing tools”</p>
+
+<p><strong>AI Response</strong>: “Top options include Mailchimp, <strong>YourTool</strong>, SendGrid…”</p>
+
+<p><strong>Your Brand</strong>: Mentioned in top 3 ✅</p>
+
+<p><strong>Result</strong>: 40% increase in organic sign-ups mentioning “AI recommendation”</p>
+
+<h2 id="the-bottom-line">The Bottom Line</h2>
+
+<p>AI Visibility is not optional anymore. It’s the new frontier of digital marketing.</p>
+
+<p>Just as businesses had to adapt to:</p>
+<ul>
+  <li><strong>2000s</strong>: Build a website</li>
+  <li><strong>2010s</strong>: Optimize for mobile</li>
+  <li><strong>2020s</strong>: Master social media</li>
+</ul>
+
+<p><strong>2024+</strong>: Optimize for AI visibility</p>
+
+<p>The question isn’t <em>if</em> you should care about AI visibility, but <em>how quickly</em> you can adapt.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<ol>
+  <li><strong>Audit</strong> your current AI visibility</li>
+  <li><strong>Benchmark</strong> against competitors</li>
+  <li><strong>Optimize</strong> your digital presence</li>
+  <li><strong>Monitor</strong> changes over time</li>
+</ol>
+
+<p>Ready to get started? Check out our <a href="/">Quick Start Guide</a> or dive into <a href="/how-it-works/">How It Works</a>.</p>
+
+<hr />
+
+<p><strong>Questions?</strong> What’s your experience with AI mentioning your brand? Share in the comments or reach out on <a href="https://github.com/aichatwatch/aicw">GitHub</a>.</p>]]></content><author><name>AI Chat Watch Team</name></author><category term="ai-visibility" /><category term="seo" /><category term="digital-marketing" /><summary type="html"><![CDATA[Understanding AI visibility: the new frontier in digital marketing. Learn why being visible to AI chatbots is as important as SEO.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://aichatwatch.com/assets/images/screenshots/aicw-ai-visibility-report.png" /><media:content medium="image" url="https://aichatwatch.com/assets/images/screenshots/aicw-ai-visibility-report.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to Track Your Brand Mentions Across 20+ AI Chatbots</title><link href="https://aichatwatch.com/blog/how-to-track-your-brand-across-ai-chatbots/" rel="alternate" type="text/html" title="How to Track Your Brand Mentions Across 20+ AI Chatbots" /><published>2024-11-10T09:00:00-08:00</published><updated>2024-11-10T09:00:00-08:00</updated><id>https://aichatwatch.com/blog/how-to-track-your-brand-across-ai-chatbots</id><content type="html" xml:base="https://aichatwatch.com/blog/how-to-track-your-brand-across-ai-chatbots/"><![CDATA[<p>Want to know what ChatGPT says about your brand? How about Claude, Gemini, or Perplexity? This guide will show you exactly how to track your brand mentions across 20+ AI models.</p>
+
+<h2 id="why-track-ai-brand-mentions">Why Track AI Brand Mentions?</h2>
+
+<p>Before we dive into the how, let’s talk about the why:</p>
+
+<h3 id="the-opportunity-cost-is-massive">The Opportunity Cost is Massive</h3>
+
+<p>Consider this scenario:</p>
+
+<ul>
+  <li><strong>Daily ChatGPT users</strong>: 100M+</li>
+  <li><strong>Queries mentioning your category</strong>: Let’s say 0.01% = 10,000</li>
+  <li><strong>Conversion rate if mentioned</strong>: Even 1% = 100 potential customers</li>
+  <li><strong>Monthly missed opportunities if not mentioned</strong>: ~3,000</li>
+</ul>
+
+<p>That’s 3,000 potential customers monthly who might never discover you because AI didn’t mention your brand.</p>
+
+<h3 id="you-cant-optimize-what-you-dont-measure">You Can’t Optimize What You Don’t Measure</h3>
+
+<p>Without tracking AI mentions, you’re blind to:</p>
+
+<ul>
+  <li>Whether AI knows your product exists</li>
+  <li>How you rank vs. competitors</li>
+  <li>What misinformation AI might be spreading</li>
+  <li>Which use cases AI associates with your brand</li>
+  <li>Trending topics in your space</li>
+</ul>
+
+<h2 id="what-well-cover">What We’ll Cover</h2>
+
+<p>In this tutorial, you’ll learn:</p>
+
+<ol>
+  <li>Setting up AI Chat Watch</li>
+  <li>Creating effective monitoring questions</li>
+  <li>Selecting the right AI models</li>
+  <li>Running your first analysis</li>
+  <li>Interpreting the results</li>
+  <li>Optimizing based on insights</li>
+</ol>
+
+<h2 id="step-1-install-ai-chat-watch">Step 1: Install AI Chat Watch</h2>
+
+<h3 id="quick-start-no-installation">Quick Start (No Installation)</h3>
+
+<p>For a one-time analysis:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npx @aichatwatch/aicw
+</code></pre></div></div>
+
+<h3 id="recommended-global-installation">Recommended: Global Installation</h3>
+
+<p>For ongoing monitoring:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> @aichatwatch/aicw
+</code></pre></div></div>
+
+<p>Verify installation:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>aicw <span class="nt">--version</span>
+</code></pre></div></div>
+
+<h3 id="get-your-api-key">Get Your API Key</h3>
+
+<p>You’ll need an API key from one of these providers:</p>
+
+<p><strong>Option A: OpenRouter</strong> (Recommended)</p>
+<ul>
+  <li>Visit <a href="https://openrouter.ai/keys">openrouter.ai/keys</a></li>
+  <li>Create a free account</li>
+  <li>Generate an API key</li>
+  <li>Add $5-10 credit (goes a long way)</li>
+</ul>
+
+<p><strong>Option B: OpenAI</strong></p>
+<ul>
+  <li>Visit <a href="https://platform.openai.com/api-keys">platform.openai.com/api-keys</a></li>
+  <li>Create an API key</li>
+  <li>Note: More expensive than OpenRouter for multi-model access</li>
+</ul>
+
+<h2 id="step-2-create-your-first-project">Step 2: Create Your First Project</h2>
+
+<p>Launch AICW:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>aicw
+</code></pre></div></div>
+
+<p>You’ll see an interactive menu. Select <strong>“Create new project”</strong>.</p>
+
+<h3 id="name-your-project">Name Your Project</h3>
+
+<p>Choose a descriptive name:</p>
+<ul>
+  <li>✅ “Acme CRM - Brand Monitoring”</li>
+  <li>✅ “Q4 2024 Competitive Analysis”</li>
+  <li>❌ “test”</li>
+  <li>❌ “project1”</li>
+</ul>
+
+<h3 id="configure-api-settings">Configure API Settings</h3>
+
+<p>When prompted:</p>
+<ol>
+  <li><strong>Provider</strong>: Select <code class="language-plaintext highlighter-rouge">OpenRouter</code> (or your preferred provider)</li>
+  <li><strong>API Key</strong>: Paste your key</li>
+  <li><strong>Save</strong>: Confirm the settings</li>
+</ol>
+
+<h2 id="step-3-write-effective-questions">Step 3: Write Effective Questions</h2>
+
+<p>This is the most critical step. Your questions determine what insights you’ll get.</p>
+
+<h3 id="question-framework">Question Framework</h3>
+
+<p>Use this framework for comprehensive brand monitoring:</p>
+
+<h4 id="1-direct-brand-queries">1. Direct Brand Queries</h4>
+
+<p>Ask AI directly about your brand:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "What is [YourBrand]?"
+- "Tell me about [YourProduct]"
+- "What are the features of [YourTool]?"
+</code></pre></div></div>
+
+<p><strong>Why</strong>: Establishes if AI knows you exist and has accurate information.</p>
+
+<h4 id="2-category-questions">2. Category Questions</h4>
+
+<p>Position yourself within your category:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "What are the best [category] tools?"
+- "Top [category] solutions for [use case]"
+- "Compare [category] platforms"
+</code></pre></div></div>
+
+<p><strong>Example</strong>:</p>
+<ul>
+  <li>“What are the best project management tools for remote teams?”</li>
+  <li>“Top CRMs for startups”</li>
+</ul>
+
+<p><strong>Why</strong>: See how you rank against competitors.</p>
+
+<h4 id="3-use-case-questions">3. Use Case Questions</h4>
+
+<p>Target specific problems:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "How to [solve problem your product solves]?"
+- "Best tools for [specific use case]?"
+- "What should I use to [accomplish task]?"
+</code></pre></div></div>
+
+<p><strong>Example</strong>:</p>
+<ul>
+  <li>“How to manage customer support tickets efficiently?”</li>
+  <li>“Best tools for team collaboration”</li>
+</ul>
+
+<p><strong>Why</strong>: Captures problem-aware users before they know specific solutions.</p>
+
+<h4 id="4-comparison-questions">4. Comparison Questions</h4>
+
+<p>Direct competitive intelligence:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "Compare [YourBrand] vs [Competitor]"
+- "[YourBrand] or [Competitor] - which is better?"
+- "Differences between [YourBrand] and [Competitor]"
+</code></pre></div></div>
+
+<p><strong>Why</strong>: Understand how AI positions you vs. competitors.</p>
+
+<h4 id="5-alternative-questions">5. Alternative Questions</h4>
+
+<p>See if you’re suggested as an alternative:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "Alternatives to [Competitor]"
+- "Tools similar to [Competitor]"
+- "[Competitor] competitors"
+</code></pre></div></div>
+
+<p><strong>Why</strong>: Capture users already considering competitors.</p>
+
+<h3 id="question-templates-by-industry">Question Templates by Industry</h3>
+
+<h4 id="saas-products">SaaS Products</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. "What are the top 10 [category] tools in 2024?"
+2. "Best [category] software for [target audience]"
+3. "Compare [YourTool] features and pricing"
+4. "How does [YourTool] compare to competitors?"
+5. "[YourTool] reviews and user opinions"
+</code></pre></div></div>
+
+<h4 id="e-commerce">E-commerce</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. "Best places to buy [product type]"
+2. "Top [product category] brands"
+3. "[YourBrand] products and reviews"
+4. "Where to buy [specific product]"
+5. "Is [YourBrand] worth it?"
+</code></pre></div></div>
+
+<h4 id="services">Services</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. "Best [service type] providers"
+2. "How to choose a [service type]"
+3. "[YourCompany] services and pricing"
+4. "Reviews of [YourCompany]"
+5. "[Service] in [location]"
+</code></pre></div></div>
+
+<h3 id="pro-tips-for-questions">Pro Tips for Questions</h3>
+
+<p>✅ <strong>Do</strong>:</p>
+<ul>
+  <li>Use natural language (how real users ask)</li>
+  <li>Include your target audience (e.g., “for startups”, “for enterprises”)</li>
+  <li>Ask variations of the same question</li>
+  <li>Include misspellings of your brand (if common)</li>
+</ul>
+
+<p>❌ <strong>Don’t</strong>:</p>
+<ul>
+  <li>Be too promotional (“Why is [YourBrand] the best?”)</li>
+  <li>Use internal jargon</li>
+  <li>Make questions too long (&gt;20 words)</li>
+  <li>Ask yes/no questions</li>
+</ul>
+
+<h2 id="step-4-select-ai-models">Step 4: Select AI Models</h2>
+
+<p>AICW supports 20+ models. Here’s how to choose:</p>
+
+<h3 id="tier-1-must-track-core-models">Tier 1: Must-Track (Core Models)</h3>
+
+<p>Always include these popular models:</p>
+
+<ul>
+  <li><strong>ChatGPT 4</strong> (gpt-4-turbo)</li>
+  <li><strong>Claude 3 Opus</strong> (claude-3-opus)</li>
+  <li><strong>Gemini Pro</strong> (gemini-pro)</li>
+  <li><strong>Perplexity</strong> (perplexity/sonar)</li>
+</ul>
+
+<p><strong>Why</strong>: Highest user bases, most influential</p>
+
+<h3 id="tier-2-should-track-specialized">Tier 2: Should-Track (Specialized)</h3>
+
+<p>Add for comprehensive coverage:</p>
+
+<ul>
+  <li><strong>ChatGPT 3.5</strong> (gpt-3.5-turbo) - Still widely used</li>
+  <li><strong>Claude 3 Sonnet</strong> (claude-3-sonnet) - Balance of cost/quality</li>
+  <li><strong>Mixtral</strong> (mixtral-8x7b) - Open source alternative</li>
+  <li><strong>Command R+</strong> (cohere/command-r-plus) - Good for citations</li>
+</ul>
+
+<h3 id="tier-3-optional-emerging">Tier 3: Optional (Emerging)</h3>
+
+<p>Include if budget allows:</p>
+
+<ul>
+  <li><strong>GPT-4 Vision</strong> - If visual content matters</li>
+  <li><strong>Llama 3</strong> - Open source insights</li>
+  <li><strong>Qwen</strong> - International perspective</li>
+</ul>
+
+<h3 id="budget-optimization">Budget Optimization</h3>
+
+<p><strong>Tight Budget ($5-10)</strong>:</p>
+<ul>
+  <li>3-4 core models</li>
+  <li>5 essential questions</li>
+  <li>Monthly cadence</li>
+</ul>
+
+<p><strong>Standard Budget ($20-50)</strong>:</p>
+<ul>
+  <li>8-10 models</li>
+  <li>10-15 questions</li>
+  <li>Bi-weekly cadence</li>
+</ul>
+
+<p><strong>Comprehensive ($100+)</strong>:</p>
+<ul>
+  <li>15-20 models</li>
+  <li>20+ questions</li>
+  <li>Weekly cadence</li>
+</ul>
+
+<h2 id="step-5-run-your-analysis">Step 5: Run Your Analysis</h2>
+
+<p>After configuring questions and models:</p>
+
+<ol>
+  <li>Select <strong>“Run project”</strong></li>
+  <li>Choose which questions to run (or all)</li>
+  <li>Confirm model selection</li>
+  <li><strong>Wait</strong> (this can take 2-10 minutes depending on scope)</li>
+</ol>
+
+<h3 id="whats-happening-behind-the-scenes">What’s Happening Behind the Scenes</h3>
+
+<p>AICW is:</p>
+
+<ol>
+  <li>Sending your questions to each AI model</li>
+  <li>Collecting responses</li>
+  <li>Extracting entities (brands, products, links)</li>
+  <li>Analyzing mention frequency and order</li>
+  <li>Detecting trends</li>
+  <li>Generating comparison data</li>
+  <li>Creating interactive visualizations</li>
+</ol>
+
+<h3 id="cost-estimation">Cost Estimation</h3>
+
+<p>Rough costs per question across 10 models:</p>
+
+<ul>
+  <li><strong>OpenRouter</strong>: $0.05 - $0.15</li>
+  <li><strong>OpenAI Direct</strong>: $0.10 - $0.30</li>
+</ul>
+
+<p>Example project:</p>
+<ul>
+  <li>10 questions × 10 models = 100 queries</li>
+  <li>Estimated cost: $5-15 via OpenRouter</li>
+</ul>
+
+<h2 id="step-6-analyze-your-results">Step 6: Analyze Your Results</h2>
+
+<p>AICW generates an interactive HTML report. Let’s break down what to look for:</p>
+
+<h3 id="1-mention-frequency">1. Mention Frequency</h3>
+
+<p><strong>What it shows</strong>: How many models mentioned you out of total queries</p>
+
+<p><strong>Good</strong>: 60%+ mention rate
+<strong>Concerning</strong>: &lt;20% mention rate</p>
+
+<p><strong>Example</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Your Brand: 7/10 models (70%) ✅
+Competitor A: 9/10 models (90%)
+Competitor B: 3/10 models (30%)
+</code></pre></div></div>
+
+<p><strong>Action</strong>: If low, focus on building authority and structured data.</p>
+
+<h3 id="2-mention-position">2. Mention Position</h3>
+
+<p><strong>What it shows</strong>: Where you appear in AI responses (1st, 2nd, 3rd, etc.)</p>
+
+<p><strong>Metrics</strong>:</p>
+<ul>
+  <li><strong>Average position</strong>: Lower is better</li>
+  <li><strong>First mention %</strong>: How often you’re listed first</li>
+  <li><strong>Top 3 %</strong>: How often you’re in top 3</li>
+</ul>
+
+<p><strong>Example</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Your Brand:
+- Avg position: 3.2
+- First mention: 14%
+- Top 3: 71%
+</code></pre></div></div>
+
+<p><strong>Action</strong>: Optimize for first-mention with better content and citations.</p>
+
+<h3 id="3-share-of-voice">3. Share of Voice</h3>
+
+<p><strong>What it shows</strong>: Your % of total mentions vs. competitors</p>
+
+<p><strong>Formula</strong>: (Your mentions / Total mentions) × 100</p>
+
+<p><strong>Example</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Market Share of Voice:
+- Competitor A: 35%
+- Your Brand: 25%
+- Competitor B: 22%
+- Competitor C: 18%
+</code></pre></div></div>
+
+<p><strong>Action</strong>: Benchmark progress over time. Aim to grow share monthly.</p>
+
+<h3 id="4-citation-sources">4. Citation Sources</h3>
+
+<p><strong>What it shows</strong>: Which websites AI models reference when discussing you</p>
+
+<p><strong>Look for</strong>:</p>
+<ul>
+  <li>Your official site (good!)</li>
+  <li>Review sites (G2, Capterra)</li>
+  <li>News articles</li>
+  <li>Competitor sites (concerning)</li>
+  <li>Outdated sources (fixable)</li>
+</ul>
+
+<p><strong>Action</strong>: Get more high-quality backlinks and press mentions.</p>
+
+<h3 id="5-trend-analysis">5. Trend Analysis</h3>
+
+<p><strong>What it shows</strong>: Whether mentions are increasing/decreasing over time</p>
+
+<p><strong>Requires</strong>: Multiple runs over weeks/months</p>
+
+<p><strong>Example</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Mention trend (past 90 days):
+- Month 1: 45% ➡️
+- Month 2: 52% ⬆️
+- Month 3: 58% ⬆️
+</code></pre></div></div>
+
+<p><strong>Action</strong>: Track impact of optimization efforts.</p>
+
+<h3 id="6-key-insights">6. Key Insights</h3>
+
+<p>AICW highlights:</p>
+
+<ul>
+  <li><strong>Strengths</strong>: What AI mentions positively</li>
+  <li><strong>Weaknesses</strong>: Gaps or negative associations</li>
+  <li><strong>Opportunities</strong>: Underutilized keywords</li>
+  <li><strong>Threats</strong>: Competitor advantages</li>
+</ul>
+
+<h2 id="step-7-take-action">Step 7: Take Action</h2>
+
+<p>Based on your analysis, prioritize these actions:</p>
+
+<h3 id="if-mention-rate-is-low-30">If Mention Rate is Low (&lt;30%)</h3>
+
+<p><strong>Priority</strong>: Build foundational visibility</p>
+
+<p>Actions:</p>
+<ol>
+  <li>Add Schema.org structured data to website</li>
+  <li>Create/update Wikipedia page</li>
+  <li>Get listed on major review sites</li>
+  <li>Publish comprehensive documentation</li>
+  <li>Earn backlinks from authoritative sites</li>
+</ol>
+
+<h3 id="if-mentioned-but-ranked-low">If Mentioned but Ranked Low</h3>
+
+<p><strong>Priority</strong>: Improve positioning and authority</p>
+
+<p>Actions:</p>
+<ol>
+  <li>Publish comparison content (vs. competitors)</li>
+  <li>Create detailed use-case guides</li>
+  <li>Get more positive reviews</li>
+  <li>Update outdated information across the web</li>
+  <li>Build topical authority through content</li>
+</ol>
+
+<h3 id="if-misinformation-exists">If Misinformation Exists</h3>
+
+<p><strong>Priority</strong>: Correct inaccurate data</p>
+
+<p>Actions:</p>
+<ol>
+  <li>Update your official sources</li>
+  <li>Contact sites with wrong info</li>
+  <li>Publish clarifying content</li>
+  <li>Add detailed FAQs</li>
+  <li>Consider Wikipedia edits</li>
+</ol>
+
+<h3 id="if-missing-for-specific-use-cases">If Missing for Specific Use Cases</h3>
+
+<p><strong>Priority</strong>: Create targeted content</p>
+
+<p>Actions:</p>
+<ol>
+  <li>Write guides for those use cases</li>
+  <li>Create comparison pages</li>
+  <li>Add use-case-specific landing pages</li>
+  <li>Publish case studies</li>
+  <li>Update product descriptions</li>
+</ol>
+
+<h2 id="step-8-monitor-and-iterate">Step 8: Monitor and Iterate</h2>
+
+<p>Brand monitoring is ongoing. Here’s your cadence:</p>
+
+<h3 id="weekly-high-priority-projects">Weekly (High-Priority Projects)</h3>
+
+<ul>
+  <li>Quick check: Run 3-5 key questions</li>
+  <li>Monitor: New mentions or drops</li>
+  <li>Act: Respond to trending topics</li>
+</ul>
+
+<h3 id="bi-weekly-standard-monitoring">Bi-Weekly (Standard Monitoring)</h3>
+
+<ul>
+  <li>Full analysis: Run all questions</li>
+  <li>Track: Mention trends</li>
+  <li>Optimize: Based on insights</li>
+</ul>
+
+<h3 id="monthly-comprehensive-review">Monthly (Comprehensive Review)</h3>
+
+<ul>
+  <li>Deep dive: Run expanded question set</li>
+  <li>Benchmark: Compare to previous months</li>
+  <li>Report: Share with stakeholders</li>
+  <li>Plan: Next month’s optimization priorities</li>
+</ul>
+
+<h2 id="advanced-techniques">Advanced Techniques</h2>
+
+<h3 id="1-competitive-benchmarking">1. Competitive Benchmarking</h3>
+
+<p>Create separate projects for each competitor to:</p>
+
+<ul>
+  <li>Track their mention frequency</li>
+  <li>Identify their strengths</li>
+  <li>Find gaps you can exploit</li>
+  <li>Monitor their trend changes</li>
+</ul>
+
+<h3 id="2-industry-trend-tracking">2. Industry Trend Tracking</h3>
+
+<p>Create a project for industry trends:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "What are the emerging trends in [industry]?"
+- "Future of [category]"
+- "Innovations in [space]"
+</code></pre></div></div>
+
+<h3 id="3-sentiment-analysis">3. Sentiment Analysis</h3>
+
+<p>Ask AI for opinions:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "Pros and cons of [YourBrand]"
+- "User opinions about [YourProduct]"
+- "Reviews of [YourService]"
+</code></pre></div></div>
+
+<h3 id="4-geographic-variations">4. Geographic Variations</h3>
+
+<p>Test regional differences:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "Best [category] tools in [country/region]"
+- "[Category] for [region] market"
+</code></pre></div></div>
+
+<h2 id="troubleshooting-common-issues">Troubleshooting Common Issues</h2>
+
+<h3 id="ai-has-never-heard-of-my-brand">“AI has never heard of my brand”</h3>
+
+<p><strong>Likely causes</strong>:</p>
+<ul>
+  <li>New brand (&lt;1 year)</li>
+  <li>Limited web presence</li>
+  <li>No structured data</li>
+  <li>Training data cutoff</li>
+</ul>
+
+<p><strong>Solutions</strong>:</p>
+<ul>
+  <li>Build authoritative backlinks</li>
+  <li>Get press coverage</li>
+  <li>Create Wikipedia page</li>
+  <li>Publish more content</li>
+  <li>Add structured data</li>
+</ul>
+
+<h3 id="ai-mentions-competitors-but-not-me">“AI mentions competitors but not me”</h3>
+
+<p><strong>Likely causes</strong>:</p>
+<ul>
+  <li>Lower domain authority</li>
+  <li>Less review presence</li>
+  <li>Weaker content</li>
+  <li>Fewer backlinks</li>
+</ul>
+
+<p><strong>Solutions</strong>:</p>
+<ul>
+  <li>Focus on review sites</li>
+  <li>Create comparison content</li>
+  <li>Build topic authority</li>
+  <li>Improve SEO</li>
+</ul>
+
+<h3 id="inconsistent-results-across-models">“Inconsistent results across models”</h3>
+
+<p><strong>Likely causes</strong>:</p>
+<ul>
+  <li>Different training data</li>
+  <li>Model-specific biases</li>
+  <li>Varying knowledge cutoffs</li>
+</ul>
+
+<p><strong>Solutions</strong>:</p>
+<ul>
+  <li>Track trends not snapshots</li>
+  <li>Average across multiple models</li>
+  <li>Run analysis regularly</li>
+</ul>
+
+<h3 id="results-havent-improved-after-optimizations">“Results haven’t improved after optimizations”</h3>
+
+<p><strong>Likely causes</strong>:</p>
+<ul>
+  <li>Too early (give it 2-3 months)</li>
+  <li>Changes not indexed yet</li>
+  <li>Optimizations not aligned with AI needs</li>
+</ul>
+
+<p><strong>Solutions</strong>:</p>
+<ul>
+  <li>Be patient</li>
+  <li>Verify changes are live</li>
+  <li>Check what competitors are doing</li>
+  <li>Analyze citation sources</li>
+</ul>
+
+<h2 id="real-world-success-story">Real-World Success Story</h2>
+
+<h3 id="case-study-saas-startup">Case Study: SaaS Startup</h3>
+
+<p><strong>Before</strong>:</p>
+<ul>
+  <li>Mention rate: 23%</li>
+  <li>Average position: #6</li>
+  <li>Share of voice: 8%</li>
+</ul>
+
+<p><strong>Actions Taken</strong> (over 3 months):</p>
+<ol>
+  <li>Added Schema.org markup</li>
+  <li>Published 15 comparison guides</li>
+  <li>Got featured on 5 review sites</li>
+  <li>Created comprehensive docs</li>
+  <li>Earned 20+ high-quality backlinks</li>
+</ol>
+
+<p><strong>After</strong>:</p>
+<ul>
+  <li>Mention rate: 68% ⬆️ 45%</li>
+  <li>Average position: #2.3 ⬆️ 3.7</li>
+  <li>Share of voice: 28% ⬆️ 20%</li>
+</ul>
+
+<p><strong>Business Impact</strong>:</p>
+<ul>
+  <li>40% increase in organic signups</li>
+  <li>15% mentioned “AI recommendation” in onboarding</li>
+</ul>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Ready to start tracking your brand across AI chatbots?</p>
+
+<ol>
+  <li><strong>Install AICW</strong>: <code class="language-plaintext highlighter-rouge">npm install -g @aichatwatch/aicw</code></li>
+  <li><strong>Set up your first project</strong>: Create 5 key questions</li>
+  <li><strong>Run initial analysis</strong>: Get your baseline metrics</li>
+  <li><strong>Create optimization plan</strong>: Focus on top 3 priorities</li>
+  <li><strong>Schedule regular monitoring</strong>: Set calendar reminders</li>
+</ol>
+
+<hr />
+
+<p><strong>Questions?</strong> Share your experience in the comments or join our <a href="https://github.com/aichatwatch/aicw/discussions">GitHub Discussions</a>.</p>
+
+<p><strong>Found this helpful?</strong> Star us on <a href="https://github.com/aichatwatch/aicw">GitHub</a> and share with your network!</p>]]></content><author><name>AI Chat Watch Team</name></author><category term="tutorial" /><category term="brand-monitoring" /><category term="competitive-intelligence" /><summary type="html"><![CDATA[Step-by-step guide to monitoring your brand across ChatGPT, Claude, Gemini, and other AI models. Track mentions, analyze trends, and optimize your AI visibility.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://aichatwatch.com/assets/images/screenshots/aicw-report-screenshot-top-influencers.png" /><media:content medium="image" url="https://aichatwatch.com/assets/images/screenshots/aicw-report-screenshot-top-influencers.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

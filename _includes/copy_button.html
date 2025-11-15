@@ -1,0 +1,121 @@
+<!--
+  Copy Button Component
+
+  Usage example (without the backslashes):
+    {\% include copy_button.html text="Text to copy" label="Copy" \%}
+-->
+
+{% assign copy_text = include.text | default: "" %}
+{% assign copy_label = include.label | default: "Copy" %}
+{% assign button_id = include.id | default: "copy-btn" | append: "-" | append: copy_text | slugify %}
+
+<button
+    type="button"
+    class="copy-btn"
+    data-copy-text="{{ copy_text }}"
+    id="{{ button_id }}"
+    aria-label="{{ copy_label }}">
+    <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+        <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+    </svg>
+    <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+        <path d="M20 6L9 17l-5-5"></path>
+    </svg>
+    <span class="copy-text">{{ copy_label }}</span>
+</button>
+
+<style>
+.copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #93C5FD, #B794F6);
+    border-radius: 12px;
+    border: none;
+    color: #1A1A2E;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.copy-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(147, 197, 253, 0.3);
+}
+
+.copy-btn.copied {
+    background: linear-gradient(135deg, #44EBA0, #2ECC71);
+}
+
+.copy-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+</style>
+
+<script>
+(function() {
+    const copyButtons = document.querySelectorAll('.copy-btn');
+
+    function fallbackCopy(text) {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.setAttribute('readonly', '');
+        textArea.style.position = 'fixed';
+        textArea.style.top = '-9999px';
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        try {
+            document.execCommand('copy');
+        } catch (err) {
+            console.error('Fallback copy failed:', err);
+        }
+        document.body.removeChild(textArea);
+    }
+
+    copyButtons.forEach(button => {
+        button.addEventListener('click', async function() {
+            const text = this.getAttribute('data-copy-text');
+            const copyText = this.querySelector('.copy-text');
+            const copyIcon = this.querySelector('.copy-icon');
+            const checkIcon = this.querySelector('.check-icon');
+            let copied = false;
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                try {
+                    await navigator.clipboard.writeText(text);
+                    copied = true;
+                } catch (err) {
+                    fallbackCopy(text);
+                    copied = true;
+                }
+            } else {
+                fallbackCopy(text);
+                copied = true;
+            }
+
+            if (copied) {
+                this.classList.add('copied');
+                if (copyText) copyText.textContent = 'Copied!';
+                if (copyIcon) copyIcon.style.display = 'none';
+                if (checkIcon) checkIcon.style.display = 'block';
+
+                setTimeout(() => {
+                    this.classList.remove('copied');
+                    if (copyText) copyText.textContent = '{{ copy_label }}';
+                    if (copyIcon) copyIcon.style.display = 'block';
+                    if (checkIcon) checkIcon.style.display = 'none';
+                }, 2000);
+            }
+        });
+    });
+})();
+</script>

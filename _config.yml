@@ -1,0 +1,113 @@
+# Site settings
+title: "AI Chat Watch"
+tagline: "Grade Your AI Visibility & Monitor What AI Says About Your Brand"
+description: "Free open-source tool to check if AI can find your website, then track what ChatGPT, Claude, Gemini and other AI models say about your brand. Get instant AI visibility audit and comprehensive competitive intelligence reports."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://aichatwatch.com" # the base hostname & protocol for your site
+logo: "/ai-chat-watch-manifest-512x512.png"
+email: support@aichatwatch.com
+author:
+  name: "AI Chat Watch"
+  email: support@aichatwatch.com
+  twitter: aichatwatch
+
+# Social media
+twitter:
+  username: aichatwatch
+  card: summary_large_image
+facebook:
+  app_id:
+  publisher:
+social:
+  name: AI Chat Watch
+  links:
+    - https://github.com/aichatwatch/aicw
+    - https://www.npmjs.com/package/@aichatwatch/aicw
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Permalinks
+permalink: /blog/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# SEO settings
+lang: en_US
+timezone: America/Los_Angeles
+
+# Feed settings
+feed:
+  path: /feed.xml
+  collections:
+    posts:
+      path: "/blog/feed.xml"
+
+# Sitemap settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      sitemap: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      sitemap: true
+      author: "AI Chat Watch Team"
+      comments: false
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - .git
+  - .gitignore
+
+# Include files
+include:
+  - _pages
+
+# App settings
+app_url: "https://app.aichatwatch.com"
+
+# Organization schema
+organization:
+  name: "AI Chat Watch"
+  url: "https://aichatwatch.com"
+  logo: "https://aichatwatch.com/ai-chat-watch-manifest-512x512.png"
+  sameAs:
+    - "https://github.com/aichatwatch/aicw"
+    - "https://www.npmjs.com/package/@aichatwatch/aicw"
+  contactPoint:
+    contactType: "Support"
+    url: "https://github.com/aichatwatch/aicw/issues"
