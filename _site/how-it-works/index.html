@@ -41,6 +41,12 @@
 <!-- Stylesheets -->
 <link rel="stylesheet" href="/styles.css">
 
+<link rel="stylesheet" href="/assets/css/page.css">
+
+
+<link rel="stylesheet" href="/assets/css/how-it-works.css">
+
+
 <!-- Canonical URL -->
 <link rel="canonical" href="https://aichatwatch.com/how-it-works/">
 
@@ -131,115 +137,6 @@
 }
 </script>
 
-
-
-
-<style>.features {
-  padding: 4rem 2rem;
-  background: white;
-}
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-.feature-card {
-  padding: 2rem;
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  transition: box-shadow 0.3s;
-}
-.feature-card:hover {
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
-.feature-icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-.how-it-works-steps {
-  padding: 4rem 2rem;
-  background: var(--light-bg);
-}
-.steps {
-  max-width: 800px;
-  margin: 0 auto;
-}
-.step {
-  display: flex;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: white;
-  border-radius: 12px;
-  border-left: 4px solid #667eea;
-}
-.step-number {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #667eea;
-  min-width: 3rem;
-}
-.compliance-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin: 3rem 0;
-}
-.compliance-item {
-  padding: 1.5rem;
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  background: white;
-}
-.compliance-item h4 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  color: #667eea;
-}
-.tracking-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  max-width: 900px;
-  margin: 2rem auto;
-}
-.track-list, .no-track-list {
-  padding: 2rem;
-  background: white;
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-}
-.track-list h3 {
-  color: #10b981;
-  margin-bottom: 1rem;
-}
-.no-track-list h3 {
-  color: #ef4444;
-  margin-bottom: 1rem;
-}
-.tracking-grid ul {
-  list-style: none;
-  padding: 0;
-}
-.tracking-grid li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid var(--border-color);
-}
-.track-list li:before {
-  content: "✅";
-  margin-right: 0.5rem;
-}
-.no-track-list li:before {
-  content: "❌";
-  margin-right: 0.5rem;
-}
-@media (max-width: 768px) {
-  .tracking-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
 
 
 </head>
@@ -599,77 +496,6 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </div>
 </article>
-
-<style>
-.page-hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 4rem 2rem;
-    text-align: center;
-}
-
-.page-title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-}
-
-.page-description {
-    font-size: 1.25rem;
-    opacity: 0.95;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.page-content {
-    padding: 4rem 0;
-}
-
-.page-content h2 {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
-
-.page-content h3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.page-content p {
-    margin-bottom: 1.5rem;
-    line-height: 1.8;
-    color: var(--text-secondary);
-}
-
-.page-content ul, .page-content ol {
-    margin-bottom: 1.5rem;
-    padding-left: 2rem;
-}
-
-.page-content li {
-    margin-bottom: 0.5rem;
-    line-height: 1.7;
-}
-
-@media (max-width: 768px) {
-    .page-hero {
-        padding: 3rem 1.5rem;
-    }
-
-    .page-title {
-        font-size: 2rem;
-    }
-
-    .page-description {
-        font-size: 1.1rem;
-    }
-
-    .page-content {
-        padding: 2rem 0;
-    }
-}
-</style>
 
     </main>
 

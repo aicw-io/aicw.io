@@ -1,7 +1,10 @@
 <!-- Include base page scripts -->
 {% include page_head_scripts.html %}
 
-<!-- Blog-specific meta tags and scripts -->
+<!-- Blog post styles -->
+<link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}">
+
+<!-- Blog-specific meta tags -->
 {% if page.reading_time %}
 <meta name="twitter:label1" content="Reading time">
 <meta name="twitter:data1" content="{{ page.reading_time }} min read">

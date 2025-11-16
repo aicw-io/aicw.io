@@ -18,13 +18,15 @@
 
 <!-- Stylesheets -->
 <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+{% if page.layout == 'page' %}
+<link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}">
+{% endif %}
+{% if page.custom_css_file %}
+<link rel="stylesheet" href="{{ page.custom_css_file | relative_url }}">
+{% endif %}
 
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <!-- Structured Data -->
 {% include seo-structured-data.html %}
-
-{% if page.custom_css %}
-<style>{{ page.custom_css }}</style>
-{% endif %}
