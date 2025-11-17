@@ -1,0 +1,162 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const posts = await getCollection('blog', ({ data }) => !data.draft);
+const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Resolve author references for all posts
+const postsWithAuthors = await Promise.all(
+  sortedPosts.map(async (post) => {
+    const author = await getEntry(post.data.author);
+    return {
+      ...post,
+      authorData: author.data
+    };
+  })
+);
+
+// Get unique categories
+const allCategories = [...new Set(posts.flatMap(post => post.data.categories))];
+---
+
+<BaseLayout
+  title="Blog | AI Chat Watch"
+  description="Learn about AI visibility strategies, competitive intelligence, and how to make your brand more discoverable to AI chatbots."
+>
+  <div class="min-h-screen bg-bg-secondary">
+    <!-- Header -->
+    <nav class="bg-bg-primary border-b border-border">
+      <div class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a href="/" class="text-2xl font-bold text-gradient-primary font-heading">
+            AI Chat Watch
+          </a>
+          <div class="flex gap-6">
+            <a href="/" class="text-text-secondary hover:text-text-primary transition-colors">
+              Home
+            </a>
+            <a href="/#features" class="text-text-secondary hover:text-text-primary transition-colors">
+              Features
+            </a>
+            <a href="/#installation" class="text-text-secondary hover:text-text-primary transition-colors">
+              Install
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <header class="bg-gradient-primary py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-5xl md:text-6xl font-bold mb-4 text-white font-heading">
+          Blog
+        </h1>
+        <p class="text-xl text-white/90 max-w-3xl mx-auto">
+          Insights on AI visibility, competitive intelligence, and how to optimize your brand for AI discovery
+        </p>
+      </div>
+    </header>
+
+    <!-- Blog Content -->
+    <div class="container mx-auto px-6 py-12">
+      <!-- Category Filter -->
+      {allCategories.length > 0 && (
+        <div class="mb-12">
+          <div class="flex flex-wrap gap-3 justify-center">
+            <span class="text-sm font-semibold text-text-secondary">Filter by:</span>
+            <a href="/blog" class="px-4 py-2 rounded-full bg-primary-100 text-primary-700 text-sm font-medium hover:bg-primary-200 transition-colors">
+              All Posts
+            </a>
+            {allCategories.map(category => (
+              <a
+                href={`/blog/category/${category}/`}
+                class="px-4 py-2 rounded-full bg-bg-primary border border-border text-text-secondary text-sm font-medium hover:border-primary-500 hover:text-primary-700 transition-colors"
+              >
+                {category}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Blog Posts Grid -->
+      {postsWithAuthors.length === 0 ? (
+        <div class="text-center py-20">
+          <div class="text-6xl mb-4">📝</div>
+          <h2 class="text-2xl font-bold mb-3">No blog posts yet</h2>
+          <p class="text-text-secondary">
+            Check back soon for articles about AI visibility and competitive intelligence!
+          </p>
+        </div>
+      ) : (
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          {postsWithAuthors.map((post) => (
+            <article class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              {post.data.heroImage && (
+                <a href={`/blog/${post.slug}/`}>
+                  <img
+                    src={post.data.heroImage}
+                    alt={post.data.heroImageAlt || post.data.title}
+                    class="w-full h-48 object-cover"
+                  />
+                </a>
+              )}
+              <div class="p-6">
+                {/* Categories */}
+                {post.data.categories && post.data.categories.length > 0 && (
+                  <div class="flex flex-wrap gap-2 mb-3">
+                    {post.data.categories.slice(0, 2).map(category => (
+                      <a
+                        href={`/blog/category/${category}/`}
+                        class="px-3 py-1 text-xs rounded-full bg-primary-100 text-primary-700 hover:bg-primary-200 transition-colors"
+                      >
+                        {category}
+                      </a>
+                    ))}
+                  </div>
+                )}
+
+                {/* Title */}
+                <h2 class="text-2xl font-bold mb-3 hover:text-primary-700 transition-colors">
+                  <a href={`/blog/${post.slug}/`}>
+                    {post.data.title}
+                  </a>
+                </h2>
+
+                {/* Description */}
+                <p class="text-text-secondary mb-4 line-clamp-3">
+                  {post.data.description}
+                </p>
+
+                {/* Meta */}
+                <div class="flex items-center justify-between text-sm text-text-light">
+                  <time datetime={post.data.pubDate.toISOString()}>
+                    {new Intl.DateTimeFormat('en-US', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric'
+                    }).format(post.data.pubDate)}
+                  </time>
+                  <span>{post.authorData.name}</span>
+                </div>
+
+                {/* Read More Link */}
+                <a
+                  href={`/blog/${post.slug}/`}
+                  class="inline-flex items-center gap-2 mt-4 text-primary-700 hover:text-primary-800 font-semibold transition-colors"
+                >
+                  Read More
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</BaseLayout>

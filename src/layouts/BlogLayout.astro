@@ -1,0 +1,226 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+import { getEntry } from 'astro:content';
+
+export interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  author: authorRef,
+  heroImage,
+  heroImageAlt,
+  categories,
+  tags
+} = post.data;
+
+// Get author data from reference
+const author = await getEntry(authorRef);
+
+const formattedDate = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}).format(pubDate);
+
+const formattedUpdatedDate = updatedDate
+  ? new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    }).format(updatedDate)
+  : null;
+---
+
+<BaseLayout
+  title={`${title} | AI Chat Watch Blog`}
+  description={description}
+  canonical={`/blog/${post.slug}/`}
+  image={heroImage}
+  imageAlt={heroImageAlt || title}
+  type="article"
+  publishedTime={pubDate}
+  modifiedTime={updatedDate}
+  author={author.data.name}
+  tags={tags}
+>
+  <div class="min-h-screen bg-bg-secondary">
+    <!-- Header/Navigation -->
+    <nav class="bg-bg-primary border-b border-border">
+      <div class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a href="/" class="text-2xl font-bold text-gradient-primary font-heading">
+            AI Chat Watch
+          </a>
+          <div class="flex gap-6">
+            <a href="/blog" class="text-text-secondary hover:text-text-primary transition-colors">
+              Blog
+            </a>
+            <a href="/#features" class="text-text-secondary hover:text-text-primary transition-colors">
+              Features
+            </a>
+            <a href="/#installation" class="text-text-secondary hover:text-text-primary transition-colors">
+              Install
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Blog Post Content -->
+    <article class="container mx-auto px-6 py-12 max-w-4xl">
+      <!-- Hero Image -->
+      {heroImage && (
+        <div class="mb-8 -mx-6 md:mx-0 md:rounded-lg overflow-hidden">
+          <img
+            src={heroImage}
+            alt={heroImageAlt || title}
+            class="w-full h-auto"
+          />
+        </div>
+      )}
+
+      <!-- Post Header -->
+      <header class="mb-8">
+        <!-- Categories -->
+        {categories && categories.length > 0 && (
+          <div class="flex flex-wrap gap-2 mb-4">
+            {categories.map(category => (
+              <a
+                href={`/blog/category/${category}/`}
+                class="px-3 py-1 text-sm rounded-full bg-primary-100 text-primary-700 hover:bg-primary-200 transition-colors"
+              >
+                {category}
+              </a>
+            ))}
+          </div>
+        )}
+
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-text-primary font-heading">
+          {title}
+        </h1>
+
+        <p class="text-xl text-text-secondary mb-6">
+          {description}
+        </p>
+
+        <!-- Post Meta -->
+        <div class="flex items-center gap-4 text-sm text-text-light">
+          <time datetime={pubDate.toISOString()}>
+            {formattedDate}
+          </time>
+          {formattedUpdatedDate && (
+            <span>
+              · Updated {formattedUpdatedDate}
+            </span>
+          )}
+          <span>·</span>
+          <a href={`/author/${author.slug}/`} class="hover:text-primary-700 transition-colors">
+            {author.data.name}
+          </a>
+        </div>
+
+        <!-- Tags -->
+        {tags && tags.length > 0 && (
+          <div class="flex flex-wrap gap-2 mt-4">
+            {tags.map(tag => (
+              <span class="text-xs px-2 py-1 bg-bg-secondary text-text-secondary rounded">
+                #{tag}
+              </span>
+            ))}
+          </div>
+        )}
+      </header>
+
+      <!-- Main Content with Tailwind Typography -->
+      <div class="prose prose-lg max-w-none
+        prose-headings:font-heading prose-headings:text-text-primary
+        prose-p:text-text-secondary prose-p:leading-relaxed
+        prose-a:text-primary-700 prose-a:no-underline hover:prose-a:underline
+        prose-strong:text-text-primary prose-strong:font-semibold
+        prose-code:bg-bg-secondary prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
+        prose-pre:bg-dark-900 prose-pre:border prose-pre:border-border
+        prose-img:rounded-lg prose-img:shadow-lg
+        prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:bg-bg-secondary prose-blockquote:py-1
+        mb-12"
+      >
+        <Content />
+      </div>
+
+      <!-- Author Bio -->
+      <div class="mb-8 p-8 bg-bg-primary rounded-2xl border border-border">
+        <h2 class="text-xl font-bold mb-6 text-primary-700">About The Author</h2>
+        <div class="flex items-center">
+          <a href={`/author/${author.slug}/`}>
+            <img
+              src={author.data.avatar}
+              alt={author.data.name}
+              class="w-16 h-16 rounded-full mr-6 object-cover border-2 border-primary-600"
+            />
+          </a>
+          <div>
+            <h3 class="text-xl font-semibold text-primary-700 mb-2">
+              <a href={`/author/${author.slug}/`} class="hover:text-primary-800 transition-colors">
+                {author.data.name}
+              </a>
+            </h3>
+            <p class="text-text-secondary leading-relaxed text-base mb-2">
+              {author.data.bio}
+            </p>
+            <a href={`/author/${author.slug}/`} class="text-sm text-primary-700 hover:text-primary-800 font-medium">
+              View all posts by {author.data.name} →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer: Back to Blog -->
+      <div class="border-t border-border pt-8">
+        <a
+          href="/blog"
+          class="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Back to Blog
+        </a>
+      </div>
+    </article>
+  </div>
+
+  <!-- JSON-LD for Blog Post -->
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": title,
+    "description": description,
+    "image": heroImage ? `https://www.aichatwatch.com${heroImage}` : undefined,
+    "datePublished": pubDate.toISOString(),
+    "dateModified": (updatedDate || pubDate).toISOString(),
+    "author": {
+      "@type": "Person",
+      "name": author.data.name,
+      "image": `https://www.aichatwatch.com${author.data.avatar}`,
+      "url": `https://www.aichatwatch.com/author/${author.slug}/`,
+      "jobTitle": author.data.title
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AI Chat Watch",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.aichatwatch.com/ai-chat-watch-manifest-512x512.png"
+      }
+    },
+    "keywords": tags?.join(', '),
+    "articleSection": categories?.[0]
+  })} />
+</BaseLayout>

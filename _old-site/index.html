@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Watch - Grade Your AI Visibility & Monitor What AI Says About Your Brand</title>
+    <meta name="description" content="Free open-source tool to check if AI can find your website, then track what ChatGPT, Claude, Gemini and other AI models say about your brand. Get instant AI visibility audit and comprehensive competitive intelligence reports.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aichatwatch.com">
+    <meta property="og:title" content="AI Chat Watch - Grade Your AI Visibility & Monitor AI Brand Mentions">
+    <meta property="og:description" content="Check your AI visibility in 30 seconds. Track your brand across 20+ AI models. Free, open-source, runs on your computer.">
+    <meta property="og:image" content="https://aichatwatch.com/assets/images/aicw-social-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="AI Chat Watch">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://aichatwatch.com">
+    <meta name="twitter:title" content="AI Chat Watch - Grade Your AI Visibility & Monitor AI Brand Mentions">
+    <meta name="twitter:description" content="Check your AI visibility in 30 seconds. Track your brand across 20+ AI models. Free, open-source, runs on your computer.">
+    <meta name="twitter:image" content="https://aichatwatch.com/assets/images/aicw-social-preview.png">
+    
+    <link rel="canonical" href="https://aichatwatch.com">
+    <meta name="author" content="aichatwatch">
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="AIChatWatch" />
+    <link rel="manifest" href="/site.webmanifest" />    
+    
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- GitHub buttons script -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- LLM Network Visualization -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="llm-network.js" defer></script>
+
+    <!-- JSON-LD Structured Data for AI Visibility -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AI Chat Watch",
+      "alternateName": "AICW",
+      "url": "https://aichatwatch.com",
+      "logo": "https://aichatwatch.com/ai-chat-watch-manifest-512x512.png",
+      "description": "Free open-source tool to grade AI visibility and monitor what ChatGPT, Claude, Gemini and other AI models say about your brand. Track brand mentions across 20+ AI models.",
+      "foundingDate": "2024",
+      "sameAs": [
+        "https://github.com/aichatwatch/aicw",
+        "https://www.npmjs.com/package/@aichatwatch/aicw"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Support",
+        "url": "https://github.com/aichatwatch/aicw/issues"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI Chat Watch",
+      "url": "https://aichatwatch.com",
+      "description": "Grade your AI visibility and monitor what AI says about your brand. Free, open-source tool to track mentions across 20+ AI models including ChatGPT, Claude, and Gemini.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Chat Watch"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://aichatwatch.com/#demos?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AI Chat Watch (AICW)",
+      "applicationCategory": "DeveloperApplication",
+      "applicationSubCategory": "AI Monitoring Tool",
+      "operatingSystem": "Windows, macOS, Linux",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Command-line tool for monitoring and analyzing AI chatbot responses across multiple models. Grade AI visibility, track brand mentions, analyze competitive positioning, and generate comprehensive reports.",
+      "featureList": [
+        "AI Visibility Grading and Scoring",
+        "Monitor 20+ AI Models (ChatGPT, Claude, Gemini, Perplexity)",
+        "Brand Mention Tracking",
+        "Competitive Intelligence Analysis",
+        "Interactive HTML Reports",
+        "Trend Analysis and Tracking",
+        "Entity Extraction and Analysis",
+        "CSV Export",
+        "Local Data Storage"
+      ],
+      "softwareVersion": "latest",
+      "releaseNotes": "Free and open-source CLI tool",
+      "downloadUrl": "https://www.npmjs.com/package/@aichatwatch/aicw",
+      "installUrl": "https://www.npmjs.com/package/@aichatwatch/aicw",
+      "softwareRequirements": "Node.js 18+",
+      "permissions": "Requires API key from OpenRouter or OpenAI",
+      "author": {
+        "@type": "Organization",
+        "name": "aichatwatch"
+      },
+      "sameAs": [
+        "https://github.com/aichatwatch/aicw",
+        "https://www.npmjs.com/package/@aichatwatch/aicw"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who needs this tool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marketers mostly, so they can look which competitors are mentioned by AI, in which order, what are the resources and websites mentioned by AI, etc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The tool is free and open-source. You only need to pay for using AI models via selected provider (like OpenAI, Claude or OpenRouter)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How secure is it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It runs on your computer. AICW sends questions to selected AI models via selected AI model provider - check Terms of Use and Privacy Policy of these providers for more information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I want to add a feature or report an issue?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AICW tool is open-source, check the source code at GitHub (https://github.com/aichatwatch/aicw) and add a feature or report an issue."
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header class="hero">
+        <svg id="network" width="100%" height="100%"></svg>
+        <div class="container">
+            <div class="hero-content animate-in">
+                <h1 class="hero-title">AI Chat Watch</h1>
+                <p class="hero-subtitle" style="margin-bottom: 2.5rem;">Grade Your AI Visibility & Monitor What AI Says About Your Brand</p>
+
+                <!-- Quick AI Visibility Check - Lead with Instant Value -->
+                <div class="quick-install-hero" style="margin-bottom: 2rem;">
+                    <h3 class="install-title">⚡ Check Your AI Visibility in 30 Seconds</h3>
+                    <p class="install-subtext">Is AI ignoring your website? Find out instantly:</p>
+                    <div class="install-command-hero" data-command="npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com">
+                        <code>npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com</code>
+                        <button type="button" class="copy-btn-hero" data-copy-command="npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com" aria-label="Copy AI visibility command">
+                            <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+                                <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+                            </svg>
+                            <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            <span class="copy-text"></span>
+                        </button>
+                    </div>
+                    <p class="install-subtext" style="margin-top: 1rem; margin-bottom: 0; font-size: 0.85rem; opacity: 0.8;">
+                        No signup required • Free & open-source • Runs on your computer
+                    </p>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#ai-visibility" class="btn btn-primary btn-large">
+                        <span>🚀 See How It Works</span>
+                    </a>
+                    <a href="/demo/reports/" class="btn btn-secondary">
+                        <span>📊 View Sample Reports</span>
+                    </a>
+                    <a href="https://github.com/aichatwatch/aicw" class="btn btn-secondary" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle;">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.43 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02.01 2.05.14 3.01.4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        <span>Star on GitHub</span>
+                    </a>
+                </div>
+                <div class="github-stats">
+                    <!-- GitHub Star Button -->
+                    <a class="github-button" href="https://github.com/aichatwatch/aicw" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-show-count="true" aria-label="Star aichatwatch/aicw on GitHub">Star</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- AI Visibility Grading Section - NEW LEAD FEATURE -->
+    <section id="ai-visibility" class="terminal-action-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <div class="container">
+            <div class="section-intro">
+                <h2 style="color: white;">AI Visibility Grading</h2>
+                <p style="color: rgba(255, 255, 255, 0.9);">Discover if AI engines can find and understand your website—get your AI visibility score in seconds</p>
+            </div>
+
+            <div class="terminal-screenshots">
+                <div class="terminal-card" style="background: rgba(255, 255, 255, 0.95);">
+                    <div class="terminal-screenshot">
+                        <img src="./assets/images/screenshots/aicw-ai-visibility-report.png" alt="AI Visibility Report showing technical analysis" loading="lazy" />
+                    </div>
+                    <div class="terminal-content">
+                        <h3>🎯 Detailed AI Visibility Audit</h3>
+                        <p><strong>Find out why AI might be ignoring your website.</strong> Our AI visibility checker analyzes your site's structure, metadata, content architecture, and technical setup to identify barriers preventing AI engines from discovering and citing your content.</p>
+                        <ul style="text-align: left; margin-top: 1rem;">
+                            <li><strong>Technical Analysis:</strong> robots.txt, sitemaps, structured data</li>
+                            <li><strong>Content Assessment:</strong> AI-readability of your pages</li>
+                            <li><strong>Actionable Fixes:</strong> Step-by-step optimization recommendations</li>
+                            <li><strong>Competitive Edge:</strong> Make sure AI recommends YOU, not competitors</li>
+                        </ul>
+                        <div class="install-command-hero" data-command="npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com" style="margin-top: 1.5rem;">
+                            <code style="font-size: 0.9rem;">npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com</code>
+                            <button type="button" class="copy-btn-hero" data-copy-command="npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com" aria-label="Copy AI visibility command">
+                                <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+                                    <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+                                </svg>
+                                <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                <span class="copy-text"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terminal in Action Section -->
+    <section id="terminal" class="terminal-action-section">
+        <div class="container">
+            <div class="section-intro">
+                <h2>See It In Action</h2>
+                <p>Run AICW directly from your terminal and watch it work its magic</p>
+            </div>
+
+            <div class="terminal-screenshots">
+                <div class="terminal-card">
+                    <div class="terminal-screenshot">
+                        <img src="./assets/images/screenshots/aicw-main-menu.png" alt="AICW command line interface in terminal" loading="lazy" />
+                    </div>
+                    <div class="terminal-content">
+                        <h3>💻 Interactive CLI</h3>
+                        <p>Launch AICW with a single command. The intuitive command-line interface guides you through creating projects, selecting AI models, and configuring your monitoring questions.</p>
+                    </div>
+                </div>
+
+                <div class="terminal-card">
+                    <div class="terminal-screenshot">
+                        <img src="./assets/images/screenshots/aicw-running-in-terminal-processing.png" alt="AICW processing and fetching AI responses" loading="lazy" />
+                    </div>
+                    <div class="terminal-content">
+                        <h3>⚡ Extensive Analysis</h3>
+                        <p>AICW queries multiple AI models to get answers to your questions, extracts entities, analyzes mentions, order, trends and generates comprehensive and beautiful interactive report.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section with Screenshots -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-intro">
+                <h2>AI Brand Monitoring & Competitive Intelligence</h2>
+                <p>Track mentions, analyze trends, and understand how different AI models position your brand vs. competitors</p>
+            </div>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <div class="feature-screenshot">
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-top-influencers.png" alt="See top influencers" loading="lazy" />
+                    </div>
+                    <div class="feature-content">
+                        <h3>🤖 See Top Influencers</h3>
+                        <p>See who is mentioned by AI the most. Filter by AI, by trend, mentions, order of appearance, influence.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-screenshot">
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Filter reports by AI model" loading="lazy" />
+                    </div>
+                    <div class="feature-content">
+                        <h3>🤖 Filter by AI Model</h3>
+                        <p>Compare how different AI models respond to your queries. Filter by AI, by trend, mentions, order of appearance, influence.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-screenshot">
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-trend.png" alt="Filter by trending mentions" loading="lazy" />
+                    </div>
+                    <div class="feature-content">
+                        <h3>📈 Track Trends</h3>
+                        <p>Identify rising and falling trends over time. Filter by trend to discover which links, products, organizations and topics are gaining or losing traction across AI models.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-screenshot">
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-view-table.png" alt="View detailed table data" loading="lazy" />
+                    </div>
+                    <div class="feature-content">
+                        <h3>📊 Table View</h3>
+                        <p>Dive deep into the data with table analyze mentions, trends, order of appearance, share of voice and relationships between items. Sort, filter, and export to CSV.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-screenshot">
+                        <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-ai-graph.png" alt="View items as graphs" loading="lazy" />
+                    </div>
+                    <div class="feature-content">
+                        <h3>📊 Graph View</h3>
+                        <p>Dive deep into the data with table analyze mentions, trends, order of appearance, share of voice and relationships between items. Sort, filter, and export to CSV.</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+
+    <section id="demos" class="demo-section">
+        <div class="container">
+            <div class="section-intro">
+                <h2>Sample Reports</h2>
+                <p>See actual AI responses analysis reports generated by AI Chat Watch</p>
+            </div>
+
+            <div class="demo-reports">
+                <a href="/demo/reports/" class="demo-screenshot">
+                    <img src="./assets/images/screenshots/aichatwatch-report-best-cities-for-nomads.png" alt="Best Cities for Nomads Report" />
+                    <div class="demo-screenshot-overlay">
+                        <h3>Best Cities for Nomads</h3>
+                        <p>Travel & lifestyle tracking</p>
+                    </div>
+                </a>
+                <a href="/demo/reports/" class="demo-screenshot">
+                    <img src="./assets/images/screenshots/aichatwatch-report-top-ai-tools.png" alt="Top AI Tools Report" />
+                    <div class="demo-screenshot-overlay">
+                        <h3>Top AI Tools</h3>
+                        <p>Technology & platforms</p>
+                    </div>
+                </a>
+                <a href="/demo/reports/" class="demo-screenshot">
+                    <img src="./assets/images/screenshots/aichatwatch-report-y-combinator.png" alt="Y Combinator Report" />
+                    <div class="demo-screenshot-overlay">
+                        <h3>Y Combinator</h3>
+                        <p>Analyzing specific topic (Y Combinator)</p>
+                    </div>
+                </a>
+                <a href="/demo/reports/" class="demo-screenshot">
+                    <img src="./assets/images/screenshots/aicw-report-screenshot-view-table.png" alt="High Blood Pressure & Hypertension Report" />
+                    <div class="demo-screenshot-overlay">
+                        <h3>High Blood Pressure & Hypertension</h3>
+                        <p>Healthcare & treatment recommendations from AI models</p>
+                    </div>
+                </a>
+                <a href="/demo/reports/" class="demo-screenshot">
+                    <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Best Lawyer for a Startup Report" />
+                    <div class="demo-screenshot-overlay">
+                        <h3>Best Lawyer for a Startup</h3>
+                        <p>Legal services & professionals</p>
+                    </div>
+                </a>
+                <a href="/demo/reports/" class="demo-screenshot">
+                    <img src="./assets/images/screenshots/aicw-report-screenshot-filter-by-ai.png" alt="Best Lawyer for a Startup Report" />
+                    <div class="demo-screenshot-overlay">
+                        <h3>Angel Investors</h3>
+                        <p>Angel Investors Research</p>
+                    </div>
+                </a>
+
+                <a href="/demo/reports/" class="demo-screenshot" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; min-height: 300px;">
+                    <div style="text-align: center; color: white;">
+                        <h3 style="font-size: 2.5rem; font-weight: bold; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">ALL REPORTS</h3>
+                        <p style="font-size: 1.2rem; margin-top: 1rem; opacity: 0.9;">Browse all demo reports →</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section id="install" class="terminal-action-section" style="background: #1a1a2e;">
+        <div class="container">
+            <div class="section-intro">
+                <h2 style="color: white;">Get Started with AICW</h2>
+                <p style="color: rgba(255, 255, 255, 0.8);">Free, open-source, runs on your computer—you control everything</p>
+            </div>
+
+            <div class="terminal-screenshots">
+                <div class="terminal-card" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(139, 92, 246, 0.3);">
+                    <div class="terminal-content">
+                        <h3 style="color: white;">⚡ Quick Start (No Installation)</h3>
+                        <p style="color: rgba(255, 255, 255, 0.8);">Try AICW instantly with npx—no installation required:</p>
+                        <div class="install-command-hero" data-command="npx @aichatwatch/aicw" style="margin-top: 1rem;">
+                            <code>npx @aichatwatch/aicw</code>
+                            <button type="button" class="copy-btn-hero" data-copy-command="npx @aichatwatch/aicw" aria-label="Copy npx command">
+                                <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+                                    <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+                                </svg>
+                                <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="terminal-card" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(139, 92, 246, 0.3); margin-top: 2rem;">
+                    <div class="terminal-content">
+                        <h3 style="color: white;">📦 Install Globally (Recommended for Continuous Monitoring)</h3>
+                        <p style="color: rgba(255, 255, 255, 0.8);">For regular monitoring and easier access, install globally:</p>
+                        <div class="install-command-hero" data-command="npm install -g @aichatwatch/aicw" style="margin-top: 1rem;">
+                            <code>npm install -g @aichatwatch/aicw</code>
+                            <button type="button" class="copy-btn-hero" data-copy-command="npm install -g @aichatwatch/aicw" aria-label="Copy install command">
+                                <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M16 1H4a2 2 0 00-2 2v12h2V3h12V1z"></path>
+                                    <path d="M20 5H8a2 2 0 00-2 2v16h14a2 2 0 002-2V7a2 2 0 00-2-2zm0 16H8V7h12v14z"></path>
+                                </svg>
+                                <svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true" style="display: none;">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+                        <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.9rem; margin-top: 1rem;">
+                            After installation, just run <code style="padding: 2px 8px; background: rgba(139, 92, 246, 0.2); border-radius: 4px;">aicw</code> from anywhere
+                        </p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem; padding: 1.5rem; background: rgba(139, 92, 246, 0.1); border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                    <h4 style="color: white; margin-top: 0;">Requirements</h4>
+                    <ul style="color: rgba(255, 255, 255, 0.8); margin-bottom: 0;">
+                        <li>Node.js 18+ (<a href="https://nodejs.org/" target="_blank" style="color: #a78bfa;">Download</a>)</li>
+                        <li>API key from <a href="https://openrouter.ai/keys" target="_blank" style="color: #a78bfa;">OpenRouter</a> (recommended, free tier available) or <a href="https://platform.openai.com/api-keys" target="_blank" style="color: #a78bfa;">OpenAI</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Workflow Section -->
+    <section class="workflow-section">
+        <div class="container" style="text-align: center;">
+            <h2 style="text-align: center;">How It Works</h2>
+            <div class="workflow-steps">
+                <div class="workflow-step">
+                    <div class="workflow-step-number">1</div>
+                    <h3>Write Questions</h3>
+                    <p>Use templates or create your own</p>
+                    <span class="workflow-arrow">→</span>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-step-number">2</div>
+                    <h3>Query AI Models</h3>
+                    <p>Up to 20 AI models respond (ChatGPT, Claude, Perplexity, Gemini, etc.)</p>
+                    <span class="workflow-arrow">→</span>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-step-number">3</div>
+                    <h3>Analyze Data</h3>
+                    <p>Extract insights, trends, mentions, influence, etc.</p>
+                    <span class="workflow-arrow">→</span>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-step-number">4</div>
+                    <h3>Get Reports</h3>
+                    <p>Visual interactive reports with CSV export</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-intro">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Who needs this tool?</h3>
+                    <p>Marketers mostly, so they can look which competitors are mentioned by AI, in which order, what are the resources and websites mentioned by AI, etc.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How much does it cost?</h3>
+                    <p>The tool is free and open-source. You only need to pay for using AI models via selected provider (like OpenAI, Claude or OpenRouter).<p/>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How secure is it?</h3>
+                    <p>It runs on your computer. AICW sends questions to selected AI models via selected AI model provider - check Terms of Use and Privacy Policy of these providers for more information.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>I want to add a feature or report an issue?</h3>
+                    <p>AICW tool is open-source, check the source code at <a href="https://github.com/aichatwatch/aicw" target="_blank">GitHub</a> and add a feature or report an issue.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cost-sample" class="cost-sample-section">
+        <div class="container">
+            <div class="section-intro">
+                <h2>Sample Calculation of AI Model Costs</h2>
+            </div>
+            <div class="cost-example-box">
+                <p>
+                    Some providers may offer free access to certain AI models (for example, foundation models such as Llama, Qwen). Even when costs apply, the total can be very low – often just a few cents for small research projects.
+                </p>
+                <p>
+                    <strong>Example:</strong> For a project using 5 questions to query 3 major AI models (ChatGPT with search, Claude Sonnet with search, and Perplexity AI Sonar with search), plus OpenAI 4o-mini for enrichment/analysis, the <b>total cost</b> via OpenRouter as the AI provider was about <strong>$0.30</strong> (30 cents).
+                </p>
+                <ul>
+                    <li>AI models used: ChatGPT (with search), Claude Sonnet (with search), Perplexity AI Sonar (with search), OpenAI 4o-mini</li>
+                    <li>Number of questions: 5</li>
+                    <li>Total runs (questions x models): 5 &times; 3 = 15 main queries</li>
+                    <li>+ enrichment and analysis models for deeper insights</li>
+                    <li><b>Provider in example:</b> OpenRouter</li>
+                    <li><b>Estimated total cost:</b> $0.30</li>
+                </ul>
+                <div class="cost-hint">
+                    <strong>Note:</strong> You do <b>not</b> pay anything for using the AI Chat Watch tool itself on your computer. You only pay for queries sent to AI providers, if they are not free.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <strong style="font-size: 1.2rem;">AI Chat Watch</strong><br>
+                    <span style="margin-top: 8px; display: block;">100% Free & Open Source</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/aichatwatch/aicw" target="_blank">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 4px;">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.43 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02.01 2.05.14 3.01.4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="#install">Try It</a>
+                    <a href="https://github.com/aichatwatch/aicw/issues" target="_blank">Issues</a>
+                    <a href="https://www.npmjs.com/package/@aichatwatch/aicw" target="_blank">NPM</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        (function() {
+            const buttons = document.querySelectorAll('[data-copy-command]');
+            if (!buttons.length) {
+                return;
+            }
+
+            function fallbackCopy(text) {
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                textArea.setAttribute('readonly', '');
+                textArea.style.position = 'fixed';
+                textArea.style.top = '-9999px';
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                } catch (_) {
+                    /* no-op */
+                }
+                document.body.removeChild(textArea);
+            }
+
+            buttons.forEach((button) => {
+                button.addEventListener('click', async () => {
+                    const command = button.getAttribute('data-copy-command');
+                    const copyText = button.querySelector('.copy-text');
+                    const copyIcon = button.querySelector('.copy-icon');
+                    const checkIcon = button.querySelector('.check-icon');
+                    const label = button.querySelector('.copy-label');
+                    let copied = false;
+
+                    if (navigator.clipboard && navigator.clipboard.writeText) {
+                        try {
+                            await navigator.clipboard.writeText(command);
+                            copied = true;
+                        } catch (_) {
+                            copied = false;
+                        }
+                    }
+
+                    if (!copied) {
+                        try {
+                            fallbackCopy(command);
+                            copied = true;
+                        } catch (_) {
+                            copied = false;
+                        }
+                    }
+
+                    if (copied) {
+                        button.classList.add('copied');
+                        if (copyText) {
+                            copyText.textContent = '!';
+                        }
+                        if (label) {
+                            label.textContent = '!';
+                        }
+                        if (copyIcon && checkIcon) {
+                            copyIcon.style.display = 'none';
+                            checkIcon.style.display = 'block';
+                        }
+                        setTimeout(() => {
+                            button.classList.remove('copied');
+                            if (copyText) {
+                                copyText.textContent = 'Copy';
+                            }
+                            if (label) {
+                                label.textContent = 'Copy';
+                            }
+                            if (copyIcon && checkIcon) {
+                                copyIcon.style.display = 'block';
+                                checkIcon.style.display = 'none';
+                            }
+                        }, 2000);
+                    } else if (copyText || label) {
+                        if (copyText) copyText.textContent = 'Try again';
+                        if (label) label.textContent = 'Try again';
+                        setTimeout(() => {
+                            if (copyText) copyText.textContent = 'Copy';
+                            if (label) label.textContent = 'Copy';
+                        }, 2000);
+                    }
+                });
+            });
+        })();
+    </script>
+
+
+<!--AICW-->
+<script
+  src="https://aichatwatch.com/assets/js/aicw-view.js"
+  data-key="aa9237f1-44d8-4543-b320-663e871262a8"
+  defer
+></script>
+
+</body>
+</html>
