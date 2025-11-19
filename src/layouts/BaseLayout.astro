@@ -13,6 +13,11 @@ export interface Props {
   modifiedTime?: Date;
   author?: string;
   tags?: string[];
+  // Ayodesk-inspired social metadata overrides
+  og_title?: string;
+  og_description?: string;
+  twitter_title?: string;
+  twitter_description?: string;
 }
 
 const {
@@ -25,7 +30,11 @@ const {
   publishedTime,
   modifiedTime,
   author,
-  tags
+  tags,
+  og_title,
+  og_description,
+  twitter_title,
+  twitter_description
 } = Astro.props;
 ---
 
@@ -43,6 +52,10 @@ const {
       modifiedTime={modifiedTime}
       author={author}
       tags={tags}
+      og_title={og_title}
+      og_description={og_description}
+      twitter_title={twitter_title}
+      twitter_description={twitter_description}
     />
     <slot name="head" />
   </head>

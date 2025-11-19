@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
 import type { CollectionEntry } from 'astro:content';
 import { getEntry } from 'astro:content';
 
@@ -18,7 +19,13 @@ const {
   heroImage,
   heroImageAlt,
   categories,
-  tags
+  tags,
+  // Ayodesk-inspired social metadata
+  og_title,
+  og_description,
+  twitter_title,
+  twitter_description,
+  breadcrumbs
 } = post.data;
 
 // Get author data from reference
@@ -50,29 +57,13 @@ const formattedUpdatedDate = updatedDate
   modifiedTime={updatedDate}
   author={author.data.name}
   tags={tags}
+  og_title={og_title}
+  og_description={og_description}
+  twitter_title={twitter_title}
+  twitter_description={twitter_description}
 >
   <div class="min-h-screen bg-bg-secondary">
-    <!-- Header/Navigation -->
-    <nav class="bg-bg-primary border-b border-border">
-      <div class="container mx-auto px-6 py-4">
-        <div class="flex items-center justify-between">
-          <a href="/" class="text-2xl font-bold text-gradient-primary font-heading">
-            AI Chat Watch
-          </a>
-          <div class="flex gap-6">
-            <a href="/blog" class="text-text-secondary hover:text-text-primary transition-colors">
-              Blog
-            </a>
-            <a href="/#features" class="text-text-secondary hover:text-text-primary transition-colors">
-              Features
-            </a>
-            <a href="/#installation" class="text-text-secondary hover:text-text-primary transition-colors">
-              Install
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <Navigation />
 
     <!-- Blog Post Content -->
     <article class="container mx-auto px-6 py-12 max-w-4xl">

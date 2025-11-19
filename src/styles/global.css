@@ -64,11 +64,7 @@
 }
 
 /* Base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Note: Tailwind's preflight already handles box-sizing and resets */
 
 html {
   scroll-behavior: smooth;
