@@ -35,6 +35,11 @@ const blog = defineCollection({
     // Navigation (ayodesk-inspired)
     breadcrumbs: z.string().optional(),
 
+    // SEO metadata (ayodesk-inspired)
+    keywords: z.string().optional(),      // Comma-separated keywords for meta tag and schema
+    things: z.string().optional(),        // Entity/topic linking for enhanced schema
+    robots: z.string().optional(),        // robots directive override (default: index, follow)
+
     // Content metadata
     author: reference('authors'),
     heroImage: z.string().optional(),

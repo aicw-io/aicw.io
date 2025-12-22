@@ -1,39 +1,54 @@
 ---
+/**
+ * Paginated blog listing pages (pages 2+)
+ * Page 1 is handled by blog/index.astro
+ */
 import { getCollection, getEntry } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Navigation from '../../components/Navigation.astro';
-import Pagination from '../../components/Pagination.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Navigation from '../../../components/Navigation.astro';
+import Pagination from '../../../components/Pagination.astro';
 
-// Filter out drafts and future posts (scheduled posts)
-const posts = await getCollection('blog', ({ data }) => {
-  if (data.draft) return false;
-  return data.pubDate <= new Date();
-});
-const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => {
+    if (data.draft) return false;
+    return data.pubDate <= new Date();
+  });
+  const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-// Pagination settings
-const postsPerPage = 7;
-const totalPages = Math.ceil(sortedPosts.length / postsPerPage);
-const currentPage = 1;
-const paginatedPosts = sortedPosts.slice(0, postsPerPage);
+  const postsPerPage = 7;
+  const totalPages = Math.ceil(sortedPosts.length / postsPerPage);
 
-// Resolve author references for paginated posts
+  // Generate paths for pages 2 onwards (page 1 is handled by blog/index.astro)
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
+    props: {
+      posts: sortedPosts.slice((i + 1) * postsPerPage, (i + 2) * postsPerPage),
+      currentPage: i + 2,
+      totalPages,
+    },
+  }));
+}
+
+const { posts, currentPage, totalPages } = Astro.props;
+
+// Resolve author references for posts
 const postsWithAuthors = await Promise.all(
-  paginatedPosts.map(async (post) => {
+  posts.map(async (post) => {
     const author = await getEntry(post.data.author);
-    return {
-      ...post,
-      authorData: author.data
-    };
+    return { ...post, authorData: author.data };
   })
 );
 
-// Get unique categories from ALL posts (not just current page)
-const allCategories = [...new Set(posts.flatMap(post => post.data.categories))];
+// Get all posts for category filter
+const allPosts = await getCollection('blog', ({ data }) => {
+  if (data.draft) return false;
+  return data.pubDate <= new Date();
+});
+const allCategories = [...new Set(allPosts.flatMap(post => post.data.categories))];
 ---
 
 <BaseLayout
-  title="Blog | AI Chat Watch"
+  title={`Blog - Page ${currentPage} | AI Chat Watch`}
   description="Learn about AI visibility strategies, competitive intelligence, and how to make your brand more discoverable to AI chatbots."
 >
   <div class="min-h-screen bg-bg-secondary">
@@ -77,9 +92,9 @@ const allCategories = [...new Set(posts.flatMap(post => post.data.categories))];
       {postsWithAuthors.length === 0 ? (
         <div class="text-center py-20">
           <div class="text-6xl mb-4">📝</div>
-          <h2 class="text-2xl font-bold mb-3">No blog posts yet</h2>
+          <h2 class="text-2xl font-bold mb-3">No blog posts on this page</h2>
           <p class="text-text-secondary">
-            Check back soon for articles about AI visibility and competitive intelligence!
+            <a href="/blog" class="text-primary-700 hover:text-primary-800">Go back to the first page</a>
           </p>
         </div>
       ) : (

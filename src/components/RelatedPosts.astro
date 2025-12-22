@@ -1,0 +1,106 @@
+---
+/**
+ * RelatedPosts - Shows 3 related posts based on matching tags/categories
+ * Pattern inspired by ayodesk.com implementation
+ * Falls back to recent posts if no related posts found
+ */
+import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentPost: CollectionEntry<'blog'>;
+}
+
+const { currentPost } = Astro.props;
+
+// Get all published posts
+const allPosts = await getCollection('blog', ({ data }) => {
+  if (data.draft) return false;
+  return data.pubDate <= new Date();
+});
+
+// Get current post's tags and categories
+const currentTags = currentPost.data.tags || [];
+const currentCategories = currentPost.data.categories || [];
+
+// Find related posts based on matching tags/categories
+const relatedPosts = allPosts
+  .filter(post => post.slug !== currentPost.slug)
+  .map(post => {
+    const postTags = post.data.tags || [];
+    const postCategories = post.data.categories || [];
+
+    // Calculate relevance score
+    // Tags weighted 2x because they're more specific
+    const tagMatches = currentTags.filter(tag => postTags.includes(tag)).length;
+    const categoryMatches = currentCategories.filter(cat => postCategories.includes(cat)).length;
+    const score = tagMatches * 2 + categoryMatches;
+
+    return { post, score };
+  })
+  .filter(item => item.score > 0)
+  .sort((a, b) => b.score - a.score)
+  .slice(0, 3)
+  .map(item => item.post);
+
+// Fallback to recent posts if no related posts found
+const displayPosts = relatedPosts.length > 0
+  ? relatedPosts
+  : allPosts
+      .filter(post => post.slug !== currentPost.slug)
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+      .slice(0, 3);
+---
+
+{displayPosts.length > 0 && (
+  <div class="mt-12 border-t border-border pt-8">
+    <h2 class="text-2xl font-bold text-text-primary mb-6 font-heading">Continue Reading</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      {displayPosts.map((post) => (
+        <a href={`/blog/${post.slug}/`} class="block group">
+          <article class="bg-bg-primary rounded-lg p-6 border border-border transition-all duration-200 hover:border-primary-500 hover:shadow-md h-full flex flex-col">
+            {post.data.heroImage && (
+              <div class="aspect-video mb-4 overflow-hidden rounded-lg">
+                <img
+                  src={post.data.heroImage}
+                  alt={post.data.heroImageAlt || post.data.title}
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
+            )}
+            <h3 class="font-semibold text-lg text-text-primary group-hover:text-primary-700 transition-colors line-clamp-2">
+              {post.data.title}
+            </h3>
+            <p class="text-text-secondary text-sm mt-2 flex-grow line-clamp-3">
+              {post.data.description.substring(0, 120)}...
+            </p>
+            <div class="mt-4 text-xs text-text-light">
+              {new Intl.DateTimeFormat('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+              }).format(post.data.pubDate)}
+            </div>
+          </article>
+        </a>
+      ))}
+    </div>
+  </div>
+)}
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

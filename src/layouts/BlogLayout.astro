@@ -1,6 +1,11 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Navigation from '../components/Navigation.astro';
+import BlogPostSchema from '../components/BlogPostSchema.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import SocialShareButtons from '../components/SocialShareButtons.astro';
+import RelatedPosts from '../components/RelatedPosts.astro';
 import type { CollectionEntry } from 'astro:content';
 import { getEntry } from 'astro:content';
 
@@ -10,6 +15,7 @@ export interface Props {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+const rawContent = post.body || '';
 const {
   title,
   description,
@@ -25,8 +31,16 @@ const {
   og_description,
   twitter_title,
   twitter_description,
-  breadcrumbs
+  breadcrumbs,
+  // SEO metadata (ayodesk-inspired)
+  keywords,
+  things,
+  robots
 } = post.data;
+
+// Calculate word count and reading time
+const wordCount = rawContent.split(/\s+/).filter(word => word.length > 0).length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
 
 // Get author data from reference
 const author = await getEntry(authorRef);
@@ -61,6 +75,8 @@ const formattedUpdatedDate = updatedDate
   og_description={og_description}
   twitter_title={twitter_title}
   twitter_description={twitter_description}
+  keywords={keywords}
+  robots={robots}
 >
   <div class="min-h-screen bg-bg-secondary">
     <Navigation />
@@ -103,7 +119,22 @@ const formattedUpdatedDate = updatedDate
         </p>
 
         <!-- Post Meta -->
-        <div class="flex items-center gap-4 text-sm text-text-light">
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-light">
+          <!-- Reading time -->
+          <div class="flex items-center">
+            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span>{readingTime} min read</span>
+          </div>
+          <!-- Word count -->
+          <div class="flex items-center">
+            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+            </svg>
+            <span>{wordCount.toLocaleString()} words</span>
+          </div>
+          <span class="hidden sm:inline">·</span>
           <time datetime={pubDate.toISOString()}>
             {formattedDate}
           </time>
@@ -130,6 +161,12 @@ const formattedUpdatedDate = updatedDate
         )}
       </header>
 
+      <!-- Social Share Buttons (Top) -->
+      <SocialShareButtons title={title} url={`/blog/${post.slug}/`} />
+
+      <!-- Table of Contents -->
+      <TableOfContents />
+
       <!-- Main Content with Tailwind Typography -->
       <div class="prose prose-lg max-w-none
         prose-headings:font-heading prose-headings:text-text-primary
@@ -144,6 +181,12 @@ const formattedUpdatedDate = updatedDate
       >
         <Content />
       </div>
+
+      <!-- Social Share Buttons (Bottom) -->
+      <SocialShareButtons title={title} url={`/blog/${post.slug}/`} />
+
+      <!-- Related Posts -->
+      <RelatedPosts currentPost={post} />
 
       <!-- Author Bio -->
       <div class="mb-8 p-8 bg-bg-primary rounded-2xl border border-border">
@@ -187,31 +230,29 @@ const formattedUpdatedDate = updatedDate
     </article>
   </div>
 
-  <!-- JSON-LD for Blog Post -->
-  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": title,
-    "description": description,
-    "image": heroImage ? `https://www.aichatwatch.com${heroImage}` : undefined,
-    "datePublished": pubDate.toISOString(),
-    "dateModified": (updatedDate || pubDate).toISOString(),
-    "author": {
-      "@type": "Person",
-      "name": author.data.name,
-      "image": `https://www.aichatwatch.com${author.data.avatar}`,
-      "url": `https://www.aichatwatch.com/author/${author.slug}/`,
-      "jobTitle": author.data.title
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "AI Chat Watch",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.aichatwatch.com/ai-chat-watch-manifest-512x512.png"
-      }
-    },
-    "keywords": tags?.join(', '),
-    "articleSection": categories?.[0]
-  })} />
+  <!-- Enhanced JSON-LD Schemas -->
+  <BlogPostSchema
+    slot="head"
+    title={title}
+    description={description}
+    url={`/blog/${post.slug}/`}
+    datePublished={pubDate}
+    dateModified={updatedDate}
+    keywords={keywords}
+    things={things}
+    content={rawContent}
+    heroImage={heroImage}
+    authorName={author.data.name}
+    authorAvatar={author.data.avatar}
+    authorUrl={`https://www.aichatwatch.com/author/${author.slug}/`}
+    authorTitle={author.data.title}
+    categories={categories}
+    tags={tags}
+  />
+  <BreadcrumbSchema
+    slot="head"
+    title={title}
+    url={`/blog/${post.slug}/`}
+    breadcrumbs={breadcrumbs}
+  />
 </BaseLayout>

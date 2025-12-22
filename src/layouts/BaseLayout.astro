@@ -19,6 +19,9 @@ export interface Props {
   og_description?: string;
   twitter_title?: string;
   twitter_description?: string;
+  // SEO metadata (ayodesk-inspired)
+  keywords?: string;
+  robots?: string;
 }
 
 const {
@@ -35,7 +38,9 @@ const {
   og_title,
   og_description,
   twitter_title,
-  twitter_description
+  twitter_description,
+  keywords,
+  robots
 } = Astro.props;
 ---
 
@@ -57,6 +62,8 @@ const {
       og_description={og_description}
       twitter_title={twitter_title}
       twitter_description={twitter_description}
+      keywords={keywords}
+      robots={robots}
     />
     <slot name="head" />
   </head>

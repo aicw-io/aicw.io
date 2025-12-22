@@ -1,0 +1,122 @@
+---
+/**
+ * BlogPostSchema - Enhanced JSON-LD schema for blog posts
+ * Pattern inspired by ayodesk.com implementation
+ * Includes: articleBody, about with CreativeWork, mainEntityOfPage, keywords array
+ */
+
+interface Props {
+  title: string;
+  description: string;
+  url: string;
+  datePublished: Date;
+  dateModified?: Date;
+  keywords?: string;
+  things?: string;
+  content?: string;
+  heroImage?: string;
+  authorName: string;
+  authorAvatar: string;
+  authorUrl: string;
+  authorTitle: string;
+  categories?: string[];
+  tags?: string[];
+}
+
+const {
+  title,
+  description,
+  url,
+  datePublished,
+  dateModified,
+  keywords,
+  things,
+  content,
+  heroImage,
+  authorName,
+  authorAvatar,
+  authorUrl,
+  authorTitle,
+  categories = [],
+  tags = [],
+} = Astro.props;
+
+const siteUrl = 'https://www.aichatwatch.com';
+const fullUrl = `${siteUrl}${url}`;
+
+// Format dates to ISO string
+const publishedISO = datePublished.toISOString();
+const modifiedISO = dateModified ? dateModified.toISOString() : publishedISO;
+
+// Parse keywords into array (from comma-separated string)
+const keywordsArray = keywords
+  ? keywords.split(',').map(k => k.trim()).filter(Boolean)
+  : tags; // Fall back to tags if no keywords
+
+// Parse things into topic (first item)
+const topic = things
+  ? things.split(',')[0].trim()
+  : title;
+
+// Clean content for article body (strip markdown/HTML, limit to 200 chars)
+const cleanContent = content
+  ? content
+      .replace(/#+\s/g, '')                          // Remove markdown headers
+      .replace(/\*\*|__/g, '')                       // Remove bold
+      .replace(/\*|_/g, '')                          // Remove italic
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')       // Remove links, keep text
+      .replace(/```[\s\S]*?```/g, '')                // Remove code blocks
+      .replace(/`[^`]+`/g, '')                       // Remove inline code
+      .replace(/<[^>]*>/g, '')                       // Strip HTML tags
+      .replace(/\s+/g, ' ')                          // Normalize whitespace
+      .trim()
+      .substring(0, 200)
+  : description;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "description": description,
+  "image": heroImage ? `${siteUrl}${heroImage}` : undefined,
+  "author": {
+    "@type": "Person",
+    "name": authorName,
+    "image": `${siteUrl}${authorAvatar}`,
+    "url": authorUrl,
+    "jobTitle": authorTitle
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI Chat Watch",
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}/ai-chat-watch-manifest-512x512.png`
+    }
+  },
+  "datePublished": publishedISO,
+  "dateModified": modifiedISO,
+  "url": fullUrl,
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": fullUrl
+  },
+  "articleBody": cleanContent,
+  "articleSection": categories[0] || 'general',
+  "keywords": keywordsArray.length > 0 ? keywordsArray : undefined,
+  "about": [
+    {
+      "@type": "CreativeWork",
+      "name": topic,
+      "keywords": keywordsArray,
+      "citation": description
+    }
+  ]
+};
+
+// Remove undefined values for cleaner output
+const cleanSchema = JSON.parse(JSON.stringify(schema));
+---
+
+<!-- Blog Post Schema (Enhanced JSON-LD) -->
+<script type="application/ld+json" set:html={JSON.stringify(cleanSchema, null, 2)} />

@@ -15,6 +15,9 @@ export interface Props {
   og_description?: string;
   twitter_title?: string;
   twitter_description?: string;
+  // SEO metadata (ayodesk-inspired)
+  keywords?: string;
+  robots?: string;
 }
 
 const {
@@ -32,6 +35,8 @@ const {
   og_description,
   twitter_title,
   twitter_description,
+  keywords,
+  robots = 'index, follow',
 } = Astro.props;
 
 // Use custom social metadata or fall back to defaults
@@ -50,6 +55,8 @@ const fullImage = new URL(image, siteUrl).href;
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content={description}>
+{keywords && <meta name="keywords" content={keywords}>}
+<meta name="robots" content={robots}>
 <meta name="author" content={author || 'AI Chat Watch'}>
 <link rel="canonical" href={fullCanonical}>
 
