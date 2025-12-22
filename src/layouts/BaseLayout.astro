@@ -1,5 +1,6 @@
 ---
 import SEO from '../components/SEO.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 
 export interface Props {
@@ -61,6 +62,8 @@ const {
   </head>
   <body>
     <slot />
+
+    <Footer />
 
     <!-- GitHub buttons script -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
