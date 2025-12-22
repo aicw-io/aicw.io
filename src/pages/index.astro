@@ -2,6 +2,16 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NetworkViz from '../components/NetworkViz.astro';
 import Navigation from '../components/Navigation.astro';
+import { Image } from 'astro:assets';
+
+// Cloud screenshots for features section
+import trafficSourceImg from '../../assets/images/screenshots/aicw-cloud-dashboard-traffic-source-comparison.png';
+import aiVisibilityImg from '../../assets/images/screenshots/aicw-cloud-ai-visibility-main.png';
+import botsImg from '../../assets/images/screenshots/aicw-cloud-dashboard-bots.png';
+
+// Screenshots for How It Works section
+import dashboardImg from '../../assets/images/screenshots/aicw-cloud-dashboard.png';
+import topPagesImg from '../../assets/images/screenshots/aicw-cloud-dashboard-top-pages.png';
 ---
 
 <BaseLayout>
@@ -20,12 +30,9 @@ import Navigation from '../components/Navigation.astro';
 
     <div class="container mx-auto px-6 relative z-10">
       <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white font-heading tracking-tight">
+        <h1 class="text-5xl md:text-7xl font-bold mb-8 text-white font-heading tracking-tight">
           See Which AI Chatbots Send You Traffic
         </h1>
-        <p class="text-xl md:text-2xl text-white/90 mb-8">
-          Privacy-focused analytics to track visitors from ChatGPT, Claude, Perplexity, Gemini, and other AI assistants.
-        </p>
 
         <!-- Trust Badges -->
         <div class="flex flex-wrap gap-4 justify-center mb-8">
@@ -35,67 +42,13 @@ import Navigation from '../components/Navigation.astro';
           <span class="px-4 py-2 bg-white/10 backdrop-blur border border-white/20 rounded-full text-white/90 text-sm">
             No Credit Card Required
           </span>
-          <span class="px-4 py-2 bg-white/10 backdrop-blur border border-white/20 rounded-full text-white/90 text-sm">
-            Then $19/month
-          </span>
         </div>
 
-        <!-- CTA Buttons -->
-        <div class="flex flex-wrap gap-4 justify-center mb-12">
+        <!-- CTA Button -->
+        <div class="flex justify-center">
           <a href="https://app.aichatwatch.com" class="px-8 py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-lg">
             Start Free 90-Day Trial
           </a>
-          <a href="#features" class="px-8 py-4 bg-white/10 backdrop-blur border border-white/20 rounded-xl text-white font-semibold hover:bg-white/20 transition-all text-lg">
-            See How It Works
-          </a>
-        </div>
-
-        <!-- AI Sources -->
-        <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6">
-          <p class="text-white/70 text-sm mb-4">Track traffic from these AI sources and more</p>
-          <div class="flex flex-wrap gap-6 justify-center items-center">
-            <div class="flex items-center gap-2 text-white/90">
-              <div class="w-8 h-8 bg-[#10a37f] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729z"/>
-                </svg>
-              </div>
-              <span class="font-medium">ChatGPT</span>
-            </div>
-            <div class="flex items-center gap-2 text-white/90">
-              <div class="w-8 h-8 bg-[#d97706] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                </svg>
-              </div>
-              <span class="font-medium">Claude</span>
-            </div>
-            <div class="flex items-center gap-2 text-white/90">
-              <div class="w-8 h-8 bg-[#20808d] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <circle cx="12" cy="12" r="10"/>
-                </svg>
-              </div>
-              <span class="font-medium">Perplexity</span>
-            </div>
-            <div class="flex items-center gap-2 text-white/90">
-              <div class="w-8 h-8 bg-[#4285f4] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
-                </svg>
-              </div>
-              <span class="font-medium">Gemini</span>
-            </div>
-            <div class="flex items-center gap-2 text-white/90">
-              <div class="w-8 h-8 bg-[#1d9bf0] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </div>
-              <span class="font-medium">Grok</span>
-            </div>
-            <span class="text-white/50">+ more</span>
-          </div>
         </div>
       </div>
     </div>
@@ -121,9 +74,18 @@ import Navigation from '../components/Navigation.astro';
             </svg>
           </div>
           <h3 class="text-xl font-bold mb-3">Track AI Referrals</h3>
-          <p class="text-text-secondary">
+          <p class="text-text-secondary mb-4">
             See visitors from ChatGPT, Claude, Perplexity, Gemini, and Grok. Know which AI sources drive the most traffic to your site.
           </p>
+          <div class="rounded-lg overflow-hidden border border-gray-100 shadow-sm">
+            <Image
+              src={trafficSourceImg}
+              alt="Traffic sources showing ChatGPT, Claude, Perplexity AI referrals"
+              width={600}
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
         </div>
 
         <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
@@ -133,9 +95,15 @@ import Navigation from '../components/Navigation.astro';
             </svg>
           </div>
           <h3 class="text-xl font-bold mb-3">Privacy-First by Design</h3>
-          <p class="text-text-secondary">
+          <p class="text-text-secondary mb-3">
             No cookies. No IP storage. GDPR compliant. We anonymize all data and never track users across sites.
           </p>
+          <a href="/security" class="text-sm text-green-600 hover:text-green-700 font-medium inline-flex items-center gap-1">
+            Learn how we protect privacy
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
         </div>
 
         <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
@@ -145,9 +113,18 @@ import Navigation from '../components/Navigation.astro';
             </svg>
           </div>
           <h3 class="text-xl font-bold mb-3">AI Visibility Audit</h3>
-          <p class="text-text-secondary">
+          <p class="text-text-secondary mb-4">
             Grade how visible your website is to AI crawlers. Get actionable recommendations to improve your AI discoverability.
           </p>
+          <div class="rounded-lg overflow-hidden border border-gray-100 shadow-sm">
+            <Image
+              src={aiVisibilityImg}
+              alt="AI Visibility Score showing 94% score and accessibility to 12 AI services"
+              width={600}
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
         </div>
 
         <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
@@ -169,9 +146,18 @@ import Navigation from '../components/Navigation.astro';
             </svg>
           </div>
           <h3 class="text-xl font-bold mb-3">Detect AI Crawlers</h3>
-          <p class="text-text-secondary">
+          <p class="text-text-secondary mb-4">
             Identify which AI bots are visiting and indexing your site. Understand how AI engines discover your content.
           </p>
+          <div class="rounded-lg overflow-hidden border border-gray-100 shadow-sm">
+            <Image
+              src={botsImg}
+              alt="Bot and Crawler Activity showing visits from various AI bots"
+              width={600}
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
         </div>
 
         <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
@@ -191,55 +177,50 @@ import Navigation from '../components/Navigation.astro';
 
   <!-- How It Works Section -->
   <section id="how-it-works" class="py-24 bg-white">
-    <div class="container mx-auto px-6 max-w-4xl">
+    <div class="container mx-auto px-6">
       <div class="text-center mb-12">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4">Get Started in 3 Steps</h2>
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">See Your Analytics in Action</h2>
         <p class="text-xl text-text-secondary">
-          Start tracking your AI traffic in under a minute.
+          Real insights into your AI-driven traffic.
         </p>
       </div>
 
-      <div class="space-y-8">
-        <div class="bg-bg-secondary rounded-2xl p-8 flex gap-6 items-start">
-          <div class="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-xl shrink-0">1</div>
-          <div>
-            <h3 class="text-2xl font-bold mb-2">Create Your Free Account</h3>
-            <p class="text-text-secondary">
-              Sign up in seconds. No credit card required. Get 90 days free to explore all features.
-            </p>
+      <!-- Screenshot Gallery -->
+      <div class="grid md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
+        <!-- Main Analytics Screenshot -->
+        <div class="bg-bg-secondary rounded-2xl p-4 shadow-lg">
+          <div class="rounded-lg overflow-hidden">
+            <Image
+              src={dashboardImg}
+              alt="Main Analytics Dashboard showing traffic trends and visitor breakdown"
+              width={800}
+              class="w-full h-auto"
+              loading="lazy"
+            />
           </div>
+          <p class="text-center mt-4 font-medium">Main Analytics Dashboard</p>
         </div>
 
-        <div class="bg-bg-secondary rounded-2xl p-8 flex gap-6 items-start">
-          <div class="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-xl shrink-0">2</div>
-          <div class="flex-1">
-            <h3 class="text-2xl font-bold mb-2">Add the Tracking Script</h3>
-            <p class="text-text-secondary mb-4">
-              Copy and paste one line of code into your website's HTML.
-            </p>
-            <div class="bg-dark-900 rounded-lg p-4 flex items-center gap-3">
-              <code class="flex-1 text-left text-white/90 font-mono text-sm overflow-x-auto">
-                &lt;script src="https://app.aichatwatch.com/t.js" data-site="YOUR-ID"&gt;&lt;/script&gt;
-              </code>
-              <button class="copy-btn px-4 py-2 bg-primary-600 hover:bg-primary-700 rounded-lg text-white transition-colors shrink-0">
-                Copy
-              </button>
-            </div>
+        <!-- Top Pages Screenshot -->
+        <div class="bg-bg-secondary rounded-2xl p-4 shadow-lg">
+          <div class="rounded-lg overflow-hidden">
+            <Image
+              src={topPagesImg}
+              alt="Top Pages showing AI referral percentages by page"
+              width={800}
+              class="w-full h-auto"
+              loading="lazy"
+            />
           </div>
-        </div>
-
-        <div class="bg-bg-secondary rounded-2xl p-8 flex gap-6 items-start">
-          <div class="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-xl shrink-0">3</div>
-          <div>
-            <h3 class="text-2xl font-bold mb-2">See Your AI Traffic</h3>
-            <p class="text-text-secondary">
-              Watch your dashboard populate with real-time data. See which AI chatbots are sending you visitors.
-            </p>
-          </div>
+          <p class="text-center mt-4 font-medium">Top Pages with AI Traffic</p>
         </div>
       </div>
 
-      <div class="text-center mt-12">
+      <!-- Live Demo CTA -->
+      <div class="text-center flex flex-wrap gap-4 justify-center">
+        <a href="https://app.aichatwatch.com/public/aichatwatch.com" class="inline-block px-8 py-4 bg-white border-2 border-primary-500 rounded-xl text-primary-600 font-semibold hover:bg-primary-50 transition-all text-lg">
+          View Live Demo
+        </a>
         <a href="https://app.aichatwatch.com" class="inline-block px-8 py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-lg">
           Start Free 90-Day Trial
         </a>
@@ -348,6 +329,7 @@ import Navigation from '../components/Navigation.astro';
           <ul class="space-y-2">
             <li><a href="/#features" class="text-white/70 hover:text-white transition-colors">Features</a></li>
             <li><a href="/#pricing" class="text-white/70 hover:text-white transition-colors">Pricing</a></li>
+            <li><a href="/security" class="text-white/70 hover:text-white transition-colors">Security & Privacy</a></li>
             <li><a href="/blog" class="text-white/70 hover:text-white transition-colors">Blog</a></li>
             <li><a href="https://app.aichatwatch.com" class="text-white/70 hover:text-white transition-colors">Login</a></li>
           </ul>
@@ -368,20 +350,4 @@ import Navigation from '../components/Navigation.astro';
 
   <!-- Analytics Script -->
   <script is:inline src="/assets/js/aicw-view.js"></script>
-
-  <!-- Copy Button Script -->
-  <script>
-    document.querySelectorAll('.copy-btn').forEach(btn => {
-      btn.addEventListener('click', async () => {
-        const code = btn.previousElementSibling?.textContent || '';
-        try {
-          await navigator.clipboard.writeText(code.trim());
-          btn.textContent = 'Copied!';
-          setTimeout(() => btn.textContent = 'Copy', 2000);
-        } catch (err) {
-          console.error('Failed to copy:', err);
-        }
-      });
-    });
-  </script>
 </BaseLayout>
