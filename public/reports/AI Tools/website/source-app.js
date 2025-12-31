@@ -167,7 +167,7 @@ window.sourceApp = new Vue({
                 const url = link.includes('://') ? link : `https://${link}`;
                 return new URL(url).hostname.replace('www.', '');
             } catch {
-                return link.replace(/^www\./, '').split('/')[0];
+                return link.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0];
             }
         },
 

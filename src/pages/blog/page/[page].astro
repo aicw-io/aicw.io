@@ -11,9 +11,9 @@ import Pagination from '../../../components/Pagination.astro';
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => {
     if (data.draft) return false;
-    return data.pubDate <= new Date();
+    return data.date <= new Date();
   });
-  const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
   const postsPerPage = 7;
   const totalPages = Math.ceil(sortedPosts.length / postsPerPage);
@@ -42,7 +42,7 @@ const postsWithAuthors = await Promise.all(
 // Get all posts for category filter
 const allPosts = await getCollection('blog', ({ data }) => {
   if (data.draft) return false;
-  return data.pubDate <= new Date();
+  return data.date <= new Date();
 });
 const allCategories = [...new Set(allPosts.flatMap(post => post.data.categories))];
 ---
@@ -139,12 +139,12 @@ const allCategories = [...new Set(allPosts.flatMap(post => post.data.categories)
 
                 {/* Meta */}
                 <div class="flex items-center justify-between text-sm text-text-light">
-                  <time datetime={post.data.pubDate.toISOString()}>
+                  <time datetime={post.data.date.toISOString()}>
                     {new Intl.DateTimeFormat('en-US', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric'
-                    }).format(post.data.pubDate)}
+                    }).format(post.data.date)}
                   </time>
                   <span>{post.authorData.name}</span>
                 </div>

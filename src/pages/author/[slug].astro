@@ -22,7 +22,7 @@ const authorPosts = await Promise.all(
     return postAuthor.id === author.id ? post : null;
   })
 ).then(posts => posts.filter(p => p !== null));
-const sortedPosts = authorPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sortedPosts = authorPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <BaseLayout
@@ -208,12 +208,12 @@ const sortedPosts = authorPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data
 
                       {/* Meta */}
                       <div class="flex items-center justify-between text-sm text-text-light">
-                        <time datetime={post.data.pubDate.toISOString()}>
+                        <time datetime={post.data.date.toISOString()}>
                           {new Intl.DateTimeFormat('en-US', {
                             year: 'numeric',
                             month: 'long',
                             day: 'numeric'
-                          }).format(post.data.pubDate)}
+                          }).format(post.data.date)}
                         </time>
                         <a
                           href={`/blog/${post.slug}/`}

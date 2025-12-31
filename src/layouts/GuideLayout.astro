@@ -1,0 +1,205 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import SocialShareButtons from '../components/SocialShareButtons.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import type { CollectionEntry } from 'astro:content';
+
+export interface Props {
+  guide: CollectionEntry<'ai-search-engine'> | CollectionEntry<'ai-crawler-bot'> | CollectionEntry<'ai-chat-bot'>;
+  collection: 'ai-search-engine' | 'ai-crawler-bot' | 'ai-chat-bot';
+}
+
+const { guide, collection } = Astro.props;
+const { Content } = await guide.render();
+const rawContent = guide.body || '';
+const {
+  title,
+  description,
+  date,
+  date_updated_at,
+  og_title,
+  og_description,
+  twitter_title,
+  twitter_description,
+  breadcrumbs,
+  keywords,
+  things,
+  heroImage,
+} = guide.data;
+
+// Calculate word count and reading time
+const wordCount = rawContent.split(/\s+/).filter(word => word.length > 0).length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+
+const formattedDate = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}).format(date);
+
+const formattedUpdatedDate = date_updated_at
+  ? new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    }).format(date_updated_at)
+  : null;
+
+// Collection display names
+const collectionNames: Record<string, string> = {
+  'ai-search-engine': 'AI Search Engines',
+  'ai-crawler-bot': 'AI Crawler Bots',
+  'ai-chat-bot': 'AI Chat Bots',
+};
+const collectionName = collectionNames[collection] || collection;
+---
+
+<BaseLayout
+  title={`${title} | AI Chat Watch`}
+  description={description}
+  canonical={`/${collection}/${guide.slug}/`}
+  image={heroImage}
+  imageAlt={title}
+  type="article"
+  publishedTime={date}
+  modifiedTime={date_updated_at}
+  og_title={og_title}
+  og_description={og_description}
+  twitter_title={twitter_title}
+  twitter_description={twitter_description}
+  keywords={keywords}
+>
+  <div class="min-h-screen bg-bg-secondary">
+    <Navigation />
+
+    <!-- Guide Content -->
+    <article class="container mx-auto px-6 py-12 max-w-4xl">
+      <!-- Hero Image -->
+      {heroImage && (
+        <div class="mb-8 -mx-6 md:mx-0 md:rounded-lg overflow-hidden">
+          <img
+            src={heroImage}
+            alt={title}
+            class="w-full h-auto"
+          />
+        </div>
+      )}
+
+      <!-- Post Header -->
+      <header class="mb-8">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-sm text-text-light mb-4">
+          <a href="/" class="hover:text-primary-700 transition-colors">Home</a>
+          <span>/</span>
+          <a href={`/${collection}/`} class="hover:text-primary-700 transition-colors">{collectionName}</a>
+          <span>/</span>
+          <span class="text-text-secondary truncate">{title}</span>
+        </nav>
+
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-text-primary font-heading">
+          {title}
+        </h1>
+
+        <p class="text-xl text-text-secondary mb-6">
+          {description}
+        </p>
+
+        <!-- Post Meta -->
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-light">
+          <!-- Reading time -->
+          <div class="flex items-center">
+            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span>{readingTime} min read</span>
+          </div>
+          <!-- Word count -->
+          <div class="flex items-center">
+            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+            </svg>
+            <span>{wordCount.toLocaleString()} words</span>
+          </div>
+          <span class="hidden sm:inline">·</span>
+          <time datetime={date.toISOString()}>
+            {formattedDate}
+          </time>
+          {formattedUpdatedDate && (
+            <span>
+              · Updated {formattedUpdatedDate}
+            </span>
+          )}
+        </div>
+      </header>
+
+      <!-- Social Share Buttons (Top) -->
+      <SocialShareButtons title={title} url={`/${collection}/${guide.slug}/`} />
+
+      <!-- Table of Contents -->
+      <TableOfContents />
+
+      <!-- Main Content with Tailwind Typography -->
+      <div class="prose prose-lg max-w-none
+        prose-headings:font-heading prose-headings:text-text-primary
+        prose-p:text-text-secondary prose-p:leading-relaxed
+        prose-a:text-primary-700 prose-a:no-underline hover:prose-a:underline
+        prose-strong:text-text-primary prose-strong:font-semibold
+        prose-code:bg-bg-secondary prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
+        prose-pre:bg-dark-900 prose-pre:border prose-pre:border-border
+        prose-img:rounded-lg prose-img:shadow-lg
+        prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:bg-bg-secondary prose-blockquote:py-1
+        mb-12"
+      >
+        <Content />
+      </div>
+
+      <!-- Social Share Buttons (Bottom) -->
+      <SocialShareButtons title={title} url={`/${collection}/${guide.slug}/`} />
+
+      <!-- Footer: Back to Collection -->
+      <div class="border-t border-border pt-8">
+        <a
+          href={`/${collection}/`}
+          class="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Back to {collectionName}
+        </a>
+      </div>
+    </article>
+  </div>
+
+  <!-- JSON-LD Breadcrumb Schema -->
+  <BreadcrumbSchema
+    slot="head"
+    title={title}
+    url={`/${collection}/${guide.slug}/`}
+    breadcrumbs={breadcrumbs}
+  />
+
+  <!-- Article Schema -->
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "datePublished": date.toISOString(),
+    "dateModified": (date_updated_at || date).toISOString(),
+    "url": `https://www.aichatwatch.com/${collection}/${guide.slug}/`,
+    "publisher": {
+      "@type": "Organization",
+      "name": "AI Chat Watch",
+      "url": "https://www.aichatwatch.com"
+    },
+    "keywords": keywords,
+    "wordCount": wordCount,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://www.aichatwatch.com/${collection}/${guide.slug}/`
+    }
+  })} />
+</BaseLayout>

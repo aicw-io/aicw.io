@@ -4,7 +4,7 @@ import type { APIContext } from 'astro';
 
 export async function GET(context: APIContext) {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
-  const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
   // Get author data for each post
   const itemsWithAuthors = await Promise.all(
@@ -13,7 +13,7 @@ export async function GET(context: APIContext) {
       return {
         title: post.data.title,
         description: post.data.description,
-        pubDate: post.data.pubDate,
+        pubDate: post.data.date,
         author: author.data.name,
         categories: post.data.categories,
         link: `/blog/${post.slug}/`,

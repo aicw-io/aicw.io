@@ -21,8 +21,8 @@ const blog = defineCollection({
     // Core metadata
     title: z.string(),
     description: z.string(),
-    pubDate: z.coerce.date(),
-    updatedDate: z.coerce.date().optional(),
+    date: z.coerce.date(),
+    date_updated_at: z.coerce.date().optional(),
 
     // Open Graph metadata (ayodesk-inspired)
     og_title: z.string().optional(),
@@ -53,4 +53,35 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog, authors };
+// Guides collection schema (shared for ai-search-engine, ai-crawler-bot, ai-chat-bot)
+const guides = defineCollection({
+  type: 'content',
+  schema: z.object({
+    // Core metadata
+    title: z.string(),
+    description: z.string(),
+    date: z.coerce.date(),
+    date_updated_at: z.coerce.date().optional(),
+
+    // SEO metadata
+    og_title: z.string().optional(),
+    og_description: z.string().optional(),
+    twitter_title: z.string().optional(),
+    twitter_description: z.string().optional(),
+    breadcrumbs: z.string().optional(),
+    keywords: z.string().optional(),
+    things: z.string().optional(),
+
+    // Optional extras
+    heroImage: z.string().optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = {
+  blog,
+  authors,
+  'ai-search-engine': guides,
+  'ai-crawler-bot': guides,
+  'ai-chat-bot': guides,
+};

@@ -79,8 +79,10 @@ window.entityApp = new Vue({
                     : `https://${this.entity.link}`;
                 return new URL(url).hostname.replace('www.', '');
             } catch {
-                // If URL parsing still fails, return the link as-is (might already be a domain)
-                return this.entity.link.replace(/^www\./, '');
+                // If URL parsing still fails, strip protocol and www prefix
+                return this.entity.link
+                    .replace(/^https?:\/\//, '')
+                    .replace(/^www\./, '');
             }
         },
 

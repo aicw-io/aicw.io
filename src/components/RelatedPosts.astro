@@ -16,7 +16,7 @@ const { currentPost } = Astro.props;
 // Get all published posts
 const allPosts = await getCollection('blog', ({ data }) => {
   if (data.draft) return false;
-  return data.pubDate <= new Date();
+  return data.date <= new Date();
 });
 
 // Get current post's tags and categories
@@ -48,7 +48,7 @@ const displayPosts = relatedPosts.length > 0
   ? relatedPosts
   : allPosts
       .filter(post => post.slug !== currentPost.slug)
-      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+      .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
       .slice(0, 3);
 ---
 
@@ -80,7 +80,7 @@ const displayPosts = relatedPosts.length > 0
                 year: 'numeric',
                 month: 'short',
                 day: 'numeric'
-              }).format(post.data.pubDate)}
+              }).format(post.data.date)}
             </div>
           </article>
         </a>
