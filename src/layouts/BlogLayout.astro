@@ -19,8 +19,8 @@ const rawContent = post.body || '';
 const {
   title,
   description,
-  pubDate,
-  updatedDate,
+  date,
+  date_updated_at,
   author: authorRef,
   heroImage,
   heroImageAlt,
@@ -49,14 +49,14 @@ const formattedDate = new Intl.DateTimeFormat('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric'
-}).format(pubDate);
+}).format(date);
 
-const formattedUpdatedDate = updatedDate
+const formattedUpdatedDate = date_updated_at
   ? new Intl.DateTimeFormat('en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
-    }).format(updatedDate)
+    }).format(date_updated_at)
   : null;
 ---
 
@@ -67,8 +67,8 @@ const formattedUpdatedDate = updatedDate
   image={heroImage}
   imageAlt={heroImageAlt || title}
   type="article"
-  publishedTime={pubDate}
-  modifiedTime={updatedDate}
+  publishedTime={date}
+  modifiedTime={date_updated_at}
   author={author.data.name}
   tags={tags}
   og_title={og_title}
@@ -135,7 +135,7 @@ const formattedUpdatedDate = updatedDate
             <span>{wordCount.toLocaleString()} words</span>
           </div>
           <span class="hidden sm:inline">·</span>
-          <time datetime={pubDate.toISOString()}>
+          <time datetime={date.toISOString()}>
             {formattedDate}
           </time>
           {formattedUpdatedDate && (
@@ -236,8 +236,8 @@ const formattedUpdatedDate = updatedDate
     title={title}
     description={description}
     url={`/blog/${post.slug}/`}
-    datePublished={pubDate}
-    dateModified={updatedDate}
+    datePublished={date}
+    dateModified={date_updated_at}
     keywords={keywords}
     things={things}
     content={rawContent}

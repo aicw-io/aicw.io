@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the AI Chat Watch Blog"
 description: "Learn how AI Chat Watch helps you track visits from AI chatbots like ChatGPT and Perplexity while respecting user privacy."
-pubDate: 2025-01-17
+date: 2025-01-17
 author: aicw-team
 categories: ["announcements", "getting-started"]
 tags: ["ai-visibility", "ai-traffic", "privacy-analytics", "chatgpt", "perplexity"]

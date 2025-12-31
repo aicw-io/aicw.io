@@ -6,7 +6,7 @@ export async function getStaticPaths() {
   // Filter out drafts and future posts (scheduled posts)
   const posts = await getCollection('blog', ({ data }) => {
     if (data.draft) return false;
-    return data.pubDate <= new Date();
+    return data.date <= new Date();
   });
   return posts.map((post) => ({
     params: { slug: post.slug },

@@ -1,7 +1,7 @@
 import type { CollectionEntry } from 'astro:content';
 
 /**
- * Check if a blog post is published (not draft and pubDate has passed)
+ * Check if a blog post is published (not draft and date has passed)
  */
 export function isPostPublished(post: CollectionEntry<'blog'>): boolean {
   // Filter out drafts
@@ -9,7 +9,7 @@ export function isPostPublished(post: CollectionEntry<'blog'>): boolean {
 
   // Filter out future posts (scheduled posts)
   const now = new Date();
-  return post.data.pubDate <= now;
+  return post.data.date <= now;
 }
 
 /**
