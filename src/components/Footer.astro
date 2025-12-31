@@ -41,6 +41,28 @@ const aiServices = [
     logo: getFavicon('x.com')
   },
 ];
+
+// Report categories for Brand Mentions section
+const reportCategories = [
+  { name: 'Accounting', path: '/reports/Accounting/' },
+  { name: 'AI Mention Tracking Tools', path: '/reports/AI%20Mention%20Tracking%20Tools/' },
+  { name: 'AI Tools', path: '/reports/AI%20Tools/' },
+  { name: 'AI Tools for Marketers', path: '/reports/AI%20Tools%20for%20Marketers/' },
+  { name: 'Analytics and BI', path: '/reports/Analytics%20and%20BI/' },
+  { name: 'Cloud Storage', path: '/reports/Cloud%20Storage/' },
+  { name: 'CRM Software', path: '/reports/CRM%20Software/' },
+  { name: 'Customer Support', path: '/reports/Customer%20Support/' },
+  { name: 'Cybersecurity', path: '/reports/Cybersecurity/' },
+  { name: 'Design Tools', path: '/reports/Design%20Tools/' },
+  { name: 'Developer Tools', path: '/reports/Developer%20Tools/' },
+  { name: 'E-commerce', path: '/reports/E-commerce/' },
+  { name: 'Email Marketing', path: '/reports/Email%20Marketing/' },
+  { name: 'HR Software', path: '/reports/HR%20Software/' },
+  { name: 'Marketing Automation', path: '/reports/Marketing%20Automation/' },
+  { name: 'Open Source Projects', path: '/reports/Open%20Sources%20Projects/' },
+  { name: 'Project Management', path: '/reports/Project%20Management/' },
+  { name: 'Video Conferencing', path: '/reports/Video%20Conferencing/' },
+];
 ---
 
 <footer class="py-12 bg-dark-900 text-white">
@@ -82,19 +104,36 @@ const aiServices = [
         <ul class="space-y-2">
           <li><a href="/#features" class="text-white/70 hover:text-white transition-colors">Features</a></li>
           <li><a href="/#pricing" class="text-white/70 hover:text-white transition-colors">Pricing</a></li>
-          <li><a href="/security" class="text-white/70 hover:text-white transition-colors">Security & Privacy</a></li>
-          <li><a href="/blog" class="text-white/70 hover:text-white transition-colors">Blog</a></li>
+          <li><a href="/security/" class="text-white/70 hover:text-white transition-colors">Security & Privacy</a></li>
+          <li><a href="/blog/" class="text-white/70 hover:text-white transition-colors">Blog</a></li>
           <li><a href="https://app.aichatwatch.com" class="text-white/70 hover:text-white transition-colors">Login</a></li>
         </ul>
       </div>
       <div>
-        <h3 class="text-xl font-bold mb-4">Open Source</h3>
+        <h3 class="text-xl font-bold mb-4">Resources</h3>
         <ul class="space-y-2">
-          <li><a href="https://github.com/aichatwatch/aicw" target="_blank" rel="noopener" class="text-white/70 hover:text-white transition-colors">GitHub - CLI Tool</a></li>
-          <li><a href="https://www.npmjs.com/package/@aichatwatch/aicw" target="_blank" rel="noopener" class="text-white/70 hover:text-white transition-colors">NPM Package</a></li>
+          <li><a href="https://app.aichatwatch.com/public/aichatwatch.com" target="_blank" rel="noopener" class="text-white/70 hover:text-white transition-colors">Live Demo</a></li>
+          <li><a href="/reports/" class="text-white/70 hover:text-white transition-colors">Brand Mentions</a></li>
+          <li><a href="https://github.com/aichatwatch/aicw" target="_blank" rel="noopener" class="text-white/70 hover:text-white transition-colors">GitHub</a></li>
         </ul>
       </div>
     </div>
+
+    <!-- Brand Mentions by AI Section -->
+    <div class="mb-8 pt-8 border-t border-white/10">
+      <h3 class="text-xl font-bold mb-4">Brand Mentions by AI - Rankings</h3>
+      <div class="flex flex-wrap gap-2">
+        {reportCategories.map((category) => (
+          <a
+            href={category.path}
+            class="px-3 py-1.5 bg-white/5 hover:bg-white/10 rounded-lg text-white/70 hover:text-white text-sm transition-colors"
+          >
+            {category.name}
+          </a>
+        ))}
+      </div>
+    </div>
+
     <div class="border-t border-white/10 pt-8 text-center text-white/50">
       <p>&copy; {currentYear} AI Chat Watch. Privacy-first AI analytics.</p>
     </div>

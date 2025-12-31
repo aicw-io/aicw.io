@@ -72,9 +72,6 @@ const {
 
     <Footer />
 
-    <!-- GitHub buttons script -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
@@ -83,16 +80,15 @@ const {
       "alternateName": "AICW",
       "url": "https://www.aichatwatch.com",
       "logo": "https://www.aichatwatch.com/ai-chat-watch-manifest-512x512.png",
-      "description": "Free open-source tool to grade AI visibility and monitor what ChatGPT, Claude, Gemini and other AI models say about your brand. Track brand mentions across 20+ AI models.",
+      "description": "Privacy-focused web analytics that tracks visits from AI chatbots like ChatGPT, Perplexity, Claude, and Gemini. Monitor your AI visibility and prove AI traffic generates real conversions.",
       "foundingDate": "2024",
       "sameAs": [
-        "https://github.com/aichatwatch/aicw",
-        "https://www.npmjs.com/package/@aichatwatch/aicw"
+        "https://github.com/aichatwatch/aicw"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "contactType": "Support",
-        "url": "https://github.com/aichatwatch/aicw/issues"
+        "contactType": "Customer Service",
+        "url": "https://app.aichatwatch.com"
       }
     })} />
 
@@ -101,14 +97,14 @@ const {
       "@type": "WebSite",
       "name": "AI Chat Watch",
       "url": "https://www.aichatwatch.com",
-      "description": "Grade your AI visibility and monitor what AI says about your brand. Free, open-source tool to track mentions across 20+ AI models including ChatGPT, Claude, and Gemini.",
+      "description": "Privacy-focused web analytics for tracking AI chatbot traffic. See which AI sources like ChatGPT, Claude, and Perplexity send visitors to your website. GDPR compliant, no cookies.",
       "publisher": {
         "@type": "Organization",
         "name": "AI Chat Watch"
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://www.aichatwatch.com/#demos?q={search_term_string}",
+        "target": "https://www.aichatwatch.com/reports/?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     })} />

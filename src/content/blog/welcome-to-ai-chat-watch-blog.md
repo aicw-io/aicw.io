@@ -1,89 +1,80 @@
 ---
 title: "Welcome to the AI Chat Watch Blog"
-description: "Discover how AI Chat Watch can help you monitor your brand's visibility across AI chatbots and improve your AI discoverability."
+description: "Learn how AI Chat Watch helps you track visits from AI chatbots like ChatGPT and Perplexity while respecting user privacy."
 pubDate: 2025-01-17
 author: aicw-team
 categories: ["announcements", "getting-started"]
-tags: ["ai-visibility", "brand-monitoring", "chatgpt", "claude"]
-heroImage: "/assets/images/screenshots/aicw-main-menu.png"
-heroImageAlt: "AI Chat Watch Dashboard"
+tags: ["ai-visibility", "ai-traffic", "privacy-analytics", "chatgpt", "perplexity"]
+heroImage: "/assets/images/screenshots/aicw-cloud-dashboard.png"
+heroImageAlt: "AI Chat Watch Analytics Dashboard"
 featured: true
 ---
 
-Welcome to the AI Chat Watch blog! We're excited to share insights, tips, and strategies to help you understand and improve how AI chatbots perceive and recommend your brand.
+Welcome to the AI Chat Watch blog! We're excited to share insights about tracking AI-driven traffic and improving your visibility across AI chatbots—all while respecting user privacy.
 
-## Why AI Visibility Matters
+## Why AI Traffic Matters
 
-As AI chatbots like ChatGPT, Claude, and Gemini become the go-to tools for research and recommendations, **being visible to these AI systems is crucial** for your brand's success. If AI can't find or properly understand your website, you're missing out on a massive opportunity.
+AI chatbots like ChatGPT, Claude, Perplexity, and Gemini are becoming primary discovery channels. When users ask these AI assistants for recommendations, **being visible and getting cited means real traffic to your website**.
+
+But how do you know if AI is sending you visitors? Traditional analytics can't tell you which traffic comes from AI chatbot recommendations.
 
 ## What is AI Chat Watch?
 
-AI Chat Watch (AICW) is a **free, open-source command-line tool** that helps you:
+AI Chat Watch is a **privacy-focused web analytics platform** that helps you:
 
-- **Grade your AI visibility** - Get instant scores on how well AI engines can discover your website
-- **Monitor AI responses** - Track what 20+ AI models say about your brand
-- **Analyze competitors** - See which competitors AI recommends and why
-- **Track trends** - Monitor how AI responses change over time
-- **Extract insights** - Automatically identify mentioned companies, products, and resources
+- **Track AI Referrals** - See visitors from ChatGPT, Claude, Perplexity, Gemini, and other AI sources
+- **Monitor AI Visibility** - Get a score on how accessible your site is to AI crawlers
+- **Understand Your Traffic** - See which pages get AI-driven visits
+- **Prove ROI** - Demonstrate that AI visibility generates real conversions
 
-## Getting Started in 30 Seconds
+## Privacy-First Design
 
-The fastest way to check your AI visibility is with our instant checker:
+Unlike traditional analytics, AI Chat Watch is built with privacy at its core:
 
-```bash
-npx @aichatwatch/aicw ai-visibility YOURWEBSITE.com
-```
+- No cookies or tracking pixels
+- No IP address storage
+- GDPR and CCPA compliant
+- All data anonymized
 
-This command analyzes your website and provides:
+You get the insights you need without compromising your visitors' privacy.
 
-- ✅ Technical SEO analysis for AI discovery
-- ✅ Content readability assessment
-- ✅ Structured data validation
-- ✅ Actionable recommendations to improve visibility
+## See It In Action
+
+Check out our [live public demo](https://app.aichatwatch.com/public/aichatwatch.com) to see real AI traffic data for aichatwatch.com.
 
 ## Who Should Use AI Chat Watch?
 
 ### Marketers
-Monitor how AI describes your brand and competitors. Track positioning and messaging consistency across AI models.
+Understand which AI chatbots recommend your brand and track the traffic they generate.
 
 ### SEO Professionals
-Optimize for AI discovery with technical insights into what makes content AI-friendly.
+Optimize for AI discovery with visibility scores and crawler detection.
 
 ### Product Managers
-Understand how AI perceives your product and identify gaps in your positioning.
+Prove that AI visibility investments generate measurable results.
 
 ### Business Owners
-Ensure your brand is visible when potential customers ask AI for recommendations in your category.
+See the real impact of AI recommendations on your website traffic.
+
+## Getting Started
+
+Setup takes 60 seconds:
+
+1. Sign up at [app.aichatwatch.com](https://app.aichatwatch.com)
+2. Add one line of tracking code to your website
+3. Start seeing AI traffic data immediately
+
+**Free 90-day trial. No credit card required.**
 
 ## What's Coming on This Blog
 
 We'll be sharing:
 
-- **AI visibility strategies** - Proven techniques to improve your AI discoverability
-- **Case studies** - Real-world examples of brands improving their AI presence
-- **Industry insights** - Analysis of how different industries perform in AI responses
-- **Technical guides** - Deep dives into optimizing for AI crawlers and understanding
-- **Product updates** - New features and improvements to AICW
-
-## Get Involved
-
-AI Chat Watch is **open-source and community-driven**. We welcome:
-
-- ⭐ [Star us on GitHub](https://github.com/aichatwatch/aicw)
-- 🐛 [Report bugs or request features](https://github.com/aichatwatch/aicw/issues)
-- 📝 Share your success stories and use cases
-- 💡 Contribute code or documentation
-
-## Try It Today
-
-Ready to see how AI perceives your brand? Install AICW and run your first analysis:
-
-```bash
-npx @aichatwatch/aicw
-```
-
-No signup required. Runs entirely on your computer. Your data stays private.
+- **AI traffic strategies** - How to increase visits from AI chatbots
+- **Privacy insights** - Building analytics that respect users
+- **Case studies** - Real examples of AI-driven traffic growth
+- **Product updates** - New features and improvements
 
 ---
 
-**Questions or feedback?** Open an issue on our [GitHub repository](https://github.com/aichatwatch/aicw) or join the discussion!
+**Ready to track your AI traffic?** [Start your free trial](https://app.aichatwatch.com) or view our [live demo](https://app.aichatwatch.com/public/aichatwatch.com).
