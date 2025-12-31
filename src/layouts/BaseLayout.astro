@@ -1,0 +1,112 @@
+---
+import SEO from '../components/SEO.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+  image?: string;
+  imageAlt?: string;
+  type?: 'website' | 'article';
+  publishedTime?: Date;
+  modifiedTime?: Date;
+  author?: string;
+  tags?: string[];
+  // Ayodesk-inspired social metadata overrides
+  og_title?: string;
+  og_description?: string;
+  twitter_title?: string;
+  twitter_description?: string;
+  // SEO metadata (ayodesk-inspired)
+  keywords?: string;
+  robots?: string;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  image,
+  imageAlt,
+  type,
+  publishedTime,
+  modifiedTime,
+  author,
+  tags,
+  og_title,
+  og_description,
+  twitter_title,
+  twitter_description,
+  keywords,
+  robots
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <SEO
+      title={title}
+      description={description}
+      canonical={canonical}
+      image={image}
+      imageAlt={imageAlt}
+      type={type}
+      publishedTime={publishedTime}
+      modifiedTime={modifiedTime}
+      author={author}
+      tags={tags}
+      og_title={og_title}
+      og_description={og_description}
+      twitter_title={twitter_title}
+      twitter_description={twitter_description}
+      keywords={keywords}
+      robots={robots}
+    />
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+
+    <Footer />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AI Chat Watch",
+      "alternateName": "AICW",
+      "url": "https://www.aichatwatch.com",
+      "logo": "https://www.aichatwatch.com/ai-chat-watch-manifest-512x512.png",
+      "description": "Privacy-focused web analytics that tracks visits from AI chatbots like ChatGPT, Perplexity, Claude, and Gemini. Monitor your AI visibility and prove AI traffic generates real conversions.",
+      "foundingDate": "2024",
+      "sameAs": [
+        "https://github.com/aichatwatch/aicw"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "url": "https://app.aichatwatch.com"
+      }
+    })} />
+
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI Chat Watch",
+      "url": "https://www.aichatwatch.com",
+      "description": "Privacy-focused web analytics for tracking AI chatbot traffic. See which AI sources like ChatGPT, Claude, and Perplexity send visitors to your website. GDPR compliant, no cookies.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Chat Watch"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.aichatwatch.com/reports/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    })} />
+  </body>
+</html>

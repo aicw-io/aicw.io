@@ -1,0 +1,319 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NetworkViz from '../components/NetworkViz.astro';
+import Navigation from '../components/Navigation.astro';
+import { Image } from 'astro:assets';
+
+// Cloud screenshots for features section
+import trafficSourceImg from '../../assets/images/screenshots/aicw-cloud-dashboard-traffic-source-comparison.png';
+import aiVisibilityImg from '../../assets/images/screenshots/aicw-cloud-ai-visibility-main.png';
+import botsImg from '../../assets/images/screenshots/aicw-cloud-dashboard-bots.png';
+
+// Screenshots for How It Works section
+import dashboardImg from '../../assets/images/screenshots/aicw-cloud-dashboard.png';
+import topPagesImg from '../../assets/images/screenshots/aicw-cloud-dashboard-top-pages.png';
+---
+
+<BaseLayout>
+  <!-- Hero Section -->
+  <header class="relative min-h-screen flex flex-col overflow-hidden isolate gradient-dark">
+    <Navigation variant="dark" />
+
+    <div class="flex-1 flex items-center">
+    <NetworkViz />
+
+    <!-- Gradient Background -->
+    <div class="absolute inset-0 w-full h-full animate-float opacity-10 pointer-events-none z-[0]">
+      <div class="absolute top-1/2 left-1/5 w-1/2 h-1/2 bg-primary-500/15 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-1/5 right-1/5 w-1/2 h-1/2 bg-accent-400/15 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="container mx-auto px-6 relative z-10">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl md:text-7xl font-bold mb-8 text-white font-heading tracking-tight">
+          See Which AI Chatbots Send You Traffic
+        </h1>
+
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap gap-4 justify-center mb-8">
+          <span class="px-4 py-2 bg-white/10 backdrop-blur border border-white/20 rounded-full text-white/90 text-sm">
+            Free 90-Day Trial
+          </span>
+          <span class="px-4 py-2 bg-white/10 backdrop-blur border border-white/20 rounded-full text-white/90 text-sm">
+            No Credit Card Required
+          </span>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="flex justify-center">
+          <a href="https://app.aichatwatch.com" class="px-8 py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-lg">
+            Start Free 90-Day Trial
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-24 bg-bg-secondary">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Understand Your AI Traffic</h2>
+        <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+          Know which AI chatbots recommend your website, track your visibility, and grow your AI-driven traffic.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Feature Cards -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="w-14 h-14 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Track AI Referrals</h3>
+          <p class="text-text-secondary mb-4">
+            See visitors from ChatGPT, Claude, Perplexity, Gemini, and Grok. Know which AI sources drive the most traffic to your site.
+          </p>
+          <div class="rounded-lg overflow-hidden border border-gray-100 shadow-sm">
+            <Image
+              src={trafficSourceImg}
+              alt="Traffic sources showing ChatGPT, Claude, Perplexity AI referrals"
+              width={600}
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Privacy-First by Design</h3>
+          <p class="text-text-secondary mb-3">
+            No cookies. No IP storage. GDPR compliant. We anonymize all data and never track users across sites.
+          </p>
+          <a href="/security/" class="text-sm text-green-600 hover:text-green-700 font-medium inline-flex items-center gap-1">
+            Learn how we protect privacy
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3">AI Visibility Audit</h3>
+          <p class="text-text-secondary mb-4">
+            Grade how visible your website is to AI crawlers. Get actionable recommendations to improve your AI discoverability.
+          </p>
+          <div class="rounded-lg overflow-hidden border border-gray-100 shadow-sm">
+            <Image
+              src={aiVisibilityImg}
+              alt="AI Visibility Score showing 94% score and accessibility to 12 AI services"
+              width={600}
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Geographic Insights</h3>
+          <p class="text-text-secondary">
+            See where your visitors come from with country and region-level analytics. All while preserving user privacy.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Detect AI Crawlers</h3>
+          <p class="text-text-secondary mb-4">
+            Identify which AI bots are visiting and indexing your site. Understand how AI engines discover your content.
+          </p>
+          <div class="rounded-lg overflow-hidden border border-gray-100 shadow-sm">
+            <Image
+              src={botsImg}
+              alt="Bot and Crawler Activity showing visits from various AI bots"
+              width={600}
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="w-14 h-14 bg-cyan-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Setup in 60 Seconds</h3>
+          <p class="text-text-secondary">
+            Add one line of code to your website and start tracking immediately. Works with any website or framework.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="py-24 bg-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">See Your Analytics in Action</h2>
+        <p class="text-xl text-text-secondary">
+          Real insights into your AI-driven traffic.
+        </p>
+      </div>
+
+      <!-- Screenshot Gallery -->
+      <div class="grid md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
+        <!-- Main Analytics Screenshot -->
+        <div class="bg-bg-secondary rounded-2xl p-4 shadow-lg">
+          <div class="rounded-lg overflow-hidden">
+            <Image
+              src={dashboardImg}
+              alt="Main Analytics Dashboard showing traffic trends and visitor breakdown"
+              width={800}
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <p class="text-center mt-4 font-medium">Main Analytics Dashboard</p>
+        </div>
+
+        <!-- Top Pages Screenshot -->
+        <div class="bg-bg-secondary rounded-2xl p-4 shadow-lg">
+          <div class="rounded-lg overflow-hidden">
+            <Image
+              src={topPagesImg}
+              alt="Top Pages showing AI referral percentages by page"
+              width={800}
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <p class="text-center mt-4 font-medium">Top Pages with AI Traffic</p>
+        </div>
+      </div>
+
+      <!-- Live Demo CTA -->
+      <div class="text-center flex flex-wrap gap-4 justify-center">
+        <a href="https://app.aichatwatch.com/public/aichatwatch.com" class="inline-block px-8 py-4 bg-white border-2 border-primary-500 rounded-xl text-primary-600 font-semibold hover:bg-primary-50 transition-all text-lg">
+          View Live Demo
+        </a>
+        <a href="https://app.aichatwatch.com" class="inline-block px-8 py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-lg">
+          Start Free 90-Day Trial
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-24 bg-bg-secondary">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Simple, Transparent Pricing</h2>
+        <p class="text-xl text-text-secondary">
+          Start free, upgrade when you're ready.
+        </p>
+      </div>
+
+      <div class="max-w-lg mx-auto">
+        <div class="bg-white rounded-2xl p-8 shadow-xl border-2 border-primary-500">
+          <div class="text-center mb-6">
+            <span class="inline-block px-4 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium mb-4">Most Popular</span>
+            <h3 class="text-3xl font-bold mb-2">Pro Plan</h3>
+            <div class="flex items-baseline justify-center gap-1">
+              <span class="text-5xl font-bold">$19</span>
+              <span class="text-text-secondary">/month</span>
+            </div>
+          </div>
+
+          <div class="bg-green-50 border border-green-200 rounded-xl p-4 mb-6 text-center">
+            <p class="text-green-800 font-semibold">Free 90-Day Trial</p>
+            <p class="text-green-700 text-sm">No credit card required</p>
+          </div>
+
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span>AI traffic tracking (ChatGPT, Claude, Perplexity...)</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span>AI visibility audits</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span>Geographic analytics</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span>AI crawler detection</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span>10,000 pageviews/month</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span>Privacy-first, GDPR compliant</span>
+            </li>
+          </ul>
+
+          <a href="https://app.aichatwatch.com" class="block w-full py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-center text-lg">
+            Start Free Trial
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog CTA Section -->
+  <section class="py-24 gradient-primary">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Learn About AI Visibility</h2>
+      <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+        Tips and strategies to improve how AI chatbots discover and recommend your website.
+      </p>
+      <a href="/blog" class="inline-block px-8 py-4 bg-white rounded-xl text-primary-700 font-semibold hover:shadow-xl transition-all">
+        Read Our Blog
+      </a>
+    </div>
+  </section>
+
+  <!-- Analytics Script -->
+  <script is:inline src="/assets/js/aicw-view.js"></script>
+</BaseLayout>

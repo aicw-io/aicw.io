@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Primary Meta -->
+  <meta name="description" content="AI mentions rankings showing which brands and sources are recommended by ChatGPT, Claude, Gemini and other AI chatbots by category.">
+  <meta name="keywords" content="AI monitoring, brand tracking, ChatGPT mentions, AI visibility, LLM monitoring">
+  <meta name="author" content="AI Chat Watch">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://aichatwatch.com/reports/">
+  <!-- Favicon -->
+  <link rel="icon" href="https://www.aichatwatch.com/favicon.svg" type="image/svg+xml">
+  <!-- Open Graph -->
+  <meta property="og:title" content="AI Mentions Rankings - See Which Brands AI Recommends">
+  <meta property="og:description" content="Rankings of brands and sources mentioned by ChatGPT, Claude, Gemini and other AI chatbots.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aichatwatch.com/reports/">
+  <meta property="og:site_name" content="AI Chat Watch">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Mentions Rankings">
+  <meta name="twitter:description" content="Rankings of brands and sources mentioned by AI chatbots">
+  <title>AI Mentions Rankings - AI Chat Watch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    if (localStorage.getItem('aicwDarkMode') === 'true') {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AI Chat Watch",
+    "url": "https://aichatwatch.com",
+    "sameAs": ["https://aichatwatch.com"]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AI Chat Watch",
+    "url": "https://aichatwatch.com",
+    "description": "Monitor AI chatbot responses and track brand mentions across ChatGPT, Claude, Gemini and more"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "AI Mentions Rankings",
+    "description": "Rankings of brands and sources mentioned by AI chatbots by category",
+    "url": "https://aichatwatch.com/reports/",
+    "isPartOf": {"@type": "WebSite", "name": "AI Chat Watch", "url": "https://aichatwatch.com"}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "AI Mentions Rankings",
+    "description": "Rankings by category showing brands and sources mentioned by AI",
+    "numberOfItems": 18,
+    "itemListElement": [{"@type":"ListItem","position":1,"name":"Accounting","url":"https://aichatwatch.com/reports/Accounting/"},{"@type":"ListItem","position":2,"name":"AI Mention Tracking Tools","url":"https://aichatwatch.com/reports/AI%20Mention%20Tracking%20Tools/"},{"@type":"ListItem","position":3,"name":"AI Tools","url":"https://aichatwatch.com/reports/AI%20Tools/"},{"@type":"ListItem","position":4,"name":"AI Tools for Marketers","url":"https://aichatwatch.com/reports/AI%20Tools%20for%20Marketers/"},{"@type":"ListItem","position":5,"name":"Analytics and BI","url":"https://aichatwatch.com/reports/Analytics%20and%20BI/"},{"@type":"ListItem","position":6,"name":"Cloud Storage","url":"https://aichatwatch.com/reports/Cloud%20Storage/"},{"@type":"ListItem","position":7,"name":"CRM Software","url":"https://aichatwatch.com/reports/CRM%20Software/"},{"@type":"ListItem","position":8,"name":"Customer Support","url":"https://aichatwatch.com/reports/Customer%20Support/"},{"@type":"ListItem","position":9,"name":"Cybersecurity","url":"https://aichatwatch.com/reports/Cybersecurity/"},{"@type":"ListItem","position":10,"name":"Design Tools","url":"https://aichatwatch.com/reports/Design%20Tools/"},{"@type":"ListItem","position":11,"name":"Developer Tools","url":"https://aichatwatch.com/reports/Developer%20Tools/"},{"@type":"ListItem","position":12,"name":"E-commerce","url":"https://aichatwatch.com/reports/E-commerce/"},{"@type":"ListItem","position":13,"name":"Email Marketing","url":"https://aichatwatch.com/reports/Email%20Marketing/"},{"@type":"ListItem","position":14,"name":"HR Software","url":"https://aichatwatch.com/reports/HR%20Software/"},{"@type":"ListItem","position":15,"name":"Marketing Automation","url":"https://aichatwatch.com/reports/Marketing%20Automation/"},{"@type":"ListItem","position":16,"name":"Open Sources Projects","url":"https://aichatwatch.com/reports/Open%20Sources%20Projects/"},{"@type":"ListItem","position":17,"name":"Project Management","url":"https://aichatwatch.com/reports/Project%20Management/"},{"@type":"ListItem","position":18,"name":"Video Conferencing","url":"https://aichatwatch.com/reports/Video%20Conferencing/"}]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "AI Chat Watch CLI",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "macOS, Linux, Windows",
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "What is AI Chat Watch?", "acceptedAnswer": {"@type": "Answer", "text": "AI Chat Watch (AICW) is a local CLI that monitors how AI engines cite and recommend brands and websites. It queries multiple AI models, extracts mentions and sources, and generates share-of-voice HTML reports, plus AI visibility audits for your site."}},
+      {"@type": "Question", "name": "How do I track my brand in AI responses?", "acceptedAnswer": {"@type": "Answer", "text": "Create a project, add the questions you want to test, and define the brands/entities you care about. Then run AICW to fetch AI answers and generate a report ranking mentions and cited sources across the selected models."}},
+      {"@type": "Question", "name": "Which AI models does AI Chat Watch support?", "acceptedAnswer": {"@type": "Answer", "text": "AICW supports OpenAI (ChatGPT), Anthropic Claude, Google Gemini, Perplexity Sonar, and X.AI Grok, and can also run many additional models via OpenRouter (for example Llama, Qwen, and Deepseek)."}},
+      {"@type": "Question", "name": "Is AI Chat Watch free to use?", "acceptedAnswer": {"@type": "Answer", "text": "The AICW CLI is free to use and stores results locally on your machine. You pay only for the AI API usage from the providers you configure (for example OpenRouter, OpenAI, or Perplexity)."}},
+      {"@type": "Question", "name": "How often are rankings updated?", "acceptedAnswer": {"@type": "Answer", "text": "Public rankings are updaed once in a few months."}}
+    ]
+  }
+]
+  </script>
+  <style>
+    .gradient-bg {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900">
+  <!-- Header -->
+  <header class="gradient-bg text-white shadow-lg">
+    <div class="container mx-auto px-4 py-3">
+      <div class="flex items-center justify-between">
+        <a href="/" class="flex items-center space-x-2 hover:opacity-90 transition-opacity">
+          <i class="fas fa-robot text-xl"></i>
+          <div>
+            <h1 class="text-lg md:text-xl font-bold">AI Chat Watch</h1>
+          </div>
+        </a>
+
+        <!-- Mobile menu button -->
+        <button id="mobileMenuBtn" class="md:hidden p-2 rounded hover:bg-white/10">
+          <i class="fas fa-bars text-lg"></i>
+        </button>
+
+        <!-- Desktop navigation -->
+        <nav class="hidden md:flex items-center space-x-3 text-sm">
+          <a href="https://aichatwatch.com" target="_blank" class="hover:text-gray-200 flex items-center px-2 py-1 rounded hover:bg-white/10">
+            <i class="fas fa-globe mr-1"></i>
+            <span>Website</span>
+          </a>
+          <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header" target="_blank"
+             class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
+            <i class="fas fa-rocket"></i> Track Your AI Visibility
+          </a>
+        </nav>
+      </div>
+
+      <!-- Mobile navigation (hidden by default) -->
+      <nav id="mobileMenu" class="md:hidden hidden mt-3 pt-3 border-t border-white/20 text-sm">
+        <a href="https://aichatwatch.com" target="_blank" class="block py-2 hover:bg-white/10 rounded px-2 mb-1">
+          <i class="fas fa-globe mr-2"></i>Website
+        </a>
+        <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header" target="_blank"
+           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
+          <i class="fas fa-rocket mr-2"></i>Track Your AI Visibility
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-4 md:py-6">
+    <div class="mb-4">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 dark:text-white">AI Mentions Rankings</h2>
+      <p class="text-xs md:text-sm text-gray-600 dark:text-gray-400">Rankings of brands and sources mentioned by AI by category</p>
+    </div>
+
+    <div class="space-y-2">
+      
+<a href="./Accounting/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Accounting</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./AI Mention Tracking Tools/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">AI Mention Tracking Tools</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./AI Tools/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">AI Tools</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./AI Tools for Marketers/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">AI Tools for Marketers</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Analytics and BI/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Analytics and BI</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Cloud Storage/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Cloud Storage</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./CRM Software/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">CRM Software</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Customer Support/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Customer Support</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Cybersecurity/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Cybersecurity</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Design Tools/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Design Tools</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Developer Tools/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Developer Tools</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./E-commerce/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">E-commerce</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Email Marketing/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Email Marketing</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./HR Software/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">HR Software</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Marketing Automation/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Marketing Automation</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Open Sources Projects/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Open Sources Projects</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Project Management/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Project Management</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+<a href="./Video Conferencing/index.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow p-3">
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
+      <i class="fas fa-chart-line text-indigo-600 dark:text-indigo-400"></i>
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-medium text-gray-900 dark:text-white truncate">Video Conferencing</h3>
+      <div class="text-xs text-gray-500 dark:text-gray-400">
+        <span>0 brands, 0 sources</span>
+      </div>
+    </div>
+    <i class="fas fa-chevron-right text-gray-400 flex-shrink-0"></i>
+  </div>
+</a>
+    </div>
+    <!-- No projects, empty state not needed -->
+
+    <!-- FAQ Section -->
+    <section class="mt-8">
+      <h2 class="text-lg font-bold text-gray-800 dark:text-white mb-3">FAQ</h2>
+      <div class="space-y-2">
+        <details class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-3">
+          <summary class="font-medium text-gray-800 dark:text-white cursor-pointer text-sm">What is AI Chat Watch?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400 text-xs">AI Chat Watch (AICW) is a local CLI that monitors how AI engines cite and recommend brands and websites. It queries multiple AI models, extracts mentions and sources, and generates share-of-voice HTML reports, plus AI visibility audits for your site.</p>
+        </details>
+        <details class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-3">
+          <summary class="font-medium text-gray-800 dark:text-white cursor-pointer text-sm">How do I track my brand in AI responses?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400 text-xs">Create a project, add the questions you want to test, and define the brands/entities you care about. Then run AICW to fetch AI answers and generate a report ranking mentions and cited sources across the selected models.</p>
+        </details>
+        <details class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-3">
+          <summary class="font-medium text-gray-800 dark:text-white cursor-pointer text-sm">Which AI models are supported?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400 text-xs">AICW supports OpenAI (ChatGPT), Anthropic Claude, Google Gemini, Perplexity Sonar, and X.AI Grok, and can also run many additional models via OpenRouter (for example Llama, Qwen, and Deepseek).</p>
+        </details>
+        <details class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-3">
+          <summary class="font-medium text-gray-800 dark:text-white cursor-pointer text-sm">Is AI Chat Watch free?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400 text-xs">The AICW CLI is free to use and stores results locally on your machine. You pay only for the AI API usage from the providers you configure (for example OpenRouter, OpenAI, or Perplexity).</p>
+        </details>
+        <details class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-3">
+          <summary class="font-medium text-gray-800 dark:text-white cursor-pointer text-sm">How often are rankings updated?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400 text-xs">Rankings update whenever a new report run is generated. Teams run scans weekly, bi-weekly, or monthly, and you can schedule runs yourself (or use managed scheduling at aichatwatch.com/schedule).</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white mt-8">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex flex-col sm:flex-row justify-between items-center text-xs space-y-1 sm:space-y-0">
+        <p class="opacity-75">AI Chat Watch © 2026</p>
+        <p class="opacity-50">Thu, Jan 1, 2026, 2:07 AM</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+      const menu = document.getElementById('mobileMenu');
+      const icon = this.querySelector('i');
+      menu.classList.toggle('hidden');
+      if (menu.classList.contains('hidden')) {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      } else {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+      }
+    });
+  </script>
+</body>
+</html>

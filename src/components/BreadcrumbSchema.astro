@@ -1,0 +1,56 @@
+---
+/**
+ * BreadcrumbSchema - JSON-LD BreadcrumbList schema for navigation
+ * Pattern inspired by ayodesk.com implementation
+ * Generates breadcrumb trail: Home > Blog > Post Title
+ */
+
+interface Props {
+  breadcrumbs?: string;  // Format: "Home / Blog / Post Title" (optional override)
+  title: string;         // Post title for auto-generation
+  url: string;           // Current page URL
+}
+
+const { breadcrumbs, title, url } = Astro.props;
+const siteUrl = 'https://www.aichatwatch.com';
+
+// Auto-generate breadcrumbs if not provided
+const breadcrumbString = breadcrumbs || `Home / Blog / ${title}`;
+
+// Parse breadcrumbs into structured items
+const breadcrumbParts = breadcrumbString.split('/').map(s => s.trim()).filter(Boolean);
+
+const breadcrumbItems = breadcrumbParts.map((name, index) => {
+  let itemUrl = siteUrl;
+
+  if (index === 0) {
+    // Home
+    itemUrl = siteUrl;
+  } else if (index === 1 && name.toLowerCase() === 'blog') {
+    // Blog listing
+    itemUrl = `${siteUrl}/blog/`;
+  } else if (index === breadcrumbParts.length - 1) {
+    // Current page (last item)
+    itemUrl = `${siteUrl}${url}`;
+  } else {
+    // Intermediate pages - try to infer URL
+    itemUrl = `${siteUrl}/${name.toLowerCase().replace(/\s+/g, '-')}/`;
+  }
+
+  return {
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": name,
+    "item": itemUrl
+  };
+});
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbItems
+};
+---
+
+<!-- Breadcrumb Schema (JSON-LD) -->
+<script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />

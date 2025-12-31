@@ -1,0 +1,101 @@
+---
+/**
+ * TableOfContents - Auto-generated table of contents from H2/H3 headings
+ * Pattern inspired by ayodesk.com implementation
+ * Client-side script populates the ToC dynamically
+ */
+---
+
+<div class="toc-container bg-bg-primary rounded-xl p-6 mb-8 border border-border">
+  <h2 class="text-xl font-semibold text-text-primary mb-4 font-heading">Table of Contents</h2>
+  <nav id="table-of-contents" aria-label="Table of contents">
+    <!-- Populated by client-side script -->
+  </nav>
+</div>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    const article = document.querySelector('article');
+    if (!article) return;
+
+    const contentDiv = article.querySelector('.prose');
+    if (!contentDiv) return;
+
+    const headings = contentDiv.querySelectorAll('h2, h3');
+    const tocContainer = document.getElementById('table-of-contents');
+    if (!tocContainer) return;
+
+    // Headings to exclude from ToC (case-insensitive)
+    const excludedHeadings = [
+      'table of contents',
+      'share this article',
+      'about the author',
+      'related posts',
+      'continue reading',
+      'about this post'
+    ];
+
+    const tocList = document.createElement('ul');
+    tocList.className = 'space-y-2 text-sm';
+
+    let hasValidHeadings = false;
+
+    headings.forEach(function(heading) {
+      const headingText = heading.textContent?.toLowerCase().trim() || '';
+
+      // Skip excluded headings
+      if (excludedHeadings.some(function(excluded) {
+        return headingText.includes(excluded);
+      })) {
+        return;
+      }
+
+      hasValidHeadings = true;
+
+      // Generate ID if not present
+      if (!heading.id) {
+        heading.id = headingText
+          .replace(/[^a-z0-9\s-]/g, '')
+          .replace(/\s+/g, '-')
+          .substring(0, 50);
+      }
+
+      const listItem = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = '#' + heading.id;
+      link.textContent = heading.textContent || '';
+
+      // Indent H3 headings
+      const level = parseInt(heading.tagName.charAt(1)) - 2;
+      link.className = 'block text-text-secondary hover:text-primary-700 transition-colors' + (level > 0 ? ' ml-4' : '');
+
+      // Smooth scroll on click
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Update URL hash without jumping
+        history.pushState(null, '', link.href);
+      });
+
+      listItem.appendChild(link);
+      tocList.appendChild(listItem);
+    });
+
+    if (hasValidHeadings) {
+      tocContainer.appendChild(tocList);
+    } else {
+      // Hide ToC container if no valid headings found
+      const tocWrapper = tocContainer.parentElement;
+      if (tocWrapper && tocWrapper.classList.contains('toc-container')) {
+        tocWrapper.style.display = 'none';
+      }
+    }
+  });
+</script>
+
+<style>
+  .toc-container:empty,
+  .toc-container:has(#table-of-contents:empty) {
+    display: none;
+  }
+</style>

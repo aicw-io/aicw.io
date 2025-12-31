@@ -1,0 +1,211 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+---
+
+<BaseLayout
+  title="Privacy & Security - AI Chat Watch"
+  description="How AI Chat Watch protects visitor privacy with cookieless, GDPR-compliant analytics. No personal data collected, EU-hosted infrastructure."
+>
+  <!-- Hero Section -->
+  <header class="py-20 bg-dark-900">
+    <Navigation variant="dark" />
+    <div class="container mx-auto px-6 pt-16">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">Privacy & Security</h1>
+        <p class="text-lg text-white/80">How we protect your visitors' privacy.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- What We Don't Do Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold mb-6">What We Don't Do</h2>
+        <ul class="space-y-3 text-lg">
+          <li class="flex items-start gap-3">
+            <span class="text-red-500 font-bold">x</span>
+            <span>No cookies - we never set any cookies on visitors' browsers</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-red-500 font-bold">x</span>
+            <span>No IP addresses stored - we discard them immediately after processing</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-red-500 font-bold">x</span>
+            <span>No cross-site tracking - visitors can't be tracked across different websites</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-red-500 font-bold">x</span>
+            <span>No browser fingerprinting - we don't collect device fingerprints</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-red-500 font-bold">x</span>
+            <span>No personal data collection - nothing that identifies individuals</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- How Visitor Counting Works Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold mb-6">How We Count Visitors</h2>
+        <p class="text-lg mb-6">When a visitor loads your page, here's exactly what happens:</p>
+
+        <div class="bg-white border border-gray-200 rounded-lg p-6 font-mono text-sm mb-6">
+          <div class="space-y-2">
+            <p><span class="text-gray-500">1.</span> We receive visitor's IP address</p>
+            <p class="pl-4 text-gray-600">Example: <code class="bg-gray-100 px-1">192.168.1.100</code></p>
+            <p class="mt-4"><span class="text-gray-500">2.</span> <strong>IMMEDIATELY</strong> we remove the last 2 bytes</p>
+            <p class="pl-4 text-gray-600">Result: <code class="bg-gray-100 px-1">192.168.0.0</code></p>
+            <p class="mt-4"><span class="text-gray-500">3.</span> We look up approximate location from this truncated IP</p>
+            <p class="mt-4"><span class="text-gray-500">4.</span> We create a session hash:</p>
+            <p class="pl-4 text-gray-600"><code class="bg-gray-100 px-1">SHA-256(daily_salt + anonymized_ip + user_agent + website)</code></p>
+            <p class="mt-4"><span class="text-gray-500">5.</span> The original IP is discarded - never stored anywhere</p>
+          </div>
+        </div>
+
+        <p class="text-text-secondary">
+          The hash changes every 24 hours (daily salt rotation), so the same visitor gets a new session ID each day.
+          We can count daily unique visitors, but cannot track anyone across days or across websites.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Approximate Geolocation Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold mb-6">About Location Data</h2>
+
+        <div class="bg-amber-50 border border-amber-200 rounded-lg p-6 mb-6">
+          <p class="text-amber-900 font-medium mb-3">Location is approximate by design</p>
+          <p class="text-amber-800">
+            Because we remove the last 2 bytes of the IP address <strong>before</strong> looking up location,
+            geolocation is only accurate to country or region level - not city or neighborhood.
+          </p>
+          <p class="text-amber-800 mt-3">
+            This is intentional: <strong>less precise location = more privacy</strong> for your visitors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Store Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold mb-8">What We Store vs. Never Store</h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="font-semibold text-lg mb-4 text-green-700">We Store (anonymous data)</h3>
+            <ul class="space-y-2">
+              <li class="flex items-start gap-2">
+                <span class="text-green-600">+</span>
+                <span>Page URL visited</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600">+</span>
+                <span>Referrer domain (not full URL)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600">+</span>
+                <span>Browser name (Chrome, Firefox - no version)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600">+</span>
+                <span>OS name (Windows, macOS - no version)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600">+</span>
+                <span>Device type (Desktop, Mobile, Tablet)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600">+</span>
+                <span>Approximate country/region</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-lg mb-4 text-red-700">We Never Store</h3>
+            <ul class="space-y-2">
+              <li class="flex items-start gap-2">
+                <span class="text-red-600">x</span>
+                <span>IP addresses</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600">x</span>
+                <span>Cookies or persistent identifiers</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600">x</span>
+                <span>Full user agent string</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600">x</span>
+                <span>Personal information of any kind</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600">x</span>
+                <span>Cross-site tracking data</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600">x</span>
+                <span>Device fingerprints</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GDPR Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold mb-6">GDPR Compliance</h2>
+
+        <p class="text-lg mb-4">
+          <strong>No personal data = no consent banner required.</strong>
+        </p>
+        <p class="text-text-secondary mb-6">
+          Since we don't collect any data that can identify individuals, GDPR consent requirements don't apply.
+          You can use AI Chat Watch without adding cookie consent banners or popups.
+        </p>
+
+        <h3 class="font-semibold text-lg mb-4">Data Location</h3>
+        <p class="text-text-secondary mb-4">All visitor analytics data is stored exclusively within the European Union:</p>
+        <ul class="space-y-2 text-text-secondary">
+          <li>• AWS EU-West (Ireland) - compute infrastructure</li>
+          <li>• Supabase EU - database</li>
+          <li>• Tinybird EU - real-time analytics</li>
+        </ul>
+        <p class="text-text-secondary mt-4">
+          Visitor data never leaves the EU.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-primary-600">
+    <div class="container mx-auto px-6 text-center">
+      <p class="text-xl text-white mb-6">Analytics that respects your visitors' privacy.</p>
+      <a href="https://app.aichatwatch.com" class="inline-block px-8 py-3 bg-white rounded-lg text-primary-700 font-semibold hover:bg-gray-100 transition-colors">
+        Start Free Trial
+      </a>
+    </div>
+  </section>
+
+  <!-- Analytics Script -->
+  <script is:inline src="/assets/js/aicw-view.js"></script>
+</BaseLayout>
