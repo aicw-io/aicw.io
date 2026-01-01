@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import SocialShareButtons from '../components/SocialShareButtons.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import GuideCTA from '../components/GuideCTA.astro';
 import type { CollectionEntry } from 'astro:content';
 
 export interface Props {
@@ -158,8 +159,11 @@ const collectionName = collectionNames[collection] || collection;
       <!-- Social Share Buttons (Bottom) -->
       <SocialShareButtons title={title} url={`/${collection}/${guide.slug}/`} />
 
+      <!-- CTA Section -->
+      <GuideCTA />
+
       <!-- Footer: Back to Collection -->
-      <div class="border-t border-border pt-8">
+      <div class="border-t border-border pt-8 mt-8">
         <a
           href={`/${collection}/`}
           class="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 transition-colors"

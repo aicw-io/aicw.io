@@ -6,6 +6,7 @@ import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import SocialShareButtons from '../components/SocialShareButtons.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
+import GuideCTA from '../components/GuideCTA.astro';
 import type { CollectionEntry } from 'astro:content';
 import { getEntry } from 'astro:content';
 
@@ -187,6 +188,9 @@ const formattedUpdatedDate = date_updated_at
 
       <!-- Related Posts -->
       <RelatedPosts currentPost={post} />
+
+      <!-- CTA Section -->
+      <GuideCTA />
 
       <!-- Author Bio -->
       <div class="mb-8 p-8 bg-bg-primary rounded-2xl border border-border">

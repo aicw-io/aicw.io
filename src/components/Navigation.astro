@@ -14,6 +14,20 @@ const linkClass = isDark
 const mobileMenuClass = isDark
   ? 'border-white/20'
   : 'border-border';
+const dropdownBgClass = isDark
+  ? 'bg-dark-800 border-white/10'
+  : 'bg-white border-border shadow-lg';
+const dropdownLinkClass = isDark
+  ? 'text-white/80 hover:text-white hover:bg-white/10'
+  : 'text-text-secondary hover:text-text-primary hover:bg-bg-secondary';
+
+// Resources dropdown items
+const resourceLinks = [
+  { name: 'Brand Mentions by AI', href: '/reports/', description: 'See how AI ranks brands' },
+  { name: 'AI Search Engines', href: '/ai-search-engine/', description: 'Guides to AI search' },
+  { name: 'AI Chatbots', href: '/ai-chat-bot/', description: 'Guides to AI chatbots' },
+  { name: 'AI Crawler Bots', href: '/ai-crawler-bot/', description: 'Guides to AI crawlers' },
+];
 ---
 
 <nav class={`${bgClass} relative z-50`}>
@@ -28,21 +42,51 @@ const mobileMenuClass = isDark
         <a href="/#features" class={`${linkClass} transition-colors`}>
           Features
         </a>
-        <a href="/blog" class={`${linkClass} transition-colors`}>
+        <a href="/blog/" class={`${linkClass} transition-colors`}>
           Blog
         </a>
-        <a href="/reports/" class={`${linkClass} transition-colors`}>
-          Brand Mentions by AI
-        </a>
+
+        <!-- Resources Dropdown -->
+        <div class="relative group">
+          <button class={`${linkClass} transition-colors flex items-center gap-1`}>
+            Resources
+            <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <!-- Dropdown Menu -->
+          <div class={`absolute top-full left-0 mt-2 w-64 rounded-lg border ${dropdownBgClass} opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200`}>
+            <div class="py-2">
+              {resourceLinks.map((link) => (
+                <a
+                  href={link.href}
+                  class={`block px-4 py-3 ${dropdownLinkClass} transition-colors`}
+                >
+                  <div class="font-medium">{link.name}</div>
+                  <div class={`text-xs ${isDark ? 'text-white/50' : 'text-text-light'}`}>{link.description}</div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA and Login -->
         <a href="https://app.aichatwatch.com" class="px-4 py-2 gradient-primary rounded-lg text-white font-medium hover:shadow-lg transition-all">
+          Track AI Visibility
+        </a>
+        <a href="https://app.aichatwatch.com" class={`${linkClass} transition-colors`}>
           Login
         </a>
       </div>
 
       <!-- Mobile Menu Button -->
       <button id="mobile-menu-btn" class={`md:hidden p-2 ${linkClass}`} aria-label="Toggle menu">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
     </div>
@@ -53,15 +97,33 @@ const mobileMenuClass = isDark
         <a href="/#features" class={`${linkClass} transition-colors`}>
           Features
         </a>
-        <a href="/blog" class={`${linkClass} transition-colors`}>
+        <a href="/blog/" class={`${linkClass} transition-colors`}>
           Blog
         </a>
-        <a href="/reports/" class={`${linkClass} transition-colors`}>
-          Brand Mentions by AI
-        </a>
-        <a href="https://app.aichatwatch.com" class="px-4 py-2 gradient-primary rounded-lg text-white font-medium hover:shadow-lg transition-all text-center">
-          Login
-        </a>
+
+        <!-- Mobile Resources Section -->
+        <div class="pt-2">
+          <div class={`text-sm font-semibold mb-2 ${isDark ? 'text-white/50' : 'text-text-light'}`}>
+            Resources
+          </div>
+          <div class="flex flex-col gap-2 pl-4">
+            {resourceLinks.map((link) => (
+              <a href={link.href} class={`${linkClass} transition-colors`}>
+                {link.name}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Mobile CTAs -->
+        <div class="flex flex-col gap-3 pt-4 border-t border-current/10">
+          <a href="https://app.aichatwatch.com" class="px-4 py-2 gradient-primary rounded-lg text-white font-medium hover:shadow-lg transition-all text-center">
+            Track AI Visibility
+          </a>
+          <a href="https://app.aichatwatch.com" class={`${linkClass} transition-colors text-center`}>
+            Login
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -70,8 +132,12 @@ const mobileMenuClass = isDark
 <script>
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
+  const menuIconOpen = document.getElementById('menu-icon-open');
+  const menuIconClose = document.getElementById('menu-icon-close');
 
   mobileMenuBtn?.addEventListener('click', () => {
     mobileMenu?.classList.toggle('hidden');
+    menuIconOpen?.classList.toggle('hidden');
+    menuIconClose?.classList.toggle('hidden');
   });
 </script>
