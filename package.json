@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "sync-reports": "rsync -av --delete '../aicw-ee-data/aichatwatch.com/data/reports/' './public/reports/'",
-    "build": "astro build",
+    "build": "astro build && cp dist/sitemap-index.xml dist/sitemap.xml",
     "preview": "astro preview",
     "astro": "astro"
   },
