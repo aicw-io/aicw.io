@@ -1,7 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Navigation from '../components/Navigation.astro';
-import TableOfContents from '../components/TableOfContents.astro';
+import StickyTableOfContents from '../components/StickyTableOfContents.astro';
 import SocialShareButtons from '../components/SocialShareButtons.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 import GuideCTA from '../components/GuideCTA.astro';
@@ -77,110 +77,113 @@ const collectionName = collectionNames[collection] || collection;
     <Navigation />
 
     <!-- Guide Content -->
-    <article class="container mx-auto px-6 py-12 max-w-4xl">
-      <!-- Hero Image -->
-      {heroImage && (
-        <div class="mb-8 -mx-6 md:mx-0 md:rounded-lg overflow-hidden">
-          <img
-            src={heroImage}
-            alt={title}
-            class="w-full h-auto"
-          />
-        </div>
-      )}
+    <div class="container mx-auto px-6 py-12">
+      <!-- Grid layout with sticky TOC sidebar -->
+      <div class="max-w-7xl mx-auto lg:grid lg:grid-cols-[220px_1fr] lg:gap-8">
+        <!-- Left Sidebar TOC (desktop only) -->
+        <StickyTableOfContents />
 
-      <!-- Post Header -->
-      <header class="mb-8">
-        <!-- Breadcrumb -->
-        <nav class="flex items-center gap-2 text-sm text-text-light mb-4">
-          <a href="/" class="hover:text-primary-700 transition-colors">Home</a>
-          <span>/</span>
-          <a href={`/${collection}/`} class="hover:text-primary-700 transition-colors">{collectionName}</a>
-          <span>/</span>
-          <span class="text-text-secondary truncate">{title}</span>
-        </nav>
-
-        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-text-primary font-heading">
-          {title}
-        </h1>
-
-        <p class="text-xl text-text-secondary mb-6">
-          {description}
-        </p>
-
-        <!-- Post Meta -->
-        <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-light">
-          <!-- Reading time -->
-          <div class="flex items-center">
-            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
-            <span>{readingTime} min read</span>
-          </div>
-          <!-- Word count -->
-          <div class="flex items-center">
-            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-            </svg>
-            <span>{wordCount.toLocaleString()} words</span>
-          </div>
-          <span class="hidden sm:inline">·</span>
-          <time datetime={date.toISOString()}>
-            {formattedDate}
-          </time>
-          {formattedUpdatedDate && (
-            <span>
-              · Updated {formattedUpdatedDate}
-            </span>
+        <!-- Main Article -->
+        <article class="max-w-4xl">
+          <!-- Hero Image -->
+          {heroImage && (
+            <div class="mb-8 -mx-6 md:mx-0 md:rounded-lg overflow-hidden">
+              <img
+                src={heroImage}
+                alt={title}
+                class="w-full h-auto"
+              />
+            </div>
           )}
-        </div>
-      </header>
 
-      <!-- Social Share Buttons (Top) -->
-      <SocialShareButtons title={title} url={`/${collection}/${guide.slug}/`} />
+          <!-- Post Header -->
+          <header class="mb-8">
+            <!-- Breadcrumb -->
+            <nav class="flex items-center gap-2 text-sm text-text-light mb-4">
+              <a href="/" class="hover:text-primary-700 transition-colors">Home</a>
+              <span>/</span>
+              <a href={`/${collection}/`} class="hover:text-primary-700 transition-colors">{collectionName}</a>
+              <span>/</span>
+              <span class="text-text-secondary truncate">{title}</span>
+            </nav>
 
-      <!-- Table of Contents -->
-      <TableOfContents />
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-text-primary font-heading">
+              {title}
+            </h1>
 
-      <!-- Main Content with Tailwind Typography -->
-      <div class="prose prose-lg max-w-none
-        prose-headings:font-heading prose-headings:text-text-primary
-        prose-h2:mt-12 prose-h2:mb-4
-        prose-h3:mt-8 prose-h3:mb-3
-        prose-p:text-text-secondary prose-p:leading-relaxed prose-p:mb-6
-        prose-a:text-primary-700 prose-a:no-underline hover:prose-a:underline
-        prose-strong:text-text-primary prose-strong:font-semibold
-        prose-code:bg-bg-secondary prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
-        prose-pre:bg-dark-900 prose-pre:border prose-pre:border-border
-        prose-img:rounded-lg prose-img:shadow-lg prose-img:mx-auto prose-img:max-w-2xl prose-img:max-h-[500px] prose-img:cursor-zoom-in
-        prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:bg-bg-secondary prose-blockquote:py-1
-        prose-table:border-collapse prose-table:w-full prose-table:my-8
-        prose-th:bg-bg-secondary prose-th:border prose-th:border-border prose-th:px-4 prose-th:py-3 prose-th:text-left prose-th:font-semibold
-        prose-td:border prose-td:border-border prose-td:px-4 prose-td:py-3
-        mb-12"
-      >
-        <Content />
+            <p class="text-xl text-text-secondary mb-6">
+              {description}
+            </p>
+
+            <!-- Post Meta -->
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-light">
+              <!-- Reading time -->
+              <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>{readingTime} min read</span>
+              </div>
+              <!-- Word count -->
+              <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                </svg>
+                <span>{wordCount.toLocaleString()} words</span>
+              </div>
+              <span class="hidden sm:inline">·</span>
+              <time datetime={date.toISOString()}>
+                {formattedDate}
+              </time>
+              {formattedUpdatedDate && (
+                <span>
+                  · Updated {formattedUpdatedDate}
+                </span>
+              )}
+            </div>
+          </header>
+
+          <!-- Main Content with Tailwind Typography -->
+          <div class="prose prose-lg max-w-none
+            prose-headings:font-heading prose-headings:text-text-primary
+            prose-h2:mt-12 prose-h2:mb-4
+            prose-h3:mt-8 prose-h3:mb-3
+            prose-p:text-text-secondary prose-p:leading-relaxed prose-p:mb-6
+            prose-a:text-primary-700 prose-a:no-underline hover:prose-a:underline
+            prose-strong:text-text-primary prose-strong:font-semibold
+            prose-code:bg-bg-secondary prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
+            prose-pre:bg-dark-900 prose-pre:border prose-pre:border-border
+            prose-img:rounded-lg prose-img:shadow-lg prose-img:mx-auto prose-img:max-w-2xl prose-img:max-h-[500px] prose-img:cursor-zoom-in
+            prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:bg-bg-secondary prose-blockquote:py-1
+            prose-table:border-collapse prose-table:w-full prose-table:my-8
+            prose-th:bg-bg-secondary prose-th:border prose-th:border-border prose-th:px-4 prose-th:py-3 prose-th:text-left prose-th:font-semibold
+            prose-td:border prose-td:border-border prose-td:px-4 prose-td:py-3
+            mb-12"
+          >
+            <Content />
+          </div>
+
+          <!-- Social Share Buttons (Bottom) -->
+          <SocialShareButtons title={title} url={`/${collection}/${guide.slug}/`} />
+
+          <!-- CTA Section -->
+          <GuideCTA />
+
+          <!-- Footer: Back to Collection -->
+          <div class="border-t border-border pt-8 mt-8">
+            <a
+              href={`/${collection}/`}
+              class="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 transition-colors"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              Back to {collectionName}
+            </a>
+          </div>
+        </article>
       </div>
-
-      <!-- Social Share Buttons (Bottom) -->
-      <SocialShareButtons title={title} url={`/${collection}/${guide.slug}/`} />
-
-      <!-- CTA Section -->
-      <GuideCTA />
-
-      <!-- Footer: Back to Collection -->
-      <div class="border-t border-border pt-8 mt-8">
-        <a
-          href={`/${collection}/`}
-          class="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 transition-colors"
-        >
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-          Back to {collectionName}
-        </a>
-      </div>
-    </article>
+    </div>
 
     <!-- Image Lightbox -->
     <ImageLightbox />

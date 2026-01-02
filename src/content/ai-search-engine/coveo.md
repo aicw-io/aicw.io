@@ -59,12 +59,13 @@ Coveo boasts various features for diverse use cases:
 ### AI Features:
 * User behavior tracking  
 
-![AI Features: Diagram](/assets/ai-search-engine/coveo/commerce-search-workplace.png)
 
 * Personalized results  
 * Automated relevance tuning  
 * Query suggestions  
 * Content recommendations  
+
+![AI Features: Diagram](/assets/ai-search-engine/coveo/commerce-search-workplace.png)
 
 ### Integration Features:
 * Works with 50+ data sources  
@@ -72,9 +73,10 @@ Coveo boasts various features for diverse use cases:
 * Ready connectors for common systems  
 * Security settings  
 
-![Integration Features: Diagram](/assets/ai-search-engine/coveo/business-systems-coveo.png)
 
 * Usage analytics  
+
+![Integration Features: Diagram](/assets/ai-search-engine/coveo/business-systems-coveo.png)
 
 <a id="main-use-cases"></a>
 

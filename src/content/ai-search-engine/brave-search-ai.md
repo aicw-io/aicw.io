@@ -26,6 +26,7 @@ Launched in June 2022, Brave Search AI stands out from other search engines by o
 <a id="how-brave-search-ai-works"></a>
 
 ## How Brave Search AI Works
+
 ![How Brave Search AI Works Diagram](/assets/ai-search-engine/brave-search-ai/start-brave-search.png)
 
 
@@ -38,13 +39,14 @@ Brave Search operates on its own independent index, containing over 20 billion p
 <a id="leo-ai-assistant"></a>
 
 ### Leo AI Assistant
+
 Brave Leo is the AI chat assistant introduced in 2024, designed to:
 * Answer questions about search results
 * Explain complex topics
-![Leo AI Assistant Diagram](/assets/ai-search-engine/brave-search-ai/brave-search-engine.png)
-
 * Assist with research tasks
 * Generate summaries of web pages
+
+![Leo AI Assistant Diagram](/assets/ai-search-engine/brave-search-ai/brave-search-engine.png)
 
 <a id="ai-summarizer"></a>
 
@@ -58,12 +60,13 @@ Introduced in March 2023, the AI Summarizer offers:
 
 ### Privacy Settings
 Brave Search's privacy features ensure:
-![Privacy Settings Diagram](/assets/ai-search-engine/brave-search-ai/assistant-features-answer.png)
 
 * No IP address tracking
 * No storage of search history
 * No personal data collection
 * Absence of targeted ads based on searches
+
+![Privacy Settings Diagram](/assets/ai-search-engine/brave-search-ai/assistant-features-answer.png)
 
 ![Privacy Settings Diagram](/assets/ai-search-engine/brave-search-ai/summarizer-summarizer-provides.png)
 
@@ -76,8 +79,6 @@ Brave Search's privacy features ensure:
 | Brave Search  | Yes       | Full set    | Very High     |
 | DuckDuckGo    | No        | Limited     | High          |
 | Startpage     | No        | Limited     | High          |
-![Comparison with Other Search Engines Diagram](/assets/ai-search-engine/brave-search-ai/privacy-brave-search.png)
-
 | Qwant         | Partial   | Basic       | High          |
 
 <a id="independent-search-index"></a>
@@ -89,6 +90,8 @@ Brave's independent search index is crucial because:
 * Results are not filtered by external entities
 * It offers varied and unbiased search results
 * It grows daily based on actual web usage
+
+![Comparison with Other Search Engines Diagram](/assets/ai-search-engine/brave-search-ai/privacy-brave-search.png)
 
 The comprehensive index covers a substantial portion of English content and continuously expands, boasting over 20 billion indexed pages.
 
@@ -102,6 +105,7 @@ To maximize efficiency when using Brave Search, consider these tips:
 * Review AI-generated summaries for rapid information access
 * Use filters to refine search results
 * Experiment with different search modes (All, News, Images)
+
 ![Using Brave Search AI Effectively Diagram](/assets/ai-search-engine/brave-search-ai/index-brave-independent.png)
 
 

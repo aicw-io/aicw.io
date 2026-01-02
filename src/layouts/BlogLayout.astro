@@ -3,7 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Navigation from '../components/Navigation.astro';
 import BlogPostSchema from '../components/BlogPostSchema.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
-import TableOfContents from '../components/TableOfContents.astro';
+import StickyTableOfContents from '../components/StickyTableOfContents.astro';
 import SocialShareButtons from '../components/SocialShareButtons.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import GuideCTA from '../components/GuideCTA.astro';
@@ -84,155 +84,158 @@ const formattedUpdatedDate = date_updated_at
     <Navigation />
 
     <!-- Blog Post Content -->
-    <article class="container mx-auto px-6 py-12 max-w-4xl">
-      <!-- Hero Image -->
-      {heroImage && (
-        <div class="mb-8 -mx-6 md:mx-0 md:rounded-lg overflow-hidden">
-          <img
-            src={heroImage}
-            alt={heroImageAlt || title}
-            class="w-full h-auto"
-          />
-        </div>
-      )}
+    <div class="container mx-auto px-6 py-12">
+      <!-- Grid layout with sticky TOC sidebar -->
+      <div class="max-w-7xl mx-auto lg:grid lg:grid-cols-[220px_1fr] lg:gap-8">
+        <!-- Left Sidebar TOC (desktop only) -->
+        <StickyTableOfContents />
 
-      <!-- Post Header -->
-      <header class="mb-8">
-        <!-- Categories -->
-        {categories && categories.length > 0 && (
-          <div class="flex flex-wrap gap-2 mb-4">
-            {categories.map(category => (
-              <a
-                href={`/blog/category/${category}/`}
-                class="px-3 py-1 text-sm rounded-full bg-primary-100 text-primary-700 hover:bg-primary-200 transition-colors"
-              >
-                {category}
-              </a>
-            ))}
-          </div>
-        )}
-
-        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-text-primary font-heading">
-          {title}
-        </h1>
-
-        <p class="text-xl text-text-secondary mb-6">
-          {description}
-        </p>
-
-        <!-- Post Meta -->
-        <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-light">
-          <!-- Reading time -->
-          <div class="flex items-center">
-            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
-            <span>{readingTime} min read</span>
-          </div>
-          <!-- Word count -->
-          <div class="flex items-center">
-            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-            </svg>
-            <span>{wordCount.toLocaleString()} words</span>
-          </div>
-          <span class="hidden sm:inline">·</span>
-          <time datetime={date.toISOString()}>
-            {formattedDate}
-          </time>
-          {formattedUpdatedDate && (
-            <span>
-              · Updated {formattedUpdatedDate}
-            </span>
+        <!-- Main Article -->
+        <article class="max-w-4xl">
+          <!-- Hero Image -->
+          {heroImage && (
+            <div class="mb-8 -mx-6 md:mx-0 md:rounded-lg overflow-hidden">
+              <img
+                src={heroImage}
+                alt={heroImageAlt || title}
+                class="w-full h-auto"
+              />
+            </div>
           )}
-          <span>·</span>
-          <a href={`/author/${author.slug}/`} class="hover:text-primary-700 transition-colors">
-            {author.data.name}
-          </a>
-        </div>
 
-        <!-- Tags -->
-        {tags && tags.length > 0 && (
-          <div class="flex flex-wrap gap-2 mt-4">
-            {tags.map(tag => (
-              <span class="text-xs px-2 py-1 bg-bg-secondary text-text-secondary rounded">
-                #{tag}
-              </span>
-            ))}
-          </div>
-        )}
-      </header>
+          <!-- Post Header -->
+          <header class="mb-8">
+            <!-- Categories -->
+            {categories && categories.length > 0 && (
+              <div class="flex flex-wrap gap-2 mb-4">
+                {categories.map(category => (
+                  <a
+                    href={`/blog/category/${category}/`}
+                    class="px-3 py-1 text-sm rounded-full bg-primary-100 text-primary-700 hover:bg-primary-200 transition-colors"
+                  >
+                    {category}
+                  </a>
+                ))}
+              </div>
+            )}
 
-      <!-- Social Share Buttons (Top) -->
-      <SocialShareButtons title={title} url={`/blog/${post.slug}/`} />
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-text-primary font-heading">
+              {title}
+            </h1>
 
-      <!-- Table of Contents -->
-      <TableOfContents />
+            <p class="text-xl text-text-secondary mb-6">
+              {description}
+            </p>
 
-      <!-- Main Content with Tailwind Typography -->
-      <div class="prose prose-lg max-w-none
-        prose-headings:font-heading prose-headings:text-text-primary
-        prose-p:text-text-secondary prose-p:leading-relaxed
-        prose-a:text-primary-700 prose-a:no-underline hover:prose-a:underline
-        prose-strong:text-text-primary prose-strong:font-semibold
-        prose-code:bg-bg-secondary prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
-        prose-pre:bg-dark-900 prose-pre:border prose-pre:border-border
-        prose-img:rounded-lg prose-img:shadow-lg prose-img:mx-auto prose-img:max-w-2xl prose-img:max-h-[500px] prose-img:cursor-zoom-in
-        prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:bg-bg-secondary prose-blockquote:py-1
-        mb-12"
-      >
-        <Content />
-      </div>
-
-      <!-- Social Share Buttons (Bottom) -->
-      <SocialShareButtons title={title} url={`/blog/${post.slug}/`} />
-
-      <!-- Related Posts -->
-      <RelatedPosts currentPost={post} />
-
-      <!-- CTA Section -->
-      <GuideCTA />
-
-      <!-- Author Bio -->
-      <div class="mb-8 p-8 bg-bg-primary rounded-2xl border border-border">
-        <h2 class="text-xl font-bold mb-6 text-primary-700">About The Author</h2>
-        <div class="flex items-center">
-          <a href={`/author/${author.slug}/`}>
-            <img
-              src={author.data.avatar}
-              alt={author.data.name}
-              class="w-16 h-16 rounded-full mr-6 object-cover border-2 border-primary-600"
-            />
-          </a>
-          <div>
-            <h3 class="text-xl font-semibold text-primary-700 mb-2">
-              <a href={`/author/${author.slug}/`} class="hover:text-primary-800 transition-colors">
+            <!-- Post Meta -->
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-light">
+              <!-- Reading time -->
+              <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>{readingTime} min read</span>
+              </div>
+              <!-- Word count -->
+              <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                </svg>
+                <span>{wordCount.toLocaleString()} words</span>
+              </div>
+              <span class="hidden sm:inline">·</span>
+              <time datetime={date.toISOString()}>
+                {formattedDate}
+              </time>
+              {formattedUpdatedDate && (
+                <span>
+                  · Updated {formattedUpdatedDate}
+                </span>
+              )}
+              <span>·</span>
+              <a href={`/author/${author.slug}/`} class="hover:text-primary-700 transition-colors">
                 {author.data.name}
               </a>
-            </h3>
-            <p class="text-text-secondary leading-relaxed text-base mb-2">
-              {author.data.bio}
-            </p>
-            <a href={`/author/${author.slug}/`} class="text-sm text-primary-700 hover:text-primary-800 font-medium">
-              View all posts by {author.data.name} →
+            </div>
+
+            <!-- Tags -->
+            {tags && tags.length > 0 && (
+              <div class="flex flex-wrap gap-2 mt-4">
+                {tags.map(tag => (
+                  <span class="text-xs px-2 py-1 bg-bg-secondary text-text-secondary rounded">
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </header>
+
+          <!-- Main Content with Tailwind Typography -->
+          <div class="prose prose-lg max-w-none
+            prose-headings:font-heading prose-headings:text-text-primary
+            prose-p:text-text-secondary prose-p:leading-relaxed
+            prose-a:text-primary-700 prose-a:no-underline hover:prose-a:underline
+            prose-strong:text-text-primary prose-strong:font-semibold
+            prose-code:bg-bg-secondary prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
+            prose-pre:bg-dark-900 prose-pre:border prose-pre:border-border
+            prose-img:rounded-lg prose-img:shadow-lg prose-img:mx-auto prose-img:max-w-2xl prose-img:max-h-[500px] prose-img:cursor-zoom-in
+            prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:bg-bg-secondary prose-blockquote:py-1
+            mb-12"
+          >
+            <Content />
+          </div>
+
+          <!-- Social Share Buttons (Bottom) -->
+          <SocialShareButtons title={title} url={`/blog/${post.slug}/`} />
+
+          <!-- Related Posts -->
+          <RelatedPosts currentPost={post} />
+
+          <!-- CTA Section -->
+          <GuideCTA />
+
+          <!-- Author Bio -->
+          <div class="mb-8 p-8 bg-bg-primary rounded-2xl border border-border">
+            <h2 class="text-xl font-bold mb-6 text-primary-700">About The Author</h2>
+            <div class="flex items-center">
+              <a href={`/author/${author.slug}/`}>
+                <img
+                  src={author.data.avatar}
+                  alt={author.data.name}
+                  class="w-16 h-16 rounded-full mr-6 object-cover border-2 border-primary-600"
+                />
+              </a>
+              <div>
+                <h3 class="text-xl font-semibold text-primary-700 mb-2">
+                  <a href={`/author/${author.slug}/`} class="hover:text-primary-800 transition-colors">
+                    {author.data.name}
+                  </a>
+                </h3>
+                <p class="text-text-secondary leading-relaxed text-base mb-2">
+                  {author.data.bio}
+                </p>
+                <a href={`/author/${author.slug}/`} class="text-sm text-primary-700 hover:text-primary-800 font-medium">
+                  View all posts by {author.data.name} →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer: Back to Blog -->
+          <div class="border-t border-border pt-8">
+            <a
+              href="/blog"
+              class="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 transition-colors"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              Back to Blog
             </a>
           </div>
-        </div>
+        </article>
       </div>
-
-      <!-- Footer: Back to Blog -->
-      <div class="border-t border-border pt-8">
-        <a
-          href="/blog"
-          class="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 transition-colors"
-        >
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-          Back to Blog
-        </a>
-      </div>
-    </article>
+    </div>
 
     <!-- Image Lightbox -->
     <ImageLightbox />

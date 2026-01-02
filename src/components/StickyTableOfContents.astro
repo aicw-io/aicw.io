@@ -1,0 +1,90 @@
+---
+/**
+ * StickyTableOfContents - Desktop sticky sidebar + Mobile collapsible
+ * - Desktop: Fixed left sidebar that scrolls with page
+ * - Mobile: Collapsible panel using native <details>
+ * - Only includes H2 headings (top-level)
+ */
+---
+
+<!-- Desktop TOC (sticky sidebar) -->
+<aside id="sticky-toc" class="hidden lg:block">
+  <nav class="sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto pr-4">
+    <div class="bg-bg-primary rounded-xl p-5 border border-border">
+      <h3 class="text-sm font-semibold mb-3 text-text-light uppercase tracking-wider">Contents</h3>
+      <ul id="toc-list" class="space-y-1 text-sm"></ul>
+    </div>
+  </nav>
+</aside>
+
+<!-- Mobile TOC (collapsible) -->
+<details id="mobile-toc" class="lg:hidden mb-6 bg-bg-primary rounded-xl border border-border">
+  <summary class="p-4 cursor-pointer font-semibold text-text-primary flex items-center justify-between">
+    <span>Table of Contents</span>
+    <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+    </svg>
+  </summary>
+  <ul id="mobile-toc-list" class="px-4 pb-4 space-y-2 text-sm"></ul>
+</details>
+
+<style>
+  details[open] summary svg { transform: rotate(180deg); }
+</style>
+
+<script is:inline>
+document.addEventListener('DOMContentLoaded', function() {
+  const article = document.querySelector('article');
+  if (!article) return;
+
+  const contentDiv = article.querySelector('.prose');
+  if (!contentDiv) return;
+
+  // H2 only - no H3 or deeper
+  const headings = contentDiv.querySelectorAll('h2');
+  if (headings.length === 0) {
+    document.getElementById('sticky-toc')?.remove();
+    document.getElementById('mobile-toc')?.remove();
+    return;
+  }
+
+  const tocList = document.getElementById('toc-list');
+  const mobileTocList = document.getElementById('mobile-toc-list');
+  const excludeTitles = ['table of contents', 'share this article', 'about the author', 'related posts', 'frequently asked questions'];
+
+  headings.forEach(function(heading) {
+    const text = heading.textContent?.trim() || '';
+    if (excludeTitles.some(function(ex) { return text.toLowerCase().includes(ex); })) return;
+
+    if (!heading.id) {
+      heading.id = text.toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .substring(0, 50);
+    }
+
+    var createLink = function() {
+      var li = document.createElement('li');
+      var link = document.createElement('a');
+      link.href = '#' + heading.id;
+      link.textContent = text;
+      link.className = 'block text-text-secondary hover:text-primary-700 transition-colors py-1 border-l-2 border-transparent hover:border-primary-500 pl-3 -ml-3';
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        history.pushState(null, '', link.href);
+      });
+      li.appendChild(link);
+      return li;
+    };
+
+    if (tocList) tocList.appendChild(createLink());
+    if (mobileTocList) mobileTocList.appendChild(createLink());
+  });
+
+  if (tocList && !tocList.children.length) {
+    document.getElementById('sticky-toc')?.remove();
+    document.getElementById('mobile-toc')?.remove();
+  }
+});
+</script>
