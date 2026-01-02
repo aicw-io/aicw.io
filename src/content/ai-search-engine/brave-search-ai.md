@@ -378,3 +378,4 @@ The AI Summarizer quickly provides article overviews, helping users to identify 
   ]
 }
 </script>
+
