@@ -26,6 +26,7 @@ Key features of ChatGPT shopping:
 * User ratings and reviews
 * No paid product placements
 * Direct links to seller websites
+
 ![What Are ChatGPT Shopping Features? Diagram](/assets/ai-search-engine/chatgpt-shopping/user-inquiry-chatgpt.png)
 
 **Figure 1**: High-level overview of how ChatGPT handles shopping inquiries.
@@ -78,6 +79,7 @@ ChatGPT offers several tools for comprehensive product research:
 ## Differences from Google Shopping and Amazon
 
 ChatGPT shopping offers unique features compared to other platforms like **AI ecommerce** solutions:
+
 ![Differences from Google Shopping and Amazon Diagram](/assets/ai-search-engine/chatgpt-shopping/product-data-sources.png)
 
 **Figure 4**: Sources and updates of product data employed by ChatGPT.
@@ -94,6 +96,7 @@ ChatGPT shopping offers unique features compared to other platforms like **AI ec
 * Displays sponsored products first.
 * Includes local store inventory.
 * Offers direct purchase options.
+
 ![Differences from Google Shopping and Amazon Diagram](/assets/ai-search-engine/chatgpt-shopping/privacy-features-storage.png)
 
 **Figure 5**: Privacy features implemented by ChatGPT Shopping.
@@ -110,7 +113,6 @@ ChatGPT shopping offers unique features compared to other platforms like **AI ec
 ## Integration with ChatGPT Plus
 
 The **ChatGPT Plus Shopping** feature is integrated with ChatGPT Plus. Plus users access:
-
 * Real-time product data
 * Visual product cards
 * Detailed comparison tools

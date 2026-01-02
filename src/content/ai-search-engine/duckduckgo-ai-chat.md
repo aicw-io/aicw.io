@@ -39,7 +39,6 @@ Privacy remains central to this tool, offering the following features:
 <a id="privacy-features-overview"></a>
 
 ### Privacy Features Overview:
-![Privacy Features Overview: Diagram](/assets/ai-search-engine/duckduckgo-ai-chat/data-storage-user.png)
 
 * No conversation storage.
 * No user tracking.
@@ -47,6 +46,8 @@ Privacy remains central to this tool, offering the following features:
 * Fresh start with each chat.
 * No account needed.
 * No chat history saved.
+
+![Privacy Features Overview: Diagram](/assets/ai-search-engine/duckduckgo-ai-chat/data-storage-user.png)
 
 This differentiates it from [other AI chat services, which often save chats and data](https://duckduckgo.com/duckduckgo-help-pages/duckai/ai-chat-privacy).
 

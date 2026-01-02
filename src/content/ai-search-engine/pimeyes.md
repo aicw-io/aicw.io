@@ -51,7 +51,6 @@ PimEyes vs Clearview AI Comparison:
 ![Detailed Facts and Comparison Diagram](/assets/ai-search-engine/pimeyes/face-recognition-tools.png)
 
 
-
 Both tools have sparked debates over privacy and data ethics. PimEyes provides opt-out options, letting users request image removal.
 
 <a id="conclusion"></a>

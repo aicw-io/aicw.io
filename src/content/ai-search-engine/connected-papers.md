@@ -88,11 +88,12 @@ Additional search refinements:
 
 * Filter by year range
 
-![Advanced Search Features Diagram](/assets/ai-search-engine/connected-papers/advanced-search-prior.png)
 
 * Sort by citation count
 * Focus on specific authors
 * Export references
+
+![Advanced Search Features Diagram](/assets/ai-search-engine/connected-papers/advanced-search-prior.png)
 
 <a id="free-vs-premium-features"></a>
 

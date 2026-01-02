@@ -86,7 +86,6 @@ How Google AI Overviews Generate Answers:
 ![Conclusion Diagram](/assets/ai-search-engine/google-ai-overviews/search-query-website.png)
 
 
-
 Transition from SGE to AI Overviews:
 ![Conclusion Diagram](/assets/ai-search-engine/google-ai-overviews/introduction-testing-phase.png)
 ## Frequently Asked Questions
