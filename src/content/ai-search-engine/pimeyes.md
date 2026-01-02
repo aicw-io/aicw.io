@@ -56,6 +56,8 @@ The primary purpose of PimEyes is [to help users identify where their images are
 | GDPR Compliance | Claims compliant | Controversial    |
 | User Base       | Public access    | Law enforcement  |
 | Data Sources    | Public web       | Various sources  |
+
+
 PimEyes vs Clearview AI Comparison:
 ![Detailed Facts and Comparison Diagram](/assets/images/diagrams/ai-search-engine-pimeyes-face-recognition-tools-0db10326.png)
 

@@ -4,9 +4,11 @@
 
 const currentYear = new Date().getFullYear();
 
+// current page url
+const url = Astro.url.pathname;
 // AI prompt for "Ask AI" links
 const aiPrompt = encodeURIComponent(
-  "As a marketer, SEO professional, or business owner, I want to understand how AI Chat Watch helps track and improve brand visibility across AI chatbots like ChatGPT, Claude, and Perplexity. What are its key features and how does it work? Summarize the highlights from: https://www.aichatwatch.com"
+  "As a marketer, SEO professional, or business owner, I want to understand how AI Chat Watch helps track and improve brand visibility across AI chatbots like ChatGPT, Claude, and Perplexity. What are its key features and how does it work? Summarize the highlights from: ${url}"
 );
 
 // Google Favicon service helper
@@ -70,7 +72,7 @@ const reportCategories = [
 
     <!-- ASK_AI_FOOTER_START -->
     <div class="mb-10 pb-8 border-b border-white/10">
-      <p class="text-white/80 mb-4 text-sm">Ask AI for a summary of AI Chat Watch</p>
+      <p class="text-white/80 mb-4 text-sm">Ask AI for a summary of this page</p>
       <div class="flex flex-wrap gap-3">
         {aiServices.map((service) => (
           <a

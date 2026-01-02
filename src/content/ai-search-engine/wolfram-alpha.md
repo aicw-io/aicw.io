@@ -67,14 +67,13 @@ Below is a simple comparison with similar tools:
 |-----------------|-----------------------------|-------------------------------|
 | Wolfram Alpha   | Computational engine        | Education, AI tools combination |
 | Google Search   | Document retrieval          | General web searches          |
+| Microsoft Bing  | AI-powered search           | Web searches with AI tools    |
+| IBM Watson      | AI data analysis            | Business intelligence         |
+| OpenAI GPT-3    | Natural language processing | Conversational AI             |
 
 Business Integration Workflow:
 ![Key Features and Comparisons Diagram](/assets/images/diagrams/ai-search-engine-wolfram-alpha-business-query-wolfram-7b7e8ee6.png)
 
-
-| Microsoft Bing  | AI-powered search           | Web searches with AI tools    |
-| IBM Watson      | AI data analysis            | Business intelligence         |
-| OpenAI GPT-3    | Natural language processing | Conversational AI             |
 
 <a id="conclusion"></a>
 

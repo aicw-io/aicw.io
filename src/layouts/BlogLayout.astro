@@ -7,6 +7,7 @@ import TableOfContents from '../components/TableOfContents.astro';
 import SocialShareButtons from '../components/SocialShareButtons.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import GuideCTA from '../components/GuideCTA.astro';
+import ImageLightbox from '../components/ImageLightbox.astro';
 import type { CollectionEntry } from 'astro:content';
 import { getEntry } from 'astro:content';
 
@@ -176,7 +177,7 @@ const formattedUpdatedDate = date_updated_at
         prose-strong:text-text-primary prose-strong:font-semibold
         prose-code:bg-bg-secondary prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
         prose-pre:bg-dark-900 prose-pre:border prose-pre:border-border
-        prose-img:rounded-lg prose-img:shadow-lg
+        prose-img:rounded-lg prose-img:shadow-lg prose-img:mx-auto prose-img:max-w-2xl prose-img:max-h-[500px] prose-img:cursor-zoom-in
         prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:bg-bg-secondary prose-blockquote:py-1
         mb-12"
       >
@@ -232,6 +233,9 @@ const formattedUpdatedDate = date_updated_at
         </a>
       </div>
     </article>
+
+    <!-- Image Lightbox -->
+    <ImageLightbox />
   </div>
 
   <!-- Enhanced JSON-LD Schemas -->
