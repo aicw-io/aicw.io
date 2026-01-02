@@ -12,24 +12,6 @@ things: "Mojeek, independent search engine, Mojeekbot, privacy search engine, UK
 keywords: "Mojeek, independent search engine, Mojeekbot, privacy search engine, UK search engine, search engine crawler, Brave Search alternative, no tracking search, web index, search engine comparison"
 ---
 
-# Mojeek: The Independent UK Search Engine Explained
-
-## Table of Contents
-- [What is Mojeek Search Engine](#what-is-mojeek-search-engine)
-- [Why Mojeek Exists and Its Purpose](#why-mojeek-exists-and-its-purpose)
-- [How Mojeek Works and Its Crawler](#how-mojeek-works-and-its-crawler)
-- [Privacy Features and Data Practices](#privacy-features-and-data-practices)
-- [Mojeek vs Brave Search Comparison](#mojeek-vs-brave-search-comparison)
-- [Limitations and Index Size Considerations](#limitations-and-index-size-considerations)
-- [Technical Details and Mojeekbot Crawler](#technical-details-and-mojeekbot-crawler)
-- [Using Mojeek for Different Search Needs](#using-mojeek-for-different-search-needs)
-
-Mojeek is a UK search engine that stands out because it built its web index from scratch. Unlike most search engines that rely on Google or Bing results, Mojeek crawls the web independently using its search engine crawler called Mojeekbot. This makes it one of the few truly independent search engines available today.
-
-Search engines like Mojeek exist due to privacy concerns and data collection practices of major providers. Users are seeking alternatives that don't track their searches or build advertising profiles. Mojeek addresses this need by offering a no tracking search experience backed by an independent web index.
-
-The main features of Mojeek include complete search privacy with no user tracking, an independently built web index, and a commitment to unbiased search results. Operating from the UK, the company has been developing its search index since 2004, making it one of the oldest independent search projects still active.
-
 <a id="what-is-mojeek-search-engine"></a>
 
 ## What is Mojeek Search Engine
@@ -39,7 +21,7 @@ Mojeek is a search engine that maintains its own web index instead of licensing 
 The search engine uses Mojeekbot to crawl websites, discovering and indexing web pages independently. This crawler visits billions of pages to build and sustain Mojeek's search index. While the index size is smaller than Google's, it represents a genuine independent coverage of the web.
 
 Mojeek Architecture Overview:
-![What is Mojeek Search Engine Diagram](/assets/images/diagrams/ai-search-engine-mojeek-pages-mojeekbot-crawler-6e53bf70.png)
+![What is Mojeek Search Engine Diagram](/assets/ai-search-engine/mojeek/pages-mojeekbot-crawler.png)
 
 Mojeek doesn't collect personal data from users. No search history is stored, no tracking cookies are placed, and no advertising profiles are built. This privacy-first approach allows users to search without worrying about data collection.
 
@@ -122,7 +104,7 @@ Users searching for obscure information or newly published content may find fewe
 Local search capabilities are limited compared to major providers. Mojeek focuses primarily on web page indexing rather than local business databases. Users searching for nearby businesses or services may find better results on mainstream search engines.
 
 Search Privacy Comparison:
-![Limitations and Index Size Considerations Diagram](/assets/images/diagrams/ai-search-engine-mojeek-user-query-mojeek-e447cc01.png)
+![Limitations and Index Size Considerations Diagram](/assets/ai-search-engine/mojeek/user-query-mojeek.png)
 
 Image and video search are available but with smaller collections than specialized search engines. Google and Bing invest heavily in multimedia search infrastructure, while Mojeek's resources focus on web page indexing.
 
@@ -182,7 +164,7 @@ Mojeekbot crawler respects web standards and provides transparency for website o
 
 For developers, researchers, small business owners, and privacy-conscious users, Mojeek offers a practical search alternative. It proves that independent search engines can exist and operate successfully outside the mainstream provider ecosystem.
 Mojeekbot Crawling Process:
-![End Diagram](/assets/images/diagrams/ai-search-engine-mojeek-discover-urls-fetch-193ad47b.png)
+![End Diagram](/assets/ai-search-engine/mojeek/discover-urls-fetch.png)
 ## Frequently Asked Questions
 
 <details>

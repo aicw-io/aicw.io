@@ -12,17 +12,6 @@ things: "Tavily, AI search API, LLM applications, LangChain integration, Exa, Se
 keywords: "Tavily, AI search API, LLM applications, LangChain integration, Exa, SerpAPI"
 ---
 
-# Exploring Tavily: The AI Search API Optimized for LLM Applications
-
-## Table of Contents
-- [TL;DR](#tl-dr)
-- [What is Tavily?](#what-is-tavily)
-- [Why Tavily Exists](#why-tavily-exists)
-- [Business Use Cases](#business-use-cases)
-- [Tavily Integration with LangChain](#tavily-integration-with-langchain)
-- [Compare Tavily with Exa and SerpAPI](#compare-tavily-with-exa-and-serpapi)
-- [Conclusion](#conclusion)
-
 <a id="tl-dr"></a>
 
 ## TL;DR
@@ -36,7 +25,7 @@ Tavily is a pioneering AI search API aimed at developers utilizing large languag
 ## What is Tavily?
 
 Tavily Search API Architecture:
-![What is Tavily? Diagram](/assets/images/diagrams/ai-search-engine-tavily-application-tavily-structured-5ab09ee5.png)
+![What is Tavily? Diagram](/assets/ai-search-engine/tavily/application-tavily-structured.png)
 
 Tavily is an API-first tool crafted for developers and AI systems. It plays a crucial role in AI-powered applications, assisting in the rapid retrieval of pertinent information. By delivering structured search results, Tavily enables systems to comprehend and utilize data more effectively. Renowned for its detailed search outcomes and LLM enhancement, Tavily is an invaluable tool for developers.
 
@@ -52,7 +41,7 @@ Numerous tech companies leverage Tavily to enhance their AI models, benefiting f
 
 
 How Tavily Enhances LLM Applications:
-![Business Use Cases Diagram](/assets/images/diagrams/ai-search-engine-tavily-user-query-tavily-d909b4a4.png)
+![Business Use Cases Diagram](/assets/ai-search-engine/tavily/user-query-tavily.png)
 
 <a id="tavily-integration-with-langchain"></a>
 
@@ -66,15 +55,13 @@ Here's a quick comparison of Tavily, Exa, and SerpAPI:
 
 | Feature           | Tavily                     | Exa                       | SerpAPI                 |
 |-------------------|----------------------------|---------------------------|-------------------------|
-
-Tavily and LangChain Integration Flow:
-![Compare Tavily with Exa and SerpAPI Diagram](/assets/images/diagrams/ai-search-engine-tavily-langchain-framework-tavily-8a93125f.png)
-
-
 | Focus             | LLM improvement            | General search            | Web scraping API        |
 | Integration       | LangChain, AI systems      | Many frameworks           | Multiple search engines |
 | Data Type         | Structured, precise        | Varied                    | Organic search results  |
 | Use case          | LLM enhancement            | Search tool               | Complete data           |
+
+Tavily and LangChain Integration Flow:
+![Compare Tavily with Exa and SerpAPI Diagram](/assets/ai-search-engine/tavily/langchain-framework-tavily.png)
 
 Tavily distinguishes itself with its focus on LLM applications and precision in search results.
 

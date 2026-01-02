@@ -12,30 +12,16 @@ things: "arc search, arc browser, ai search tool, browser company, web search, a
 keywords: "arc search, arc browser, ai search tool, browser company, web search, ai browser, browse for me, ai web search, search summary, web browsing"
 ---
 
-# Arc Search: The Complete Guide to AI-Powered Web Browsing
-
-## Table of Contents
-- [What is Arc Search?](#what-is-arc-search)
-- [Main Features](#main-features)
-- [How It Works](#how-it-works)
-- [Using Arc Search](#using-arc-search)
-- [Privacy and Data](#privacy-and-data)
-- [Similar Tools](#similar-tools)
-- [Latest Updates](#latest-updates)
-- [Tips for Better Results](#tips-for-better-results)
-- [Future Plans](#future-plans)
-- [Conclusion](#conclusion)
-
 <a id="what-is-arc-search"></a>
 
 ## What is Arc Search?
 
-![User Input Query Diagram](/assets/images/diagrams/ai-search-engine-arc-search-user-inputs-query-be7f0c8f.png)
+![User Input Query Diagram](/assets/ai-search-engine/arc-search/user-inputs-query.png)
 
 Arc Search is a [groundbreaking AI search tool](https://techcrunch.com/2023/10/03/arc-browsers-new-ai-powered-features-combine-openai-and-anthropics-models/) by the Browser Company, designed to enhance web browsing within the Arc browser. This AI browser tool transforms web search by offering quick and concise search summaries, making it simple for users to obtain the information they need without manual reading.
 
 
-![What is Arc Search? Diagram](/assets/images/diagrams/ai-search-engine-arc-search-main-features-browse-92069764.png)
+![What is Arc Search? Diagram](/assets/ai-search-engine/arc-search/main-features-browse.png)
 
 
 The unique AI web search feature eliminates the need to open multiple tabs and manually sift through information. With Arc Search, users receive precise results quickly, fundamentally changing how we approach web search.
@@ -59,7 +45,7 @@ The standout feature of the Arc browser is [Browse for Me](https://techcrunch.co
 <a id="smart-summaries"></a>
 
 
-![Browse for Me Diagram](/assets/images/diagrams/ai-search-engine-arc-search-enter-query-conducts-caca4d47.png)
+![Browse for Me Diagram](/assets/ai-search-engine/arc-search/enter-query-conducts.png)
 
 
 ### Smart Summaries
@@ -82,11 +68,10 @@ Arc Search excels on mobile devices, ensuring seamless web browsing:
 * Optimized for one-hand use
 * Quick page loading
 * Clear text presentation
-
-![Mobile Design Diagram](/assets/images/diagrams/ai-search-engine-arc-search-search-tips-pose-ba6012c2.png)
-
-
 * Smooth scrolling experience
+
+![Mobile Design Diagram](/assets/ai-search-engine/arc-search/search-tips-pose.png)
+
 
 <a id="how-it-works"></a>
 

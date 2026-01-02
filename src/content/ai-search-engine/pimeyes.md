@@ -12,17 +12,6 @@ things: "PimEyes, face recognition, AI tool, privacy, GDPR, Clearview AI"
 keywords: "PimEyes, face recognition, AI tool, privacy, GDPR, Clearview AI"
 ---
 
-# PimEyes: AI-Powered Face Recognition Search
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Understanding PimEyes](#understanding-pimeyes)
-- [Purpose of PimEyes](#purpose-of-pimeyes)
-- [Usage in Business and Personal Context](#usage-in-business-and-personal-context)
-- [Detailed Facts and Comparison](#detailed-facts-and-comparison)
-- [Conclusion](#conclusion)
-- [References](#references)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -34,7 +23,7 @@ PimEyes is an AI-based face recognition search engine, renowned [for finding ima
 PimEyes is a [search tool that utilizes AI to recognize faces in images](https://pimeyes.com/). Users can upload a photo, and PimEyes scours the web for matching faces. It's an effective method for discovering where your images might appear online.
 
 How PimEyes Works:
-![Understanding PimEyes Diagram](/assets/images/diagrams/ai-search-engine-pimeyes-user-uploads-photo-0f2c620b.png)
+![Understanding PimEyes Diagram](/assets/ai-search-engine/pimeyes/user-uploads-photo.png)
 
 <a id="purpose-of-pimeyes"></a>
 
@@ -59,7 +48,7 @@ The primary purpose of PimEyes is [to help users identify where their images are
 
 
 PimEyes vs Clearview AI Comparison:
-![Detailed Facts and Comparison Diagram](/assets/images/diagrams/ai-search-engine-pimeyes-face-recognition-tools-0db10326.png)
+![Detailed Facts and Comparison Diagram](/assets/ai-search-engine/pimeyes/face-recognition-tools.png)
 
 
 

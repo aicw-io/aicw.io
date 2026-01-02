@@ -12,32 +12,6 @@ things: "CoCounsel, Casetext, legal AI, Thomson Reuters, legal research, AI lega
 keywords: "CoCounsel, Casetext, legal AI, Thomson Reuters, legal research, AI legal assistant, law firm technology, legal tech, Westlaw, Lexis"
 ---
 
-# CoCounsel: Your Guide to AI-Powered Legal Research Tool
-
-## Table of Contents
-- [TL;DR](#tl-dr)
-- [CoCounsel Overview](#cocounsel-overview)
-- [What is CoCounsel?](#what-is-cocounsel)
-- [Key Features of CoCounsel](#key-features-of-cocounsel)
-  - [Legal Research Assistant](#legal-research-assistant)
-  - [Document Review](#document-review)
-  - [Contract Analysis](#contract-analysis)
-- [How CoCounsel Works](#how-cocounsel-works)
-  - [Document Review Workflow](#document-review-workflow)
-- [Thomson Reuters Acquisition](#thomson-reuters-acquisition)
-  - [Contract Analysis Process](#contract-analysis-process)
-- [Comparison with Competitors](#comparison-with-competitors)
-  - [Thomson Reuters and CoCounsel Integration](#thomson-reuters-and-cocounsel-integration)
-- [Pricing and Plans](#pricing-and-plans)
-- [Benefits for Law Firms](#benefits-for-law-firms)
-- [Competitive Comparison](#competitive-comparison)
-- [Technical Requirements](#technical-requirements)
-  - [Technical Deployment](#technical-deployment)
-- [Security and Privacy](#security-and-privacy)
-  - [Security Protocols](#security-protocols)
-- [Conclusion](#conclusion)
-- [FAQ](#faq)
-
 <a id="tl-dr"></a>
 
 ## TL;DR
@@ -50,7 +24,7 @@ CoCounsel, owned by Casetext and recently acquired by [Thomson Reuters](https://
 
 Before delving into the specifics, let's explore a high-level overview of how CoCounsel fits into the legal tech landscape.
 
-![CoCounsel Overview Diagram](/assets/images/diagrams/ai-search-engine-casetext-cocounsel-casetext-develops-cocounsel-dc129b0e.png)
+![CoCounsel Overview Diagram](/assets/ai-search-engine/casetext-cocounsel/casetext-develops-cocounsel.png)
 <a id="what-is-cocounsel"></a>
 
 ## What is CoCounsel?
@@ -74,7 +48,7 @@ CoCounsel provides several essential features that redefine law firm technology:
 
 To understand the efficiency of CoCounsel's research functionality, consider the following workflow:
 
-![Legal Research Assistant Process Diagram](/assets/images/diagrams/ai-search-engine-casetext-cocounsel-user-queries-powered-7421933c.png)
+![Legal Research Assistant Process Diagram](/assets/ai-search-engine/casetext-cocounsel/user-queries-powered.png)
 2. **Document Review**
    - Analyzes contracts and legal documents with precision.
    - Identifies pertinent terms and conditions.
@@ -92,13 +66,11 @@ To understand the efficiency of CoCounsel's research functionality, consider the
 CoCounsel seamlessly connects to expansive legal databases, making it an indispensable legal AI assistant. When lawyers input inquiries, the tool leverages GPT-4 technology to comprehend legal questions and deliver relevant case laws and regulations effortlessly.
 <a id="document-review-workflow"></a>
 
-#<a id="document-review"></a>
-
 ## Document Review Workflow
 
 Examine how CoCounsel manages document review within legal processes:
 
-![Document Review Workflow Diagram](/assets/images/diagrams/ai-search-engine-casetext-cocounsel-input-legal-document-2389c640.png)
+![Document Review Workflow Diagram](/assets/ai-search-engine/casetext-cocounsel/input-legal-document.png)
 
 The streamlined workflow includes:
 1. Lawyer inputs a legal query.
@@ -119,7 +91,7 @@ The acquisition of Casetext by Thomson Reuters, valued at $650 million, undersco
 
 The contract analysis feature can be understood through its streamlined steps:
 
-![Contract Analysis Process Diagram](/assets/images/diagrams/ai-search-engine-casetext-cocounsel-evaluate-terms-highlight-25a72c69.png)
+![Contract Analysis Process Diagram](/assets/ai-search-engine/casetext-cocounsel/evaluate-terms-highlight.png)
 - Increased resources for CoCounsel's ongoing development.
 - Enhanced integration with Thomson Reuters' extensive legal research tools.
 - Access to Thomson Reuters' vast legal database, expanding CoCounsel’s capabilities.
@@ -152,7 +124,7 @@ How does CoCounsel stack up against traditional legal research tools like Westla
 
 With the acquisition, new possibilities emerge for CoCounsel:
 
-![Thomson Reuters and CoCounsel Integration Diagram](/assets/images/diagrams/ai-search-engine-casetext-cocounsel-cocounsel-tools-thomson-6a730938.png)
+![Thomson Reuters and CoCounsel Integration Diagram](/assets/ai-search-engine/casetext-cocounsel/cocounsel-tools-thomson.png)
 <a id="pricing-and-plans"></a>
 
 ## Pricing and Plans
@@ -178,7 +150,7 @@ Leveraging CoCounsel in law firms offers multifaceted benefits:
 
 Understanding CoCounsel's distinctive advantages is simplified through comparison.
 
-![Competitive Comparison Diagram](/assets/images/diagrams/ai-search-engine-casetext-cocounsel-cocounsel-first-approach-2e04f50b.png)
+![Competitive Comparison Diagram](/assets/ai-search-engine/casetext-cocounsel/cocounsel-first-approach.png)
 
 1. **Time Savings**
    - Accelerated legal research.
@@ -211,7 +183,7 @@ To deploy CoCounsel, law firms need:
 
 Deploying CoCounsel requires straightforward technical steps:
 
-![Technical Deployment Diagram](/assets/images/diagrams/ai-search-engine-casetext-cocounsel-internet-access-browser-8e5c4d82.png)
+![Technical Deployment Diagram](/assets/ai-search-engine/casetext-cocounsel/internet-access-browser.png)
 The tool is compatible with most modern browsers, requiring no specialized software installation.
 
 <a id="security-and-privacy"></a>
@@ -230,7 +202,7 @@ The tool adheres to legal industry privacy standards, ensuring client data remai
 
 CoCounsel maintains rigorous security standards.
 
-![Security Protocols Diagram](/assets/images/diagrams/ai-search-engine-casetext-cocounsel-data-encryption-secure-bcddaac9.png)
+![Security Protocols Diagram](/assets/ai-search-engine/casetext-cocounsel/data-encryption-secure.png)
 
 <a id="conclusion"></a>
 

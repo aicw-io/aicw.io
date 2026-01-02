@@ -12,22 +12,6 @@ things: "Perplexity AI, research, search engine, artificial intelligence, tool"
 keywords: "Perplexity AI, research, search engine, artificial intelligence, tool"
 ---
 
-# How Perplexity AI Transforms Research
-
-## Table of Contents
-- [What is Perplexity AI?](#what-is-perplexity-ai)
-- [Purpose of Perplexity AI](#purpose-of-perplexity-ai)
-- [Business and User Utilization](#business-and-user-utilization)
-- [Key Features and Innovations](#key-features-and-innovations)
-- [Comparison with Alternative Search Engines](#comparison-with-alternative-search-engines)
-- [Conclusion](#conclusion)
-
-Perplexity AI is [transforming the search engine landscape](https://www.digitalocean.com/resources/articles/what-is-perplexity-ai), particularly for researchers. With its cutting-edge features such as [inline citations](https://www.perplexity.ai/help-center/en/articles/10352903-what-is-pro-search) and [focus mode](https://www.perplexity.ai/help-center/en/articles/10352903-what-is-pro-search), it is an indispensable tool for achieving accuracy and effectiveness in research. Let's explore how Perplexity AI reshapes the field of research.
-
-
-How Perplexity AI Works:
-![Diagram](/assets/images/diagrams/ai-search-engine-perplexity-ai-user-query-processing-40d32528.png)
-
 <a id="what-is-perplexity-ai"></a>
 
 ## What is Perplexity AI?
@@ -54,7 +38,7 @@ Perplexity AI is applied across various sectors, including [academic research](h
 - **Focus Mode**: Customizes search results to meet specific needs efficiently, providing [adaptive search experiences](https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity).
 
 Perplexity AI vs Traditional Search:
-![Key Features and Innovations Diagram](/assets/images/diagrams/ai-search-engine-perplexity-ai-traditional-search-list-bfb1cad2.png)
+![Key Features and Innovations Diagram](/assets/ai-search-engine/perplexity-ai/traditional-search-list.png)
 
 
 <a id="comparison-with-alternative-search-engines"></a>
@@ -69,7 +53,7 @@ Perplexity AI vs Traditional Search:
 
 
 Focus Mode Search Flow:
-![Comparison with Alternative Search Engines Diagram](/assets/images/diagrams/ai-search-engine-perplexity-ai-broad-query-focus-76ab7fc0.png)
+![Comparison with Alternative Search Engines Diagram](/assets/ai-search-engine/perplexity-ai/broad-query-focus.png)
 
 
 <a id="conclusion"></a>

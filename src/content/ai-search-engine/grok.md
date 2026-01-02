@@ -12,21 +12,6 @@ things: "Grok AI, xAI, Grok-3, real-time AI, X Premium, Elon Musk AI, AI chatbot
 keywords: "Grok AI, xAI, Grok-3, real-time AI, X Premium, Elon Musk AI, AI chatbot, ChatGPT alternative, Claude AI, AI assistant"
 ---
 
-# Grok AI: xAI's Real-Time AI Search Assistant Explained
-
-## Table of Contents
-- [What is Grok and xAI](#what-is-grok-and-xai)
-- [Why Grok Exists and Its Purpose](#why-grok-exists-and-its-purpose)
-- [How Companies and Users Deploy Grok](#how-companies-and-users-deploy-grok)
-- [Grok's Key Features and Capabilities](#groks-key-features-and-capabilities)
-- [X Premium Requirements and Access](#x-premium-requirements-and-access)
-- [How Grok Compares to ChatGPT and Claude](#how-grok-compares-to-chatgpt-and-claude)
-- [Technical Workflow and Implementation](#technical-workflow-and-implementation)
-- [Data Privacy and Usage Considerations](#data-privacy-and-usage-considerations)
-- [End](#end)
-
-Grok is an AI assistant created by xAI, the artificial intelligence company founded by Elon Musk in March 2023. This tool stands out due to its real-time access to posts and information from X (formerly Twitter). As a result, Grok can answer questions about current events as they happen. The AI is designed with a distinct personality that includes humor and a less formal tone compared to other AI assistants. Grok is available exclusively to X Premium subscribers, meaning you need a paid subscription to use it. The latest versions include Grok-3 and the newly released Grok-4 model. These models can understand text and images, providing responses that transcend typical AI assistants' boundaries. For developers and businesses looking to integrate AI into their workflows, Grok represents a different approach that prioritizes current information and conversational flexibility.
-
 <a id="what-is-grok-and-xai"></a>
 
 ## What is Grok and xAI
@@ -53,7 +38,7 @@ The tool is meant for anyone needing current information quickly. Developers can
 
 
 Grok Data Retrieval Flow:
-![How Companies and Users Deploy Grok Diagram](/assets/images/diagrams/ai-search-engine-grok-user-query-platform-beb18fdb.png)
+![How Companies and Users Deploy Grok Diagram](/assets/ai-search-engine/grok/user-query-platform.png)
 
 Grok is primarily accessed through the X platform. Users with X Premium or X Premium+ subscriptions can find Grok in the sidebar or through the Grok tab in the mobile app. The integration is seamless; you don't need to leave X to use the AI. You can ask Grok questions directly in the interface and get responses that include citations to relevant posts on X.
 
@@ -141,7 +126,7 @@ Grok represents a different approach to AI assistants by focusing on real-time A
 Access to Grok requires an X Premium subscription at $8 per month minimum. Your conversations with Grok are subject to X's privacy policy and may be used for AI training without a clear opt-out option. For businesses handling sensitive information, this is an important consideration. Compared to ChatGPT and Claude AI, Grok offers lower pricing but fewer features for data privacy control and no API access.
 
 Grok AI System Architecture:
-![End Diagram](/assets/images/diagrams/ai-search-engine-grok-platform-real-time-44ee279b.png)
+![End Diagram](/assets/ai-search-engine/grok/platform-real-time.png)
 
 The tool works best for users who need current information and are already active on X. Marketing professionals, content creators, and developers can benefit from Grok's real-time capabilities for research and trend monitoring, but for tasks requiring maximum reasoning capability or strict content guidelines, alternatives like ChatGPT or Claude might be more appropriate. Grok's unique positioning as a real-time AI assistant makes it a useful addition to an AI chatbot toolkit, particularly for users focused on social media intelligence and current events analysis.
 ## Frequently Asked Questions

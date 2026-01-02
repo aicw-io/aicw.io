@@ -12,29 +12,6 @@ things: "brave search ai, brave leo, brave privacy, search engine privacy, brave
 keywords: "brave search ai, brave leo, brave privacy, search engine privacy, brave search features, brave ai assistant, independent search index, brave talk"
 ---
 
-# Brave Search AI: Complete Guide to Privacy-Focused Search Features
-
-## Table of Contents
-- [TL;DR](#tl-dr)
-- [What is Brave Search AI?](#what-is-brave-search-ai)
-- [How Brave Search AI Works](#how-brave-search-ai-works)
-- [Key Features of Brave Search AI](#key-features-of-brave-search-ai)
-  - [Leo AI Assistant](#leo-ai-assistant)
-  - [AI Summarizer](#ai-summarizer)
-  - [Privacy Settings](#privacy-settings)
-- [Comparison with Other Search Engines](#comparison-with-other-search-engines)
-- [Independent Search Index](#independent-search-index)
-- [Using Brave Search AI Effectively](#using-brave-search-ai-effectively)
-- [Privacy Features in Detail](#privacy-features-in-detail)
-- [Benefits for Different Users](#benefits-for-different-users)
-  - [For Regular Users](#for-regular-users)
-  - [For Businesses](#for-businesses)
-  - [For Developers](#for-developers)
-- [Conclusion](#conclusion)
-- [FAQs](#faqs)
-
-[Brave Search AI](https://brave.com/search/) is an innovative search engine that emphasizes user data protection while delivering high-quality search results. Featuring its own independent search index, Brave Privacy settings, and advanced AI functionalities like Brave Leo and AI Summarizer, Brave Search ensures open and secure internet exploration.
-
 <a id="tl-dr"></a>
 
 ## TL;DR
@@ -49,7 +26,7 @@ Launched in June 2022, Brave Search AI stands out from other search engines by o
 <a id="how-brave-search-ai-works"></a>
 
 ## How Brave Search AI Works
-![How Brave Search AI Works Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-start-brave-search-007e8816.png)
+![How Brave Search AI Works Diagram](/assets/ai-search-engine/brave-search-ai/start-brave-search.png)
 
 
 Brave Search operates on its own independent index, containing over 20 billion pages, ensuring unbiased and comprehensive search results. ([brave.com](https://brave.com/search/)) This strategy allows the search engine to operate without needing to store personal information or user search history. Brave Search ranks pages based on content quality rather than personalized data, ensuring equal and unbiased results for identical search terms.
@@ -64,7 +41,7 @@ Brave Search operates on its own independent index, containing over 20 billion p
 Brave Leo is the AI chat assistant introduced in 2024, designed to:
 * Answer questions about search results
 * Explain complex topics
-![Leo AI Assistant Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-brave-search-engine-21707dc5.png)
+![Leo AI Assistant Diagram](/assets/ai-search-engine/brave-search-ai/brave-search-engine.png)
 
 * Assist with research tasks
 * Generate summaries of web pages
@@ -81,14 +58,14 @@ Introduced in March 2023, the AI Summarizer offers:
 
 ### Privacy Settings
 Brave Search's privacy features ensure:
-![Privacy Settings Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-assistant-features-answer-5c6b2d8e.png)
+![Privacy Settings Diagram](/assets/ai-search-engine/brave-search-ai/assistant-features-answer.png)
 
 * No IP address tracking
 * No storage of search history
 * No personal data collection
 * Absence of targeted ads based on searches
 
-![Privacy Settings Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-summarizer-summarizer-provides-25d0b9fb.png)
+![Privacy Settings Diagram](/assets/ai-search-engine/brave-search-ai/summarizer-summarizer-provides.png)
 
 <a id="comparison-with-other-search-engines"></a>
 
@@ -99,7 +76,7 @@ Brave Search's privacy features ensure:
 | Brave Search  | Yes       | Full set    | Very High     |
 | DuckDuckGo    | No        | Limited     | High          |
 | Startpage     | No        | Limited     | High          |
-![Comparison with Other Search Engines Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-privacy-brave-search-ed4db374.png)
+![Comparison with Other Search Engines Diagram](/assets/ai-search-engine/brave-search-ai/privacy-brave-search.png)
 
 | Qwant         | Partial   | Basic       | High          |
 
@@ -125,7 +102,7 @@ To maximize efficiency when using Brave Search, consider these tips:
 * Review AI-generated summaries for rapid information access
 * Use filters to refine search results
 * Experiment with different search modes (All, News, Images)
-![Using Brave Search AI Effectively Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-index-brave-independent-6c62b0f3.png)
+![Using Brave Search AI Effectively Diagram](/assets/ai-search-engine/brave-search-ai/index-brave-independent.png)
 
 
 <a id="privacy-features-in-detail"></a>
@@ -151,7 +128,7 @@ Brave Search maintains robust privacy protections, including:
 * Unbiased search outcomes
 * Advanced AI functionalities
 
-![For Regular Users Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-user-user-uses-9be71f9a.png)
+![For Regular Users Diagram](/assets/ai-search-engine/brave-search-ai/user-user-uses.png)
 
 <a id="for-businesses"></a>
 
@@ -168,7 +145,7 @@ Brave Search maintains robust privacy protections, including:
 * Development focused on privacy
 * Open-source components
 
-![For Developers Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-privacyoptions-brave-search-0352e40d.png)
+![For Developers Diagram](/assets/ai-search-engine/brave-search-ai/privacyoptions-brave-search.png)
 
 <a id="conclusion"></a>
 
@@ -186,7 +163,7 @@ Brave Leo is an AI assistant feature in Brave Search AI that provides chat-based
 **How does Brave Search protect my privacy?**
 Brave Search prioritizes privacy by not tracking IP addresses, storing search histories, or collecting personal data.
 
-![FAQs Diagram](/assets/images/diagrams/ai-search-engine-brave-search-ai-usertype-user-type-4d2d3d26.png)
+![FAQs Diagram](/assets/ai-search-engine/brave-search-ai/usertype-user-type.png)
 
 **What makes Brave's search index independent?**
 Brave's search index is independent because it uses its own web crawlers and does not rely on data from major search engines like Google or Bing.

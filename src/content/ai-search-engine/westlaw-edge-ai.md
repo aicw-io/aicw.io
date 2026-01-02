@@ -12,17 +12,6 @@ things: "Westlaw Edge AI, Thomson Reuters, AI research, Lexis+ AI comparison"
 keywords: "Westlaw Edge AI, Thomson Reuters, AI research, Lexis+ AI comparison"
 ---
 
-# Comprehensive Guide to Westlaw Edge AI by Thomson Reuters
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [What is Westlaw Edge AI?](#what-is-westlaw-edge-ai)
-- [Why Does It Exist?](#why-does-it-exist)
-- [How Businesses Use Westlaw Edge AI](#how-businesses-use-westlaw-edge-ai)
-- [Key Features and Comparisons](#key-features-and-comparisons)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -32,7 +21,7 @@ keywords: "Westlaw Edge AI, Thomson Reuters, AI research, Lexis+ AI comparison"
 
 ## What is Westlaw Edge AI?
 Core Components of Westlaw Edge AI:
-![What is Westlaw Edge AI? Diagram](/assets/images/diagrams/ai-search-engine-westlaw-edge-ai-westlaw-edge-assisted-01b136fc.png)
+![What is Westlaw Edge AI? Diagram](/assets/ai-search-engine/westlaw-edge-ai/westlaw-edge-assisted.png)
 
 [Westlaw Edge AI](https://legal.thomsonreuters.com/en/products/westlaw-edge) is a legal research tool utilizing artificial intelligence to simplify legal work. It offers features such as [Litigation Analytics](https://legal.thomsonreuters.com/en/products/westlaw-edge/features), Quick Check for brief analysis, and KeyCite citation analysis.
 
@@ -42,7 +31,7 @@ Core Components of Westlaw Edge AI:
 The legal field demands quick access to extensive information, a need addressed by [Westlaw Edge AI](https://legal.thomsonreuters.com/en/products/westlaw-edge). [Westlaw Edge AI](https://legal.thomsonreuters.com/en/products/westlaw-edge) was developed to expedite research, reducing time spent finding legal precedents and case outcomes. It also delivers comprehensive analytics, enhancing the effectiveness of legal work, as detailed in [Thomson Reuters' announcement](https://www.thomsonreuters.com/en/press-releases/2018/july/thomson-reuters-unveils-new-legal-research-platform-with-advanced-ai-westlaw-edge).
 
 How Westlaw Edge AI Addresses Legal Research Needs:
-![Why Does It Exist? Diagram](/assets/images/diagrams/ai-search-engine-westlaw-edge-ai-legal-research-challenge-7265b921.png)
+![Why Does It Exist? Diagram](/assets/ai-search-engine/westlaw-edge-ai/legal-research-challenge.png)
 
 <a id="how-businesses-use-westlaw-edge-ai"></a>
 
@@ -53,9 +42,9 @@ Many law firms employ [Westlaw Edge AI](https://legal.thomsonreuters.com/en/prod
 
 ## Key Features and Comparisons
 [Westlaw Edge AI](https://legal.thomsonreuters.com/en/products/westlaw-edge) boasts numerous advanced features. Among the main features are [Litigation Analytics](https://legal.thomsonreuters.com/en/products/westlaw-edge/features), Quick Check, and KeyCite. Below is a comparison between [Westlaw Edge AI](https://legal.thomsonreuters.com/en/products/westlaw-edge) and [Lexis+ AI](https://legal.thomsonreuters.com/en/products/westlaw-edge):
-Typical Workflow for Law Firms:
-![Key Features and Comparisons Diagram](/assets/images/diagrams/ai-search-engine-westlaw-edge-ai-legal-question-assisted-d25fd007.png)
 
+Typical Workflow for Law Firms:
+![Key Features and Comparisons Diagram](/assets/ai-search-engine/westlaw-edge-ai/legal-question-assisted.png)
 
 
 | Features           | Westlaw Edge AI  | Lexis+ AI       |

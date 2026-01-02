@@ -12,21 +12,6 @@ things: "chatgpt shopping, ai shopping assistant, chatgpt product research, chat
 keywords: "chatgpt shopping, ai shopping assistant, chatgpt product research, chatgpt plus shopping, ai ecommerce, product comparison ai, visual product cards"
 ---
 
-# ChatGPT Shopping Features: Complete Guide and Comparison
-
-## Table of Contents
-- [What Are ChatGPT Shopping Features?](#what-are-chatgpt-shopping-features)
-- [How ChatGPT Shopping Works](#how-chatgpt-shopping-works)
-- [Product Research and Comparison Tools](#product-research-and-comparison-tools)
-- [Differences from Google Shopping and Amazon](#differences-from-google-shopping-and-amazon)
-- [Integration with ChatGPT Plus](#integration-with-chatgpt-plus)
-- [Data Sources and Updates](#data-sources-and-updates)
-- [Privacy and Data Usage](#privacy-and-data-usage)
-- [Future Development and Updates](#future-development-and-updates)
-- [Conclusion](#conclusion)
-
-ChatGPT's shopping features, including **ChatGPT Shopping**, were initially rumored but have not been officially launched as of December 31, 2025. Currently, ChatGPT users can utilize tools for **ChatGPT product research** and product comparisons across online stores, assisting as an AI shopping assistant. The features work through **visual product cards** and detailed product information, similar to AI ecommerce platforms. This guide explores how ChatGPT shopping operates and compares it to other [AI shopping platforms](https://openai.com/index/chatgpt-shopping-research).
-
 <a id="what-are-chatgpt-shopping-features"></a>
 
 ## What Are ChatGPT Shopping Features?
@@ -41,7 +26,7 @@ Key features of ChatGPT shopping:
 * User ratings and reviews
 * No paid product placements
 * Direct links to seller websites
-![What Are ChatGPT Shopping Features? Diagram](/assets/images/diagrams/ai-search-engine-chatgpt-shopping-user-inquiry-chatgpt-8f56ce9f.png)
+![What Are ChatGPT Shopping Features? Diagram](/assets/ai-search-engine/chatgpt-shopping/user-inquiry-chatgpt.png)
 
 **Figure 1**: High-level overview of how ChatGPT handles shopping inquiries.
 
@@ -54,7 +39,7 @@ This shopping feature utilizes real-time product data from various sources. When
 
 Example workflow:
 
-![How ChatGPT Shopping Works Diagram](/assets/images/diagrams/ai-search-engine-chatgpt-shopping-side-side-comparison-ef562889.png)
+![How ChatGPT Shopping Works Diagram](/assets/ai-search-engine/chatgpt-shopping/side-side-comparison.png)
 
 **Figure 2**: Product Comparison Workflow.
 
@@ -77,7 +62,7 @@ ChatGPT offers several tools for comprehensive product research:
 * Pros and cons lists
 
 **Filter Options:**
-![Product Research and Comparison Tools Diagram](/assets/images/diagrams/ai-search-engine-chatgpt-shopping-chatgpt-shopping-google-076eb7a0.png)
+![Product Research and Comparison Tools Diagram](/assets/ai-search-engine/chatgpt-shopping/chatgpt-shopping-google.png)
 
 **Figure 3**: Comparison of ChatGPT with Google Shopping and Amazon.
 
@@ -93,7 +78,7 @@ ChatGPT offers several tools for comprehensive product research:
 ## Differences from Google Shopping and Amazon
 
 ChatGPT shopping offers unique features compared to other platforms like **AI ecommerce** solutions:
-![Differences from Google Shopping and Amazon Diagram](/assets/images/diagrams/ai-search-engine-chatgpt-shopping-product-data-sources-49a65b54.png)
+![Differences from Google Shopping and Amazon Diagram](/assets/ai-search-engine/chatgpt-shopping/product-data-sources.png)
 
 **Figure 4**: Sources and updates of product data employed by ChatGPT.
 
@@ -109,7 +94,7 @@ ChatGPT shopping offers unique features compared to other platforms like **AI ec
 * Displays sponsored products first.
 * Includes local store inventory.
 * Offers direct purchase options.
-![Differences from Google Shopping and Amazon Diagram](/assets/images/diagrams/ai-search-engine-chatgpt-shopping-privacy-features-storage-18211ca5.png)
+![Differences from Google Shopping and Amazon Diagram](/assets/ai-search-engine/chatgpt-shopping/privacy-features-storage.png)
 
 **Figure 5**: Privacy features implemented by ChatGPT Shopping.
 

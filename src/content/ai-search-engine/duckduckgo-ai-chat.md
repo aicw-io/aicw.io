@@ -12,21 +12,6 @@ things: "duckduckgo ai chat, private ai chat, duckduckgo ai models, ai privacy, 
 keywords: "duckduckgo ai chat, private ai chat, duckduckgo ai models, ai privacy, no data storage chat, gpt-4, claude 3, !ai shortcut"
 ---
 
-# DuckDuckGo AI Chat: Private AI Conversations With No Data Storage
-
-## Table of Contents
-- [What is DuckDuckGo AI Chat?](#what-is-duckduckgo-ai-chat)
-- [Privacy Features](#privacy-features)
-- [Supported AI Models](#supported-ai-models)
-- [How to Use DuckDuckGo AI Chat](#how-to-use-duckduckgo-ai-chat)
-- [Integration with Search](#integration-with-search)
-- [Limitations and Restrictions](#limitations-and-restrictions)
-- [Comparison with Other AI Chats](#comparison-with-other-ai-chats)
-- [Future of Private AI Chat](#future-of-private-ai-chat)
-- [Conclusion](#conclusion)
-
-DuckDuckGo AI Chat brings a fresh perspective to AI conversations by focusing on privacy while utilizing multiple AI models, including GPT-4 and Claude 3. The chat does not store conversations [and seamlessly integrates privacy-focused AI chat into your search results](https://arstechnica.com/information-technology/2024/06/duckduckgo-offers-anonymous-access-to-ai-chatbots-through-new-service/).
-
 <a id="what-is-duckduckgo-ai-chat"></a>
 
 ## What is DuckDuckGo AI Chat?
@@ -46,7 +31,7 @@ You can trigger AI chat in two ways:
 <a id="duckduckgo-ai-chat-trigger-methods"></a>
 
 ### DuckDuckGo AI Chat Trigger Methods:
-![DuckDuckGo AI Chat Trigger Methods: Diagram](/assets/images/diagrams/ai-search-engine-duckduckgo-ai-chat-type-question-chat-b01039fa.png)
+![DuckDuckGo AI Chat Trigger Methods: Diagram](/assets/ai-search-engine/duckduckgo-ai-chat/type-question-chat.png)
 
 
 Privacy remains central to this tool, offering the following features:
@@ -54,7 +39,7 @@ Privacy remains central to this tool, offering the following features:
 <a id="privacy-features-overview"></a>
 
 ### Privacy Features Overview:
-![Privacy Features Overview: Diagram](/assets/images/diagrams/ai-search-engine-duckduckgo-ai-chat-data-storage-user-98d72088.png)
+![Privacy Features Overview: Diagram](/assets/ai-search-engine/duckduckgo-ai-chat/data-storage-user.png)
 
 * No conversation storage.
 * No user tracking.
@@ -70,7 +55,7 @@ This differentiates it from [other AI chat services, which often save chats and 
 #<a id="supported-ai-models"></a>
 
 ## Supported AI Models Selection:
-![Supported AI Models Selection: Diagram](/assets/images/diagrams/ai-search-engine-duckduckgo-ai-chat-query-duckduckgo-chat-9d63066f.png)
+![Supported AI Models Selection: Diagram](/assets/ai-search-engine/duckduckgo-ai-chat/query-duckduckgo-chat.png)
 
 ## Supported AI Models
 
@@ -95,7 +80,7 @@ Using the chat is straightforward. Follow these steps:
 <a id="integration-with-duckduckgo-search"></a>
 
 ### Integration with DuckDuckGo Search:
-![Integration with DuckDuckGo Search: Diagram](/assets/images/diagrams/ai-search-engine-duckduckgo-ai-chat-duckduckgo-search-chat-a2170b1b.png)
+![Integration with DuckDuckGo Search: Diagram](/assets/ai-search-engine/duckduckgo-ai-chat/duckduckgo-search-chat.png)
 
 3. Click the AI chat button.
 4. Or add !ai before your question.

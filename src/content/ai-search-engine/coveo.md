@@ -12,26 +12,12 @@ things: "coveo, enterprise search, ai search, relevance cloud, coveo platform, s
 keywords: "coveo, enterprise search, ai search, relevance cloud, coveo platform, search personalization, commerce search, coveo vs algolia, coveo vs glean"
 ---
 
-# Coveo: Complete Guide to AI-Powered Enterprise Search in 2024
-
-## Table of Contents
-- [What is Coveo and How Does it Work?](#what-is-coveo-and-how-does-it-work)
-- [Key Features and Capabilities](#key-features-and-capabilities)
-- [Main Use Cases](#main-use-cases)
-- [Integration with Other Systems](#integration-with-other-systems)
-- [Comparison with Competitors](#comparison-with-competitors)
-- [Pricing Structure](#pricing-structure)
-- [Implementation Process](#implementation-process)
-- [Conclusion](#conclusion)
-
-Coveo is a [leading AI-powered enterprise search platform](https://www.coveo.com/en/enterprise-search) that delivers smart results. The Coveo platform helps companies display the right content to users at the right time across websites, apps, and internal systems, enhancing content discoverability and user engagement. Utilizing Coveo's [Relevance Cloud](https://www.coveo.com/en/platform), the platform learns from user behavior to improve results over time.
-
 <a id="what-is-coveo-and-how-does-it-work"></a>
 
 ## What is Coveo and How Does it Work?
 
-**Diagram 1: Coveo System Overview**
-![What is Coveo and How Does it Work? Diagram](/assets/images/diagrams/ai-search-engine-coveo-data-sources-coveo-7a60b6b9.png)
+**Coveo System Overview**
+![What is Coveo and How Does it Work? Diagram](/assets/ai-search-engine/coveo/data-sources-coveo.png)
 
 
 Coveo is an [AI search platform](https://www.coveo.com/en/enterprise-search) tailored for large companies. It connects to many data sources like:
@@ -44,8 +30,8 @@ Coveo is an [AI search platform](https://www.coveo.com/en/enterprise-search) tai
 * CRM systems  
 
 
-**Diagram 2: AI Search Process**
-![What is Coveo and How Does it Work? Diagram](/assets/images/diagrams/ai-search-engine-coveo-user-query-indexing-20557f65.png)
+**AI Search Process**
+![What is Coveo and How Does it Work? Diagram](/assets/ai-search-engine/coveo/user-query-indexing.png)
 
 The platform indexes all this content, providing a unified index that consolidates information from various sources. When someone searches, Coveo uses AI to find the most relevant results by considering factors like:
 
@@ -59,7 +45,7 @@ The platform indexes all this content, providing a unified index that consolidat
 
 ## Key Features and Capabilities
 
-![Key Features and Capabilities Diagram](/assets/images/diagrams/ai-search-engine-coveo-search-features-features-36f9e180.png)
+![Key Features and Capabilities Diagram](/assets/ai-search-engine/coveo/search-features-features.png)
 
 Coveo boasts various features for diverse use cases:
 
@@ -73,7 +59,7 @@ Coveo boasts various features for diverse use cases:
 ### AI Features:
 * User behavior tracking  
 
-![AI Features: Diagram](/assets/images/diagrams/ai-search-engine-coveo-commerce-search-workplace-d0e15aac.png)
+![AI Features: Diagram](/assets/ai-search-engine/coveo/commerce-search-workplace.png)
 
 * Personalized results  
 * Automated relevance tuning  
@@ -86,7 +72,7 @@ Coveo boasts various features for diverse use cases:
 * Ready connectors for common systems  
 * Security settings  
 
-![Integration Features: Diagram](/assets/images/diagrams/ai-search-engine-coveo-business-systems-coveo-80844df6.png)
+![Integration Features: Diagram](/assets/ai-search-engine/coveo/business-systems-coveo.png)
 
 * Usage analytics  
 
@@ -101,9 +87,9 @@ Companies use Coveo in key areas:
 * Smart product recommendations  
 * Category navigation  
 
-![Commerce Search: Diagram](/assets/images/diagrams/ai-search-engine-coveo-coveo-customer-search-0313b94e.png)
+![Commerce Search: Diagram](/assets/ai-search-engine/coveo/coveo-customer-search.png)
 
-![Commerce Search: Diagram](/assets/images/diagrams/ai-search-engine-coveo-algolia-simplicity-small-6eb3ab09.png)
+![Commerce Search: Diagram](/assets/ai-search-engine/coveo/algolia-simplicity-small.png)
 
 * Search analytics for merchants  
 
@@ -113,7 +99,7 @@ Companies use Coveo in key areas:
 * Employee self-service  
 * Expertise finding  
 
-![Workplace Search: Diagram](/assets/images/diagrams/ai-search-engine-coveo-searchable-items-user-84e24df4.png)
+![Workplace Search: Diagram](/assets/ai-search-engine/coveo/searchable-items-user.png)
 
 ### Customer Service:
 * Help center search  
@@ -127,7 +113,7 @@ Companies use Coveo in key areas:
 
 
 **Implementation Process**
-![Integration with Other Systems Diagram](/assets/images/diagrams/ai-search-engine-coveo-choose-data-sources-ef9e6d50.png)
+![Integration with Other Systems Diagram](/assets/ai-search-engine/coveo/choose-data-sources.png)
 
 Coveo integrates seamlessly with popular business systems:
 

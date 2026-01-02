@@ -12,26 +12,7 @@ things: "andi search, ai search engine, ad-free search, private search engine, a
 keywords: "andi search, ai search engine, ad-free search, private search engine, andi ai, search without ads, privacy search engine"
 ---
 
-# Andi Search: Your AI-Powered Private Search Engine Without Ads
-
 Discover the power of Andi Search, the groundbreaking AI search engine that offers ad-free search and unparalleled privacy. Experience a search without ads, tailored to deliver accurate responses while ensuring your data remains private.
-
-## Table of Contents
-- [How Andi Search Works](#how-andi-search-works)
-- [The Technology Behind Andi AI](#the-technology-behind-andi-ai)
-- [Privacy and Data Protection](#privacy-and-data-protection)
-- [Why Andi Beats Regular Search](#why-andi-beats-regular-search)
-- [Getting Started with Andi AI](#getting-started-with-andi-ai)
-- [Smart Tools Integrated](#smart-tools-integrated)
-- [Other AI Search Engine Options](#other-ai-search-engine-options)
-- [FAQ](#faq)
-- [Summary](#summary)
-
-Andi Search is the AI search engine that revolutionizes internet browsing, offering a privacy-focused alternative to traditional search engines. Andi AI provides direct answers, eliminating the need to sift through countless links, similar to the approach of other privacy-centric search engines. It's like consulting an all-knowing friend who provides accurate information without the clutter of advertisements, akin to the experience offered by DuckDuckGo.
-
-### TL;DR
-Andi Search is an ad-free, private search engine using AI to deliver direct answers and safeguard your data, aligning with the privacy principles of DuckDuckGo. It blocks all ads by default, preserving privacy and preventing tracking, making it a leading privacy search engine, much like [DuckDuckGo](https://duckduckgo.com/).
-
 <a id="how-andi-search-works"></a>
 
 ## How Andi Search Works
@@ -48,7 +29,7 @@ The layout differs vastly from traditional search engines: no ads, just concise 
 - Reader mode for distraction-free reading
 
 
-![Key Features: Diagram](/assets/images/diagrams/ai-search-engine-andi-search-flowchart-tb-a-419f9ffc.png)
+![Key Features: Diagram](/assets/ai-search-engine/andi-search/flowchart-tb-a.png)
 
 <a id="the-technology-behind-andi-ai"></a>
 
@@ -65,7 +46,7 @@ It employs its proprietary technology to continuously discover and filter high-q
 - Product research
 - Instructional guides
 
-![Andi Handles Questions About: Diagram](/assets/images/diagrams/ai-search-engine-andi-search-flowchart-td-a-36981839.png)
+![Andi Handles Questions About: Diagram](/assets/ai-search-engine/andi-search/flowchart-td-a.png)
 
 <a id="privacy-and-data-protection"></a>
 
@@ -97,7 +78,7 @@ Andi Search outshines traditional search engines through its:
 
 Starting with Andi is straightforward. Simply visit [andisearch.com](https://andisearch.com/) and input your question. Andi AI will provide:
 
-![Getting Started with Andi AI Diagram](/assets/images/diagrams/ai-search-engine-andi-search-graph-lr-a-dbea12cd.png)
+![Getting Started with Andi AI Diagram](/assets/ai-search-engine/andi-search/graph-lr-a.png)
 
 1. Direct answer on top
 2. Brief webpage summaries
@@ -112,7 +93,7 @@ The interface encourages natural language queries over keyword use, making it mo
 
 Andi Search comes packed with smart tools, extending beyond standard search capabilities, much like the features offered by DuckDuckGo.
 
-![Smart Tools Integrated Diagram](/assets/images/diagrams/ai-search-engine-andi-search-graph-td-a-9482447b.png)
+![Smart Tools Integrated Diagram](/assets/ai-search-engine/andi-search/graph-td-a.png)
 
 **News Updates:**
 - Brief news summaries

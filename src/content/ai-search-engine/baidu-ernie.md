@@ -12,21 +12,7 @@ things: "Baidu ERNIE, ERNIE 4.5, Chinese AI, AI search, Baidu search, ERNIE Bot,
 keywords: "Baidu ERNIE, ERNIE 4.5, Chinese AI, AI search, Baidu search, ERNIE Bot, AI language model, Chinese language model"
 ---
 
-# Baidu ERNIE: How China's Leading AI Search Model Works
-
 **TL;DR:** Baidu ERNIE is a powerful AI language model designed to enhance Chinese and English language processing for Baidu search and other services. As the forefront of Chinese AI development, ERNIE offers advanced features for both consumer and business applications.
-
-## Table of Contents
-- [What is Baidu ERNIE?](#what-is-baidu-ernie)
-- [Key Features of ERNIE](#key-features-of-ernie)
-- [Market Impact and Usage](#market-impact-and-usage)
-- [How ERNIE Works](#how-ernie-works)
-- [Comparison with Other AI Models](#comparison-with-other-ai-models)
-- [Regulatory Environment](#regulatory-environment)
-- [Future Development](#future-development)
-- [Conclusion](#conclusion)
-- [FAQ](#faq)
-
 <a id="what-is-baidu-ernie"></a>
 
 ## What is Baidu ERNIE?
@@ -37,7 +23,7 @@ Businesses widely implement ERNIE for its robust capabilities in services like s
 
 <a id="key-features-of-ernie"></a>
 
-![What is Baidu ERNIE? Diagram](/assets/images/diagrams/ai-search-engine-baidu-ernie-flowchart-b245ab99.png)
+![What is Baidu ERNIE? Diagram](/assets/ai-search-engine/baidu-ernie/flowchart-4.png)
 
 ## Key Features of ERNIE
 
@@ -53,7 +39,7 @@ ERNIE offers several key features that bolster its effectiveness:
 The ongoing development of ERNIE has made ERNIE 4.5 remarkably faster and more adept at processing complex topics than its predecessors.
 
 <a id="market-impact-and-usage"></a>
-![Key Features of ERNIE Diagram](/assets/images/diagrams/ai-search-engine-baidu-ernie-flowchart-94962d8a.png)
+![Key Features of ERNIE Diagram](/assets/ai-search-engine/baidu-ernie/flowchart-2.png)
 
 
 ## Market Impact and Usage
@@ -70,7 +56,7 @@ Through Baidu's cloud platform, businesses can integrate ERNIE into their servic
 
 <a id="how-ernie-works"></a>
 
-![Market Impact and Usage Diagram](/assets/images/diagrams/ai-search-engine-baidu-ernie-sequence-9aa45499.png)
+![Market Impact and Usage Diagram](/assets/ai-search-engine/baidu-ernie/sequence.png)
 
 ## How ERNIE Works
 
@@ -87,7 +73,7 @@ With ERNIE 4.5, various task handling and processing speeds have improved notabl
 <a id="comparison-with-other-ai-models"></a>
 
 ## Comparison with Other AI Models
-![Comparison with Other AI Models Diagram](/assets/images/diagrams/ai-search-engine-baidu-ernie-flowchart-c13c3162.png)
+![Comparison with Other AI Models Diagram](/assets/ai-search-engine/baidu-ernie/flowchart-5.png)
 
 
 ERNIE stands competitive among other prominent AI language models as follows:
@@ -102,7 +88,7 @@ ERNIE stands competitive among other prominent AI language models as follows:
 
 Operating under China's stringent AI regulations, ERNIE complies with:
 
-![Regulatory Environment Diagram](/assets/images/diagrams/ai-search-engine-baidu-ernie-flowchart-52073dd4.png)
+![Regulatory Environment Diagram](/assets/ai-search-engine/baidu-ernie/flowchart.png)
 
 * Content filtration standards
 * Data privacy laws
@@ -117,7 +103,7 @@ These regulations shape ERNIE's development and functionality, single out its st
 
 Baidu is focused on elevating ERNIE's overall functionality, with plans that include:
 
-![Future Development Diagram](/assets/images/diagrams/ai-search-engine-baidu-ernie-flowchart-962f0dfc.png)
+![Future Development Diagram](/assets/ai-search-engine/baidu-ernie/flowchart-3.png)
 
 * Enhanced language understanding
 * Increased business-specific features

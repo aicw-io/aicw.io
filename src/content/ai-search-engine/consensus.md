@@ -12,23 +12,6 @@ things: "consensus ai, scientific research search engine, research papers search
 keywords: "consensus ai, scientific research search engine, research papers search, consensus meter, ai research tools, scientific literature search, consensus copilot, research analysis"
 ---
 
-# Consensus AI: AI-Powered Search Engine for Scientific Research
-
-## Table of Contents
-- [What is Consensus AI and Why It Exists](#what-is-consensus-ai-and-why-it-exists)
-- [Key Features That Make It Useful](#key-features-that-make-it-useful)
-- [How Consensus AI Works](#how-consensus-ai-works)
-- [Pricing Options](#pricing-options)
-- [Comparison with Other Research Tools](#comparison-with-other-research-tools)
-- [Real World Use Cases](#real-world-use-cases)
-- [Benefits and Limitations](#benefits-and-limitations)
-- [Conclusion](#conclusion)
-
-**Diagram: Overview of Consensus AI Search Workflow**
-![Diagram](/assets/images/diagrams/ai-search-engine-consensus-user-input-powered-b6350cf2.png)
-
-Consensus AI is a revolutionary search engine tailored for scientific research, offering [AI-powered academic search capabilities](https://www.bentley.edu/library/in-the-know/what-is-consensus-ai). This AI-driven scientific research search engine aids users in discovering and comprehending peer-reviewed papers swiftly. It employs cutting-edge AI research tools to sift through millions of research papers, presenting the most pertinent results, as detailed in [Consensus AI's official overview](https://www.bentley.edu/library/in-the-know/what-is-consensus-ai). What sets it apart is its ability to illustrate the level of agreement between various studies on scientific topics through its unique consensus meter, a feature highlighted in [Consensus AI's official overview](https://www.bentley.edu/library/in-the-know/what-is-consensus-ai).
-
 <a id="what-is-consensus-ai-and-why-it-exists"></a>
 
 ## What is Consensus AI and Why It Exists
@@ -42,7 +25,7 @@ The main objectives of Consensus AI include:
 * Simplifying complex research
 * Saving time in scientific literature searches
 **Diagram: Key Objectives of Consensus AI**
-![What is Consensus AI and Why It Exists Diagram](/assets/images/diagrams/ai-search-engine-consensus-find-relevant-papers-b18cd3f4.png)
+![What is Consensus AI and Why It Exists Diagram](/assets/ai-search-engine/consensus/find-relevant-papers.png)
 
 
 <a id="key-features-that-make-it-useful"></a>
@@ -55,7 +38,7 @@ The consensus meter illustrates the degree of scientific agreement on specific t
 
 ### GPT-4 Integration
 **Diagram: Functionality of Consensus Meter**
-![GPT-4 Integration Diagram](/assets/images/diagrams/ai-search-engine-consensus-analyze-papers-detect-98957560.png)
+![GPT-4 Integration Diagram](/assets/ai-search-engine/consensus/analyze-papers-detect.png)
 
 
 With GPT-4 integration, Consensus AI assists users in comprehending complex research papers. It can:
@@ -67,7 +50,7 @@ With GPT-4 integration, Consensus AI assists users in comprehending complex rese
 ### Research Copilot
 
 **Diagram: GPT-4 Integration Benefits**
-![Research Copilot Diagram](/assets/images/diagrams/ai-search-engine-consensus-summarize-papers-answer-09a2dd0e.png)
+![Research Copilot Diagram](/assets/ai-search-engine/consensus/summarize-papers-answer.png)
 
 The Consensus Copilot feature acts as a smart research assistant, delving deeper into research topics. It can:
 
@@ -82,7 +65,7 @@ The Consensus Copilot feature acts as a smart research assistant, delving deeper
 
 Consensus AI scans peer-reviewed papers from credible sources. Here’s the basic workflow:
 **Diagram: Features of Research Copilot**
-![How Consensus AI Works Diagram](/assets/images/diagrams/ai-search-engine-consensus-find-related-studies-92297e0b.png)
+![How Consensus AI Works Diagram](/assets/ai-search-engine/consensus/find-related-studies.png)
 
 
 1. User inputs a research question
@@ -100,7 +83,7 @@ Consensus AI presents various plans to accommodate different users:
 **Basic Plan:**
 
 **Diagram: Consensus AI Workflow**
-![Pricing Options Diagram](/assets/images/diagrams/ai-search-engine-consensus-input-query-search-f642e493.png)
+![Pricing Options Diagram](/assets/ai-search-engine/consensus/input-query-search.png)
 
 * Free access
 * Limited monthly searches

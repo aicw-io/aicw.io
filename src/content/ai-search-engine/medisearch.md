@@ -12,21 +12,6 @@ things: "MediSearch, medical AI search, peer-reviewed medical sources, health in
 keywords: "MediSearch, medical AI search, peer-reviewed medical sources, health information search, AI medical search engine, medical misinformation prevention, trustworthy health search, Google health search alternative"
 ---
 
-# MediSearch: Your Guide to Trustworthy Medical AI Search
-
-## Table of Contents
-- [What is MediSearch](#what-is-medisearch)
-- [Why MediSearch Exists and Its Purpose](#why-medisearch-exists-and-its-purpose)
-- [How MediSearch Uses Peer-Reviewed Sources](#how-medisearch-uses-peer-reviewed-sources)
-- [Citation Strategy and Transparency](#citation-strategy-and-transparency)
-- [Limitations and Not a Medical Professional Substitute](#limitations-and-not-a-medical-professional-substitute)
-- [Comparison with Google Health Search](#comparison-with-google-health-search)
-- [Practical Use Cases for MediSearch](#practical-use-cases-for-medisearch)
-- [How MediSearch Works Behind the Scenes](#how-medisearch-works-behind-the-scenes)
-- [Conclusion](#conclusion)
-
-Searching for medical information online can be challenging. You type symptoms into a search engine and suddenly you're convinced you have multiple diseases. That's where specialized medical search tools like MediSearch come in. MediSearch is an AI medical search engine designed specifically for health [and medical queries, offering direct answers based on scientific references](https://apps.apple.com/us/app/medisearch-ai/id6473300940). It [retrieves information from peer-reviewed medical sources, ensuring accuracy and reliability](https://medisearch.io/about/medical-chatbot). While regular search engines often display unreliable health content alongside trustworthy medical information, MediSearch addresses this by exclusively utilizing verified scientific literature and medical databases. Its main features include direct citations to scientific papers, summaries in plain language, and [transparency about each piece of information's origin, enhancing user trust](https://medisearch.io/about/medical-chatbot). MediSearch is tailored for anyone seeking reliable health information but who isn't a medical professional, [bridging the gap between complex medical research and public understanding](https://medisearch.io/about/medical-chatbot).
-
 <a id="what-is-medisearch"></a>
 
 ## What is MediSearch
@@ -41,7 +26,7 @@ The internet is flooded with health misinformation. Studies have found that near
 
 
 MediSearch Overview and Features:
-![Why MediSearch Exists and Its Purpose Diagram](/assets/images/diagrams/ai-search-engine-medisearch-health-queries-medisearch-5f962c10.png)
+![Why MediSearch Exists and Its Purpose Diagram](/assets/ai-search-engine/medisearch/health-queries-medisearch.png)
 
 <a id="how-medisearch-uses-peer-reviewed-sources"></a>
 
@@ -86,11 +71,11 @@ The workflow begins when you enter a medical question. The AI processes your que
 MediSearch represents a focused way to tackle medical misinformation online. By restricting sources to peer-reviewed scientific literature, it provides a trustworthy health information search. The platform's citation strategy ensures transparency and allows users to verify every claim. This matters in an era where AI-generated content often lacks verifiable sources. The tool serves practical purposes for patients, healthcare professionals, students, and content creators. It bridges the gap between complex medical research and public understanding. However, it's essential to remember the limitations. MediSearch provides information but cannot replace professional medical consultation. Your doctor knows your specific health situation and can apply research findings to your individual case. The tool works best as an educational resource and research aid. Compared to general search engines like Google, MediSearch offers deeper scientific accuracy but a narrower scope. Both tools have their place depending on what you need. For evidence-based medical information directly from research papers, MediSearch delivers reliable results with full transparency about sources.
 
 MediSearch vs Google Health Search:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-medisearch-medisearch-google-health-2ed2ac18.png)
+![Conclusion Diagram](/assets/ai-search-engine/medisearch/medisearch-google-health.png)
 
 
 Peer-Reviewed Sources and AI Usage Flow:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-medisearch-query-input-processing-84adc329.png)
+![Conclusion Diagram](/assets/ai-search-engine/medisearch/query-input-processing.png)
 <h2>Frequently Asked Questions</h2>
 
 <details>

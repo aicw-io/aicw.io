@@ -12,16 +12,6 @@ things: "Qwant, privacy search engine, GDPR compliance, French search tool"
 keywords: "Qwant, privacy search engine, GDPR compliance, French search tool"
 ---
 
-# Qwant: The French Privacy Search Engine Explained
-
-## Table of Contents
-- [Introduction](#introduction)
-- [What is Qwant](#what-is-qwant)
-- [Why Qwant Exists](#why-qwant-exists)
-- [How Users and Businesses Use Qwant](#how-users-and-businesses-use-qwant)
-- [Facts and Comparison](#facts-and-comparison)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -34,7 +24,7 @@ Qwant is a [privacy-focused search engine](https://www.techradar.com/reviews/qwa
 
 
 Qwant Privacy Architecture:
-![What is Qwant? Diagram](/assets/images/diagrams/ai-search-engine-qwant-french-privacy-user-search-query-2047fba0.png)
+![What is Qwant? Diagram](/assets/ai-search-engine/qwant-french-privacy/user-search-query.png)
 
 Qwant is a search engine developed in France with a strong emphasis on privacy. It does not track its users, meaning no personal data is stored, allowing users to receive the same unfiltered search results. Designed to respect privacy, Qwant is appealing to those who prioritize online data protection.
 
@@ -50,7 +40,7 @@ Qwant exists to provide a private search alternative. With increasing concerns a
 
 
 Qwant vs Traditional Search Engines:
-![How Users and Businesses Use Qwant Diagram](/assets/images/diagrams/ai-search-engine-qwant-french-privacy-traditional-search-user-6dc393c7.png)
+![How Users and Businesses Use Qwant Diagram](/assets/ai-search-engine/qwant-french-privacy/traditional-search-user.png)
 
 Users choose Qwant for its strong privacy promise. Businesses valuing data protection also prefer it for searches. Qwant offers [Qwant Junior](https://www.webshir.com/web/qwant), a tool for safe browsing for kids. Qwant Maps assists users in navigating without sacrificing privacy, providing location-based services without tracking or storing personal location data. It is widely used for secure and private web searches in both personal and professional contexts.
 
@@ -64,7 +54,7 @@ Qwant is partially independent as it uses Bing for some results but distinguishe
 |---------------|---------------|--------------|----------|
 
 Qwant Product Ecosystem:
-![Facts and Comparison Diagram](/assets/images/diagrams/ai-search-engine-qwant-french-privacy-qwant-core-search-2830f49a.png)
+![Facts and Comparison Diagram](/assets/ai-search-engine/qwant-french-privacy/qwant-core-search.png)
 
 | Qwant        | High          | None         | Qwant Junior, Maps |
 | Ecosia       | Medium        | Minimal      | Plant trees with searches |

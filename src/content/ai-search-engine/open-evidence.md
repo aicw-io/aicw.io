@@ -12,16 +12,6 @@ things: "OpenEvidence, Mayo Clinic, clinical AI, decision support, HIPAA"
 keywords: "OpenEvidence, Mayo Clinic, clinical AI, decision support, HIPAA"
 ---
 
-# Understanding OpenEvidence: Mayo Clinic's AI for Clinical Support
-
-## Table of Contents
-- [Introduction](#introduction)
-- [What is OpenEvidence?](#what-is-openevidence)
-- [Why Does OpenEvidence Exist?](#why-does-openevidence-exist)
-- [How Do Users Utilize OpenEvidence?](#how-do-users-utilize-openevidence)
-- [Key Facts and Comparison](#key-facts-and-comparison)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -35,7 +25,7 @@ OpenEvidence is Mayo Clinic's new AI tool for clinical decision support, [develo
 OpenEvidence is an AI-driven tool created by Mayo Clinic to help [clinicians make informed decisions, offering evidence-based recommendations with accurate citations](https://mayoclinic.elsevierpure.com/en/publications/the-use-of-an-artificial-intelligence-platform-openevidence-to-au/). By processing complex medical data swiftly, it simplifies the interpretation of clinical evidence. The result? Doctors receive precise answers quickly. This tool is a combination of AI technology and medical expertise.
 
 OpenEvidence Clinical Workflow:
-![What is OpenEvidence? Diagram](/assets/images/diagrams/ai-search-engine-open-evidence-clinical-query-openevidence-8ce9bd98.png)
+![What is OpenEvidence? Diagram](/assets/ai-search-engine/open-evidence/clinical-query-openevidence.png)
 
 <a id="why-does-openevidence-exist"></a>
 
@@ -50,7 +40,7 @@ The purpose of OpenEvidence is to assist clinicians with accurate information. H
 Healthcare professionals use OpenEvidence to address clinical queries. The AI provides verified citations and sources, greatly reducing research time and integrating smoothly into clinical workflows. Doctors trust it to support daily decision-making. Designed with HIPAA considerations, it ensures all patient data remains confidential.
 
 OpenEvidence vs General Medical Tools:
-![How Do Users Utilize OpenEvidence? Diagram](/assets/images/diagrams/ai-search-engine-open-evidence-medical-question-tool-046aab04.png)
+![How Do Users Utilize OpenEvidence? Diagram](/assets/ai-search-engine/open-evidence/medical-question-tool.png)
 
 <a id="key-facts-and-comparison"></a>
 
@@ -59,7 +49,7 @@ OpenEvidence vs General Medical Tools:
 OpenEvidence focuses on clinician support, not patient interaction, and it's fully HIPAA-compliant, ensuring data privacy. Compared to general medical search tools, OpenEvidence offers specialized support for clinicians.
 
 Data Privacy and Compliance Flow:
-![Key Facts and Comparison Diagram](/assets/images/diagrams/ai-search-engine-open-evidence-patient-data-hipaa-f175aa22.png)
+![Key Facts and Comparison Diagram](/assets/ai-search-engine/open-evidence/patient-data-hipaa.png)
 
 
 | Feature | OpenEvidence | General Medical Search Tools |

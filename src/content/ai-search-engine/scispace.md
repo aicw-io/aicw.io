@@ -12,16 +12,6 @@ things: "SciSpace, AI tools, research papers, Copilot, AI research"
 keywords: "SciSpace, AI tools, research papers, Copilot, AI research"
 ---
 
-# Understanding SciSpace: An AI Tool for Demystifying Research Papers
-
-## Table of Contents
-- [Introduction](#introduction)
-- [What is SciSpace?](#what-is-scispace)
-- [Purpose of SciSpace](#purpose-of-scispace)
-- [How is SciSpace Used?](#how-is-scispace-used)
-- [Facts and Comparisons](#facts-and-comparisons)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -33,7 +23,7 @@ Research papers can be difficult to understand, but SciSpace aims to simplify th
 ## What is SciSpace?
 
 SciSpace Core Features:
-![What is SciSpace? Diagram](/assets/images/diagrams/ai-search-engine-scispace-scispace-platform-copilot-d890d468.png)
+![What is SciSpace? Diagram](/assets/ai-search-engine/scispace/scispace-platform-copilot.png)
 
 SciSpace is an AI-powered tool designed to accelerate the understanding of research papers, offering features like AI-powered search across 287 million [academic papers and an AI Copilot for real-time PDF explanations](https://www.daidu.ai/products/scispace-ai). By leveraging Copilot, users can quickly engage in Q&A sessions about the content. The show-and-explain feature provides clarity by breaking down complex texts, and SciSpace offers paper formatting assistance inherited from Typeset, making it a comprehensive solution for research needs.
 
@@ -44,7 +34,7 @@ SciSpace is an AI-powered tool designed to accelerate the understanding of resea
 Why does SciSpace exist? Academic papers are often challenging, and SciSpace aims to resolve this issue. By simplifying reading and comprehension, it makes research more approachable. The Chrome extension further improves accessibility, bridging the gap between research complexity and readability, [allowing users to interact with PDFs and receive real-time explanations](https://chromewebstore.google.com/detail/scispace-copilot/cipccbpjpemcnijhjcdjmkjhmhniiick/).
 
 How SciSpace Works:
-![Purpose of SciSpace Diagram](/assets/images/diagrams/ai-search-engine-scispace-upload-paper-analysis-7abeec5a.png)
+![Purpose of SciSpace Diagram](/assets/ai-search-engine/scispace/upload-paper-analysis.png)
 
 <a id="how-is-scispace-used"></a>
 
@@ -57,7 +47,7 @@ SciSpace is invaluable for businesses and students looking to simplify their res
 ## Facts and Comparisons
 
 SciSpace User Workflow:
-![Facts and Comparisons Diagram](/assets/images/diagrams/ai-search-engine-scispace-research-paper-scispace-d84caab8.png)
+![Facts and Comparisons Diagram](/assets/ai-search-engine/scispace/research-paper-scispace.png)
 
 
 - **Fact**: SciSpace offers a unique combination of tools for research assistance. 

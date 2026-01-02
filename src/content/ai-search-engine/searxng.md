@@ -12,17 +12,6 @@ things: "SearXNG, self-hosted, metasearch, privacy, open-source"
 keywords: "SearXNG, self-hosted, metasearch, privacy, open-source"
 ---
 
-# Comprehensive Guide to SearXNG - The Self-Hosted Metasearch Engine
-
-## Table of Contents
-- [Introduction](#introduction)
-- [What is SearXNG?](#what-is-searxng)
-- [Purpose and Uses](#purpose-and-uses)
-- [User Experiences](#user-experiences)
-- [Facts and Comparisons](#facts-and-comparisons)
-- [Setting Up SearXNG](#setting-up-searxng)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction

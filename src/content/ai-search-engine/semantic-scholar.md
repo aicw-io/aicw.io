@@ -12,23 +12,12 @@ things: "Semantic Scholar, AI tools, academic search, Allen Institute"
 keywords: "Semantic Scholar, AI tools, academic search, Allen Institute"
 ---
 
-# Introduction
-
-## Table of Contents
-- [What is Semantic Scholar?](#what-is-semantic-scholar)
-- [Why Use Semantic Scholar?](#why-use-semantic-scholar)
-- [Usage and Features](#usage-and-features)
-- [Confirmed Facts and Comparisons](#confirmed-facts-and-comparisons)
-- [Conclusion](#conclusion)
-- [Useful Links](#useful-links)
-Semantic Scholar is an [AI-powered academic search engine](https://www.semanticscholar.org/) developed by the Allen Institute for AI. It helps make finding research papers both easy and fast. With a database of over 200 million papers, it serves as an essential tool for researchers, offering features like [AI-powered search](https://www.semanticscholar.org/product) and [Semantic Reader](https://www.semanticscholar.org/product/semantic-reader). Key features include TLDR summaries, citation analysis, and [personalized research feeds](https://www.semanticscholar.org/product) to help researchers stay up-to-date. Let's dive into how it works and why it's a crucial resource for academic research, as highlighted in [this overview](https://www.semanticscholar.org/faq/advantages).
-
 <a id="what-is-semantic-scholar"></a>
 
 ## What is Semantic Scholar?
 Semantic Scholar is an AI-enhanced search engine tailored for academic literature. It assists researchers in quickly locating relevant papers. By leveraging AI, it offers smart features like TLDR summaries and citation suggestions. Its primary aim is to simplify the researcher’s journey.
 How Semantic Scholar Works:
-![What is Semantic Scholar? Diagram](/assets/images/diagrams/ai-search-engine-semantic-scholar-academic-papers-analysis-7f6647b4.png)
+![What is Semantic Scholar? Diagram](/assets/ai-search-engine/semantic-scholar/academic-papers-analysis.png)
 
 
 <a id="why-use-semantic-scholar"></a>
@@ -42,7 +31,7 @@ This tool exists to streamline academic research. It provides quick access to pa
 Businesses and individual users gain several benefits from Semantic Scholar. TLDR summaries help reduce reading time, while citation analytics offer insights into how papers contribute to their fields. Users can track influential citations to assess impact.
 
 Core Features Overview:
-![Usage and Features Diagram](/assets/images/diagrams/ai-search-engine-semantic-scholar-semantic-scholar-tldr-bd243943.png)
+![Usage and Features Diagram](/assets/ai-search-engine/semantic-scholar/semantic-scholar-tldr.png)
 
 
 <a id="confirmed-facts-and-comparisons"></a>
@@ -52,14 +41,13 @@ Semantic Scholar houses over 200 million papers. Its features are robust and uni
 
 | Feature           | Semantic Scholar | Google Scholar  |
 |-------------------|------------------|-----------------|
-
-Research Workflow:
-![Confirmed Facts and Comparisons Diagram](/assets/images/diagrams/ai-search-engine-semantic-scholar-search-query-processing-2ab2a231.png)
-
-
 | AI Summaries      | Yes              | No              |
 | Citation Analysis | Advanced         | Basic           |
 | Research Feeds    | Yes              | No              |
+
+Research Workflow:
+![Confirmed Facts and Comparisons Diagram](/assets/ai-search-engine/semantic-scholar/search-query-processing.png)
+
 
 <a id="conclusion"></a>
 

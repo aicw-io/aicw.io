@@ -12,26 +12,6 @@ things: "Liner AI, AI research tool, academic research AI, AI search engine, res
 keywords: "Liner AI, AI research tool, academic research AI, AI search engine, research highlighting tool, citation tool, Chrome extension research, AI for students, research annotation tool, trusted sources AI"
 ---
 
-# Liner AI Research Tool: Complete Guide for Students
-
-## Table of Contents
-- [What is Liner AI](#what-is-liner-ai)
-- [Purpose of Liner AI](#purpose-of-liner-ai)
-- [How Students and Researchers Use Liner AI](#how-students-and-researchers-use-liner-ai)
-- [Key Features and How They Work](#key-features-and-how-they-work)
-- [Liner AI vs Other AI Search Tools](#liner-ai-vs-other-ai-search-tools)
-- [Privacy and Data Usage Considerations](#privacy-and-data-usage-considerations)
-- [Practical Use Cases for Academic Research](#practical-use-cases-for-academic-research)
-- [Limitations and Considerations](#limitations-and-considerations)
-- [Getting Started with Liner AI](#getting-started-with-liner-ai)
-- [Conclusion](#conclusion)
-
-Liner AI is a robust [AI research tool](https://liner.com/learn/the-best-ai-search-2025) specifically designed for students and academics. It helps discover valuable information, highlight web content, and organize research materials efficiently. By combining advanced [AI search engine](https://liner.com/learn/the-best-ai-search-2025) capabilities with traditional web highlighting features, Liner AI becomes essential for anyone conducting in-depth research online.
-
-*AI research tools* like Liner AI exist because academic work requires gathering information from numerous sources. Students and researchers often need to save quotes, track sources, and organize findings. The conventional methods involve copying text manually to documents or using basic bookmarking. Liner AI simplifies this process by integrating search features with a [citation tool](https://liner.com/learn/the-best-ai-search-2025) for automatic citations.
-
-Key features include AI-powered search with source citations, web page highlighting and annotation, PDF support, and a [Chrome extension research](https://liner.com/learn/the-best-ai-search-2025) tool for easy access. The tool also filters results to [highlight trusted sources AI](https://liner.com/learn/the-best-ai-search-2025). This guide covers what Liner AI is, how it works, and how it fits into your *academic research AI* workflow.
-
 <a id="what-is-liner-ai"></a>
 
 ## What is Liner AI
@@ -48,7 +28,7 @@ The interface is divided between the browser extension and a web app. The extens
 
 
 AI Research Workflow:
-![Purpose of Liner AI Diagram](/assets/images/diagrams/ai-search-engine-liner-search-source-citations-cabfb6be.png)
+![Purpose of Liner AI Diagram](/assets/ai-search-engine/liner/search-source-citations.png)
 
 Academic research involves extensive reading from various sources, making it tough to keep track of crucial quotes and citations. Traditional note-taking apps fall short when browsing the web, requiring manual text copying, link saving, and separate organization.
 
@@ -119,7 +99,7 @@ Liner AI benefits literature reviews. Highlighting key findings when reading man
 For thesis and dissertation research, maintaining source tracking over months or years is crucial. Liner AI's cloud sync ensures your research library is accessible anywhere. Highlight on your laptop, review notes on your phone—this flexibility aids progress on long-term projects.
 
 Highlighting and Search Integration:
-![Practical Use Cases for Academic Research Diagram](/assets/images/diagrams/ai-search-engine-liner-webpage-browsing-highlight-e8456bb6.png)
+![Practical Use Cases for Academic Research Diagram](/assets/ai-search-engine/liner/webpage-browsing-highlight.png)
 
 
 Group research projects can share Liner AI collections, with team members highlighting different sources, gathering highlights in one location—better than emailing documents. Verify current version supports team features, as functionality may be limited.
@@ -169,7 +149,7 @@ Key features include web and PDF highlighting, cloud sync, search with citations
 Overall, Liner AI suits researchers seeking efficient data collection and organization. It eases the transition from discovery to source saving. For academic work demanding verified sources, the citation feature provides an edge over generalized AI chatbots. Assess your research workflow to determine if Liner AI's highlighting and search combination meets your needs.
 
 Liner AI User Flow:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-liner-install-extension-highlight-de34b715.png)
+![Conclusion Diagram](/assets/ai-search-engine/liner/install-extension-highlight.png)
 ## Frequently Asked Questions
 
 <details>

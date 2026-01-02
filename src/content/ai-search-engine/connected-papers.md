@@ -12,21 +12,6 @@ things: "connected papers, research discovery, citation graphs, literature revie
 keywords: "connected papers, research discovery, citation graphs, literature review, research papers, academic search, visual paper exploration"
 ---
 
-# Connected Papers: Visual Research Discovery Tool Guide
-
-## Table of Contents
-- [What is Connected Papers?](#what-is-connected-papers)
-- [How Connected Papers Works](#how-connected-papers-works)
-- [Using the Basic Features](#using-the-basic-features)
-- [Advanced Search Features](#advanced-search-features)
-- [Free vs Premium Features](#free-vs-premium-features)
-- [Integration with Reference Managers](#integration-with-reference-managers)
-- [Comparison with Other Tools](#comparison-with-other-tools)
-- [Best Practices for Literature Review](#best-practices-for-literature-review)
-- [Conclusion](#conclusion)
-
-Connected Papers helps researchers discover related academic papers using visual citation graphs. This innovative tool provides insights into connections between research papers based on shared citations and references. This article explains how to leverage Connected Papers for research discovery and thorough literature reviews.
-
 <a id="what-is-connected-papers"></a>
 
 ## What is Connected Papers?
@@ -35,7 +20,7 @@ Connected Papers is a web-based tool designed for exploring academic search and 
 
 ### Key Features
 
-![Key Features Diagram](/assets/images/diagrams/ai-search-engine-connected-papers-citation-patterns-visual-ebbb6bbe.png)
+![Key Features Diagram](/assets/ai-search-engine/connected-papers/citation-patterns-visual.png)
 
 
 * Visual graphs of related papers
@@ -51,7 +36,7 @@ Connected Papers is a web-based tool designed for exploring academic search and 
 
 Connected Papers creates graphs by analyzing both citations and references, utilizing co-citation and bibliographic coupling to identify related works. When searching for a paper, the tool identifies other papers with similar citations. Research papers sharing more citations appear closer together on the visual citation graphs.
 
-![How Connected Papers Works Diagram](/assets/images/diagrams/ai-search-engine-connected-papers-connected-papers-citation-35a2fafc.png)
+![How Connected Papers Works Diagram](/assets/ai-search-engine/connected-papers/connected-papers-citation.png)
 
 
 ### Factors in Similarity Scoring:
@@ -77,7 +62,7 @@ To effectively use Connected Papers for academic search:
 6. Use zoom and pan functionalities for exploration
 
 
-![Using the Basic Features Diagram](/assets/images/diagrams/ai-search-engine-connected-papers-connected-papers-home-26c6b966.png)
+![Using the Basic Features Diagram](/assets/ai-search-engine/connected-papers/connected-papers-home.png)
 
 The displayed graph can show up to 50 related papers. Larger nodes indicate more citations, while line thickness reveals the strength of connections between research papers.
 
@@ -103,7 +88,7 @@ Additional search refinements:
 
 * Filter by year range
 
-![Advanced Search Features Diagram](/assets/images/diagrams/ai-search-engine-connected-papers-advanced-search-prior-79eada70.png)
+![Advanced Search Features Diagram](/assets/ai-search-engine/connected-papers/advanced-search-prior.png)
 
 * Sort by citation count
 * Focus on specific authors
@@ -135,7 +120,7 @@ Additional search refinements:
 Connected Papers seamlessly integrates with popular reference managers:
 
 
-![Integration with Reference Managers Diagram](/assets/images/diagrams/ai-search-engine-connected-papers-free-features-visual-0c3434a3.png)
+![Integration with Reference Managers Diagram](/assets/ai-search-engine/connected-papers/free-features-visual.png)
 
 * Zotero
 * Mendeley
@@ -165,7 +150,7 @@ Connected Papers seamlessly integrates with popular reference managers:
 * Requires subscription
 * Primarily text-based results
 
-![Comparison with Other Tools Diagram](/assets/images/diagrams/ai-search-engine-connected-papers-connected-papers-zotero-957e65ec.png)
+![Comparison with Other Tools Diagram](/assets/ai-search-engine/connected-papers/connected-papers-zotero.png)
 
 
 **ResearchGate:**
@@ -196,7 +181,7 @@ Connected Papers is most effective when used alongside other research methods. I
 Connected Papers offers a visual method to explore academic literature, aiding researchers in discovering research papers and understanding interconnections, thereby enhancing the literature review process. While there are limitations, it is an invaluable tool for literature reviews and staying current with your research field. Free features suit basic needs, while premium features assist with in-depth research.
 
 
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-connected-papers-research-tools-google-5bb9a7a3.png)
+![Conclusion Diagram](/assets/ai-search-engine/connected-papers/research-tools-google.png)
 ## Frequently Asked Questions
 
 <details>

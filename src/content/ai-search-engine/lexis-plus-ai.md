@@ -12,21 +12,6 @@ things: "Lexis+ AI, LexisNexis AI, legal research AI, AI legal tools, Casetext, 
 keywords: "Lexis+ AI, LexisNexis AI, legal research AI, AI legal tools, Casetext, Westlaw, legal research platform, AI-powered legal research, conversational AI legal"
 ---
 
-# Lexis+ AI Legal Research Platform Complete Guide
-
-## Table of Contents
-- [What is Lexis+ AI](#what-is-lexis-ai)
-- [The 83 Million Document Database](#the-83-million-document-database)
-- [How Lexis+ AI Works](#how-lexis-ai-works)
-- [Hallucination Protection Through Citations](#hallucination-protection-through-citations)
-- [Comparing Lexis+ AI to Casetext](#comparing-lexis-ai-to-casetext)
-- [Comparing Lexis+ AI to Westlaw](#comparing-lexis-ai-to-westlaw)
-- [Enterprise Pricing and Access Model](#enterprise-pricing-and-access-model)
-- [Why Legal AI Research Tools Matter](#why-legal-ai-research-tools-matter)
-- [Conclusion](#conclusion)
-
-Legal research has transformed significantly with the integration of AI. Lexis+ AI is LexisNexis's solution to the increasing demand for faster and more accurate legal research tools. This platform merges conversational AI with an extensive legal document database. It assists lawyers and legal professionals in locating relevant case law, statutes, and legal precedents swiftly. Traditionally, legal research involved hours of manual searching through cases and documents. AI-powered platforms like Lexis+ AI can significantly reduce this time, ensuring accuracy through citation linking and verification systems. Key features include access to over 83 million legal documents, a conversational search interface, hallucination protection through required citations, and integration with existing LexisNexis legal databases.
-
 <a id="what-is-lexis-ai"></a>
 
 ## What is Lexis+ AI
@@ -75,7 +60,7 @@ Lexis+ AI is not available as a standalone consumer product. It is part of the L
 
 Legal research is one of the most time-consuming aspects of legal practice. Attorneys can spend hours searching for relevant cases or trying to understand how courts have interpreted specific legal issues. This research time gets billed to clients or reduces profitability for firms working on fixed fees. AI legal tools promise to compress this timeline from hours to minutes for many routine research questions. This efficiency gain allows lawyers to spend more time on analysis, strategy, and client communication rather than document hunting. The tools also help level the playing field for less experienced attorneys, providing quick answers to foundational questions. However, these tools do not replace legal judgment. The AI provides information and sources, but lawyers must still analyze whether those sources apply to their specific situation. Understanding legal research AI helps legal professionals evaluate whether these tools fit their practice needs, justify subscription costs, and understand the limitations and risks of relying on AI-generated legal research.
 Lexis+ AI Workflow Overview:
-![Why Legal AI Research Tools Matter Diagram](/assets/images/diagrams/ai-search-engine-lexis-plus-ai-user-input-processing-6537cae7.png)
+![Why Legal AI Research Tools Matter Diagram](/assets/ai-search-engine/lexis-plus-ai/user-input-processing.png)
 
 
 <a id="conclusion"></a>
@@ -84,10 +69,10 @@ Lexis+ AI Workflow Overview:
 
 Lexis+ AI represents LexisNexis's evolution into AI-powered legal research. The platform combines a database of over 83 million legal documents with conversational AI to help legal professionals find relevant information faster. Its hallucination protection through required citations addresses one of the biggest concerns with AI in legal contexts. The platform competes directly with Westlaw Precision and Casetext's CoCounsel in the legal research space. Each platform has strengths. LexisNexis offers deep database coverage and integration with its broader legal research ecosystem. The enterprise pricing model means this tool is primarily accessible to law firms and legal departments, rather than individual consumers. As technology improves, these platforms will likely become standard tools in legal practice. They will change how attorneys conduct research and build legal arguments. Understanding how these tools work and their limitations is important for anyone in the legal field considering adoption.
 Lexis+ AI vs Competitors:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-lexis-plus-ai-lexis-enhanced-database-bb96561a.png)
+![Conclusion Diagram](/assets/ai-search-engine/lexis-plus-ai/lexis-enhanced-database.png)
 
 Lexis+ AI Hallucination Protection:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-lexis-plus-ai-response-document-citation-38f2756d.png)
+![Conclusion Diagram](/assets/ai-search-engine/lexis-plus-ai/response-document-citation.png)
 <h2>Frequently Asked Questions</h2>
 
 <details>
