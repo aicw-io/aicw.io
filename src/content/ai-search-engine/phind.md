@@ -12,16 +12,6 @@ things: "Phind, AI search engine, developers, GitHub Copilot, Stack Overflow, de
 keywords: "Phind, AI search engine, developers, GitHub Copilot, Stack Overflow, debugging"
 ---
 
-# Comprehensive Guide to Phind: The AI Search Engine for Developers
-
-## Table of Contents
-- [Introduction](#introduction)
-- [What is Phind](#what-is-phind)
-- [Why Phind Exists](#why-phind-exists)
-- [How Users Utilize Phind](#how-users-utilize-phind)
-- [Competitive Landscape](#competitive-landscape)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -31,7 +21,7 @@ keywords: "Phind, AI search engine, developers, GitHub Copilot, Stack Overflow, 
 
 ## What is Phind?
 Phind Search Workflow:
-![What is Phind? Diagram](/assets/images/diagrams/ai-search-engine-phind-developer-query-processing-23e75d7c.png)
+![What is Phind? Diagram](/assets/ai-search-engine/phind/developer-query-processing.png)
 
 Phind is optimized for technical content, playing a crucial role in assisting developers by delivering accurate search results, as discussed by [MOGE](https://moge.ai/product/phind). It focuses on developer-specific queries using the Phind-70B model, which is crafted to understand complex coding questions, as explained by [MOGE](https://moge.ai/product/phind).
 
@@ -44,7 +34,7 @@ Developers often need quick access to technical details, and Phind exists to mee
 
 ## How Users Utilize Phind
 Phind Integration Architecture:
-![How Users Utilize Phind Diagram](/assets/images/diagrams/ai-search-engine-phind-phind-engine-search-a67cd994.png)
+![How Users Utilize Phind Diagram](/assets/ai-search-engine/phind/phind-engine-search.png)
 
 Both businesses and developers use Phind to search for code snippets and documentation, as detailed on [Phind's official website](https://www.phindai.com/). It integrates seamlessly with IDEs like VS Code, as discussed by [MOGE](https://moge.ai/product/phind). Users appreciate its debugging and learning capabilities, as Phind simplifies the coding workflow by providing contextual data instantly, as noted by [MOGE](https://moge.ai/product/phind).
 
@@ -60,7 +50,7 @@ Phind competes with other tools such as GitHub Copilot and Stack Overflow, as di
 | User Input   | AI Model Search   | Code Suggestions| Community Answers |
 
 Comparison of Developer Tools:
-![Competitive Landscape Diagram](/assets/images/diagrams/ai-search-engine-phind-developer-tools-phind-99006857.png)
+![Competitive Landscape Diagram](/assets/ai-search-engine/phind/developer-tools-phind.png)
 
 
 <a id="conclusion"></a>

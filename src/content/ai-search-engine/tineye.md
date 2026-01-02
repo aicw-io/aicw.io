@@ -12,17 +12,6 @@ things: "TinEye, reverse image search, image fingerprinting, API, MatchEngine"
 keywords: "TinEye, reverse image search, image fingerprinting, API, MatchEngine"
 ---
 
-# Ultimate Guide to TinEye: The Reverse Image Search Pioneer
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [What is TinEye?](#what-is-tineye)
-- [Purpose of TinEye](#purpose-of-tineye)
-- [How Businesses Use TinEye](#how-businesses-use-tineye)
-- [Facts & Comparisons](#facts-comparisons)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -30,7 +19,7 @@ TinEye is a [leading tool in the field of reverse image search](https://tineye.c
 
 
 How TinEye Works:
-![Introduction Diagram](/assets/images/diagrams/ai-search-engine-tineye-upload-image-generate-79a9676e.png)
+![Introduction Diagram](/assets/ai-search-engine/tineye/upload-image-generate.png)
 
 <a id="what-is-tineye"></a>
 
@@ -52,20 +41,20 @@ Businesses frequently use TinEye to [ensure their images are used with permissio
 ## Facts & Comparisons
 
 TinEye vs Google Images Comparison:
-![Facts & Comparisons Diagram](/assets/images/diagrams/ai-search-engine-tineye-image-input-search-171ece4b.png)
+![Facts & Comparisons Diagram](/assets/ai-search-engine/tineye/image-input-search.png)
 
 TinEye distinguishes itself through its use of [image fingerprinting technology](https://tineye.com/), which offers precise results. Unlike [Google Images](https://www.google.com/imghp), TinEye does not depend on keyword searches, focusing on the image itself. While [Google](https://www.google.com/imghp) provides a broader search capability, TinEye excels in precise tracking. Below is a quick comparison table:
 
 | Feature             | TinEye                 | Google Images            |
 |---------------------|------------------------|--------------------------|
 | Image Fingerprinting | Yes                    | No                       |
-
-Business Integration Workflow:
-![Facts & Comparisons Diagram](/assets/images/diagrams/ai-search-engine-tineye-business-need-integration-cb80d727.png)
-
 | Keyword Search      | No                     | Yes                      |
 | API Access          | Yes                    | No                       |
 | Bulk Image Search   | Yes (MatchEngine)      | No                       |
+
+Business Integration Workflow:
+![Facts & Comparisons Diagram](/assets/ai-search-engine/tineye/business-need-integration.png)
+
 
 <a id="conclusion"></a>
 

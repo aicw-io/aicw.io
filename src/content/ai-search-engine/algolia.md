@@ -12,28 +12,13 @@ things: "algolia, search api, ai search, search implementation, algolia tutorial
 keywords: "algolia, search api, ai search, search implementation, algolia tutorial, search as a service, developer tools, site search, instant search, neuralsearch"
 ---
 
-# Algolia: AI-Powered Search API Guide for Developers
-
-## Table of Contents
-- [Diagram 1: Overview of Algolia's Search Workflow](#diagram-1-overview-of-algOLias-search-workflow)
-- [Key Features](#key-features)
-- [Diagram 2: Integrating Algolia Search in a Project](#diagram-2-integrating-algolia-search-in-a-project)
-- [How Algolia Works](#how-algolia-works)
-- [Setting Up Algolia](#setting-up-algolia)
-- [Diagram 3: Algolia vs. Alternatives](#diagram-3-algolia-vs-alternatives)
-- [Pricing Model](#pricing-model)
-- [Comparing Algolia to Alternatives](#comparing-algolia-to-alternatives)
-- [Optimizing Algolia for Best Results](#optimizing-algolia-for-best-results)
-- [Common Use Cases](#common-use-cases)
-- [Code Examples](#code-examples)
-- [Summary](#summary)
-
-
 <a id="diagram-1-overview-of-algOLias-search-workflow"></a>
 
-## Diagram 1: Overview of Algolia's Search Workflow
+## Overview of Algolia's Search Workflow
+
 Here’s a visual representation of the core workflow that powers Algolia's search capabilities across global data centers.
-![Diagram 1: Overview of Algolia's Search Workflow Diagram](/assets/images/diagrams/ai-search-engine-algolia-data-upload-search-44f0bafd.png)
+
+![Overview of Algolia's Search Workflow Diagram](/assets/ai-search-engine/algolia/data-upload-search.png)
 
 Algolia is a [search-as-a-service platform](https://www.algolia.com/products/ai-search/) enabling developers to incorporate fast and AI-driven search capabilities into their applications. As a pioneer in AI search, Algolia boasts over 17,000 clients, handling more than 1.5 [trillion searches each year via over 90 global data centers](https://www.algolia.com/products/ai-search).
 
@@ -54,9 +39,9 @@ Algolia offers an array of features valuable for search implementation by develo
 
 <a id="diagram-2-integrating-algolia-search-in-a-project"></a>
 
-## Diagram 2: Integrating Algolia Search in a Project
+## Integrating Algolia Search in a Project
 Below is a simplified flow of steps for setting up Algolia in your project.
-![Diagram 2: Integrating Algolia Search in a Project Diagram](/assets/images/diagrams/ai-search-engine-algolia-create-account-upload-05cff223.png)
+![Integrating Algolia Search in a Project Diagram](/assets/ai-search-engine/algolia/create-account-upload.png)
 
 
 With the inclusion of NeuralSearch, Algolia's [AI search mechanism deciphers user intent beyond simple keyword matches](https://www.algolia.com/products/ai-search).
@@ -93,9 +78,9 @@ Algolia [supports multiple programming languages for ease of site search impleme
 
 <a id="diagram-3-algolia-vs-alternatives"></a>
 
-## Diagram 3: Algolia vs. Alternatives
+## Algolia vs. Alternatives
 Visualize the comparison of Algolia with Elasticsearch, Typesense, and Meilisearch in terms of hosting and setup complexity.
-![Diagram 3: Algolia vs. Alternatives Diagram](/assets/images/diagrams/ai-search-engine-algolia-algolia-self-hosting-1d8518e1.png)
+![Algolia vs. Alternatives Diagram](/assets/ai-search-engine/algolia/algolia-self-hosting.png)
 
 
 - Python

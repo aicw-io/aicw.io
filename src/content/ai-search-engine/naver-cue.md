@@ -12,22 +12,6 @@ things: "Naver Cue, HyperCLOVA X, Korean AI search, Naver AI, Korean language mo
 keywords: "Naver Cue, HyperCLOVA X, Korean AI search, Naver AI, Korean language model, AI search engine, Naver search, Korean AI tools, LLM Korea"
 ---
 
-# Naver Cue: Korean AI Search Powered by HyperCLOVA X
-
-## Table of Contents
-- [What is Naver Cue](#what-is-naver-cue)
-- [Understanding HyperCLOVA X Language Model](#understanding-hyperclova-x-language-model)
-- [Naver's Market Position in South Korea](#navers-market-position-in-south-korea)
-- [How Naver Uses HyperCLOVA X in Cue](#how-naver-uses-hyperclova-x-in-cue)
-- [Key Features and Capabilities of Naver Cue](#key-features-and-capabilities-of-naver-cue)
-- [Comparing Naver Cue with Google Korea](#comparing-naver-cue-with-google-korea)
-- [Regional AI Search Competition and Market Dynamics](#regional-ai-search-competition-and-market-dynamics)
-- [Technical Workflow and User Experience](#technical-workflow-and-user-experience)
-- [Privacy and Data Considerations](#privacy-and-data-considerations)
-- [Conclusion](#conclusion)
-
-Naver Cue is a revolutionary AI search tool developed by Naver Corporation, leveraging [HyperCLOVA X](https://clova.ai/en/tech-blog/introducing-hyperclova-x-our-state-of-the-art-ai-models-optimized-for-the-korean-language%7D), Naver's advanced large language model. Launched in South Korea, it caters specifically to Korean-speaking users, offering a [generative AI-based search engine](https://techcrunch.com/2023/08/24/koreas-internet-giant-naver-unveils-generative-ai-services/) equivalent to Microsoft's Bing. Unlike traditional searches, AI search tools like Naver Cue deliver conversational and context-aware results, providing complete answers to complex queries, as detailed in [Naver's AI search service, Cue: Q! - Finally launched, this is Naver's victory!](https://www.youtube.com/watch?v=XqAm8hNAdSs). Naver, holding over 50% of the search market in South Korea, surpasses Google in the region, as reported by [The Korea Times](https://w3.koreatimes.co.kr/www/tech/2025/05/133_357754.html). This dominance equips Naver with deep insights into Korean user behavior and language intricacies, enabling the development of AI search tools like Cue, as discussed in [Naver's AI search service, Cue: Q! - Finally launched, this is Naver's victory!](https://www.youtube.com/watch?v=XqAm8hNAdSs). Key features of Naver Cue include Korean language optimization, integration with Naver's services, real-time information access, and conversational search capabilities powered by HyperCLOVA X.
-
 <a id="what-is-naver-cue"></a>
 
 ## What is Naver Cue
@@ -47,7 +31,7 @@ HyperCLOVA X, Naver's proprietary large language model, builds on the 2021 relea
 Naver dominates South Korea's search market with over 50% market share, while Google Korea holds about 30%. This contrasts with most global markets where Google leads. Naver's success is rooted in its integration with Korean internet culture and services that extend beyond search, including email, news, shopping, and more. Korean users often choose Naver for online activities over Google. Strong ties with local content creators and businesses bolster Naver's position, generating significant advertising revenue. This unique advantage aids Naver in developing AI search tools, supported by extensive Korean user data and a deeper understanding of regulatory requirements.
 
 AI-Powered Search Evolution:
-![Naver's Market Position in South Korea Diagram](/assets/images/diagrams/ai-search-engine-naver-cue-user-query-hyperclova-ef4e8288.png)
+![Naver's Market Position in South Korea Diagram](/assets/ai-search-engine/naver-cue/user-query-hyperclova.png)
 
 
 <a id="how-naver-uses-hyperclova-x-in-cue"></a>
@@ -76,7 +60,7 @@ South Korea's unique market dynamics shape the AI search competition, influenced
 
 
 HyperCLOVA X Training Overview:
-![Regional AI Search Competition and Market Dynamics Diagram](/assets/images/diagrams/ai-search-engine-naver-cue-data-collection-data-bb8678a3.png)
+![Regional AI Search Competition and Market Dynamics Diagram](/assets/ai-search-engine/naver-cue/data-collection-data.png)
 
 <a id="technical-workflow-and-user-experience"></a>
 
@@ -97,7 +81,7 @@ Naver Cue collects query and interaction data, aligned with Korean privacy laws 
 Naver Cue marks South Korea's significant entry into AI search technology. Utilizing HyperCLOVA X, it offers AI capabilities optimized for Korean language and culture. Naver's strong market position provides unique advantages, focusing on Korean language excellence over global reach. The service competes with Google's AI search by emphasizing local content and integration with Naver's ecosystem. This highlights how regional players can effectively compete in AI by focusing on local languages and cultural contexts. As AI search evolves, Naver Cue will likely influence Korean user interaction with online information, driving innovation in Korean language AI technologies.
 
 Naver Cue User Workflow:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-naver-cue-user-inputs-query-a5592c66.png)
+![Conclusion Diagram](/assets/ai-search-engine/naver-cue/user-inputs-query.png)
 
 <h2>Frequently Asked Questions</h2>
 

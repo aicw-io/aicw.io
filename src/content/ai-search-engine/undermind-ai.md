@@ -12,17 +12,6 @@ things: "Undermind.ai, AI literature search, systematic reviews"
 keywords: "Undermind.ai, AI literature search, systematic reviews"
 ---
 
-# A Comprehensive Guide to Undermind.ai for Exhaustive AI Literature Searches
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Understanding Undermind.ai](#understanding-undermindai)
-- [Purpose of Undermind.ai](#purpose-of-undermindai)
-- [How Users Benefit](#how-users-benefit)
-- [Comparing Undermind.ai with Alternatives](#comparing-undermindai-with-alternatives)
-- [End](#end)
-
 <a id="introduction"></a>
 
 ## Introduction

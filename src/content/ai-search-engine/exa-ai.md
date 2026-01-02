@@ -12,21 +12,6 @@ things: "exa ai, neural search, semantic search, ai search engine, metaphor syst
 keywords: "exa ai, neural search, semantic search, ai search engine, metaphor systems, ai api, rag applications, ai development, search api"
 ---
 
-# Exa AI: Complete Guide to the Neural Search Engine for Developers
-
-## Table of Contents
-- [What is Exa AI?](#what-is-exa-ai)
-- [How Exa AI Works](#how-exa-ai-works)
-- [Use Cases and Applications](#use-cases-and-applications)
-- [API Integration](#api-integration)
-- [Pricing and Plans](#pricing-and-plans)
-- [Comparison with Other Search APIs](#comparison-with-other-search-apis)
-- [Best Practices](#best-practices)
-- [Technical Details](#technical-details)
-- [Summary](#summary)
-
-Neural search engines, like Exa AI, are redefining how we find and process information online. As a leader in AI search engine technology, Exa AI stands out with its innovative features. This guide explores why Exa AI is special and how it assists developers in building superior AI applications.
-
 <a id="what-is-exa-ai"></a>
 
 ## What is Exa AI?
@@ -39,7 +24,7 @@ Exa AI, formerly known as Metaphor Systems, is a sophisticated neural search eng
 
 ### Visual Overview of Exa AI Features
 Here is a visual representation of the key features that make Exa AI a leader in neural search technology.
-![Visual Overview of Exa AI Features Diagram](/assets/images/diagrams/ai-search-engine-exa-ai-neural-search-technology-99da6ea1.png)
+![Visual Overview of Exa AI Features Diagram](/assets/ai-search-engine/exa-ai/neural-search-technology.png)
 
 - API-first design
 - Real-time web search
@@ -63,7 +48,7 @@ Exa AI employs neural networks to comprehend web content, interpreting text much
 
 ### Simplified Search Process in Exa AI
 The diagram below outlines the main steps involved in Exa AI's search process.
-![Simplified Search Process in Exa AI Diagram](/assets/images/diagrams/ai-search-engine-exa-ai-content-processing-understand-1d10b397.png)
+![Simplified Search Process in Exa AI Diagram](/assets/ai-search-engine/exa-ai/content-processing-understand.png)
 
 The API provides clean, structured data, which is easily integrable into applications, [as described in Exa's API documentation](https://docs.exa.ai/). Developers receive search results in JSON format, complete with all necessary metadata.
 
@@ -88,7 +73,7 @@ Content teams utilize Exa AI for discovering related articles and researching to
 
 ### How AI Agents Utilize Exa AI
 A diagram explaining how AI agents leverage Exa AI for accessing real-time information.
-![How AI Agents Utilize Exa AI Diagram](/assets/images/diagrams/ai-search-engine-exa-ai-agents-real-time-ce7b8c2c.png)
+![How AI Agents Utilize Exa AI Diagram](/assets/ai-search-engine/exa-ai/agents-real-time.png)
 
 ### Market Analysis
 
@@ -107,7 +92,7 @@ Integrating Exa AI into your project is straightforward using the REST API, whic
 
 ### Diagram of Exa AI Integration
 Here is a basic diagram showing the integration steps for Exa AI via REST API.
-![Diagram of Exa AI Integration Diagram](/assets/images/diagrams/ai-search-engine-exa-ai-obtain-requests-submit-207f5567.png)
+![Diagram of Exa AI Integration Diagram](/assets/ai-search-engine/exa-ai/obtain-requests-submit.png)
 
 3. Submit search queries via POST requests
 4. Process JSON responses within your application
@@ -140,7 +125,7 @@ Exa AI offers distinct plans to suit various requirements:
 
 ### Comparison of Search APIs
 The following diagram compares the main features of Exa AI with other popular search APIs.
-![Comparison of Search APIs Diagram](/assets/images/diagrams/ai-search-engine-exa-ai-semantic-search-real-6b57515a.png)
+![Comparison of Search APIs Diagram](/assets/ai-search-engine/exa-ai/semantic-search-real.png)
 
 
 - 10,000 searches per month

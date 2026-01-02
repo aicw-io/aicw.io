@@ -12,15 +12,6 @@ things: "ResearchRabbit, research papers, Zotero integration, AI tools"
 keywords: "ResearchRabbit, research papers, Zotero integration, AI tools"
 ---
 
-# Discovering Research Papers with ResearchRabbit: A Comprehensive Guide
-
-## Table of Contents
-- [Introduction](#introduction)
-- [What is ResearchRabbit?](#what-is-researchrabbit)
-- [Why Does ResearchRabbit Exist?](#why-does-researchrabbit-exist)
-- [How Do Users Use ResearchRabbit?](#how-do-users-use-researchrabbit)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -34,7 +25,7 @@ ResearchRabbit is an [AI-powered literature discovery platform](https://www.rese
 ResearchRabbit is a [free online tool](https://www.researchrabbit.ai/) that assists in finding and tracking research papers. It uses sophisticated algorithms to suggest new papers based on your specific interests. Users can create collections and connect to Zotero for enhanced management of their paper libraries.
 
 ResearchRabbit Research Workflow:
-![What is ResearchRabbit? Diagram](/assets/images/diagrams/ai-search-engine-research-rabbit-create-account-papers-381183d5.png)
+![What is ResearchRabbit? Diagram](/assets/ai-search-engine/research-rabbit/create-account-papers.png)
 
 <a id="why-does-researchrabbit-exist"></a>
 
@@ -49,7 +40,7 @@ The tool exists to help manage the overwhelming volume of academic papers. By ut
 Users start by creating accounts to begin adding papers to collections. When connected to Zotero, it assists in organizing paper libraries more efficiently. Email alerts notify users of new recommendations tailored to their interests, ensuring they remain informed.
 
 ResearchRabbit Integration Ecosystem:
-![How Do Users Use ResearchRabbit? Diagram](/assets/images/diagrams/ai-search-engine-research-rabbit-researchrabbit-zotero-library-3a69f24b.png)
+![How Do Users Use ResearchRabbit? Diagram](/assets/ai-search-engine/research-rabbit/researchrabbit-zotero-library.png)
 
 | Feature | ResearchRabbit | Connected Papers | Semantic Scholar |
 |---------|----------------|------------------|------------------|

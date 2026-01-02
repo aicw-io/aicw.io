@@ -12,19 +12,6 @@ things: "elasticsearch, vector search, elk stack, search engine, ai search, elas
 keywords: "elasticsearch, vector search, elk stack, search engine, ai search, elastic company, kibana, logstash, solr, algolia"
 ---
 
-# Elasticsearch Guide: The Open Source AI Search Engine
-
-## Table of Contents
-- [What is Elasticsearch?](#what-is-elasticsearch)
-- [Main Features and Benefits](#main-features-and-benefits)
-- [The ELK Stack](#the-elk-stack)
-- [Vector Search for AI](#vector-search-for-ai)
-- [Cloud vs Self-Hosted Options](#cloud-vs-self-hosted-options)
-- [Comparison with Other Search Tools](#comparison-with-other-search-tools)
-- [Licensing Changes](#licensing-changes)
-- [Getting Started Tips](#getting-started-tips)
-- [Conclusion](#conclusion)
-
 <a id="what-is-elasticsearch"></a>
 
 ## What is Elasticsearch?
@@ -48,7 +35,7 @@ Elasticsearch offers numerous powerful features that contribute to its popularit
 5. **REST API:** Streamlined integration with various software platforms.
 
 Elasticsearch Architecture Overview:
-![Main Features and Benefits Diagram](/assets/images/diagrams/ai-search-engine-elasticsearch-client-elasticsearch-cluster-c805711f.png)
+![Main Features and Benefits Diagram](/assets/ai-search-engine/elasticsearch/client-elasticsearch-cluster.png)
 
 6. **Text Analysis:** Sophisticated text search capabilities that correct typos.
 7. **Aggregations:** Efficient data grouping and counting.
@@ -73,7 +60,7 @@ Elasticsearch functions as a core component of the ELK Stack, which includes:
 
 
 Key Features of the ELK Stack:
-![The ELK Stack Diagram](/assets/images/diagrams/ai-search-engine-elasticsearch-elasticsearch-logstash-kibana-6daacbad.png)
+![The ELK Stack Diagram](/assets/ai-search-engine/elasticsearch/elasticsearch-logstash-kibana.png)
 
 Many companies employ the full ELK Stack to diagnose system issues, monitor application performance, secure networks, understand user behavior, and inform business decisions.
 
@@ -105,7 +92,7 @@ Elasticsearch can be deployed via two main methods:
    - Elastic Cloud (official service)
 
 Vector Search Process:
-![Cloud vs Self-Hosted Options Diagram](/assets/images/diagrams/ai-search-engine-elasticsearch-data-input-vector-6f096e78.png)
+![Cloud vs Self-Hosted Options Diagram](/assets/ai-search-engine/elasticsearch/data-input-vector.png)
 
    - AWS Elasticsearch
    - Google Cloud Elasticsearch
@@ -131,7 +118,7 @@ Both options offer distinct advantages:
 - Customizable configurations
 
 Cloud vs Self-Hosted Deployment:
-![Cloud vs Self-Hosted Options Diagram](/assets/images/diagrams/ai-search-engine-elasticsearch-cloud-self-hosted-92466d3e.png)
+![Cloud vs Self-Hosted Options Diagram](/assets/ai-search-engine/elasticsearch/cloud-self-hosted.png)
 
 
 <a id="comparison-with-other-search-tools"></a>

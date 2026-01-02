@@ -12,16 +12,6 @@ things: "Startpage, privacy, search engine, Google proxy, Anonymous View, DuckDu
 keywords: "Startpage, privacy, search engine, Google proxy, Anonymous View, DuckDuckGo, Brave Search"
 ---
 
-# Understanding Startpage: Privacy-Focused Google Search Proxy
-
-## Table of Contents
-- [Introduction](#introduction)
-- [What is Startpage?](#what-is-startpage)
-- [Purpose of Startpage](#purpose-of-startpage)
-- [How Startpage is Used](#how-startpage-is-used)
-- [Confirmed Facts & Comparisons](#confirmed-facts--comparisons)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -33,7 +23,7 @@ Startpage is a [privacy-focused search engine](https://www.startpage.com/privacy
 Startpage is a privacy-focused search engine. It allows users to obtain Google Search results without the usual tracking. This means accessing the best search results without compromising your privacy.
 
 How Startpage Works:
-![What is Startpage? Diagram](/assets/images/diagrams/ai-search-engine-startpage-user-search-query-e96eee36.png)
+![What is Startpage? Diagram](/assets/ai-search-engine/startpage/user-search-query.png)
 
 <a id="purpose-of-startpage"></a>
 
@@ -51,7 +41,7 @@ Both businesses and users rely on Startpage for secure browsing. By utilizing An
 - **No user tracking**: Unlike Google, Startpage doesn’t track your searches.
 - **Anonymous View**: Visit sites without disclosing personal info.
 Startpage Privacy Protection Flow:
-![Confirmed Facts & Comparisons Diagram](/assets/images/diagrams/ai-search-engine-startpage-user-startpage-anonymous-e9c4d016.png)
+![Confirmed Facts & Comparisons Diagram](/assets/ai-search-engine/startpage/user-startpage-anonymous.png)
 
 
 - **Based in the Netherlands**: Subject to strong privacy laws.

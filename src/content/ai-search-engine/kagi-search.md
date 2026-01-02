@@ -12,28 +12,6 @@ things: "Kagi Search, ad-free search engine, privacy search, paid search engine,
 keywords: "Kagi Search, ad-free search engine, privacy search, paid search engine, FastGPT, Universal Summarizer, search engine comparison, Google alternative, private search"
 ---
 
-# Kagi Search: A Comprehensive Guide to the Premium Ad-Free AI Search Engine
-
-## Table of Contents
-- [What Is Kagi Search](#what-is-kagi-search)
-- [Why Paid Search Exists and Kagi's Purpose](#why-paid-search-exists-and-kagis-purpose)
-- [Kagi Pricing and Subscription Plans](#kagi-pricing-and-subscription-plans)
-- [Key Features That Differentiate Kagi](#key-features-that-differentiate-kagi)
-- [AI Features: FastGPT, Universal Summarizer, and Quick Answer](#ai-features-fastgpt-universal-summarizer-and-quick-answer)
-- [Lenses and Custom Search Filtering](#lenses-and-custom-search-filtering)
-- [Orion Browser Integration](#orion-browser-integration)
-- [Privacy and Data Handling](#privacy-and-data-handling)
-- [How Kagi Works and Search Technology](#how-kagi-works-and-search-technology)
-- [Comparison with Free Search Alternatives](#comparison-with-free-search-alternatives)
-- [User Base and Who Pays for Kagi](#user-base-and-who-pays-for-kagi)
-- [Limitations and Considerations](#limitations-and-considerations)
-- [End and Final Thoughts](#end-and-final-thoughts)
-
-Kagi Search is a paid search engine that stands out as a Google alternative due to its ad-free experience and commitment to user privacy. As a privacy search option, this search engine charges between $5 and $25 per month, attracting over 50,000 subscribers who prioritize privacy and data protection. With unique features like FastGPT and Universal Summarizer, Kagi offers a distinctive user experience. This guide explores how Kagi differs from free search engines and explains why users are willing to pay for a private search experience.
-
-Kagi Search Overview:
-![Diagram](/assets/images/diagrams/ai-search-engine-kagi-search-user-query-free-beec8d7a.png)
-
 <a id="what-is-kagi-search"></a>
 
 ## What Is Kagi Search
@@ -63,7 +41,7 @@ Each plan offers ad-free searching, no tracking, FastGPT, Universal Summarizer, 
 ## Key Features That Differentiate Kagi
 
 Search Engine Revenue Models:
-![Key Features That Differentiate Kagi Diagram](/assets/images/diagrams/ai-search-engine-kagi-search-search-engine-models-cb30a22b.png)
+![Key Features That Differentiate Kagi Diagram](/assets/ai-search-engine/kagi-search/search-engine-models.png)
 
 Kagi distinguishes itself from free search engines through features such as:
 
@@ -140,7 +118,7 @@ While Kagi excels in privacy, it faces limitations in index size, local search c
 
 Kagi Search presents a viable paid search engine with features like FastGPT and Lenses, providing ad-free, private search experiences. While free alternatives exist, Kagi's subscription approach offers a clean, customizable benefit for those valuing privacy over advertisements. Whether Kagi aligns with one's preferences depends on the prioritization of privacy, search needs, and budget considerations in today's digital landscape.
 Kagi AI Features:
-![End and Final Thoughts Diagram](/assets/images/diagrams/ai-search-engine-kagi-search-user-query-fastgpt-fae03898.png)
+![End and Final Thoughts Diagram](/assets/ai-search-engine/kagi-search/user-query-fastgpt.png)
 <h2>Frequently Asked Questions</h2>
 <details>
   <summary>What are the main benefits of using Kagi Search over free search engines?</summary>

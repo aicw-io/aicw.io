@@ -12,20 +12,6 @@ things: "Glean AI, enterprise search platform, AI search tools, workplace search
 keywords: "Glean AI, enterprise search platform, AI search tools, workplace search, enterprise AI assistant, Glean integrations, AI search software, enterprise knowledge management, Glean pricing, AI workplace tools"
 ---
 
-# Glean Enterprise AI Search Platform Guide for 2024
-
-## Table of Contents
-- [What is Glean and Why Enterprise Search Matters](#what-is-glean-and-why-enterprise-search-matters)
-- [Why Enterprise Search Platforms Like Glean Exist](#why-enterprise-search-platforms-like-glean-exist)
-- [How Glean Works and Its Core Features](#how-glean-works-and-its-core-features)
-- [Glean's Integration Ecosystem](#gleans-integration-ecosystem)
-- [Fortune 500 Adoption and Use Cases](#fortune-500-adoption-and-use-cases)
-- [Security, Compliance, and Data Privacy](#security-compliance-and-data-privacy)
-- [Glean vs Traditional Enterprise Search Solutions](#glean-vs-traditional-enterprise-search-solutions)
-- [Pricing Model and Enterprise Considerations](#pricing-model-and-enterprise-considerations)
-- [Implementation and Getting Started](#implementation-and-getting-started)
-- [Conclusion and Key Takeaways](#conclusion-and-key-takeaways)
-
 <a id="what-is-glean-and-why-enterprise-search-matters"></a>
 
 ## What is Glean and Why Enterprise Search Matters
@@ -45,7 +31,7 @@ This fragmentation costs companies real money. Studies show employees spend near
 Glean exists to fix this exact problem. Instead of searching in 10 different places, employees search once, and Glean looks everywhere. The platform uses AI to understand context, ranking results based on what's most relevant to each specific user. Someone in sales sees different results than someone in engineering when they search for the same term.
 
 Enterprise Search Environment:
-![Why Enterprise Search Platforms Like Glean Exist Diagram](/assets/images/diagrams/ai-search-engine-glean-workplace-apps-search-32628171.png)
+![Why Enterprise Search Platforms Like Glean Exist Diagram](/assets/ai-search-engine/glean/workplace-apps-search.png)
 
 <a id="how-glean-works-and-its-core-features"></a>
 
@@ -76,7 +62,7 @@ Each integration is pre-built, meaning IT teams don't need to write custom code 
 The platform respects the permissions and access controls from each connected application, critical for security. If a document is marked private or shared with only specific people, those same restrictions apply in Glean. The system doesn't create a backdoor to access restricted information.
 
 Fragmented Search and Solution:
-![Glean's Integration Ecosystem Diagram](/assets/images/diagrams/ai-search-engine-glean-multiple-apps-separate-7334ff13.png)
+![Glean's Integration Ecosystem Diagram](/assets/ai-search-engine/glean/multiple-apps-separate.png)
 
 Popular integrations allow searching Slack messages and channels, Google Workspace services like Gmail, Docs, and Drive, Salesforce data, Confluence wiki pages, Jira information, GitHub repositories, Notion databases, and Zoom meeting transcripts.
 
@@ -147,7 +133,7 @@ The ROI calculation for enterprise search platforms focuses on time savings. Sav
 
 ## Implementation and Getting Started
 Glean Integration Process:
-![Implementation and Getting Started Diagram](/assets/images/diagrams/ai-search-engine-glean-authorize-access-oauth-754e1708.png)
+![Implementation and Getting Started Diagram](/assets/ai-search-engine/glean/authorize-access-oauth.png)
 
 
 Implementing Glean starts with identifying which data sources to connect. Most companies begin with their most critical applications like email, documents, messaging, and customer data, adding more integrations over time as users become comfortable with the platform.

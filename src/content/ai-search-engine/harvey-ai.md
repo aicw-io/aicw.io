@@ -12,21 +12,6 @@ things: "Harvey AI, legal AI tools, law firm AI, Allen & Overy AI, custom AI mod
 keywords: "Harvey AI, legal AI tools, law firm AI, Allen & Overy AI, custom AI models, OpenAI investment, enterprise AI deployment, Am Law 100, legal tech, AI for lawyers"
 ---
 
-# Harvey AI: Custom AI Solution for Large Law Firms Explained
-
-## Table of Contents
-- [What is Harvey AI](#what-is-harvey-ai)
-- [Why Harvey AI Exists and Its Purpose](#why-harvey-ai-exists-and-its-purpose)
-- [The Allen & Overy Partnership](#the-allen--overy-partnership)
-- [OpenAI Investment and Technology Foundation](#openai-investment-and-technology-foundation)
-- [How Harvey AI Works and Workflow Integration](#how-harvey-ai-works-and-workflow-integration)
-- [Confidentiality and Security Measures](#confidentiality-and-security-measures)
-- [Comparison with General Legal AI Tools](#comparison-with-general-legal-ai-tools)
-- [Enterprise Deployment Model and Costs](#enterprise-deployment-model-and-costs)
-- [Conclusion](#conclusion)
-
-Law firms handle large amounts of confidential documents every day, including contracts, case files, legal research, and client communications. The volume is overwhelming, and traditional tools can't keep up with the complexity. Harvey AI is a specialized AI platform built specifically for large law firms like those in the Am Law 100. Unlike general chatbots, Harvey AI trains custom AI models on each firm's own documents and legal work. This creates an AI assistant that understands the firm's specific practices, clients, and legal strategies. The platform gained major attention when Allen & Overy, a prominent law firm AI, became an early partner, and OpenAI made a strategic investment in the company. Harvey AI focuses on enterprise AI deployment with strict confidentiality measures. While it competes with general legal AI tools, it offers deeper customization for large firms willing to invest in firm-specific training.
-
 <a id="what-is-harvey-ai"></a>
 
 ## What is Harvey AI
@@ -47,7 +32,7 @@ Partners at major firms bill hundreds of dollars per hour. Junior associates spe
 
 
 Data Sources Integration:
-![The Allen & Overy Partnership Diagram](/assets/images/diagrams/ai-search-engine-harvey-ai-legal-documents-document-223b36d3.png)
+![The Allen & Overy Partnership Diagram](/assets/ai-search-engine/harvey-ai/legal-documents-document.png)
 
 Allen & Overy, a global law firm, became Harvey AI's first major client partner in 2022. With over 3,500 lawyers across 40 offices worldwide, Allen & Overy's partnership was crucial for Harvey AI as it provided real-world testing at enterprise scale. The firm deployed Harvey AI to lawyers across multiple practice groups and offices.
 
@@ -108,7 +93,7 @@ The enterprise model also includes ongoing support, model updates, and feature d
 Harvey AI represents a specialized approach to AI for the legal profession. The platform focuses on large law firms that need custom AI models trained on proprietary documents and work product. The partnership with Allen & Overy demonstrated enterprise viability. The OpenAI investment provided technology advantages.
 
 Customization Process:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-harvey-ai-document-management-system-d4e7f309.png)
+![Conclusion Diagram](/assets/ai-search-engine/harvey-ai/document-management-system.png)
 
 
 Harvey AI addresses confidentiality concerns that prevent firms from using general AI services by keeping data isolated and secure. The deployment model requires significant investment in both cost and implementation time. This makes sense for Am Law 100 firms but limits adoption among smaller practices.
@@ -116,7 +101,7 @@ Harvey AI addresses confidentiality concerns that prevent firms from using gener
 Compared to general legal AI tools, Harvey AI offers deeper customization at a higher cost and complexity. The workflow integration helps lawyers work faster on research, contract analysis, and drafting while maintaining control over final work products. As legal AI evolves, Harvey AI occupies the enterprise segment focused on firm-specific customization rather than broad market tools. This approach works for large firms willing to invest in custom AI infrastructure that understands their unique legal practice.
 
 Technology and Security Layer:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-harvey-ai-openai-models-harvey-02512058.png)
+![Conclusion Diagram](/assets/ai-search-engine/harvey-ai/openai-models-harvey.png)
 ## Frequently Asked Questions
 
 <details>

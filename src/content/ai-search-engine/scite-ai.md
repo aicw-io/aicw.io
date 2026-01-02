@@ -12,16 +12,6 @@ things: "Scite.ai, Smart Citations, Citation Analysis, AI tools"
 keywords: "Scite.ai, Smart Citations, Citation Analysis, AI tools"
 ---
 
-# Understanding Scite.ai: Smart Citation Analysis Guide
-
-## Table of Contents
-- [Introduction](#introduction)
-- [What is Scite.ai?](#what-is-sciteai)
-- [Purpose of Scite.ai](#purpose-of-sciteai)
-- [How Scite.ai is Used](#how-sciteai-is-used)
-- [Facts & Comparison](#facts--comparison)
-- [Conclusion](#conclusion)
-
 <a id="introduction"></a>
 
 ## Introduction
@@ -36,7 +26,7 @@ Scite.ai is an advanced citation tracking tool. Rather than just counting how ma
 
 
 How Scite.ai Analyzes Citations:
-![What is Scite.ai? Diagram](/assets/images/diagrams/ai-search-engine-scite-ai-research-paper-citation-f140cd66.png)
+![What is Scite.ai? Diagram](/assets/ai-search-engine/scite-ai/research-paper-citation.png)
 
 <a id="purpose-of-sciteai"></a>
 
@@ -52,7 +42,7 @@ Researchers and institutions leverage Scite.ai for comprehensive analysis. Smart
 
 
 Smart Citation Classification:
-![How Scite.ai is Used Diagram](/assets/images/diagrams/ai-search-engine-scite-ai-citation-statement-analysis-373b6e03.png)
+![How Scite.ai is Used Diagram](/assets/ai-search-engine/scite-ai/citation-statement-analysis.png)
 
 <a id="facts--comparison"></a>
 
@@ -64,15 +54,12 @@ According to Scite.ai, over 1.3 billion citation statements are part of their da
 |-----------------|----------------------------------|---------------|
 | Scite.ai        | Smart Citations                  | Advanced      |
 | Google Scholar  | Citation Counts                  | Basic         |
-
-Scite.ai Workflow:
-![Facts & Comparison Diagram](/assets/images/diagrams/ai-search-engine-scite-ai-search-research-topic-24650259.png)
-
-
 | Web of Science  | Citation Network                 | Moderate      |
 | Dimensions      | Influential Citations            | Moderate      |
 | Scopus          | Abstracts and References         | Moderate      |
 
+Scite.ai Workflow:
+![Facts & Comparison Diagram](/assets/ai-search-engine/scite-ai/search-research-topic.png)
 <a id="conclusion"></a>
 
 ## Conclusion

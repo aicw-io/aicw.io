@@ -12,24 +12,6 @@ things: "Microsoft Copilot, Bing Chat, GPT-4, AI assistant, Windows 11, Microsof
 keywords: "Microsoft Copilot, Bing Chat, GPT-4, AI assistant, Windows 11, Microsoft 365, DALL-E, Copilot Pro, AI search, chatbot"
 ---
 
-# Microsoft Copilot Guide: AI Assistant Features & Pricing
-
-## Table of Contents
-- [What is Microsoft Copilot](#what-is-microsoft-copilot)
-- [Why Microsoft Created Copilot](#why-microsoft-created-copilot)
-- [How Companies and Users Deploy Copilot](#how-companies-and-users-deploy-copilot)
-- [Copilot Subscription Models and Pricing](#copilot-subscription-models-and-pricing)
-- [GPT-4 Integration and Model Details](#gpt-4-integration-and-model-details)
-- [Windows 11 and Edge Browser Integration](#windows-11-and-edge-browser-integration)
-- [DALL-E Image Generation Capabilities](#dall-e-image-generation-capabilities)
-- [Comparison to Other AI Assistants](#comparison-to-other-ai-assistants)
-- [Data Privacy and Training Policies](#data-privacy-and-training-policies)
-- [Technical Implementation and API Access](#technical-implementation-and-api-access)
-- [Getting Started with Copilot](#getting-started-with-copilot)
-- [Conclusion](#conclusion)
-
-Microsoft Copilot is a friendlier assistant that combines **AI search** capabilities with conversational AI technology. It evolved from what was previously called **Bing Chat**. Now, it serves as Microsoft's main **AI assistant** across many products. Tools like Copilot exist to help users find information faster and complete tasks more easily through natural language interactions. The main features include web search with citations, image generation through **DALL-E** integration, code assistance, and deep integration with Microsoft's ecosystem, including **Windows 11** and **Microsoft 365**. Copilot runs on OpenAI's **GPT-4** model and offers both free and paid subscription options. Understanding how Copilot works is crucial for developers and businesses as it represents a shift in how users interact with software and search for information.
-
 <a id="what-is-microsoft-copilot"></a>
 
 ## What is Microsoft Copilot
@@ -71,7 +53,7 @@ Microsoft offers several tiers of Copilot access:
 
 
 User Interface and Access Methods:
-![GPT-4 Integration and Model Details Diagram](/assets/images/diagrams/ai-search-engine-microsoft-copilot-copilot-edge-sidebar-8d4ca60b.png)
+![GPT-4 Integration and Model Details Diagram](/assets/ai-search-engine/microsoft-copilot/copilot-edge-sidebar.png)
 
 Copilot utilizes OpenAI's GPT-4 language model, with Microsoft having exclusive access through their partnership. The free tier uses GPT-4, while **Copilot Pro** offers GPT-4 Turbo for longer conversations and quicker responses. Microsoft plans to integrate future models like GPT-5, depending on partnership agreements. GPT-4 enables Copilot to understand complex questions, maintain conversation context, and generate human-like responses. However, like all large language models, it can occasionally produce incorrect information, so Copilot includes citations and links when providing web-based information.
 
@@ -118,11 +100,11 @@ Starting with Copilot is straightforward, with no installation needed for the we
 Microsoft Copilot represents Microsoft's main AI assistant offering, built on GPT-4 technology and integrated across their product ecosystem. The tool evolved from Bing Chat, serving multiple purposes, from web search to productivity enhancement in Office apps. Key points include the free tier with GPT-4, the paid Copilot Pro, and enterprise versions with data protection. DALL-E integration adds image generation, while Windows 11 and Edge browser bring AI assistance to the OS level. Understanding Copilot's capabilities and limitations helps developers and businesses integrate AI assistants effectively.
 
 DALL-E Image Generation Process:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-microsoft-copilot-user-input-language-e9e7c6e4.png)
+![Conclusion Diagram](/assets/ai-search-engine/microsoft-copilot/user-input-language.png)
 
 
 Copilot Integration Overview:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-microsoft-copilot-windows-copilot-microsoft-6193d651.png)
+![Conclusion Diagram](/assets/ai-search-engine/microsoft-copilot/windows-copilot-microsoft.png)
 <h2>Frequently Asked Questions</h2>
 
 <details>

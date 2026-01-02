@@ -12,23 +12,6 @@ things: "Google AI Overviews, Search Generative Experience, SGE, Google Gemini, 
 keywords: "Google AI Overviews, Search Generative Experience, SGE, Google Gemini, AI search summaries, AI Overview opt-out, Google search AI, featured snippets, AI generated summaries, Google search results"
 ---
 
-# Google AI Overviews Guide: SGE Search Summaries Explained
-
-## Table of Contents
-- [What Are Google AI Overviews](#what-are-google-ai-overviews)
-- [The Evolution from SGE to AI Overviews](#the-evolution-from-sge-to-ai-overviews)
-- [How Google AI Overviews Work](#how-google-ai-overviews-work)
-- [Integration with Google Gemini](#integration-with-google-gemini)
-- [Can You Opt-Out of AI Overviews](#can-you-opt-out-of-ai-overviews)
-- [SEO Impact and Traffic Considerations](#seo-impact-and-traffic-considerations)
-- [AI Overviews vs Featured Snippets](#ai-overviews-vs-featured-snippets)
-- [Accuracy and Error Concerns](#accuracy-and-error-concerns)
-- [Comparing Google AI Overviews to Other AI Search Tools](#comparing-google-ai-overviews-to-other-ai-search-tools)
-- [Future Development and Expansion](#future-development-and-expansion)
-- [Conclusion](#conclusion)
-
-Google AI Overviews represent a major shift in how Google search results are displayed. Previously known as Search Generative Experience (SGE), this feature uses AI to generate summary answers at the top of search results pages. The tool gathers information from multiple web sources and creates a single consolidated answer using Google's Gemini AI model. For web developers and SEO professionals, understanding Google AI Overviews is critical as it changes how users interact with Google search results. Small business owners need to learn how this affects their website traffic, and marketing professionals must adapt their content strategies accordingly. The feature was launched in testing during May 2023 and [became widely available in the United States in May 2024](https://blog.google/products/search/ai-overviews-search-october-2024/). AI Overviews aim to help users get quick answers without clicking through multiple websites, which brings both benefits and concerns for content creators. 
-
 <a id="what-are-google-ai-overviews"></a>
 
 ## What Are Google AI Overviews
@@ -61,7 +44,7 @@ As a user, you cannot completely disable AI Overviews in standard Google search 
 
 
 AI-Generated Search Summary Process:
-![Can You Opt-Out of AI Overviews Diagram](/assets/images/diagrams/ai-search-engine-google-ai-overviews-user-query-google-64467580.png)
+![Can You Opt-Out of AI Overviews Diagram](/assets/ai-search-engine/google-ai-overviews/user-query-google.png)
 
 <a id="seo-impact-and-traffic-considerations"></a>
 
@@ -100,12 +83,12 @@ Google continues expanding AI Overviews to more countries and languages. After t
 Google AI Overviews represent a significant evolution in search technology. The transition from Search Generative Experience to the broadly launched AI Overviews marks Google's commitment to AI-powered search results. Powered by the Gemini AI model, these summaries synthesize information from multiple sources into single complete answers. For users, this means faster access to information without clicking through multiple websites. For website owners and SEO professionals, the impact requires careful monitoring and strategy adjustment. While traditional SEO fundamentals remain important, the rise of AI Overviews changes how traffic flows from search results. Accuracy concerns persist despite Google's improvements, making source verification important for users. The lack of opt-out options for both users and website owners remains controversial. Compared to competitors like Bing Copilot and Perplexity AI, Google AI Overviews leverage the world's largest search index but face similar challenges around accuracy and publisher relationships. As the feature expands globally and adds new capabilities, its influence on web search and content creation will only grow.
 
 How Google AI Overviews Generate Answers:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-google-ai-overviews-search-query-website-03e2177f.png)
+![Conclusion Diagram](/assets/ai-search-engine/google-ai-overviews/search-query-website.png)
 
 
 
 Transition from SGE to AI Overviews:
-![Conclusion Diagram](/assets/images/diagrams/ai-search-engine-google-ai-overviews-introduction-testing-phase-3b821cef.png)
+![Conclusion Diagram](/assets/ai-search-engine/google-ai-overviews/introduction-testing-phase.png)
 ## Frequently Asked Questions
 
 <details>

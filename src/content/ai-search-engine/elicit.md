@@ -12,21 +12,6 @@ things: "elicit ai, literature review tool, research assistant, paper analysis, 
 keywords: "elicit ai, literature review tool, research assistant, paper analysis, academic research, ai research tool, ought ai, research automation"
 ---
 
-# Elicit AI: Transforming Academic Research with Advanced Tools
-
-## Table of Contents
-- [TL;DR](#tl-dr)
-- [Why Choose Elicit AI for Your Literature Review](#why-choose-elicit-ai-for-your-literature-review)
-- [Boosting Research with Automation](#boosting-research-with-automation)
-- [Elicit AI as Your Research Assistant](#elicit-ai-as-your-research-assistant)
-
-
-Elicit AI is revolutionizing the field of academic research by offering a robust suite of tools designed [to enhance literature reviews, assist researchers, and automate paper analysis](https://elicit.com/industries/edu). As an innovative AI research tool, it empowers scholars to conduct thorough and efficient studies.
-
-**Overview of Elicit AI**
-![Diagram](/assets/images/diagrams/ai-search-engine-elicit-academic-research-elicit-c3a8225e.png)
-
-
 <a id="tl-dr"></a>
 
 ## TL;DR
@@ -41,7 +26,7 @@ Elicit AI serves as an indispensable literature review tool by streamlining the 
 - **Comprehensive Research Assistance**: Centralize your research efforts with custom recommendations.
 
 **Streamlined Literature Review Process**
-![Why Choose Elicit AI for Your Literature Review Diagram](/assets/images/diagrams/ai-search-engine-elicit-sourcing-papers-analyzing-f1612dfa.png)
+![Why Choose Elicit AI for Your Literature Review Diagram](/assets/ai-search-engine/elicit/sourcing-papers-analyzing.png)
 
 
 <a id="boosting-research-with-automation"></a>
@@ -54,14 +39,14 @@ Ought AI's contribution to research automation is significant. By minimizing rep
 ## Elicit AI as Your Research Assistant
 
 **Research Automation Workflow**
-![Elicit AI as Your Research Assistant Diagram](/assets/images/diagrams/ai-search-engine-elicit-research-tasks-automated-a8b79b5b.png)
+![Elicit AI as Your Research Assistant Diagram](/assets/ai-search-engine/elicit/research-tasks-automated.png)
 
 Elicit AI isn't just a tool—it's like having a dedicated research assistant. It guides users through complex data sets, offering insights and connections that might otherwise be overlooked. This AI-enhanced support ensures that researchers [can achieve comprehensive and reliable results in their scholarly endeavors](https://futureen.com/tool/elicit/).
 
 With Elicit AI, researchers access practical solutions that elevate the efficiency of their academic work. Embrace this tool to gain a competitive edge in research automation and paper analysis.
 
 **Role of Elicit AI as a Research Assistant**
-![Elicit AI as Your Research Assistant Diagram](/assets/images/diagrams/ai-search-engine-elicit-complex-data-sets-c71b88b3.png)
+![Elicit AI as Your Research Assistant Diagram](/assets/ai-search-engine/elicit/complex-data-sets.png)
 
 
 ## Frequently Asked Questions
