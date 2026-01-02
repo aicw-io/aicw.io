@@ -1,0 +1,11 @@
+---
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const trackingHtml = readFileSync(
+  join(process.cwd(), 'src/partials/tracking.html'),
+  'utf-8'
+);
+---
+
+<Fragment set:html={trackingHtml} />
