@@ -132,26 +132,13 @@ Explore other AI-powered search engines that offer unique features, such as Duck
 - Not tracking searches for building profile of a user
 - Limited ads presence
 
-<a id="faq"></a>
-
-## FAQ
-
-**Q: What makes Andi Search different?**
-A: Andi Search uses AI to provide direct, ad-free search results with enhanced privacy.
-
-**Q: Is Andi Search completely ad-free?**
-A: Yes, Andi Search ensures an ad-free experience by design.
-
-**Q: Does Andi Search track or store my information?**
-A: No, Andi Search prioritizes your privacy and does not track or store your data.
-
-<a id="summary"></a>
-
 ## Summary
 
 Andi Search transforms traditional web searching by integrating AI to provide direct answers while safeguarding your privacy. This ad-free search engine eliminates the intrusion of ads and potential tracking, making it a top choice for privacy-conscious users.
 
 The streamlined interface and reader mode enhance focus, while Andi's privacy measures offer a refreshing alternative to conventional search tools. If privacy is your priority, andi search and its efficient AI might just be your next go-to search engine.
+
+<a id="faq"></a>
 <h2>Frequently Asked Questions</h2>
 
 <details>
