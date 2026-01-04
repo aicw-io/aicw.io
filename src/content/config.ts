@@ -41,7 +41,7 @@ const blog = defineCollection({
     robots: z.string().optional(),        // robots directive override (default: index, follow)
 
     // Content metadata
-    author: reference('authors'),
+    author: reference('authors').optional().default('aicw-team'),
     heroImage: z.string().optional(),
     heroImageAlt: z.string().optional(),
     categories: z.array(z.string()).default(['general']),
@@ -73,6 +73,7 @@ const guides = defineCollection({
     things: z.string().optional(),
 
     // Optional extras
+    author: reference('authors').optional().default('aicw-team'),
     heroImage: z.string().optional(),
     draft: z.boolean().default(false),
   }),

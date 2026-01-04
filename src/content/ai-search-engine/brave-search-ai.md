@@ -159,25 +159,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
 
 <a id="faqs"></a>
 
-### FAQs
-
-**What is Brave Leo?**
-Brave Leo is an AI assistant feature in Brave Search AI that provides chat-based help, answering questions and assisting with research tasks.
-
-**How does Brave Search protect my privacy?**
-Brave Search prioritizes privacy by not tracking IP addresses, storing search histories, or collecting personal data.
-
-![FAQs Diagram](/assets/ai-search-engine/brave-search-ai/usertype-user-type.png)
-
-**What makes Brave's search index independent?**
-Brave's search index is independent because it uses its own web crawlers and does not rely on data from major search engines like Google or Bing.
-
-**What are the benefits of using Brave Talk?**
-Brave Talk is a built-in feature within Brave Search AI that allows users to make private video calls without compromising on privacy.
-
-**How does the AI Summarizer work?**
-The AI Summarizer quickly provides article overviews, helping users to identify key points and save time when navigating search results.
-## Frequently Asked Questions
+<h2>Frequently Asked Questions</h2>
 
 <details>
   <summary>How can I maximize my use of Brave Search AI?</summary>
