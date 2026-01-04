@@ -24,7 +24,7 @@ const {
   title = 'AI Chat Watch - Grade Your AI Visibility & Monitor What AI Says About Your Brand',
   description = 'Free open-source tool to check if AI can find your website, then track what ChatGPT, Claude, Gemini and other AI models say about your brand. Get instant AI visibility audit and comprehensive competitive intelligence reports.',
   canonical = Astro.url.pathname,
-  image = '/assets/images/aicw-social-preview.png',
+  image,
   imageAlt = 'AI Chat Watch - AI Visibility Monitoring Tool',
   type = 'website',
   publishedTime,
@@ -39,6 +39,29 @@ const {
   robots = 'index, follow',
 } = Astro.props;
 
+// Generate dynamic OG image path from canonical URL
+// e.g., /blog/my-post/ → /assets/og-img/blog/my-post.png
+function generateOgImagePath(path: string): string | null {
+  // Remove leading/trailing slashes and split
+  const cleanPath = path.replace(/^\/|\/$/g, '');
+  const parts = cleanPath.split('/');
+
+  // Check if this is a content page with collection/slug pattern
+  const collections = ['blog', 'ai-search-engine', 'ai-crawler-bot', 'ai-chat-bot'];
+  if (parts.length >= 2 && collections.includes(parts[0])) {
+    const collection = parts[0];
+    const slug = parts.slice(1).join('/');
+    return `/assets/og-img/${collection}/${slug}.png`;
+  }
+
+  return null;
+}
+
+// Determine OG image: custom image > dynamic OG > default fallback
+const defaultImage = '/assets/images/aicw-social-preview.png';
+const dynamicOgImage = generateOgImagePath(canonical);
+const resolvedImage = image || (dynamicOgImage || defaultImage);
+
 // Use custom social metadata or fall back to defaults
 const ogTitle = og_title || title;
 const ogDescription = og_description || description;
@@ -47,7 +70,7 @@ const twitterDescription = twitter_description || description;
 
 const siteUrl = 'https://www.aichatwatch.com';
 const fullCanonical = new URL(canonical, siteUrl).href;
-const fullImage = new URL(image, siteUrl).href;
+const fullImage = new URL(resolvedImage, siteUrl).href;
 ---
 
 <!-- Primary Meta Tags -->

@@ -35,7 +35,10 @@ export default defineConfig({
   site: 'https://www.aichatwatch.com',
   trailingSlash: 'always',
   vite: {
-    plugins: [tailwindcss(), servePublicDirectoryIndex()]
+    plugins: [tailwindcss(), servePublicDirectoryIndex()],
+    ssr: { external: ['@resvg/resvg-js'] },
+    build: { rollupOptions: { external: ['@resvg/resvg-js'] } },
+    optimizeDeps: { exclude: ['@resvg/resvg-js'] }
   },
 
   integrations: [sitemap(), mdx()]
