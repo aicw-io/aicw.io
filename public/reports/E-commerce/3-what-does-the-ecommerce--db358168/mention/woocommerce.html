@@ -7,14 +7,17 @@
 
     <!-- SEO Meta Tags -->
     <title>WooCommerce - AI Mentions Report | E-commerce</title>
-    <meta name="description" content="WooCommerce ranked #9 with 6 mentions by AI models. 6.5% share of voice across 4 AI assistants including ChatGPT, Gemini, Claude.">
-    <meta name="keywords" content="WooCommerce, AI mentions, product, AI recommendations, AI visibility, ChatGPT mentions, Gemini, Claude, AI Chat Watch">
+    <meta name="description"
+        content="WooCommerce ranked #9 with 6 mentions by AI models. 6.5% share of voice across 4 AI assistants including ChatGPT, Gemini, Claude.">
+    <meta name="keywords"
+        content="WooCommerce, AI mentions, product, AI recommendations, AI visibility, ChatGPT mentions, Gemini, Claude, AI Chat Watch">
     <meta name="author" content="AI Chat Watch">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph -->
     <meta property="og:title" content="WooCommerce - AI Mentions Report">
-    <meta property="og:description" content="Rank #9 - WooCommerce mentioned 6 times with 6.5% share of voice across 4 AI models.">
+    <meta property="og:description"
+        content="Rank #9 - WooCommerce mentioned 6 times with 6.5% share of voice across 4 AI models.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="mention/woocommerce.html">
     <meta property="og:site_name" content="AI Chat Watch">
@@ -147,7 +150,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Load Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Tailwind Configuration -->
     <script>
@@ -335,15 +340,45 @@
             text-transform: capitalize;
         }
 
-        .type-badge.organization { background-color: #dbeafe; color: #1e40af; }
-        .type-badge.product { background-color: #dcfce7; color: #166534; }
-        .type-badge.person { background-color: #f3e8ff; color: #6b21a8; }
-        .type-badge.event { background-color: #fef3c7; color: #92400e; }
+        .type-badge.organization {
+            background-color: #dbeafe;
+            color: #1e40af;
+        }
 
-        html.dark .type-badge.organization { background-color: #1e3a8a; color: #93c5fd; }
-        html.dark .type-badge.product { background-color: #14532d; color: #86efac; }
-        html.dark .type-badge.person { background-color: #581c87; color: #d8b4fe; }
-        html.dark .type-badge.event { background-color: #78350f; color: #fde68a; }
+        .type-badge.product {
+            background-color: #dcfce7;
+            color: #166534;
+        }
+
+        .type-badge.person {
+            background-color: #f3e8ff;
+            color: #6b21a8;
+        }
+
+        .type-badge.event {
+            background-color: #fef3c7;
+            color: #92400e;
+        }
+
+        html.dark .type-badge.organization {
+            background-color: #1e3a8a;
+            color: #93c5fd;
+        }
+
+        html.dark .type-badge.product {
+            background-color: #14532d;
+            color: #86efac;
+        }
+
+        html.dark .type-badge.person {
+            background-color: #581c87;
+            color: #d8b4fe;
+        }
+
+        html.dark .type-badge.event {
+            background-color: #78350f;
+            color: #fde68a;
+        }
 
         /* Brand highlight in citations */
         .brand-highlight {
@@ -371,14 +406,33 @@
             color: white;
         }
 
-        .icon_bot_google_gemini { background: linear-gradient(135deg, #4285f4, #34a853); }
-        .icon_bot_perplexity_ai { background: linear-gradient(135deg, #000000, #333333); }
-        .icon_bot_brave_search { background: linear-gradient(135deg, #fb542b, #ff7a59); }
-        .icon_bot_you_com { background: linear-gradient(135deg, #2c2c2c, #454545); }
-        .icon_bot_openai_searchgpt { background: linear-gradient(135deg, #74aa9c, #9ec1b9); }
-        .icon_bot_unknown { background: linear-gradient(135deg, #808080, #A9A9A9); }
+        .icon_bot_google_gemini {
+            background: linear-gradient(135deg, #4285f4, #34a853);
+        }
 
-        [v-cloak] { display: none; }
+        .icon_bot_perplexity_ai {
+            background: linear-gradient(135deg, #000000, #333333);
+        }
+
+        .icon_bot_brave_search {
+            background: linear-gradient(135deg, #fb542b, #ff7a59);
+        }
+
+        .icon_bot_you_com {
+            background: linear-gradient(135deg, #2c2c2c, #454545);
+        }
+
+        .icon_bot_openai_searchgpt {
+            background: linear-gradient(135deg, #74aa9c, #9ec1b9);
+        }
+
+        .icon_bot_unknown {
+            background: linear-gradient(135deg, #808080, #A9A9A9);
+        }
+
+        [v-cloak] {
+            display: none;
+        }
 
         /* Dark mode toggle button */
         .dark-mode-toggle {
@@ -416,13 +470,17 @@
         .questions-modal-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0, 0, 0, 0.5);
             display: none;
             align-items: center;
             justify-content: center;
             z-index: 1000;
         }
-        .questions-modal-overlay.active { display: flex; }
+
+        .questions-modal-overlay.active {
+            display: flex;
+        }
+
         .questions-modal {
             background: var(--surface-raised-color);
             border-radius: 0.75rem;
@@ -430,8 +488,9 @@
             max-height: 80vh;
             width: 90%;
             overflow: hidden;
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
         }
+
         .questions-modal-header {
             display: flex;
             justify-content: space-between;
@@ -439,11 +498,13 @@
             padding: 1rem 1.5rem;
             border-bottom: 1px solid var(--surface-border-color);
         }
+
         .questions-modal-body {
             padding: 1.5rem;
             overflow-y: auto;
             max-height: calc(80vh - 60px);
         }
+
         .questions-modal-close {
             background: none;
             border: none;
@@ -453,19 +514,26 @@
             opacity: 0.6;
             line-height: 1;
         }
-        .questions-modal-close:hover { opacity: 1; }
+
+        .questions-modal-close:hover {
+            opacity: 1;
+        }
 
         /* Full Answer Modal */
         .answer-modal-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.6);
+            background: rgba(0, 0, 0, 0.6);
             display: none;
             align-items: center;
             justify-content: center;
             z-index: 1001;
         }
-        .answer-modal-overlay.active { display: flex; }
+
+        .answer-modal-overlay.active {
+            display: flex;
+        }
+
         .answer-modal {
             background: var(--surface-raised-color);
             border-radius: 0.75rem;
@@ -474,18 +542,21 @@
             width: 95%;
             display: flex;
             flex-direction: column;
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
         }
+
         .answer-modal-header {
             padding: 1rem 1.5rem;
             border-bottom: 1px solid var(--surface-border-color);
             flex-shrink: 0;
         }
+
         .answer-modal-body {
             padding: 1.5rem;
             overflow-y: auto;
             flex: 1;
         }
+
         .answer-modal-close {
             position: absolute;
             top: 1rem;
@@ -497,7 +568,11 @@
             color: var(--text-color);
             opacity: 0.6;
         }
-        .answer-modal-close:hover { opacity: 1; }
+
+        .answer-modal-close:hover {
+            opacity: 1;
+        }
+
         .answer-content {
             font-family: 'SF Mono', 'Monaco', 'Menlo', monospace;
             font-size: 0.875rem;
@@ -525,15 +600,17 @@
         <div class="container mx-auto px-4 py-3">
             <!-- Mobile Header -->
             <div class="md:hidden flex flex-col items-center justify-center w-full space-y-2">
-                <a href="https://www.aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce" title="Go to AI Chat Watch Homepage"
-                   class="text-2xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity">
+                <a href="https://www.aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce"
+                    title="Go to AI Chat Watch Homepage"
+                    class="text-2xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity">
                     AI ChatWatch
                 </a>
                 <p class="text-sm text-gray-600 dark:text-gray-400 text-center">
                     AI Mentions & Sources Report for <strong class="text-gray-900 dark:text-white">E-commerce</strong>
                 </p>
-                <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
+                <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce"
+                    target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
                     <i class="fas fa-rocket"></i> Track Your AI Visibility
                 </a>
             </div>
@@ -541,26 +618,30 @@
             <!-- Desktop Header -->
             <div class="hidden md:flex flex-row items-center justify-between w-full">
                 <div class="flex flex-col">
-                    <a href="https://www.aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce" title="Go to AI Chat Watch Homepage"
-                       class="hover:opacity-80 transition-opacity">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 100" preserveAspectRatio="xMidYMid meet"
-                             aria-hidden="true" class="w-full max-w-[280px]">
+                    <a href="https://www.aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce"
+                        title="Go to AI Chat Watch Homepage" class="hover:opacity-80 transition-opacity">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 100"
+                            preserveAspectRatio="xMidYMid meet" aria-hidden="true" class="w-full max-w-[280px]">
                             <text x="10" y="70" font-family="Arial, sans-serif" font-size="80" font-weight="bold"
-                                  class="text-gray-900 dark:text-white" fill="currentColor">AI</text>
-                            <text x="110" y="70" font-family="Arial, sans-serif" font-size="40" class="text-gray-900 dark:text-white"
-                                  fill="currentColor">ChatWatch.com</text>
+                                class="text-gray-900 dark:text-white" fill="currentColor">AI</text>
+                            <text x="110" y="70" font-family="Arial, sans-serif" font-size="40"
+                                class="text-gray-900 dark:text-white" fill="currentColor">ChatWatch.com</text>
                             <g transform="translate(30, 10) scale(0.6)">
-                                <circle cx="50" cy="50" r="25" fill="none" stroke="currentColor" stroke-width="3"></circle>
-                                <line x1="70" y1="70" x2="100" y2="100" stroke="currentColor" stroke-width="5" stroke-linecap="round"></line>
+                                <circle cx="50" cy="50" r="25" fill="none" stroke="currentColor" stroke-width="3">
+                                </circle>
+                                <line x1="70" y1="70" x2="100" y2="100" stroke="currentColor" stroke-width="5"
+                                    stroke-linecap="round"></line>
                             </g>
                         </svg>
                     </a>
                     <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                        AI Mentions & Sources Report for <strong class="text-gray-900 dark:text-white">E-commerce</strong>
+                        AI Mentions & Sources Report for <strong
+                            class="text-gray-900 dark:text-white">E-commerce</strong>
                     </p>
                 </div>
-                <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
+                <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce"
+                    target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
                     <i class="fas fa-rocket"></i> Track Your AI Visibility
                 </a>
             </div>
@@ -569,7 +650,8 @@
 
     <!-- Back Navigation -->
     <nav class="container mx-auto px-4 py-2 bg-gray-50 dark:bg-gray-800/50">
-        <a href="../index.html" class="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors">
+        <a href="../index.html"
+            class="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors">
             <i class="fas fa-arrow-left mr-2"></i> Back to Rankings
         </a>
     </nav>
@@ -584,7 +666,7 @@
                     <span class="text-2xl md:text-3xl font-black opacity-90">#{{ entity.rank }}</span>
                     <div v-if="brandDomain" class="w-10 h-10 bg-white rounded-lg p-1 flex-shrink-0">
                         <img :src="faviconUrl" class="w-full h-full object-contain" :alt="entity.value"
-                             onerror="this.parentElement.style.display='none'">
+                            onerror="this.parentElement.style.display='none'">
                     </div>
                     <h1 class="text-xl md:text-2xl font-bold flex-1 truncate">{{ entity.value }}</h1>
                     <div class="text-right flex-shrink-0">
@@ -596,11 +678,12 @@
                 <!-- Row 2: Type + Domain + Stats (inline) -->
                 <div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-2 text-sm opacity-90">
                     <span v-for="typeItem in entity.type.split(',')" :key="typeItem"
-                          class="px-2 py-0.5 bg-white/20 rounded text-xs capitalize">
+                        class="px-2 py-0.5 bg-white/20 rounded text-xs capitalize">
                         {{ typeItem.trim() }}
                     </span>
                     <span v-if="brandDomain">•</span>
-                    <a v-if="entity.link" :href="entity.link" target="_blank" class="hover:underline" style="color: white !important;">
+                    <a v-if="entity.link" :href="entity.link" target="_blank" class="hover:underline"
+                        style="color: white !important;">
                         {{ brandDomain }}
                     </a>
                     <span>•</span>
@@ -617,14 +700,33 @@
         <!-- About Section -->
         <div class="container mx-auto px-4 py-4">
 
-        <section class="entity-intro bg-white dark:bg-gray-800 rounded-lg shadow p-5 mb-4">
-            <h2 class="text-lg font-bold mb-3 text-gray-900 dark:text-white">
-                <i class="fas fa-info-circle mr-2 text-indigo-500"></i>About WooCommerce (product)
-            </h2>
-            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                This page provides details about <strong>WooCommerce</strong> (product) which was ranked <strong>#9</strong> out of 39 in the list of brands (6 mentions (6.5% share)) in answers from AI models (<img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">Anthropic Claude Sonnet (latest), <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">OpenAI ChatGPT Latest, <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">Google Gemini Flash (latest), <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">X.AI Grok (latest)) when they were asked the following 1 question: <i>"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."</i> on <strong>Dec 30, 2025</strong> by <a href="https://aichatwatch.com" class="text-indigo-600 hover:underline">AI Chat Watch</a>.
-            </p>
-        </section>
+            <section class="entity-intro bg-white dark:bg-gray-800 rounded-lg shadow p-5 mb-4">
+                <h2 class="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                    <i class="fas fa-info-circle mr-2 text-indigo-500"></i>About WooCommerce (product)
+                </h2>
+                <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                    This page provides details about <strong>WooCommerce</strong> (product) which was ranked
+                    <strong>#9</strong> out of 39 in the list of brands (6 mentions (6.5% share)) in answers from AI
+                    models (<img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">Anthropic Claude Sonnet (latest), <img
+                        src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">OpenAI ChatGPT Latest, <img
+                        src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">Google Gemini Flash (latest), <img
+                        src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">X.AI Grok (latest)) when they were asked the following 1
+                    question: <i>"What does the E-commerce industry look like right now? Identify the dominant market
+                        leaders and brands, best products and services, key companies and providers, influential figures
+                        and thought leaders, emerging startups and trends, major conferences and events, active
+                        professional communities, and the top publications and media that cover this industry."</i> on
+                    <strong>Dec 30, 2025</strong> by <a href="https://aichatwatch.com"
+                        class="text-indigo-600 hover:underline">AI Chat Watch</a>.
+                </p>
+            </section>
         </div>
 
         <!-- Metrics Summary -->
@@ -638,9 +740,8 @@
                     <div class="metric-value-sm">
                         {{ formatPercent(entity.influence) }}
                         <span v-if="getTrendIndicator(entity.influenceTrend)"
-                              :class="getTrendIndicator(entity.influenceTrend).class"
-                              class="text-xs ml-1"
-                              :title="getTrendIndicator(entity.influenceTrend).label">
+                            :class="getTrendIndicator(entity.influenceTrend).class" class="text-xs ml-1"
+                            :title="getTrendIndicator(entity.influenceTrend).label">
                             <i class="fas" :class="getTrendIndicator(entity.influenceTrend).icon"></i>
                         </span>
                     </div>
@@ -650,9 +751,8 @@
                     <div class="metric-value-sm">
                         {{ formatPosition(entity.appearanceOrder) }}
                         <span v-if="getTrendIndicator(entity.appearanceOrderTrend)"
-                              :class="getTrendIndicator(entity.appearanceOrderTrend).class"
-                              class="text-xs ml-1"
-                              :title="getTrendIndicator(entity.appearanceOrderTrend).label">
+                            :class="getTrendIndicator(entity.appearanceOrderTrend).class" class="text-xs ml-1"
+                            :title="getTrendIndicator(entity.appearanceOrderTrend).label">
                             <i class="fas" :class="getTrendIndicator(entity.appearanceOrderTrend).icon"></i>
                         </span>
                     </div>
@@ -662,9 +762,8 @@
                     <div class="metric-value-sm">
                         {{ formatPercent(entity.mentionsAsPercent) }} ({{ entity.mentions || 0 }})
                         <span v-if="getTrendIndicator(entity.mentionsTrend)"
-                              :class="getTrendIndicator(entity.mentionsTrend).class"
-                              class="text-xs ml-1"
-                              :title="getTrendIndicator(entity.mentionsTrend).label">
+                            :class="getTrendIndicator(entity.mentionsTrend).class" class="text-xs ml-1"
+                            :title="getTrendIndicator(entity.mentionsTrend).label">
                             <i class="fas" :class="getTrendIndicator(entity.mentionsTrend).icon"></i>
                         </span>
                     </div>
@@ -690,13 +789,11 @@
                         <tbody>
                             <tr v-for="bot in botsWithData" :key="bot.id">
                                 <td class="flex items-center gap-2">
-                                    <img v-if="getModelIconUrl(bot.id)"
-                                         :src="getModelIconUrl(bot.id)"
-                                         :alt="bot.name"
-                                         class="w-5 h-5 rounded"
-                                         onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+                                    <img v-if="getModelIconUrl(bot.id)" :src="getModelIconUrl(bot.id)" :alt="bot.name"
+                                        class="w-5 h-5 rounded"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
                                     <span v-else class="icon_bot" :class="'icon_bot_' + bot.id" :title="bot.name"
-                                          :style="getModelIconUrl(bot.id) ? 'display:none' : ''">
+                                        :style="getModelIconUrl(bot.id) ? 'display:none' : ''">
                                         {{ bot.name.charAt(0) }}
                                     </span>
                                     {{ bot.name }}
@@ -732,11 +829,10 @@
                                 <td>
                                     <div class="flex items-center gap-2">
                                         <img src="https://www.google.com/s2/favicons?domain=woocommerce.com&sz=32"
-                                             class="w-5 h-5 rounded flex-shrink-0"
-                                             alt="woocommerce.com"
-                                             onerror="this.style.display='none'">
+                                            class="w-5 h-5 rounded flex-shrink-0" alt="woocommerce.com"
+                                            onerror="this.style.display='none'">
                                         <a href="../website/woocommerce-com.html"
-                                           class="text-blue-600 hover:underline break-all">
+                                            class="text-blue-600 hover:underline break-all">
                                             woocommerce.com
                                         </a>
                                     </div>
@@ -744,21 +840,16 @@
                                 <td>
                                     <div class="flex items-center gap-1 flex-wrap">
                                         <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32"
-                                             alt="Anthropic Claude Sonnet (latest)"
-                                             title="Anthropic Claude Sonnet (latest)"
-                                             class="w-5 h-5 rounded">
+                                            alt="Anthropic Claude Sonnet (latest)"
+                                            title="Anthropic Claude Sonnet (latest)" class="w-5 h-5 rounded">
                                         <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32"
-                                             alt="Google Gemini Flash (latest)"
-                                             title="Google Gemini Flash (latest)"
-                                             class="w-5 h-5 rounded">
+                                            alt="Google Gemini Flash (latest)" title="Google Gemini Flash (latest)"
+                                            class="w-5 h-5 rounded">
                                         <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
-                                             alt="OpenAI ChatGPT Latest"
-                                             title="OpenAI ChatGPT Latest"
-                                             class="w-5 h-5 rounded">
+                                            alt="OpenAI ChatGPT Latest" title="OpenAI ChatGPT Latest"
+                                            class="w-5 h-5 rounded">
                                         <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32"
-                                             alt="X.AI Grok (latest)"
-                                             title="X.AI Grok (latest)"
-                                             class="w-5 h-5 rounded">
+                                            alt="X.AI Grok (latest)" title="X.AI Grok (latest)" class="w-5 h-5 rounded">
                                     </div>
                                 </td>
                             </tr>
@@ -766,11 +857,10 @@
                                 <td>
                                     <div class="flex items-center gap-2">
                                         <img src="https://www.google.com/s2/favicons?domain=wordpress.org&sz=32"
-                                             class="w-5 h-5 rounded flex-shrink-0"
-                                             alt="wordpress.org"
-                                             onerror="this.style.display='none'">
+                                            class="w-5 h-5 rounded flex-shrink-0" alt="wordpress.org"
+                                            onerror="this.style.display='none'">
                                         <a href="../website/wordpress-org.html"
-                                           class="text-blue-600 hover:underline break-all">
+                                            class="text-blue-600 hover:underline break-all">
                                             wordpress.org
                                         </a>
                                     </div>
@@ -778,9 +868,8 @@
                                 <td>
                                     <div class="flex items-center gap-1 flex-wrap">
                                         <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
-                                             alt="OpenAI ChatGPT Latest"
-                                             title="OpenAI ChatGPT Latest"
-                                             class="w-5 h-5 rounded">
+                                            alt="OpenAI ChatGPT Latest" title="OpenAI ChatGPT Latest"
+                                            class="w-5 h-5 rounded">
                                     </div>
                                 </td>
                             </tr>
@@ -788,11 +877,10 @@
                                 <td>
                                     <div class="flex items-center gap-2">
                                         <img src="https://www.google.com/s2/favicons?domain=woocommerce.com&sz=32"
-                                             class="w-5 h-5 rounded flex-shrink-0"
-                                             alt="woocommerce.com"
-                                             onerror="this.style.display='none'">
+                                            class="w-5 h-5 rounded flex-shrink-0" alt="woocommerce.com"
+                                            onerror="this.style.display='none'">
                                         <a href="../website/woocommerce-com.html"
-                                           class="text-blue-600 hover:underline break-all">
+                                            class="text-blue-600 hover:underline break-all">
                                             woocommerce.com/community
                                         </a>
                                     </div>
@@ -800,9 +888,8 @@
                                 <td>
                                     <div class="flex items-center gap-1 flex-wrap">
                                         <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
-                                             alt="OpenAI ChatGPT Latest"
-                                             title="OpenAI ChatGPT Latest"
-                                             class="w-5 h-5 rounded">
+                                            alt="OpenAI ChatGPT Latest" title="OpenAI ChatGPT Latest"
+                                            class="w-5 h-5 rounded">
                                     </div>
                                 </td>
                             </tr>
@@ -810,11 +897,10 @@
                                 <td>
                                     <div class="flex items-center gap-2">
                                         <img src="https://www.google.com/s2/favicons?domain=g2.com&sz=32"
-                                             class="w-5 h-5 rounded flex-shrink-0"
-                                             alt="g2.com"
-                                             onerror="this.style.display='none'">
+                                            class="w-5 h-5 rounded flex-shrink-0" alt="g2.com"
+                                            onerror="this.style.display='none'">
                                         <a href="../website/g2-com.html"
-                                           class="text-blue-600 hover:underline break-all">
+                                            class="text-blue-600 hover:underline break-all">
                                             g2.com/compare/shopify-vs-bigcommerce-vs-woocommerce-grid-report
                                         </a>
                                     </div>
@@ -822,9 +908,7 @@
                                 <td>
                                     <div class="flex items-center gap-1 flex-wrap">
                                         <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32"
-                                             alt="X.AI Grok (latest)"
-                                             title="X.AI Grok (latest)"
-                                             class="w-5 h-5 rounded">
+                                            alt="X.AI Grok (latest)" title="X.AI Grok (latest)" class="w-5 h-5 rounded">
                                     </div>
                                 </td>
                             </tr>
@@ -845,31 +929,39 @@
 
                 <!-- Tab Bar -->
                 <div class="flex gap-1 overflow-x-auto pb-2 mb-4 border-b border-gray-200 dark:border-gray-700">
-                    <button class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 border-b-2 border-indigo-500"
-                            data-tab-id="anthropic_claude_with_search_latest"
-                            onclick="window.entityApp && window.entityApp.selectExcerptTab('anthropic_claude_with_search_latest')">
-                        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="Anthropic Claude Sonnet (latest)" class="w-5 h-5 rounded">
+                    <button
+                        class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 border-b-2 border-indigo-500"
+                        data-tab-id="anthropic_claude_with_search_latest"
+                        onclick="window.entityApp && window.entityApp.selectExcerptTab('anthropic_claude_with_search_latest')">
+                        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32"
+                            alt="Anthropic Claude Sonnet (latest)" class="w-5 h-5 rounded">
                         <span class="hidden sm:inline">Anthropic Claude Sonnet (latest)</span>
                         <span class="text-xs text-gray-500">(1)</span>
                     </button>
-                    <button class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-                            data-tab-id="openai_chatgpt_with_search_latest"
-                            onclick="window.entityApp && window.entityApp.selectExcerptTab('openai_chatgpt_with_search_latest')">
-                        <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="OpenAI ChatGPT Latest" class="w-5 h-5 rounded">
+                    <button
+                        class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+                        data-tab-id="openai_chatgpt_with_search_latest"
+                        onclick="window.entityApp && window.entityApp.selectExcerptTab('openai_chatgpt_with_search_latest')">
+                        <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
+                            alt="OpenAI ChatGPT Latest" class="w-5 h-5 rounded">
                         <span class="hidden sm:inline">OpenAI ChatGPT Latest</span>
                         <span class="text-xs text-gray-500">(2)</span>
                     </button>
-                    <button class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-                            data-tab-id="google_gemini_with_search_latest"
-                            onclick="window.entityApp && window.entityApp.selectExcerptTab('google_gemini_with_search_latest')">
-                        <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32" alt="Google Gemini Flash (latest)" class="w-5 h-5 rounded">
+                    <button
+                        class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+                        data-tab-id="google_gemini_with_search_latest"
+                        onclick="window.entityApp && window.entityApp.selectExcerptTab('google_gemini_with_search_latest')">
+                        <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32"
+                            alt="Google Gemini Flash (latest)" class="w-5 h-5 rounded">
                         <span class="hidden sm:inline">Google Gemini Flash (latest)</span>
                         <span class="text-xs text-gray-500">(1)</span>
                     </button>
-                    <button class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-                            data-tab-id="x_ai_grok_with_search_latest"
-                            onclick="window.entityApp && window.entityApp.selectExcerptTab('x_ai_grok_with_search_latest')">
-                        <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" alt="X.AI Grok (latest)" class="w-5 h-5 rounded">
+                    <button
+                        class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+                        data-tab-id="x_ai_grok_with_search_latest"
+                        onclick="window.entityApp && window.entityApp.selectExcerptTab('x_ai_grok_with_search_latest')">
+                        <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" alt="X.AI Grok (latest)"
+                            class="w-5 h-5 rounded">
                         <span class="hidden sm:inline">X.AI Grok (latest)</span>
                         <span class="text-xs text-gray-500">(2)</span>
                     </button>
@@ -879,90 +971,126 @@
                 <div class="excerpt-tab-content" data-tab-content="anthropic_claude_with_search_latest">
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                         <i class="fas fa-question-circle mr-2"></i>
-                        <span class="italic">What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                        <span class="italic">What does the E-commerce industry look like right now? Identify the
+                            dominant market leaders and brands, best products and services, key companies and providers,
+                            influential figures and thought leaders, emerging startups and trends, major conferences and
+                            events, active professional communities, and the top publications and media that cover this
+                            industry.</span>
                     </p>
                     <div class="citation-block mb-4">
                         <p class="citation-text">[...] ](https://www.farfetch.com)** - Luxury fashion marketplace
 
-## Best E-commerce Platforms &amp; Services
+                            ## Best E-commerce Platforms &amp; Services
 
-### Platform Solutions
-- **[Shopify](https://www.shopify.com)** - Best for SMBs and direct-to-consumer brands
-- **[BigCommerce](https://www.bigcommerce.com)** - Enterprise-focused SaaS platform
-- **[<mark class="brand-highlight">WooCommerce</mark>](https://<mark class="brand-highlight">woocommerce</mark>.com)** - WordPress-based solution
-- **[Magento/Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)** - Enterprise-level customization
-- **[Wix eCommerce](https://www.wix.com/ecommerce/website)** - User-friendly for beginners
-- **[Squarespace Comme [...]</p>
+                            ### Platform Solutions
+                            - **[Shopify](https://www.shopify.com)** - Best for SMBs and direct-to-consumer brands
+                            - **[BigCommerce](https://www.bigcommerce.com)** - Enterprise-focused SaaS platform
+                            - **[<mark class="brand-highlight">WooCommerce</mark>](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com)** - WordPress-based solution
+                            - **[Magento/Adobe
+                            Commerce](https://business.adobe.com/products/magento/magento-commerce.html)** -
+                            Enterprise-level customization
+                            - **[Wix eCommerce](https://www.wix.com/ecommerce/website)** - User-friendly for beginners
+                            - **[Squarespace Comme [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'anthropic_claude_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'anthropic_claude_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
                 </div>
-                <div class="excerpt-tab-content" data-tab-content="openai_chatgpt_with_search_latest" style="display: none;">
+                <div class="excerpt-tab-content" data-tab-content="openai_chatgpt_with_search_latest"
+                    style="display: none;">
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                         <i class="fas fa-question-circle mr-2"></i>
-                        <span class="italic">What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                        <span class="italic">What does the E-commerce industry look like right now? Identify the
+                            dominant market leaders and brands, best products and services, key companies and providers,
+                            influential figures and thought leaders, emerging startups and trends, major conferences and
+                            events, active professional communities, and the top publications and media that cover this
+                            industry.</span>
                     </p>
                     <div class="citation-block mb-4">
-                        <p class="citation-text">[...] iness.adobe.com/products/magento/magento-commerce.html) (Adobe: [Adobe](https://www.adobe.com/))  
-- [Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/overview/) (Salesforce: [Salesforce](https://www.salesforce.com/))  
-- [BigCommerce](https://www.bigcommerce.com/)  
-- [<mark class="brand-highlight">WooCommerce</mark>](https://<mark class="brand-highlight">woocommerce</mark>.com/) (runs on [WordPress](https://wordpress.org/))  
-- Enterprise/B2B: [SAP Commerce Cloud](https://www.sap.com/products/crm/e-commerce.html) (SAP: [SAP](https://www.sap.com/)); [commercetools](https://commercetools.com/); [VTEX](https://vtex.com/)  
-- Headless/content + comme [...]</p>
+                        <p class="citation-text">[...] iness.adobe.com/products/magento/magento-commerce.html) (Adobe:
+                            [Adobe](https://www.adobe.com/))
+                            - [Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/overview/)
+                            (Salesforce: [Salesforce](https://www.salesforce.com/))
+                            - [BigCommerce](https://www.bigcommerce.com/)
+                            - [<mark class="brand-highlight">WooCommerce</mark>](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com/) (runs on
+                            [WordPress](https://wordpress.org/))
+                            - Enterprise/B2B: [SAP Commerce Cloud](https://www.sap.com/products/crm/e-commerce.html)
+                            (SAP: [SAP](https://www.sap.com/)); [commercetools](https://commercetools.com/);
+                            [VTEX](https://vtex.com/)
+                            - Headless/content + comme [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'openai_chatgpt_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'openai_chatgpt_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
                     <div class="citation-block mb-4">
-                        <p class="citation-text">[...] organizer: [WBR](https://wbresearch.com/))  
-- Platform ecosystem events: [Adobe Summit](https://business.adobe.com/summit/adobe-summit.html) ([Adobe](https://www.adobe.com/))  
+                        <p class="citation-text">[...] organizer: [WBR](https://wbresearch.com/))
+                            - Platform ecosystem events: [Adobe
+                            Summit](https://business.adobe.com/summit/adobe-summit.html)
+                            ([Adobe](https://www.adobe.com/))
 
----
+                            ---
 
-## Active professional communities (practitioner-heavy)
-- [Shopify Community](https://community.shopify.com/)  
-- [<mark class="brand-highlight">WooCommerce</mark> Community](https://<mark class="brand-highlight">woocommerce</mark>.com/community/)  
-- [r/ecommerce (Reddit)](https://www.reddit.com/r/ecommerce/) (Reddit: [Reddit](https://www.reddit.com/))  
-- [eCommerceFuel](https://www.ecommercefuel.com/) (paid community for store owners)
+                            ## Active professional communities (practitioner-heavy)
+                            - [Shopify Community](https://community.shopify.com/)
+                            - [<mark class="brand-highlight">WooCommerce</mark> Community](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com/community/)
+                            - [r/ecommerce (Reddit)](https://www.reddit.com/r/ecommerce/) (Reddit:
+                            [Reddit](https://www.reddit.com/))
+                            - [eCommerceFuel](https://www.ecommercefuel.com/) (paid community for store owners)
 
----
+                            ---
 
-## Top publications &amp; media covering e-commerce/reta [...]</p>
+                            ## Top publications &amp; media covering e-commerce/reta [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'openai_chatgpt_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'openai_chatgpt_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
                 </div>
-                <div class="excerpt-tab-content" data-tab-content="google_gemini_with_search_latest" style="display: none;">
+                <div class="excerpt-tab-content" data-tab-content="google_gemini_with_search_latest"
+                    style="display: none;">
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                         <i class="fas fa-question-circle mr-2"></i>
-                        <span class="italic">What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                        <span class="italic">What does the E-commerce industry look like right now? Identify the
+                            dominant market leaders and brands, best products and services, key companies and providers,
+                            influential figures and thought leaders, emerging startups and trends, major conferences and
+                            events, active professional communities, and the top publications and media that cover this
+                            industry.</span>
                     </p>
                     <div class="citation-block mb-4">
                         <p class="citation-text">[...] ### 2. Best Products and services (Software &amp; Logistics)
-To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
+                            To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
 
-*   **E-commerce Platforms**: [BigCommerce](https://www.bigcommerce.com), [Adobe Commerce (Magento)](https://business.adobe.com/products/magento/magento-commerce.html), and [<mark class="brand-highlight">WooCommerce</mark>](https://<mark class="brand-highlight">woocommerce</mark>.com).
-*   **Marketing &amp; CRM**: [Klaviyo](https://www.klaviyo.com) for email/SMS and [Attentive](https://www.attentive.com).
-*   **Shipping &amp; Logistics**: [ShipStation](https://www.shipstation.com) for management and [Flexport](https://www.flexport.com) for global supply chain. [...]</p>
+                            * **E-commerce Platforms**: [BigCommerce](https://www.bigcommerce.com), [Adobe Commerce
+                            (Magento)](https://business.adobe.com/products/magento/magento-commerce.html), and [<mark
+                                class="brand-highlight">WooCommerce</mark>](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com).
+                            * **Marketing &amp; CRM**: [Klaviyo](https://www.klaviyo.com) for email/SMS and
+                            [Attentive](https://www.attentive.com).
+                            * **Shipping &amp; Logistics**: [ShipStation](https://www.shipstation.com) for management
+                            and [Flexport](https://www.flexport.com) for global supply chain. [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Google Gemini Flash (latest)', 'https://www.google.com/s2/favicons?domain=gemini.google.com&amp;sz=32', 'icon_bot_unknown', 'G', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'google_gemini_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Google Gemini Flash (latest)', 'https://www.google.com/s2/favicons?domain=gemini.google.com&amp;sz=32', 'icon_bot_unknown', 'G', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'google_gemini_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
@@ -970,44 +1098,59 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
                 <div class="excerpt-tab-content" data-tab-content="x_ai_grok_with_search_latest" style="display: none;">
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                         <i class="fas fa-question-circle mr-2"></i>
-                        <span class="italic">What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                        <span class="italic">What does the E-commerce industry look like right now? Identify the
+                            dominant market leaders and brands, best products and services, key companies and providers,
+                            influential figures and thought leaders, emerging startups and trends, major conferences and
+                            events, active professional communities, and the top publications and media that cover this
+                            industry.</span>
                     </p>
                     <div class="citation-block mb-4">
-                        <p class="citation-text">[...] rlo (Shopify): Top E-Commerce Categories 2024](https://www.oberlo.com/statistics/top-ecommerce-categories); [Statista: E-Commerce by Category](https://www.statista.com/outlook/emo/ecommerce/worldwide)  
+                        <p class="citation-text">[...] rlo (Shopify): Top E-Commerce Categories
+                            2024](https://www.oberlo.com/statistics/top-ecommerce-categories); [Statista: E-Commerce by
+                            Category](https://www.statista.com/outlook/emo/ecommerce/worldwide)
 
-**Top Services** (rated by G2 user reviews and adoption):  
-- Platforms: Shopify (4.5/5 on G2), <mark class="brand-highlight">WooCommerce</mark> (free/open-source).  
-- Payments: Stripe (4.7/5), PayPal.  
-- Marketing/Email: Klaviyo (4.7/5).  
-- Logistics: ShipBob (4.6/5).  
-**Review Sources**: [G2: E-Commerce Platforms Grid Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment Management](https://www.g2.com/categories/paym [...]</p>
+                            **Top Services** (rated by G2 user reviews and adoption):
+                            - Platforms: Shopify (4.5/5 on G2), <mark class="brand-highlight">WooCommerce</mark>
+                            (free/open-source).
+                            - Payments: Stripe (4.7/5), PayPal.
+                            - Marketing/Email: Klaviyo (4.7/5).
+                            - Logistics: ShipBob (4.6/5).
+                            **Review Sources**: [G2: E-Commerce Platforms Grid
+                            Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment
+                            Management](https://www.g2.com/categories/paym [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'X.AI Grok (latest)', 'https://www.google.com/s2/favicons?domain=x.ai&amp;sz=32', 'icon_bot_unknown', 'X', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'x_ai_grok_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'X.AI Grok (latest)', 'https://www.google.com/s2/favicons?domain=x.ai&amp;sz=32', 'icon_bot_unknown', 'X', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'x_ai_grok_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
                     <div class="citation-block mb-4">
-                        <p class="citation-text">[...] Stripe (4.7/5), PayPal.  
-- Marketing/Email: Klaviyo (4.7/5).  
-- Logistics: ShipBob (4.6/5).  
-**Review Sources**: [G2: E-Commerce Platforms Grid Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment Management](https://www.g2.com/categories/payment-management)  
-**Links**:  
-- [<mark class="brand-highlight">WooCommerce</mark>](https://<mark class="brand-highlight">woocommerce</mark>.com)  
-- [Stripe](https://stripe.com)  
-- [PayPal](https://www.paypal.com)  
-- [Klaviyo](https://www.klaviyo.com)  
-- [ShipBob](https://www.shipbob.com)
+                        <p class="citation-text">[...] Stripe (4.7/5), PayPal.
+                            - Marketing/Email: Klaviyo (4.7/5).
+                            - Logistics: ShipBob (4.6/5).
+                            **Review Sources**: [G2: E-Commerce Platforms Grid
+                            Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment
+                            Management](https://www.g2.com/categories/payment-management)
+                            **Links**:
+                            - [<mark class="brand-highlight">WooCommerce</mark>](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com)
+                            - [Stripe](https://stripe.com)
+                            - [PayPal](https://www.paypal.com)
+                            - [Klaviyo](https://www.klaviyo.com)
+                            - [ShipBob](https://www.shipbob.com)
 
-### Key Companies and Providers
-- **Platforms**: BigCommerce [bigcommerce.com](https://www.bigcommerce.com), Adobe Commerce [...]</p>
+                            ### Key Companies and Providers
+                            - **Platforms**: BigCommerce [bigcommerce.com](https://www.bigcommerce.com), Adobe Commerce
+                            [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'X.AI Grok (latest)', 'https://www.google.com/s2/favicons?domain=x.ai&amp;sz=32', 'icon_bot_unknown', 'X', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'x_ai_grok_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'X.AI Grok (latest)', 'https://www.google.com/s2/favicons?domain=x.ai&amp;sz=32', 'icon_bot_unknown', 'X', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'x_ai_grok_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
@@ -1024,7 +1167,8 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
                         <h3 class="text-2xl font-bold text-gray-900 dark:text-white">AIChatWatch.com</h3>
                         <p class="text-sm text-gray-600 dark:text-gray-400">Know What AI Tells Your Customers</p>
                     </div>
-                    <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=footer&utm_campaign=e-commerce" target="_blank" rel="noopener noreferrer"
+                    <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=footer&utm_campaign=e-commerce"
+                        target="_blank" rel="noopener noreferrer"
                         class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
                         <i class="fas fa-rocket"></i> Track Your AI Visibility
                     </a>
@@ -1034,7 +1178,9 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
                 <div class="pt-6 border-t border-gray-200 dark:border-gray-700">
                     <p class="text-sm text-gray-600 dark:text-gray-400">
                         &copy; <span id="currentYear"></span>
-                        <a href="https://aichatwatch.com?utm_source=public_reports&utm_campaign=e-commerce" class="hover:text-indigo-600 dark:hover:text-indigo-400">AIChatWatch.com</a>. All rights reserved.
+                        <a href="https://aichatwatch.com?utm_source=public_reports&utm_campaign=e-commerce"
+                            class="hover:text-indigo-600 dark:hover:text-indigo-400">AIChatWatch.com</a>. All rights
+                        reserved.
                     </p>
                     <p class="text-xs text-gray-500 dark:text-gray-500 mt-1">
                         Report Date: {{ meta.reportDate }} | Engine v1.1.6
@@ -1043,16 +1189,45 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
 
                 <!-- Disclaimer -->
                 <p class="text-xs text-gray-500 dark:text-gray-500 mt-6 leading-relaxed">
-                    DISCLAIMER: Intellectual Property Notice: All organizations and company names, trademarks, registered trademarks, service marks, logos, brand names, trade dress, and other intellectual property displayed in this report remain the sole property of their respective owners. Use of these marks does not imply any affiliation with, sponsorship by, or endorsement from the trademark holders. Any references to third-party trademarks are made solely for identification and informational purposes.
-No Endorsement: The inclusion of any third-party content, data, links, references, or mentions in this report does not constitute, and should not be construed as, an endorsement, recommendation, or approval by AIChatWatch.com of any product, service, company, organization, or viewpoint. Similarly, the absence of any entity from this report should not be interpreted as a negative assessment.
-Accuracy and Reliability: AIChatWatch.com makes no representations, warranties, or guarantees—express or implied—regarding the accuracy, completeness, reliability, timeliness, or suitability of any information contained in this report. The data presented herein is derived from automated analysis of artificial intelligence systems and publicly available sources, which may contain errors, omissions, or inaccuracies. AI-generated content and responses are subject to change without notice and may vary based on numerous factors beyond our control.
-Limitation of Liability: To the fullest extent permitted by applicable law, AIChatWatch.com, its affiliates, officers, directors, employees, agents, and licensors shall not be liable for any direct, indirect, incidental, special, consequential, punitive, or exemplary damages arising from or related to the use of, reliance upon, or inability to use any information contained in this report, even if advised of the possibility of such damages.
-No Professional Advice: The information provided in this report is for general informational and research purposes only and does not constitute legal, financial, business, marketing, or other professional advice. Users should consult qualified professionals before making any decisions based on the information contained herein.
-Third-Party Data Sources: This report may contain information obtained from or generated by third-party artificial intelligence platforms and other external sources. AIChatWatch.com does not control, verify, or guarantee the content produced by such third parties and assumes no responsibility for their accuracy, policies, or practices.
-Fair Use and Research Purpose: This report is provided for informational, research, and analytical purposes. Any data or analysis presented is intended to provide market insights and should not be used as the sole basis for business, investment, or strategic decisions.
-Modifications: Information in this report reflects data available at the time of generation. AIChatWatch.com reserves the right to modify, update, or discontinue any aspect of its reporting without prior notice.
-Governing Law: This disclaimer shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles.
-By accessing or using this report, you acknowledge that you have read, understood, and agree to be bound by this disclaimer.
+                    DISCLAIMER: Intellectual Property Notice: All organizations and company names, trademarks,
+                    registered trademarks, service marks, logos, brand names, trade dress, and other intellectual
+                    property displayed in this report remain the sole property of their respective owners. Use of these
+                    marks does not imply any affiliation with, sponsorship by, or endorsement from the trademark
+                    holders. Any references to third-party trademarks are made solely for identification and
+                    informational purposes.
+                    No Endorsement: The inclusion of any third-party content, data, links, references, or mentions in
+                    this report does not constitute, and should not be construed as, an endorsement, recommendation, or
+                    approval by AIChatWatch.com of any product, service, company, organization, or viewpoint. Similarly,
+                    the absence of any entity from this report should not be interpreted as a negative assessment.
+                    Accuracy and Reliability: AIChatWatch.com makes no representations, warranties, or
+                    guarantees—express or implied—regarding the accuracy, completeness, reliability, timeliness, or
+                    suitability of any information contained in this report. The data presented herein is derived from
+                    automated analysis of artificial intelligence systems and publicly available sources, which may
+                    contain errors, omissions, or inaccuracies. AI-generated content and responses are subject to change
+                    without notice and may vary based on numerous factors beyond our control.
+                    Limitation of Liability: To the fullest extent permitted by applicable law, AIChatWatch.com, its
+                    affiliates, officers, directors, employees, agents, and licensors shall not be liable for any
+                    direct, indirect, incidental, special, consequential, punitive, or exemplary damages arising from or
+                    related to the use of, reliance upon, or inability to use any information contained in this report,
+                    even if advised of the possibility of such damages.
+                    No Professional Advice: The information provided in this report is for general informational and
+                    research purposes only and does not constitute legal, financial, business, marketing, or other
+                    professional advice. Users should consult qualified professionals before making any decisions based
+                    on the information contained herein.
+                    Third-Party Data Sources: This report may contain information obtained from or generated by
+                    third-party artificial intelligence platforms and other external sources. AIChatWatch.com does not
+                    control, verify, or guarantee the content produced by such third parties and assumes no
+                    responsibility for their accuracy, policies, or practices.
+                    Fair Use and Research Purpose: This report is provided for informational, research, and analytical
+                    purposes. Any data or analysis presented is intended to provide market insights and should not be
+                    used as the sole basis for business, investment, or strategic decisions.
+                    Modifications: Information in this report reflects data available at the time of generation.
+                    AIChatWatch.com reserves the right to modify, update, or discontinue any aspect of its reporting
+                    without prior notice.
+                    Governing Law: This disclaimer shall be governed by and construed in accordance with applicable
+                    laws, without regard to conflicts of law principles.
+                    By accessing or using this report, you acknowledge that you have read, understood, and agree to be
+                    bound by this disclaimer.
                 </p>
             </div>
         </footer>
@@ -1066,13 +1241,13 @@ By accessing or using this report, you acknowledge that you have read, understoo
                 <div class="flex flex-col md:flex-row items-center justify-between gap-4">
                     <div class="text-center md:text-left">
                         <a href="https://www.aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce"
-                           class="text-2xl font-bold text-gray-900">AI ChatWatch</a>
+                            class="text-2xl font-bold text-gray-900">AI ChatWatch</a>
                         <p class="text-sm text-gray-600">
                             AI Mentions & Sources Report for <strong>E-commerce</strong>
                         </p>
                     </div>
                     <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=e-commerce"
-                       class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white font-medium text-sm bg-indigo-600 hover:bg-indigo-700">
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white font-medium text-sm bg-indigo-600 hover:bg-indigo-700">
                         <i class="fas fa-rocket"></i> Track Your AI Visibility
                     </a>
                 </div>
@@ -1089,10 +1264,12 @@ By accessing or using this report, you acknowledge that you have read, understoo
         <!-- Static Hero Section -->
         <div class="container mx-auto px-4 py-6">
 
-            <div class="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 rounded-2xl shadow-2xl p-6 md:p-8 text-white">
+            <div
+                class="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 rounded-2xl shadow-2xl p-6 md:p-8 text-white">
                 <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
                     <!-- Large Rank Badge -->
-                    <div class="flex-shrink-0 w-20 h-20 md:w-28 md:h-28 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center border-4 border-white/30">
+                    <div
+                        class="flex-shrink-0 w-20 h-20 md:w-28 md:h-28 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center border-4 border-white/30">
                         <span class="text-4xl md:text-5xl font-black">#9</span>
                     </div>
 
@@ -1101,19 +1278,20 @@ By accessing or using this report, you acknowledge that you have read, understoo
                         <!-- Large Favicon/Logo -->
                         <div class="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 bg-white rounded-xl p-2 shadow-lg">
                             <img src="https://www.google.com/s2/favicons?domain=woocommerce.com&sz=128"
-                                 class="w-full h-full object-contain"
-                                 alt="WooCommerce"
-                                 onerror="this.parentElement.style.display='none';" />
+                                class="w-full h-full object-contain" alt="WooCommerce"
+                                onerror="this.parentElement.style.display='none';" />
                         </div>
 
                         <!-- Brand Name & Type -->
                         <div class="flex-1">
-                            <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-white/20 mb-2 capitalize">
+                            <span
+                                class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-white/20 mb-2 capitalize">
                                 product
                             </span>
                             <h1 class="text-3xl md:text-4xl font-black">WooCommerce</h1>
                             <a href="https://woocommerce.com" target="_blank" rel="noopener noreferrer"
-                               class="text-white/80 hover:text-white flex items-center gap-2 mt-2 text-sm md:text-base" style="color: rgba(255,255,255,0.8) !important;">
+                                class="text-white/80 hover:text-white flex items-center gap-2 mt-2 text-sm md:text-base"
+                                style="color: rgba(255,255,255,0.8) !important;">
                                 <i class="fas fa-external-link-alt"></i>
                                 woocommerce.com
                             </a>
@@ -1132,36 +1310,58 @@ By accessing or using this report, you acknowledge that you have read, understoo
         <!-- About This Entity (SEO Introduction) -->
         <div class="container mx-auto px-4 py-4">
 
-        <section class="entity-intro bg-white dark:bg-gray-800 rounded-lg shadow p-5 mb-4">
-            <h2 class="text-lg font-bold mb-3 text-gray-900 dark:text-white">
-                <i class="fas fa-info-circle mr-2 text-indigo-500"></i>About WooCommerce (product)
-            </h2>
-            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                This page provides details about <strong>WooCommerce</strong> (product) which was ranked <strong>#9</strong> out of 39 in the list of brands (6 mentions (6.5% share)) in answers from AI models (<img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">Anthropic Claude Sonnet (latest), <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">OpenAI ChatGPT Latest, <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">Google Gemini Flash (latest), <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">X.AI Grok (latest)) when they were asked the following 1 question: <i>"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."</i> on <strong>Dec 30, 2025</strong> by <a href="https://aichatwatch.com" class="text-indigo-600 hover:underline">AI Chat Watch</a>.
-            </p>
-        </section>
+            <section class="entity-intro bg-white dark:bg-gray-800 rounded-lg shadow p-5 mb-4">
+                <h2 class="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                    <i class="fas fa-info-circle mr-2 text-indigo-500"></i>About WooCommerce (product)
+                </h2>
+                <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                    This page provides details about <strong>WooCommerce</strong> (product) which was ranked
+                    <strong>#9</strong> out of 39 in the list of brands (6 mentions (6.5% share)) in answers from AI
+                    models (<img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">Anthropic Claude Sonnet (latest), <img
+                        src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">OpenAI ChatGPT Latest, <img
+                        src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">Google Gemini Flash (latest), <img
+                        src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">X.AI Grok (latest)) when they were asked the following 1
+                    question: <i>"What does the E-commerce industry look like right now? Identify the dominant market
+                        leaders and brands, best products and services, key companies and providers, influential figures
+                        and thought leaders, emerging startups and trends, major conferences and events, active
+                        professional communities, and the top publications and media that cover this industry."</i> on
+                    <strong>Dec 30, 2025</strong> by <a href="https://aichatwatch.com"
+                        class="text-indigo-600 hover:underline">AI Chat Watch</a>.
+                </p>
+            </section>
         </div>
 
         <!-- Static Metrics Cards -->
         <div class="container mx-auto px-4 py-4">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
 
-    <div class="metric-card-sm">
-        <div class="metric-value-sm">#9</div>
-        <div class="metric-label-sm">Rank</div>
-    </div>
-    <div class="metric-card-sm">
-        <div class="metric-value-sm">6.5%<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span></div>
-        <div class="metric-label-sm">Voice</div>
-    </div>
-    <div class="metric-card-sm">
-        <div class="metric-value-sm">8<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span></div>
-        <div class="metric-label-sm">Position</div>
-    </div>
-    <div class="metric-card-sm">
-        <div class="metric-value-sm">2.8% (6)<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span></div>
-        <div class="metric-label-sm">Mentions</div>
-    </div>
+                <div class="metric-card-sm">
+                    <div class="metric-value-sm">#9</div>
+                    <div class="metric-label-sm">Rank</div>
+                </div>
+                <div class="metric-card-sm">
+                    <div class="metric-value-sm">6.5%<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span>
+                    </div>
+                    <div class="metric-label-sm">Voice</div>
+                </div>
+                <div class="metric-card-sm">
+                    <div class="metric-value-sm">8<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span>
+                    </div>
+                    <div class="metric-label-sm">Position</div>
+                </div>
+                <div class="metric-card-sm">
+                    <div class="metric-value-sm">2.8% (6)<span class="text-blue-500 ml-1 text-xs"
+                            title="New entry">★</span></div>
+                    <div class="metric-label-sm">Mentions</div>
+                </div>
             </div>
 
             <!-- Static Model Table -->
@@ -1181,42 +1381,44 @@ By accessing or using this report, you acknowledge that you have read, understoo
                         </thead>
                         <tbody>
 
-            <tr>
-                <td class="flex items-center gap-2">
-                    <span class="icon_bot icon_bot_unknown" title="OpenAI ChatGPT Latest">O</span>
-                    OpenAI ChatGPT Latest
-                </td>
-                <td class="text-center">1.2%</td>
-                <td class="text-center">9</td>
-                <td class="text-center">2</td>
-            </tr>
-            <tr>
-                <td class="flex items-center gap-2">
-                    <span class="icon_bot icon_bot_unknown" title="Google Gemini Flash (latest)">G</span>
-                    Google Gemini Flash (latest)
-                </td>
-                <td class="text-center">0.5%</td>
-                <td class="text-center">7</td>
-                <td class="text-center">1</td>
-            </tr>
-            <tr>
-                <td class="flex items-center gap-2">
-                    <span class="icon_bot icon_bot_unknown" title="X.AI Grok (latest)">X</span>
-                    X.AI Grok (latest)
-                </td>
-                <td class="text-center">0.1%</td>
-                <td class="text-center">7</td>
-                <td class="text-center">2</td>
-            </tr>
-            <tr>
-                <td class="flex items-center gap-2">
-                    <span class="icon_bot icon_bot_unknown" title="Anthropic Claude Sonnet (latest)">A</span>
-                    Anthropic Claude Sonnet (latest)
-                </td>
-                <td class="text-center">0%</td>
-                <td class="text-center">15</td>
-                <td class="text-center">1</td>
-            </tr>
+                            <tr>
+                                <td class="flex items-center gap-2">
+                                    <span class="icon_bot icon_bot_unknown" title="OpenAI ChatGPT Latest">O</span>
+                                    OpenAI ChatGPT Latest
+                                </td>
+                                <td class="text-center">1.2%</td>
+                                <td class="text-center">9</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <td class="flex items-center gap-2">
+                                    <span class="icon_bot icon_bot_unknown"
+                                        title="Google Gemini Flash (latest)">G</span>
+                                    Google Gemini Flash (latest)
+                                </td>
+                                <td class="text-center">0.5%</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">1</td>
+                            </tr>
+                            <tr>
+                                <td class="flex items-center gap-2">
+                                    <span class="icon_bot icon_bot_unknown" title="X.AI Grok (latest)">X</span>
+                                    X.AI Grok (latest)
+                                </td>
+                                <td class="text-center">0.1%</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <td class="flex items-center gap-2">
+                                    <span class="icon_bot icon_bot_unknown"
+                                        title="Anthropic Claude Sonnet (latest)">A</span>
+                                    Anthropic Claude Sonnet (latest)
+                                </td>
+                                <td class="text-center">0%</td>
+                                <td class="text-center">15</td>
+                                <td class="text-center">1</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -1244,11 +1446,10 @@ By accessing or using this report, you acknowledge that you have read, understoo
                                 <td>
                                     <div class="flex items-center gap-2">
                                         <img src="https://www.google.com/s2/favicons?domain=woocommerce.com&sz=32"
-                                             class="w-5 h-5 rounded flex-shrink-0"
-                                             alt="woocommerce.com"
-                                             onerror="this.style.display='none'">
+                                            class="w-5 h-5 rounded flex-shrink-0" alt="woocommerce.com"
+                                            onerror="this.style.display='none'">
                                         <a href="../website/woocommerce-com.html"
-                                           class="text-blue-600 hover:underline break-all">
+                                            class="text-blue-600 hover:underline break-all">
                                             woocommerce.com
                                         </a>
                                     </div>
@@ -1256,21 +1457,16 @@ By accessing or using this report, you acknowledge that you have read, understoo
                                 <td>
                                     <div class="flex items-center gap-1 flex-wrap">
                                         <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32"
-                                             alt="Anthropic Claude Sonnet (latest)"
-                                             title="Anthropic Claude Sonnet (latest)"
-                                             class="w-5 h-5 rounded">
+                                            alt="Anthropic Claude Sonnet (latest)"
+                                            title="Anthropic Claude Sonnet (latest)" class="w-5 h-5 rounded">
                                         <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32"
-                                             alt="Google Gemini Flash (latest)"
-                                             title="Google Gemini Flash (latest)"
-                                             class="w-5 h-5 rounded">
+                                            alt="Google Gemini Flash (latest)" title="Google Gemini Flash (latest)"
+                                            class="w-5 h-5 rounded">
                                         <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
-                                             alt="OpenAI ChatGPT Latest"
-                                             title="OpenAI ChatGPT Latest"
-                                             class="w-5 h-5 rounded">
+                                            alt="OpenAI ChatGPT Latest" title="OpenAI ChatGPT Latest"
+                                            class="w-5 h-5 rounded">
                                         <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32"
-                                             alt="X.AI Grok (latest)"
-                                             title="X.AI Grok (latest)"
-                                             class="w-5 h-5 rounded">
+                                            alt="X.AI Grok (latest)" title="X.AI Grok (latest)" class="w-5 h-5 rounded">
                                     </div>
                                 </td>
                             </tr>
@@ -1278,11 +1474,10 @@ By accessing or using this report, you acknowledge that you have read, understoo
                                 <td>
                                     <div class="flex items-center gap-2">
                                         <img src="https://www.google.com/s2/favicons?domain=wordpress.org&sz=32"
-                                             class="w-5 h-5 rounded flex-shrink-0"
-                                             alt="wordpress.org"
-                                             onerror="this.style.display='none'">
+                                            class="w-5 h-5 rounded flex-shrink-0" alt="wordpress.org"
+                                            onerror="this.style.display='none'">
                                         <a href="../website/wordpress-org.html"
-                                           class="text-blue-600 hover:underline break-all">
+                                            class="text-blue-600 hover:underline break-all">
                                             wordpress.org
                                         </a>
                                     </div>
@@ -1290,9 +1485,8 @@ By accessing or using this report, you acknowledge that you have read, understoo
                                 <td>
                                     <div class="flex items-center gap-1 flex-wrap">
                                         <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
-                                             alt="OpenAI ChatGPT Latest"
-                                             title="OpenAI ChatGPT Latest"
-                                             class="w-5 h-5 rounded">
+                                            alt="OpenAI ChatGPT Latest" title="OpenAI ChatGPT Latest"
+                                            class="w-5 h-5 rounded">
                                     </div>
                                 </td>
                             </tr>
@@ -1300,11 +1494,10 @@ By accessing or using this report, you acknowledge that you have read, understoo
                                 <td>
                                     <div class="flex items-center gap-2">
                                         <img src="https://www.google.com/s2/favicons?domain=woocommerce.com&sz=32"
-                                             class="w-5 h-5 rounded flex-shrink-0"
-                                             alt="woocommerce.com"
-                                             onerror="this.style.display='none'">
+                                            class="w-5 h-5 rounded flex-shrink-0" alt="woocommerce.com"
+                                            onerror="this.style.display='none'">
                                         <a href="../website/woocommerce-com.html"
-                                           class="text-blue-600 hover:underline break-all">
+                                            class="text-blue-600 hover:underline break-all">
                                             woocommerce.com/community
                                         </a>
                                     </div>
@@ -1312,9 +1505,8 @@ By accessing or using this report, you acknowledge that you have read, understoo
                                 <td>
                                     <div class="flex items-center gap-1 flex-wrap">
                                         <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
-                                             alt="OpenAI ChatGPT Latest"
-                                             title="OpenAI ChatGPT Latest"
-                                             class="w-5 h-5 rounded">
+                                            alt="OpenAI ChatGPT Latest" title="OpenAI ChatGPT Latest"
+                                            class="w-5 h-5 rounded">
                                     </div>
                                 </td>
                             </tr>
@@ -1322,11 +1514,10 @@ By accessing or using this report, you acknowledge that you have read, understoo
                                 <td>
                                     <div class="flex items-center gap-2">
                                         <img src="https://www.google.com/s2/favicons?domain=g2.com&sz=32"
-                                             class="w-5 h-5 rounded flex-shrink-0"
-                                             alt="g2.com"
-                                             onerror="this.style.display='none'">
+                                            class="w-5 h-5 rounded flex-shrink-0" alt="g2.com"
+                                            onerror="this.style.display='none'">
                                         <a href="../website/g2-com.html"
-                                           class="text-blue-600 hover:underline break-all">
+                                            class="text-blue-600 hover:underline break-all">
                                             g2.com/compare/shopify-vs-bigcommerce-vs-woocommerce-grid-report
                                         </a>
                                     </div>
@@ -1334,9 +1525,7 @@ By accessing or using this report, you acknowledge that you have read, understoo
                                 <td>
                                     <div class="flex items-center gap-1 flex-wrap">
                                         <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32"
-                                             alt="X.AI Grok (latest)"
-                                             title="X.AI Grok (latest)"
-                                             class="w-5 h-5 rounded">
+                                            alt="X.AI Grok (latest)" title="X.AI Grok (latest)" class="w-5 h-5 rounded">
                                     </div>
                                 </td>
                             </tr>
@@ -1357,31 +1546,39 @@ By accessing or using this report, you acknowledge that you have read, understoo
 
                 <!-- Tab Bar -->
                 <div class="flex gap-1 overflow-x-auto pb-2 mb-4 border-b border-gray-200 dark:border-gray-700">
-                    <button class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 border-b-2 border-indigo-500"
-                            data-tab-id="anthropic_claude_with_search_latest"
-                            onclick="window.entityApp && window.entityApp.selectExcerptTab('anthropic_claude_with_search_latest')">
-                        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="Anthropic Claude Sonnet (latest)" class="w-5 h-5 rounded">
+                    <button
+                        class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 border-b-2 border-indigo-500"
+                        data-tab-id="anthropic_claude_with_search_latest"
+                        onclick="window.entityApp && window.entityApp.selectExcerptTab('anthropic_claude_with_search_latest')">
+                        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32"
+                            alt="Anthropic Claude Sonnet (latest)" class="w-5 h-5 rounded">
                         <span class="hidden sm:inline">Anthropic Claude Sonnet (latest)</span>
                         <span class="text-xs text-gray-500">(1)</span>
                     </button>
-                    <button class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-                            data-tab-id="openai_chatgpt_with_search_latest"
-                            onclick="window.entityApp && window.entityApp.selectExcerptTab('openai_chatgpt_with_search_latest')">
-                        <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="OpenAI ChatGPT Latest" class="w-5 h-5 rounded">
+                    <button
+                        class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+                        data-tab-id="openai_chatgpt_with_search_latest"
+                        onclick="window.entityApp && window.entityApp.selectExcerptTab('openai_chatgpt_with_search_latest')">
+                        <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
+                            alt="OpenAI ChatGPT Latest" class="w-5 h-5 rounded">
                         <span class="hidden sm:inline">OpenAI ChatGPT Latest</span>
                         <span class="text-xs text-gray-500">(2)</span>
                     </button>
-                    <button class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-                            data-tab-id="google_gemini_with_search_latest"
-                            onclick="window.entityApp && window.entityApp.selectExcerptTab('google_gemini_with_search_latest')">
-                        <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32" alt="Google Gemini Flash (latest)" class="w-5 h-5 rounded">
+                    <button
+                        class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+                        data-tab-id="google_gemini_with_search_latest"
+                        onclick="window.entityApp && window.entityApp.selectExcerptTab('google_gemini_with_search_latest')">
+                        <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=32"
+                            alt="Google Gemini Flash (latest)" class="w-5 h-5 rounded">
                         <span class="hidden sm:inline">Google Gemini Flash (latest)</span>
                         <span class="text-xs text-gray-500">(1)</span>
                     </button>
-                    <button class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-                            data-tab-id="x_ai_grok_with_search_latest"
-                            onclick="window.entityApp && window.entityApp.selectExcerptTab('x_ai_grok_with_search_latest')">
-                        <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" alt="X.AI Grok (latest)" class="w-5 h-5 rounded">
+                    <button
+                        class="excerpt-tab flex items-center gap-2 px-3 py-2 rounded-t-lg text-sm font-medium whitespace-nowrap transition-colors text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+                        data-tab-id="x_ai_grok_with_search_latest"
+                        onclick="window.entityApp && window.entityApp.selectExcerptTab('x_ai_grok_with_search_latest')">
+                        <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" alt="X.AI Grok (latest)"
+                            class="w-5 h-5 rounded">
                         <span class="hidden sm:inline">X.AI Grok (latest)</span>
                         <span class="text-xs text-gray-500">(2)</span>
                     </button>
@@ -1391,90 +1588,126 @@ By accessing or using this report, you acknowledge that you have read, understoo
                 <div class="excerpt-tab-content" data-tab-content="anthropic_claude_with_search_latest">
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                         <i class="fas fa-question-circle mr-2"></i>
-                        <span class="italic">What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                        <span class="italic">What does the E-commerce industry look like right now? Identify the
+                            dominant market leaders and brands, best products and services, key companies and providers,
+                            influential figures and thought leaders, emerging startups and trends, major conferences and
+                            events, active professional communities, and the top publications and media that cover this
+                            industry.</span>
                     </p>
                     <div class="citation-block mb-4">
                         <p class="citation-text">[...] ](https://www.farfetch.com)** - Luxury fashion marketplace
 
-## Best E-commerce Platforms &amp; Services
+                            ## Best E-commerce Platforms &amp; Services
 
-### Platform Solutions
-- **[Shopify](https://www.shopify.com)** - Best for SMBs and direct-to-consumer brands
-- **[BigCommerce](https://www.bigcommerce.com)** - Enterprise-focused SaaS platform
-- **[<mark class="brand-highlight">WooCommerce</mark>](https://<mark class="brand-highlight">woocommerce</mark>.com)** - WordPress-based solution
-- **[Magento/Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)** - Enterprise-level customization
-- **[Wix eCommerce](https://www.wix.com/ecommerce/website)** - User-friendly for beginners
-- **[Squarespace Comme [...]</p>
+                            ### Platform Solutions
+                            - **[Shopify](https://www.shopify.com)** - Best for SMBs and direct-to-consumer brands
+                            - **[BigCommerce](https://www.bigcommerce.com)** - Enterprise-focused SaaS platform
+                            - **[<mark class="brand-highlight">WooCommerce</mark>](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com)** - WordPress-based solution
+                            - **[Magento/Adobe
+                            Commerce](https://business.adobe.com/products/magento/magento-commerce.html)** -
+                            Enterprise-level customization
+                            - **[Wix eCommerce](https://www.wix.com/ecommerce/website)** - User-friendly for beginners
+                            - **[Squarespace Comme [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'anthropic_claude_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'anthropic_claude_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
                 </div>
-                <div class="excerpt-tab-content" data-tab-content="openai_chatgpt_with_search_latest" style="display: none;">
+                <div class="excerpt-tab-content" data-tab-content="openai_chatgpt_with_search_latest"
+                    style="display: none;">
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                         <i class="fas fa-question-circle mr-2"></i>
-                        <span class="italic">What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                        <span class="italic">What does the E-commerce industry look like right now? Identify the
+                            dominant market leaders and brands, best products and services, key companies and providers,
+                            influential figures and thought leaders, emerging startups and trends, major conferences and
+                            events, active professional communities, and the top publications and media that cover this
+                            industry.</span>
                     </p>
                     <div class="citation-block mb-4">
-                        <p class="citation-text">[...] iness.adobe.com/products/magento/magento-commerce.html) (Adobe: [Adobe](https://www.adobe.com/))  
-- [Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/overview/) (Salesforce: [Salesforce](https://www.salesforce.com/))  
-- [BigCommerce](https://www.bigcommerce.com/)  
-- [<mark class="brand-highlight">WooCommerce</mark>](https://<mark class="brand-highlight">woocommerce</mark>.com/) (runs on [WordPress](https://wordpress.org/))  
-- Enterprise/B2B: [SAP Commerce Cloud](https://www.sap.com/products/crm/e-commerce.html) (SAP: [SAP](https://www.sap.com/)); [commercetools](https://commercetools.com/); [VTEX](https://vtex.com/)  
-- Headless/content + comme [...]</p>
+                        <p class="citation-text">[...] iness.adobe.com/products/magento/magento-commerce.html) (Adobe:
+                            [Adobe](https://www.adobe.com/))
+                            - [Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/overview/)
+                            (Salesforce: [Salesforce](https://www.salesforce.com/))
+                            - [BigCommerce](https://www.bigcommerce.com/)
+                            - [<mark class="brand-highlight">WooCommerce</mark>](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com/) (runs on
+                            [WordPress](https://wordpress.org/))
+                            - Enterprise/B2B: [SAP Commerce Cloud](https://www.sap.com/products/crm/e-commerce.html)
+                            (SAP: [SAP](https://www.sap.com/)); [commercetools](https://commercetools.com/);
+                            [VTEX](https://vtex.com/)
+                            - Headless/content + comme [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'openai_chatgpt_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'openai_chatgpt_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
                     <div class="citation-block mb-4">
-                        <p class="citation-text">[...] organizer: [WBR](https://wbresearch.com/))  
-- Platform ecosystem events: [Adobe Summit](https://business.adobe.com/summit/adobe-summit.html) ([Adobe](https://www.adobe.com/))  
+                        <p class="citation-text">[...] organizer: [WBR](https://wbresearch.com/))
+                            - Platform ecosystem events: [Adobe
+                            Summit](https://business.adobe.com/summit/adobe-summit.html)
+                            ([Adobe](https://www.adobe.com/))
 
----
+                            ---
 
-## Active professional communities (practitioner-heavy)
-- [Shopify Community](https://community.shopify.com/)  
-- [<mark class="brand-highlight">WooCommerce</mark> Community](https://<mark class="brand-highlight">woocommerce</mark>.com/community/)  
-- [r/ecommerce (Reddit)](https://www.reddit.com/r/ecommerce/) (Reddit: [Reddit](https://www.reddit.com/))  
-- [eCommerceFuel](https://www.ecommercefuel.com/) (paid community for store owners)
+                            ## Active professional communities (practitioner-heavy)
+                            - [Shopify Community](https://community.shopify.com/)
+                            - [<mark class="brand-highlight">WooCommerce</mark> Community](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com/community/)
+                            - [r/ecommerce (Reddit)](https://www.reddit.com/r/ecommerce/) (Reddit:
+                            [Reddit](https://www.reddit.com/))
+                            - [eCommerceFuel](https://www.ecommercefuel.com/) (paid community for store owners)
 
----
+                            ---
 
-## Top publications &amp; media covering e-commerce/reta [...]</p>
+                            ## Top publications &amp; media covering e-commerce/reta [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'openai_chatgpt_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'openai_chatgpt_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
                 </div>
-                <div class="excerpt-tab-content" data-tab-content="google_gemini_with_search_latest" style="display: none;">
+                <div class="excerpt-tab-content" data-tab-content="google_gemini_with_search_latest"
+                    style="display: none;">
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                         <i class="fas fa-question-circle mr-2"></i>
-                        <span class="italic">What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                        <span class="italic">What does the E-commerce industry look like right now? Identify the
+                            dominant market leaders and brands, best products and services, key companies and providers,
+                            influential figures and thought leaders, emerging startups and trends, major conferences and
+                            events, active professional communities, and the top publications and media that cover this
+                            industry.</span>
                     </p>
                     <div class="citation-block mb-4">
                         <p class="citation-text">[...] ### 2. Best Products and services (Software &amp; Logistics)
-To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
+                            To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
 
-*   **E-commerce Platforms**: [BigCommerce](https://www.bigcommerce.com), [Adobe Commerce (Magento)](https://business.adobe.com/products/magento/magento-commerce.html), and [<mark class="brand-highlight">WooCommerce</mark>](https://<mark class="brand-highlight">woocommerce</mark>.com).
-*   **Marketing &amp; CRM**: [Klaviyo](https://www.klaviyo.com) for email/SMS and [Attentive](https://www.attentive.com).
-*   **Shipping &amp; Logistics**: [ShipStation](https://www.shipstation.com) for management and [Flexport](https://www.flexport.com) for global supply chain. [...]</p>
+                            * **E-commerce Platforms**: [BigCommerce](https://www.bigcommerce.com), [Adobe Commerce
+                            (Magento)](https://business.adobe.com/products/magento/magento-commerce.html), and [<mark
+                                class="brand-highlight">WooCommerce</mark>](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com).
+                            * **Marketing &amp; CRM**: [Klaviyo](https://www.klaviyo.com) for email/SMS and
+                            [Attentive](https://www.attentive.com).
+                            * **Shipping &amp; Logistics**: [ShipStation](https://www.shipstation.com) for management
+                            and [Flexport](https://www.flexport.com) for global supply chain. [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Google Gemini Flash (latest)', 'https://www.google.com/s2/favicons?domain=gemini.google.com&amp;sz=32', 'icon_bot_unknown', 'G', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'google_gemini_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Google Gemini Flash (latest)', 'https://www.google.com/s2/favicons?domain=gemini.google.com&amp;sz=32', 'icon_bot_unknown', 'G', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'google_gemini_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
@@ -1482,44 +1715,59 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
                 <div class="excerpt-tab-content" data-tab-content="x_ai_grok_with_search_latest" style="display: none;">
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                         <i class="fas fa-question-circle mr-2"></i>
-                        <span class="italic">What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                        <span class="italic">What does the E-commerce industry look like right now? Identify the
+                            dominant market leaders and brands, best products and services, key companies and providers,
+                            influential figures and thought leaders, emerging startups and trends, major conferences and
+                            events, active professional communities, and the top publications and media that cover this
+                            industry.</span>
                     </p>
                     <div class="citation-block mb-4">
-                        <p class="citation-text">[...] rlo (Shopify): Top E-Commerce Categories 2024](https://www.oberlo.com/statistics/top-ecommerce-categories); [Statista: E-Commerce by Category](https://www.statista.com/outlook/emo/ecommerce/worldwide)  
+                        <p class="citation-text">[...] rlo (Shopify): Top E-Commerce Categories
+                            2024](https://www.oberlo.com/statistics/top-ecommerce-categories); [Statista: E-Commerce by
+                            Category](https://www.statista.com/outlook/emo/ecommerce/worldwide)
 
-**Top Services** (rated by G2 user reviews and adoption):  
-- Platforms: Shopify (4.5/5 on G2), <mark class="brand-highlight">WooCommerce</mark> (free/open-source).  
-- Payments: Stripe (4.7/5), PayPal.  
-- Marketing/Email: Klaviyo (4.7/5).  
-- Logistics: ShipBob (4.6/5).  
-**Review Sources**: [G2: E-Commerce Platforms Grid Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment Management](https://www.g2.com/categories/paym [...]</p>
+                            **Top Services** (rated by G2 user reviews and adoption):
+                            - Platforms: Shopify (4.5/5 on G2), <mark class="brand-highlight">WooCommerce</mark>
+                            (free/open-source).
+                            - Payments: Stripe (4.7/5), PayPal.
+                            - Marketing/Email: Klaviyo (4.7/5).
+                            - Logistics: ShipBob (4.6/5).
+                            **Review Sources**: [G2: E-Commerce Platforms Grid
+                            Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment
+                            Management](https://www.g2.com/categories/paym [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'X.AI Grok (latest)', 'https://www.google.com/s2/favicons?domain=x.ai&amp;sz=32', 'icon_bot_unknown', 'X', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'x_ai_grok_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'X.AI Grok (latest)', 'https://www.google.com/s2/favicons?domain=x.ai&amp;sz=32', 'icon_bot_unknown', 'X', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'x_ai_grok_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
                     <div class="citation-block mb-4">
-                        <p class="citation-text">[...] Stripe (4.7/5), PayPal.  
-- Marketing/Email: Klaviyo (4.7/5).  
-- Logistics: ShipBob (4.6/5).  
-**Review Sources**: [G2: E-Commerce Platforms Grid Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment Management](https://www.g2.com/categories/payment-management)  
-**Links**:  
-- [<mark class="brand-highlight">WooCommerce</mark>](https://<mark class="brand-highlight">woocommerce</mark>.com)  
-- [Stripe](https://stripe.com)  
-- [PayPal](https://www.paypal.com)  
-- [Klaviyo](https://www.klaviyo.com)  
-- [ShipBob](https://www.shipbob.com)
+                        <p class="citation-text">[...] Stripe (4.7/5), PayPal.
+                            - Marketing/Email: Klaviyo (4.7/5).
+                            - Logistics: ShipBob (4.6/5).
+                            **Review Sources**: [G2: E-Commerce Platforms Grid
+                            Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment
+                            Management](https://www.g2.com/categories/payment-management)
+                            **Links**:
+                            - [<mark class="brand-highlight">WooCommerce</mark>](https://<mark
+                                class="brand-highlight">woocommerce</mark>.com)
+                            - [Stripe](https://stripe.com)
+                            - [PayPal](https://www.paypal.com)
+                            - [Klaviyo](https://www.klaviyo.com)
+                            - [ShipBob](https://www.shipbob.com)
 
-### Key Companies and Providers
-- **Platforms**: BigCommerce [bigcommerce.com](https://www.bigcommerce.com), Adobe Commerce [...]</p>
+                            ### Key Companies and Providers
+                            - **Platforms**: BigCommerce [bigcommerce.com](https://www.bigcommerce.com), Adobe Commerce
+                            [...]</p>
                         <p class="citation-meta">
                             <i class="fas fa-calendar mr-1"></i> December 30, 2025
                         </p>
-                        <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'X.AI Grok (latest)', 'https://www.google.com/s2/favicons?domain=x.ai&amp;sz=32', 'icon_bot_unknown', 'X', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'x_ai_grok_with_search_latest'))">
+                        <button
+                            class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                            onclick="openAnswerModal('What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'X.AI Grok (latest)', 'https://www.google.com/s2/favicons?domain=x.ai&amp;sz=32', 'icon_bot_unknown', 'X', 'December 30, 2025', window.getFullAnswerText('3-what-does-the-ecommerce--db358168', 'x_ai_grok_with_search_latest'))">
                             <i class="fas fa-expand"></i> View Full Answer
                         </button>
                     </div>
@@ -1530,62 +1778,84 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
         <!-- FAQ Section (SEO) -->
         <div class="container mx-auto px-4 py-4">
 
-        <section class="faq-section bg-gray-50 dark:bg-gray-800/50 rounded-lg p-6 mb-6">
-            <h2 class="text-lg font-bold mb-4 text-gray-900 dark:text-white">
-                <i class="fas fa-question-circle mr-2"></i>Frequently Asked Questions
-            </h2>
-            <div class="space-y-2">
+            <section class="faq-section bg-gray-50 dark:bg-gray-800/50 rounded-lg p-6 mb-6">
+                <h2 class="text-lg font-bold mb-4 text-gray-900 dark:text-white">
+                    <i class="fas fa-question-circle mr-2"></i>Frequently Asked Questions
+                </h2>
+                <div class="space-y-2">
 
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    How many times was WooCommerce mentioned by AI?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    WooCommerce was mentioned 6 times across all AI models analyzed, representing 6.5% of total mentions.
+                    <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                        <summary
+                            class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                            How many times was WooCommerce mentioned by AI?
+                        </summary>
+                        <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                            WooCommerce was mentioned 6 times across all AI models analyzed, representing 6.5% of total
+                            mentions.
+                        </div>
+                    </details>
+                    <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                        <summary
+                            class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                            Which AI models mention WooCommerce?
+                        </summary>
+                        <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                            WooCommerce is mentioned by 4 AI models including Perplexity Sonar (with search) (latest),
+                            Anthropic Claude Sonnet (latest), OpenAI ChatGPT Latest, Google Gemini Flash (latest), X.AI
+                            Grok (latest).
+                        </div>
+                    </details>
+                    <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                        <summary
+                            class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                            In which questions is WooCommerce mentioned?
+                        </summary>
+                        <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                            WooCommerce appears in 1 question:<ol class="list-decimal list-inside mt-2 space-y-1">
+                                <li>"What does the E-commerce industry look like right now? Identify the dominant market
+                                    leaders and brands, best products and services, key companies and providers,
+                                    influential figures and thought leaders, emerging startups and trends, major
+                                    conferences and events, active professional communities, and the top publications
+                                    and media that cover this industry." <a
+                                        href="../3-what-does-the-ecommerce--db358168/index.html"
+                                        class="text-indigo-600 hover:underline">(view report)</a></li>
+                            </ol>
+                        </div>
+                    </details>
+                    <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                        <summary
+                            class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                            What is WooCommerce's ranking among mentioned brands?
+                        </summary>
+                        <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                            WooCommerce ranks #9 out of 39 brands analyzed (with 192 web sources also tracked), with a
+                            6.5% share of voice.
+                        </div>
+                    </details>
+                    <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                        <summary
+                            class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                            What type of entity is WooCommerce?
+                        </summary>
+                        <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                            WooCommerce is classified as a product.
+                        </div>
+                    </details>
+                    <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                        <summary
+                            class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                            How is Share of Voice calculated?
+                        </summary>
+                        <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                            Share of Voice = Model Coverage × Quality Score. Model weights are based on Monthly Active
+                            Users (OpenAI ChatGPT Latest: 900M MAU, Google Gemini Flash (latest): 650M MAU, Perplexity
+                            Sonar (with search) (latest): 45M MAU, etc.). Position in results matters - earlier mentions
+                            receive higher prominence scores using the formula: Prominence = Mentions × (1 /
+                            log₂(Position + 1)).
+                        </div>
+                    </details>
                 </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    Which AI models mention WooCommerce?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    WooCommerce is mentioned by 4 AI models including Perplexity Sonar (with search) (latest), Anthropic Claude Sonnet (latest), OpenAI ChatGPT Latest, Google Gemini Flash (latest), X.AI Grok (latest).
-                </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    In which questions is WooCommerce mentioned?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    WooCommerce appears in 1 question:<ol class="list-decimal list-inside mt-2 space-y-1"><li>"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry." <a href="../3-what-does-the-ecommerce--db358168/index.html" class="text-indigo-600 hover:underline">(view report)</a></li></ol>
-                </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    What is WooCommerce's ranking among mentioned brands?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    WooCommerce ranks #9 out of 39 brands analyzed (with 192 web sources also tracked), with a 6.5% share of voice.
-                </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    What type of entity is WooCommerce?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    WooCommerce is classified as a product.
-                </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    How is Share of Voice calculated?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    Share of Voice = Model Coverage × Quality Score. Model weights are based on Monthly Active Users (OpenAI ChatGPT Latest: 900M MAU, Google Gemini Flash (latest): 650M MAU, Perplexity Sonar (with search) (latest): 45M MAU, etc.). Position in results matters - earlier mentions receive higher prominence scores using the formula: Prominence = Mentions × (1 / log₂(Position + 1)).
-                </div>
-            </details>
-            </div>
-        </section>
+            </section>
         </div>
 
         <!-- Static Footer -->
@@ -1598,7 +1868,7 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
                         <p class="text-sm text-gray-600">Know What AI Tells Your Customers</p>
                     </div>
                     <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=footer&utm_campaign=e-commerce"
-                       class="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-white font-semibold bg-indigo-600 hover:bg-indigo-700 shadow-lg">
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-white font-semibold bg-indigo-600 hover:bg-indigo-700 shadow-lg">
                         <i class="fas fa-rocket"></i> Track Your AI Visibility
                     </a>
                 </div>
@@ -1607,7 +1877,8 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
                 <div class="pt-6 border-t border-gray-200">
                     <p class="text-sm text-gray-600">
                         &copy; 2024
-                        <a href="https://aichatwatch.com?utm_source=public_reports&utm_campaign=e-commerce" class="hover:text-indigo-600">AIChatWatch.com</a>. All rights reserved.
+                        <a href="https://aichatwatch.com?utm_source=public_reports&utm_campaign=e-commerce"
+                            class="hover:text-indigo-600">AIChatWatch.com</a>. All rights reserved.
                     </p>
                     <p class="text-xs text-gray-500 mt-1">
                         Report Date: 2025-12-30 | Engine v1.1.6
@@ -1616,16 +1887,45 @@ To operate in e-commerce, brands rely on specialized &quot;Tech Stacks.&quot;
 
                 <!-- Disclaimer -->
                 <p class="text-xs text-gray-500 mt-6 leading-relaxed max-w-4xl">
-                    DISCLAIMER: Intellectual Property Notice: All organizations and company names, trademarks, registered trademarks, service marks, logos, brand names, trade dress, and other intellectual property displayed in this report remain the sole property of their respective owners. Use of these marks does not imply any affiliation with, sponsorship by, or endorsement from the trademark holders. Any references to third-party trademarks are made solely for identification and informational purposes.
-No Endorsement: The inclusion of any third-party content, data, links, references, or mentions in this report does not constitute, and should not be construed as, an endorsement, recommendation, or approval by AIChatWatch.com of any product, service, company, organization, or viewpoint. Similarly, the absence of any entity from this report should not be interpreted as a negative assessment.
-Accuracy and Reliability: AIChatWatch.com makes no representations, warranties, or guarantees—express or implied—regarding the accuracy, completeness, reliability, timeliness, or suitability of any information contained in this report. The data presented herein is derived from automated analysis of artificial intelligence systems and publicly available sources, which may contain errors, omissions, or inaccuracies. AI-generated content and responses are subject to change without notice and may vary based on numerous factors beyond our control.
-Limitation of Liability: To the fullest extent permitted by applicable law, AIChatWatch.com, its affiliates, officers, directors, employees, agents, and licensors shall not be liable for any direct, indirect, incidental, special, consequential, punitive, or exemplary damages arising from or related to the use of, reliance upon, or inability to use any information contained in this report, even if advised of the possibility of such damages.
-No Professional Advice: The information provided in this report is for general informational and research purposes only and does not constitute legal, financial, business, marketing, or other professional advice. Users should consult qualified professionals before making any decisions based on the information contained herein.
-Third-Party Data Sources: This report may contain information obtained from or generated by third-party artificial intelligence platforms and other external sources. AIChatWatch.com does not control, verify, or guarantee the content produced by such third parties and assumes no responsibility for their accuracy, policies, or practices.
-Fair Use and Research Purpose: This report is provided for informational, research, and analytical purposes. Any data or analysis presented is intended to provide market insights and should not be used as the sole basis for business, investment, or strategic decisions.
-Modifications: Information in this report reflects data available at the time of generation. AIChatWatch.com reserves the right to modify, update, or discontinue any aspect of its reporting without prior notice.
-Governing Law: This disclaimer shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles.
-By accessing or using this report, you acknowledge that you have read, understood, and agree to be bound by this disclaimer.
+                    DISCLAIMER: Intellectual Property Notice: All organizations and company names, trademarks,
+                    registered trademarks, service marks, logos, brand names, trade dress, and other intellectual
+                    property displayed in this report remain the sole property of their respective owners. Use of these
+                    marks does not imply any affiliation with, sponsorship by, or endorsement from the trademark
+                    holders. Any references to third-party trademarks are made solely for identification and
+                    informational purposes.
+                    No Endorsement: The inclusion of any third-party content, data, links, references, or mentions in
+                    this report does not constitute, and should not be construed as, an endorsement, recommendation, or
+                    approval by AIChatWatch.com of any product, service, company, organization, or viewpoint. Similarly,
+                    the absence of any entity from this report should not be interpreted as a negative assessment.
+                    Accuracy and Reliability: AIChatWatch.com makes no representations, warranties, or
+                    guarantees—express or implied—regarding the accuracy, completeness, reliability, timeliness, or
+                    suitability of any information contained in this report. The data presented herein is derived from
+                    automated analysis of artificial intelligence systems and publicly available sources, which may
+                    contain errors, omissions, or inaccuracies. AI-generated content and responses are subject to change
+                    without notice and may vary based on numerous factors beyond our control.
+                    Limitation of Liability: To the fullest extent permitted by applicable law, AIChatWatch.com, its
+                    affiliates, officers, directors, employees, agents, and licensors shall not be liable for any
+                    direct, indirect, incidental, special, consequential, punitive, or exemplary damages arising from or
+                    related to the use of, reliance upon, or inability to use any information contained in this report,
+                    even if advised of the possibility of such damages.
+                    No Professional Advice: The information provided in this report is for general informational and
+                    research purposes only and does not constitute legal, financial, business, marketing, or other
+                    professional advice. Users should consult qualified professionals before making any decisions based
+                    on the information contained herein.
+                    Third-Party Data Sources: This report may contain information obtained from or generated by
+                    third-party artificial intelligence platforms and other external sources. AIChatWatch.com does not
+                    control, verify, or guarantee the content produced by such third parties and assumes no
+                    responsibility for their accuracy, policies, or practices.
+                    Fair Use and Research Purpose: This report is provided for informational, research, and analytical
+                    purposes. Any data or analysis presented is intended to provide market insights and should not be
+                    used as the sole basis for business, investment, or strategic decisions.
+                    Modifications: Information in this report reflects data available at the time of generation.
+                    AIChatWatch.com reserves the right to modify, update, or discontinue any aspect of its reporting
+                    without prior notice.
+                    Governing Law: This disclaimer shall be governed by and construed in accordance with applicable
+                    laws, without regard to conflicts of law principles.
+                    By accessing or using this report, you acknowledge that you have read, understood, and agree to be
+                    bound by this disclaimer.
                 </p>
             </div>
         </footer>
@@ -1633,17 +1933,17 @@ By accessing or using this report, you acknowledge that you have read, understoo
 
     <!-- Embedded Entity Data -->
     <script>
-        window.EntityData = {"value":"WooCommerce","type":"product","sources":[{"url":"woocommerce.com","bots":"anthropic_claude_with_search_latest,google_gemini_with_search_latest,openai_chatgpt_with_search_latest,x_ai_grok_with_search_latest","dates":["2025-12-30"]},{"url":"wordpress.org","bots":"openai_chatgpt_with_search_latest","dates":["2025-12-30"]},{"url":"woocommerce.com/community","bots":"openai_chatgpt_with_search_latest","dates":["2025-12-30"]},{"url":"g2.com/compare/shopify-vs-bigcommerce-vs-woocommerce-grid-report","bots":"x_ai_grok_with_search_latest","dates":["2025-12-30"]}],"mentionsByModel":{"perplexity_with_search_latest":0,"anthropic_claude_with_search_latest":1,"openai_chatgpt_with_search_latest":2,"google_gemini_with_search_latest":1,"x_ai_grok_with_search_latest":2},"firstAppearanceOrderCharByModel":{"perplexity_with_search_latest":-1,"anthropic_claude_with_search_latest":1972,"openai_chatgpt_with_search_latest":2380,"google_gemini_with_search_latest":1419,"x_ai_grok_with_search_latest":2404},"excerptsByModel":{"anthropic_claude_with_search_latest":[{"appearanceOrder":1972,"excerpt":"](https://www.farfetch.com)** - Luxury fashion marketplace\n\n## Best E-commerce Platforms & Services\n\n### Platform Solutions\n- **[Shopify](https://www.shopify.com)** - Best for SMBs and direct-to-consumer brands\n- **[BigCommerce](https://www.bigcommerce.com)** - Enterprise-focused SaaS platform\n- **[WooCommerce](https://woocommerce.com)** - WordPress-based solution\n- **[Magento/Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)** - Enterprise-level customization\n- **[Wix eCommerce](https://www.wix.com/ecommerce/website)** - User-friendly for beginners\n- **[Squarespace Comme","line":32,"column":6,"captureDate":"2025-12-30","promptId":"3-what-does-the-ecommerce--db358168","question":"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."}],"google_gemini_with_search_latest":[{"appearanceOrder":1419,"excerpt":"### 2. Best Products and services (Software & Logistics)\nTo operate in e-commerce, brands rely on specialized \"Tech Stacks.\"\n\n*   **E-commerce Platforms**: [BigCommerce](https://www.bigcommerce.com), [Adobe Commerce (Magento)](https://business.adobe.com/products/magento/magento-commerce.html), and [WooCommerce](https://woocommerce.com).\n*   **Marketing & CRM**: [Klaviyo](https://www.klaviyo.com) for email/SMS and [Attentive](https://www.attentive.com).\n*   **Shipping & Logistics**: [ShipStation](https://www.shipstation.com) for management and [Flexport](https://www.flexport.com) for global supply chain.","line":15,"column":175,"captureDate":"2025-12-30","promptId":"3-what-does-the-ecommerce--db358168","question":"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."}],"openai_chatgpt_with_search_latest":[{"appearanceOrder":2380,"excerpt":"iness.adobe.com/products/magento/magento-commerce.html) (Adobe: [Adobe](https://www.adobe.com/))  \n- [Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/overview/) (Salesforce: [Salesforce](https://www.salesforce.com/))  \n- [BigCommerce](https://www.bigcommerce.com/)  \n- [WooCommerce](https://woocommerce.com/) (runs on [WordPress](https://wordpress.org/))  \n- Enterprise/B2B: [SAP Commerce Cloud](https://www.sap.com/products/crm/e-commerce.html) (SAP: [SAP](https://www.sap.com/)); [commercetools](https://commercetools.com/); [VTEX](https://vtex.com/)  \n- Headless/content + comme","line":37,"column":4,"captureDate":"2025-12-30","promptId":"3-what-does-the-ecommerce--db358168","question":"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."},{"appearanceOrder":8707,"excerpt":"organizer: [WBR](https://wbresearch.com/))  \n- Platform ecosystem events: [Adobe Summit](https://business.adobe.com/summit/adobe-summit.html) ([Adobe](https://www.adobe.com/))  \n\n---\n\n## Active professional communities (practitioner-heavy)\n- [Shopify Community](https://community.shopify.com/)  \n- [WooCommerce Community](https://woocommerce.com/community/)  \n- [r/ecommerce (Reddit)](https://www.reddit.com/r/ecommerce/) (Reddit: [Reddit](https://www.reddit.com/))  \n- [eCommerceFuel](https://www.ecommercefuel.com/) (paid community for store owners)\n\n---\n\n## Top publications & media covering e-commerce/reta","line":122,"column":4,"captureDate":"2025-12-30","promptId":"3-what-does-the-ecommerce--db358168","question":"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."}],"perplexity_with_search_latest":[],"x_ai_grok_with_search_latest":[{"appearanceOrder":2404,"excerpt":"rlo (Shopify): Top E-Commerce Categories 2024](https://www.oberlo.com/statistics/top-ecommerce-categories); [Statista: E-Commerce by Category](https://www.statista.com/outlook/emo/ecommerce/worldwide)  \n\n**Top Services** (rated by G2 user reviews and adoption):  \n- Platforms: Shopify (4.5/5 on G2), WooCommerce (free/open-source).  \n- Payments: Stripe (4.7/5), PayPal.  \n- Marketing/Email: Klaviyo (4.7/5).  \n- Logistics: ShipBob (4.6/5).  \n**Review Sources**: [G2: E-Commerce Platforms Grid Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment Management](https://www.g2.com/categories/paym","line":31,"column":37,"captureDate":"2025-12-30","promptId":"3-what-does-the-ecommerce--db358168","question":"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."},{"appearanceOrder":2749,"excerpt":"Stripe (4.7/5), PayPal.  \n- Marketing/Email: Klaviyo (4.7/5).  \n- Logistics: ShipBob (4.6/5).  \n**Review Sources**: [G2: E-Commerce Platforms Grid Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment Management](https://www.g2.com/categories/payment-management)  \n**Links**:  \n- [WooCommerce](https://woocommerce.com)  \n- [Stripe](https://stripe.com)  \n- [PayPal](https://www.paypal.com)  \n- [Klaviyo](https://www.klaviyo.com)  \n- [ShipBob](https://www.shipbob.com)\n\n### Key Companies and Providers\n- **Platforms**: BigCommerce [bigcommerce.com](https://www.bigcommerce.com), Adobe Commerce","line":37,"column":4,"captureDate":"2025-12-30","promptId":"3-what-does-the-ecommerce--db358168","question":"What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."}]},"mentions":6,"bots":"anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest,google_gemini_with_search_latest,x_ai_grok_with_search_latest","botCount":4,"uniqueModelCount":4,"mentionsAsPercent":0.0283,"mentionsAsPercentByModel":{"perplexity_with_search_latest":0,"anthropic_claude_with_search_latest":0.01695,"openai_chatgpt_with_search_latest":0.04651,"google_gemini_with_search_latest":0.04545,"x_ai_grok_with_search_latest":0.04545},"appearanceOrderByModel":{"anthropic_claude_with_search_latest":15,"openai_chatgpt_with_search_latest":9,"google_gemini_with_search_latest":7,"x_ai_grok_with_search_latest":7},"appearanceOrder":8.26,"influence":0.0651,"influenceByModel":{"perplexity_with_search_latest":0,"anthropic_claude_with_search_latest":0.00016,"openai_chatgpt_with_search_latest":0.01176,"google_gemini_with_search_latest":0.0047,"x_ai_grok_with_search_latest":0.00056},"weightedInfluence":0.0651,"mentionsTrendVals":[{"date":"2025-12-30","value":6}],"influenceTrendVals":[{"date":"2025-12-30","value":0.0651}],"appearanceOrderTrendVals":[{"date":"2025-12-30","value":8.26}],"uniqueModelCountTrendVals":[{"date":"2025-12-30","value":4}],"mentionsTrend":999,"influenceTrend":999,"appearanceOrderTrend":999,"uniqueModelCountTrend":999,"mentionsByModelTrend":{"perplexity_with_search_latest":-9999,"anthropic_claude_with_search_latest":999,"openai_chatgpt_with_search_latest":999,"google_gemini_with_search_latest":999,"x_ai_grok_with_search_latest":999},"mentionsByModelTrendVals":{"perplexity_with_search_latest":[{"date":"2025-12-30","value":0}],"anthropic_claude_with_search_latest":[{"date":"2025-12-30","value":1}],"openai_chatgpt_with_search_latest":[{"date":"2025-12-30","value":2}],"google_gemini_with_search_latest":[{"date":"2025-12-30","value":1}],"x_ai_grok_with_search_latest":[{"date":"2025-12-30","value":2}]},"influenceByModelTrend":{"perplexity_with_search_latest":-9999,"anthropic_claude_with_search_latest":999,"openai_chatgpt_with_search_latest":999,"google_gemini_with_search_latest":999,"x_ai_grok_with_search_latest":999},"influenceByModelTrendVals":{"perplexity_with_search_latest":[{"date":"2025-12-30","value":0}],"anthropic_claude_with_search_latest":[{"date":"2025-12-30","value":0.00016}],"openai_chatgpt_with_search_latest":[{"date":"2025-12-30","value":0.01176}],"google_gemini_with_search_latest":[{"date":"2025-12-30","value":0.0047}],"x_ai_grok_with_search_latest":[{"date":"2025-12-30","value":0.00056}]},"appearanceOrderByModelTrend":{"perplexity_with_search_latest":-9999,"anthropic_claude_with_search_latest":10,"openai_chatgpt_with_search_latest":10,"google_gemini_with_search_latest":10,"x_ai_grok_with_search_latest":10},"appearanceOrderByModelTrendVals":{"perplexity_with_search_latest":[{"date":"2025-12-30","value":-1}],"anthropic_claude_with_search_latest":[{"date":"2025-12-30","value":15}],"openai_chatgpt_with_search_latest":[{"date":"2025-12-30","value":9}],"google_gemini_with_search_latest":[{"date":"2025-12-30","value":7}],"x_ai_grok_with_search_latest":[{"date":"2025-12-30","value":7}]},"previous_mentions":0,"mentions_change":6,"changePercent":100,"mentionsHistory":[{"date":"2025-12-30","mentions":6}],"lastSeen":"2025-12-30","firstSeen":"2025-12-30","volatility":0,"link":"https://woocommerce.com","rank":9};
-        window.BotsData = [{"id":"perplexity_with_search_latest","name":"Perplexity Sonar (with search) (latest)","url":"https://perplexity.ai","estimated_mau":45000000},{"id":"anthropic_claude_with_search_latest","name":"Anthropic Claude Sonnet (latest)","url":"https://anthropic.com","estimated_mau":30000000},{"id":"openai_chatgpt_with_search_latest","name":"OpenAI ChatGPT Latest","url":"https://platform.openai.com/docs/models/gpt-5.2","estimated_mau":900000000},{"id":"google_gemini_with_search_latest","name":"Google Gemini Flash (latest)","url":"https://gemini.google.com","estimated_mau":650000000},{"id":"x_ai_grok_with_search_latest","name":"X.AI Grok (latest)","url":"https://x.ai","estimated_mau":39000000}];
-        window.ReportMeta = {"projectName":"E-commerce","questionId":"3-what-does-the-ecommerce--db358168","reportDate":"2025-12-30"};
+        window.EntityData = { "value": "WooCommerce", "type": "product", "sources": [{ "url": "woocommerce.com", "bots": "anthropic_claude_with_search_latest,google_gemini_with_search_latest,openai_chatgpt_with_search_latest,x_ai_grok_with_search_latest", "dates": ["2025-12-30"] }, { "url": "wordpress.org", "bots": "openai_chatgpt_with_search_latest", "dates": ["2025-12-30"] }, { "url": "woocommerce.com/community", "bots": "openai_chatgpt_with_search_latest", "dates": ["2025-12-30"] }, { "url": "g2.com/compare/shopify-vs-bigcommerce-vs-woocommerce-grid-report", "bots": "x_ai_grok_with_search_latest", "dates": ["2025-12-30"] }], "mentionsByModel": { "perplexity_with_search_latest": 0, "anthropic_claude_with_search_latest": 1, "openai_chatgpt_with_search_latest": 2, "google_gemini_with_search_latest": 1, "x_ai_grok_with_search_latest": 2 }, "firstAppearanceOrderCharByModel": { "perplexity_with_search_latest": -1, "anthropic_claude_with_search_latest": 1972, "openai_chatgpt_with_search_latest": 2380, "google_gemini_with_search_latest": 1419, "x_ai_grok_with_search_latest": 2404 }, "excerptsByModel": { "anthropic_claude_with_search_latest": [{ "appearanceOrder": 1972, "excerpt": "](https://www.farfetch.com)** - Luxury fashion marketplace\n\n## Best E-commerce Platforms & Services\n\n### Platform Solutions\n- **[Shopify](https://www.shopify.com)** - Best for SMBs and direct-to-consumer brands\n- **[BigCommerce](https://www.bigcommerce.com)** - Enterprise-focused SaaS platform\n- **[WooCommerce](https://woocommerce.com)** - WordPress-based solution\n- **[Magento/Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)** - Enterprise-level customization\n- **[Wix eCommerce](https://www.wix.com/ecommerce/website)** - User-friendly for beginners\n- **[Squarespace Comme", "line": 32, "column": 6, "captureDate": "2025-12-30", "promptId": "3-what-does-the-ecommerce--db358168", "question": "What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry." }], "google_gemini_with_search_latest": [{ "appearanceOrder": 1419, "excerpt": "### 2. Best Products and services (Software & Logistics)\nTo operate in e-commerce, brands rely on specialized \"Tech Stacks.\"\n\n*   **E-commerce Platforms**: [BigCommerce](https://www.bigcommerce.com), [Adobe Commerce (Magento)](https://business.adobe.com/products/magento/magento-commerce.html), and [WooCommerce](https://woocommerce.com).\n*   **Marketing & CRM**: [Klaviyo](https://www.klaviyo.com) for email/SMS and [Attentive](https://www.attentive.com).\n*   **Shipping & Logistics**: [ShipStation](https://www.shipstation.com) for management and [Flexport](https://www.flexport.com) for global supply chain.", "line": 15, "column": 175, "captureDate": "2025-12-30", "promptId": "3-what-does-the-ecommerce--db358168", "question": "What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry." }], "openai_chatgpt_with_search_latest": [{ "appearanceOrder": 2380, "excerpt": "iness.adobe.com/products/magento/magento-commerce.html) (Adobe: [Adobe](https://www.adobe.com/))  \n- [Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/overview/) (Salesforce: [Salesforce](https://www.salesforce.com/))  \n- [BigCommerce](https://www.bigcommerce.com/)  \n- [WooCommerce](https://woocommerce.com/) (runs on [WordPress](https://wordpress.org/))  \n- Enterprise/B2B: [SAP Commerce Cloud](https://www.sap.com/products/crm/e-commerce.html) (SAP: [SAP](https://www.sap.com/)); [commercetools](https://commercetools.com/); [VTEX](https://vtex.com/)  \n- Headless/content + comme", "line": 37, "column": 4, "captureDate": "2025-12-30", "promptId": "3-what-does-the-ecommerce--db358168", "question": "What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry." }, { "appearanceOrder": 8707, "excerpt": "organizer: [WBR](https://wbresearch.com/))  \n- Platform ecosystem events: [Adobe Summit](https://business.adobe.com/summit/adobe-summit.html) ([Adobe](https://www.adobe.com/))  \n\n---\n\n## Active professional communities (practitioner-heavy)\n- [Shopify Community](https://community.shopify.com/)  \n- [WooCommerce Community](https://woocommerce.com/community/)  \n- [r/ecommerce (Reddit)](https://www.reddit.com/r/ecommerce/) (Reddit: [Reddit](https://www.reddit.com/))  \n- [eCommerceFuel](https://www.ecommercefuel.com/) (paid community for store owners)\n\n---\n\n## Top publications & media covering e-commerce/reta", "line": 122, "column": 4, "captureDate": "2025-12-30", "promptId": "3-what-does-the-ecommerce--db358168", "question": "What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry." }], "perplexity_with_search_latest": [], "x_ai_grok_with_search_latest": [{ "appearanceOrder": 2404, "excerpt": "rlo (Shopify): Top E-Commerce Categories 2024](https://www.oberlo.com/statistics/top-ecommerce-categories); [Statista: E-Commerce by Category](https://www.statista.com/outlook/emo/ecommerce/worldwide)  \n\n**Top Services** (rated by G2 user reviews and adoption):  \n- Platforms: Shopify (4.5/5 on G2), WooCommerce (free/open-source).  \n- Payments: Stripe (4.7/5), PayPal.  \n- Marketing/Email: Klaviyo (4.7/5).  \n- Logistics: ShipBob (4.6/5).  \n**Review Sources**: [G2: E-Commerce Platforms Grid Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment Management](https://www.g2.com/categories/paym", "line": 31, "column": 37, "captureDate": "2025-12-30", "promptId": "3-what-does-the-ecommerce--db358168", "question": "What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry." }, { "appearanceOrder": 2749, "excerpt": "Stripe (4.7/5), PayPal.  \n- Marketing/Email: Klaviyo (4.7/5).  \n- Logistics: ShipBob (4.6/5).  \n**Review Sources**: [G2: E-Commerce Platforms Grid Report](https://www.g2.com/categories/ecommerce-platform); [G2: Payment Management](https://www.g2.com/categories/payment-management)  \n**Links**:  \n- [WooCommerce](https://woocommerce.com)  \n- [Stripe](https://stripe.com)  \n- [PayPal](https://www.paypal.com)  \n- [Klaviyo](https://www.klaviyo.com)  \n- [ShipBob](https://www.shipbob.com)\n\n### Key Companies and Providers\n- **Platforms**: BigCommerce [bigcommerce.com](https://www.bigcommerce.com), Adobe Commerce", "line": 37, "column": 4, "captureDate": "2025-12-30", "promptId": "3-what-does-the-ecommerce--db358168", "question": "What does the E-commerce industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry." }] }, "mentions": 6, "bots": "anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest,google_gemini_with_search_latest,x_ai_grok_with_search_latest", "botCount": 4, "uniqueModelCount": 4, "mentionsAsPercent": 0.0283, "mentionsAsPercentByModel": { "perplexity_with_search_latest": 0, "anthropic_claude_with_search_latest": 0.01695, "openai_chatgpt_with_search_latest": 0.04651, "google_gemini_with_search_latest": 0.04545, "x_ai_grok_with_search_latest": 0.04545 }, "appearanceOrderByModel": { "anthropic_claude_with_search_latest": 15, "openai_chatgpt_with_search_latest": 9, "google_gemini_with_search_latest": 7, "x_ai_grok_with_search_latest": 7 }, "appearanceOrder": 8.26, "influence": 0.0651, "influenceByModel": { "perplexity_with_search_latest": 0, "anthropic_claude_with_search_latest": 0.00016, "openai_chatgpt_with_search_latest": 0.01176, "google_gemini_with_search_latest": 0.0047, "x_ai_grok_with_search_latest": 0.00056 }, "weightedInfluence": 0.0651, "mentionsTrendVals": [{ "date": "2025-12-30", "value": 6 }], "influenceTrendVals": [{ "date": "2025-12-30", "value": 0.0651 }], "appearanceOrderTrendVals": [{ "date": "2025-12-30", "value": 8.26 }], "uniqueModelCountTrendVals": [{ "date": "2025-12-30", "value": 4 }], "mentionsTrend": 999, "influenceTrend": 999, "appearanceOrderTrend": 999, "uniqueModelCountTrend": 999, "mentionsByModelTrend": { "perplexity_with_search_latest": -9999, "anthropic_claude_with_search_latest": 999, "openai_chatgpt_with_search_latest": 999, "google_gemini_with_search_latest": 999, "x_ai_grok_with_search_latest": 999 }, "mentionsByModelTrendVals": { "perplexity_with_search_latest": [{ "date": "2025-12-30", "value": 0 }], "anthropic_claude_with_search_latest": [{ "date": "2025-12-30", "value": 1 }], "openai_chatgpt_with_search_latest": [{ "date": "2025-12-30", "value": 2 }], "google_gemini_with_search_latest": [{ "date": "2025-12-30", "value": 1 }], "x_ai_grok_with_search_latest": [{ "date": "2025-12-30", "value": 2 }] }, "influenceByModelTrend": { "perplexity_with_search_latest": -9999, "anthropic_claude_with_search_latest": 999, "openai_chatgpt_with_search_latest": 999, "google_gemini_with_search_latest": 999, "x_ai_grok_with_search_latest": 999 }, "influenceByModelTrendVals": { "perplexity_with_search_latest": [{ "date": "2025-12-30", "value": 0 }], "anthropic_claude_with_search_latest": [{ "date": "2025-12-30", "value": 0.00016 }], "openai_chatgpt_with_search_latest": [{ "date": "2025-12-30", "value": 0.01176 }], "google_gemini_with_search_latest": [{ "date": "2025-12-30", "value": 0.0047 }], "x_ai_grok_with_search_latest": [{ "date": "2025-12-30", "value": 0.00056 }] }, "appearanceOrderByModelTrend": { "perplexity_with_search_latest": -9999, "anthropic_claude_with_search_latest": 10, "openai_chatgpt_with_search_latest": 10, "google_gemini_with_search_latest": 10, "x_ai_grok_with_search_latest": 10 }, "appearanceOrderByModelTrendVals": { "perplexity_with_search_latest": [{ "date": "2025-12-30", "value": -1 }], "anthropic_claude_with_search_latest": [{ "date": "2025-12-30", "value": 15 }], "openai_chatgpt_with_search_latest": [{ "date": "2025-12-30", "value": 9 }], "google_gemini_with_search_latest": [{ "date": "2025-12-30", "value": 7 }], "x_ai_grok_with_search_latest": [{ "date": "2025-12-30", "value": 7 }] }, "previous_mentions": 0, "mentions_change": 6, "changePercent": 100, "mentionsHistory": [{ "date": "2025-12-30", "mentions": 6 }], "lastSeen": "2025-12-30", "firstSeen": "2025-12-30", "volatility": 0, "link": "https://woocommerce.com", "rank": 9 };
+        window.BotsData = [{ "id": "perplexity_with_search_latest", "name": "Perplexity Sonar (with search) (latest)", "url": "https://perplexity.ai", "estimated_mau": 45000000 }, { "id": "anthropic_claude_with_search_latest", "name": "Anthropic Claude Sonnet (latest)", "url": "https://anthropic.com", "estimated_mau": 30000000 }, { "id": "openai_chatgpt_with_search_latest", "name": "OpenAI ChatGPT Latest", "url": "https://platform.openai.com/docs/models/gpt-5.2", "estimated_mau": 900000000 }, { "id": "google_gemini_with_search_latest", "name": "Google Gemini Flash (latest)", "url": "https://gemini.google.com", "estimated_mau": 650000000 }, { "id": "x_ai_grok_with_search_latest", "name": "X.AI Grok (latest)", "url": "https://x.ai", "estimated_mau": 39000000 }];
+        window.ReportMeta = { "projectName": "E-commerce", "questionId": "3-what-does-the-ecommerce--db358168", "reportDate": "2025-12-30" };
     </script>
 
     <!-- Load answers data for full answer expansion -->
     <script>
-        (function() {
+        (function () {
             var script = document.createElement('script');
             script.src = '../2025-12-30-answers.js';
-            script.onload = function() {
+            script.onload = function () {
                 var answers = window['answers20251230'];
                 if (window.entityApp) {
                     window.entityApp.fullAnswers = answers;
@@ -1651,7 +1951,7 @@ By accessing or using this report, you acknowledge that you have read, understoo
                     window.fullAnswers = answers;
                 }
             };
-            script.onerror = function() {
+            script.onerror = function () {
                 console.log('Answers file not available - full answer expansion disabled');
             };
             document.head.appendChild(script);
@@ -1734,7 +2034,7 @@ By accessing or using this report, you acknowledge that you have read, understoo
             document.body.style.overflow = '';
         }
         // Helper to get full answer text
-        window.getFullAnswerText = function(promptId, modelId) {
+        window.getFullAnswerText = function (promptId, modelId) {
             var date = window.ReportMeta && window.ReportMeta.reportDate;
             var answers = window.fullAnswers || (date && window['answers' + date.replace(/-/g, '')]);
             if (!answers || !promptId || !date) return 'Answer not available';
@@ -1746,21 +2046,16 @@ By accessing or using this report, you acknowledge that you have read, understoo
             return byModel && byModel.text ? byModel.text : 'Answer not available';
         };
         // Close modals on escape key
-        document.addEventListener('keydown', function(e) {
+        document.addEventListener('keydown', function (e) {
             if (e.key === 'Escape') {
                 closeQuestionsModal();
                 closeAnswerModal();
             }
         });
     </script>
-<!--AICW-->
-<script
-  src="https://aichatwatch.com/assets/js/aicw-view.js"
-  data-key="aa9237f1-44d8-4543-b320-663e871262a8"
-  data-summarize-bar="true"
-  data-summarize-position="right"
-  defer
-></script>
+    <!--AICW-->
+    <script src="https://cdn.aichatwatch.com/aicw-view.js" data-key="aa9237f1-44d8-4543-b320-663e871262a8"
+        data-summarize-bar="true" data-summarize-position="right" defer></script>
 
 </body>
 
