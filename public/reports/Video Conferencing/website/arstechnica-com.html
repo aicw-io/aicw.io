@@ -7,14 +7,17 @@
 
     <!-- SEO Meta Tags -->
     <title>arstechnica.com - Source Domain Analysis | Video Conferencing</title>
-    <meta name="description" content="arstechnica.com cited 3 times by AI models. Rank #81 with 0.2% share of voice across 2 AI assistants.">
-    <meta name="keywords" content="arstechnica.com, AI citations, source domain, AI recommendations, AI visibility, ChatGPT sources, Gemini, Claude, AI Chat Watch">
+    <meta name="description"
+        content="arstechnica.com cited 3 times by AI models. Rank #81 with 0.2% share of voice across 2 AI assistants.">
+    <meta name="keywords"
+        content="arstechnica.com, AI citations, source domain, AI recommendations, AI visibility, ChatGPT sources, Gemini, Claude, AI Chat Watch">
     <meta name="author" content="AI Chat Watch">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph -->
     <meta property="og:title" content="arstechnica.com - Source Domain Analysis">
-    <meta property="og:description" content="Rank #81 - arstechnica.com cited 3 times with 0.2% share of voice across 2 AI models.">
+    <meta property="og:description"
+        content="Rank #81 - arstechnica.com cited 3 times with 0.2% share of voice across 2 AI models.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="website/arstechnica-com.html">
     <meta property="og:site_name" content="AI Chat Watch">
@@ -31,7 +34,7 @@
     <link rel="canonical" href="website/arstechnica-com.html">
 
     <!-- Favicon -->
-    <link rel="icon" href="https://www.aichatwatch.com/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://www.aicw.io/favicon.svg" type="image/svg+xml">
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -48,7 +51,7 @@
       "isPartOf": {
         "@type": "WebSite",
         "name": "AI Chat Watch",
-        "url": "https://aichatwatch.com"
+        "url": "https://aicw.io"
       },
       "mainEntity": {
         "@id": "website/arstechnica-com.html#website"
@@ -138,7 +141,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Load Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Tailwind Configuration -->
     <script>
@@ -358,14 +363,33 @@
             color: white;
         }
 
-        .icon_bot_google_gemini { background: linear-gradient(135deg, #4285f4, #34a853); }
-        .icon_bot_perplexity_ai { background: linear-gradient(135deg, #000000, #333333); }
-        .icon_bot_brave_search { background: linear-gradient(135deg, #fb542b, #ff7a59); }
-        .icon_bot_you_com { background: linear-gradient(135deg, #2c2c2c, #454545); }
-        .icon_bot_openai_searchgpt { background: linear-gradient(135deg, #74aa9c, #9ec1b9); }
-        .icon_bot_unknown { background: linear-gradient(135deg, #808080, #A9A9A9); }
+        .icon_bot_google_gemini {
+            background: linear-gradient(135deg, #4285f4, #34a853);
+        }
 
-        [v-cloak] { display: none; }
+        .icon_bot_perplexity_ai {
+            background: linear-gradient(135deg, #000000, #333333);
+        }
+
+        .icon_bot_brave_search {
+            background: linear-gradient(135deg, #fb542b, #ff7a59);
+        }
+
+        .icon_bot_you_com {
+            background: linear-gradient(135deg, #2c2c2c, #454545);
+        }
+
+        .icon_bot_openai_searchgpt {
+            background: linear-gradient(135deg, #74aa9c, #9ec1b9);
+        }
+
+        .icon_bot_unknown {
+            background: linear-gradient(135deg, #808080, #A9A9A9);
+        }
+
+        [v-cloak] {
+            display: none;
+        }
 
         /* Dark mode toggle button */
         .dark-mode-toggle {
@@ -403,13 +427,17 @@
         .questions-modal-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0, 0, 0, 0.5);
             display: none;
             align-items: center;
             justify-content: center;
             z-index: 1000;
         }
-        .questions-modal-overlay.active { display: flex; }
+
+        .questions-modal-overlay.active {
+            display: flex;
+        }
+
         .questions-modal {
             background: var(--surface-raised-color);
             border-radius: 0.75rem;
@@ -417,8 +445,9 @@
             max-height: 80vh;
             width: 90%;
             overflow: hidden;
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
         }
+
         .questions-modal-header {
             display: flex;
             justify-content: space-between;
@@ -426,11 +455,13 @@
             padding: 1rem 1.5rem;
             border-bottom: 1px solid var(--surface-border-color);
         }
+
         .questions-modal-body {
             padding: 1.5rem;
             overflow-y: auto;
             max-height: calc(80vh - 60px);
         }
+
         .questions-modal-close {
             background: none;
             border: none;
@@ -440,19 +471,26 @@
             opacity: 0.6;
             line-height: 1;
         }
-        .questions-modal-close:hover { opacity: 1; }
+
+        .questions-modal-close:hover {
+            opacity: 1;
+        }
 
         /* Full Answer Modal */
         .answer-modal-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.6);
+            background: rgba(0, 0, 0, 0.6);
             display: none;
             align-items: center;
             justify-content: center;
             z-index: 1001;
         }
-        .answer-modal-overlay.active { display: flex; }
+
+        .answer-modal-overlay.active {
+            display: flex;
+        }
+
         .answer-modal {
             background: var(--surface-raised-color);
             border-radius: 0.75rem;
@@ -461,18 +499,21 @@
             width: 95%;
             display: flex;
             flex-direction: column;
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
         }
+
         .answer-modal-header {
             padding: 1rem 1.5rem;
             border-bottom: 1px solid var(--surface-border-color);
             flex-shrink: 0;
         }
+
         .answer-modal-body {
             padding: 1.5rem;
             overflow-y: auto;
             flex: 1;
         }
+
         .answer-modal-close {
             position: absolute;
             top: 1rem;
@@ -484,7 +525,11 @@
             color: var(--text-color);
             opacity: 0.6;
         }
-        .answer-modal-close:hover { opacity: 1; }
+
+        .answer-modal-close:hover {
+            opacity: 1;
+        }
+
         .answer-content {
             font-family: 'SF Mono', 'Monaco', 'Menlo', monospace;
             font-size: 0.875rem;
@@ -512,15 +557,18 @@
         <div class="container mx-auto px-4 py-3">
             <!-- Mobile Header -->
             <div class="md:hidden flex flex-col items-center justify-center w-full space-y-2">
-                <a href="https://www.aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing" title="Go to AI Chat Watch Homepage"
-                   class="text-2xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity">
+                <a href="https://www.aicw.io?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing"
+                    title="Go to AI Chat Watch Homepage"
+                    class="text-2xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity">
                     AI ChatWatch
                 </a>
                 <p class="text-sm text-gray-600 dark:text-gray-400 text-center">
-                    AI Mentions & Sources Report for <strong class="text-gray-900 dark:text-white">Video Conferencing</strong>
+                    AI Mentions & Sources Report for <strong class="text-gray-900 dark:text-white">Video
+                        Conferencing</strong>
                 </p>
-                <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
+                <a href="https://aicw.io?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing"
+                    target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
                     <i class="fas fa-rocket"></i> Track Your AI Visibility
                 </a>
             </div>
@@ -528,26 +576,30 @@
             <!-- Desktop Header -->
             <div class="hidden md:flex flex-row items-center justify-between w-full">
                 <div class="flex flex-col">
-                    <a href="https://www.aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing" title="Go to AI Chat Watch Homepage"
-                       class="hover:opacity-80 transition-opacity">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 100" preserveAspectRatio="xMidYMid meet"
-                             aria-hidden="true" class="w-full max-w-[280px]">
+                    <a href="https://www.aicw.io?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing"
+                        title="Go to AI Chat Watch Homepage" class="hover:opacity-80 transition-opacity">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 100"
+                            preserveAspectRatio="xMidYMid meet" aria-hidden="true" class="w-full max-w-[280px]">
                             <text x="10" y="70" font-family="Arial, sans-serif" font-size="80" font-weight="bold"
-                                  class="text-gray-900 dark:text-white" fill="currentColor">AI</text>
-                            <text x="110" y="70" font-family="Arial, sans-serif" font-size="40" class="text-gray-900 dark:text-white"
-                                  fill="currentColor">ChatWatch.com</text>
+                                class="text-gray-900 dark:text-white" fill="currentColor">AI</text>
+                            <text x="110" y="70" font-family="Arial, sans-serif" font-size="40"
+                                class="text-gray-900 dark:text-white" fill="currentColor">ChatWatch.com</text>
                             <g transform="translate(30, 10) scale(0.6)">
-                                <circle cx="50" cy="50" r="25" fill="none" stroke="currentColor" stroke-width="3"></circle>
-                                <line x1="70" y1="70" x2="100" y2="100" stroke="currentColor" stroke-width="5" stroke-linecap="round"></line>
+                                <circle cx="50" cy="50" r="25" fill="none" stroke="currentColor" stroke-width="3">
+                                </circle>
+                                <line x1="70" y1="70" x2="100" y2="100" stroke="currentColor" stroke-width="5"
+                                    stroke-linecap="round"></line>
                             </g>
                         </svg>
                     </a>
                     <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                        AI Mentions & Sources Report for <strong class="text-gray-900 dark:text-white">Video Conferencing</strong>
+                        AI Mentions & Sources Report for <strong class="text-gray-900 dark:text-white">Video
+                            Conferencing</strong>
                     </p>
                 </div>
-                <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
+                <a href="https://aicw.io?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing"
+                    target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
                     <i class="fas fa-rocket"></i> Track Your AI Visibility
                 </a>
             </div>
@@ -556,7 +608,8 @@
 
     <!-- Back Navigation -->
     <nav class="container mx-auto px-4 py-2 bg-gray-50 dark:bg-gray-800/50">
-        <a href="../index.html" class="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors">
+        <a href="../index.html"
+            class="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors">
             <i class="fas fa-arrow-left mr-2"></i> Back to Report
         </a>
     </nav>
@@ -571,7 +624,7 @@
                     <span class="text-2xl md:text-3xl font-black opacity-90">#{{ domain.rank }}</span>
                     <div class="w-10 h-10 bg-white rounded-lg p-1 flex-shrink-0">
                         <img :src="faviconUrl" class="w-full h-full object-contain" :alt="domain.value"
-                             onerror="this.parentElement.style.display='none'">
+                            onerror="this.parentElement.style.display='none'">
                     </div>
                     <h1 class="text-xl md:text-2xl font-bold flex-1 truncate">{{ domain.value }}</h1>
                     <div class="text-right flex-shrink-0">
@@ -600,14 +653,35 @@
         <!-- About Section -->
         <div class="container mx-auto px-4 py-4">
 
-        <section class="source-intro bg-white dark:bg-gray-800 rounded-lg shadow p-5 mb-4">
-            <h2 class="text-lg font-bold mb-3 text-gray-900 dark:text-white">
-                <i class="fas fa-info-circle mr-2 text-teal-500"></i>About arstechnica.com (News Media)
-            </h2>
-            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                This page provides details about <strong>arstechnica.com</strong> (News Media) which was ranked <strong>#81</strong> out of 189 in the list of sources (3 citations (0.2% share)) in answers from AI models (<img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">Anthropic Claude Sonnet (latest), <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">OpenAI ChatGPT Latest) when they were asked the following 3 questions: <i>"If I&#39;m looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed."</i>, <i>"What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."</i>, <i>"What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space."</i> on <strong>Dec 31, 2025</strong> by <a href="https://aichatwatch.com" class="text-indigo-600 hover:underline">AI Chat Watch</a>.
-            </p>
-        </section>
+            <section class="source-intro bg-white dark:bg-gray-800 rounded-lg shadow p-5 mb-4">
+                <h2 class="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                    <i class="fas fa-info-circle mr-2 text-teal-500"></i>About arstechnica.com (News Media)
+                </h2>
+                <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                    This page provides details about <strong>arstechnica.com</strong> (News Media) which was ranked
+                    <strong>#81</strong> out of 189 in the list of sources (3 citations (0.2% share)) in answers from AI
+                    models (<img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">Anthropic Claude Sonnet (latest), <img
+                        src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">OpenAI ChatGPT Latest) when they were asked the following 3
+                    questions: <i>"If I&#39;m looking to get into Video Conferencing, who and what should I know about?
+                        Include the most trusted brands, recommended products and services, reputable companies and
+                        providers, influential experts and reviewers to follow, helpful communities and resources,
+                        important events and conferences, notable startups disrupting the space, and key publications
+                        and media channels to stay informed."</i>, <i>"What does the Video Conferencing industry look
+                        like right now? Identify the dominant market leaders and brands, best products and services, key
+                        companies and providers, influential figures and thought leaders, emerging startups and trends,
+                        major conferences and events, active professional communities, and the top publications and
+                        media that cover this industry."</i>, <i>"What are the best Video Conferencing options available
+                        today? Please provide a comprehensive overview including: the leading brands and products, top
+                        companies and service providers, recognized experts and thought leaders, promising startups and
+                        new market entrants, major industry events and conferences, active communities and forums, and
+                        influential publications and media covering this space."</i> on <strong>Dec 31, 2025</strong> by
+                    <a href="https://aicw.io" class="text-indigo-600 hover:underline">AI Chat Watch</a>.
+                </p>
+            </section>
         </div>
 
         <!-- Metrics Summary -->
@@ -621,9 +695,8 @@
                     <div class="metric-value-sm">
                         {{ formatPercent(domain.influence) }}
                         <span v-if="getTrendIndicator(domain.influenceTrend)"
-                              :class="getTrendIndicator(domain.influenceTrend).class"
-                              class="text-xs ml-1"
-                              :title="getTrendIndicator(domain.influenceTrend).label">
+                            :class="getTrendIndicator(domain.influenceTrend).class" class="text-xs ml-1"
+                            :title="getTrendIndicator(domain.influenceTrend).label">
                             <i class="fas" :class="getTrendIndicator(domain.influenceTrend).icon"></i>
                         </span>
                     </div>
@@ -633,9 +706,8 @@
                     <div class="metric-value-sm">
                         {{ formatPosition(domain.appearanceOrder) }}
                         <span v-if="getTrendIndicator(domain.appearanceOrderTrend)"
-                              :class="getTrendIndicator(domain.appearanceOrderTrend).class"
-                              class="text-xs ml-1"
-                              :title="getTrendIndicator(domain.appearanceOrderTrend).label">
+                            :class="getTrendIndicator(domain.appearanceOrderTrend).class" class="text-xs ml-1"
+                            :title="getTrendIndicator(domain.appearanceOrderTrend).label">
                             <i class="fas" :class="getTrendIndicator(domain.appearanceOrderTrend).icon"></i>
                         </span>
                     </div>
@@ -645,9 +717,8 @@
                     <div class="metric-value-sm">
                         {{ formatPercent(domain.mentionsAsPercent) }} ({{ domain.mentions || 0 }})
                         <span v-if="getTrendIndicator(domain.mentionsTrend)"
-                              :class="getTrendIndicator(domain.mentionsTrend).class"
-                              class="text-xs ml-1"
-                              :title="getTrendIndicator(domain.mentionsTrend).label">
+                            :class="getTrendIndicator(domain.mentionsTrend).class" class="text-xs ml-1"
+                            :title="getTrendIndicator(domain.mentionsTrend).label">
                             <i class="fas" :class="getTrendIndicator(domain.mentionsTrend).icon"></i>
                         </span>
                     </div>
@@ -673,13 +744,11 @@
                         <tbody>
                             <tr v-for="bot in botsWithData" :key="bot.id">
                                 <td class="flex items-center gap-2">
-                                    <img v-if="getModelIconUrl(bot.id)"
-                                         :src="getModelIconUrl(bot.id)"
-                                         :alt="bot.name"
-                                         class="w-5 h-5 rounded"
-                                         onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+                                    <img v-if="getModelIconUrl(bot.id)" :src="getModelIconUrl(bot.id)" :alt="bot.name"
+                                        class="w-5 h-5 rounded"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
                                     <span v-else class="icon_bot" :class="'icon_bot_' + bot.id" :title="bot.name"
-                                          :style="getModelIconUrl(bot.id) ? 'display:none' : ''">
+                                        :style="getModelIconUrl(bot.id) ? 'display:none' : ''">
                                         {{ bot.name.charAt(0) }}
                                     </span>
                                     {{ bot.name }}
@@ -716,7 +785,7 @@
                             <tr>
                                 <td>
                                     <a href="https://arstechnica.com" target="_blank" rel="noopener noreferrer"
-                                       class="text-blue-600 hover:underline break-all">
+                                        class="text-blue-600 hover:underline break-all">
                                         arstechnica.com
                                     </a>
                                 </td>
@@ -744,35 +813,45 @@
                 </h2>
                 <div class="mb-6">
                     <h3 class="font-semibold text-lg mb-3 flex items-center gap-2 text-gray-800 dark:text-gray-200">
-                        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="" class="w-5 h-5 rounded" onerror="this.style.display='none'">
+                        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt=""
+                            class="w-5 h-5 rounded" onerror="this.style.display='none'">
                         Anthropic Claude Sonnet (latest)
                         <span class="text-sm font-normal text-gray-500">(2 citations)</span>
                     </h3>
                     <div class="mb-4">
                         <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                             <i class="fas fa-question-circle mr-2"></i>
-                            <span class="italic">If I&#39;m looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed.</span>
+                            <span class="italic">If I&#39;m looking to get into Video Conferencing, who and what should
+                                I know about? Include the most trusted brands, recommended products and services,
+                                reputable companies and providers, influential experts and reviewers to follow, helpful
+                                communities and resources, important events and conferences, notable startups disrupting
+                                the space, and key publications and media channels to stay informed.</span>
                         </p>
                         <div class="citation-block">
                             <p class="citation-text">[...] - Pro AV industry news and reviews
 
-### Tech News Sites
+                                ### Tech News Sites
 
-5. **TechCrunch** - [https://techcrunch.com](https://techcrunch.com)
-   - Startup and technology news
+                                5. **TechCrunch** - [https://techcrunch.com](https://techcrunch.com)
+                                - Startup and technology news
 
-6. **The Verge** - [https://www.theverge.com](https://www.theverge.com)
-   - Consumer technology reviews and news
+                                6. **The Verge** - [https://www.theverge.com](https://www.theverge.com)
+                                - Consumer technology reviews and news
 
-7. **Ars Technica** - [https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>](https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>)
-   - In-depth technology coverage
+                                7. **Ars Technica** - [https://<mark class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>](https://<mark
+                                    class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>)
+                                - In-depth technology coverage
 
-### Comparison Resources
+                                ### Comparison Resources
 
-8. **G2** - [https://www.g2.com/categories/video-conferencing](https://www.g2.com/categories/video-conferencing)
-   - User reviews and comparisons
+                                8. **G2** -
+                                [https://www.g2.com/categories/video-conferencing](https://www.g2.com/categories/video-conferencing)
+                                - User reviews and comparisons
 
-9. **Capterra** - [https://www.capterra.com/video-conferencing-software/](https://www.cap [...]</p>
+                                9. **Capterra** -
+                                [https://www.capterra.com/video-conferencing-software/](https://www.cap [...]</p>
                             <p class="citation-meta">
                                 <span class="mr-4">
                                     <i class="fas fa-link mr-1"></i> arstechnica.com
@@ -781,8 +860,9 @@
                                     <i class="fas fa-calendar mr-1"></i> December 31, 2025
                                 </span>
                             </p>
-                            <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                    onclick="openAnswerModal('If I&#39;m looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 31, 2025', window.getFullAnswerText('2-if-im-looking-to-get-int-b1689ad5', 'anthropic_claude_with_search_latest'))">
+                            <button
+                                class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                                onclick="openAnswerModal('If I&#39;m looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 31, 2025', window.getFullAnswerText('2-if-im-looking-to-get-int-b1689ad5', 'anthropic_claude_with_search_latest'))">
                                 <i class="fas fa-expand"></i> View Full Answer
                             </button>
                         </div>
@@ -790,18 +870,30 @@
                     <div class="mb-4">
                         <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                             <i class="fas fa-question-circle mr-2"></i>
-                            <span class="italic">What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                            <span class="italic">What does the Video Conferencing industry look like right now? Identify
+                                the dominant market leaders and brands, best products and services, key companies and
+                                providers, influential figures and thought leaders, emerging startups and trends, major
+                                conferences and events, active professional communities, and the top publications and
+                                media that cover this industry.</span>
                         </p>
                         <div class="citation-block">
-                            <p class="citation-text">[...] w.theverge.com](https://www.theverge.com) - Regular video conferencing coverage
-- **TechCrunch** - [https://techcrunch.com](https://techcrunch.com) - Startup and technology news
-- **VentureBeat** - [https://venturebeat.com](https://venturebeat.com) - Enterprise technology focus
-- **Ars Technica** - [https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>](https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>) - Technical deep dives
+                            <p class="citation-text">[...] w.theverge.com](https://www.theverge.com) - Regular video
+                                conferencing coverage
+                                - **TechCrunch** - [https://techcrunch.com](https://techcrunch.com) - Startup and
+                                technology news
+                                - **VentureBeat** - [https://venturebeat.com](https://venturebeat.com) - Enterprise
+                                technology focus
+                                - **Ars Technica** - [https://<mark class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>](https://<mark
+                                    class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>) - Technical deep dives
 
-### **Research Firms**
-- **Gartner** - [https://www.gartner.com](https://www.gartner.com) - Magic Quadrant for Meeting Solutions
-- **Forrester Research** - [https://www.forrester.com](https://www.forrester.com) - Video conferencing market analysis
-- **IDC** - [https://www.i [...]</p>
+                                ### **Research Firms**
+                                - **Gartner** - [https://www.gartner.com](https://www.gartner.com) - Magic Quadrant for
+                                Meeting Solutions
+                                - **Forrester Research** - [https://www.forrester.com](https://www.forrester.com) -
+                                Video conferencing market analysis
+                                - **IDC** - [https://www.i [...]</p>
                             <p class="citation-meta">
                                 <span class="mr-4">
                                     <i class="fas fa-link mr-1"></i> arstechnica.com
@@ -810,8 +902,9 @@
                                     <i class="fas fa-calendar mr-1"></i> December 31, 2025
                                 </span>
                             </p>
-                            <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                    onclick="openAnswerModal('What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 31, 2025', window.getFullAnswerText('3-what-does-the-video-conf-d9f53d7d', 'anthropic_claude_with_search_latest'))">
+                            <button
+                                class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                                onclick="openAnswerModal('What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 31, 2025', window.getFullAnswerText('3-what-does-the-video-conf-d9f53d7d', 'anthropic_claude_with_search_latest'))">
                                 <i class="fas fa-expand"></i> View Full Answer
                             </button>
                         </div>
@@ -819,34 +912,42 @@
                 </div>
                 <div class="mb-6">
                     <h3 class="font-semibold text-lg mb-3 flex items-center gap-2 text-gray-800 dark:text-gray-200">
-                        <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="" class="w-5 h-5 rounded" onerror="this.style.display='none'">
+                        <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt=""
+                            class="w-5 h-5 rounded" onerror="this.style.display='none'">
                         OpenAI ChatGPT Latest
                         <span class="text-sm font-normal text-gray-500">(1 citation)</span>
                     </h3>
                     <div class="mb-4">
                         <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                             <i class="fas fa-question-circle mr-2"></i>
-                            <span class="italic">What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space.</span>
+                            <span class="italic">What are the best Video Conferencing options available today? Please
+                                provide a comprehensive overview including: the leading brands and products, top
+                                companies and service providers, recognized experts and thought leaders, promising
+                                startups and new market entrants, major industry events and conferences, active
+                                communities and forums, and influential publications and media covering this
+                                space.</span>
                         </p>
                         <div class="citation-block">
                             <p class="citation-text">[...] covering video conferencing / UC / collaboration
 
-- [UC Today](https://www.uctoday.com/)
-- [No Jitter](https://www.nojitter.com/)
-- [Fierce Network](https://www.fierce-network.com/)
-- [TechCrunch](https://techcrunch.com/)
-- [The Verge](https://www.theverge.com/)
-- [Wired](https://www.wired.com/)
-- [Ars Technica](https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>/)
+                                - [UC Today](https://www.uctoday.com/)
+                                - [No Jitter](https://www.nojitter.com/)
+                                - [Fierce Network](https://www.fierce-network.com/)
+                                - [TechCrunch](https://techcrunch.com/)
+                                - [The Verge](https://www.theverge.com/)
+                                - [Wired](https://www.wired.com/)
+                                - [Ars Technica](https://<mark class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>/)
 
----
+                                ---
 
-## 10) Where to compare options (feature matrices, reviews, buyer feedback)
+                                ## 10) Where to compare options (feature matrices, reviews, buyer feedback)
 
-- [G2](https://www.g2.com/)
-- [Capterra](https://www.capterra.com/)
-- [TrustRadius](https://www.trustradius.com/)
-- For enterprise peer reviews in particular: [Gartner Peer Insights](https://www.gartner.com/reviews/ [...]</p>
+                                - [G2](https://www.g2.com/)
+                                - [Capterra](https://www.capterra.com/)
+                                - [TrustRadius](https://www.trustradius.com/)
+                                - For enterprise peer reviews in particular: [Gartner Peer
+                                Insights](https://www.gartner.com/reviews/ [...]</p>
                             <p class="citation-meta">
                                 <span class="mr-4">
                                     <i class="fas fa-link mr-1"></i> arstechnica.com
@@ -855,8 +956,9 @@
                                     <i class="fas fa-calendar mr-1"></i> December 31, 2025
                                 </span>
                             </p>
-                            <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                    onclick="openAnswerModal('What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 31, 2025', window.getFullAnswerText('1-what-are-the-best-video--4d7d40a8', 'openai_chatgpt_with_search_latest'))">
+                            <button
+                                class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                                onclick="openAnswerModal('What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 31, 2025', window.getFullAnswerText('1-what-are-the-best-video--4d7d40a8', 'openai_chatgpt_with_search_latest'))">
                                 <i class="fas fa-expand"></i> View Full Answer
                             </button>
                         </div>
@@ -871,11 +973,12 @@
                 <!-- Brand + CTA Row -->
                 <div class="flex flex-col md:flex-row gap-8 items-start md:items-center justify-between mb-8">
                     <div>
-                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white">AIChatWatch.com</h3>
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white">aicw.io</h3>
                         <p class="text-sm text-gray-600 dark:text-gray-400">Know What AI Tells Your Customers</p>
                     </div>
-                    <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=footer&utm_campaign=video-conferencing" target="_blank" rel="noopener noreferrer"
-                       class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
+                    <a href="https://aicw.io?utm_source=public_reports&utm_medium=footer&utm_campaign=video-conferencing"
+                        target="_blank" rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-lg btn-primary">
                         <i class="fas fa-rocket"></i> Track Your AI Visibility
                     </a>
                 </div>
@@ -884,7 +987,8 @@
                 <div class="pt-6 border-t border-gray-200 dark:border-gray-700">
                     <p class="text-sm text-gray-600 dark:text-gray-400">
                         &copy; <span id="currentYear"></span>
-                        <a href="https://aichatwatch.com?utm_source=public_reports&utm_campaign=video-conferencing" class="hover:text-indigo-600 dark:hover:text-indigo-400">AIChatWatch.com</a>. All rights reserved.
+                        <a href="https://aicw.io?utm_source=public_reports&utm_campaign=video-conferencing"
+                            class="hover:text-indigo-600 dark:hover:text-indigo-400">aicw.io</a>. All rights reserved.
                     </p>
                     <p class="text-xs text-gray-500 dark:text-gray-500 mt-1">
                         Report Date: {{ meta.reportDate }} | Engine v1.1.6
@@ -893,16 +997,44 @@
 
                 <!-- Disclaimer -->
                 <p class="text-xs text-gray-500 dark:text-gray-500 mt-6 leading-relaxed">
-                    DISCLAIMER: Intellectual Property Notice: All organizations and company names, trademarks, registered trademarks, service marks, logos, brand names, trade dress, and other intellectual property displayed in this report remain the sole property of their respective owners. Use of these marks does not imply any affiliation with, sponsorship by, or endorsement from the trademark holders. Any references to third-party trademarks are made solely for identification and informational purposes.
-                    No Endorsement: The inclusion of any third-party content, data, links, references, or mentions in this report does not constitute, and should not be construed as, an endorsement, recommendation, or approval by AIChatWatch.com of any product, service, company, organization, or viewpoint. Similarly, the absence of any entity from this report should not be interpreted as a negative assessment.
-                    Accuracy and Reliability: AIChatWatch.com makes no representations, warranties, or guarantees—express or implied—regarding the accuracy, completeness, reliability, timeliness, or suitability of any information contained in this report. The data presented herein is derived from automated analysis of artificial intelligence systems and publicly available sources, which may contain errors, omissions, or inaccuracies. AI-generated content and responses are subject to change without notice and may vary based on numerous factors beyond our control.
-                    Limitation of Liability: To the fullest extent permitted by applicable law, AIChatWatch.com, its affiliates, officers, directors, employees, agents, and licensors shall not be liable for any direct, indirect, incidental, special, consequential, punitive, or exemplary damages arising from or related to the use of, reliance upon, or inability to use any information contained in this report, even if advised of the possibility of such damages.
-                    No Professional Advice: The information provided in this report is for general informational and research purposes only and does not constitute legal, financial, business, marketing, or other professional advice. Users should consult qualified professionals before making any decisions based on the information contained herein.
-                    Third-Party Data Sources: This report may contain information obtained from or generated by third-party artificial intelligence platforms and other external sources. AIChatWatch.com does not control, verify, or guarantee the content produced by such third parties and assumes no responsibility for their accuracy, policies, or practices.
-                    Fair Use and Research Purpose: This report is provided for informational, research, and analytical purposes. Any data or analysis presented is intended to provide market insights and should not be used as the sole basis for business, investment, or strategic decisions.
-                    Modifications: Information in this report reflects data available at the time of generation. AIChatWatch.com reserves the right to modify, update, or discontinue any aspect of its reporting without prior notice.
-                   
-                    By accessing or using this report, you acknowledge that you have read, understood, and agree to be bound by this disclaimer.
+                    DISCLAIMER: Intellectual Property Notice: All organizations and company names, trademarks,
+                    registered trademarks, service marks, logos, brand names, trade dress, and other intellectual
+                    property displayed in this report remain the sole property of their respective owners. Use of these
+                    marks does not imply any affiliation with, sponsorship by, or endorsement from the trademark
+                    holders. Any references to third-party trademarks are made solely for identification and
+                    informational purposes.
+                    No Endorsement: The inclusion of any third-party content, data, links, references, or mentions in
+                    this report does not constitute, and should not be construed as, an endorsement, recommendation, or
+                    approval by aicw.io of any product, service, company, organization, or viewpoint. Similarly, the
+                    absence of any entity from this report should not be interpreted as a negative assessment.
+                    Accuracy and Reliability: aicw.io makes no representations, warranties, or guarantees—express or
+                    implied—regarding the accuracy, completeness, reliability, timeliness, or suitability of any
+                    information contained in this report. The data presented herein is derived from automated analysis
+                    of artificial intelligence systems and publicly available sources, which may contain errors,
+                    omissions, or inaccuracies. AI-generated content and responses are subject to change without notice
+                    and may vary based on numerous factors beyond our control.
+                    Limitation of Liability: To the fullest extent permitted by applicable law, aicw.io, its affiliates,
+                    officers, directors, employees, agents, and licensors shall not be liable for any direct, indirect,
+                    incidental, special, consequential, punitive, or exemplary damages arising from or related to the
+                    use of, reliance upon, or inability to use any information contained in this report, even if advised
+                    of the possibility of such damages.
+                    No Professional Advice: The information provided in this report is for general informational and
+                    research purposes only and does not constitute legal, financial, business, marketing, or other
+                    professional advice. Users should consult qualified professionals before making any decisions based
+                    on the information contained herein.
+                    Third-Party Data Sources: This report may contain information obtained from or generated by
+                    third-party artificial intelligence platforms and other external sources. aicw.io does not control,
+                    verify, or guarantee the content produced by such third parties and assumes no responsibility for
+                    their accuracy, policies, or practices.
+                    Fair Use and Research Purpose: This report is provided for informational, research, and analytical
+                    purposes. Any data or analysis presented is intended to provide market insights and should not be
+                    used as the sole basis for business, investment, or strategic decisions.
+                    Modifications: Information in this report reflects data available at the time of generation. aicw.io
+                    reserves the right to modify, update, or discontinue any aspect of its reporting without prior
+                    notice.
+
+                    By accessing or using this report, you acknowledge that you have read, understood, and agree to be
+                    bound by this disclaimer.
                 </p>
             </div>
         </footer>
@@ -915,14 +1047,14 @@
             <div class="container mx-auto px-4 py-3">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-4">
                     <div class="text-center md:text-left">
-                        <a href="https://www.aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing"
-                           class="text-2xl font-bold text-gray-900">AI ChatWatch</a>
+                        <a href="https://www.aicw.io?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing"
+                            class="text-2xl font-bold text-gray-900">AI ChatWatch</a>
                         <p class="text-sm text-gray-600">
                             AI Mentions & Sources Report for <strong>Video Conferencing</strong>
                         </p>
                     </div>
-                    <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing"
-                       class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white font-medium text-sm bg-indigo-600 hover:bg-indigo-700">
+                    <a href="https://aicw.io?utm_source=public_reports&utm_medium=header&utm_campaign=video-conferencing"
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white font-medium text-sm bg-indigo-600 hover:bg-indigo-700">
                         <i class="fas fa-rocket"></i> Track Your AI Visibility
                     </a>
                 </div>
@@ -939,10 +1071,12 @@
         <!-- Static Hero Section -->
         <div class="container mx-auto px-4 py-6">
 
-            <div class="bg-gradient-to-br from-teal-600 via-cyan-600 to-blue-500 rounded-2xl shadow-2xl p-6 md:p-8 text-white">
+            <div
+                class="bg-gradient-to-br from-teal-600 via-cyan-600 to-blue-500 rounded-2xl shadow-2xl p-6 md:p-8 text-white">
                 <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
                     <!-- Large Rank Badge -->
-                    <div class="flex-shrink-0 w-20 h-20 md:w-28 md:h-28 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center border-4 border-white/30">
+                    <div
+                        class="flex-shrink-0 w-20 h-20 md:w-28 md:h-28 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center border-4 border-white/30">
                         <span class="text-4xl md:text-5xl font-black">#81</span>
                     </div>
 
@@ -951,9 +1085,8 @@
                         <!-- Large Favicon/Logo -->
                         <div class="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 bg-white rounded-xl p-2 shadow-lg">
                             <img src="https://www.google.com/s2/favicons?domain=arstechnica.com&sz=128"
-                                 class="w-full h-full object-contain"
-                                 alt="arstechnica.com"
-                                 onerror="this.parentElement.style.display='none';" />
+                                class="w-full h-full object-contain" alt="arstechnica.com"
+                                onerror="this.parentElement.style.display='none';" />
                         </div>
 
                         <!-- Domain Name & Type -->
@@ -963,7 +1096,8 @@
                             </span>
                             <h1 class="text-3xl md:text-4xl font-black">arstechnica.com</h1>
                             <a href="https://arstechnica.com" target="_blank" rel="noopener noreferrer"
-                               class="text-white/80 hover:text-white flex items-center gap-2 mt-2 text-sm md:text-base" style="color: rgba(255,255,255,0.8) !important;">
+                                class="text-white/80 hover:text-white flex items-center gap-2 mt-2 text-sm md:text-base"
+                                style="color: rgba(255,255,255,0.8) !important;">
                                 <i class="fas fa-external-link-alt"></i>
                                 Visit arstechnica.com
                             </a>
@@ -982,36 +1116,60 @@
         <!-- About This Source (SEO Introduction) -->
         <div class="container mx-auto px-4 py-4">
 
-        <section class="source-intro bg-white dark:bg-gray-800 rounded-lg shadow p-5 mb-4">
-            <h2 class="text-lg font-bold mb-3 text-gray-900 dark:text-white">
-                <i class="fas fa-info-circle mr-2 text-teal-500"></i>About arstechnica.com (News Media)
-            </h2>
-            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                This page provides details about <strong>arstechnica.com</strong> (News Media) which was ranked <strong>#81</strong> out of 189 in the list of sources (3 citations (0.2% share)) in answers from AI models (<img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">Anthropic Claude Sonnet (latest), <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="" class="w-4 h-4 inline-block align-middle rounded mr-0.5" onerror="this.style.display='none'">OpenAI ChatGPT Latest) when they were asked the following 3 questions: <i>"If I&#39;m looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed."</i>, <i>"What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."</i>, <i>"What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space."</i> on <strong>Dec 31, 2025</strong> by <a href="https://aichatwatch.com" class="text-indigo-600 hover:underline">AI Chat Watch</a>.
-            </p>
-        </section>
+            <section class="source-intro bg-white dark:bg-gray-800 rounded-lg shadow p-5 mb-4">
+                <h2 class="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                    <i class="fas fa-info-circle mr-2 text-teal-500"></i>About arstechnica.com (News Media)
+                </h2>
+                <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                    This page provides details about <strong>arstechnica.com</strong> (News Media) which was ranked
+                    <strong>#81</strong> out of 189 in the list of sources (3 citations (0.2% share)) in answers from AI
+                    models (<img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">Anthropic Claude Sonnet (latest), <img
+                        src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt=""
+                        class="w-4 h-4 inline-block align-middle rounded mr-0.5"
+                        onerror="this.style.display='none'">OpenAI ChatGPT Latest) when they were asked the following 3
+                    questions: <i>"If I&#39;m looking to get into Video Conferencing, who and what should I know about?
+                        Include the most trusted brands, recommended products and services, reputable companies and
+                        providers, influential experts and reviewers to follow, helpful communities and resources,
+                        important events and conferences, notable startups disrupting the space, and key publications
+                        and media channels to stay informed."</i>, <i>"What does the Video Conferencing industry look
+                        like right now? Identify the dominant market leaders and brands, best products and services, key
+                        companies and providers, influential figures and thought leaders, emerging startups and trends,
+                        major conferences and events, active professional communities, and the top publications and
+                        media that cover this industry."</i>, <i>"What are the best Video Conferencing options available
+                        today? Please provide a comprehensive overview including: the leading brands and products, top
+                        companies and service providers, recognized experts and thought leaders, promising startups and
+                        new market entrants, major industry events and conferences, active communities and forums, and
+                        influential publications and media covering this space."</i> on <strong>Dec 31, 2025</strong> by
+                    <a href="https://aicw.io" class="text-indigo-600 hover:underline">AI Chat Watch</a>.
+                </p>
+            </section>
         </div>
 
         <!-- Static Metrics Cards -->
         <div class="container mx-auto px-4 py-4">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
 
-    <div class="metric-card-sm">
-        <div class="metric-value-sm">#81</div>
-        <div class="metric-label-sm">Rank</div>
-    </div>
-    <div class="metric-card-sm">
-        <div class="metric-value-sm">0.2%<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span></div>
-        <div class="metric-label-sm">Voice</div>
-    </div>
-    <div class="metric-card-sm">
-        <div class="metric-value-sm">146<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span></div>
-        <div class="metric-label-sm">Position</div>
-    </div>
-    <div class="metric-card-sm">
-        <div class="metric-value-sm">0.3% (3)<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span></div>
-        <div class="metric-label-sm">Citations</div>
-    </div>
+                <div class="metric-card-sm">
+                    <div class="metric-value-sm">#81</div>
+                    <div class="metric-label-sm">Rank</div>
+                </div>
+                <div class="metric-card-sm">
+                    <div class="metric-value-sm">0.2%<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span>
+                    </div>
+                    <div class="metric-label-sm">Voice</div>
+                </div>
+                <div class="metric-card-sm">
+                    <div class="metric-value-sm">146<span class="text-blue-500 ml-1 text-xs" title="New entry">★</span>
+                    </div>
+                    <div class="metric-label-sm">Position</div>
+                </div>
+                <div class="metric-card-sm">
+                    <div class="metric-value-sm">0.3% (3)<span class="text-blue-500 ml-1 text-xs"
+                            title="New entry">★</span></div>
+                    <div class="metric-label-sm">Citations</div>
+                </div>
             </div>
 
             <!-- Static Model Table -->
@@ -1031,24 +1189,26 @@
                         </thead>
                         <tbody>
 
-            <tr>
-                <td class="flex items-center gap-2">
-                    <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="" class="w-5 h-5 rounded" onerror="this.style.display='none'">
-                    Anthropic Claude Sonnet (latest)
-                </td>
-                <td class="text-center">0.7%</td>
-                <td class="text-center">91</td>
-                <td class="text-center">2</td>
-            </tr>
-            <tr>
-                <td class="flex items-center gap-2">
-                    <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="" class="w-5 h-5 rounded" onerror="this.style.display='none'">
-                    OpenAI ChatGPT Latest
-                </td>
-                <td class="text-center">0.2%</td>
-                <td class="text-center">148</td>
-                <td class="text-center">1</td>
-            </tr>
+                            <tr>
+                                <td class="flex items-center gap-2">
+                                    <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt=""
+                                        class="w-5 h-5 rounded" onerror="this.style.display='none'">
+                                    Anthropic Claude Sonnet (latest)
+                                </td>
+                                <td class="text-center">0.7%</td>
+                                <td class="text-center">91</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <td class="flex items-center gap-2">
+                                    <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32"
+                                        alt="" class="w-5 h-5 rounded" onerror="this.style.display='none'">
+                                    OpenAI ChatGPT Latest
+                                </td>
+                                <td class="text-center">0.2%</td>
+                                <td class="text-center">148</td>
+                                <td class="text-center">1</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -1077,7 +1237,7 @@
                             <tr>
                                 <td>
                                     <a href="https://arstechnica.com" target="_blank" rel="noopener noreferrer"
-                                       class="text-blue-600 hover:underline break-all">
+                                        class="text-blue-600 hover:underline break-all">
                                         arstechnica.com
                                     </a>
                                 </td>
@@ -1105,35 +1265,45 @@
                 </h2>
                 <div class="mb-6">
                     <h3 class="font-semibold text-lg mb-3 flex items-center gap-2 text-gray-800 dark:text-gray-200">
-                        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="" class="w-5 h-5 rounded" onerror="this.style.display='none'">
+                        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt=""
+                            class="w-5 h-5 rounded" onerror="this.style.display='none'">
                         Anthropic Claude Sonnet (latest)
                         <span class="text-sm font-normal text-gray-500">(2 citations)</span>
                     </h3>
                     <div class="mb-4">
                         <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                             <i class="fas fa-question-circle mr-2"></i>
-                            <span class="italic">If I&#39;m looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed.</span>
+                            <span class="italic">If I&#39;m looking to get into Video Conferencing, who and what should
+                                I know about? Include the most trusted brands, recommended products and services,
+                                reputable companies and providers, influential experts and reviewers to follow, helpful
+                                communities and resources, important events and conferences, notable startups disrupting
+                                the space, and key publications and media channels to stay informed.</span>
                         </p>
                         <div class="citation-block">
                             <p class="citation-text">[...] - Pro AV industry news and reviews
 
-### Tech News Sites
+                                ### Tech News Sites
 
-5. **TechCrunch** - [https://techcrunch.com](https://techcrunch.com)
-   - Startup and technology news
+                                5. **TechCrunch** - [https://techcrunch.com](https://techcrunch.com)
+                                - Startup and technology news
 
-6. **The Verge** - [https://www.theverge.com](https://www.theverge.com)
-   - Consumer technology reviews and news
+                                6. **The Verge** - [https://www.theverge.com](https://www.theverge.com)
+                                - Consumer technology reviews and news
 
-7. **Ars Technica** - [https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>](https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>)
-   - In-depth technology coverage
+                                7. **Ars Technica** - [https://<mark class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>](https://<mark
+                                    class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>)
+                                - In-depth technology coverage
 
-### Comparison Resources
+                                ### Comparison Resources
 
-8. **G2** - [https://www.g2.com/categories/video-conferencing](https://www.g2.com/categories/video-conferencing)
-   - User reviews and comparisons
+                                8. **G2** -
+                                [https://www.g2.com/categories/video-conferencing](https://www.g2.com/categories/video-conferencing)
+                                - User reviews and comparisons
 
-9. **Capterra** - [https://www.capterra.com/video-conferencing-software/](https://www.cap [...]</p>
+                                9. **Capterra** -
+                                [https://www.capterra.com/video-conferencing-software/](https://www.cap [...]</p>
                             <p class="citation-meta">
                                 <span class="mr-4">
                                     <i class="fas fa-link mr-1"></i> arstechnica.com
@@ -1142,8 +1312,9 @@
                                     <i class="fas fa-calendar mr-1"></i> December 31, 2025
                                 </span>
                             </p>
-                            <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                    onclick="openAnswerModal('If I&#39;m looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 31, 2025', window.getFullAnswerText('2-if-im-looking-to-get-int-b1689ad5', 'anthropic_claude_with_search_latest'))">
+                            <button
+                                class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                                onclick="openAnswerModal('If I&#39;m looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 31, 2025', window.getFullAnswerText('2-if-im-looking-to-get-int-b1689ad5', 'anthropic_claude_with_search_latest'))">
                                 <i class="fas fa-expand"></i> View Full Answer
                             </button>
                         </div>
@@ -1151,18 +1322,30 @@
                     <div class="mb-4">
                         <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                             <i class="fas fa-question-circle mr-2"></i>
-                            <span class="italic">What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.</span>
+                            <span class="italic">What does the Video Conferencing industry look like right now? Identify
+                                the dominant market leaders and brands, best products and services, key companies and
+                                providers, influential figures and thought leaders, emerging startups and trends, major
+                                conferences and events, active professional communities, and the top publications and
+                                media that cover this industry.</span>
                         </p>
                         <div class="citation-block">
-                            <p class="citation-text">[...] w.theverge.com](https://www.theverge.com) - Regular video conferencing coverage
-- **TechCrunch** - [https://techcrunch.com](https://techcrunch.com) - Startup and technology news
-- **VentureBeat** - [https://venturebeat.com](https://venturebeat.com) - Enterprise technology focus
-- **Ars Technica** - [https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>](https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>) - Technical deep dives
+                            <p class="citation-text">[...] w.theverge.com](https://www.theverge.com) - Regular video
+                                conferencing coverage
+                                - **TechCrunch** - [https://techcrunch.com](https://techcrunch.com) - Startup and
+                                technology news
+                                - **VentureBeat** - [https://venturebeat.com](https://venturebeat.com) - Enterprise
+                                technology focus
+                                - **Ars Technica** - [https://<mark class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>](https://<mark
+                                    class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>) - Technical deep dives
 
-### **Research Firms**
-- **Gartner** - [https://www.gartner.com](https://www.gartner.com) - Magic Quadrant for Meeting Solutions
-- **Forrester Research** - [https://www.forrester.com](https://www.forrester.com) - Video conferencing market analysis
-- **IDC** - [https://www.i [...]</p>
+                                ### **Research Firms**
+                                - **Gartner** - [https://www.gartner.com](https://www.gartner.com) - Magic Quadrant for
+                                Meeting Solutions
+                                - **Forrester Research** - [https://www.forrester.com](https://www.forrester.com) -
+                                Video conferencing market analysis
+                                - **IDC** - [https://www.i [...]</p>
                             <p class="citation-meta">
                                 <span class="mr-4">
                                     <i class="fas fa-link mr-1"></i> arstechnica.com
@@ -1171,8 +1354,9 @@
                                     <i class="fas fa-calendar mr-1"></i> December 31, 2025
                                 </span>
                             </p>
-                            <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                    onclick="openAnswerModal('What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 31, 2025', window.getFullAnswerText('3-what-does-the-video-conf-d9f53d7d', 'anthropic_claude_with_search_latest'))">
+                            <button
+                                class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                                onclick="openAnswerModal('What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry.', 'Anthropic Claude Sonnet (latest)', 'https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=32', 'icon_bot_unknown', 'A', 'December 31, 2025', window.getFullAnswerText('3-what-does-the-video-conf-d9f53d7d', 'anthropic_claude_with_search_latest'))">
                                 <i class="fas fa-expand"></i> View Full Answer
                             </button>
                         </div>
@@ -1180,34 +1364,42 @@
                 </div>
                 <div class="mb-6">
                     <h3 class="font-semibold text-lg mb-3 flex items-center gap-2 text-gray-800 dark:text-gray-200">
-                        <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt="" class="w-5 h-5 rounded" onerror="this.style.display='none'">
+                        <img src="https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32" alt=""
+                            class="w-5 h-5 rounded" onerror="this.style.display='none'">
                         OpenAI ChatGPT Latest
                         <span class="text-sm font-normal text-gray-500">(1 citation)</span>
                     </h3>
                     <div class="mb-4">
                         <p class="text-sm text-gray-500 dark:text-gray-400 mb-2 flex items-center">
                             <i class="fas fa-question-circle mr-2"></i>
-                            <span class="italic">What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space.</span>
+                            <span class="italic">What are the best Video Conferencing options available today? Please
+                                provide a comprehensive overview including: the leading brands and products, top
+                                companies and service providers, recognized experts and thought leaders, promising
+                                startups and new market entrants, major industry events and conferences, active
+                                communities and forums, and influential publications and media covering this
+                                space.</span>
                         </p>
                         <div class="citation-block">
                             <p class="citation-text">[...] covering video conferencing / UC / collaboration
 
-- [UC Today](https://www.uctoday.com/)
-- [No Jitter](https://www.nojitter.com/)
-- [Fierce Network](https://www.fierce-network.com/)
-- [TechCrunch](https://techcrunch.com/)
-- [The Verge](https://www.theverge.com/)
-- [Wired](https://www.wired.com/)
-- [Ars Technica](https://<mark class="domain-highlight"><mark class="domain-highlight">arstechnica.com</mark></mark>/)
+                                - [UC Today](https://www.uctoday.com/)
+                                - [No Jitter](https://www.nojitter.com/)
+                                - [Fierce Network](https://www.fierce-network.com/)
+                                - [TechCrunch](https://techcrunch.com/)
+                                - [The Verge](https://www.theverge.com/)
+                                - [Wired](https://www.wired.com/)
+                                - [Ars Technica](https://<mark class="domain-highlight"><mark
+                                        class="domain-highlight">arstechnica.com</mark></mark>/)
 
----
+                                ---
 
-## 10) Where to compare options (feature matrices, reviews, buyer feedback)
+                                ## 10) Where to compare options (feature matrices, reviews, buyer feedback)
 
-- [G2](https://www.g2.com/)
-- [Capterra](https://www.capterra.com/)
-- [TrustRadius](https://www.trustradius.com/)
-- For enterprise peer reviews in particular: [Gartner Peer Insights](https://www.gartner.com/reviews/ [...]</p>
+                                - [G2](https://www.g2.com/)
+                                - [Capterra](https://www.capterra.com/)
+                                - [TrustRadius](https://www.trustradius.com/)
+                                - For enterprise peer reviews in particular: [Gartner Peer
+                                Insights](https://www.gartner.com/reviews/ [...]</p>
                             <p class="citation-meta">
                                 <span class="mr-4">
                                     <i class="fas fa-link mr-1"></i> arstechnica.com
@@ -1216,8 +1408,9 @@
                                     <i class="fas fa-calendar mr-1"></i> December 31, 2025
                                 </span>
                             </p>
-                            <button class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
-                                    onclick="openAnswerModal('What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 31, 2025', window.getFullAnswerText('1-what-are-the-best-video--4d7d40a8', 'openai_chatgpt_with_search_latest'))">
+                            <button
+                                class="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 mt-2 flex items-center gap-1"
+                                onclick="openAnswerModal('What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space.', 'OpenAI ChatGPT Latest', 'https://www.google.com/s2/favicons?domain=platform.openai.com&amp;sz=32', 'icon_bot_unknown', 'O', 'December 31, 2025', window.getFullAnswerText('1-what-are-the-best-video--4d7d40a8', 'openai_chatgpt_with_search_latest'))">
                                 <i class="fas fa-expand"></i> View Full Answer
                             </button>
                         </div>
@@ -1234,46 +1427,56 @@
             </h2>
             <div class="space-y-2">
 
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    How often is arstechnica.com cited by AI models?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    arstechnica.com was cited 3 times by AI models, representing 0.2% of all source citations.
-                </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    Which AI models cite arstechnica.com?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    arstechnica.com is cited by 2 AI models including Perplexity Sonar (with search) (latest), Anthropic Claude Sonnet (latest), OpenAI ChatGPT Latest, Google Gemini Flash (latest), X.AI Grok (latest).
-                </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    What is arstechnica.com's ranking among source domains?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    arstechnica.com ranks #81 out of 189 source domains analyzed (with 67 brands also tracked).
-                </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    What brands are associated with arstechnica.com?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    AI models reference arstechnica.com when discussing brands like various brands.
-                </div>
-            </details>
-            <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
-                <summary class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    How is source ranking determined?
-                </summary>
-                <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
-                    Sources are ranked by Share of Voice = Model Coverage × Quality Score. Model weights are based on Monthly Active Users (OpenAI ChatGPT Latest: 900M MAU, Google Gemini Flash (latest): 650M MAU, Perplexity Sonar (with search) (latest): 45M MAU, etc.). Sources appearing earlier in AI responses receive higher prominence scores.
-                </div>
-            </details>
+                <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                    <summary
+                        class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                        How often is arstechnica.com cited by AI models?
+                    </summary>
+                    <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                        arstechnica.com was cited 3 times by AI models, representing 0.2% of all source citations.
+                    </div>
+                </details>
+                <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                    <summary
+                        class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                        Which AI models cite arstechnica.com?
+                    </summary>
+                    <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                        arstechnica.com is cited by 2 AI models including Perplexity Sonar (with search) (latest),
+                        Anthropic Claude Sonnet (latest), OpenAI ChatGPT Latest, Google Gemini Flash (latest), X.AI Grok
+                        (latest).
+                    </div>
+                </details>
+                <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                    <summary
+                        class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                        What is arstechnica.com's ranking among source domains?
+                    </summary>
+                    <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                        arstechnica.com ranks #81 out of 189 source domains analyzed (with 67 brands also tracked).
+                    </div>
+                </details>
+                <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                    <summary
+                        class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                        What brands are associated with arstechnica.com?
+                    </summary>
+                    <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                        AI models reference arstechnica.com when discussing brands like various brands.
+                    </div>
+                </details>
+                <details class="faq-item border-b border-gray-200 dark:border-gray-700 pb-3">
+                    <summary
+                        class="font-medium cursor-pointer text-gray-900 dark:text-white py-2 hover:text-indigo-600 dark:hover:text-indigo-400">
+                        How is source ranking determined?
+                    </summary>
+                    <div class="mt-2 text-gray-600 dark:text-gray-400 pl-4">
+                        Sources are ranked by Share of Voice = Model Coverage × Quality Score. Model weights are based
+                        on Monthly Active Users (OpenAI ChatGPT Latest: 900M MAU, Google Gemini Flash (latest): 650M
+                        MAU, Perplexity Sonar (with search) (latest): 45M MAU, etc.). Sources appearing earlier in AI
+                        responses receive higher prominence scores.
+                    </div>
+                </details>
             </div>
         </section>
 
@@ -1283,11 +1486,11 @@
                 <!-- Brand + CTA Row -->
                 <div class="flex flex-col md:flex-row gap-8 items-start md:items-center justify-between mb-8">
                     <div>
-                        <h3 class="text-2xl font-bold text-gray-900">AIChatWatch.com</h3>
+                        <h3 class="text-2xl font-bold text-gray-900">aicw.io</h3>
                         <p class="text-sm text-gray-600">Know What AI Tells Your Customers</p>
                     </div>
-                    <a href="https://aichatwatch.com?utm_source=public_reports&utm_medium=footer&utm_campaign=video-conferencing"
-                       class="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-white font-semibold bg-indigo-600 hover:bg-indigo-700 shadow-lg">
+                    <a href="https://aicw.io?utm_source=public_reports&utm_medium=footer&utm_campaign=video-conferencing"
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-white font-semibold bg-indigo-600 hover:bg-indigo-700 shadow-lg">
                         <i class="fas fa-rocket"></i> Track Your AI Visibility
                     </a>
                 </div>
@@ -1296,7 +1499,8 @@
                 <div class="pt-6 border-t border-gray-200">
                     <p class="text-sm text-gray-600">
                         &copy; 2024
-                        <a href="https://aichatwatch.com?utm_source=public_reports&utm_campaign=video-conferencing" class="hover:text-indigo-600">AIChatWatch.com</a>. All rights reserved.
+                        <a href="https://aicw.io?utm_source=public_reports&utm_campaign=video-conferencing"
+                            class="hover:text-indigo-600">aicw.io</a>. All rights reserved.
                     </p>
                     <p class="text-xs text-gray-500 mt-1">
                         Report Date: 2025-12-31 | Engine v1.1.6
@@ -1305,16 +1509,44 @@
 
                 <!-- Disclaimer -->
                 <p class="text-xs text-gray-500 mt-6 leading-relaxed max-w-4xl">
-                    DISCLAIMER: Intellectual Property Notice: All organizations and company names, trademarks, registered trademarks, service marks, logos, brand names, trade dress, and other intellectual property displayed in this report remain the sole property of their respective owners. Use of these marks does not imply any affiliation with, sponsorship by, or endorsement from the trademark holders. Any references to third-party trademarks are made solely for identification and informational purposes.
-                    No Endorsement: The inclusion of any third-party content, data, links, references, or mentions in this report does not constitute, and should not be construed as, an endorsement, recommendation, or approval by AIChatWatch.com of any product, service, company, organization, or viewpoint. Similarly, the absence of any entity from this report should not be interpreted as a negative assessment.
-                    Accuracy and Reliability: AIChatWatch.com makes no representations, warranties, or guarantees—express or implied—regarding the accuracy, completeness, reliability, timeliness, or suitability of any information contained in this report. The data presented herein is derived from automated analysis of artificial intelligence systems and publicly available sources, which may contain errors, omissions, or inaccuracies. AI-generated content and responses are subject to change without notice and may vary based on numerous factors beyond our control.
-                    Limitation of Liability: To the fullest extent permitted by applicable law, AIChatWatch.com, its affiliates, officers, directors, employees, agents, and licensors shall not be liable for any direct, indirect, incidental, special, consequential, punitive, or exemplary damages arising from or related to the use of, reliance upon, or inability to use any information contained in this report, even if advised of the possibility of such damages.
-                    No Professional Advice: The information provided in this report is for general informational and research purposes only and does not constitute legal, financial, business, marketing, or other professional advice. Users should consult qualified professionals before making any decisions based on the information contained herein.
-                    Third-Party Data Sources: This report may contain information obtained from or generated by third-party artificial intelligence platforms and other external sources. AIChatWatch.com does not control, verify, or guarantee the content produced by such third parties and assumes no responsibility for their accuracy, policies, or practices.
-                    Fair Use and Research Purpose: This report is provided for informational, research, and analytical purposes. Any data or analysis presented is intended to provide market insights and should not be used as the sole basis for business, investment, or strategic decisions.
-                    Modifications: Information in this report reflects data available at the time of generation. AIChatWatch.com reserves the right to modify, update, or discontinue any aspect of its reporting without prior notice.
-                   
-                    By accessing or using this report, you acknowledge that you have read, understood, and agree to be bound by this disclaimer.
+                    DISCLAIMER: Intellectual Property Notice: All organizations and company names, trademarks,
+                    registered trademarks, service marks, logos, brand names, trade dress, and other intellectual
+                    property displayed in this report remain the sole property of their respective owners. Use of these
+                    marks does not imply any affiliation with, sponsorship by, or endorsement from the trademark
+                    holders. Any references to third-party trademarks are made solely for identification and
+                    informational purposes.
+                    No Endorsement: The inclusion of any third-party content, data, links, references, or mentions in
+                    this report does not constitute, and should not be construed as, an endorsement, recommendation, or
+                    approval by aicw.io of any product, service, company, organization, or viewpoint. Similarly, the
+                    absence of any entity from this report should not be interpreted as a negative assessment.
+                    Accuracy and Reliability: aicw.io makes no representations, warranties, or guarantees—express or
+                    implied—regarding the accuracy, completeness, reliability, timeliness, or suitability of any
+                    information contained in this report. The data presented herein is derived from automated analysis
+                    of artificial intelligence systems and publicly available sources, which may contain errors,
+                    omissions, or inaccuracies. AI-generated content and responses are subject to change without notice
+                    and may vary based on numerous factors beyond our control.
+                    Limitation of Liability: To the fullest extent permitted by applicable law, aicw.io, its affiliates,
+                    officers, directors, employees, agents, and licensors shall not be liable for any direct, indirect,
+                    incidental, special, consequential, punitive, or exemplary damages arising from or related to the
+                    use of, reliance upon, or inability to use any information contained in this report, even if advised
+                    of the possibility of such damages.
+                    No Professional Advice: The information provided in this report is for general informational and
+                    research purposes only and does not constitute legal, financial, business, marketing, or other
+                    professional advice. Users should consult qualified professionals before making any decisions based
+                    on the information contained herein.
+                    Third-Party Data Sources: This report may contain information obtained from or generated by
+                    third-party artificial intelligence platforms and other external sources. aicw.io does not control,
+                    verify, or guarantee the content produced by such third parties and assumes no responsibility for
+                    their accuracy, policies, or practices.
+                    Fair Use and Research Purpose: This report is provided for informational, research, and analytical
+                    purposes. Any data or analysis presented is intended to provide market insights and should not be
+                    used as the sole basis for business, investment, or strategic decisions.
+                    Modifications: Information in this report reflects data available at the time of generation. aicw.io
+                    reserves the right to modify, update, or discontinue any aspect of its reporting without prior
+                    notice.
+
+                    By accessing or using this report, you acknowledge that you have read, understood, and agree to be
+                    bound by this disclaimer.
                 </p>
             </div>
         </footer>
@@ -1322,17 +1554,17 @@
 
     <!-- Embedded Domain Data -->
     <script>
-        window.DomainData = {"type":"linkDomain","code":"arstechnica.com","value":"arstechnica.com","link":"https://arstechnica.com","linkType":"nws","linkTypeName":"News Media","mentions":3,"mentionsByModel":{"perplexity_with_search_latest":0,"anthropic_claude_with_search_latest":2,"openai_chatgpt_with_search_latest":1,"google_gemini_with_search_latest":0,"x_ai_grok_with_search_latest":0},"excerptsByModel":{"anthropic_claude_with_search_latest":[{"appearanceOrder":7080,"excerpt":"- Pro AV industry news and reviews\n\n### Tech News Sites\n\n5. **TechCrunch** - [https://techcrunch.com](https://techcrunch.com)\n   - Startup and technology news\n\n6. **The Verge** - [https://www.theverge.com](https://www.theverge.com)\n   - Consumer technology reviews and news\n\n7. **Ars Technica** - [https://arstechnica.com](https://arstechnica.com)\n   - In-depth technology coverage\n\n### Comparison Resources\n\n8. **G2** - [https://www.g2.com/categories/video-conferencing](https://www.g2.com/categories/video-conferencing)\n   - User reviews and comparisons\n\n9. **Capterra** - [https://www.capterra.com/video-conferencing-software/](https://www.cap","line":208,"column":23,"captureDate":"2025-12-31","promptId":"2-if-im-looking-to-get-int-b1689ad5","sourceLink":"arstechnica.com","question":"If I'm looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed."},{"appearanceOrder":8036,"excerpt":"w.theverge.com](https://www.theverge.com) - Regular video conferencing coverage\n- **TechCrunch** - [https://techcrunch.com](https://techcrunch.com) - Startup and technology news\n- **VentureBeat** - [https://venturebeat.com](https://venturebeat.com) - Enterprise technology focus\n- **Ars Technica** - [https://arstechnica.com](https://arstechnica.com) - Technical deep dives\n\n### **Research Firms**\n- **Gartner** - [https://www.gartner.com](https://www.gartner.com) - Magic Quadrant for Meeting Solutions\n- **Forrester Research** - [https://www.forrester.com](https://www.forrester.com) - Video conferencing market analysis\n- **IDC** - [https://www.i","line":136,"column":22,"captureDate":"2025-12-31","promptId":"3-what-does-the-video-conf-d9f53d7d","sourceLink":"arstechnica.com","question":"What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry."}],"google_gemini_with_search_latest":[],"openai_chatgpt_with_search_latest":[{"appearanceOrder":8296,"excerpt":"covering video conferencing / UC / collaboration\n\n- [UC Today](https://www.uctoday.com/)\n- [No Jitter](https://www.nojitter.com/)\n- [Fierce Network](https://www.fierce-network.com/)\n- [TechCrunch](https://techcrunch.com/)\n- [The Verge](https://www.theverge.com/)\n- [Wired](https://www.wired.com/)\n- [Ars Technica](https://arstechnica.com/)\n\n---\n\n## 10) Where to compare options (feature matrices, reviews, buyer feedback)\n\n- [G2](https://www.g2.com/)\n- [Capterra](https://www.capterra.com/)\n- [TrustRadius](https://www.trustradius.com/)\n- For enterprise peer reviews in particular: [Gartner Peer Insights](https://www.gartner.com/reviews/","line":149,"column":3,"captureDate":"2025-12-31","promptId":"1-what-are-the-best-video--4d7d40a8","sourceLink":"arstechnica.com","question":"What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space."}],"perplexity_with_search_latest":[],"x_ai_grok_with_search_latest":[]},"sources":[{"link":"arstechnica.com","mentions":3,"appearanceOrder":146.16,"appearanceOrderByModel":{"openai_chatgpt_with_search_latest":148,"anthropic_claude_with_search_latest":91},"mentionsByModel":{"perplexity_with_search_latest":0,"anthropic_claude_with_search_latest":2,"openai_chatgpt_with_search_latest":1,"google_gemini_with_search_latest":0,"x_ai_grok_with_search_latest":0},"influence":0.01918,"influenceByModel":{"perplexity_with_search_latest":0,"anthropic_claude_with_search_latest":0.00043,"openai_chatgpt_with_search_latest":0.00578,"google_gemini_with_search_latest":0,"x_ai_grok_with_search_latest":0},"weightedInfluence":0.01918}],"bots":"anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest","botCount":2,"uniqueModelCount":2,"mentionsAsPercentByModel":{"perplexity_with_search_latest":0,"anthropic_claude_with_search_latest":0.00976,"openai_chatgpt_with_search_latest":0.00326,"google_gemini_with_search_latest":0,"x_ai_grok_with_search_latest":0},"appearanceOrder":146.16,"appearanceOrderByModel":{"anthropic_claude_with_search_latest":91,"openai_chatgpt_with_search_latest":148},"mentionsAsPercent":0.00324,"influence":0.00213,"influenceByModel":{"perplexity_with_search_latest":0,"anthropic_claude_with_search_latest":0.00726,"openai_chatgpt_with_search_latest":0.00211,"google_gemini_with_search_latest":0,"x_ai_grok_with_search_latest":0},"weightedInfluence":0.00213,"mentionsTrendVals":[{"date":"2025-12-31","value":3}],"influenceTrendVals":[{"date":"2025-12-31","value":0.00213}],"appearanceOrderTrendVals":[{"date":"2025-12-31","value":146.16}],"uniqueModelCountTrendVals":[{"date":"2025-12-31","value":2}],"mentionsTrend":999,"influenceTrend":999,"appearanceOrderTrend":999,"uniqueModelCountTrend":999,"mentionsByModelTrend":{"perplexity_with_search_latest":-9999,"anthropic_claude_with_search_latest":999,"openai_chatgpt_with_search_latest":999,"google_gemini_with_search_latest":-9999,"x_ai_grok_with_search_latest":-9999},"mentionsByModelTrendVals":{"perplexity_with_search_latest":[{"date":"2025-12-31","value":0}],"anthropic_claude_with_search_latest":[{"date":"2025-12-31","value":2}],"openai_chatgpt_with_search_latest":[{"date":"2025-12-31","value":1}],"google_gemini_with_search_latest":[{"date":"2025-12-31","value":0}],"x_ai_grok_with_search_latest":[{"date":"2025-12-31","value":0}]},"influenceByModelTrend":{"perplexity_with_search_latest":-9999,"anthropic_claude_with_search_latest":999,"openai_chatgpt_with_search_latest":999,"google_gemini_with_search_latest":-9999,"x_ai_grok_with_search_latest":-9999},"influenceByModelTrendVals":{"perplexity_with_search_latest":[{"date":"2025-12-31","value":0}],"anthropic_claude_with_search_latest":[{"date":"2025-12-31","value":0.00726}],"openai_chatgpt_with_search_latest":[{"date":"2025-12-31","value":0.00211}],"google_gemini_with_search_latest":[{"date":"2025-12-31","value":0}],"x_ai_grok_with_search_latest":[{"date":"2025-12-31","value":0}]},"appearanceOrderByModelTrend":{"perplexity_with_search_latest":-9999,"anthropic_claude_with_search_latest":10,"openai_chatgpt_with_search_latest":10,"google_gemini_with_search_latest":-9999,"x_ai_grok_with_search_latest":-9999},"appearanceOrderByModelTrendVals":{"perplexity_with_search_latest":[{"date":"2025-12-31","value":-1}],"anthropic_claude_with_search_latest":[{"date":"2025-12-31","value":91}],"openai_chatgpt_with_search_latest":[{"date":"2025-12-31","value":148}],"google_gemini_with_search_latest":[{"date":"2025-12-31","value":-1}],"x_ai_grok_with_search_latest":[{"date":"2025-12-31","value":-1}]},"previous_mentions":0,"mentions_change":3,"changePercent":100,"mentionsHistory":[{"date":"2025-12-31","mentions":3}],"lastSeen":"2025-12-31","firstSeen":"2025-12-31","volatility":0,"rank":81,"referencingBrands":[]};
-        window.BotsData = [{"id":"perplexity_with_search_latest","name":"Perplexity Sonar (with search) (latest)","url":"https://perplexity.ai","estimated_mau":45000000},{"id":"anthropic_claude_with_search_latest","name":"Anthropic Claude Sonnet (latest)","url":"https://anthropic.com","estimated_mau":30000000},{"id":"openai_chatgpt_with_search_latest","name":"OpenAI ChatGPT Latest","url":"https://platform.openai.com/docs/models/gpt-5.2","estimated_mau":900000000},{"id":"google_gemini_with_search_latest","name":"Google Gemini Flash (latest)","url":"https://gemini.google.com","estimated_mau":650000000},{"id":"x_ai_grok_with_search_latest","name":"X.AI Grok (latest)","url":"https://x.ai","estimated_mau":39000000}];
-        window.ReportMeta = {"projectName":"Video Conferencing","questionId":"_aggregate","reportDate":"2025-12-31"};
+        window.DomainData = { "type": "linkDomain", "code": "arstechnica.com", "value": "arstechnica.com", "link": "https://arstechnica.com", "linkType": "nws", "linkTypeName": "News Media", "mentions": 3, "mentionsByModel": { "perplexity_with_search_latest": 0, "anthropic_claude_with_search_latest": 2, "openai_chatgpt_with_search_latest": 1, "google_gemini_with_search_latest": 0, "x_ai_grok_with_search_latest": 0 }, "excerptsByModel": { "anthropic_claude_with_search_latest": [{ "appearanceOrder": 7080, "excerpt": "- Pro AV industry news and reviews\n\n### Tech News Sites\n\n5. **TechCrunch** - [https://techcrunch.com](https://techcrunch.com)\n   - Startup and technology news\n\n6. **The Verge** - [https://www.theverge.com](https://www.theverge.com)\n   - Consumer technology reviews and news\n\n7. **Ars Technica** - [https://arstechnica.com](https://arstechnica.com)\n   - In-depth technology coverage\n\n### Comparison Resources\n\n8. **G2** - [https://www.g2.com/categories/video-conferencing](https://www.g2.com/categories/video-conferencing)\n   - User reviews and comparisons\n\n9. **Capterra** - [https://www.capterra.com/video-conferencing-software/](https://www.cap", "line": 208, "column": 23, "captureDate": "2025-12-31", "promptId": "2-if-im-looking-to-get-int-b1689ad5", "sourceLink": "arstechnica.com", "question": "If I'm looking to get into Video Conferencing, who and what should I know about? Include the most trusted brands, recommended products and services, reputable companies and providers, influential experts and reviewers to follow, helpful communities and resources, important events and conferences, notable startups disrupting the space, and key publications and media channels to stay informed." }, { "appearanceOrder": 8036, "excerpt": "w.theverge.com](https://www.theverge.com) - Regular video conferencing coverage\n- **TechCrunch** - [https://techcrunch.com](https://techcrunch.com) - Startup and technology news\n- **VentureBeat** - [https://venturebeat.com](https://venturebeat.com) - Enterprise technology focus\n- **Ars Technica** - [https://arstechnica.com](https://arstechnica.com) - Technical deep dives\n\n### **Research Firms**\n- **Gartner** - [https://www.gartner.com](https://www.gartner.com) - Magic Quadrant for Meeting Solutions\n- **Forrester Research** - [https://www.forrester.com](https://www.forrester.com) - Video conferencing market analysis\n- **IDC** - [https://www.i", "line": 136, "column": 22, "captureDate": "2025-12-31", "promptId": "3-what-does-the-video-conf-d9f53d7d", "sourceLink": "arstechnica.com", "question": "What does the Video Conferencing industry look like right now? Identify the dominant market leaders and brands, best products and services, key companies and providers, influential figures and thought leaders, emerging startups and trends, major conferences and events, active professional communities, and the top publications and media that cover this industry." }], "google_gemini_with_search_latest": [], "openai_chatgpt_with_search_latest": [{ "appearanceOrder": 8296, "excerpt": "covering video conferencing / UC / collaboration\n\n- [UC Today](https://www.uctoday.com/)\n- [No Jitter](https://www.nojitter.com/)\n- [Fierce Network](https://www.fierce-network.com/)\n- [TechCrunch](https://techcrunch.com/)\n- [The Verge](https://www.theverge.com/)\n- [Wired](https://www.wired.com/)\n- [Ars Technica](https://arstechnica.com/)\n\n---\n\n## 10) Where to compare options (feature matrices, reviews, buyer feedback)\n\n- [G2](https://www.g2.com/)\n- [Capterra](https://www.capterra.com/)\n- [TrustRadius](https://www.trustradius.com/)\n- For enterprise peer reviews in particular: [Gartner Peer Insights](https://www.gartner.com/reviews/", "line": 149, "column": 3, "captureDate": "2025-12-31", "promptId": "1-what-are-the-best-video--4d7d40a8", "sourceLink": "arstechnica.com", "question": "What are the best Video Conferencing options available today? Please provide a comprehensive overview including: the leading brands and products, top companies and service providers, recognized experts and thought leaders, promising startups and new market entrants, major industry events and conferences, active communities and forums, and influential publications and media covering this space." }], "perplexity_with_search_latest": [], "x_ai_grok_with_search_latest": [] }, "sources": [{ "link": "arstechnica.com", "mentions": 3, "appearanceOrder": 146.16, "appearanceOrderByModel": { "openai_chatgpt_with_search_latest": 148, "anthropic_claude_with_search_latest": 91 }, "mentionsByModel": { "perplexity_with_search_latest": 0, "anthropic_claude_with_search_latest": 2, "openai_chatgpt_with_search_latest": 1, "google_gemini_with_search_latest": 0, "x_ai_grok_with_search_latest": 0 }, "influence": 0.01918, "influenceByModel": { "perplexity_with_search_latest": 0, "anthropic_claude_with_search_latest": 0.00043, "openai_chatgpt_with_search_latest": 0.00578, "google_gemini_with_search_latest": 0, "x_ai_grok_with_search_latest": 0 }, "weightedInfluence": 0.01918 }], "bots": "anthropic_claude_with_search_latest,openai_chatgpt_with_search_latest", "botCount": 2, "uniqueModelCount": 2, "mentionsAsPercentByModel": { "perplexity_with_search_latest": 0, "anthropic_claude_with_search_latest": 0.00976, "openai_chatgpt_with_search_latest": 0.00326, "google_gemini_with_search_latest": 0, "x_ai_grok_with_search_latest": 0 }, "appearanceOrder": 146.16, "appearanceOrderByModel": { "anthropic_claude_with_search_latest": 91, "openai_chatgpt_with_search_latest": 148 }, "mentionsAsPercent": 0.00324, "influence": 0.00213, "influenceByModel": { "perplexity_with_search_latest": 0, "anthropic_claude_with_search_latest": 0.00726, "openai_chatgpt_with_search_latest": 0.00211, "google_gemini_with_search_latest": 0, "x_ai_grok_with_search_latest": 0 }, "weightedInfluence": 0.00213, "mentionsTrendVals": [{ "date": "2025-12-31", "value": 3 }], "influenceTrendVals": [{ "date": "2025-12-31", "value": 0.00213 }], "appearanceOrderTrendVals": [{ "date": "2025-12-31", "value": 146.16 }], "uniqueModelCountTrendVals": [{ "date": "2025-12-31", "value": 2 }], "mentionsTrend": 999, "influenceTrend": 999, "appearanceOrderTrend": 999, "uniqueModelCountTrend": 999, "mentionsByModelTrend": { "perplexity_with_search_latest": -9999, "anthropic_claude_with_search_latest": 999, "openai_chatgpt_with_search_latest": 999, "google_gemini_with_search_latest": -9999, "x_ai_grok_with_search_latest": -9999 }, "mentionsByModelTrendVals": { "perplexity_with_search_latest": [{ "date": "2025-12-31", "value": 0 }], "anthropic_claude_with_search_latest": [{ "date": "2025-12-31", "value": 2 }], "openai_chatgpt_with_search_latest": [{ "date": "2025-12-31", "value": 1 }], "google_gemini_with_search_latest": [{ "date": "2025-12-31", "value": 0 }], "x_ai_grok_with_search_latest": [{ "date": "2025-12-31", "value": 0 }] }, "influenceByModelTrend": { "perplexity_with_search_latest": -9999, "anthropic_claude_with_search_latest": 999, "openai_chatgpt_with_search_latest": 999, "google_gemini_with_search_latest": -9999, "x_ai_grok_with_search_latest": -9999 }, "influenceByModelTrendVals": { "perplexity_with_search_latest": [{ "date": "2025-12-31", "value": 0 }], "anthropic_claude_with_search_latest": [{ "date": "2025-12-31", "value": 0.00726 }], "openai_chatgpt_with_search_latest": [{ "date": "2025-12-31", "value": 0.00211 }], "google_gemini_with_search_latest": [{ "date": "2025-12-31", "value": 0 }], "x_ai_grok_with_search_latest": [{ "date": "2025-12-31", "value": 0 }] }, "appearanceOrderByModelTrend": { "perplexity_with_search_latest": -9999, "anthropic_claude_with_search_latest": 10, "openai_chatgpt_with_search_latest": 10, "google_gemini_with_search_latest": -9999, "x_ai_grok_with_search_latest": -9999 }, "appearanceOrderByModelTrendVals": { "perplexity_with_search_latest": [{ "date": "2025-12-31", "value": -1 }], "anthropic_claude_with_search_latest": [{ "date": "2025-12-31", "value": 91 }], "openai_chatgpt_with_search_latest": [{ "date": "2025-12-31", "value": 148 }], "google_gemini_with_search_latest": [{ "date": "2025-12-31", "value": -1 }], "x_ai_grok_with_search_latest": [{ "date": "2025-12-31", "value": -1 }] }, "previous_mentions": 0, "mentions_change": 3, "changePercent": 100, "mentionsHistory": [{ "date": "2025-12-31", "mentions": 3 }], "lastSeen": "2025-12-31", "firstSeen": "2025-12-31", "volatility": 0, "rank": 81, "referencingBrands": [] };
+        window.BotsData = [{ "id": "perplexity_with_search_latest", "name": "Perplexity Sonar (with search) (latest)", "url": "https://perplexity.ai", "estimated_mau": 45000000 }, { "id": "anthropic_claude_with_search_latest", "name": "Anthropic Claude Sonnet (latest)", "url": "https://anthropic.com", "estimated_mau": 30000000 }, { "id": "openai_chatgpt_with_search_latest", "name": "OpenAI ChatGPT Latest", "url": "https://platform.openai.com/docs/models/gpt-5.2", "estimated_mau": 900000000 }, { "id": "google_gemini_with_search_latest", "name": "Google Gemini Flash (latest)", "url": "https://gemini.google.com", "estimated_mau": 650000000 }, { "id": "x_ai_grok_with_search_latest", "name": "X.AI Grok (latest)", "url": "https://x.ai", "estimated_mau": 39000000 }];
+        window.ReportMeta = { "projectName": "Video Conferencing", "questionId": "_aggregate", "reportDate": "2025-12-31" };
     </script>
 
     <!-- Load answers data for full answer expansion -->
     <script>
-        (function() {
+        (function () {
             var script = document.createElement('script');
             script.src = '2025-12-31-answers.js';
-            script.onload = function() {
+            script.onload = function () {
                 var answers = window['answers20251231'];
                 // Set on Vue app for reactivity (if app is loaded)
                 if (window.sourceApp) {
@@ -1342,7 +1574,7 @@
                     window.fullAnswers = answers;
                 }
             };
-            script.onerror = function() {
+            script.onerror = function () {
                 console.log('Answers file not available - full answer expansion disabled');
             };
             document.head.appendChild(script);
@@ -1425,7 +1657,7 @@
             document.body.style.overflow = '';
         }
         // Helper to get full answer text
-        window.getFullAnswerText = function(promptId, modelId) {
+        window.getFullAnswerText = function (promptId, modelId) {
             var date = window.ReportMeta && window.ReportMeta.reportDate;
             var answers = window.fullAnswers || (date && window['answers' + date.replace(/-/g, '')]);
             if (!answers || !promptId || !date) return 'Answer not available';
@@ -1437,7 +1669,7 @@
             return byModel && byModel.text ? byModel.text : 'Answer not available';
         };
         // Close modals on escape key
-        document.addEventListener('keydown', function(e) {
+        document.addEventListener('keydown', function (e) {
             if (e.key === 'Escape') {
                 closeQuestionsModal();
                 closeAnswerModal();
