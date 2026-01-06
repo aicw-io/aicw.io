@@ -16,7 +16,7 @@ keywords: "BingPreview, Bing page preview, Microsoft preview bot, Bingbot, web c
 
 BingPreview is a specialized web crawler operated by Microsoft, designed to [generate visual snapshots and page previews for Bing search results](https://usehall.com/agents/bingpreview). If you hover over or click on certain search results in Bing, you see a preview of the webpage. This preview is created by BingPreview.
 
-The crawler visits websites to record these page [snapshots. It operates alongside Bingbot, Microsoft's main search indexing crawler](https://chrisleverseo.com/user-agents/bingpreview/). While Bingbot focuses on indexing content for search rankings, BingPreview is specifically responsible for creating visual previews.
+The crawler visits websites to record these page [snapshots. It operates alongside Bingbot, Microsoft's main search indexing crawler](https://chrisleverseo.com/user-agents/bingpreview/). While [Bingbot](/ai-crawler-bot/bingbot/) focuses on indexing content for search rankings, BingPreview is specifically responsible for creating visual previews.
 
 Web developers and site owners frequently encounter BingPreview in their server logs. Understanding how it functions helps in efficiently managing server resources and controlling what content users see in search result previews. The crawler adheres to robots.txt rules and can be blocked if necessary. Many businesses favor these previews as they can enhance click-through rates from search results.
 

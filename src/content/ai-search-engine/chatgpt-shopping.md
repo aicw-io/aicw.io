@@ -16,7 +16,7 @@ keywords: "chatgpt shopping, ai shopping assistant, chatgpt product research, ch
 
 ## What Are ChatGPT Shopping Features?
 
-ChatGPT shopping features empower users to conduct [product research](https://openai.com/index/chatgpt-shopping-research) and comparisons. The system presents product details in visual cards, each showcasing prices, ratings, and specifications. Users can inquire about products and seek buying advice, although evidence of this feature's launch remains unconfirmed. ChatGPT Plus, a subscription service at $20/month, exists, but there is no validation that it includes the described shopping features.
+ChatGPT shopping features empower users to conduct [product research](https://openai.com/index/chatgpt-shopping-research) and comparisons. The system presents product details in visual cards, each showcasing prices, ratings, and specifications. Users can inquire about products and seek buying advice, although evidence of this feature's launch remains unconfirmed. [ChatGPT Plus](/ai-chat-bot/chatgpt/), a subscription service at $20/month, exists, but there is no validation that it includes the described shopping features.
 
 Key features of ChatGPT shopping:
 

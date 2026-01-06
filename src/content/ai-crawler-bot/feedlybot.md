@@ -38,7 +38,7 @@ The FeedlyBot user-agent string is how this RSS crawler identifies itself to web
 
 - "Feedly/1.0 (+http://www.feedly.com/fetcher.html; 1 subscriber)"
 - "FeedlyBot/1.0 (http://feedly.com)"
-- "Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)"
+- "Feedly/1.0 (+http://www.feedly.com/fetcher.html; like [FeedFetcher-Google](/ai-crawler-bot/feedfetcher-google/))"
 
 How FeedlyBot Retrieves Content:
 ![User-Agent String and Technical Details Diagram](/assets/ai-crawler-bot/feedlybot/website-feed-feedlybot.png)

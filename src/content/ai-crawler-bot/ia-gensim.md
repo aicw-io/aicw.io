@@ -22,7 +22,7 @@ AI and machine learning crawlers, also known as machine learning bots, are speci
 AI Crawler Purpose Overview:
 ![What Are AI and ML Crawlers Diagram](/assets/ai-crawler-bot/ia-gensim/content-crawlers-data.png)
 
-AI crawlers are automated programs that visit websites to extract content for machine learning purposes. Unlike search engine crawlers that index content for search results, AI crawlers collect data to train language models, image recognition systems, and other AI technologies. These bots read your HTML, download images, copy text, and sometimes execute JavaScript to access changing content. Most AI companies operate their crawlers continuously across billions of web pages. The data collected becomes part of AI training data, including anything from blog posts to product descriptions to code repositories. Web scraping for AI training has grown significantly since 2022 when ChatGPT launched. Now, dozens of companies operate their own crawlers. Some respect the robots.txt for AI crawlers, while others ignore these directives completely. The crawlers typically identify themselves through user agent strings, but not all do this transparently.
+AI crawlers are automated programs that visit websites to extract content for machine learning purposes. Unlike search engine crawlers that index content for search results, AI crawlers collect data to train language models, image recognition systems, and other AI technologies. These bots read your HTML, download images, copy text, and sometimes execute JavaScript to access changing content. Most AI companies operate their crawlers continuously across billions of web pages. The data collected becomes part of AI training data, including anything from blog posts to product descriptions to code repositories. Web scraping for AI training has grown significantly since 2022 when [ChatGPT](/ai-chat-bot/chatgpt/) launched. Now, dozens of companies operate their own crawlers. Some respect the robots.txt for AI crawlers, while others ignore these directives completely. The crawlers typically identify themselves through user agent strings, but not all do this transparently.
 
 ## Why AI Crawlers Exist and Their Purpose
 
@@ -30,7 +30,7 @@ AI companies need massive amounts of text and visual data to train their models 
 
 ## How Companies and Users Deploy AI Crawlers
 
-AI companies typically run their crawlers from cloud infrastructure with massive bandwidth. They configure the bots to visit millions of URLs per day, following links and sitemaps. Most set rate limits to avoid overwhelming servers, but these limits vary widely. The crawlers store collected content in data lakes or specialized storage systems. Data scientists then clean and process this raw content for training. Some companies, like Common Crawl, make their crawled data publicly available, while others keep their datasets proprietary. Website owners rarely receive notification when crawlers visit unless they actively monitor server logs. The crawlers often rotate IP addresses, making them harder to block by IP alone. Many respect robots.txt files, which website owners can use to control access, but enforcement is voluntary, and some crawlers ignore these directives. Companies justify this by claiming fair use for AI training, though legal precedent remains unclear. Users of these AI systems indirectly benefit from the crawled data through better model capabilities.
+AI companies typically run their crawlers from cloud infrastructure with massive bandwidth. They configure the bots to visit millions of URLs per day, following links and sitemaps. Most set rate limits to avoid overwhelming servers, but these limits vary widely. The crawlers store collected content in data lakes or specialized storage systems. Data scientists then clean and process this raw content for training. Some companies, like [Common Crawl](/ai-crawler-bot/ccbot/), make their crawled data publicly available, while others keep their datasets proprietary. Website owners rarely receive notification when crawlers visit unless they actively monitor server logs. The crawlers often rotate IP addresses, making them harder to block by IP alone. Many respect robots.txt files, which website owners can use to control access, but enforcement is voluntary, and some crawlers ignore these directives. Companies justify this by claiming fair use for AI training, though legal precedent remains unclear. Users of these AI systems indirectly benefit from the crawled data through better model capabilities.
 
 ## Complete List of Known AI and ML Crawlers
 
@@ -38,24 +38,24 @@ Over 40 crawlers exist, each using distinct user agent strings for crawler ident
 
 | Crawler Name | Company | User Agent String | Respects robots.txt |
 |--------------|---------|-------------------|---------------------|
-| GPTBot | OpenAI | GPTBot | Yes |
-| ChatGPT-User | OpenAI | ChatGPT-User | Yes |
-| Google-Extended | Google | Google-Extended | Yes |
-| GoogleOther | Google | GoogleOther | Yes |
+| [GPTBot](/ai-crawler-bot/gptbot/) | OpenAI | GPTBot | Yes |
+| [ChatGPT-User](/ai-crawler-bot/chatgpt-user/) | OpenAI | ChatGPT-User | Yes |
+| [Google-Extended](/ai-crawler-bot/google-extended/) | Google | Google-Extended | Yes |
+| [GoogleOther](/ai-crawler-bot/googleother/) | Google | GoogleOther | Yes |
 | CCBot | Common Crawl | CCBot | Yes |
-| ClaudeBot | Anthropic | ClaudeBot | Yes |
-| cohere-ai | Cohere | cohere-ai | Yes |
-| Amazonbot | Amazon | Amazonbot | Yes |
-| FacebookBot | Meta | FacebookBot | Partial |
-| Applebot-Extended | Apple | Applebot-Extended | Yes |
-| Bytespider | ByteDance | Bytespider | Partial |
-| Diffbot | Diffbot | Diffbot | Yes |
-| ImagesiftBot | ImagesiftBot | ImagesiftBot | Yes |
-| Omgilibot | Omgili | Omgilibot | Yes |
-| PerplexityBot | Perplexity | PerplexityBot | Yes |
-| YouBot | You.com | YouBot | Yes |
+| [ClaudeBot](/ai-crawler-bot/claudebot/) | Anthropic | ClaudeBot | Yes |
+| [cohere](/ai-chat-bot/cohere-command/)e-ai](/ai-crawler-bot/cohere-ai/) | Cohere | cohere-ai | Yes |
+| [Amazonbot](/ai-crawler-bot/amazonbot/) | Amazon | Amazonbot | Yes |
+| [FacebookBot](/ai-crawler-bot/facebookbot/) | Meta | FacebookBot | Partial |
+| [Applebot](/ai-crawler-bot/applebot/)t-Extended](/ai-crawler-bot/applebot-extended/) | Apple | Applebot-Extended | Yes |
+| [Bytespider](/ai-crawler-bot/bytespider/) | ByteDance | Bytespider | Partial |
+| [Diffbot](/ai-crawler-bot/diffbot/) | Diffbot | Diffbot | Yes |
+| [ImagesiftBot](/ai-crawler-bot/imagesiftbot/) | ImagesiftBot | ImagesiftBot | Yes |
+| [Omgilibot](/ai-crawler-bot/omgilibot/) | Omgili | Omgilibot | Yes |
+| [PerplexityBot](/ai-crawler-bot/perplexitybot/) | [Perplexity](/ai-chat-bot/perplexity/) | PerplexityBot | Yes |
+| [YouBot](/ai-crawler-bot/youbot/) | [You.com](/ai-search-engine/you-com/) | YouBot | Yes |
 
-Additional crawlers include PetalBot (Huawei), Timpibot, VelenPublicWebCrawler, Webzio-Extended, and others. New crawlers appear regularly as more companies enter the AI space. Many smaller AI startups run unnamed or poorly documented crawlers. Some research institutions also operate academic crawlers for AI research.
+Additional crawlers include [PetalBot](/ai-crawler-bot/petalbot/) (Huawei), [Timpibot](/ai-crawler-bot/timpibot/), VelenPublicWebCrawler, [Webzio-Extended](/ai-crawler-bot/webzio-extended/), and others. New crawlers appear regularly as more companies enter the AI space. Many smaller AI startups run unnamed or poorly documented crawlers. Some research institutions also operate academic crawlers for AI research.
 
 ## Crawler Identification Techniques
 
@@ -168,7 +168,7 @@ Not everyone wants to block all AI crawlers completely. Some website owners pref
 
 ## Impact on SEO and Site Performance
 
-Blocking AI crawlers can affect your website in several ways. The most obvious impact is on AI-powered search engines and answer tools. Services like Perplexity and You.com rely on crawler access to include sites in their results. Blocking these crawlers means your content will not appear in their answers. Traditional search engine rankings should not be affected if you only block AI-specific crawlers. Google-Extended is separate from Googlebot, so blocking it does not hurt regular Google Search ranking. However, the line between AI features and search is blurring. Google search results now include AI-generated summaries. Future search may rely more heavily on AI crawlers. Performance-wise, blocking aggressive crawlers can improve server response times and reduce bandwidth usage. Some AI crawlers are poorly programmed and can slow down sites. Others respect rate limits and cause minimal impact. Monitor your server metrics before and after implementing blocks to measure the difference. Consider your audience and goals when deciding on a blocking strategy. Tech-focused sites might want AI visibility while creative portfolios might prioritize protection.
+Blocking AI crawlers can affect your website in several ways. The most obvious impact is on AI-powered search engines and answer tools. Services like Perplexity and You.com rely on crawler access to include sites in their results. Blocking these crawlers means your content will not appear in their answers. Traditional search engine rankings should not be affected if you only block AI-specific crawlers. Google-Extended is separate from [Googlebot](/ai-crawler-bot/googlebot/), so blocking it does not hurt regular Google Search ranking. However, the line between AI features and search is blurring. Google search results now include AI-generated summaries. Future search may rely more heavily on AI crawlers. Performance-wise, blocking aggressive crawlers can improve server response times and reduce bandwidth usage. Some AI crawlers are poorly programmed and can slow down sites. Others respect rate limits and cause minimal impact. Monitor your server metrics before and after implementing blocks to measure the difference. Consider your audience and goals when deciding on a blocking strategy. Tech-focused sites might want AI visibility while creative portfolios might prioritize protection.
 
 ## Future of AI Crawling and Web Access
 

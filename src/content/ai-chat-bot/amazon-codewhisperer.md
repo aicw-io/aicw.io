@@ -14,7 +14,7 @@ keywords: "Amazon CodeWhisperer, AI code assistant, AWS CodeWhisperer, GitHub Co
 
 # Amazon CodeWhisperer: Your AI Code Assistant 
 
-Amazon CodeWhisperer is an AI-powered [code generation tool designed to help developers write code faster](https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-codewhisperer-generally-available/). As a leading AI code assistant, it provides real-time code suggestions directly in your IDE as you type. Developed by AWS, Amazon CodeWhisperer officially launched in 2022 and became widely available by April 2023. Supporting multiple programming languages such as Python, Java, JavaScript, TypeScript, and many more, the tool aims [to speed up development time and minimize repetitive coding tasks](https://aws.amazon.com/documentation-overview/codewhisperer/). Developers can focus on solving complex problems instead of writing boilerplate code. Key features include AI code completion, security scanning, and deep AWS integration, making it an ideal GitHub Copilot alternative for AWS users.
+Amazon CodeWhisperer is an AI-powered [code generation tool designed to help developers write code faster](https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-codewhisperer-generally-available/). As a leading AI code assistant, it provides real-time code suggestions directly in your IDE as you type. Developed by AWS, Amazon CodeWhisperer officially launched in 2022 and became widely available by April 2023. Supporting multiple programming languages such as Python, Java, JavaScript, TypeScript, and many more, the tool aims [to speed up development time and minimize repetitive coding tasks](https://aws.amazon.com/documentation-overview/codewhisperer/). Developers can focus on solving complex problems instead of writing boilerplate code. Key features include AI code completion, security scanning, and deep AWS integration, making it an ideal [GitHub Copilot](/ai-chat-bot/github-copilot/) alternative for AWS users.
 
 ## What is Amazon CodeWhisperer
 
@@ -44,7 +44,7 @@ Amazon CodeWhisperer became generally available on April 13, 2023. It offers a f
 
 Amazon CodeWhisperer stands in the competitive landscape of AI code assistants. Here’s a brief comparison with major alternatives:
 
-| Feature | Amazon CodeWhisperer | GitHub Copilot | Tabnine | Codeium | Replit Ghostwriter |
+| Feature | Amazon CodeWhisperer | GitHub Copilot | [Tabnine](/ai-chat-bot/tabnine/) | [Codeium](/ai-chat-bot/codeium/) | Replit Ghostwriter |
 |---------|---------------------|----------------|---------|---------|--------------------|
 | Individual Price | Free | $10/month | Free tier available | Free | $10/month |
 | Pro/Team Price | $19/user/month | $19/user/month | $12/user/month | $12/user/month | Included in Replit |

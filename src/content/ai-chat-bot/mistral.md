@@ -34,7 +34,7 @@ Open-Weight Model Benefits:
 
 ## Mixtral 8x7B: The Mixture of Experts Approach
 
-Mixtral 8x7B, launched in December 2023, showcases Mistral AI's innovative mixture of experts architecture. This design involves eight smaller expert networks, activating selectively based on input. With 47 billion total parameters and only 13 billion active, it excels in performance and speed. It outperforms Llama 2 70B in benchmarks, managing larger context windows of 32000 tokens. A multilingual powerhouse, Mixtral is optimized for code generation and diverse language tasks through its specialized expert networks.
+Mixtral 8x7B, launched in December 2023, showcases Mistral AI's innovative mixture of experts architecture. This design involves eight smaller expert networks, activating selectively based on input. With 47 billion total parameters and only 13 billion active, it excels in performance and speed. It outperforms [Llama 2](/ai-chat-bot/llama/) 70B in benchmarks, managing larger context windows of 32000 tokens. A multilingual powerhouse, Mixtral is optimized for code generation and diverse language tasks through its specialized expert networks.
 
 ## How Businesses and Developers Use Mistral AI
 
@@ -58,7 +58,7 @@ A comparison of Mistral AI models against alternatives highlights their unique s
 | Mixtral 8x7B | 47B (13B active) | 32000 tokens   | Mistral AI             | Dec 2023     | Sparse expert architecture   |
 | Llama 2 7B   | 7B               | 4096 tokens    | Meta                   | July 2023    | Wide adoption and ecosystem  |
 | Llama 2 70B  | 70B              | 4096 tokens    | Meta                   | July 2023    | Strong general performance   |
-| Falcon 40B   | 40B              | 2048 tokens    | TII                    | May 2023     | Trained on quality web data  |
+| [Falcon 40B](/ai-chat-bot/falcon/)   | 40B              | 2048 tokens    | TII                    | May 2023     | Trained on quality web data  |
 | MPT 7B       | 7B               | 8192 tokens    | MosaicML               | May 2023     | Commercial-friendly license  |
 
 Mistral AI Integration Options:

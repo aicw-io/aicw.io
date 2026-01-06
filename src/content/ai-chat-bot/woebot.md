@@ -54,8 +54,8 @@ Several mental health chatbots compete in this space with different approaches. 
 | Tool   | Therapy Approach        | FDA Status                     | Cost Model                     | Key Difference                                |
 |--------|-------------------------|--------------------------------|--------------------------------|------------------------------------------------|
 | Woebot | CBT focused             | Breakthrough Device designation | Subscription or enterprise     | Strong clinical research backing               |
-| Wysa   | CBT, DBT, meditation    | No FDA designation             | Freemium with paid coaching    | Includes human coach option                    |
-| Replika| Conversational AI       | No FDA designation             | Freemium                       | Social companion, not therapy focused          |
+| [Wysa](/ai-chat-bot/wysa/)   | CBT, DBT, meditation    | No FDA designation             | Freemium with paid coaching    | Includes human coach option                    |
+| [Replika](/ai-chat-bot/replika/)| Conversational AI       | No FDA designation             | Freemium                       | Social companion, not therapy focused          |
 | Youper | CBT with mood tracking  | No FDA designation             | Freemium                       | Emphasis on emotional health tracking          |
 | Tess   | Multiple therapy models | No FDA designation             | Enterprise only                | Integrates with existing care systems          |
 

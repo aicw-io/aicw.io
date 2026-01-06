@@ -22,7 +22,7 @@ Amazon Q is [AWS's AI assistant](https://aws.amazon.com/q/) designed specificall
 Amazon Q Architecture Overview:
 ![What is Amazon Q? Diagram](/assets/ai-chat-bot/amazon-q/amazon-developer-business.png)
 
-Amazon Q is an AI-powered assistant integrated with AWS services and connected to a company's data sources. It's akin to ChatGPT but tailored for business use within AWS cloud operations. Utilizing large language models, it understands questions and generates responses based on company data and AWS documentation. Amazon Q Developer aids in writing code, debugging, and enhancing AWS deployments, while Amazon Q Business allows employees to query company documents, policies, and data stored across various systems. The assistant connects to over 40 data sources, including S3, SharePoint, Salesforce, and Google Drive. When posed a question, Amazon Q searches these data sources and provides answers with citations. All operations occur within the user's AWS environment, ensuring data remains within the security perimeter.
+Amazon Q is an AI-powered assistant integrated with AWS services and connected to a company's data sources. It's akin to [ChatGPT](/ai-chat-bot/chatgpt/) but tailored for business use within AWS cloud operations. Utilizing large language models, it understands questions and generates responses based on company data and AWS documentation. Amazon Q Developer aids in writing code, debugging, and enhancing AWS deployments, while Amazon Q Business allows employees to query company documents, policies, and data stored across various systems. The assistant connects to over 40 data sources, including S3, SharePoint, Salesforce, and Google Drive. When posed a question, Amazon Q searches these data sources and provides answers with citations. All operations occur within the user's AWS environment, ensuring data remains within the security perimeter.
 
 ## Why Amazon Q Exists
 
@@ -46,7 +46,7 @@ Amazon Q was launched at the AWS re:Invent conference in November 2023. It is av
 
 Several companies offer similar enterprise AI assistants. Here's how Amazon Q compares to its main competitors:
 
-| Feature          | Amazon Q           | Microsoft Copilot      | Google Gemini      | GitHub Copilot     | IBM Watsonx      |
+| Feature          | Amazon Q           | [Microsoft Copilot](/ai-chat-bot/microsoft-copilot/)      | [Google Gemini](/ai-chat-bot/google-gemini/)      | [GitHub Copilot](/ai-chat-bot/github-copilot/)     | [IBM Watsonx](/ai-chat-bot/ibm-watsonx-assistant/)      |
 |------------------|--------------------|------------------------|---------------------|--------------------|------------------|
 | Starting Price   | $20/user/month     | $30 per user per month | $30/user/month      | $10 per user per month | Custom pricing   |
 | Code Generation   | Yes                | Yes                    | Yes                 | Yes                | Limited          |

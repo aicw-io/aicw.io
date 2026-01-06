@@ -73,10 +73,10 @@ Different search engines and services operate their own web crawlers. Here's how
 | Crawler | Company | Primary Market | AI Training Use | Market Share |
 |---------|---------|----------------|-----------------|---------------|
 | Naverbot (Yeti) | Naver | South Korea | HyperCLOVA | 50%+ in South Korea |
-| Googlebot | Google | Global | Gemini, other models | 90%+ globally |
-| Bingbot | Microsoft | Global | Models via OpenAI partnership | 3% globally |
-| Yandex Bot | Yandex | Russia, CIS | YandexGPT | 60%+ in Russia |
-| Baiduspider | Baidu | China | ERNIE | 70%+ in China |
+| [Googlebot](/ai-crawler-bot/googlebot/) | Google | Global | [Gemini](/ai-chat-bot/google-gemini/), other models | 90%+ globally |
+| [Bingbot](/ai-crawler-bot/bingbot/) | Microsoft | Global | Models via OpenAI partnership | 3% globally |
+| [Yandex Bot](/ai-crawler-bot/yandexbot/) | Yandex | Russia, CIS | [YandexGPT](/ai-search-engine/yandex-gpt/) | 60%+ in Russia |
+| [Baiduspider](/ai-crawler-bot/baiduspider/) | Baidu | China | [ERNIE](/ai-chat-bot/ernie-bot/) | 70%+ in China |
 
 Managing Naverbot with robots.txt:
 ![Comparing Naverbot to Alternative Crawlers Diagram](/assets/ai-crawler-bot/naverbot/website-robots-check.png)

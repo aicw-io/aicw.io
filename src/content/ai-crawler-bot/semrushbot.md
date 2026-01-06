@@ -69,10 +69,10 @@ The SEO industry relies on multiple crawler bots, each serving different platfor
 | Crawler       | Platform       | Primary Purpose                 | Database Size          | Crawl Frequency    |
 |---------------|----------------|---------------------------------|------------------------|--------------------|
 | SemrushBot    | Semrush        | Backlinks, site audits, SEO data| 43 trillion backlinks  | Daily              |
-| AhrefsBot     | Ahrefs         | Backlink index, SEO metrics     | 35 trillion links      | Every 15-30 min    |
-| Moz DotBot    | Moz            | Domain authority, link data     | 40 trillion links      | Weekly             |
+| [AhrefsBot](/ai-crawler-bot/ahrefsbot/)     | Ahrefs         | Backlink index, SEO metrics     | 35 trillion links      | Every 15-30 min    |
+| Moz [DotBot](/ai-crawler-bot/dotbot/)    | Moz            | Domain authority, link data     | 40 trillion links      | Weekly             |
 | BLEXBot       | BLEX/Majestic  | Link intelligence               | 15 trillion URLs       | Continuous         |
-| Screaming Frog| Desktop tool   | Site audits, technical SEO      | N/A (on-demand)        | User-controlled    |
+| [Screaming Frog](/ai-crawler-bot/screaming-frog/)| Desktop tool   | Site audits, technical SEO      | N/A (on-demand)        | User-controlled    |
 
 AhrefsBot is SemrushBot's biggest competitor with faster update speeds, offering more integrated marketing tools beyond SEO. Moz focuses on Domain Authority, while BLEXBot emphasizes link discovery. Screaming Frog is a desktop application for manual site audits.
 

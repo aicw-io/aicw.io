@@ -163,7 +163,7 @@ SeznamBot is the web crawler for Seznam.cz, the leading Czech search engine. Und
 
 Website owners can manage SeznamBot through robots.txt files, meta tags, and webmaster tools from Seznam. While it operates similarly to other search bots, its regional focus and Czech language improvements make it particularly crucial for local market visibility. Developers should ensure their sites are accessible to SeznamBot for inclusion in Seznam search results.
 
-Compared to global crawlers like Googlebot, SeznamBot has a narrower focus but a deeper understanding of Czech content and user needs. It continues to improve with AI enhancements for content quality evaluation and spam detection. For businesses serving Czech markets, optimizing for SeznamBot alongside other search engines offers the best overall search visibility.
+Compared to global crawlers like [Googlebot](/ai-crawler-bot/googlebot/), SeznamBot has a narrower focus but a deeper understanding of Czech content and user needs. It continues to improve with AI enhancements for content quality evaluation and spam detection. For businesses serving Czech markets, optimizing for SeznamBot alongside other search engines offers the best overall search visibility.
 <h2>Frequently Asked Questions</h2>
 
 <details>

@@ -37,7 +37,7 @@ DeepMind, a subsidiary of Alphabet Inc., is a leading AI company known for devel
 
 ![DeepSeek Search: The Future of AI Search Engines Diagram](/assets/ai-search-engine/deepseek/deepseek-products-deepseek.png)
 
-Google's Gemini 3, released in November 2025, is an AI-powered search engine that leverages [advanced AI models to deliver precise and relevant search results](https://apnews.com/article/9d584d1be428bf5d0a98ecd411c6d23e). Its efficiency in understanding and generating text sets it apart as a leader in the field of AI search.
+Google's [Gemini](/ai-chat-bot/google-gemini/) 3, released in November 2025, is an AI-powered search engine that leverages [advanced AI models to deliver precise and relevant search results](https://apnews.com/article/9d584d1be428bf5d0a98ecd411c6d23e). Its efficiency in understanding and generating text sets it apart as a leader in the field of AI search.
 
 <a id="deepseeks-key-ai-models"></a>
 

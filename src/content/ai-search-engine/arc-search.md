@@ -134,8 +134,8 @@ Here's how Arc Search measures against other AI search tools:
 | Tool        | Main Feature   | Best For           |
 |-------------|----------------|--------------------|
 | Arc Search  | Auto browsing  | Quick summaries    |
-| Perplexity  | Direct answers | Deep research      |
-| You.com     | Chat search    | General use        |
+| [Perplexity](/ai-chat-bot/perplexity/)  | Direct answers | Deep research      |
+| [You.com](/ai-search-engine/you-com/)     | Chat search    | General use        |
 | Neeva       | No ads         | Privacy focus      |
 
 <a id="latest-updates"></a>

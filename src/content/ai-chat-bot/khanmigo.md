@@ -62,7 +62,7 @@ Several AI tutoring platforms have emerged alongside Khanmigo, each with a disti
 | Khanmigo | GPT-4 | $44/year | Socratic method, teacher tools, safety monitoring | K-12 students and teachers |
 | Tutor.AI | GPT-3.5/4 | Free tier, $10/month premium | Subject-specific tutoring, instant answers | High school and college |
 | Quizlet Q-Chat | GPT-4 | Included in Quizlet Plus ($35.99/year) | Study help based on flashcard sets | High school and college |
-| Duolingo Max | GPT-4 | $29.99/month | Language learning with AI explanations | Language learners of all ages |
+| [Duolingo Max](/ai-chat-bot/duolingo-max/) | GPT-4 | $29.99/month | Language learning with AI explanations | Language learners of all ages |
 | Brainly Tutor | Proprietary AI | $24/month | Homework help with step-by-step solutions | Middle and high school |
 | Photomath | Proprietary AI | Free basic, $9.99/month premium | Math problem solving via photo | K-12 math students |
 

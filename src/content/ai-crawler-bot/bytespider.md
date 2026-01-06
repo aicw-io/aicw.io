@@ -14,7 +14,7 @@ keywords: "Bytespider, ByteDance crawler, AI training bot, TikTok AI, Doubao LLM
 
 ## What is Bytespider
 
-Bytespider, a web crawler operated by ByteDance, the Chinese tech company behind TikTok and other popular apps, actively scans websites across the internet to collect data. The primary purpose is training Doubao, ByteDance's large language model, akin to ChatGPT or Claude.
+Bytespider, a web crawler operated by ByteDance, the Chinese tech company behind TikTok and other popular apps, actively scans websites across the internet to collect data. The primary purpose is training Doubao, ByteDance's large language model, akin to [ChatGPT](/ai-chat-bot/chatgpt/) or [Claude](/ai-chat-bot/claude/).
 
 Web crawlers like Bytespider exist because AI models need massive amounts of text data to learn language patterns. Companies deploy these bots to gather training material from publicly accessible websites. ByteDance uses Bytespider to build datasets for its AI products and services, such as the TikTok AI.
 
@@ -101,14 +101,14 @@ Bytespider is just one of many AI training crawlers active on the web. Understan
 | Crawler | Company | Primary Purpose | Crawl Rate | Robots.txt Compliance | Geographic Focus |
 |---------|---------|-----------------|------------|----------------------|------------------|
 | Bytespider | ByteDance | Doubao LLM training | High to Very High | Mixed reports | Global |
-| GPTBot | OpenAI | ChatGPT training | Moderate | Generally good | Global |
-| Google-Extended | Google | Bard/Gemini training | Moderate | Good | Global |
-| CCBot | Common Crawl | Public datasets | Moderate | Good | Global |
-| ClaudeBot | Anthropic | Claude training | Low to Moderate | Good | Global |
+| [GPTBot](/ai-crawler-bot/gptbot/) | OpenAI | ChatGPT training | Moderate | Generally good | Global |
+| [Google-Extended](/ai-crawler-bot/google-extended/) | Google | Bard/[Gemini](/ai-chat-bot/google-gemini/) training | Moderate | Good | Global |
+| CCBot | [Common Crawl](/ai-crawler-bot/ccbot/) | Public datasets | Moderate | Good | Global |
+| [ClaudeBot](/ai-crawler-bot/claudebot/) | Anthropic | Claude training | Low to Moderate | Good | Global |
 
 Bytespider tends to crawl more aggressively than GPTBot or ClaudeBot based on webmaster reports. OpenAI and Anthropic seem more cautious about server load and respect crawl-delay settings more consistently.
 
-Google-Extended is newer and designed specifically for AI training separate from regular Googlebot. It has shown better adherence to robots.txt than Bytespider.
+Google-Extended is newer and designed specifically for AI training separate from regular [Googlebot](/ai-crawler-bot/googlebot/). It has shown better adherence to robots.txt than Bytespider.
 
 CCBot from Common Crawl provides public datasets and is non-commercial. Many website owners feel more comfortable allowing it because the data becomes freely available rather than locked in a commercial product.
 

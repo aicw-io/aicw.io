@@ -75,9 +75,9 @@ Slackbot isn't the only link preview crawler out there. Many messaging and socia
 | Service          | User-Agent                           | JavaScript Support | Customization          | Preview Format        |
 |------------------|--------------------------------------|--------------------|------------------------|------------------------|
 | Slackbot         | Slackbot-LinkExpanding 1.0           | No                 | Workspace admin controls | Rich cards with images |
-| Discord          | Mozilla/5.0 (compatible; Discordbot/2.0) | Limited            | Server permissions      | Embed cards            |
+| Discord          | Mozilla/5.0 (compatible; [Discordbot](/ai-crawler-bot/discordbot/)/2.0) | Limited            | Server permissions      | Embed cards            |
 | Microsoft Teams  | Microsoft Teams                      | No                 | Admin policies          | Cards with metadata    |
-| Telegram         | TelegramBot                          | No                 | None                   | Simple preview         |
+| Telegram         | [TelegramBot](/ai-crawler-bot/telegrambot/)                          | No                 | None                   | Simple preview         |
 | WhatsApp         | WhatsApp/2.0                         | No                 | None                   | Basic title and image  |
 
 Slackbot offers more strong customization options compared to WhatsApp or Telegram. Workspace administrators can control unfurling behavior at the domain level and even disable it for specific channels. Discord and Microsoft Teams offer similar flexibility but with different interface approaches.

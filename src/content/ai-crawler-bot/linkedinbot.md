@@ -59,12 +59,12 @@ Different social platforms employ various crawlers for link previews, each with 
 | Crawler        | Platform    | User-Agent                     | Image Size    | Special Requirements            |
 |----------------|-------------|--------------------------------|---------------|---------------------------------|
 | LinkedInBot    | LinkedIn    | LinkedInBot/1.0                | 1200x627px    | Open Graph tags preferred       |
-| Facebookbot    | Facebook    | facebookexternalhit/1.1       | 1200x630px    | Requires og:image               |
-| Twitterbot     | Twitter/X   | Twitterbot/1.0                | 1200x675px    | Twitter Card tags               |
-| Slackbot       | Slack       | Slackbot-LinkExpanding         | 800x400px     | Basic meta tags sufficient      |
-| Discordbot     | Discord     | Discordbot/2.0                | Variable       | Flexible with formats           |
+| [Facebookbot](/ai-crawler-bot/facebookbot/)    | Facebook    | [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/)/1.1       | 1200x630px    | Requires og:image               |
+| [Twitterbot](/ai-crawler-bot/twitterbot/)     | Twitter/X   | Twitterbot/1.0                | 1200x675px    | Twitter Card tags               |
+| [Slackbot](/ai-crawler-bot/slackbot/)       | Slack       | Slackbot-LinkExpanding         | 800x400px     | Basic meta tags sufficient      |
+| [Discordbot](/ai-crawler-bot/discordbot/)     | Discord     | Discordbot/2.0                | Variable       | Flexible with formats           |
 
-LinkedInBot is more stringent regarding image dimensions compared to some alternatives. It also caches previews more aggressively than Twitter or Facebook. Once LinkedIn generates a preview, it stores it for a while. Updating Open Graph tags does not instantly change existing previews without using the Post Inspector tool to force a refresh. The bot crawls less frequently than Googlebot or other search engine crawlers, only visiting pages when shared on LinkedIn.
+LinkedInBot is more stringent regarding image dimensions compared to some alternatives. It also caches previews more aggressively than Twitter or Facebook. Once LinkedIn generates a preview, it stores it for a while. Updating Open Graph tags does not instantly change existing previews without using the Post Inspector tool to force a refresh. The bot crawls less frequently than [Googlebot](/ai-crawler-bot/googlebot/) or other search engine crawlers, only visiting pages when shared on LinkedIn.
 
 ## Common Issues with LinkedInBot Access
 

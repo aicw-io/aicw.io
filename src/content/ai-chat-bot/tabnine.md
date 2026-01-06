@@ -44,7 +44,7 @@ Tabnine offers several pricing tiers to accommodate various user needs. The Star
 
 Several AI code completion tools compete with Tabnine, each with different strengths. Here's how Tabnine compares to five major alternatives.
 
-| Feature                  | Tabnine | GitHub Copilot | Amazon CodeWhisperer | Codeium | Replit Ghostwriter |
+| Feature                  | Tabnine | [GitHub Copilot](/ai-chat-bot/github-copilot/) | [Amazon CodeWhisperer](/ai-chat-bot/amazon-codewhisperer/) | [Codeium](/ai-chat-bot/codeium/) | Replit Ghostwriter |
 |--------------------------|---------|----------------|----------------------|---------|--------------------|
 | On-Premise Deployment    | Yes     | No             | No                   | No      | No                 |
 | SOC 2 Certified          | Yes     | Yes            | Yes                  | No      | No                 |

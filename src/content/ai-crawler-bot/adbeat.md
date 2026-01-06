@@ -20,7 +20,7 @@ AdBeat serves both agencies and in-house marketing teams that need **competitive
 
 ## How AdBeat's Crawler Works
 
-The AdBeat crawler is a bot that visits websites to record advertising data. It works similarly to how search engine crawlers like Googlebot visit sites to index content. The **ad crawler** identifies itself through specific user-agent strings in its HTTP requests. When AdBeat's bot visits a webpage, it loads the page just like a regular browser would. The system then captures screenshots and records details about the ads that appear on that page. This includes the ad creative, the advertiser, the ad network being used, and placement information. 
+The AdBeat crawler is a bot that visits websites to record advertising data. It works similarly to how search engine crawlers like [Googlebot](/ai-crawler-bot/googlebot/) visit sites to index content. The **ad crawler** identifies itself through specific user-agent strings in its HTTP requests. When AdBeat's bot visits a webpage, it loads the page just like a regular browser would. The system then captures screenshots and records details about the ads that appear on that page. This includes the ad creative, the advertiser, the ad network being used, and placement information. 
 
 
 AdBeat Data Collection Process:

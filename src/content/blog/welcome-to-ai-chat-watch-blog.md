@@ -14,7 +14,7 @@ Welcome to the AI Chat Watch blog! We're excited to share insights about trackin
 
 ## Why AI Traffic Matters
 
-AI chatbots like ChatGPT, Claude, Perplexity, and Gemini are becoming primary discovery channels. When users ask these AI assistants for recommendations, **being visible and getting cited means real traffic to your website**.
+AI chatbots like [ChatGPT](/ai-chat-bot/chatgpt/), [Claude](/ai-chat-bot/claude/), [Perplexity](/ai-chat-bot/perplexity/), and [Gemini](/ai-chat-bot/google-gemini/) are becoming primary discovery channels. When users ask these AI assistants for recommendations, **being visible and getting cited means real traffic to your website**.
 
 But how do you know if AI is sending you visitors? Traditional analytics can't tell you which traffic comes from AI chatbot recommendations.
 

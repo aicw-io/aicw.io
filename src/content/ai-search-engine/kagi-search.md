@@ -16,7 +16,7 @@ keywords: "Kagi Search, ad-free search engine, privacy search, paid search engin
 
 ## What Is Kagi Search
 
-Launched in 2022 by Vladimir Prelovac, Kagi Search is a Palo Alto-based paid search engine that emphasizes user privacy by offering ad-free search. The name "Kagi," meaning "key" in Japanese, reflects its mission to unlock a private search experience. Users pay a subscription fee to receive search results without advertisements, tracking cookies, or data collection. This privacy search engine targets users frustrated with ad-heavy results on platforms like Google and DuckDuckGo. Kagi has gained traction, now serving over 100,000 users who perform millions of monthly searches across desktop and mobile browsers, integrating seamlessly with Kagi's Orion browser.
+Launched in 2022 by Vladimir Prelovac, Kagi Search is a Palo Alto-based paid search engine that emphasizes user privacy by offering ad-free search. The name "Kagi," meaning "key" in Japanese, reflects its mission to unlock a private search experience. Users pay a subscription fee to receive search results without advertisements, tracking cookies, or data collection. This privacy search engine targets users frustrated with ad-heavy results on platforms like Google and [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/). Kagi has gained traction, now serving over 100,000 users who perform millions of monthly searches across desktop and mobile browsers, integrating seamlessly with Kagi's Orion browser.
 
 <a id="why-paid-search-exists-and-kagis-purpose"></a>
 

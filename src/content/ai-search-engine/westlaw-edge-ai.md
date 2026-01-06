@@ -47,7 +47,7 @@ Typical Workflow for Law Firms:
 ![Key Features and Comparisons Diagram](/assets/ai-search-engine/westlaw-edge-ai/legal-question-assisted.png)
 
 
-| Features           | Westlaw Edge AI  | Lexis+ AI       |
+| Features           | Westlaw Edge AI  | [Lexis+ AI](/ai-search-engine/lexis-plus-ai/)       |
 |--------------------|-----------------|-----------------|
 | AI-Assistance      | Yes             | Yes             |
 | Citation Analysis  | Yes (KeyCite)   | Yes             |

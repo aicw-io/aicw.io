@@ -14,7 +14,7 @@ keywords: "Cohere training data, AI crawlers, bulk data collection, Cohere bot, 
 
 ## What Is Cohere and Why Training Data Matters
 
-Cohere is an [AI company](https://cohere.com/about) that builds large language models for businesses and developers. They offer AI tools that aid in text generation, classification, and search, enabling businesses to [deploy chatbots, search engines, copywriting, summarization, and other AI-driven products](https://en.wikipedia.org/wiki/Cohere). For Cohere, massive amounts of text data are essential to train their models. This is where their **Cohere training data** crawler comes into play. The crawler automatically visits websites, conducting **bulk data collection** of text content. This collected data becomes part of the **machine learning datasets** that enhance Cohere's AI models. Understanding how this **training data crawler** works is crucial for website owners and developers. It's imperative to be aware of the data being collected from your site and how to control [it, especially considering the legal implications of AI data collection](https://www.axios.com/2025/02/13/publishers-sue-cohere-ai-copyright). The **web scraping AI** operates separately from Cohere's general AI bot services, which is important since they have different management requirements.
+[Cohere](/ai-chat-bot/cohere-command/) is an [AI company](https://cohere.com/about) that builds large language models for businesses and developers. They offer AI tools that aid in text generation, classification, and search, enabling businesses to [deploy chatbots, search engines, copywriting, summarization, and other AI-driven products](https://en.wikipedia.org/wiki/Cohere). For Cohere, massive amounts of text data are essential to train their models. This is where their **Cohere training data** crawler comes into play. The crawler automatically visits websites, conducting **bulk data collection** of text content. This collected data becomes part of the **machine learning datasets** that enhance Cohere's AI models. Understanding how this **training data crawler** works is crucial for website owners and developers. It's imperative to be aware of the data being collected from your site and how to control [it, especially considering the legal implications of AI data collection](https://www.axios.com/2025/02/13/publishers-sue-cohere-ai-copyright). The **web scraping AI** operates separately from Cohere's general AI bot services, which is important since they have different management requirements.
 
 ## The Difference Between Cohere's Crawler and Their AI Bot
 
@@ -47,10 +47,10 @@ Cohere isn't alone in running **AI crawlers**. Multiple companies operate simila
 | Company      | Crawler Name    | Primary Purpose          | Respects Robots.txt | Opt-out Available |
 |--------------|-----------------|--------------------------|---------------------|-------------------|
 | Cohere       | cohere-crawl    | Training data collection | Yes                 | Via robots.txt    |
-| OpenAI       | GPTBot          | Training data collection | Yes                 | Via robots.txt    |
-| Anthropic    | anthropic-ai    | Training data collection | Yes                 | Via robots.txt    |
-| Google       | Google-Extended | AI training (separate)   | Yes                 | Via robots.txt    |
-| Common Crawl | CCBot           | Public dataset creation  | Yes                 | Via robots.txt    |
+| OpenAI       | [GPTBot](/ai-crawler-bot/gptbot/)          | Training data collection | Yes                 | Via robots.txt    |
+| Anthropic    | [anthropic-ai](/ai-crawler-bot/anthropic-ai/)    | Training data collection | Yes                 | Via robots.txt    |
+| Google       | [Google-Extended](/ai-crawler-bot/google-extended/) | AI training (separate)   | Yes                 | Via robots.txt    |
+| [Common Crawl](/ai-crawler-bot/ccbot/) | CCBot           | Public dataset creation  | Yes                 | Via robots.txt    |
 
 Website Owner Control Options:
 ![Comparing AI Training Data Crawlers Diagram](/assets/ai-crawler-bot/cohere-training-data-crawler/your-website-robots.png)

@@ -88,13 +88,13 @@ GitHub Copilot accelerates coding tasks, such as:
 
 ## Comparison with Alternative AI Coding Assistants
 
-Here's how GitHub Copilot compares to alternatives like Cursor, Codeium, Tabnine, and Amazon CodeWhisperer:
+Here's how GitHub Copilot compares to alternatives like Cursor, [Codeium](/ai-chat-bot/codeium/), [Tabnine](/ai-chat-bot/tabnine/), and [Amazon CodeWhisperer](/ai-chat-bot/amazon-codewhisperer/):
 
 | Feature | GitHub Copilot | Cursor | Codeium | Tabnine | Amazon CodeWhisperer |
 |---------|---------------|---------|----------|----------|----------------------|
 | Base Model | GPT-4/Codex | GPT-4 | Proprietary | Proprietary | CodeWhisperer |
 | Monthly Cost | $10 | $20 | Free tier, $12 Pro | Free tier, $12 Pro | Free |
-| IDE Support | VS Code, JetBrains, Neovim | Cursor IDE only | VS Code, JetBrains, many others | VS Code, JetBrains, many others | VS Code, JetBrains, AWS Cloud9 |
+| IDE Support | VS Code, JetBrains, Neovim | [Cursor IDE](/ai-chat-bot/cursor/) only | VS Code, JetBrains, many others | VS Code, JetBrains, many others | VS Code, JetBrains, AWS Cloud9 |
 | Chat Feature | Yes | Yes | Yes | Yes (Pro) | Yes |
 | Enterprise Option | Yes ($39) | Yes (custom) | Yes (custom) | Yes (custom) | Yes (custom) |
 | Offline Mode | No | No | No | Yes (Pro) | No |

@@ -73,7 +73,7 @@ Several AI companion apps compete with Replika in the market, each offering diff
 | App Name | Key Features | Pricing Model | Main Difference |
 |----------|--------------|---------------|-----------------|
 | Replika | Personalization, voice calls, AR features | Free + $19.99/month Pro | Strong focus on relationship building |
-| Character.AI | Multiple AI characters, community-created bots | Free with limited features | Wide variety of character personalities |
+| [Character.AI](/ai-chat-bot/character-ai/) | Multiple AI characters, community-created bots | Free with limited features | Wide variety of character personalities |
 | Anima | Romantic focus, roleplay, selfies | Free + $9.99/month premium | Emphasis on romantic relationships |
 | Chai | Multiple bots, swipe interface | Free + $13.99/month premium | Social feed with various AI personalities |
 

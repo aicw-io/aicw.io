@@ -90,7 +90,7 @@ ChatGPT Subscription Tiers:
 
 Several AI chatbots compete with ChatGPT:
 
-| Feature | ChatGPT | Claude | Gemini | Copilot | Perplexity |
+| Feature | ChatGPT | [Claude](/ai-chat-bot/claude/) | [Gemini](/ai-chat-bot/google-gemini/) | [Copilot](/ai-chat-bot/microsoft-copilot/) | [Perplexity](/ai-chat-bot/perplexity/) |
 |---------|---------|--------|--------|---------|------------|
 | Free Tier | GPT-3.5, GPT-4o mini | Limited messages | Yes | Limited | Yes |
 | Paid Price | $20/month | $20/month | $20/month | $20/month | $20/month |

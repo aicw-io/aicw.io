@@ -35,7 +35,7 @@ Many businesses use SearXNG to ensure employee privacy. Developers might install
 <a id="facts-and-comparisons"></a>
 
 ## Facts and Comparisons
-SearXNG does not track users. Similar metasearch engines include DuckDuckGo, StartPage, and Mojeek. Compared to them, SearXNG allows self-hosting. Here’s a brief comparison:
+SearXNG does not track users. Similar metasearch engines include [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/), [StartPage](/ai-search-engine/startpage/), and [Mojeek](/ai-search-engine/mojeek/). Compared to them, SearXNG allows self-hosting. Here’s a brief comparison:
 
 | Feature        | SearXNG  | DuckDuckGo | StartPage | Mojeek  |
 |----------------|----------|------------|-----------|---------|

@@ -30,7 +30,7 @@ The CocCoc user-agent string identifies the Vietnamese search crawler when visit
 
 Variations such as `coccocbot-image` indicate image crawling. The user-agent includes a link to Coc Coc's help documentation, giving webmasters guidelines on the crawler and its verification methods.
 
-Web developers should control CocCocBot's access via the robots.txt file. The crawler respects standard directives, allowing or disallowing specific paths like Googlebot or Bingbot. Server logs will show requests from IP addresses registered to Coc Coc Corporation in Vietnam.
+Web developers should control CocCocBot's access via the robots.txt file. The crawler respects standard directives, allowing or disallowing specific paths like [Googlebot](/ai-crawler-bot/googlebot/) or [Bingbot](/ai-crawler-bot/bingbot/). Server logs will show requests from IP addresses registered to Coc Coc Corporation in Vietnam.
 
 ## Why CocCocBot Exists and Its Purpose
 
@@ -73,8 +73,8 @@ CocCocBot operates in a market dominated by international crawlers. Understandin
 | CocCocBot | Vietnam | Vietnamese | Medium | Local business focus |
 | Googlebot | Global | Multi-language | High | Advanced AI indexing |
 | Bingbot | Global | Multi-language | Medium | Ties with Microsoft services |
-| Baiduspider | China | Chinese | High | Chinese market optimization |
-| Yandex Bot | Russia/CIS | Russian/Cyrillic | High | Russian language focus |
+| [Baiduspider](/ai-crawler-bot/baiduspider/) | China | Chinese | High | Chinese market optimization |
+| [Yandex Bot](/ai-crawler-bot/yandexbot/) | Russia/CIS | Russian/Cyrillic | High | Russian language focus |
 
 Googlebot is globally sophisticated with advanced infrastructure. While CocCocBot doesn't match Google's scale, it offers better local context understanding for Vietnamese content.
 

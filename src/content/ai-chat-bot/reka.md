@@ -45,7 +45,7 @@ Reka's Core family includes three primary models: the flagship Reka Core, the sp
 
 ## Comparison with Leading AI Models
 
-| Feature                | Reka Core | GPT-4V | Gemini Pro | Claude 3 Opus | Qwen-VL |
+| Feature                | Reka Core | GPT-4V | [Gemini Pro](/ai-chat-bot/google-gemini/) | [Claude 3 Opus](/ai-chat-bot/claude/) | [Qwen](/ai-chat-bot/qwen/)-VL |
 |------------------------|-----------|--------|------------|---------------|---------|
 | Text Input             | Yes       | Yes    | Yes        | Yes           | Yes     |
 | Image Input            | Yes       | Yes    | Yes        | Yes           | Yes     |

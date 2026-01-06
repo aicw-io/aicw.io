@@ -14,11 +14,11 @@ keywords: "PerplexityBot, Perplexity AI crawler, block PerplexityBot, AI web cra
 
 ## What is PerplexityBot
 
-PerplexityBot is the web crawler operated by Perplexity AI. This AI web crawler scans and indexes web content to power Perplexity AI's search engine. Web crawlers like PerplexityBot exist because AI search engines need fresh data to provide accurate answers to user queries. Without crawlers, these services would lack current information from across the internet.
+PerplexityBot is the web crawler operated by [Perplexity AI](/ai-chat-bot/perplexity/). This AI web crawler scans and indexes web content to power Perplexity AI's search engine. Web crawlers like PerplexityBot exist because AI search engines need fresh data to provide accurate answers to user queries. Without crawlers, these services would lack current information from across the internet.
 
-The bot identifies itself with a specific user-agent string when it visits websites, allowing webmasters to track its activity and control access through standard web protocols. Perplexity AI launched this crawler to build and maintain its search index, similar to how Google uses [Googlebot](https://en.wikipedia.org/wiki/Googlebot) or Bing uses Bingbot.
+The bot identifies itself with a specific user-agent string when it visits websites, allowing webmasters to track its activity and control access through standard web protocols. Perplexity AI launched this crawler to build and maintain its search index, similar to how Google uses [Googlebot](https://en.wikipedia.org/wiki/Googlebot) or Bing uses [Bingbot](/ai-crawler-bot/bingbot/).
 
-PerplexityBot works alongside another identifier called Perplexity-User. The crawler supports the company's mission to provide real-time answers by accessing publicly available web content. This operation has sparked discussions about data usage and website owner rights. Understanding how this bot functions helps site owners make informed decisions about allowing or blocking PerplexityBot’s access.
+PerplexityBot works alongside another identifier called [Perplexity-User](/ai-crawler-bot/perplexity-user/). The crawler supports the company's mission to provide real-time answers by accessing publicly available web content. This operation has sparked discussions about data usage and website owner rights. Understanding how this bot functions helps site owners make informed decisions about allowing or blocking PerplexityBot’s access.
 
 PerplexityBot Architecture:
 ![What is PerplexityBot Diagram](/assets/ai-crawler-bot/perplexitybot/content-perplexitybot-crawler.png)
@@ -182,7 +182,7 @@ PerplexityBot serves as the web scraping bot for Perplexity AI's search service.
 
 Website owners can control PerplexityBot through robots.txt directives, server-level blocking, or firewall rules. The crawler has faced controversies about respecting access restrictions and using publisher content without compensation. Understanding the difference between PerplexityBot and Perplexity-User helps site administrators implement appropriate access controls.
 
-Compared to other AI crawlers like GPTBot, ClaudeBot, and Google-Extended, PerplexityBot serves a dual purpose that creates unique challenges. Site owners must decide whether allowing access serves their interests or whether blocking protects their content and business model. Regular monitoring and clear policies help manage these crawlers effectively as AI search continues growing in importance.
+Compared to other AI crawlers like [GPTBot](/ai-crawler-bot/gptbot/), [ClaudeBot](/ai-crawler-bot/claudebot/), and [Google-Extended](/ai-crawler-bot/google-extended/), PerplexityBot serves a dual purpose that creates unique challenges. Site owners must decide whether allowing access serves their interests or whether blocking protects their content and business model. Regular monitoring and clear policies help manage these crawlers effectively as AI search continues growing in importance.
 <h2>Frequently Asked Questions</h2>
 
 <details>

@@ -64,9 +64,9 @@ Understanding different platform crawlers helps optimize cross-platform content.
 | Platform  | Primary User-Agent        | Metadata Preference       | Image Requirements       | Refresh Rate        |
 |-----------|---------------------------|---------------------------|--------------------------|---------------------|
 | Snapchat  | Snapchat Ads/1.0          | Open Graph, Twitter Cards | 1200x630px minimum       | On-demand, cached   |
-| Facebook  | facebookexternalhit       | Open Graph                | 1200x630px recommended   | Every 30 days       |
-| Twitter   | Twitterbot                | Twitter Cards, Open Graph | 800x418px minimum        | On-demand, cached   |
-| LinkedIn  | LinkedInBot               | Open Graph                | 1200x627px recommended   | Every 7 days        |
+| Facebook  | [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/)       | Open Graph                | 1200x630px recommended   | Every 30 days       |
+| Twitter   | [Twitterbot](/ai-crawler-bot/twitterbot/)                | Twitter Cards, Open Graph | 800x418px minimum        | On-demand, cached   |
+| LinkedIn  | [LinkedInBot](/ai-crawler-bot/linkedinbot/)               | Open Graph                | 1200x627px recommended   | Every 7 days        |
 | WhatsApp  | WhatsApp                  | Open Graph                | 300x200px minimum        | Real-time, minimal  |
 
 Facebook's crawler updates caches aggressively and offers a cache refresh tool. Twitter prioritizes Twitter Card tags but falls back on Open Graph. LinkedIn refreshes more often than most platforms. WhatsApp's real-time previews can increase server load. Snapchat's approach balances freshness and server efficiency. All crawlers respect robots.txt and meta robots tags, looking for similar metadata while prioritizing different formats. Using the largest recommended image size (1200x630px) ensures good cross-platform display. Platforms often extract favicon images for additional branding in previews.

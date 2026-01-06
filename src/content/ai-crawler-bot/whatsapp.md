@@ -22,7 +22,7 @@ The WhatsApp link preview crawler is an automated bot that fetches webpage conte
 
 ## Meta's Crawler Infrastructure and Ownership
 
-Meta acquired WhatsApp in 2014, making it part of a family of apps that includes Facebook, Instagram, and Messenger, all of which use similar crawler technology for link preview generation. The Facebook crawler, formerly Facebookbot, shares infrastructure with WhatsApp's crawler. They use similar user agent patterns and follow comparable protocols. Meta's unified approach to web crawling means improvements to Facebook's crawler often benefit WhatsApp previews as well. As some of the most active web crawlers globally, Meta's crawlers process millions of URLs daily, supported by massive data centers. This frequent site visit means website owners can expect regular visits from [Meta's crawlers if their content is shared on Meta platforms](https://www.macrumors.com/2020/10/26/link-previews-may-lead-to-security-vulnerabilities/).
+Meta acquired WhatsApp in 2014, making it part of a family of apps that includes Facebook, Instagram, and Messenger, all of which use similar crawler technology for link preview generation. The Facebook crawler, formerly [Facebookbot](/ai-crawler-bot/facebookbot/), shares infrastructure with WhatsApp's crawler. They use similar user agent patterns and follow comparable protocols. Meta's unified approach to web crawling means improvements to Facebook's crawler often benefit WhatsApp previews as well. As some of the most active web crawlers globally, Meta's crawlers process millions of URLs daily, supported by massive data centers. This frequent site visit means website owners can expect regular visits from [Meta's crawlers if their content is shared on Meta platforms](https://www.macrumors.com/2020/10/26/link-previews-may-lead-to-security-vulnerabilities/).
 
 ## How URL Unfurling Works in WhatsApp
 
@@ -67,10 +67,10 @@ Here's how WhatsApp's crawler compares to major alternatives:
 | Platform | User Agent | Primary Metadata | Image Size | JavaScript Support | Cache Duration |
 |----------|------------|------------------|------------|--------------------|----------------|
 | WhatsApp | WhatsApp/2.x | Open Graph | 300x200 min | No | 7-30 days |
-| Telegram | TelegramBot | Open Graph | 400x400 min | No | 24 hours |
-| Slack | Slackbot | Open Graph | 512x512 min | Limited | 4 hours |
+| Telegram | [TelegramBot](/ai-crawler-bot/telegrambot/) | Open Graph | 400x400 min | No | 24 hours |
+| Slack | [Slackbot](/ai-crawler-bot/slackbot/) | Open Graph | 512x512 min | Limited | 4 hours |
 | Discord | Mozilla/5.0 Discord | Open Graph | 320x320 min | No | Variable |
-| iMessage | AppleBot | App Links | 300x300 min | Limited | Unknown |
+| iMessage | [AppleBot](/ai-crawler-bot/applebot/) | App Links | 300x300 min | Limited | Unknown |
 
 WhatsApp's crawler is more conservative than some alternatives, as it does not support JavaScript execution, meaning changing content may not appear in previews. Telegram's bot refreshes previews more frequently. Slack offers limited JavaScript support, and Discord's cache depends on engagement. iMessage uses Apple's AppleBot, prioritizing App Links metadata. All these crawlers have varying degrees of respect for robots.txt. For maximum compatibility across platforms, implement complete Open Graph tags.
 

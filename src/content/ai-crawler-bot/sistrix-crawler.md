@@ -93,9 +93,9 @@ SISTRIX compares favorably with other SEO tools in both European and global mark
 | Tool | Primary Market | Crawler Name | Key Metric | European Focus |
 |------|---------------|--------------|------------|----------------|
 | SISTRIX | Germany/Europe | SISTRIX Crawler | Visibility Index | Very Strong |
-| SEMrush | Global/USA | SEMrushBot | Traffic Score | Moderate |
-| Ahrefs | Global | AhrefsBot | Domain Rating | Moderate |
-| Moz | USA/Global | rogerbot/dotbot | Domain Authority | Weak |
+| SEMrush | Global/USA | [SEMrushBot](/ai-crawler-bot/semrushbot/) | Traffic Score | Moderate |
+| Ahrefs | Global | [AhrefsBot](/ai-crawler-bot/ahrefsbot/) | Domain Rating | Moderate |
+| Moz | USA/Global | [rogerbot](/ai-crawler-bot/rogerbot/)/[dotbot](/ai-crawler-bot/dotbot/) | Domain Authority | Weak |
 | Searchmetrics | Germany/Global | Searchmetrics Bot | Search Experience | Strong |
 
 SISTRIX stands out for its deep European market data and trusted SEO visibility index, making it particularly useful for businesses focused on German-language SEO.

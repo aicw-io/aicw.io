@@ -16,7 +16,7 @@ keywords: "Naver Cue, HyperCLOVA X, Korean AI search, Naver AI, Korean language 
 
 ## What is Naver Cue
 
-Naver Cue, launched in 2023, is Naver's AI-driven response to tools like ChatGPT and Google's AI search features. Integrating directly into Naver's search engine, it employs HyperCLOVA X as its language model. Unlike standalone chatbots, Naver Cue functions within the familiar search interface known to Korean users. Queries in Naver search yield AI-generated answers alongside traditional results, handling follow-up questions while maintaining context. Tailored for Korean language and culture, it surpasses global AI tools by connecting to Naver's comprehensive database of Korean news, blogs, forums, and more.
+Naver Cue, launched in 2023, is Naver's AI-driven response to tools like [ChatGPT](/ai-chat-bot/chatgpt/) and Google's AI search features. Integrating directly into Naver's search engine, it employs HyperCLOVA X as its language model. Unlike standalone chatbots, Naver Cue functions within the familiar search interface known to Korean users. Queries in Naver search yield AI-generated answers alongside traditional results, handling follow-up questions while maintaining context. Tailored for Korean language and culture, it surpasses global AI tools by connecting to Naver's comprehensive database of Korean news, blogs, forums, and more.
 
 <a id="understanding-hyperclova-x-language-model"></a>
 

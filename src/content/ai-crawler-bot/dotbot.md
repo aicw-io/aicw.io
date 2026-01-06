@@ -65,9 +65,9 @@ Several companies operate similar crawlers for SEO analysis purposes. Here's how
 | Crawler | Company | Primary Use | Index Size | User-Agent |
 |---------|---------|-------------|------------|------------|
 | DotBot | Moz | Link analysis, DA calculation | 43+ billion URLs | DotBot/1.2 |
-| AhrefsBot | Ahrefs | Backlink index, SEO metrics | 400+ billion pages | AhrefsBot |
-| SemrushBot | Semrush | SEO analysis, competitor research | 43+ billion URLs | SemrushBot |
-| MJ12bot | Majestic | Link intelligence, Trust Flow | 400+ billion URLs | MJ12bot |
+| [AhrefsBot](/ai-crawler-bot/ahrefsbot/) | Ahrefs | Backlink index, SEO metrics | 400+ billion pages | AhrefsBot |
+| [SemrushBot](/ai-crawler-bot/semrushbot/) | Semrush | SEO analysis, competitor research | 43+ billion URLs | SemrushBot |
+| [MJ12bot](/ai-crawler-bot/mj12bot-majestic-seo-crawler/) | Majestic | Link intelligence, Trust Flow | 400+ billion URLs | MJ12bot |
 | BLEXBot | BLEXBot/Webmeup | Backlink analysis | Not disclosed | BLEXBot |
 
 Managing DotBot Access:

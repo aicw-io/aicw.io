@@ -22,7 +22,7 @@ TelegramBot Link Preview Process:
 ![What is TelegramBot and How Does It Work Diagram](/assets/ai-crawler-bot/telegrambot/user-shares-telegrambot.png)
 
 
-TelegramBot is the official web crawler operated by Telegram Messenger, responsible for generating link previews when URLs are shared within the app. Its primary role is generating link previews for URLs shared in conversations. When someone pastes a link into a Telegram chat, Telegram sends TelegramBot to visit the webpage and extract relevant information. This crawler identifies itself with a specific user-agent string in server logs: "TelegramBot (like TwitterBot)". Variations include version numbers, but the core identifier is consistent.
+TelegramBot is the official web crawler operated by Telegram Messenger, responsible for generating link previews when URLs are shared within the app. Its primary role is generating link previews for URLs shared in conversations. When someone pastes a link into a Telegram chat, Telegram sends TelegramBot to visit the webpage and extract relevant information. This crawler identifies itself with a specific user-agent string in server logs: "TelegramBot (like [TwitterBot](/ai-crawler-bot/twitterbot/))". Variations include version numbers, but the core identifier is consistent.
 
 TelegramBot reads your page's HTML looking for [Open Graph tags](https://ogp.me/), Twitter Card metadata, and standard HTML meta tags. It prioritizes Open Graph tags, designed for social media sharing. The crawler extracts titles, descriptions, and featured images to create the preview, enhancing user engagement. This process is quick, usually taking seconds after sharing a link. Telegram caches these previews to avoid repeated URL visits, with cache duration varying between several days to weeks based on content type and update frequency.
 
@@ -71,11 +71,11 @@ Many platforms use similar crawlers for link previews. Understanding TelegramBot
 | Platform | Crawler Name | User Agent String | Special Features | JavaScript Support |
 |----------|--------------|-------------------|------------------|--------------------|
 | Telegram | TelegramBot | TelegramBot (like TwitterBot) | Instant View support | Limited |
-| Facebook | Facebot | facebookexternalhit/1.1 | Video preview support | Moderate |
+| Facebook | Facebot | [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/)/1.1 | Video preview support | Moderate |
 | Twitter | Twitterbot | Twitterbot/1.0 | Twitter Card validation | Limited |
-| LinkedIn | LinkedInBot | LinkedInBot/1.0 | Professional content focus | Limited |
+| LinkedIn | [LinkedInBot](/ai-crawler-bot/linkedinbot/) | LinkedInBot/1.0 | Professional content focus | Limited |
 | WhatsApp | WhatsApp | WhatsApp/2.0 | End-to-end encrypted previews | Very limited |
-| Discord | Discordbot | Mozilla/5.0 (compatible; Discordbot/2.0) | Embed customization | Limited |
+| Discord | [Discordbot](/ai-crawler-bot/discordbot/) | Mozilla/5.0 (compatible; Discordbot/2.0) | Embed customization | Limited |
 
 All these crawlers prioritize Open Graph tags, making them the universal standard for link previews. Implementing OG tags once enhances content across platforms.
 

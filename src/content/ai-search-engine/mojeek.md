@@ -18,7 +18,7 @@ keywords: "Mojeek, independent search engine, Mojeekbot, privacy search engine, 
 
 Mojeek is a search engine that maintains its own web index instead of licensing results from larger providers. Founded in 2004 and launched publicly in 2006, it operates from Brighton, United Kingdom.
 
-The search engine uses Mojeekbot to crawl websites, discovering and indexing web pages independently. This crawler visits billions of pages to build and sustain Mojeek's search index. While the index size is smaller than Google's, it represents a genuine independent coverage of the web.
+The search engine uses [Mojeekbot](/ai-crawler-bot/mojeekbot/) to crawl websites, discovering and indexing web pages independently. This crawler visits billions of pages to build and sustain Mojeek's search index. While the index size is smaller than Google's, it represents a genuine independent coverage of the web.
 
 Mojeek Architecture Overview:
 ![What is Mojeek Search Engine Diagram](/assets/ai-search-engine/mojeek/pages-mojeekbot-crawler.png)
@@ -81,7 +81,7 @@ For users concerned about search privacy, Mojeek offers a genuine alternative to
 
 Brave Search and Mojeek both operate independent search indexes but their approaches differ. Each started building indexes from scratch but employs different strategies.
 
-Brave Search launched in 2021 and quickly built a large index by acquiring the Tailcat search engine, whereas Mojeek has grown its index gradually since 2004 through continuous crawling.
+[Brave Search](/ai-search-engine/brave-search-ai/) launched in 2021 and quickly built a large index by acquiring the Tailcat search engine, whereas Mojeek has grown its index gradually since 2004 through continuous crawling.
 
 The index size difference is substantial. Brave claims to index tens of billions of pages and handles a larger query volume. Mojeek's index is smaller but still covers billions of pages independently.
 

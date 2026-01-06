@@ -66,13 +66,13 @@ Kangaroo Bot is one among many AI crawler bots operating on the web. Different c
 | Bot Name       | Operator             | Robots.txt Compliance | Public Documentation | Blocking Method                           |
 |----------------|----------------------|-----------------------|----------------------|-------------------------------------------|
 | Kangaroo Bot   | Unknown/Limited Info | Unknown               | Minimal              | robots.txt, user-agent                    |
-| GPTBot         | OpenAI               | Yes                   | Detailed             | robots.txt, user-agent                    |
-| Google-Extended| Google               | Yes                   | Detailed             | robots.txt, user-agent                    |
-| CCBot          | Common Crawl         | Yes                   | Extensive            | robots.txt, user-agent                    |
-| ClaudeBot      | Anthropic            | Yes                   | Detailed             | robots.txt, user-agent                    |
-| Bytespider     | ByteDance            | Partial               | Limited              | robots.txt, user-agent, IP blocking       |
+| [GPTBot](/ai-crawler-bot/gptbot/)         | OpenAI               | Yes                   | Detailed             | robots.txt, user-agent                    |
+| [Google-Extended](/ai-crawler-bot/google-extended/)| Google               | Yes                   | Detailed             | robots.txt, user-agent                    |
+| CCBot          | [Common Crawl](/ai-crawler-bot/ccbot/)         | Yes                   | Extensive            | robots.txt, user-agent                    |
+| [ClaudeBot](/ai-crawler-bot/claudebot/)      | Anthropic            | Yes                   | Detailed             | robots.txt, user-agent                    |
+| [Bytespider](/ai-crawler-bot/bytespider/)     | ByteDance            | Partial               | Limited              | robots.txt, user-agent, IP blocking       |
 
-GPTBot is OpenAI's crawler used for training ChatGPT and other models, providing clear documentation about the bot's purpose and blocking instructions. Google-Extended is Google's AI training data crawler, distinct from Googlebot for search indexing. Google provides extensive transparency and instructions for opting out without affecting search visibility. CCBot from Common Crawl is highly transparent, offering extensive documentation on its crawling practices. ClaudeBot, used by Anthropic, maintains transparency and respects website preferences through robots.txt. Bytespider from ByteDance offers less complete documentation, with reports of partial compliance with robots.txt directives.
+GPTBot is OpenAI's crawler used for training [ChatGPT](/ai-chat-bot/chatgpt/) and other models, providing clear documentation about the bot's purpose and blocking instructions. Google-Extended is Google's AI training data crawler, distinct from [Googlebot](/ai-crawler-bot/googlebot/) for search indexing. Google provides extensive transparency and instructions for opting out without affecting search visibility. CCBot from Common Crawl is highly transparent, offering extensive documentation on its crawling practices. ClaudeBot, used by Anthropic, maintains transparency and respects website preferences through robots.txt. Bytespider from ByteDance offers less complete documentation, with reports of partial compliance with robots.txt directives.
 
 ## Technical Identification Methods
 

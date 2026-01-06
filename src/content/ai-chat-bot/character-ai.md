@@ -57,10 +57,10 @@ The platform doesn't offer end-to-end encryption, and users should avoid sharing
 Several platforms offer similar character-based AI exchanges, each with unique features:
 
 - **Character.AI:** Focuses on roleplay with strong content filters and an extensive library of pre-made characters.
-- **Replika:** Companion chatbots with moderate filters, emphasizing ongoing relationships.
+- **[Replika](/ai-chat-bot/replika/):** Companion chatbots with moderate filters, emphasizing ongoing relationships.
 - **Chai:** Story-based chat with character variety.
 - **Janitor AI:** Unfiltered roleplay for users seeking fewer content restrictions.
-- **ChatGPT:** General-purpose with limited persona customization.
+- **[ChatGPT](/ai-chat-bot/chatgpt/):** General-purpose with limited persona customization.
 
 Character.AI Usage Flow:
 ![Character.AI Compared to Chatbot Alternatives Diagram](/assets/ai-chat-bot/character-ai/access-platform-user.png)

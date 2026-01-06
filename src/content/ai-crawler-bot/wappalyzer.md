@@ -55,7 +55,7 @@ Numerous tools compete in the technology detection domain, each with unique stre
 | Tool         | Free Tier | Technologies Detected | API Access | Browser Extension | Best For                  |
 |--------------|-----------|-----------------------|------------|-------------------|---------------------------|
 | Wappalyzer   | Yes       | 5,000+                | Paid plans | Yes               | General tech profiling    |
-| BuiltWith    | Limited   | 130,000+              | Paid only  | Yes               | Deep historical data      |
+| [BuiltWith](/ai-crawler-bot/builtwith/)    | Limited   | 130,000+              | Paid only  | Yes               | Deep historical data      |
 | WhatRuns     | Yes       | 10,000+               | No         | Yes               | Quick browser checks      |
 | SimilarTech  | Trial only| 7,000+                | Paid plans | No                | Market share analysis     |
 | NerdyData    | No        | Source code search    | Paid only  | No                | HTML/CSS pattern matching |

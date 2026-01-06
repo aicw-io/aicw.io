@@ -62,15 +62,15 @@ Blocking Twitterbot doesn't prevent people from sharing your links. It only prev
 
 ## Twitterbot vs. Similar Social Media Crawlers
 
-Twitterbot isn't the only social media bot out there. Facebook has Facebot, LinkedIn uses LinkedInBot, and other platforms have their crawlers. Each serves the same basic purpose, but with platform-specific requirements.
+Twitterbot isn't the only social media bot out there. Facebook has Facebot, LinkedIn uses [LinkedInBot](/ai-crawler-bot/linkedinbot/), and other platforms have their crawlers. Each serves the same basic purpose, but with platform-specific requirements.
 
 | Crawler       | Platform     | User-Agent                          | Primary Purpose          | Meta Tags                               |
 |---------------|--------------|-------------------------------------|-------------------------|-----------------------------------------|
 | Twitterbot    | X/Twitter    | Twitterbot/1.0                      | Generate Twitter Cards   | twitter:card, twitter:title, twitter:image |
-| Facebot       | Facebook     | facebookexternalhit/1.1             | Create link previews     | og:title, og:description, og:image        |
+| Facebot       | Facebook     | [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/)/1.1             | Create link previews     | og:title, og:description, og:image        |
 | LinkedInBot   | LinkedIn     | LinkedInBot/1.0                     | Generate post previews   | og:title, og:description, og:image        |
-| Slackbot      | Slack        | Slackbot-LinkExpanding              | Unfurl links in chats    | og:title, og:description, og:image        |
-| Discordbot    | Discord      | Mozilla/5.0 (compatible; Discordbot/2.0) | Embed link previews      | og:title, og:description, og:image        |
+| [Slackbot](/ai-crawler-bot/slackbot/)      | Slack        | Slackbot-LinkExpanding              | Unfurl links in chats    | og:title, og:description, og:image        |
+| [Discordbot](/ai-crawler-bot/discordbot/)    | Discord      | Mozilla/5.0 (compatible; Discordbot/2.0) | Embed link previews      | og:title, og:description, og:image        |
 
 Most social crawlers prefer Open Graph tags since they're more universal. Twitterbot accepts both Twitter Card tags and Open Graph tags. If you want maximum compatibility across platforms, implement both tag types. They can coexist on the same page without conflicts.
 

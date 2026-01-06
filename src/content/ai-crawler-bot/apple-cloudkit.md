@@ -60,9 +60,9 @@ Keep in mind, blocking may negatively impact user experience. A better approach 
 
 ## Relationship with Other Apple Bots
 
-Apple operates several crawlers for diverse purposes. The **Apple-CloudKit bot** collaborates with these bots. **Apple bots** like Applebot, used for Siri, Spotlight, and Safari, and Applebot-Extended, used potentially for AI training, serve different functions within Apple's ecosystem.
+Apple operates several crawlers for diverse purposes. The **Apple-CloudKit bot** collaborates with these bots. **Apple bots** like Applebot, used for Siri, Spotlight, and Safari, and [Applebot-Extended](/ai-crawler-bot/applebot-extended/), used potentially for AI training, serve different functions within Apple's ecosystem.
 
-CloudKit bot zeroes in on link preview generation and content validation for CloudKit. Unlike Applebot-Extended, it doesn't index pages for search or gather training data. Web developers should treat each **Apple bot** according to its designated purpose.
+CloudKit bot zeroes in on link preview generation and content validation for CloudKit. Unlike Applebot-Extended, it doesn't index pages for search or gather training data. Web developers should treat each **[Apple bot](/ai-crawler-bot/applebot/)** according to its designated purpose.
 
 Allowing the CloudKit bot while blocking Applebot-Extended, if content privacy is a priority, is a possible strategy. **User-agent strings** differ between these bots, enabling selective blocking. Apple bots generally respect robots.txt directives and adhere to standard web protocols, following crawl-delay rules and honoring nofollow tags.
 
@@ -75,11 +75,11 @@ Many tech companies operate similar bots for their cloud and social services. He
 | Bot Name           | Company  | Primary Purpose                      | User-Agent Identifier       | Respects robots.txt |
 |-------------------|----------|--------------------------------------|-----------------------------|---------------------|
 | Apple-CloudKit     | Apple    | Link previews for CloudKit apps      | com.apple.cloudkit          | Yes                 |
-| facebookexternalhit| Meta     | Link previews for Facebook/Instagram | facebookexternalhit         | Yes                 |
-| Twitterbot         | Twitter/X| Link previews and cards              | Twitterbot                  | Yes                 |
-| LinkedInBot        | LinkedIn | Link previews and content validation | LinkedInBot                 | Yes                 |
-| Slackbot           | Slack    | Link unfurling and previews          | Slackbot-LinkExpanding      | Yes                 |
-| TelegramBot        | Telegram | Link previews in chats               | TelegramBot                 | Yes                 |
+| [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/)| Meta     | Link previews for Facebook/Instagram | facebookexternalhit         | Yes                 |
+| [Twitterbot](/ai-crawler-bot/twitterbot/)         | Twitter/X| Link previews and cards              | Twitterbot                  | Yes                 |
+| [LinkedInBot](/ai-crawler-bot/linkedinbot/)        | LinkedIn | Link previews and content validation | LinkedInBot                 | Yes                 |
+| [Slackbot](/ai-crawler-bot/slackbot/)           | Slack    | Link unfurling and previews          | Slackbot-LinkExpanding      | Yes                 |
+| [TelegramBot](/ai-crawler-bot/telegrambot/)        | Telegram | Link previews in chats               | TelegramBot                 | Yes                 |
 
 These bots share similar functions, fetching web pages for rich previews upon user link sharing. The **Apple-CloudKit bot** is specific to Apple's ecosystem and **CloudKit-enabled applications**. Facebook's bot manages billions of shared links, and Twitter's bot produces tweet cards with images and descriptions, each with distinct crawl rates and resource usage.
 

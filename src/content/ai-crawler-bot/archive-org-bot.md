@@ -61,10 +61,10 @@ Several organizations operate web crawlers for different purposes. Understanding
 | Crawler         | Primary Purpose    | Commercial | Respect robots.txt | Public Access |
 |-----------------|--------------------|------------|--------------------|---------------|
 | Archive.org_bot | Web preservation    | No         | Yes                | Yes           |
-| Googlebot       | Search indexing     | Yes        | Yes                | No            |
-| Bingbot         | Search indexing     | Yes        | Yes                | No            |
-| Common Crawl    | Dataset creation    | No         | Yes                | Yes           |
-| Applebot        | Search indexing     | Yes        | Yes                | No            |
+| [Googlebot](/ai-crawler-bot/googlebot/)       | Search indexing     | Yes        | Yes                | No            |
+| [Bingbot](/ai-crawler-bot/bingbot/)         | Search indexing     | Yes        | Yes                | No            |
+| [Common Crawl](/ai-crawler-bot/ccbot/)    | Dataset creation    | No         | Yes                | Yes           |
+| [Applebot](/ai-crawler-bot/applebot/)        | Search indexing     | Yes        | Yes                | No            |
 
 **Googlebot** and **Bingbot** crawl the web to build search engine indexes. They focus on current content rather than historical preservation. These crawlers visit sites more frequently than Archive.org_bot to keep search results fresh. The crawled data remains proprietary and serves commercial search products. 
 

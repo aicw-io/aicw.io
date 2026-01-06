@@ -55,7 +55,7 @@ There are several alternatives to the Pingdom bot in the website monitoring doma
 | Tool         | Probe Locations | Check Interval | Free Tier       | Notable Features                            |
 |--------------|----------------|----------------|-----------------|---------------------------------------------|
 | Pingdom      | 70+            | 1 min          | No              | Extensive transaction monitoring, RUM       |
-| UptimeRobot  | 50+            | 5 min          | Yes (50 monitors)| Status pages, keyword monitoring             |
+| [UptimeRobot](/ai-crawler-bot/uptimerobot/)  | 50+            | 5 min          | Yes (50 monitors)| Status pages, keyword monitoring             |
 | StatusCake   | 60+            | 1 min          | Yes (10 monitors)| Virus scanning, domain monitoring            |
 | Site24x7     | 100+           | 1 min          | Yes (3 monitors) | Full stack monitoring                        |
 | Better Uptime| 30+            | 1 min          | Yes (50 checks) | Incident management, on-call scheduling      |

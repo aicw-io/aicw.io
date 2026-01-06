@@ -77,9 +77,9 @@ Brave Search's privacy features ensure:
 | Search Engine | Own Index | AI Features | Privacy Level  |
 |---------------|-----------|-------------|---------------|
 | Brave Search  | Yes       | Full set    | Very High     |
-| DuckDuckGo    | No        | Limited     | High          |
-| Startpage     | No        | Limited     | High          |
-| Qwant         | Partial   | Basic       | High          |
+| [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/)    | No        | Limited     | High          |
+| [Startpage](/ai-search-engine/startpage/)     | No        | Limited     | High          |
+| [Qwant](/ai-search-engine/qwant-french-privacy/)         | Partial   | Basic       | High          |
 
 <a id="independent-search-index"></a>
 

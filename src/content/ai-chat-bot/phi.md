@@ -14,7 +14,7 @@ keywords: "Microsoft Phi, small language models, Phi-3, MIT licensing, on-device
 
 ## What Are Small Language Models and Why Microsoft Built Phi
 
-Small language models like Microsoft Phi are a novel approach to AI, differing from massive models such as GPT-4 or Claude. While large models boast billions or trillions of parameters, small language models like Phi-3 focus on task effectiveness. Microsoft Phi-3 showcases how these models deliver strong performance across various tasks without massive computing demands.
+Small language models like Microsoft Phi are a novel approach to AI, differing from massive models such as GPT-4 or [Claude](/ai-chat-bot/claude/). While large models boast billions or trillions of parameters, small language models like Phi-3 focus on task effectiveness. Microsoft Phi-3 showcases how these models deliver strong performance across various tasks without massive computing demands.
 
 Microsoft developed Phi to address real-world challenges, including the high costs and energy consumption associated with large AI models. Large AI models require costly hardware and high energy consumption, which not every business or developer can justify. Many applications function well with smaller, more efficient AI models operable on standard computers or mobile devices. Phi models are available under an open-source [MIT license](https://opensource.org/licenses/MIT), allowing developers to freely incorporate them into commercial projects without restrictions. This makes Phi appealing to small business owners and web developers aiming to integrate AI without hefty infrastructure expenses.
 
@@ -61,10 +61,10 @@ Here’s how Phi-3 compares to other small language models:
 | Phi-3 Mini | 3.8B | MIT | Mobile deployment | On-device chatbots |  
 | Phi-3 Small | 7B | MIT | Balanced performance | Local coding assistants |  
 | Phi-3 Medium | 14B | MIT | Higher accuracy | Document processing |  
-| Mistral 7B | 7B | Apache 2.0 | Speed | API alternatives |  
-| Gemma 7B | 7B | Custom | Google combining | Cloud deployments |  
-| Llama 3 8B | 8B | Custom | Meta ecosystem | Research projects |  
-| Qwen 7B | 7B | Custom | Multilingual | International apps |  
+| [Mistral 7B](/ai-chat-bot/mistral/) | 7B | Apache 2.0 | Speed | API alternatives |  
+| [Gemma](/ai-chat-bot/gemma/) 7B | 7B | Custom | Google combining | Cloud deployments |  
+| [Llama 3](/ai-chat-bot/llama/) 8B | 8B | Custom | Meta ecosystem | Research projects |  
+| [Qwen](/ai-chat-bot/qwen/) 7B | 7B | Custom | Multilingual | International apps |  
 
 Mistral 7B and Phi-3 Small inhabit the same size category. While Mistral often excels in raw performance, Phi-3’s MIT license offers simplicity compared to Mistral’s Apache 2.0.
 

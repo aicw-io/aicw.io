@@ -14,7 +14,7 @@ keywords: "facebookexternalhit, Facebook link preview, Open Graph crawler, Meta 
 
 ## What Is facebookexternalhit
 
-You might have noticed something called facebookexternalhit in your server logs. This is Facebook's web crawler, also known as the Facebook bot, which visits your site when someone shares a link on Facebook. The purpose of this Open Graph crawler is to scan your page and generate link previews you see in posts, complete with an image, title, and description. [Open Graph protocol](https://ogp.me/) defines the metadata used for these previews. 
+You might have noticed something called facebookexternalhit in your server logs. This is Facebook's web crawler, also known as the [Facebook bot](/ai-crawler-bot/facebookbot/), which visits your site when someone shares a link on Facebook. The purpose of this Open Graph crawler is to scan your page and generate link previews you see in posts, complete with an image, title, and description. [Open Graph protocol](https://ogp.me/) defines the metadata used for these previews. 
 
 The facebookexternalhit bot exists because Facebook needs to visually inform users about the content of a link before they click it. Without this crawler, every shared link would appear as plain text, lacking visual previews. The bot reads your page's Open Graph tags and other metadata to create those previews. 
 
@@ -40,7 +40,7 @@ Facebook launched facebookexternalhit to solve the issue of users sharing links 
 
 Link sharing is vital for social media platforms. Proper previews encourage sharing and clicks, thereby benefiting both Facebook and content creators.
 
-Facebook isn't the only platform using this strategy. Twitter has Twitterbot, LinkedIn uses LinkedInBot, and Pinterest employs Pinterestbot, all serving the basic purpose of generating link previews for their respective platforms.
+Facebook isn't the only platform using this strategy. Twitter has [Twitterbot](/ai-crawler-bot/twitterbot/), LinkedIn uses [LinkedInBot](/ai-crawler-bot/linkedinbot/), and Pinterest employs [Pinterestbot](/ai-crawler-bot/pinterestbot/), all serving the basic purpose of generating link previews for their respective platforms.
 
 ## The User-Agent String Details
 
@@ -50,7 +50,7 @@ Link Preview Generation Process:
 
 The facebookexternalhit user-agent string holds crucial information. The typical format is "facebookexternalhit/[version]" with a reference URL directing to Facebook's documentation. Different versions of the crawler exist, with facebookexternalhit/1.1 handling most link previews. Meta also operates multiple crawlers beyond just facebookexternalhit, such as "facebookcatalog" for product catalogs and "Facebot" for other scraping tasks.
 
-The newer Meta-ExternalAgent crawler is gradually replacing some functions of facebookexternalhit, handling certain types of content fetching across Meta's apps.
+The newer [Meta-ExternalAgent](/ai-crawler-bot/meta-externalagent/) crawler is gradually replacing some functions of facebookexternalhit, handling certain types of content fetching across Meta's apps.
 
 Your server logs might show requests from multiple Meta crawlers, which is normal as they handle various tasks. The user-agent string helps you identify which Meta service is accessing your content.
 
@@ -76,7 +76,7 @@ Various platforms employ different crawlers for link preview generation:
 | Twitterbot            | Twitter/X  | Twitterbot/1.0               | Card generation  | Hours to days  |
 | LinkedInBot           | LinkedIn   | LinkedInBot/1.0              | Link previews    | Days           |
 | Pinterestbot          | Pinterest  | Pinterest/0.2                | Pin previews     | Varies         |
-| Slackbot              | Slack      | Slackbot-LinkExpanding       | Message unfurling| Hours          |
+| [Slackbot](/ai-crawler-bot/slackbot/)              | Slack      | Slackbot-LinkExpanding       | Message unfurling| Hours          |
 
 These crawlers use Open Graph tags as the main metadata source, though platforms may have tag preferences. Caching frequency varies, respecting robots.txt is standard, and Facebook's crawler is efficient regarding server load.
 

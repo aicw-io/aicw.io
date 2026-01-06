@@ -85,7 +85,7 @@ Several services compete with UptimeRobot in the uptime monitoring space. Here's
 | Service          | Free Plan      | Min Check Interval | Monitors on Free Plan | User-Agent Format   | Locations |
 |------------------|----------------|-------------------|---------------------|---------------------|----------|
 | UptimeRobot       | Yes            | 5 min free, 1 min paid | 50                  | UptimeRobot/2.0    | 10+      |
-| Pingdom           | Trial only     | 1 min             | N/A                 | Pingdom.com agent    | 100+     |
+| [Pingdom](/ai-crawler-bot/pingdom/)           | Trial only     | 1 min             | N/A                 | Pingdom.com agent    | 100+     |
 | StatusCake        | Yes            | 5 min free        | 10                  | StatusCake          | 30+      |
 | Better Uptime     | Yes            | 3 min free, 30 sec paid | 10                  | BetterUptime        | 20+      |
 | Freshping         | Yes            | 2 min             | 50                  | Freshping           | 10+      |

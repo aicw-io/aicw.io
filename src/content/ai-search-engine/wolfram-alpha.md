@@ -38,7 +38,7 @@ The purpose of Wolfram Alpha is to make computational knowledge accessible. Inst
 
 ## How Businesses Use Wolfram Alpha
 
-Businesses leverage Wolfram Alpha for data-driven ideas, financial calculations, and forecasting. Researchers and developers benefit from its extensive computation capabilities. Combined with ChatGPT integration, users can engage in natural conversations to uncover computed data.
+Businesses leverage Wolfram Alpha for data-driven ideas, financial calculations, and forecasting. Researchers and developers benefit from its extensive computation capabilities. Combined with [ChatGPT](/ai-chat-bot/chatgpt/) integration, users can engage in natural conversations to uncover computed data.
 
 <a id="key-features-and-comparisons"></a>
 

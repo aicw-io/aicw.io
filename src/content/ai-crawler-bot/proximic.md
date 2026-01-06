@@ -77,7 +77,7 @@ Proximic is not the only player in this space. Here's a comparison:
 | Crawler | Owner | Primary Purpose | Brand Safety Focus | Market Position |
 |---------|-------|-----------------|-------------------|-----------------|
 | Proximic | Comscore | Content classification, contextual targeting | High | Strong in US and Europe |
-| Grapeshot | Oracle | Contextual intelligence, brand safety | High | Integrated with Oracle Advertising |
+| [Grapeshot](/ai-crawler-bot/grapeshot/) | Oracle | Contextual intelligence, brand safety | High | Integrated with Oracle Advertising |
 | Peer39 | Peer39 (acquired by Oracle) | Page-level targeting, brand safety | Very High | Enterprise-focused |
 | DoubleVerify Bot | DoubleVerify | Brand safety verification | Very High | Verification leader |
 | IAS Bot | Integral Ad Science | Quality and safety measurement | Very High | Competes with DoubleVerify |

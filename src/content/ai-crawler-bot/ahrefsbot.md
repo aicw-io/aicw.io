@@ -63,10 +63,10 @@ Several companies operate web crawlers for SEO purposes, each possessing unique 
 | Crawler     | Daily Pages Crawled | Index Size            | Primary Use                              | Rate Limiting           |
 |-------------|---------------------|-----------------------|------------------------------------------|--------------------------|
 | AhrefsBot   | 8 billion           | 35 trillion links     | Backlink analysis, SEO research          | Available on request      |
-| SemrushBot  | 3 billion           | 25 trillion links     | Keyword research, competitor analysis     | Available on request      |
-| MJ12bot     | 5 billion           | Proprietary           | Link intelligence for Majestic           | Automatic adaptive        |
-| DotBot      | 2 billion           | Moz Link Explorer     | Domain authority, link data              | Available on request      |
-| PetalBot    | 4 billion           | Aspiegel search       | General web indexing                     | robots.txt compliance    |
+| [SemrushBot](/ai-crawler-bot/semrushbot/)  | 3 billion           | 25 trillion links     | Keyword research, competitor analysis     | Available on request      |
+| [MJ12bot](/ai-crawler-bot/mj12bot-majestic-seo-crawler/)     | 5 billion           | Proprietary           | Link intelligence for Majestic           | Automatic adaptive        |
+| [DotBot](/ai-crawler-bot/dotbot/)      | 2 billion           | Moz Link Explorer     | Domain authority, link data              | Available on request      |
+| [PetalBot](/ai-crawler-bot/petalbot/)    | 4 billion           | Aspiegel search       | General web indexing                     | robots.txt compliance    |
 
 AhrefsBot is often regarded as one of the most comprehensive tools for backlink data, providing insights into [link building strategies](https://www.searchenginejournal.com/link-building/). Ahrefs frequently updates its index, ensuring fresher data than some alternatives. Its high crawl rate translates to comprehensive web coverage.
 

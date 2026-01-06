@@ -67,7 +67,7 @@ Internal linking is also pivotal. Pages well-connected within your site structur
 Crawl Budget Optimization Strategy:
 ![Googlebot vs Google-Extended: AI Training Data Diagram](/assets/ai-crawler-bot/googlebot/site-quality-crawl.png)
 
-In 2024, Google introduced Google-Extended, a crawler distinct from Googlebot. Google-Extended collects data for AI training to support products like Gemini and Vertex AI, while Googlebot focuses on search indexing.
+In 2024, Google introduced [Google-Extended](/ai-crawler-bot/google-extended/), a crawler distinct from Googlebot. Google-Extended collects data for AI training to support products like [Gemini](/ai-chat-bot/google-gemini/) and Vertex AI, while Googlebot focuses on search indexing.
 
 To block Google-Extended, add rules to your robots.txt file using the user-agent "Google-Extended." Many opt to block this crawler to keep their content in search results without it being used for AI training. This separation provides more control over data use without affecting search rankings.
 
@@ -80,9 +80,9 @@ Googlebot vs Google-Extended:
 
 Googlebot is not the only web crawler, though it is the most sophisticated and operates with a mobile-first indexing approach. Here’s how it compares with other crawlers:
 
-- **Bingbot**: Offers good JavaScript handling, respects crawl-delay settings.
-- **Yandex Bot**: Strong in Russian content, features detailed user-agents.
-- **Baiduspider**: Focuses on Chinese web content with less aggressive crawling.
+- **[Bingbot](/ai-crawler-bot/bingbot/)**: Offers good JavaScript handling, respects crawl-delay settings.
+- **[Yandex Bot](/ai-crawler-bot/yandexbot/)**: Strong in Russian content, features detailed user-agents.
+- **[Baiduspider](/ai-crawler-bot/baiduspider/)**: Focuses on Chinese web content with less aggressive crawling.
 - **DuckDuckBot**: Privacy-focused with a smaller crawl budget.
 
 While Googlebot has the most significant crawl budget and advanced rendering capabilities, including JavaScript execution, site managers should also consider other search crawlers if they target international markets. Ensure robots.txt isn’t blocking crucial crawlers.
@@ -106,7 +106,7 @@ Monitoring Googlebot interactions is critical. Use Google Search Console for:
 - **URL Inspection Tool**: Checks when Googlebot last crawled a page and requests indexing for updates.
 - **Crawl Stats Report**: Displays crawling activity, requests per day, and downloaded kilobytes.
 
-Leverage server logs for raw crawler visit data, and consider third-party tools like Screaming Frog for simulating Googlebot crawls. Set up monitoring alerts for crawl errors and drops in crawled pages to quickly address issues.
+Leverage server logs for raw crawler visit data, and consider third-party tools like [Screaming Frog](/ai-crawler-bot/screaming-frog/) for simulating Googlebot crawls. Set up monitoring alerts for crawl errors and drops in crawled pages to quickly address issues.
 
 ## Common Googlebot Issues and Solutions
 

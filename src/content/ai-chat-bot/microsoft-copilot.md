@@ -53,7 +53,7 @@ Microsoft Copilot Subscription Tiers:
 
 ## Comparison with Alternative AI Assistants
 
-Microsoft Copilot offers deep integration with Windows and Office apps, beneficial for businesses invested in the Microsoft ecosystem. Alternative options like ChatGPT Plus, Google Gemini Advanced, Claude Pro, and GitHub Copilot provide AI capabilities but lack Microsoft Copilot's level of integration. For coding tasks, developers often choose between Microsoft Copilot and GitHub Copilot, both leveraging similar technology.
+Microsoft Copilot offers deep integration with Windows and Office apps, beneficial for businesses invested in the Microsoft ecosystem. Alternative options like [ChatGPT Plus](/ai-chat-bot/chatgpt/), Google [Gemini Advanced](/ai-chat-bot/google-gemini/), [Claude](/ai-chat-bot/claude/) Pro, and [GitHub Copilot](/ai-chat-bot/github-copilot/) provide AI capabilities but lack Microsoft Copilot's level of integration. For coding tasks, developers often choose between Microsoft Copilot and GitHub Copilot, both leveraging similar technology.
 
 ## Privacy and Data Usage Concerns
 

@@ -141,13 +141,13 @@ How Coveo compares to other tools:
 
 ### Coveo vs Glean:
 * Coveo focuses more on customer-facing search  
-* Glean specializes in workplace search  
+* [Glean](/ai-search-engine/glean/) specializes in workplace search  
 * Coveo offers more commerce features  
 * Glean excels in desktop search  
 
 ### Coveo vs Algolia:
 * Coveo targets larger enterprises  
-* Algolia suits smaller companies  
+* [Algolia](/ai-search-engine/algolia/) suits smaller companies  
 * Coveo offers more AI features  
 * Algolia is easier to set up  
 

@@ -14,7 +14,7 @@ keywords: "MSNBot, Microsoft legacy bot, Bingbot migration, MSNBot user agent, w
 
 ## Introduction
 
-[MSNBot](https://en.wikipedia.org/wiki/Msnbot), Microsoft's original web crawler, was designed to index content for MSN Search and later Live Search. This Microsoft legacy bot crawled the web, collecting data to build search indexes. Serving as the primary search engine bot from 2004 until around 2010, it was gradually replaced by Bingbot. Web developers and site administrators often encountered MSNBot user agent strings in server logs and configured robots.txt files to control its access. Understanding MSNBot's heritage status is essential today, as many websites still contain outdated rules blocking a crawler that no longer exists. The [Bingbot migration](https://blogs.bing.com/webmaster/September-2010/Bingbot-is-coming-to-town) marked a significant shift in Microsoft's search infrastructure. For SEO experts and web developers, knowing the differences between these web crawlers helps maintain clean and effective site configurations.
+[MSNBot](https://en.wikipedia.org/wiki/Msnbot), Microsoft's original web crawler, was designed to index content for MSN Search and later Live Search. This Microsoft legacy bot crawled the web, collecting data to build search indexes. Serving as the primary search engine bot from 2004 until around 2010, it was gradually replaced by [Bingbot](/ai-crawler-bot/bingbot/). Web developers and site administrators often encountered MSNBot user agent strings in server logs and configured robots.txt files to control its access. Understanding MSNBot's heritage status is essential today, as many websites still contain outdated rules blocking a crawler that no longer exists. The [Bingbot migration](https://blogs.bing.com/webmaster/September-2010/Bingbot-is-coming-to-town) marked a significant shift in Microsoft's search infrastructure. For SEO experts and web developers, knowing the differences between these web crawlers helps maintain clean and effective site configurations.
 
 ## What Was MSNBot
 
@@ -50,9 +50,9 @@ Outdated MSNBot rules in [robots.txt files](https://en.wikipedia.org/wiki/Robots
 |---------|---------------|-----------------|---------------------------|---------------------|
 | MSNBot | Retired (2010) | MSN/Live Search indexing | msnbot/2.0b | None (obsolete) |
 | Bingbot | Active | Bing search indexing | Mozilla/5.0 (compatible; bingbot/2.0) | Medium (2-3% search) |
-| Googlebot | Active | Google search indexing | Mozilla/5.0 (compatible; Googlebot/2.1) | High (90%+ search) |
+| [Googlebot](/ai-crawler-bot/googlebot/) | Active | Google search indexing | Mozilla/5.0 (compatible; Googlebot/2.1) | High (90%+ search) |
 | Slurp (Yahoo) | Limited | Yahoo search (uses Bing) | Mozilla/5.0 (compatible; Yahoo! Slurp) | Low (uses Bing index) |
-| DuckDuckBot | Active | DuckDuckGo indexing | DuckDuckBot/1.0 | Low (own index + Bing) |
+| DuckDuckBot | Active | [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/) indexing | DuckDuckBot/1.0 | Low (own index + Bing) |
 
 This table highlights that MSNBot has no current impact on [search visibility](https://en.wikipedia.org/wiki/Msnbot#Retirement). Bingbot is the only Microsoft crawler relevant for SEO today, while Googlebot remains dominant. Yahoo's Slurp bot activity is limited since it relies on Bing's search index. DuckDuckBot operates its own index but also uses Bing results. Site owners should focus on active crawlers like Googlebot and Bingbot.
 

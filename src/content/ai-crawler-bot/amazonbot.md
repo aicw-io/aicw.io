@@ -90,17 +90,17 @@ Many companies run web crawlers for similar purposes. Understanding how Amazonbo
 | Crawler    | Company         | Primary Purpose           | Respects Robots.txt | Verification Method    |
 |------------|-----------------|---------------------------|---------------------|------------------------|
 | Amazonbot  | Amazon          | Alexa AI, Shopping        | Yes                 | Reverse DNS lookup     |
-| Googlebot  | Google          | Search indexing           | Yes                 | Reverse DNS lookup     |
-| Bingbot    | Microsoft       | Search indexing           | Yes                 | Reverse DNS lookup     |
-| GPTBot     | OpenAI          | AI training               | Yes                 | IP range verification  |
-| CCBot      | Common Crawl    | Public dataset            | Yes                 | Reverse DNS lookup     |
+| [Googlebot](/ai-crawler-bot/googlebot/)  | Google          | Search indexing           | Yes                 | Reverse DNS lookup     |
+| [Bingbot](/ai-crawler-bot/bingbot/)    | Microsoft       | Search indexing           | Yes                 | Reverse DNS lookup     |
+| [GPTBot](/ai-crawler-bot/gptbot/)     | OpenAI          | AI training               | Yes                 | IP range verification  |
+| CCBot      | [Common Crawl](/ai-crawler-bot/ccbot/)    | Public dataset            | Yes                 | Reverse DNS lookup     |
 
 Amazonbot Verification Process:
 ![Amazonbot Compared to Other Web Crawlers Diagram](/assets/ai-crawler-bot/amazonbot/address-from-logs.png)
 
 Googlebot is the most well-known crawler. It indexes content for Google Search and has been operating for over 20 years. Bingbot serves Microsoft's search engine and follows similar practices to Googlebot. Both crawlers are needed for website visibility in search results.
 
-GPTBot is newer and specifically collects data for training ChatGPT and other OpenAI models. It became controversial because many website owners don't want their content used for AI training. CCBot creates public datasets that researchers and companies use for various purposes.
+GPTBot is newer and specifically collects data for training [ChatGPT](/ai-chat-bot/chatgpt/) and other OpenAI models. It became controversial because many website owners don't want their content used for AI training. CCBot creates public datasets that researchers and companies use for various purposes.
 
 All these crawlers respect robots.txt and provide verification methods. The main difference is their purpose. Search engine crawlers help websites get discovered. AI training crawlers collect data for machine learning models. Shopping crawlers gather product information and prices.
 
