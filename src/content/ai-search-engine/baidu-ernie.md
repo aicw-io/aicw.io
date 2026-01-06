@@ -12,7 +12,7 @@ things: "Baidu ERNIE, ERNIE 4.5, Chinese AI, AI search, Baidu search, ERNIE Bot,
 keywords: "Baidu ERNIE, ERNIE 4.5, Chinese AI, AI search, Baidu search, ERNIE Bot, AI language model, Chinese language model"
 ---
 
-**TL;DR:** Baidu ERNIE is a powerful AI language model designed to enhance Chinese and English language processing for Baidu search and other services. As the forefront of Chinese AI development, ERNIE offers advanced features for both consumer and business applications.
+**TL;DR:** [Baidu ERNIE](/ai-chat-bot/ernie-bot/) is a powerful AI language model designed to enhance Chinese and English language processing for Baidu search and other services. As the forefront of Chinese AI development, ERNIE offers advanced features for both consumer and business applications.
 <a id="what-is-baidu-ernie"></a>
 
 ## What is Baidu ERNIE?
@@ -78,7 +78,7 @@ With ERNIE 4.5, various task handling and processing speeds have improved notabl
 
 ERNIE stands competitive among other prominent AI language models as follows:
 
-- **ChatGPT:** Superior in English; widely used globally but less effective with Chinese text.
+- **[ChatGPT](/ai-chat-bot/chatgpt/):** Superior in English; widely used globally but less effective with Chinese text.
 - **GPT-4:** Known for comprehensive general knowledge and multilingual support; however, it entails higher costs.
 - **ERNIE:** Optimized for Chinese, strictly adheres to local regulations, and integrates effectively with Baidu services.
 

@@ -99,14 +99,14 @@ Several machine learning crawlers operate on the web today, each with different 
 | Crawler Name      | User-Agent Identifier | Primary Purpose         | Opt-Out Method              | Typical Behavior         |
 |-------------------|-----------------------|-------------------------|-----------------------------|--------------------------|
 | MLBot             | MLBot/version         | General ML training     | robots.txt, blocking        | Moderate crawl rate      |
-| CCBot             | CCBot/version         | Common Crawl dataset    | robots.txt                  | Complete crawling        |
-| GPTBot            | GPTBot/version        | OpenAI model training   | robots.txt                  | Selective content        |
-| Google-Extended   | Google-Extended       | Google AI training      | robots.txt                  | Follows Googlebot patterns |
-| anthropic-ai      | anthropic-ai          | Claude model training   | robots.txt                  | Respectful crawling      |
+| CCBot             | CCBot/version         | [Common Crawl](/ai-crawler-bot/ccbot/) dataset    | robots.txt                  | Complete crawling        |
+| [GPTBot](/ai-crawler-bot/gptbot/)            | GPTBot/version        | OpenAI model training   | robots.txt                  | Selective content        |
+| [Google-Extended](/ai-crawler-bot/google-extended/)   | Google-Extended       | Google AI training      | robots.txt                  | Follows [Googlebot](/ai-crawler-bot/googlebot/) patterns |
+| [anthropic-ai](/ai-crawler-bot/anthropic-ai/)      | anthropic-ai          | [Claude](/ai-chat-bot/claude/) model training   | robots.txt                  | Respectful crawling      |
 
 CCBot stands out as one of the most active crawlers, building the Common Crawl dataset, a massive publicly available web archive used by many AI researchers. It visits billions of pages and respects robots.txt directives.
 
-GPTBot, developed by OpenAI, specifically collects data for training ChatGPT and other models. OpenAI provides clear documentation about the bot and offers straightforward blocking instructions, operating with relative transparency about its crawling activities.
+GPTBot, developed by OpenAI, specifically collects data for training [ChatGPT](/ai-chat-bot/chatgpt/) and other models. OpenAI provides clear documentation about the bot and offers straightforward blocking instructions, operating with relative transparency about its crawling activities.
 
 MLBot Blocking Methods:
 ![Comparing MLBot to Alternative ML Crawlers Diagram](/assets/ai-crawler-bot/mlbot/website-owner-choose.png)

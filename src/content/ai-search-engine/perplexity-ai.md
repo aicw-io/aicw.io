@@ -16,7 +16,7 @@ keywords: "Perplexity AI, research, search engine, artificial intelligence, tool
 
 ## What is Perplexity AI?
 
-Perplexity AI is a search engine powered by artificial intelligence, specifically tailored for researchers, offering [real-time AI-powered search](https://www.greenbot.com/what-is-perplexity-ai/). Unlike traditional engines that merely provide links, it understands context and offers detailed insights, ensuring [comprehensive responses](https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity). This ensures that users can locate precise information rapidly.
+[Perplexity AI](/ai-chat-bot/perplexity/) is a search engine powered by artificial intelligence, specifically tailored for researchers, offering [real-time AI-powered search](https://www.greenbot.com/what-is-perplexity-ai/). Unlike traditional engines that merely provide links, it understands context and offers detailed insights, ensuring [comprehensive responses](https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity). This ensures that users can locate precise information rapidly.
 
 <a id="purpose-of-perplexity-ai"></a>
 
@@ -45,7 +45,7 @@ Perplexity AI vs Traditional Search:
 
 ## Comparison with Alternative Search Engines
 
-| Feature             | Perplexity AI | ChatGPT Search | Claude |
+| Feature             | Perplexity AI | [ChatGPT](/ai-chat-bot/chatgpt/)T Search](/ai-search-engine/chatgpt-search/) | [Claude](/ai-chat-bot/claude/) |
 |---------------------|---------------|----------------|--------|
 | Contextual Answers  | Yes           | Limited        | No     |
 | Inline Citations    | Yes           | No             | No     |

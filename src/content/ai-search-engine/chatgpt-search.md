@@ -16,7 +16,7 @@ keywords: "chatgpt search, openai search, gpt-5.2, search capabilities, ai searc
 
 ## What is ChatGPT Search?
 
-ChatGPT Search merges traditional web search with cutting-edge AI search engine features. Initially offered to ChatGPT Plus and Team subscribers, it became available to all users on December 16, 2024. By integrating **real-time web access** and AI-driven answer generation, users receive concise and direct answers to natural language queries, not just a list of links.
+ChatGPT Search merges traditional web search with cutting-edge AI search engine features. Initially offered to [ChatGPT Plus](/ai-chat-bot/chatgpt/) and Team subscribers, it became available to all users on December 16, 2024. By integrating **real-time web access** and AI-driven answer generation, users receive concise and direct answers to natural language queries, not just a list of links.
 
 <a id="key-features"></a>
 

@@ -14,13 +14,13 @@ keywords: "PanguBot, Huawei PanGu, AI training bot, Huawei AI, large language mo
 
 ## What is PanguBot and Why Does It Matter
 
-PanguBot is Huawei's specialized web crawler designed to collect training data for the Huawei [PanGu large language models](https://en.wikipedia.org/wiki/Huawei_PanGu). As a critical tool in AI development, it systematically scans websites across the internet to gather text content that feeds into Huawei's AI. Similar to how OpenAI uses GPTBot or Google uses GoogleBot, PanguBot is Huawei's AI data collection tool for advancing its AI capabilities, including the development of models like [PanGu-Σ](https://en.wikipedia.org/wiki/PanGu-%CE%A3).
+PanguBot is Huawei's specialized web crawler designed to collect training data for the Huawei [PanGu large language models](https://en.wikipedia.org/wiki/Huawei_PanGu). As a critical tool in AI development, it systematically scans websites across the internet to gather text content that feeds into Huawei's AI. Similar to how OpenAI uses [GPTBot](/ai-crawler-bot/gptbot/) or Google uses [GoogleBot](/ai-crawler-bot/googlebot/), PanguBot is Huawei's AI data collection tool for advancing its AI capabilities, including the development of models like [PanGu-Σ](https://en.wikipedia.org/wiki/PanGu-%CE%A3).
 
-Web crawlers like PanguBot are essential because large language models need massive amounts of text data to learn language patterns and generate human-like responses, as seen in the development of models like [DeepSeek-V3.2-Exp](https://www.tomshardware.com/tech-industry/deepseek-new-model-supports-huawei-cann). These bots automatically browse websites, extract content, and store it for AI training purposes. For website owners and developers, understanding which bots like PanguBot are accessing your content is crucial, as it allows you to control whether your data is used for AI training. PanguBot specifically targets content to improve the PanGu models, Huawei's answer to models like GPT-4 or Claude, as part of their efforts to enhance AI capabilities. It operates alongside PetalBot, another Huawei crawler focused on search engine indexing, contributing to Huawei's AI and search ecosystem.
+Web crawlers like PanguBot are essential because large language models need massive amounts of text data to learn language patterns and generate human-like responses, as seen in the development of models like [DeepSeek-V3.2-Exp](https://www.tomshardware.com/tech-industry/deepseek-new-model-supports-huawei-cann). These bots automatically browse websites, extract content, and store it for AI training purposes. For website owners and developers, understanding which bots like PanguBot are accessing your content is crucial, as it allows you to control whether your data is used for AI training. PanguBot specifically targets content to improve the PanGu models, Huawei's answer to models like GPT-4 or [Claude](/ai-chat-bot/claude/), as part of their efforts to enhance AI capabilities. It operates alongside [PetalBot](/ai-crawler-bot/petalbot/), another Huawei crawler focused on search engine indexing, contributing to Huawei's AI and search ecosystem.
 
 ## The Connection Between PanguBot and Huawei's PanGu Models
 
-Huawei developed the PanGu series as its flagship large language models, competing directly with advanced AI systems like ChatGPT and Claude. These models come in different versions optimized for tasks including natural language processing, code generation, and multimodal understanding.
+Huawei developed the PanGu series as its flagship large language models, competing directly with advanced AI systems like [ChatGPT](/ai-chat-bot/chatgpt/) and Claude. These models come in different versions optimized for tasks including natural language processing, code generation, and multimodal understanding.
 
 PanguBot Data Collection Flow:
 ![The Connection Between PanguBot and Huawei's PanGu Models Diagram](/assets/ai-crawler-bot/pangubot/content-pangubot-crawler.png)
@@ -48,7 +48,7 @@ Website administrators can monitor PanguBot activity by reviewing access logs, s
 
 ## PanguBot vs PetalBot: Understanding the Difference
 
-Huawei operates two main web crawlers serving distinct purposes. PetalBot is Huawei's general-purpose search crawler, akin to Googlebot or Bingbot, indexing web content for Huawei's search services and the Petal Search app. In contrast, PanguBot focuses on collecting training data for Huawei AI models.
+Huawei operates two main web crawlers serving distinct purposes. PetalBot is Huawei's general-purpose search crawler, akin to Googlebot or [Bingbot](/ai-crawler-bot/bingbot/), indexing web content for Huawei's search services and the Petal Search app. In contrast, PanguBot focuses on collecting training data for Huawei AI models.
 
 The key distinction lies in their end use: PetalBot helps users discover websites through search results, whereas PanguBot harvests website content to train large language models capable of generating text, answering queries, and performing other AI tasks. Both crawlers respect robots.txt directives and can be managed independently.
 

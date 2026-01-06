@@ -16,7 +16,7 @@ keywords: "DeepSeek, open source AI models, Chinese AI, DeepSeek V3, AI models c
 
 DeepSeek is an AI research company known for building open-source large language models (LLMs) [that rival closed-source alternatives from giants like OpenAI and Anthropic](https://www.theguardian.com/technology/2025/jan/28/who-is-behind-deepseek-and-how-did-it-achieve-its-ai-sputnik-moment). What sets DeepSeek apart is its focus on cost-effective training methods and releasing models under permissive licenses, allowing developers and businesses to avoid hefty API fees. This has made DeepSeek a standout player in the AI landscape.
 
-The company garnered attention with [the release of its DeepSeek V3 and DeepSeek R1 models](https://en.wikipedia.org/wiki/DeepSeek). These models deliver performance comparable to GPT-4 and Claude but are far more affordable to train. Companies like DeepSeek are essential for businesses unable to invest heavily in AI infrastructure, as open-source AI models democratize access to advanced AI capabilities, offering a viable alternative to expensive commercial APIs.
+The company garnered attention with [the release of its DeepSeek V3 and DeepSeek R1 models](https://en.wikipedia.org/wiki/DeepSeek). These models deliver performance comparable to GPT-4 and [Claude](/ai-chat-bot/claude/) but are far more affordable to train. Companies like DeepSeek are essential for businesses unable to invest heavily in AI infrastructure, as open-source AI models democratize access to advanced AI capabilities, offering a viable alternative to expensive commercial APIs.
 
 ## What is DeepSeek
 
@@ -55,9 +55,9 @@ Several open-source models compete in the same space, each with unique strengths
 | Model              | Parameters | Training Cost | MMLU Score | License | Context Length |
 |--------------------|------------|---------------|------------|---------|----------------|
 | DeepSeek V3        | 671B (37B active) | ~$5.5M | 85.6% | MIT | 128K tokens |
-| Llama 3.1 405B     | 405B       | Not disclosed | 88.6%      | Llama 3.1 | 128K tokens |
-| Qwen 2.5 72B       | 72B        | Not disclosed | 85.3%      | Apache 2.0 | 128K tokens |
-| Mistral Large 2    | 123B       | Not disclosed | 84.0%      | Mistral AI | 128K tokens |
+| [Llama 3.1](/ai-chat-bot/llama/) 405B     | 405B       | Not disclosed | 88.6%      | Llama 3.1 | 128K tokens |
+| [Qwen 2](/ai-chat-bot/qwen/).5 72B       | 72B        | Not disclosed | 85.3%      | Apache 2.0 | 128K tokens |
+| [Mistral Large](/ai-chat-bot/mistral/) 2    | 123B       | Not disclosed | 84.0%      | Mistral AI | 128K tokens |
 | GPT-4 Turbo        | Unknown    | ~$100M+       | 86.4%      | Proprietary | 128K tokens |
 
 DeepSeek's transparent low training costs and open licensing are key differentiators. While Llama 3.1 405B excels in performance, its undisclosed training expenses pose a challenge. Qwen 2.5 is another strong competitor, especially among Chinese AI models, while Mistral Large 2 leans toward commercial use. DeepSeek's mixture-of-experts architecture offers advantages during inference, requiring sophisticated infrastructure compared to dense models. DeepSeek V3 stands out for its cost-effectiveness and accessibility.
@@ -80,7 +80,7 @@ DeepSeek publishes comprehensive technical reports, fostering an environment whe
 
 ## Viral Growth and Adoption
 
-DeepSeek's app soared in app store rankings, surpassing ChatGPT downloads within 48 hours of its launch. The models' unexpected performance, geopolitical context, and dissatisfaction with ChatGPT's pricing fueled this viral growth, leading to infrastructure scaling to accommodate the demand. Public scrutiny and questions about data practices followed, underlining the importance of transparency in AI development.
+DeepSeek's app soared in app store rankings, surpassing [ChatGPT](/ai-chat-bot/chatgpt/) downloads within 48 hours of its launch. The models' unexpected performance, geopolitical context, and dissatisfaction with ChatGPT's pricing fueled this viral growth, leading to infrastructure scaling to accommodate the demand. Public scrutiny and questions about data practices followed, underlining the importance of transparency in AI development.
 
 ## Challenges and Limitations
 

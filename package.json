@@ -7,7 +7,10 @@
     "sync-reports": "rsync -av --delete '../aicw-ee-data/aichatwatch.com/data/reports/' './public/reports/'",
     "build": "astro build && cp dist/sitemap-index.xml dist/sitemap.xml",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "internal-links": "node scripts/add-internal-links.mjs",
+    "internal-links:dry": "node scripts/add-internal-links.mjs --dry-run",
+    "internal-links:verbose": "node scripts/add-internal-links.mjs --dry-run --verbose"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",

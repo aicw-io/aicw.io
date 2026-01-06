@@ -69,7 +69,7 @@ Watson Assistant includes several technical features vital for enterprise deploy
 
 ## Comparison with Salesforce and Microsoft Solutions
 
-Watson Assistant competes directly with Salesforce Einstein Bots and Microsoft Azure Bot Service. Here’s how they compare on key factors:
+Watson Assistant competes directly with [Salesforce Einstein](/ai-chat-bot/salesforce-einstein/) Bots and Microsoft Azure Bot Service. Here’s how they compare on key factors:
 
 | Feature | IBM watsonx Assistant | Salesforce Einstein Bots | Microsoft Azure Bot Service |
 |---------|---------------------|------------------------|---------------------------|

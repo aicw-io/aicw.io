@@ -16,7 +16,7 @@ keywords: "AI search engines, Perplexity, ChatGPT Search, Google AI Overview, AI
 
 AI search engines represent a new way to find information online. Unlike traditional search engines that show a list of links, these tools provide direct answers. They use large language models to understand your questions and respond in natural language.
 
-Perplexity AI, ChatGPT Search, and Google AI Overview are three major players in this space. Each takes a different approach to answering questions:
+[Perplexity AI](/ai-chat-bot/perplexity/), [ChatGPT Search](/ai-search-engine/chatgpt-search/), and Google AI Overview are three major players in this space. Each takes a different approach to answering questions:
 
 - **Perplexity** focuses on citing sources and research.
 - **ChatGPT Search** emphasizes conversational responses.
@@ -54,17 +54,17 @@ AI Search Engine Architecture:
 ![How These AI Search Engines Work Diagram](/assets/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google/question-language-model.png)
 
 
-**Google AI Overview** appears at the top of regular Google searches. It generates AI summaries using Google's Gemini models combined with their search index, making it convenient but less interactive.
+**Google AI Overview** appears at the top of regular Google searches. It generates AI summaries using Google's [Gemini](/ai-chat-bot/google-gemini/) models combined with their search index, making it convenient but less interactive.
 
 ## Key Features and Capabilities
 
 **Perplexity** offers several distinct features:
-- Choose different AI models including GPT-4 and Claude.
+- Choose different AI models including GPT-4 and [Claude](/ai-chat-bot/claude/).
 - Upload files and search specific sources like academic papers.
 - Citations appear inline, aiding easy fact-checking.
 
 **ChatGPT Search** integrates with the main ChatGPT interface:
-- Access search capabilities if you have ChatGPT Plus.
+- Access search capabilities if you have [ChatGPT Plus](/ai-chat-bot/chatgpt/).
 - Refine your question without starting over.
 
 **Google AI Overview** features:
@@ -116,7 +116,7 @@ Accuracy varies between platforms and depends on the question.
 
 ## Alternative AI Search Tools
 
-Beyond the big three, other options include You.com for privacy-focused search, Bing Chat for general queries, Phind for developer questions, Metaphor for semantic searches, and Brave Search for privacy-respecting summaries.
+Beyond the big three, other options include [You.com](/ai-search-engine/you-com/) for privacy-focused search, Bing Chat for general queries, [Phind](/ai-search-engine/phind/) for developer questions, Metaphor for semantic searches, and Brave Search for privacy-respecting summaries.
 
 ## Privacy and Data Usage
 

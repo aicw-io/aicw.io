@@ -91,14 +91,14 @@ PetalBot competes with other web crawlers. Comparison provides context to its op
 | Crawler | Owner | Primary Purpose | Respects robots.txt | Known for AI Training |
 |---------|-------|-----------------|--------------------|-----------------------|
 | PetalBot | Huawei | Petal Search, AI research | Yes | Yes |
-| Googlebot | Google | Google Search | Yes | Yes |
-| Bingbot | Microsoft | Bing Search | Yes | Yes |
-| YandexBot | Yandex | Yandex Search | Yes | Limited |
-| Baiduspider | Baidu | Baidu Search | Yes | Limited |
+| [Googlebot](/ai-crawler-bot/googlebot/) | Google | Google Search | Yes | Yes |
+| [Bingbot](/ai-crawler-bot/bingbot/) | Microsoft | Bing Search | Yes | Yes |
+| [YandexBot](/ai-crawler-bot/yandexbot/) | Yandex | Yandex Search | Yes | Limited |
+| [Baiduspider](/ai-crawler-bot/baiduspider/) | Baidu | Baidu Search | Yes | Limited |
 
 Controlling PetalBot Access:
 ![Comparing PetalBot to Other Web Crawlers Diagram](/assets/ai-crawler-bot/petalbot/website-owner-allow.png)
-| GPTBot | OpenAI | AI training data | Yes | Yes |
+| [GPTBot](/ai-crawler-bot/gptbot/) | OpenAI | AI training data | Yes | Yes |
 
 Googlebot, with extensive refinement, is the most common crawler. PetalBot is newer and less established, with varied crawling refinement.
 

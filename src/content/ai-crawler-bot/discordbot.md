@@ -63,10 +63,10 @@ Understanding differences among web crawlers can improve content optimization ac
 | Crawler | User-Agent Identifier | Primary Tags | Image Size Recommendation | Special Features |
 |---------|------------------------|--------------|---------------------------|------------------|
 | Discordbot | Discordbot/2.0 | Open Graph, Twitter Cards | 1200x630px | Respects theme-color tag |
-| Facebookbot | facebookexternalhit | Open Graph | 1200x630px | Video preview support |
-| Twitterbot | Twitterbot | Twitter Cards, Open Graph | 1200x675px | Player cards for media |
-| LinkedInBot | LinkedInBot | Open Graph | 1200x627px | Article-specific metadata |
-| Slackbot | Slackbot-LinkExpanding | Open Graph, oEmbed | 560px width | oEmbed protocol support |
+| [Facebookbot](/ai-crawler-bot/facebookbot/) | [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/) | Open Graph | 1200x630px | Video preview support |
+| [Twitterbot](/ai-crawler-bot/twitterbot/) | Twitterbot | Twitter Cards, Open Graph | 1200x675px | Player cards for media |
+| [LinkedInBot](/ai-crawler-bot/linkedinbot/) | LinkedInBot | Open Graph | 1200x627px | Article-specific metadata |
+| [Slackbot](/ai-crawler-bot/slackbot/) | Slackbot-LinkExpanding | Open Graph, oEmbed | 560px width | oEmbed protocol support |
 
 Discordbot is lightweight compared to Facebookbot, making fewer requests with aggressive caching. Although Twitterbot has stricter Twitter Card validation requirements, LinkedInBot focuses on professional content. Slackbot supports the oEmbed protocol for more interactive embeds, a feature Discordbot currently lacks.
 

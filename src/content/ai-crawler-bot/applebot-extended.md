@@ -14,7 +14,7 @@ keywords: "Applebot-Extended, Apple AI training, AI training crawler, Applebot u
 
 # Introduction
 
-Apple launched **Applebot-Extended** in 2025 to advance their efforts in artificial intelligence. This **AI training crawler** is specifically designed to gather training data for **Apple Intelligence** and other AI features. Unlike the original Applebot, which supports Siri and Spotlight search results, Applebot-Extended focuses on gathering content for machine learning models. This distinction allows website owners to block **Applebot-Extended** for AI training while still permitting their content to appear in Apple search features. Understanding how these crawlers operate helps developers and site owners make informed content decisions. Separating search indexing from AI training marks a significant shift in major tech companies' data collection strategies.
+Apple launched **[Applebot](/ai-crawler-bot/applebot/)-Extended** in 2025 to advance their efforts in artificial intelligence. This **AI training crawler** is specifically designed to gather training data for **Apple Intelligence** and other AI features. Unlike the original Applebot, which supports Siri and Spotlight search results, Applebot-Extended focuses on gathering content for machine learning models. This distinction allows website owners to block **Applebot-Extended** for AI training while still permitting their content to appear in Apple search features. Understanding how these crawlers operate helps developers and site owners make informed content decisions. Separating search indexing from AI training marks a significant shift in major tech companies' data collection strategies.
 
 ## What is Applebot-Extended
 
@@ -68,10 +68,10 @@ Blocking Configuration Flow:
 | Crawler              | Company      | User-Agent Token      | Blockable via robots.txt | Separate from Search |
 |---------------------|--------------|-----------------------|-------------------------|---------------------|
 | Applebot-Extended    | Apple        | Applebot-Extended     | Yes                     | Yes                 |
-| GPTBot              | OpenAI       | GPTBot                | Yes                     | Yes                 |
-| Google-Extended     | Google       | Google-Extended       | Yes                     | Yes                 |
-| CCBot               | Common Crawl | CCBot                 | Yes                     | N/A                 |
-| FacebookBot         | Meta         | FacebookBot           | Yes                     | No                  |
+| [GPTBot](/ai-crawler-bot/gptbot/)              | OpenAI       | GPTBot                | Yes                     | Yes                 |
+| [Google-Extended](/ai-crawler-bot/google-extended/)     | Google       | Google-Extended       | Yes                     | Yes                 |
+| CCBot               | [Common Crawl](/ai-crawler-bot/ccbot/) | CCBot                 | Yes                     | N/A                 |
+| [FacebookBot](/ai-crawler-bot/facebookbot/)         | Meta         | FacebookBot           | Yes                     | No                  |
 
 Separated crawlers give webmasters more control compared to unified approaches. Most modern AI training crawlers respect robots.txt directives after industry pressure, allowing blocking without affecting search visibility.
 

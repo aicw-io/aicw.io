@@ -68,9 +68,9 @@ Different social platforms use different crawling approaches and priorities for 
 | Platform | Bot Name | Primary Focus | Key Markup | Crawl Frequency |
 |----------|----------|---------------|------------|----------------|
 | Pinterest | Pinterestbot | Images, visual content | Rich Pins, og:image | High, continuous |
-| Facebook | Facebookexternalhit | Link previews, metadata | Open Graph tags | Medium, on-demand |
-| Twitter | Twitterbot | Card previews, links | Twitter Cards | Medium, periodic |
-| LinkedIn | LinkedInBot | Professional content | og tags, articles | Low to medium |
+| Facebook | [Facebookexternalhit](/ai-crawler-bot/facebookexternalhit/) | Link previews, metadata | Open Graph tags | Medium, on-demand |
+| Twitter | [Twitterbot](/ai-crawler-bot/twitterbot/) | Card previews, links | Twitter Cards | Medium, periodic |
+| LinkedIn | [LinkedInBot](/ai-crawler-bot/linkedinbot/) | Professional content | og tags, articles | Low to medium |
 | Instagram | Instagram Bot | Limited external crawling | Basic metadata | Very low |
 
 Pinterest Bot stands out for its heavy focus on image content and visual search. Facebook's crawler prioritizes link preview generation when content is shared. Twitter's bot creates card previews, but doesn't actively find content like Pinterest does. LinkedIn focuses more on article content and professional information. Instagram rarely crawls external sites since it's primarily a closed platform. Pinterest's crawler is more aggressive than most because discovery is core to the platform. The bot needs constant fresh content to feed user searches and recommendation algorithms. Most other social bots only activate when someone shares a specific link. Pinterest proactively searches for new pinnable content across the web. This makes proper Pinterest improvement more important for organic discovery compared to other platforms.

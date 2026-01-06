@@ -48,7 +48,7 @@ New Relic Synthetics operates as part of the broader New Relic observability pla
 
 Several alternatives offer synthetic monitoring capabilities. Here's how New Relic Synthetics compares to major options:
 
-| Feature                 | New Relic Synthetics | Datadog Synthetics | Pingdom | Uptime Robot | StatusCake |
+| Feature                 | New Relic Synthetics | [Datadog](/ai-crawler-bot/datadog/) Synthetics | [Pingdom](/ai-crawler-bot/pingdom/) | Uptime Robot | StatusCake |
 |-------------------------|----------------------|-------------------|---------|--------------|------------|
 | Scripted Browser Tests  | Yes                  | Yes               | Limited | No           | No         |
 | API Monitoring          | Yes                  | Yes               | Yes     | Yes          | Yes        |

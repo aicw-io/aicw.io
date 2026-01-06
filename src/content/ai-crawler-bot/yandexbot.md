@@ -97,10 +97,10 @@ Different search engines operate distinct crawlers, each with varying behaviors.
 | Crawler | Company | Market Focus | Crawl Frequency | AI Training Use |
 |---------|---------|--------------|-----------------|-----------------|
 | YandexBot | Yandex | Russia, CIS countries | Medium-High | Yes |
-| Googlebot | Google | Global | High | Yes |
-| Bingbot | Microsoft | Global, English-focused | Medium | Yes |
-| Baiduspider | Baidu | China | High (for Chinese sites) | Yes |
-| DuckDuckBot | DuckDuckGo | Global, privacy-focused | Low-Medium | Limited |
+| [Googlebot](/ai-crawler-bot/googlebot/) | Google | Global | High | Yes |
+| [Bingbot](/ai-crawler-bot/bingbot/) | Microsoft | Global, English-focused | Medium | Yes |
+| [Baiduspider](/ai-crawler-bot/baiduspider/) | Baidu | China | High (for Chinese sites) | Yes |
+| DuckDuckBot | [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/) | Global, privacy-focused | Low-Medium | Limited |
 
 YandexBot aggressively targets Russian-language content. Comparing crawler frequency, Googlebot often has the highest rate, with Bingbot improving significantly.
 

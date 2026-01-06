@@ -14,7 +14,7 @@ keywords: "GPTBot, OpenAI crawler, AI training bot, web crawler, robots.txt, blo
 
 ## What is GPTBot
 
-[GPTBot](https://platform.openai.com/docs/bots) is OpenAI's official web crawler, designed to collect text data from publicly accessible websites for training AI models like ChatGPT and GPT-4. Similar to how Google's crawler indexes web pages, GPTBot gathers information, not to build a search index, but to enhance language understanding in AI systems.
+[GPTBot](https://platform.openai.com/docs/bots) is OpenAI's official web crawler, designed to collect text data from publicly accessible websites for training AI models like [ChatGPT](/ai-chat-bot/chatgpt/) and GPT-4. Similar to how Google's crawler indexes web pages, GPTBot gathers information, not to build a search index, but to enhance language understanding in AI systems.
 
 Web crawlers like GPTBot are essential for AI models requiring massive text data to learn language patterns, as they automate the process of gathering large-scale information from the web. Without these crawlers, companies would have to manually compile training datasets, which is unfeasible at the required scale. GPTBot targets high-quality web content, aiding AI models in better understanding context and generating accurate responses for varied topics.
 
@@ -32,7 +32,7 @@ The user agent string serves two purposes. First, it lets website owners track G
 
 OpenAI's documentation at [openai.com](https://openai.com/gptbot) details GPTBot's behavior and technical specifications, confirming that it respects robots.txt directives and standard web crawling protocols. It confirms GPTBot respects robots.txt directives and standard web crawling protocols. It focuses on publicly available content, avoiding pages behind paywalls or login requirements.
 
-Developers working with server configurations need the exact user agent string for monitoring or blocking the crawler. The string format follows conventions used by major crawlers like Googlebot and Bingbot.
+Developers working with server configurations need the exact user agent string for monitoring or blocking the crawler. The string format follows conventions used by major crawlers like [Googlebot](/ai-crawler-bot/googlebot/) and [Bingbot](/ai-crawler-bot/bingbot/).
 
 ## How to Block GPTBot Using Robots.txt
 

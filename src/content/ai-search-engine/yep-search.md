@@ -51,9 +51,9 @@ Several search engines position themselves as privacy alternatives. Here's how Y
 | Search Engine | Independent Index | Revenue Model | Privacy Features | Creator Payments |
 |--------------|------------------|---------------|------------------|------------------|
 | Yep | Yes, own crawler | 90% to creators, 10% retained | No tracking, no logs | Yes, 90% of ad revenue |
-| DuckDuckGo | No, uses Bing + others | Traditional ads, 100% retained | No tracking, no logs | No |
-| Brave Search | Yes, own index | Ad share with browser users | No tracking, no logs | No direct payment |
-| Startpage | No, uses Google | Traditional ads, 100% retained | No tracking, proxy results | No |
+| [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/) | No, uses Bing + others | Traditional ads, 100% retained | No tracking, no logs | No |
+| [Brave Search](/ai-search-engine/brave-search-ai/) | Yes, own index | Ad share with browser users | No tracking, no logs | No direct payment |
+| [Startpage](/ai-search-engine/startpage/) | No, uses Google | Traditional ads, 100% retained | No tracking, proxy results | No |
 | Ecosia | No, uses Bing | Profits fund tree planting | Minimal tracking | No, funds projects |
 
 ## Yep's Market Position and Future Outlook

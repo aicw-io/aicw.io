@@ -14,7 +14,7 @@ keywords: "Pi AI, Inflection AI, personal AI, emotional AI, Pi chatbot, empathet
 
 ## What Is Pi AI and Why It Matters
 
-Pi AI is a personal AI chatbot created by Inflection AI. Launched in May 2022, it stands apart from ChatGPT or Claude, which focus on productivity and task completion. Pi places its emphasis on being an empathetic chatbot, designed for conversation and emotional support, acting as an AI companion. This makes it quite different from other tools that assist in writing code or summarizing documents. Pi stands for Personal Intelligence and facilitates interaction through text and voice exchanges, accessible via web browsers and mobile apps.
+Pi AI is a personal AI chatbot created by Inflection AI. Launched in May 2022, it stands apart from [ChatGPT](/ai-chat-bot/chatgpt/) or [Claude](/ai-chat-bot/claude/), which focus on productivity and task completion. Pi places its emphasis on being an empathetic chatbot, designed for conversation and emotional support, acting as an AI companion. This makes it quite different from other tools that assist in writing code or summarizing documents. Pi stands for Personal Intelligence and facilitates interaction through text and voice exchanges, accessible via web browsers and mobile apps.
 
 The main allure of Pi AI is its natural, conversational interface that doesn't require specific tasks or prompts. Small business owners might use it for brainstorming ideas conversationally, while marketing professionals could discuss campaign concepts. However, Pi AI leans more towards personal rather than business productivity uses. Its voice interaction feature uniquely sets it apart from other text-only chatbots.
 
@@ -50,7 +50,7 @@ Pi AI differs fundamentally from mainstream chatbots. While ChatGPT excels at pr
 
 Here's a comparative overview:
 
-| Feature | Pi AI | ChatGPT | Claude | Google Gemini | Character AI |
+| Feature | Pi AI | ChatGPT | Claude | [Google Gemini](/ai-chat-bot/google-gemini/) | [Character AI](/ai-chat-bot/character-ai/) |
 |---------|-------|---------|--------|---------------|---------------|
 | Primary Focus | Conversation & empathy | Productivity & tasks | Analysis & safety | Search & combining | Roleplay & characters |
 | Voice Interaction | Strong emphasis | Available in app | Not available | Limited | Not available |

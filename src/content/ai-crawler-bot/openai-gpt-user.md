@@ -14,11 +14,11 @@ keywords: "OpenAI-GPT-User, OpenAI user agent, GPT agent string, blocking OpenAI
 
 ## Introduction
 
-The OpenAI-GPT-User agent string is essential for identifying ChatGPT browsing activity on websites. This string, visible in server logs when OpenAI systems access web content, differentiates AI bot traffic from regular visitors. Website owners and developers should understand this identifier to control AI interactions with their content efficiently. Some aim to block OpenAI bots entirely, while others offer selective access, depending on their needs. Recognizing the technical details helps make informed decisions regarding AI bot management. The ChatGPT user agent string works like other bot identifiers, but marks OpenAI's automated requests specifically.
+The OpenAI-GPT-User agent string is essential for identifying [ChatGPT](/ai-chat-bot/chatgpt/) browsing activity on websites. This string, visible in server logs when OpenAI systems access web content, differentiates AI bot traffic from regular visitors. Website owners and developers should understand this identifier to control AI interactions with their content efficiently. Some aim to block OpenAI bots entirely, while others offer selective access, depending on their needs. Recognizing the technical details helps make informed decisions regarding AI bot management. The ChatGPT user agent string works like other bot identifiers, but marks OpenAI's automated requests specifically.
 
 ## What is OpenAI-GPT-User Agent
 
-The OpenAI-GPT-User is a user agent string sent in HTTP headers during OpenAI web requests, specifically [used for certain user actions in ChatGPT and Custom GPTs](https://platform.openai.com/docs/bots). It acts as a digital signature, identifying traffic sources. When ChatGPT browses a website or fetches content, this identifier accompanies the request. In server logs, it typically appears as "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)". This differs from GPTBot, OpenAI's web crawler for training data collection, as OpenAI-GPT-User relates to real-time browsing in ChatGPT. The distinction is critical since their purposes diverge: one for training datasets, the other for conversations. These can be managed separately through different strategies.
+The OpenAI-GPT-User is a user agent string sent in HTTP headers during OpenAI web requests, specifically [used for certain user actions in ChatGPT and Custom GPTs](https://platform.openai.com/docs/bots). It acts as a digital signature, identifying traffic sources. When ChatGPT browses a website or fetches content, this identifier accompanies the request. In server logs, it typically appears as "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 (KHTML, like Gecko; compatible; [ChatGPT-User](/ai-crawler-bot/chatgpt-user/)/1.0; +https://openai.com/bot)". This differs from [GPTBot](/ai-crawler-bot/gptbot/), OpenAI's web crawler for training data collection, as OpenAI-GPT-User relates to real-time browsing in ChatGPT. The distinction is critical since their purposes diverge: one for training datasets, the other for conversations. These can be managed separately through different strategies.
 
 How OpenAI User Agent Works:
 ![What is OpenAI-GPT-User Agent Diagram](/assets/ai-crawler-bot/openai-gpt-user/chatgpt-user-request.png)
@@ -46,7 +46,7 @@ Using IP address verification adds an additional security layer. OpenAI operates
 
 ## Alternative User Agent Strategies and Variations
 
-Understanding various user agent strategies helps develop comprehensive AI management policies. Companies like Google use identifiable agents for AI services, like "Google-Extended" for training crawlers. Though Anthropic doesn’t publicly document specific strings, they and others like PerplexityBot, have identifiable patterns. Blocking methods are similar across agents, with server configurations including multiple strings in blocklists. User agent spoofing, however, remains a challenge. Multiple verification methods offer better protection than relying solely on user agent strings.
+Understanding various user agent strategies helps develop comprehensive AI management policies. Companies like Google use identifiable agents for AI services, like "[Google-Extended](/ai-crawler-bot/google-extended/)" for training crawlers. Though Anthropic doesn’t publicly document specific strings, they and others like [PerplexityBot](/ai-crawler-bot/perplexitybot/), have identifiable patterns. Blocking methods are similar across agents, with server configurations including multiple strings in blocklists. User agent spoofing, however, remains a challenge. Multiple verification methods offer better protection than relying solely on user agent strings.
 
 AI Bot Management Flow:
 ![Alternative User Agent Strategies and Variations Diagram](/assets/ai-crawler-bot/openai-gpt-user/detect-user-agent.png)
@@ -60,8 +60,8 @@ Here's a comparison relevant to website administrators:
 | OpenAI ChatGPT | ChatGPT-User | Real-time browsing | Partially | Medium |
 | OpenAI GPTBot | GPTBot | Training data | Yes | Low |
 | Google Bard | Google-Extended | Training data | Yes | Low |
-| Anthropic Claude | Unknown | Real-time search | Unknown | Medium |
-| Perplexity | PerplexityBot | Search indexing | Yes | Low |
+| Anthropic [Claude](/ai-chat-bot/claude/) | Unknown | Real-time search | Unknown | Medium |
+| [Perplexity](/ai-chat-bot/perplexity/) | PerplexityBot | Search indexing | Yes | Low |
 
 Training crawlers better respect robots.txt than real-time browsing agents. Blocking difficulty varies based on agent identification ease. Website owners should evaluate their needs before implementing measures.
 

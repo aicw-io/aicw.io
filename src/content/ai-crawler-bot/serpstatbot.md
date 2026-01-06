@@ -83,10 +83,10 @@ Multiple SEO platforms operate similar crawlers for data collection. Here's how 
 | Crawler Name | Parent Company | Primary Purpose | Respects Robots.txt | Notable Features |
 |--------------|----------------|-----------------|---------------------|------------------|
 | SerpstatBot | Serpstat | Site audits, backlink analysis | Yes | Affordable platform, good for small businesses |
-| AhrefsBot | Ahrefs | Backlink index building | Yes | Largest backlink database, very active crawler |
-| SEMrushBot | Semrush | SEO data collection, site audit | Yes | Complete toolkit, enterprise features |
-| MJ12bot | Majestic | Link intelligence | Yes | Focuses heavily on backlink data |
-| DotBot | Moz | Link index, site data | Yes | Part of established SEO tool suite |
+| [AhrefsBot](/ai-crawler-bot/ahrefsbot/) | Ahrefs | Backlink index building | Yes | Largest backlink database, very active crawler |
+| [SEMrushBot](/ai-crawler-bot/semrushbot/) | Semrush | SEO data collection, site audit | Yes | Complete toolkit, enterprise features |
+| [MJ12bot](/ai-crawler-bot/mj12bot-majestic-seo-crawler/) | Majestic | Link intelligence | Yes | Focuses heavily on backlink data |
+| [DotBot](/ai-crawler-bot/dotbot/) | Moz | Link index, site data | Yes | Part of established SEO tool suite |
 
 AhrefsBot is probably the most aggressive crawler, visiting sites very frequently to maintain fresh backlink data. Their index contains over 30 trillion links. SEMrushBot serves a platform with over 7 million users and offers more marketing features beyond SEO.
 

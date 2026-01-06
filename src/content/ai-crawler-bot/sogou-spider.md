@@ -65,10 +65,10 @@ Here's a comparison of Sogou Spider with other major search engine crawlers:
 | Crawler       | Owner     | Primary Market | User-Agent Identifier       | Robots.txt Support | Market Position      |
 |---------------|-----------|----------------|-----------------------------|---------------------|----------------------|
 | Sogou Spider  | Tencent   | China          | Sogou web spider            | Yes                 | 3rd-4th in China     |
-| Baiduspider   | Baidu     | China          | Baiduspider                 | Yes                 | 1st in China         |
-| Googlebot     | Google    | Global         | Googlebot                   | Yes                 | 1st globally         |
-| Bingbot       | Microsoft | Global         | bingbot                     | Yes                 | 2nd globally         |
-| Yandex Bot    | Yandex    | Russia/CIS     | YandexBot                   | Yes                 | 1st in Russia        |
+| [Baiduspider](/ai-crawler-bot/baiduspider/)   | Baidu     | China          | Baiduspider                 | Yes                 | 1st in China         |
+| [Googlebot](/ai-crawler-bot/googlebot/)     | Google    | Global         | Googlebot                   | Yes                 | 1st globally         |
+| [Bingbot](/ai-crawler-bot/bingbot/)       | Microsoft | Global         | bingbot                     | Yes                 | 2nd globally         |
+| [Yandex Bot](/ai-crawler-bot/yandexbot/)    | Yandex    | Russia/CIS     | YandexBot                   | Yes                 | 1st in Russia        |
 
 Each crawler has unique crawling patterns and priorities. Sogou Spider focuses on Chinese language content and websites crucial for Chinese users, while Baiduspider has aggressive crawl rates due to Baidu's dominance. Googlebot and Bingbot show less activity on Chinese-language sites targeting mainland China. Crawlers differ in handling JavaScript, revisiting pages, and content prioritization signals. Sogou Spider shares technical similarities with other modern crawlers but is specifically optimized for the Chinese web ecosystem.
 

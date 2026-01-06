@@ -71,7 +71,7 @@ Several services compete with BuiltWith in the technology detection space, each 
 | Tool       | Primary Focus                 | Coverage            | Key Differentiator                                 |
 |------------|-------------------------------|---------------------|----------------------------------------------------|
 | BuiltWith  | Complete tech profiling       | 50+ million sites   | Extensive historical data and trends               |
-| Wappalyzer | Browser extension and API     | Real-time detection | Easy browser-based detection                       |
+| [Wappalyzer](/ai-crawler-bot/wappalyzer/) | Browser extension and API     | Real-time detection | Easy browser-based detection                       |
 | SimilarTech| Sales intelligence            | 100+ million sites  | Deep sales and marketing features                  |
 | Datanyze   | B2B sales prospecting         | 50+ million sites   | CRM combining focus                                |
 | WhatRuns   | Browser extension             | On-demand detection | Free browser extension                             |

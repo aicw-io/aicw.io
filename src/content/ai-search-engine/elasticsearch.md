@@ -127,7 +127,7 @@ Cloud vs Self-Hosted Deployment:
 
 Here's a comparison of Elasticsearch with similar tools:
 
-**Elasticsearch vs Algolia:**
+**Elasticsearch vs [Algolia](/ai-search-engine/algolia/):**
 - **Elasticsearch:** Offers greater flexibility but requires more complex setup.
 - **Algolia:** User-friendly but more expensive.
 

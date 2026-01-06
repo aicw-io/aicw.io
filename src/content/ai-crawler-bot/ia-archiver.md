@@ -14,7 +14,7 @@ keywords: "ia_archiver, Internet Archive bot, Wayback Machine crawler, web crawl
 
 ## What is ia_archiver and Why It Matters
 
-The **ia_archiver** is a web crawler integral to the Internet Archive's mission of web archiving. This Internet Archive bot was initially employed to collect and preserve web pages for the Wayback Machine. Web crawlers, like ia_archiver, are automated programs that visit websites and download content for indexing or archiving purposes. The Internet Archive created this legacy crawler to build a massive digital [library of web content, capturing snapshots of websites over time](https://en.wikipedia.org/wiki/Internet_Archive). Since the late 1990s, this archive bot has played a pivotal role in preserving internet history by systematically crawling billions of web pages. Even though the Internet Archive has transitioned to newer technology like the [Wayback Machine crawler, ia_archiver remains an important part of history](https://en.wikipedia.org/wiki/Wayback_Machine). Many website owners still reference this web crawler in [their robots.txt files to manage how their content is archived](https://en.wikipedia.org/wiki/Robots.txt). Understanding ia_archiver helps web developers and site administrators make informed decisions about allowing or blocking archival activities on their websites.
+The **ia_archiver** is a web crawler integral to the Internet Archive's mission of web archiving. This [Internet Archive bot](/ai-crawler-bot/archive-org-bot/) was initially employed to collect and preserve web pages for the Wayback Machine. Web crawlers, like ia_archiver, are automated programs that visit websites and download content for indexing or archiving purposes. The Internet Archive created this legacy crawler to build a massive digital [library of web content, capturing snapshots of websites over time](https://en.wikipedia.org/wiki/Internet_Archive). Since the late 1990s, this archive bot has played a pivotal role in preserving internet history by systematically crawling billions of web pages. Even though the Internet Archive has transitioned to newer technology like the [Wayback Machine crawler, ia_archiver remains an important part of history](https://en.wikipedia.org/wiki/Wayback_Machine). Many website owners still reference this web crawler in [their robots.txt files to manage how their content is archived](https://en.wikipedia.org/wiki/Robots.txt). Understanding ia_archiver helps web developers and site administrators make informed decisions about allowing or blocking archival activities on their websites.
 
 ## The Purpose and History of ia_archiver
 
@@ -40,10 +40,10 @@ Understanding ia_archiver's role and importance requires comparing it to modern 
 |-------------------------|--------------------|---------------------|---------------------|---------------------|
 | ia_archiver             | Web archiving      | Internet Archive    | Heritage, limited use | Yes                 |
 | archive.org_bot         | Web archiving      | Internet Archive    | Active             | Yes                 |
-| Googlebot               | Search indexing    | Google              | Active             | Yes                 |
-| Bingbot                 | Search indexing    | Microsoft           | Active             | Yes                 |
-| CCBot                   | Dataset collection | Common Crawl        | Active             | Yes                 |
-| Screaming Frog          | SEO analysis       | Screaming Frog      | Active             | Yes                 |
+| [Googlebot](/ai-crawler-bot/googlebot/)               | Search indexing    | Google              | Active             | Yes                 |
+| [Bingbot](/ai-crawler-bot/bingbot/)                 | Search indexing    | Microsoft           | Active             | Yes                 |
+| CCBot                   | Dataset collection | [Common Crawl](/ai-crawler-bot/ccbot/)        | Active             | Yes                 |
+| [Screaming Frog](/ai-crawler-bot/screaming-frog/)          | SEO analysis       | Screaming Frog      | Active             | Yes                 |
 
 Internet Archive Crawler Evolution:
 ![Comparing ia_archiver to Modern Web Crawlers Diagram](/assets/ai-crawler-bot/ia-archiver/archiver-archive-modern.png)

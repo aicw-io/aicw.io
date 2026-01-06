@@ -61,7 +61,7 @@ Here's how Claude compares with other major AI assistants:
 Claude API Integration Flow:
 ![Comparing Claude to Alternatives Diagram](/assets/ai-chat-bot/claude/application-request-authentication.png)
 
-| Feature | Claude 3.5 Sonnet | ChatGPT-4 | Gemini Pro | Llama 3 | Mistral Large |
+| Feature | Claude 3.5 Sonnet | [ChatGPT-4](/ai-chat-bot/chatgpt/) | [Gemini Pro](/ai-chat-bot/google-gemini/) | [Llama 3](/ai-chat-bot/llama/) | [Mistral Large](/ai-chat-bot/mistral/) |
 |---------|------------------|-----------|------------|---------|---------------|
 | Context Window | 200K tokens | 128K tokens | 32K tokens | 8K tokens | 32K tokens |
 | Free Tier | Yes | Limited | Yes | Open source | Limited |

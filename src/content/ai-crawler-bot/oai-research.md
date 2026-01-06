@@ -23,7 +23,7 @@ The deprecation reflects how AI companies are becoming more transparent about th
 ## The Historical Role of OAI-Research
 
 
-OpenAI Crawler Evolution:
+[OpenAI Crawler](/ai-crawler-bot/gptbot/) Evolution:
 ![The Historical Role of OAI-Research Diagram](/assets/ai-crawler-bot/oai-research/research-deprecated-gptbot.png)
 
 OAI-Research operated during the early stages of OpenAI's web data collection efforts. The deprecated crawler accessed publicly available websites to gather text content for research projects. This data collection supported various AI initiatives, including language model development and understanding how information is structured across the internet.
@@ -114,7 +114,7 @@ Crawler activity appears in web server logs with the user agent string. Monitori
 
 The shift from OAI-Research to GPTBot reflects broader changes in how AI companies collect training data. Transparency has become more important as AI systems gain prominence. Companies now provide clearer documentation about their data collection practices and respect webmaster preferences more consistently.
 
-Blocking AI crawlers does not guarantee your content won't be used for training. Many AI models were trained on datasets collected years ago before widespread crawler blocking. Common Crawl archives contain snapshots of the web going back over a decade. Content from these archives might still appear in training datasets even if you block current crawlers.
+Blocking AI crawlers does not guarantee your content won't be used for training. Many AI models were trained on datasets collected years ago before widespread crawler blocking. [Common Crawl](/ai-crawler-bot/ccbot/) archives contain snapshots of the web going back over a decade. Content from these archives might still appear in training datasets even if you block current crawlers.
 
 Some websites choose to allow AI crawlers in hopes of gaining visibility through AI-generated content. When language models reference or recommend websites, it can drive traffic, but the relationship between allowing crawlers and receiving citations is not well established. AI companies do not guarantee that allowing their crawlers will result in more favorable treatment.
 

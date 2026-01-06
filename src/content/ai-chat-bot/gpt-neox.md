@@ -47,15 +47,15 @@ Several open-source language models compete with GPT-NeoX:
 | Model      | Developer  | Parameters | License     | Training Data      | Commercial Use         |
 |------------|------------|------------|-------------|---------------------|-------------------------|
 | GPT-NeoX   | EleutherAI | 20B        | Apache 2.0  | The Pile (825GB)    | Yes, unrestricted       |
-| BLOOM      | BigScience | 176B       | RAIL License | ROOTS (1.6TB)       | Yes, with restrictions  |
+| [BLOOM](/ai-chat-bot/bloom/)      | BigScience | 176B       | RAIL License | ROOTS (1.6TB)       | Yes, with restrictions  |
 | LLaMA      | Meta       | 7B-65B     | Custom      | Undisclosed         | Research only initially |
-| Falcon     | TII        | 40B-180B   | Apache 2.0  | RefinedWeb          | Yes, unrestricted       |
+| [Falcon](/ai-chat-bot/falcon/)     | TII        | 40B-180B   | Apache 2.0  | RefinedWeb          | Yes, unrestricted       |
 | Pythia     | EleutherAI | 70M-12B    | Apache 2.0  | The Pile            | Yes, unrestricted       |
 
 GPT-NeoX Use Cases:
 ![GPT-NeoX Compared to Alternative Models Diagram](/assets/ai-chat-bot/gpt-neox/neox-base-model.png)
 
-GPT-NeoX finds a balance between model size and open-source accessibility. BLOOM is larger but has usage restrictions. Initially, LLaMA prohibited commercial use, a stance revised with LLaMA 2. Falcon offers newer models trained on more recent data than GPT-NeoX. Pythia represents EleutherAI's exploration of model scaling. GPT-NeoX is popular due to its permissive license and comprehensive documentation, serving as a baseline for research.
+GPT-NeoX finds a balance between model size and open-source accessibility. BLOOM is larger but has usage restrictions. Initially, LLaMA prohibited commercial use, a stance revised with [LLaMA 2](/ai-chat-bot/llama/). Falcon offers newer models trained on more recent data than GPT-NeoX. Pythia represents EleutherAI's exploration of model scaling. GPT-NeoX is popular due to its permissive license and comprehensive documentation, serving as a baseline for research.
 
 ## Technical Implementation and Requirements
 

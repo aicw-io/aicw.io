@@ -72,13 +72,13 @@ Codeium supports context awareness through its indexing system, analyzing your r
 
 ## Comparing Codeium to Copilot and Cursor
 
-GitHub Copilot, Cursor, and Codeium represent different approaches to AI-assisted coding. Each has distinct strengths and pricing models appealing to various user segments.
+[GitHub Copilot](/ai-chat-bot/github-copilot/), Cursor, and Codeium represent different approaches to AI-assisted coding. Each has distinct strengths and pricing models appealing to various user segments.
 
 | Feature | Codeium | GitHub Copilot | Cursor |
 |---------|---------|----------------|--------|
 | Individual Price | Free | $10/month | $20/month |
 | Languages Supported | 70+ | 40+ | 40+ |
-| IDE Support | 40+ editors | VS Code, JetBrains, others | Cursor IDE only |
+| IDE Support | 40+ editors | VS Code, JetBrains, others | [Cursor IDE](/ai-chat-bot/cursor/) only |
 | Chat Interface | Yes | Yes | Yes |
 | Standalone IDE | Windsurf | No | Yes |
 | Self-Hosting | Enterprise only | No | No |

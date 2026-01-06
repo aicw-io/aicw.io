@@ -54,11 +54,11 @@ ImagesiftBot isn't alone in collecting images for AI training. Several companies
 | Crawler Name     | Operated By    | Primary Purpose                             | User Agent String | Blocking Difficulty         |
 |------------------|----------------|---------------------------------------------|-------------------|-----------------------------|
 | ImagesiftBot     | The Hive       | Image collection for AI training            | ImagesiftBot      | Easy via robots.txt        |
-| GPTBot           | OpenAI         | Content collection for ChatGPT training     | GPTBot            | Easy via robots.txt        |
-| Google-Extended  | Google         | AI training data                            | Google-Extended   | Easy via robots.txt        |
-| CCBot            | Common Crawl   | General web archiving and AI datasets       | CCBot             | Easy via robots.txt        |
-| Bytespider       | ByteDance      | Content collection for AI products          | Bytespider        | Easy via robots.txt        |
-| ClaudeBot        | Anthropic      | Training data for Claude AI                 | ClaudeBot         | Easy via robots.txt        |
+| [GPTBot](/ai-crawler-bot/gptbot/)           | OpenAI         | Content collection for [ChatGPT](/ai-chat-bot/chatgpt/) training     | GPTBot            | Easy via robots.txt        |
+| [Google-Extended](/ai-crawler-bot/google-extended/)  | Google         | AI training data                            | Google-Extended   | Easy via robots.txt        |
+| CCBot            | [Common Crawl](/ai-crawler-bot/ccbot/)   | General web archiving and AI datasets       | CCBot             | Easy via robots.txt        |
+| [Bytespider](/ai-crawler-bot/bytespider/)       | ByteDance      | Content collection for AI products          | Bytespider        | Easy via robots.txt        |
+| [ClaudeBot](/ai-crawler-bot/claudebot/)        | Anthropic      | Training data for [Claude AI](/ai-chat-bot/claude/)                 | ClaudeBot         | Easy via robots.txt        |
 
 Each crawler serves similar functions for different organizations. ImagesiftBot focuses specifically on image content, while others may collect text and images. Blocking methods are similar, relying on robots.txt directives and user agent strings. Website owners concerned about AI training should consider blocking multiple crawlers, not just ImagesiftBot, as effectiveness depends on crawler operators respecting robots.txt.
 

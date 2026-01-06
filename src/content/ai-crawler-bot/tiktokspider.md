@@ -14,7 +14,7 @@ keywords: "TikTokSpider, TikTok crawler, ByteDance spider, AI features in TikTok
 
 ## What is TikTokSpider
 
-TikTokSpider is a [web crawler operated by ByteDance, the parent company of TikTok](https://fortune.com/2024/10/03/bytedance-tiktok-bytespider-scraper-bot/). This TikTok crawler is designed specifically for product development and research purposes within the TikTok ecosystem. Web crawlers like TikTokSpider automatically browse websites and collect data to improve services and develop new features. Companies use these TikTok bots to gather information about web content, analyze trends, and train AI models that power recommendation systems. TikTokSpider plays an important role in helping ByteDance understand content across the internet and improve TikTok's AI-driven features such as content discovery and personalization. The crawler operates separately from ByteSpider, which is ByteDance's general-purpose web crawler used for broader AI training and search operations. Understanding TikTokSpider is crucial for web developers and site administrators who want to control how ByteDance's crawlers interact with their websites.
+TikTokSpider is a [web crawler operated by ByteDance, the parent company of TikTok](https://fortune.com/2024/10/03/bytedance-tiktok-bytespider-scraper-bot/). This TikTok crawler is designed specifically for product development and research purposes within the TikTok ecosystem. Web crawlers like TikTokSpider automatically browse websites and collect data to improve services and develop new features. Companies use these TikTok bots to gather information about web content, analyze trends, and train AI models that power recommendation systems. TikTokSpider plays an important role in helping ByteDance understand content across the internet and improve TikTok's AI-driven features such as content discovery and personalization. The crawler operates separately from [ByteSpider](/ai-crawler-bot/bytespider/), which is ByteDance's general-purpose web crawler used for broader AI training and search operations. Understanding TikTokSpider is crucial for web developers and site administrators who want to control how ByteDance's crawlers interact with their websites.
 
 ## The Purpose Behind TikTokSpider
 
@@ -70,9 +70,9 @@ Many tech companies operate web crawlers for AI training and product development
 |---------------|----------------|----------------------------|-----------------------------|-----------------------------------------|
 | TikTokSpider  | ByteDance      | TikTok product development  | TikTokSpider                | robots.txt User-agent: TikTokSpider    |
 | ByteSpider    | ByteDance      | General AI training        | ByteSpider                  | robots.txt User-agent: ByteSpider      |
-| GPTBot        | OpenAI         | AI model training          | GPTBot                      | robots.txt User-agent: GPTBot          |
-| GoogleBot     | Google         | Search indexing            | Googlebot                   | robots.txt User-agent: Googlebot       |
-| CCBot         | Common Crawl   | Dataset creation           | CCBot                       | robots.txt User-agent: CCBot           |
+| [GPTBot](/ai-crawler-bot/gptbot/)        | OpenAI         | AI model training          | GPTBot                      | robots.txt User-agent: GPTBot          |
+| [GoogleBot](/ai-crawler-bot/googlebot/)     | Google         | Search indexing            | Googlebot                   | robots.txt User-agent: Googlebot       |
+| CCBot         | [Common Crawl](/ai-crawler-bot/ccbot/)   | Dataset creation           | CCBot                       | robots.txt User-agent: CCBot           |
 
 Each crawler serves distinct purposes, though data collection methods are similar. GoogleBot focuses on search engine indexing, while GPTBot specifically collects data for language model training. Common Crawl's CCBot creates publicly available datasets used by researchers and developers. TikTokSpider's narrow focus on TikTok product development distinguishes it from broader crawlers like ByteSpider. Website owners should understand these differences when configuring crawler access policies. Some crawlers offer more detailed documentation and opt-out processes than others. The crawling frequency and resource consumption also vary significantly between different bots.
 

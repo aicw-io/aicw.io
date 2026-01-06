@@ -18,7 +18,7 @@ keywords: "iAsk.ai, AI search engine, free AI search, natural language processin
 
 iAsk.ai is an **AI-powered search engine** that uses natural language processing to generate answers. Users can type questions as naturally as they would to a human and receive answers based on a combination of training data and web sources.
 
-Launched as a **ChatGPT alternative** and traditional search engine complement, iAsk.ai eliminates the need for account creation or subscription fees, making it accessible to students, researchers, and anyone seeking quick answers without financial constraints.
+Launched as a **[ChatGPT](/ai-chat-bot/chatgpt/) alternative** and traditional search engine complement, iAsk.ai eliminates the need for account creation or subscription fees, making it accessible to students, researchers, and anyone seeking quick answers without financial constraints.
 
 The platform handles a diverse range of question types:
 
@@ -80,7 +80,7 @@ Unlike multi-turn conversation models, iAsk.ai operates on an independent query 
 
 ## iAsk.ai Compared to Paid AI Search Alternatives
 
-Comparing iAsk.ai to other platforms like ChatGPT, Perplexity AI, and Google's AI-powered search reveals its strengths:
+Comparing iAsk.ai to other platforms like ChatGPT, [Perplexity AI](/ai-chat-bot/perplexity/), and Google's AI-powered search reveals its strengths:
 
 - **ChatGPT** offers **AI homework help** but limits free use and lacks consistent citations.
 - **Perplexity AI** has similar citation features but imposes query limits.

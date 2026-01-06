@@ -24,7 +24,7 @@ Web Crawler Basic Function:
 ![What is ISSCyborg and Why It Exists Diagram](/assets/ai-crawler-bot/isscyborg/crawler-visit-website.png)
 
 
-ISSCyborg appears in website access logs alongside other common crawlers like Googlebot or Bingbot. However, unlike major search engine crawlers, there is less public documentation about ISSCyborg's specific purposes and data usage practices.
+ISSCyborg appears in website access logs alongside other common crawlers like [Googlebot](/ai-crawler-bot/googlebot/) or [Bingbot](/ai-crawler-bot/bingbot/). However, unlike major search engine crawlers, there is less public documentation about ISSCyborg's specific purposes and data usage practices.
 
 ## How to Identify ISSCyborg in Your Server Logs
 

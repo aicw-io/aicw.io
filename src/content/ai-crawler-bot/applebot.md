@@ -14,7 +14,7 @@ keywords: "Applebot, Apple web crawler, Siri search, Spotlight results, web craw
 
 ## What is Applebot
 
-Applebot is Apple's web crawler that powers search results in [Siri search](https://support.apple.com/en-us/HT204389), Spotlight results, and Safari. Think of it as Apple's version of Googlebot, but specifically designed for Apple's ecosystem. The Apple web crawler visits websites across the internet and indexes content. This process ensures that when you ask Siri a question or perform a search in Spotlight on your Mac or iPhone, it can provide relevant answers.
+Applebot is Apple's web crawler that powers search results in [Siri search](https://support.apple.com/en-us/HT204389), Spotlight results, and Safari. Think of it as Apple's version of [Googlebot](/ai-crawler-bot/googlebot/), but specifically designed for Apple's ecosystem. The Apple web crawler visits websites across the internet and indexes content. This process ensures that when you ask Siri a question or perform a search in Spotlight on your Mac or iPhone, it can provide relevant answers.
 
 Web crawlers like Applebot are essential because search features need fresh, updated content from the web. Without search engine crawlers constantly scanning websites, your Siri queries would return outdated or incomplete information. Apple launched Applebot publicly around 2015, though the company had been working on search technology internally before that. [Apple confirms its 'Applebot' is indexing the web for Siri and Spotlight](https://9to5mac.com/2015/05/06/apple-search-engine-applebot/)
 
@@ -170,7 +170,7 @@ Some websites report that Applebot doesn't crawl their site or crawls infrequent
 
 ## Future of Applebot
 
-Apple continues expanding Applebot's capabilities as AI and search features evolve. The introduction of Applebot-Extended signals Apple's growing focus on machine learning and AI training using web content.
+Apple continues expanding Applebot's capabilities as AI and search features evolve. The introduction of [Applebot-Extended](/ai-crawler-bot/applebot-extended/) signals Apple's growing focus on machine learning and AI training using web content.
 
 Apple's AI initiatives like Apple Intelligence will likely rely more heavily on Applebot's index. As Siri becomes more sophisticated, the underlying crawler needs to gather richer, more varied content from the web.
 

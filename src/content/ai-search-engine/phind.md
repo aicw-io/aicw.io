@@ -41,7 +41,7 @@ Both businesses and developers use Phind to search for code snippets and documen
 <a id="competitive-landscape"></a>
 
 ## Competitive Landscape
-Phind competes with other tools such as GitHub Copilot and Stack Overflow, as discussed by [MOGE](https://moge.ai/product/phind). GitHub Copilot offers code suggestions, while Stack Overflow provides community-driven answers, as detailed on [Phind's official website](https://www.phindai.com/). Here's a simple comparison:
+Phind competes with other tools such as [GitHub Copilot](/ai-chat-bot/github-copilot/) and Stack Overflow, as discussed by [MOGE](https://moge.ai/product/phind). GitHub Copilot offers code suggestions, while Stack Overflow provides community-driven answers, as detailed on [Phind's official website](https://www.phindai.com/). Here's a simple comparison:
 
 | Feature      | Phind             | GitHub Copilot | Stack Overflow   |
 |--------------|-------------------|----------------|------------------|

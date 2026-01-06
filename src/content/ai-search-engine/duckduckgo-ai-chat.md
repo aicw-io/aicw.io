@@ -63,9 +63,9 @@ This differentiates it from [other AI chat services, which often save chats and 
 DuckDuckGo AI Chat operates with several AI models:
 
 * GPT-4
-* Claude 3
-* Llama
-* Mistral
+* [Claude 3](/ai-chat-bot/claude/)
+* [Llama](/ai-chat-bot/llama/)
+* [Mistral](/ai-chat-bot/mistral/)
 * Anthropic models
 
 The service [automatically selects the best model for each query, simplifying usage](https://duckduckgo.com/duckduckgo-help-pages/duckai/chat-models).
@@ -129,7 +129,7 @@ These limits contribute to the service's simplicity and [privacy](https://duckdu
 
 How does it compare to others? Here's a brief comparison:
 
-ChatGPT:
+[ChatGPT](/ai-chat-bot/chatgpt/):
 
 * Stores chat history.
 * Requires an account.
@@ -143,7 +143,7 @@ Claude:
 * Better context.
 * Less private.
 
-Perplexity:
+[Perplexity](/ai-chat-bot/perplexity/):
 
 * Stores searches.
 * Links to sources.

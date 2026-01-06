@@ -26,7 +26,7 @@ Creating content demands significant time and resources for businesses. Marketin
 
 ## How Businesses and Users Work with Writesonic
 
-Users begin by selecting a content type from over 100 templates, such as blog posts, landing pages, Facebook ads, Google ads, product descriptions, and email subject lines. After choosing a template, users input basic information like topic, keywords, and tone of voice. The AI quickly generates multiple content variations, which users can edit, regenerate, or combine. Chatsonic offers a unique advantage by functioning like ChatGPT with internet access, allowing real-time information retrieval and source citation, useful for research, brainstorming, and quick content drafts. Photosonic aids in visual content needs by generating images from text descriptions. Teams can integrate Writesonic into existing workflows via API access or browser extensions. The Chrome extension allows direct content generation within Google Docs or other web applications, and bulk generation features enable simultaneous creation of multiple content pieces.
+Users begin by selecting a content type from over 100 templates, such as blog posts, landing pages, Facebook ads, Google ads, product descriptions, and email subject lines. After choosing a template, users input basic information like topic, keywords, and tone of voice. The AI quickly generates multiple content variations, which users can edit, regenerate, or combine. Chatsonic offers a unique advantage by functioning like [ChatGPT](/ai-chat-bot/chatgpt/) with internet access, allowing real-time information retrieval and source citation, useful for research, brainstorming, and quick content drafts. Photosonic aids in visual content needs by generating images from text descriptions. Teams can integrate Writesonic into existing workflows via API access or browser extensions. The Chrome extension allows direct content generation within Google Docs or other web applications, and bulk generation features enable simultaneous creation of multiple content pieces.
 
 Content Creation Process:
 ![How Businesses and Users Work with Writesonic Diagram](/assets/ai-chat-bot/writesonic/manual-writing-time.png)
@@ -42,7 +42,7 @@ Writesonic Workflow:
 ![Comparing Writesonic to Alternative AI Writing Tools Diagram](/assets/ai-chat-bot/writesonic/select-template-input.png)
 
 
-Several AI writing platforms compete in this space, including Copy.ai, Jasper, Rytr, and ContentBot. Each offers unique functionalities and pricing models:
+Several AI writing platforms compete in this space, including [Copy.ai](/ai-chat-bot/copy-ai/), Jasper, Rytr, and ContentBot. Each offers unique functionalities and pricing models:
 
 | Feature | Writesonic | Jasper | Copy.ai | Rytr | ContentBot |
 |---------|-----------|--------|---------|------|------------|
@@ -50,7 +50,7 @@ Several AI writing platforms compete in this space, including Copy.ai, Jasper, R
 | GPT-4 Access | Yes | Yes | Yes | No | Yes |
 | Free Plan Words | 10,000 | 0 | 2,000 | 10,000 monthly | 0 |
 | Image Generation | Yes (Photosonic) | Yes (Jasper Art) | No | No | No |
-| ChatGPT Alternative | Chatsonic | Jasper Chat | Chat by Copy.ai | Chat | No |
+| ChatGPT Alternative | Chatsonic | [Jasper Chat](/ai-chat-bot/jasper-chat/) | Chat by Copy.ai | Chat | No |
 | Browser Extension | Yes | Yes | Yes | Yes | Yes |
 | API Access | Yes | Yes | Yes | Yes | Yes |
 | Languages Supported | 25+ | 30+ | 95+ | 40+ | 40+ |
@@ -77,7 +77,7 @@ Photosonic, Writesonic's AI image generator, allows users to describe desired im
 
 ## Chatsonic Capabilities and Use Cases
 
-Chatsonic, Writesonic's AI chatbot, utilizes GPT-4 and Claude models with real-time internet access, providing current information unlike standard ChatGPT, which has a knowledge cutoff. Users can ask questions and receive responses with cited sources. Chatsonic can browse websites, summarize articles, and retrieve statistics, making it valuable for content marketers conducting research before writing articles. It can generate content outlines, suggest headlines, and provide keyword ideas. The voice command feature supports hands-free interaction through speech input. Image understanding allows users to upload pictures and query them. Personality modes adjust the chatbot's tone from professional to casual or creative dialogue. The chat history feature saves all interactions for future reference, while API access permits embedding Chatsonic into customer service applications or internal tools. Developers can build chatbots for websites using Chatsonic's infrastructure. Limitations include occasional inaccuracies in cited information and slower response times during peak usage. The tool excels in general research and content ideation rather than specialized technical queries.
+Chatsonic, Writesonic's AI chatbot, utilizes GPT-4 and [Claude](/ai-chat-bot/claude/) models with real-time internet access, providing current information unlike standard ChatGPT, which has a knowledge cutoff. Users can ask questions and receive responses with cited sources. Chatsonic can browse websites, summarize articles, and retrieve statistics, making it valuable for content marketers conducting research before writing articles. It can generate content outlines, suggest headlines, and provide keyword ideas. The voice command feature supports hands-free interaction through speech input. Image understanding allows users to upload pictures and query them. Personality modes adjust the chatbot's tone from professional to casual or creative dialogue. The chat history feature saves all interactions for future reference, while API access permits embedding Chatsonic into customer service applications or internal tools. Developers can build chatbots for websites using Chatsonic's infrastructure. Limitations include occasional inaccuracies in cited information and slower response times during peak usage. The tool excels in general research and content ideation rather than specialized technical queries.
 
 ## Performance Metrics and User Feedback
 

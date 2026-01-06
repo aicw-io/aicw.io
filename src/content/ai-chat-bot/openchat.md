@@ -60,10 +60,10 @@ Here's how OpenChat compares to similar open-source chatbots:
 
 | Model               | Base Model | Training Method | License        | Benchmark Score (MT-bench) |
 |---------------------|------------|-----------------|----------------|-----------------------------|
-| OpenChat            | Llama 2    | C-RLFT          | Apache 2.0     | 7.81                        |
+| OpenChat            | [Llama 2](/ai-chat-bot/llama/)    | C-RLFT          | Apache 2.0     | 7.81                        |
 | Vicuna              | Llama 2    | Supervised FT   | Non-commercial | 7.12                        |
 | Alpaca              | Llama      | Supervised FT   | Non-commercial | 4.53                        |
-| Mistral-Instruct    | Mistral    | Supervised FT   | Apache 2.0     | 7.60                        |
+| [Mistral](/ai-chat-bot/mistral/)-Instruct    | Mistral    | Supervised FT   | Apache 2.0     | 7.60                        |
 | Llama-2-Chat        | Llama 2    | RLHF            | Custom         | 6.27                        |
 
 These figures highlight OpenChat's strong results while adhering to a commercially friendly Apache 2.0 license. Unlike models such as Vicuna, which restrict commercial use, OpenChat's licensing is a significant advantage.

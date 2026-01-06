@@ -52,7 +52,7 @@ With GPT-4 integration, Consensus AI assists users in comprehending complex rese
 **Diagram: GPT-4 Integration Benefits**
 ![Research Copilot Diagram](/assets/ai-search-engine/consensus/summarize-papers-answer.png)
 
-The Consensus Copilot feature acts as a smart research assistant, delving deeper into research topics. It can:
+The Consensus [Copilot](/ai-chat-bot/microsoft-copilot/) feature acts as a smart research assistant, delving deeper into research topics. It can:
 
 * Find related studies
 * Clarify complex terms
@@ -113,7 +113,7 @@ This is how Consensus AI stands against other research tools:
 * Fewer AI features
 * No consensus analysis
 
-**Semantic Scholar:**
+**[Semantic Scholar](/ai-search-engine/semantic-scholar/):**
 
 * Comparable paper database
 * Superior citation tracking

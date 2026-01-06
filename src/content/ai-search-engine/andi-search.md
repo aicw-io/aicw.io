@@ -37,7 +37,7 @@ The layout differs vastly from traditional search engines: no ads, just concise 
 
 Andi AI understands and interprets natural language questions, scanning various web pages to synthesize accurate responses, utilizing state-of-the-art AI technologies.
 
-It employs its proprietary technology to continuously discover and filter high-quality websites, ensuring users receive reliable information minus spam, similar to the approach of DuckDuckGo.
+It employs its proprietary technology to continuously discover and filter high-quality websites, ensuring users receive reliable information minus spam, similar to the approach of [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/).
 
 ### Andi Handles Questions About:
 - Current news and trends
@@ -116,12 +116,12 @@ Andi Search comes packed with smart tools, extending beyond standard search capa
 
 Explore other AI-powered search engines that offer unique features, such as DuckDuckGo
 
-**You.com:**
+**[You.com](/ai-search-engine/you-com/):**
 - AI-driven answers
 - Coding assistance
 - Limited ads presence
 
-**Perplexity AI:**
+**[Perplexity AI](/ai-chat-bot/perplexity/):**
 - Conversational search
 - Ideal for research
 - Free with advanced paid features

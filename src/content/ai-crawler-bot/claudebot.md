@@ -14,7 +14,7 @@ keywords: "ClaudeBot, Anthropic crawler, Claude AI training, robots.txt block, w
 
 ## What is ClaudeBot and Why It Matters
 
-ClaudeBot is Anthropic's web crawler designed specifically for training Claude AI models. [Anthropic's web crawling practices](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) are detailed in their Help Center. It scans websites across the internet to collect publicly available data. This data is then used to improve Claude's language understanding and response accuracy.
+ClaudeBot is Anthropic's web crawler designed specifically for training [Claude AI](/ai-chat-bot/claude/) models. [Anthropic's web crawling practices](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) are detailed in their Help Center. It scans websites across the internet to collect publicly available data. This data is then used to improve Claude's language understanding and response accuracy.
 
 Web crawlers like ClaudeBot are essential because AI models require massive amounts of text data to learn patterns in human language. [The role of web crawlers in AI](https://www.liquidweb.com/help-docs/security/bot-management/what-are-webcrawlers-and-robots-txt/) is discussed in detail. Without this continuous data collection, AI assistants wouldn't be able to understand context, answer questions accurately, or generate helpful responses.
 

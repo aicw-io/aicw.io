@@ -29,7 +29,7 @@ The free version allows access to GPT-4 capabilities with some limitations on co
 
 ## Why Microsoft Created Copilot
 
-Microsoft developed Copilot to compete in the growing AI assistant market following OpenAI's release of ChatGPT in late 2022. The company invested significantly in OpenAI technology to integrate it into their products. With traditional search facing disruption from conversational AI, Microsoft aimed to make Bing stand out with AI-powered answers. Their broader goal is to make computing more accessible through natural language, reducing the need for specific commands or navigating complex interfaces. Copilot acts as both a standalone product and a foundation for AI features across Microsoft's software lineup.
+Microsoft developed Copilot to compete in the growing AI assistant market following OpenAI's release of [ChatGPT](/ai-chat-bot/chatgpt/) in late 2022. The company invested significantly in OpenAI technology to integrate it into their products. With traditional search facing disruption from conversational AI, Microsoft aimed to make Bing stand out with AI-powered answers. Their broader goal is to make computing more accessible through natural language, reducing the need for specific commands or navigating complex interfaces. Copilot acts as both a standalone product and a foundation for AI features across Microsoft's software lineup.
 
 <a id="how-companies-and-users-deploy-copilot"></a>
 
@@ -73,7 +73,7 @@ Copilot includes DALL-E 3 image generation capabilities. Users create images usi
 
 ## Comparison to Other AI Assistants
 
-Copilot competes with ChatGPT, Google's Gemini, and Anthropic's Claude. The main advantage of Copilot is its integration with Microsoft's ecosystem and current web data through Bing search. While ChatGPT has broader recognition, it requires separate subscriptions for GPT-4 and lacks native web search. Google's Gemini works similarly with Google Workspace. Claude emphasizes longer context windows and detailed analysis but lacks enterprise integration. Developers within the Microsoft ecosystem might prefer Copilot for its seamless integration and data governance.
+Copilot competes with ChatGPT, Google's [Gemini](/ai-chat-bot/google-gemini/), and Anthropic's [Claude](/ai-chat-bot/claude/). The main advantage of Copilot is its integration with Microsoft's ecosystem and current web data through Bing search. While ChatGPT has broader recognition, it requires separate subscriptions for GPT-4 and lacks native web search. Google's Gemini works similarly with Google Workspace. Claude emphasizes longer context windows and detailed analysis but lacks enterprise integration. Developers within the Microsoft ecosystem might prefer Copilot for its seamless integration and data governance.
 
 <a id="data-privacy-and-training-policies"></a>
 

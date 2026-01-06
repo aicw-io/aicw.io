@@ -14,7 +14,7 @@ keywords: "Bravebot, Brave Search crawler, privacy-focused search, web crawler, 
 
 ## Introduction
 
-Bravebot is the web crawler that powers [Brave Search](https://brave.com/search/), a privacy-focused search engine launched by Brave Software in 2021. Unlike most search engines that lean on Google or Bing, Brave Search built its own index from scratch. This necessitated creating a dedicated web crawler to explore and collect web content. Bravebot systematically browses the internet, following links from page to page, and gathering data about what exists online, similar to other search engine crawlers like [Googlebot](https://en.wikipedia.org/wiki/Googlebot). Without such web crawlers, search engines couldn't resolve queries or display relevant results. What sets Bravebot apart is its design, centered around privacy, and its operation independent of big tech companies.
+Bravebot is the web crawler that powers [Brave Search](https://brave.com/search/), a privacy-focused search engine launched by Brave Software in 2021. Unlike most search engines that lean on Google or Bing, [Brave Search](/ai-search-engine/brave-search-ai/) built its own index from scratch. This necessitated creating a dedicated web crawler to explore and collect web content. Bravebot systematically browses the internet, following links from page to page, and gathering data about what exists online, similar to other search engine crawlers like [Googlebot](https://en.wikipedia.org/wiki/Googlebot). Without such web crawlers, search engines couldn't resolve queries or display relevant results. What sets Bravebot apart is its design, centered around privacy, and its operation independent of big tech companies.
 
 ## What is Bravebot
 
@@ -70,10 +70,10 @@ Bravebot compared to other major search engine crawlers:
 | Crawler       | Search Engine | User-Agent                  | Independence       | Privacy Focus | AI Training      |
 |---------------|---------------|-----------------------------|--------------------|---------------|------------------|
 | Bravebot      | Brave Search  | Bravebot/1.0                | Fully independent  | High          | Unclear          |
-| Googlebot     | Google        | Googlebot/2.1               | Independent        | Low           | Yes, confirmed   |
-| Bingbot       | Bing          | bingbot/2.0                 | Independent        | Medium        | Yes, confirmed   |
-| Applebot      | Apple         | Applebot/0.1                | Independent        | High          | Limited          |
-| DuckDuckBot   | DuckDuckGo    | DuckDuckBot/1.0             | Uses Bing results  | High          | No, uses others  |
+| [Googlebot](/ai-crawler-bot/googlebot/)     | Google        | Googlebot/2.1               | Independent        | Low           | Yes, confirmed   |
+| [Bingbot](/ai-crawler-bot/bingbot/)       | Bing          | bingbot/2.0                 | Independent        | Medium        | Yes, confirmed   |
+| [Applebot](/ai-crawler-bot/applebot/)      | Apple         | Applebot/0.1                | Independent        | High          | Limited          |
+| DuckDuckBot   | [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/)    | DuckDuckBot/1.0             | Uses Bing results  | High          | No, uses others  |
 
 Bravebot is newer than Googlebot and Bingbot, with a smaller index and less extensive web crawling. Google's crawler visits billions of pages daily, while Bravebot's scale is smaller but growing. Bravebot's privacy positioning differentiates it from Google and Bing, which extensively use crawled data for ads and tracking. Brave claims not to engage in such practices. Applebot shares a similar privacy focus, but Apple Search isn't a full public search engine. DuckDuckGo, relying on multiple sources including Bing, doesn’t have a fully independent crawler. Bravebot offers Brave true independence. For blocking purposes, methods are consistent across all crawlers: employ robots.txt with the specific user-agent name. Each crawler respects these standard protocols.
 
@@ -90,7 +90,7 @@ Brave Search's market share is minor compared to Google, with estimates putting 
 
 ## Future of Bravebot and Independent Search
 
-Brave Search signifies a move toward independent search infrastructure. Other projects like Mojeek and Kagi are also building independent indexes, beneficial for web ecosystem diversity. Dependence on Google creates a single control point. Bravebot will likely grow smarter as Brave invests in search technology. Anticipate improved crawling efficiency, better content understanding, and faster index updates. The AI data use question is crucial. As Brave develops AI products, how they use crawler data will matter to website owners and content creators. Will they provide opt-out mechanisms for AI training? Brave Search's success partially hinges on Bravebot's effectiveness; a better crawler means a better index, yielding superior search results, encouraging adoption. Developers and site owners should treat Bravebot like any legitimate search crawler; allow access unless there are specific reasons not to, contributing to search engine diversity and competition.
+Brave Search signifies a move toward independent search infrastructure. Other projects like [Mojeek](/ai-search-engine/mojeek/) and [Kagi](/ai-search-engine/kagi-search/) are also building independent indexes, beneficial for web ecosystem diversity. Dependence on Google creates a single control point. Bravebot will likely grow smarter as Brave invests in search technology. Anticipate improved crawling efficiency, better content understanding, and faster index updates. The AI data use question is crucial. As Brave develops AI products, how they use crawler data will matter to website owners and content creators. Will they provide opt-out mechanisms for AI training? Brave Search's success partially hinges on Bravebot's effectiveness; a better crawler means a better index, yielding superior search results, encouraging adoption. Developers and site owners should treat Bravebot like any legitimate search crawler; allow access unless there are specific reasons not to, contributing to search engine diversity and competition.
 
 ## Conclusion
 

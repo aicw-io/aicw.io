@@ -83,7 +83,7 @@ Marketing Cloud Einstein introduces AI into email marketing, advertising, and cu
 - **Engagement Scoring:** Identifies highly engaged subscribers for prioritized marketing.
 - **Content Selection:** Personalizes emails by selecting the best content variation for each recipient.
 - **Ad Budget Recommendation:** Analyzes campaign performance to suggest budget reallocations.
-- **Einstein Copilot:** Aids in generating campaign briefs and audience descriptions via generative AI.
+- **Einstein [Copilot](/ai-chat-bot/microsoft-copilot/):** Aids in generating campaign briefs and audience descriptions via generative AI.
 
 ## Pricing and Licensing Structure
 

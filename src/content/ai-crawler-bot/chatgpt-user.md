@@ -14,7 +14,7 @@ keywords: "ChatGPT-User, real-time browsing bot, OpenAI user-agent, GPTBot, OAI-
 
 ## What is ChatGPT-User
 
-[ChatGPT-User](https://openai.com/index/introducing-operator/) is a specialized real-time browsing bot created by OpenAI. It performs web crawling on demand when ChatGPT users request current information from the internet. Unlike traditional web crawlers, the ChatGPT-User retrieves data in real time as part of a conversation. When a user of ChatGPT requests up-to-date information, the ChatGPT-User bot visits specific web pages to fetch the required data. This service exists because ChatGPT's training data has a cutoff date, and without real-time browsing capabilities, it cannot provide information on recent events or live data. [OpenAI's Deep Research](https://openai.com/index/introducing-deep-research/) feature addresses similar needs by autonomously browsing the web to generate cited reports on user-specified topics. The user-agent string for ChatGPT-User allows web developers to identify this bot in their server logs when triggered by browsing requests. [OpenAI's Crawlers Documentation](https://platform.openai.com/docs/bots) provides detailed information on managing interactions with OpenAI's bots. This transparency helps website owners decide whether to allow or block such access, a crucial consideration when dealing with OpenAI user-agent traffic.
+[ChatGPT-User](https://openai.com/index/introducing-operator/) is a specialized real-time browsing bot created by OpenAI. It performs web crawling on demand when [ChatGPT](/ai-chat-bot/chatgpt/) users request current information from the internet. Unlike traditional web crawlers, the ChatGPT-User retrieves data in real time as part of a conversation. When a user of ChatGPT requests up-to-date information, the ChatGPT-User bot visits specific web pages to fetch the required data. This service exists because ChatGPT's training data has a cutoff date, and without real-time browsing capabilities, it cannot provide information on recent events or live data. [OpenAI's Deep Research](https://openai.com/index/introducing-deep-research/) feature addresses similar needs by autonomously browsing the web to generate cited reports on user-specified topics. The user-agent string for ChatGPT-User allows web developers to identify this bot in their server logs when triggered by browsing requests. [OpenAI's Crawlers Documentation](https://platform.openai.com/docs/bots) provides detailed information on managing interactions with OpenAI's bots. This transparency helps website owners decide whether to allow or block such access, a crucial consideration when dealing with OpenAI user-agent traffic.
 
 ## Why ChatGPT-User Exists and Its Purpose
 
@@ -36,9 +36,9 @@ OpenAI operates multiple bots, each with distinct purposes. Understanding their 
 |----------------|----------------------------------------|----------------------------------|--------------------------------------------------------------|
 | ChatGPT-User   | Real-time browsing for user queries    | On-demand, per-request           | Mozilla/5.0... ChatGPT-User/1.0                             |
 | GPTBot         | Training data collection                | Bulk crawling, systematic       | Mozilla/5.0... GPTBot/1.0                                     |
-| OAI-SearchBot  | Search indexing for SearchGPT         | Bulk crawling, indexing          | OAI-SearchBot/1.0                                           |
+| [OAI-SearchBot](/ai-crawler-bot/oai-searchbot/)  | Search indexing for SearchGPT         | Bulk crawling, indexing          | OAI-SearchBot/1.0                                           |
 
-OpenAI Bot Comparison:
+[OpenAI Bot](/ai-crawler-bot/gptbot/) Comparison:
 ![ChatGPT-User vs GPTBot vs OAI-SearchBot Diagram](/assets/ai-crawler-bot/chatgpt-user/openai-bots-chatgpt.png)
 
 

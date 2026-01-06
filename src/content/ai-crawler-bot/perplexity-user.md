@@ -14,9 +14,9 @@ keywords: "Perplexity-User, AI queries, real-time fetching, Perplexity bot, web 
 
 ## What is Perplexity-User and Why It Matters
 
-[Perplexity-User](https://docs.perplexity.ai/guides/bots), often referred to as PerplexityBot, is a specialized bot that performs real-time web content fetching for Perplexity AI. It plays a crucial role when users submit AI queries to Perplexity AI by visiting websites to gather current information and provide accurate, up-to-date answers. Unlike traditional search engines that rely on pre-indexed content, Perplexity-User uses real-time fetching to access the latest information available on the web.
+[Perplexity-User](https://docs.perplexity.ai/guides/bots), often referred to as PerplexityBot, is a specialized bot that performs real-time web content fetching for [Perplexity AI](/ai-chat-bot/perplexity/). It plays a crucial role when users submit AI queries to Perplexity AI by visiting websites to gather current information and provide accurate, up-to-date answers. Unlike traditional search engines that rely on pre-indexed content, Perplexity-User uses real-time fetching to access the latest information available on the web.
 
-The Perplexity bot exists to support Perplexity's core feature, which is providing AI-powered answers with current data and citations. When you ask Perplexity a question, the service doesn't rely on stored indexes. Instead, it actively fetches content from relevant websites at that moment. This approach sets Perplexity apart from other AI assistants that might rely solely on training data or cached information.
+The [Perplexity bot](/ai-crawler-bot/perplexitybot/) exists to support Perplexity's core feature, which is providing AI-powered answers with current data and citations. When you ask Perplexity a question, the service doesn't rely on stored indexes. Instead, it actively fetches content from relevant websites at that moment. This approach sets Perplexity apart from other AI assistants that might rely solely on training data or cached information.
 
 For website owners and developers, understanding Perplexity-User is important because this bot regularly accesses web content. It affects server resources, analytics data, and content attribution. The bot respects robots.txt files and standard web protocols but differs from traditional search engine web crawlers in frequency and purpose.
 
@@ -30,7 +30,7 @@ Perplexity-User operates as a real-time content fetcher triggered by user querie
 
 The bot identifies itself through a specific user-agent string. Website administrators can detect PerplexityBot in their server logs by looking for this identifier. The user-agent string typically includes "PerplexityBot" in the header information.
 
-This real-time approach means the bot doesn't follow traditional crawling patterns. It doesn't systematically index entire websites like Googlebot does. Instead, it makes targeted requests based on active user queries. The frequency of visits depends entirely on how often Perplexity users ask questions that might be answered by content from your site.
+This real-time approach means the bot doesn't follow traditional crawling patterns. It doesn't systematically index entire websites like [Googlebot](/ai-crawler-bot/googlebot/) does. Instead, it makes targeted requests based on active user queries. The frequency of visits depends entirely on how often Perplexity users ask questions that might be answered by content from your site.
 
 Typically, the bot fetches specific pages rather than entire site structures. It looks for content that matches query intent, extracts relevant text, and moves on. This targeted behavior means some pages might receive multiple visits while others might not receive any.
 
@@ -80,10 +80,10 @@ Several AI services use similar real-time fetching bots to gather current inform
 | Bot Name        | Service           | Primary Purpose           | Fetching Pattern           | Robots.txt Compliance |
 |-----------------|-------------------|---------------------------|----------------------------|------------------------|
 | PerplexityBot   | Perplexity AI     | Real-time query answering | Query-triggered, targeted  | Yes                    |
-| GPTBot          | OpenAI            | Training data collection  | Systematic crawling        | Yes                    |
-| Google-Extended | Google            | AI training (Bard)        | Systematic crawling        | Yes                    |
-| CCBot           | Common Crawl      | Dataset building          | Complete crawling          | Yes                    |
-| Anthropic-AI    | Anthropic (Claude)| Training and research     | Mixed pattern              | Yes                    |
+| [GPTBot](/ai-crawler-bot/gptbot/)          | OpenAI            | Training data collection  | Systematic crawling        | Yes                    |
+| [Google-Extended](/ai-crawler-bot/google-extended/) | Google            | AI training (Bard)        | Systematic crawling        | Yes                    |
+| CCBot           | [Common Crawl](/ai-crawler-bot/ccbot/)      | Dataset building          | Complete crawling          | Yes                    |
+| [Anthropic-AI](/ai-crawler-bot/anthropic-ai/)    | Anthropic ([Claude](/ai-chat-bot/claude/))| Training and research     | Mixed pattern              | Yes                    |
 
 Perplexity-User differs from training-focused bots in its real-time operation. While GPTBot and Google-Extended primarily collect data for future model training, Perplexity-User fetches content to answer immediate user queries. This creates different traffic patterns and resource usage.
 

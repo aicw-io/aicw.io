@@ -50,10 +50,10 @@ Several models compete in the long context space, each employing distinct method
 | Model | Max Context | Architecture | Memory Efficiency | Availability |
 |-------|-------------|--------------|-------------------|-------------|
 | AI21 Jamba | 256K tokens | Mamba-Transformer hybrid | High | API, limited self-hosting |
-| Anthropic Claude 3.5 Sonnet | 200K tokens | Transformer | Medium | API only |
+| Anthropic [Claude 3.5 Sonnet](/ai-chat-bot/claude/) | 200K tokens | Transformer | Medium | API only |
 | GPT-4o | 128K tokens | Transformer | Medium | API only |
-| Google Gemini 1.5 Pro | 1M tokens | Transformer-based | Medium-High | API only |
-| Mistral Large | 32K tokens | Transformer | Medium | API and self-hosting |
+| [Google Gemini](/ai-chat-bot/google-gemini/) 1.5 Pro | 1M tokens | Transformer-based | Medium-High | API only |
+| [Mistral Large](/ai-chat-bot/mistral/) | 32K tokens | Transformer | Medium | API and self-hosting |
 
 Jamba offers significant memory efficiency compared to pure Transformer models, ideal for self-hosting or latency-sensitive applications. While Gemini 1.5 Pro provides the longest context at 1M tokens, Jamba's hybrid architecture strikes a balance between efficiency and context length.
 

@@ -42,14 +42,14 @@ The Yi family includes various models with distinct capabilities. Yi-6B, the sma
 
 ## Performance Benchmarks and Comparisons
 
-Yi models perform well on standard language model benchmarks, assessing skills like reading comprehension, reasoning, and general knowledge. Yi-34B scores on MMLU are comparable to models like Llama 2 70B, despite having fewer parameters. For Chinese tasks, Yi consistently outshines most international models. The C-Eval benchmark rates Yi among the top Chinese models, while English performance rivals leading English-focused models. Yi AI's bilingual improvement ensures balanced performance in both languages without sacrificing one for the other. While its code generation is strong, it's not on par with specialized coding models. Vision-language variants compete effectively on image understanding tasks. Here's how Yi compares to other major models:
+Yi models perform well on standard language model benchmarks, assessing skills like reading comprehension, reasoning, and general knowledge. Yi-34B scores on MMLU are comparable to models like [Llama 2](/ai-chat-bot/llama/) 70B, despite having fewer parameters. For Chinese tasks, Yi consistently outshines most international models. The C-Eval benchmark rates Yi among the top Chinese models, while English performance rivals leading English-focused models. Yi AI's bilingual improvement ensures balanced performance in both languages without sacrificing one for the other. While its code generation is strong, it's not on par with specialized coding models. Vision-language variants compete effectively on image understanding tasks. Here's how Yi compares to other major models:
 
 | Model    | Parameters | Languages     | Open Source | Strong Points                          |
 |----------|------------|---------------|-------------|-----------------------------------------|
 | Yi-34B   | 34B        | English, Chinese | Yes       | Bilingual improvement, strong Chinese performance |
 | Llama 2 70B | 70B      | Multilingual  | Yes         | General performance, large community      |
 | GPT-3.5  | Unknown    | Multilingual  | No          | Broad capabilities, API access           |
-| Qwen-72B | 72B        | Multilingual  | Yes         | Chinese focus, many languages supported |
+| [Qwen-72B](/ai-chat-bot/qwen/) | 72B        | Multilingual  | Yes         | Chinese focus, many languages supported |
 | Baichuan 2 | 13B      | English, Chinese | Yes       | Effective Chinese processing            |
 
 Typical Yi Implementation Flow:
@@ -57,7 +57,7 @@ Typical Yi Implementation Flow:
 
 ## Comparison with Chinese AI Labs
 
-China hosts several major AI labs developing large language models. Alibaba's Qwen series supports more languages than Yi but lacks focused bilingual improvement. Baidu's ERNIE models integrate knowledge graphs for data accuracy. Baichuan's models share Yi's bilingual focus. Tencent's AI teams work on various language models, each with unique strengths and market targets. Yi stands out through Kai-Fu Lee's influence and startup agility compared to big tech backing. Its open-source vs. proprietary approach aligns with Alibaba's and Baichuan's strategies, differing from Baidu's ERNIE, which is mainly commercial. Yi ranks in the top tier for Chinese models, bridging the gap for international applications, whereas broader language support may be provided by others.
+China hosts several major AI labs developing large language models. Alibaba's Qwen series supports more languages than Yi but lacks focused bilingual improvement. Baidu's [ERNIE](/ai-chat-bot/ernie-bot/) models integrate knowledge graphs for data accuracy. Baichuan's models share Yi's bilingual focus. Tencent's AI teams work on various language models, each with unique strengths and market targets. Yi stands out through Kai-Fu Lee's influence and startup agility compared to big tech backing. Its open-source vs. proprietary approach aligns with Alibaba's and Baichuan's strategies, differing from Baidu's ERNIE, which is mainly commercial. Yi ranks in the top tier for Chinese models, bridging the gap for international applications, whereas broader language support may be provided by others.
 
 ## Technical Details and Access
 

@@ -51,9 +51,9 @@ Jasper Chat faces competition from other AI writing and marketing tools. Here's 
 | Tool          | Primary Focus       | Brand Voice     | Team Features | Pricing Range    |
 |---------------|---------------------|-----------------|---------------|------------------|
 | Jasper Chat   | Marketing content   | Yes, customizable| Yes, multi-user| $49-$125+/month  |
-| ChatGPT Plus  | General purpose     | No, general tone| No team features| $20/month       |
-| Copy.ai       | Marketing copy      | Limited         | Yes, workspaces| $36-$186/month  |
-| Writesonic    | Content writing     | Yes, brand voice| Yes, team plans| $16-$79/month   |
+| [ChatGPT Plus](/ai-chat-bot/chatgpt/)  | General purpose     | No, general tone| No team features| $20/month       |
+| [Copy.ai](/ai-chat-bot/copy-ai/)       | Marketing copy      | Limited         | Yes, workspaces| $36-$186/month  |
+| [Writesonic](/ai-chat-bot/writesonic/)    | Content writing     | Yes, brand voice| Yes, team plans| $16-$79/month   |
 | Rytr          | General writing     | Tone options    | Limited        | $9-$29/month    |
 
 Brand Voice Customization Process:

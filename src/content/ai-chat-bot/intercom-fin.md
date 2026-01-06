@@ -44,7 +44,7 @@ Intercom reports that Fin can resolve up to 50% of customer queries autonomously
 
 Several AI customer service tools compete in this space, each with different strengths and approaches. Here's how Intercom Fin compares to major alternatives:
 
-| Feature | Intercom Fin | Zendesk AI | Freshdesk Freddy AI | Ada | Ultimate.ai |
+| Feature | Intercom Fin | [Zendesk AI](/ai-chat-bot/zendesk-ai/) | Freshdesk Freddy AI | Ada | Ultimate.ai |
 |---------|--------------|------------|---------------------|-----|-------------|
 | Autonomous Resolution | Yes, up to 50% | Yes, varies | Yes, up to 40% | Yes, up to 70% | Yes, up to 60% |
 | Knowledge Base Integration | Native to Intercom | Native to Zendesk | Native to Freshdesk | Multi-platform | Multi-platform |

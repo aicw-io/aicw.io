@@ -60,7 +60,7 @@ The highlighting feature uses browser storage to save your selections. When you 
 
 You can organize highlights with tags and folders, aiding your work on multiple research projects. The search function allows you to find specific highlights by keyword, and the tool also supports PDF highlighting via the browser extension.
 
-The search utilizes a large language model akin to ChatGPT, with the key difference being the source citation system. Every AI response includes clickable references back to the source web pages and documents.
+The search utilizes a large language model akin to [ChatGPT](/ai-chat-bot/chatgpt/), with the key difference being the source citation system. Every AI response includes clickable references back to the source web pages and documents.
 
 Liner AI claims to prioritize *trusted sources AI* in responses, filtering results to favor academic papers, established news outlets, and verified websites. This feature is crucial for researchers needing reliable information.
 

@@ -79,7 +79,7 @@ Algolia [supports multiple programming languages for ease of site search impleme
 <a id="diagram-3-algolia-vs-alternatives"></a>
 
 ## Algolia vs. Alternatives
-Visualize the comparison of Algolia with Elasticsearch, Typesense, and Meilisearch in terms of hosting and setup complexity.
+Visualize the comparison of Algolia with [Elasticsearch](/ai-search-engine/elasticsearch/), Typesense, and Meilisearch in terms of hosting and setup complexity.
 ![Algolia vs. Alternatives Diagram](/assets/ai-search-engine/algolia/algolia-self-hosting.png)
 
 

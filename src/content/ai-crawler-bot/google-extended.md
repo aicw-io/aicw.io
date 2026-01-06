@@ -14,7 +14,7 @@ keywords: "Google-Extended, Google AI crawler, Gemini training, block Google AI,
 
 # What is Google-Extended
 
-Google-Extended is a web crawler that Google utilizes specifically for AI training purposes, collecting data from websites to enhance Google's AI models like [Gemini](https://developers.google.com/search/docs/crawling-indexing/robots/intro) and Vertex AI. This crawler functions separately from the standard Googlebot, which indexes pages for Google Search.
+Google-Extended is a web crawler that Google utilizes specifically for AI training purposes, collecting data from websites to enhance Google's AI models like [Gemini](https://developers.google.com/search/docs/crawling-indexing/robots/intro) and Vertex AI. This crawler functions separately from the standard [Googlebot](/ai-crawler-bot/googlebot/), which indexes pages for Google Search.
 
 Web crawlers like Google-Extended are crucial because AI models require massive amounts of text data for training, as detailed in Google's [crawling infrastructure](https://developers.google.com/crawling). Companies deploy these bots to gather publicly available content from across the web. For website owners and developers, understanding these crawlers is important because you can control whether your content is used for AI training.
 
@@ -24,7 +24,7 @@ The primary feature of Google-Extended is that it operates independently of sear
 
 Google developed Google-Extended to separate AI training activities from search indexing duties. Prior to this crawler, Googlebot conducted both tasks, leaving website owners with no option to opt out of AI training without also removing their sites from Google Search.
 
-The objective is simple. Google needs training data for its AI products. Gemini, Google's conversational AI, requires billions of text examples to generate human-like responses. Similarly, Vertex AI, Google's machine learning platform, benefits from diverse training datasets. Licensing all this content or creating it from scratch is impractical, so Google resorts to AI web scraping of publicly available content.
+The objective is simple. Google needs training data for its AI products. [Gemini](/ai-chat-bot/google-gemini/), Google's conversational AI, requires billions of text examples to generate human-like responses. Similarly, Vertex AI, Google's machine learning platform, benefits from diverse training datasets. Licensing all this content or creating it from scratch is impractical, so Google resorts to AI web scraping of publicly available content.
 
 This practice has raised concerns among content creators and publishers. Many sites prefer appearing in search results but don't want their content feeding AI models. Some publishers argue that their content holds commercial value beyond search indexing. In response to these concerns, Google introduced Google-Extended as a separate user-agent, allowing site owners to make independent choices about search visibility versus AI training participation.
 

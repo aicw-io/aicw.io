@@ -66,7 +66,7 @@ Understanding how HubSpot Crawler compares with others aids bot management decis
 |----------------|---------------|-----------------------------------|-----------------------------------|------------------|
 | HubSpot Crawler| HubSpot CRM   | Link previews, content tracking   | Affects HubSpot link sharing     | Medium to High    |
 | Salesforce Bot | Salesforce    | CRM enrichment, social monitoring | Reduces CRM data quality          | Medium            |
-| LinkedInBot    | LinkedIn      | Link previews, content cards      | Breaks LinkedIn previews          | Very High         |
+| [LinkedInBot](/ai-crawler-bot/linkedinbot/)    | LinkedIn      | Link previews, content cards      | Breaks LinkedIn previews          | Very High         |
 | Marketo Bot    | Adobe Marketo | Email previews, analytics         | Impacts email campaign visuals    | Low to Medium     |
 | Mailchimp Bot  | Mailchimp     | Link preview generation           | Removes automatic previews        | Medium            |
 

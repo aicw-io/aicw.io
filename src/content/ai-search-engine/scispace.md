@@ -16,7 +16,7 @@ keywords: "SciSpace, AI tools, research papers, Copilot, AI research"
 
 ## Introduction
 
-Research papers can be difficult to understand, but SciSpace aims to simplify this challenge. As an AI tool for researchers and students, SciSpace incorporates AI tools like the Copilot Q&A function and advanced literature review tools. SciSpace also features show-and-explain and paper formatting tools, making research more accessible. This article highlights the key features and practical applications of SciSpace.
+Research papers can be difficult to understand, but SciSpace aims to simplify this challenge. As an AI tool for researchers and students, SciSpace incorporates AI tools like the [Copilot](/ai-chat-bot/microsoft-copilot/) Q&A function and advanced literature review tools. SciSpace also features show-and-explain and paper formatting tools, making research more accessible. This article highlights the key features and practical applications of SciSpace.
 
 <a id="what-is-scispace"></a>
 
@@ -51,7 +51,7 @@ SciSpace User Workflow:
 
 
 - **Fact**: SciSpace offers a unique combination of tools for research assistance. 
-- Compared to AI research tools like ChatGPT, SciSpace specializes in academic papers.
+- Compared to AI research tools like [ChatGPT](/ai-chat-bot/chatgpt/), SciSpace specializes in academic papers.
 
 Here's a brief comparison:
 

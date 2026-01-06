@@ -47,7 +47,7 @@ Startpage Privacy Protection Flow:
 - **Based in the Netherlands**: Subject to strong privacy laws.
 - **Contextual ads**: Revenue comes only from non-intrusive ads.
 
-| Feature          | Startpage       | DuckDuckGo     | Brave Search  |
+| Feature          | Startpage       | [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/)     | [Brave Search](/ai-search-engine/brave-search-ai/)  |
 |------------------|-----------------|----------------|---------------|
 | Tracking         | No tracking     | No tracking    | No tracking   |
 | Proxy Feature    | Yes             | No             | No            |

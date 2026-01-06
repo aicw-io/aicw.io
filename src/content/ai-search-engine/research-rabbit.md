@@ -42,7 +42,7 @@ Users start by creating accounts to begin adding papers to collections. When con
 ResearchRabbit Integration Ecosystem:
 ![How Do Users Use ResearchRabbit? Diagram](/assets/ai-search-engine/research-rabbit/researchrabbit-zotero-library.png)
 
-| Feature | ResearchRabbit | Connected Papers | Semantic Scholar |
+| Feature | ResearchRabbit | [Connected Papers](/ai-search-engine/connected-papers/) | [Semantic Scholar](/ai-search-engine/semantic-scholar/) |
 |---------|----------------|------------------|------------------|
 | Free Access | Yes | Yes | Yes |
 | Zotero integration | Yes | No | No |

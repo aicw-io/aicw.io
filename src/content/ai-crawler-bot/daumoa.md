@@ -26,7 +26,7 @@ Web Crawling Process Overview:
 ![The Purpose and Function of Daumoa Crawler Diagram](/assets/ai-crawler-bot/daumoa/daumoa-crawler-visit.png)
 
 
-The crawler works automatically and continuously, following a schedule to revisit websites based on their frequency of content updates, similar to how [Googlebot](https://www.youtube.com/watch?v=I8CC-bvOoyY) works for Google or Bingbot for Microsoft Bing. Sites publishing new material daily are crawled more often than static ones. This process is similar to how Googlebot works for Google or Bingbot for Microsoft Bing.
+The crawler works automatically and continuously, following a schedule to revisit websites based on their frequency of content updates, similar to how [Googlebot](https://www.youtube.com/watch?v=I8CC-bvOoyY) works for Google or [Bingbot](/ai-crawler-bot/bingbot/) for Microsoft Bing. Sites publishing new material daily are crawled more often than static ones. This process is similar to how [Googlebot](/ai-crawler-bot/googlebot/) works for Google or Bingbot for Microsoft Bing.
 
 For website owners in South Korea or those targeting Korean audiences, having Daumoa successfully crawl your site means your content can appear in Daum search results. The Korean search market is distinct from Western markets; while Google dominates globally, South Korea has strong domestic search engines preferred by many users.
 
@@ -71,7 +71,7 @@ Different search engines use various crawlers, each with its own characteristics
 | Googlebot | Google | Global | Googlebot | ~90% globally |
 | Yeti | Naver | South Korea | Yeti | ~65-70% in Korea |
 | Bingbot | Microsoft Bing | Global (Western) | bingbot | ~3% globally |
-| Baiduspider | Baidu | China | Baiduspider | ~70% in China |
+| [Baiduspider](/ai-crawler-bot/baiduspider/) | Baidu | China | Baiduspider | ~70% in China |
 
 Crawler Access Control Methods:
 ![Daumoa Compared to Other Search Crawlers Diagram](/assets/ai-crawler-bot/daumoa/website-owner-robots.png)

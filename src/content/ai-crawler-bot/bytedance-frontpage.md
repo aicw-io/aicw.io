@@ -65,10 +65,10 @@ Understanding ByteDance-Frontpage's position among news aggregation crawlers is 
 | Crawler Name | Parent Company | Primary Service | Robots.txt Respect | Traffic Benefit |
 |--------------|----------------|-----------------|-------------------|------------------|
 | ByteDance-Frontpage | ByteDance | Toutiao | Yes | Low |
-| Googlebot-News | Google | Google News | Yes | High |
-| Bingbot | Microsoft | Bing News | Yes | Medium |
+| [Googlebot](/ai-crawler-bot/googlebot/)-News | Google | Google News | Yes | High |
+| [Bingbot](/ai-crawler-bot/bingbot/) | Microsoft | Bing News | Yes | Medium |
 | Apple-News | Apple | Apple News | Yes | Medium |
-| FacebookBot | Meta | Facebook | Yes | Medium |
+| [FacebookBot](/ai-crawler-bot/facebookbot/) | Meta | Facebook | Yes | Medium |
 
 Googlebot-News is valuable because it can drive significant referral traffic. In contrast, ByteDance-Frontpage mainly serves Toutiao users and may not drive much traffic back to original sources. Understanding these differences helps website owners make choices regarding crawlers.
 

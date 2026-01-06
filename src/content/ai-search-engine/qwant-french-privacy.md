@@ -58,7 +58,7 @@ Qwant Product Ecosystem:
 
 | Qwant        | High          | None         | Qwant Junior, Maps |
 | Ecosia       | Medium        | Minimal      | Plant trees with searches |
-| StartPage    | High          | None         | Google results without tracking |
+| [StartPage](/ai-search-engine/startpage/)    | High          | None         | Google results without tracking |
 | Swisscows    | High          | None         | Family-friendly search |
 
 <a id="conclusion"></a>
