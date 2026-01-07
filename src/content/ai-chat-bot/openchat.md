@@ -170,10 +170,10 @@ As the open-source AI ecosystem evolves, projects like OpenChat will play an inc
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/openchat",
+  "url": "https://aicw.io/ai-chat-bot/openchat",
   "name": "OpenChat: An Open-Source Chatbot",
   "description": "OpenChat is an open-source large language model developed by laion.ai, providing chatbot alternatives to expensive proprietary systems.",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/openchat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/openchat" }
 }
 </script>
 <script type="application/ld+json">
@@ -184,7 +184,7 @@ As the open-source AI ecosystem evolves, projects like OpenChat will play an inc
   "description": "OpenChat is an open-source large language model developed by laion.ai, serving as an accessible chatbot alternative using innovative training methods.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/openchat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/openchat" }
 }
 </script>
 <script type="application/ld+json">
@@ -260,7 +260,7 @@ As the open-source AI ecosystem evolves, projects like OpenChat will play an inc
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -268,7 +268,7 @@ As the open-source AI ecosystem evolves, projects like OpenChat will play an inc
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/openchat",
+        "@id": "https://aicw.io/ai-chat-bot/openchat",
         "name": "OpenChat"
       }
     }

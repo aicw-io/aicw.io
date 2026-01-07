@@ -154,7 +154,7 @@ WhatsApp's link preview crawler enriches messaging with rich content previews an
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/whatsapp",
+  "@id": "https://aicw.io/ai-crawler-bot/whatsapp",
   "breadcrumb": {
     "@type": "BreadcrumbList",
     "itemListElement": [
@@ -162,13 +162,13 @@ WhatsApp's link preview crawler enriches messaging with rich content previews an
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://aichatwatch.com/"
+        "item": "https://aicw.io/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "WhatsApp Link Preview Crawler",
-        "item": "https://aichatwatch.com/ai-crawler-bot/whatsapp"
+        "item": "https://aicw.io/ai-crawler-bot/whatsapp"
       }
     ]
   }
@@ -183,7 +183,7 @@ WhatsApp's link preview crawler enriches messaging with rich content previews an
   "description": "This article explores WhatsApp's link preview crawler, its function, and how to optimize links for enhanced visibility.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/whatsapp" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/whatsapp" }
 }
 </script>
 

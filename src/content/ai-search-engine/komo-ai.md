@@ -125,7 +125,7 @@ Komo AI Features Overview:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/komo-ai"
+  "@id": "https://aicw.io/ai-search-engine/komo-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -136,7 +136,7 @@ Komo AI Features Overview:
   "description": "Komo AI offers a fast, ad-free, and privacy-focused search experience, providing direct answers and enhancing user convenience.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/komo-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/komo-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -212,13 +212,13 @@ Komo AI Features Overview:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Komo AI Search Engine",
-      "item": "https://aichatwatch.com/ai-search-engine/komo-ai"
+      "item": "https://aicw.io/ai-search-engine/komo-ai"
     }
   ]
 }

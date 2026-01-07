@@ -144,8 +144,8 @@ Wysa represents a significant development in accessible mental health support, u
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/wysa",
-  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-chat-bot/wysa"}
+  "url": "https://aicw.io/ai-chat-bot/wysa",
+  "mainEntityOfPage": {"@id": "https://aicw.io/ai-chat-bot/wysa"}
 }
 </script>
 <script type="application/ld+json">
@@ -156,7 +156,7 @@ Wysa represents a significant development in accessible mental health support, u
   "description": "An in-depth look at Wysa, the mental health AI chatbot changing access to emotional support.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/wysa"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/wysa"}
 }
 </script>
 <script type="application/ld+json">
@@ -232,13 +232,13 @@ Wysa represents a significant development in accessible mental health support, u
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Wysa",
-      "item": "https://aichatwatch.com/ai-chat-bot/wysa"
+      "item": "https://aicw.io/ai-chat-bot/wysa"
     }
   ]
 }

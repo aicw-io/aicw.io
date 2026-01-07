@@ -108,7 +108,7 @@ GPT-NeoX marks a significant achievement in open-source AI development. Eleuther
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/gpt-neox"
+  "@id": "https://aicw.io/ai-chat-bot/gpt-neox"
 }
 </script>
 <script type="application/ld+json">
@@ -119,7 +119,7 @@ GPT-NeoX marks a significant achievement in open-source AI development. Eleuther
   "description": "This article explores the development, purpose, and impact of GPT-NeoX, an open-source language model by EleutherAI.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/gpt-neox" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/gpt-neox" }
 }
 </script>
 <script type="application/ld+json">
@@ -195,13 +195,13 @@ GPT-NeoX marks a significant achievement in open-source AI development. Eleuther
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "GPT-NeoX",
-      "item": "https://aichatwatch.com/ai-chat-bot/gpt-neox"
+      "item": "https://aicw.io/ai-chat-bot/gpt-neox"
     }
   ]
 }

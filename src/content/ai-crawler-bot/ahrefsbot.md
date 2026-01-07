@@ -175,7 +175,7 @@ Compared to alternatives like SemrushBot and MJ12bot, AhrefsBot maintains one of
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/ahrefsbot"
+  "@id": "https://aicw.io/ai-crawler-bot/ahrefsbot"
 }
 </script>
 <script type="application/ld+json">
@@ -186,7 +186,7 @@ Compared to alternatives like SemrushBot and MJ12bot, AhrefsBot maintains one of
   "description": "AhrefsBot, operated by Ahrefs, is a web crawler that plays a crucial role in SEO data collection and management.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ahrefsbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/ahrefsbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -262,13 +262,13 @@ Compared to alternatives like SemrushBot and MJ12bot, AhrefsBot maintains one of
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AhrefsBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/ahrefsbot"
+      "item": "https://aicw.io/ai-crawler-bot/ahrefsbot"
     }
   ]
 }

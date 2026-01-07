@@ -136,7 +136,7 @@ Understanding how Omgilibot functions aids informed decisions about allowing or 
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/omgilibot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/omgilibot" }
 }</script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -145,7 +145,7 @@ Understanding how Omgilibot functions aids informed decisions about allowing or 
   "description": "Omgilibot is a crucial web crawler operated by Webz.io that plays a significant role in data collection for businesses.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/omgilibot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/omgilibot" }
 }</script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -216,12 +216,12 @@ Understanding how Omgilibot functions aids informed decisions about allowing or 
     {
       "@type": "ListItem",
       "position": 1,
-      "item": { "@id": "https://aichatwatch.com/", "name": "Home" }
+      "item": { "@id": "https://aicw.io/", "name": "Home" }
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "item": { "@id": "https://aichatwatch.com/ai-crawler-bot/omgilibot", "name": "Omgilibot" }
+      "item": { "@id": "https://aicw.io/ai-crawler-bot/omgilibot", "name": "Omgilibot" }
     }
   ]
 }</script>

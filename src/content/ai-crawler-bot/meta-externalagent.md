@@ -146,8 +146,8 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent"
+  "url": "https://aicw.io/ai-crawler-bot/meta-externalagent",
+  "mainEntityOfPage": "https://aicw.io/ai-crawler-bot/meta-externalagent"
 }
 </script>
 <script type="application/ld+json">
@@ -158,7 +158,7 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
   "description": "A comprehensive overview of Meta-ExternalAgent and its role in AI data collection.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/meta-externalagent" }
 }
 </script>
 <script type="application/ld+json">
@@ -234,13 +234,13 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Meta-ExternalAgent",
-      "item": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent"
+      "item": "https://aicw.io/ai-crawler-bot/meta-externalagent"
     }
   ]
 }
@@ -250,7 +250,7 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aichatwatch.com"
+  "url": "https://aicw.io"
 }
 </script>
 

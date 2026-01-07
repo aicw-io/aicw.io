@@ -201,8 +201,8 @@ Allowing PetalBot hinges on audience location, AI data stance, and server capaci
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/petalbot" },
-  "url": "https://aichatwatch.com/ai-crawler-bot/petalbot",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/petalbot" },
+  "url": "https://aicw.io/ai-crawler-bot/petalbot",
   "name": "PetalBot: Huawei's Web Crawler",
   "description": "Explore PetalBot, Huawei's web crawler designed for Petal Search and AI projects, including its operations, purposes, and impact on web owners."
 }
@@ -215,7 +215,7 @@ Allowing PetalBot hinges on audience location, AI data stance, and server capaci
   "description": "Explore PetalBot, a web crawler by Huawei Technologies supporting Petal Search and AI projects. Learn about its functions and how to manage its access.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/petalbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/petalbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -291,13 +291,13 @@ Allowing PetalBot hinges on audience location, AI data stance, and server capaci
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "PetalBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/petalbot"
+      "item": "https://aicw.io/ai-crawler-bot/petalbot"
     }
   ]
 }

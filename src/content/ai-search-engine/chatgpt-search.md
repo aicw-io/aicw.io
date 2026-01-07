@@ -270,8 +270,8 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/chatgpt-search",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-search" }
+  "url": "https://aicw.io/ai-search-engine/chatgpt-search",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/chatgpt-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -282,7 +282,7 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
   "description": "ChatGPT Search is a revolutionary AI-powered search capability developed by OpenAI, leveraging the advanced features of GPT-5.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/chatgpt-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -342,7 +342,7 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -350,7 +350,7 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-search",
+        "@id": "https://aicw.io/ai-search-engine/chatgpt-search",
         "name": "ChatGPT Search"
       }
     }

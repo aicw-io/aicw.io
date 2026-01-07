@@ -127,7 +127,7 @@ CCBot functions as the web scraping bot behind Common Crawl, a vital resource in
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/ccbot"
+  "@id": "https://aicw.io/ai-crawler-bot/ccbot"
 }
 </script>
 <script type="application/ld+json">
@@ -138,7 +138,7 @@ CCBot functions as the web scraping bot behind Common Crawl, a vital resource in
   "description": "CCBot is the web crawler that powers Common Crawl, a nonprofit organization creating AI training datasets from the web.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ccbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/ccbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -214,13 +214,13 @@ CCBot functions as the web scraping bot behind Common Crawl, a vital resource in
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "CCBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/ccbot"
+      "item": "https://aicw.io/ai-crawler-bot/ccbot"
     }
   ]
 }

@@ -169,8 +169,8 @@ The tool works best for users who need current information and are already activ
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/grok",
-  "url": "https://aichatwatch.com/ai-search-engine/grok",
+  "@id": "https://aicw.io/ai-search-engine/grok",
+  "url": "https://aicw.io/ai-search-engine/grok",
   "name": "Grok AI: xAI's Real-Time AI Search Assistant Explained",
   "description": "Explore how Grok, xAI's AI assistant, provides real-time access to current events and conversations through its unique features.",
   "mainEntity": {
@@ -179,7 +179,7 @@ The tool works best for users who need current information and are already activ
     "description": "Explore how Grok, xAI's AI assistant, provides real-time access to current events and conversations through its unique features.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/grok" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/grok" }
   },
   "breadcrumb": {
     "@type": "BreadcrumbList",
@@ -188,7 +188,7 @@ The tool works best for users who need current information and are already activ
         "@type": "ListItem", 
         "position": 1,
         "item": {
-          "@id": "https://aichatwatch.com/",
+          "@id": "https://aicw.io/",
           "name": "Home"
         }
       },
@@ -196,7 +196,7 @@ The tool works best for users who need current information and are already activ
         "@type": "ListItem", 
         "position": 2,
         "item": {
-          "@id": "https://aichatwatch.com/ai-search-engine/grok",
+          "@id": "https://aicw.io/ai-search-engine/grok",
           "name": "Grok AI: xAI's Real-Time AI Search Assistant Explained"
         }
       }

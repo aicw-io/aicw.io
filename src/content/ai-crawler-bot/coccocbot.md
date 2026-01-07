@@ -171,7 +171,7 @@ As Vietnam's internet market grows, CocCocBot will remain relevant with Coc Coc'
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/coccocbot"
+  "@id": "https://aicw.io/ai-crawler-bot/coccocbot"
 }
 </script>
 <script type="application/ld+json">
@@ -182,7 +182,7 @@ As Vietnam's internet market grows, CocCocBot will remain relevant with Coc Coc'
   "description": "CocCocBot is the web crawler for Vietnam's popular search engine, impacting Vietnamese website traffic.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/coccocbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/coccocbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -258,13 +258,13 @@ As Vietnam's internet market grows, CocCocBot will remain relevant with Coc Coc'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "CocCocBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/coccocbot"
+      "item": "https://aicw.io/ai-crawler-bot/coccocbot"
     }
   ]
 }

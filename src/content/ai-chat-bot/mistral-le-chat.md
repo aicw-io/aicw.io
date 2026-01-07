@@ -135,8 +135,8 @@ Mistral Le Chat represents Europe's solution to the US-dominated AI chatbot mark
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/mistral-le-chat",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-chat-bot/mistral-le-chat"
+  "url": "https://aicw.io/ai-chat-bot/mistral-le-chat",
+  "mainEntityOfPage": "https://aicw.io/ai-chat-bot/mistral-le-chat"
 }
 </script>
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ Mistral Le Chat represents Europe's solution to the US-dominated AI chatbot mark
   "description": "Mistral Le Chat is a GDPR-compliant AI chatbot developed by Mistral AI that offers multilingual services while ensuring EU data sovereignty.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/mistral-le-chat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/mistral-le-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -223,13 +223,13 @@ Mistral Le Chat represents Europe's solution to the US-dominated AI chatbot mark
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Mistral Le Chat",
-      "item": "https://aichatwatch.com/ai-chat-bot/mistral-le-chat"
+      "item": "https://aicw.io/ai-chat-bot/mistral-le-chat"
     }
   ]
 }

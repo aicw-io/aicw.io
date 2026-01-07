@@ -194,8 +194,8 @@ Managing AI training crawlers is now part of basic website administration. Wheth
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/bytespider",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/bytespider" }
+  "url": "https://aicw.io/ai-crawler-bot/bytespider",
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/bytespider" }
 }
 </script>
 <script type="application/ld+json">
@@ -206,7 +206,7 @@ Managing AI training crawlers is now part of basic website administration. Wheth
   "description": "Bytespider is a web crawler from ByteDance that scans websites to collect training data for AI models like Doubao.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bytespider" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/bytespider" }
 }
 </script>
 <script type="application/ld+json">
@@ -282,13 +282,13 @@ Managing AI training crawlers is now part of basic website administration. Wheth
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Bytespider",
-      "item": "https://aichatwatch.com/ai-crawler-bot/bytespider"
+      "item": "https://aicw.io/ai-crawler-bot/bytespider"
     }
   ]
 }

@@ -180,10 +180,10 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/yandexbot",
+  "url": "https://aicw.io/ai-crawler-bot/yandexbot",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aichatwatch.com/ai-crawler-bot/yandexbot"
+    "@id": "https://aicw.io/ai-crawler-bot/yandexbot"
   }
 }
 </script>
@@ -195,7 +195,7 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
   "description": "YandexBot is a web crawler operated by Yandex, the largest search engine and tech company in Russia.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/yandexbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/yandexbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -271,7 +271,7 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -279,7 +279,7 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/yandexbot",
+        "@id": "https://aicw.io/ai-crawler-bot/yandexbot",
         "name": "YandexBot"
       }
     }

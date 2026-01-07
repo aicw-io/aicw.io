@@ -223,7 +223,7 @@ Connected Papers offers a visual method to explore academic literature, aiding r
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/connected-papers"
+  "@id": "https://aicw.io/ai-search-engine/connected-papers"
 }
 </script>
 <script type="application/ld+json">
@@ -234,7 +234,7 @@ Connected Papers offers a visual method to explore academic literature, aiding r
   "description": "Connected Papers helps researchers discover related academic papers using visual citation graphs. This article explains how to leverage Connected Papers for research discovery and thorough literature reviews.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/connected-papers" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/connected-papers" }
 }
 </script>
 <script type="application/ld+json">
@@ -310,13 +310,13 @@ Connected Papers offers a visual method to explore academic literature, aiding r
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Connected Papers",
-      "item": "https://aichatwatch.com/ai-search-engine/connected-papers"
+      "item": "https://aicw.io/ai-search-engine/connected-papers"
     }
   ]
 }

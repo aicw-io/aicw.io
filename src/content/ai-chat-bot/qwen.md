@@ -112,7 +112,7 @@ Qwen represents Alibaba's significant foray into open source AI. It competes eff
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-chat-bot/qwen"}
+  "mainEntityOfPage": {"@id": "https://aicw.io/ai-chat-bot/qwen"}
 }
 </script>
 <script type="application/ld+json">
@@ -123,7 +123,7 @@ Qwen represents Alibaba's significant foray into open source AI. It competes eff
   "description": "Qwen is Alibaba Cloud's family of open source AI models designed for developers and researchers seeking robust language processing capabilities without vendor lock-in.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/qwen"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/qwen"}
 }
 </script>
 <script type="application/ld+json">
@@ -199,7 +199,7 @@ Qwen represents Alibaba's significant foray into open source AI. It competes eff
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -207,7 +207,7 @@ Qwen represents Alibaba's significant foray into open source AI. It competes eff
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/qwen",
+        "@id": "https://aicw.io/ai-chat-bot/qwen",
         "name": "Qwen"
       }
     }

@@ -185,7 +185,7 @@ As AI technology evolves, crawler management becomes essential for web developer
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -193,7 +193,7 @@ As AI technology evolves, crawler management becomes essential for web developer
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/gptbot",
+        "@id": "https://aicw.io/ai-crawler-bot/gptbot",
         "name": "GPTBot"
       }
     }
@@ -204,10 +204,10 @@ As AI technology evolves, crawler management becomes essential for web developer
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/gptbot",
+  "@id": "https://aicw.io/ai-crawler-bot/gptbot",
   "name": "What is GPTBot",
   "description": "Learn about GPTBot, OpenAI's web crawler designed for training AI models like ChatGPT.",
-  "url": "https://aichatwatch.com/ai-crawler-bot/gptbot"
+  "url": "https://aicw.io/ai-crawler-bot/gptbot"
 }
 </script>
 <script type="application/ld+json">
@@ -218,7 +218,7 @@ As AI technology evolves, crawler management becomes essential for web developer
   "description": "Discover how GPTBot collects web data for training AI models like ChatGPT, and understand its impact on web content management.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/gptbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/gptbot" }
 }
 </script>
 <script type="application/ld+json">

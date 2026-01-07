@@ -168,8 +168,8 @@ PanguBot serves as Huawei's dedicated crawler for collecting training data for t
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/pangubot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/pangubot",
+  "@id": "https://aicw.io/ai-crawler-bot/pangubot",
+  "url": "https://aicw.io/ai-crawler-bot/pangubot",
   "name": "PanguBot: Huawei's AI Data Collection Tool",
   "description": "Explore Huawei's PanguBot, a specialized web crawler designed to enhance AI training for PanGu models.",
   "mainEntity": {
@@ -178,7 +178,7 @@ PanguBot serves as Huawei's dedicated crawler for collecting training data for t
     "description": "PanguBot is Huawei's specialized web crawler designed to collect training data for the Huawei PanGu large language models.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/pangubot" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/pangubot" }
   }
 }
 </script>
@@ -257,7 +257,7 @@ PanguBot serves as Huawei's dedicated crawler for collecting training data for t
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -265,7 +265,7 @@ PanguBot serves as Huawei's dedicated crawler for collecting training data for t
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/pangubot",
+        "@id": "https://aicw.io/ai-crawler-bot/pangubot",
         "name": "PanguBot"
       }
     }

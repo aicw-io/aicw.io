@@ -123,8 +123,8 @@ DuckAssistBot is pivotal for DuckDuckGo's AI-powered search answers, closely ali
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/duckassistbot",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/duckassistbot" }
+  "url": "https://aicw.io/ai-crawler-bot/duckassistbot",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/duckassistbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -135,7 +135,7 @@ DuckAssistBot is pivotal for DuckDuckGo's AI-powered search answers, closely ali
   "description": "DuckAssistBot powers DuckDuckGo AI-generated answers by crawling websites to collect data for search results.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/duckassistbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/duckassistbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -211,13 +211,13 @@ DuckAssistBot is pivotal for DuckDuckGo's AI-powered search answers, closely ali
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "DuckAssistBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/duckassistbot"
+      "item": "https://aicw.io/ai-crawler-bot/duckassistbot"
     }
   ]
 }

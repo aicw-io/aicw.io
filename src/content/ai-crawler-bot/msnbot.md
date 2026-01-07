@@ -100,7 +100,7 @@ MSNBot was Microsoft's web crawler from 2004 to 2010, replaced by Bingbot during
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/msnbot"
+  "@id": "https://aicw.io/ai-crawler-bot/msnbot"
 }
 </script>
 <script type="application/ld+json">
@@ -111,7 +111,7 @@ MSNBot was Microsoft's web crawler from 2004 to 2010, replaced by Bingbot during
   "description": "MSNBot was Microsoft's first web crawler, operating from 2004 to 2010 before being replaced by Bingbot. This article explores its history and impact on SEO.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/msnbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/msnbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -187,13 +187,13 @@ MSNBot was Microsoft's web crawler from 2004 to 2010, replaced by Bingbot during
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "MSNBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/msnbot"
+      "item": "https://aicw.io/ai-crawler-bot/msnbot"
     }
   ]
 }

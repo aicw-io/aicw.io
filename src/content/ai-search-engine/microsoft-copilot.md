@@ -149,7 +149,7 @@ Copilot Integration Overview:
   "description": "Explore the features, pricing, and deployment options of Microsoft's AI assistant Copilot, based on GPT-4.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/microsoft-copilot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/microsoft-copilot" }
 }
 </script>
 <script type="application/ld+json">
@@ -225,13 +225,13 @@ Copilot Integration Overview:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Microsoft Copilot",
-      "item": "https://aichatwatch.com/ai-search-engine/microsoft-copilot"
+      "item": "https://aicw.io/ai-search-engine/microsoft-copilot"
     }
   ]
 }

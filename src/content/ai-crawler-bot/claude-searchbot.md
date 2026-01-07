@@ -144,7 +144,7 @@ Claude-SearchBot is Anthropic's specialized crawler for building a search index 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/claude-searchbot"
+  "@id": "https://aicw.io/ai-crawler-bot/claude-searchbot"
 }
 </script>
 <script type="application/ld+json">
@@ -155,7 +155,7 @@ Claude-SearchBot is Anthropic's specialized crawler for building a search index 
   "description": "Claude-SearchBot is Anthropic's specialized crawler for building a search index used by the Claude AI assistant.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claude-searchbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/claude-searchbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -231,13 +231,13 @@ Claude-SearchBot is Anthropic's specialized crawler for building a search index 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Claude-SearchBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/claude-searchbot"
+      "item": "https://aicw.io/ai-crawler-bot/claude-searchbot"
     }
   ]
 }

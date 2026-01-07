@@ -212,8 +212,8 @@ Legal and ethical questions surrounding web scraping for AI training remain unre
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/facebookbot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/facebookbot",
+  "@id": "https://aicw.io/ai-crawler-bot/facebookbot",
+  "url": "https://aicw.io/ai-crawler-bot/facebookbot",
   "name": "What is FacebookBot and Why Should You Care",
   "description": "Learn about FacebookBot, Meta's web crawler for AI training, and its impact on content ownership and website management.",
   "mainEntity": {
@@ -222,7 +222,7 @@ Legal and ethical questions surrounding web scraping for AI training remain unre
     "description": "Meta's web crawler collects data for AI training. Understand its purpose and implications for your website.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/facebookbot" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/facebookbot" }
   }
 }
 </script>
@@ -299,7 +299,7 @@ Legal and ethical questions surrounding web scraping for AI training remain unre
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -307,7 +307,7 @@ Legal and ethical questions surrounding web scraping for AI training remain unre
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/facebookbot",
+        "@id": "https://aicw.io/ai-crawler-bot/facebookbot",
         "name": "What is FacebookBot and Why Should You Care"
       }
     }
@@ -319,7 +319,7 @@ Legal and ethical questions surrounding web scraping for AI training remain unre
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aichatwatch.com"
+  "url": "https://aicw.io"
 }
 </script>
 

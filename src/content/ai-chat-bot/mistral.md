@@ -132,8 +132,8 @@ Mistral AI emerged rapidly as a leader in open-weight language models, demonstra
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/mistral",
-  "url": "https://aichatwatch.com/ai-chat-bot/mistral",
+  "@id": "https://aicw.io/ai-chat-bot/mistral",
+  "url": "https://aicw.io/ai-chat-bot/mistral",
   "name": "What is Mistral AI and Why It Matters",
   "description": "An overview of Mistral AI, its models, and significance in the AI landscape.",
   "mainEntity": {
@@ -142,7 +142,7 @@ Mistral AI emerged rapidly as a leader in open-weight language models, demonstra
     "description": "Mistral AI is a pioneering French AI startup building open-weight large language models with a focus on AI efficiency and performance.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/mistral" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/mistral" }
   }
 }
 </script>
@@ -219,13 +219,13 @@ Mistral AI emerged rapidly as a leader in open-weight language models, demonstra
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Mistral",
-      "item": "https://aichatwatch.com/ai-chat-bot/mistral"
+      "item": "https://aicw.io/ai-chat-bot/mistral"
     }
   ]
 }

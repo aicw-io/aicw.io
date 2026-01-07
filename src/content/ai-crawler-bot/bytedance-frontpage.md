@@ -139,11 +139,11 @@ Website owners control whether to allow or block the Toutiao crawler. Consider s
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/bytedance-frontpage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/bytedance-frontpage",
+  "@id": "https://aicw.io/ai-crawler-bot/bytedance-frontpage",
+  "url": "https://aicw.io/ai-crawler-bot/bytedance-frontpage",
   "name": "ByteDance-Frontpage: Understanding AI Crawler Bots",
   "description": "An article discussing the workings and implications of the ByteDance-Frontpage AI crawler bot used for news aggregation.",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-crawler-bot/bytedance-frontpage"
+  "mainEntityOfPage": "https://aicw.io/ai-crawler-bot/bytedance-frontpage"
 }
 </script>
 <script type="application/ld+json">
@@ -154,7 +154,7 @@ Website owners control whether to allow or block the Toutiao crawler. Consider s
   "description": "An article discussing the workings and implications of the ByteDance-Frontpage AI crawler bot used for news aggregation.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bytedance-frontpage" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/bytedance-frontpage" }
 }
 </script>
 <script type="application/ld+json">
@@ -230,13 +230,13 @@ Website owners control whether to allow or block the Toutiao crawler. Consider s
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ByteDance-Frontpage",
-      "item": "https://aichatwatch.com/ai-crawler-bot/bytedance-frontpage"
+      "item": "https://aicw.io/ai-crawler-bot/bytedance-frontpage"
     }
   ]
 }

@@ -113,7 +113,7 @@ Lexis+ AI Hallucination Protection:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/lexis-plus-ai"
+  "@id": "https://aicw.io/ai-search-engine/lexis-plus-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -124,7 +124,7 @@ Lexis+ AI Hallucination Protection:
   "description": "Explore Lexis+ AI, a powerful legal research platform with 83 million documents and AI-driven insights for legal professionals.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/lexis-plus-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/lexis-plus-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -200,7 +200,7 @@ Lexis+ AI Hallucination Protection:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -208,7 +208,7 @@ Lexis+ AI Hallucination Protection:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/lexis-plus-ai",
+        "@id": "https://aicw.io/ai-search-engine/lexis-plus-ai",
         "name": "Lexis+ AI Legal Research Platform Complete Guide"
       }
     }

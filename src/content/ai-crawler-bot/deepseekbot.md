@@ -152,8 +152,8 @@ DeepSeekBot is DeepSeek's web crawler designed to collect training data for thei
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/deepseekbot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/deepseekbot",
+  "@id": "https://aicw.io/ai-crawler-bot/deepseekbot",
+  "url": "https://aicw.io/ai-crawler-bot/deepseekbot",
   "name": "DeepSeekBot",
   "description": "Learn about DeepSeekBot, a web crawler developed by DeepSeek, collecting training data for AI models.",
   "mainEntity": {
@@ -162,7 +162,7 @@ DeepSeekBot is DeepSeek's web crawler designed to collect training data for thei
     "description": "DeepSeekBot is a web crawler by DeepSeek, collecting vast text data for training AI models.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/deepseekbot" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/deepseekbot" }
   }
 }
 </script>
@@ -239,7 +239,7 @@ DeepSeekBot is DeepSeek's web crawler designed to collect training data for thei
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -247,7 +247,7 @@ DeepSeekBot is DeepSeek's web crawler designed to collect training data for thei
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/deepseekbot",
+        "@id": "https://aicw.io/ai-crawler-bot/deepseekbot",
         "name": "DeepSeekBot"
       }
     }

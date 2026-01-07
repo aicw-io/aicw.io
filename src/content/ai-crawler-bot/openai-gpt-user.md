@@ -120,9 +120,9 @@ AI user agent management is evolving as technology advances. As more AI services
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/openai-gpt-user",
+  "url": "https://aicw.io/ai-crawler-bot/openai-gpt-user",
   "name": "OpenAI GPT User Agent: Understanding AI Browsing Activity",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/openai-gpt-user" }
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/openai-gpt-user" }
 }
 </script>
 <script type="application/ld+json">
@@ -133,7 +133,7 @@ AI user agent management is evolving as technology advances. As more AI services
   "description": "The OpenAI-GPT-User agent string is crucial for identifying ChatGPT browsing activity and managing AI bot interactions on websites.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/openai-gpt-user" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/openai-gpt-user" }
 }
 </script>
 <script type="application/ld+json">
@@ -209,13 +209,13 @@ AI user agent management is evolving as technology advances. As more AI services
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "OpenAI GPT User Agent: Understanding AI Browsing Activity",
-      "item": "https://aichatwatch.com/ai-crawler-bot/openai-gpt-user"
+      "item": "https://aicw.io/ai-crawler-bot/openai-gpt-user"
     }
   ]
 }

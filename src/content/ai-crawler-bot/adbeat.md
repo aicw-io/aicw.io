@@ -136,7 +136,7 @@ The tool competes with platforms like SEMrush, SpyFu, and Moat, each with differ
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/adbeat"
+  "@id": "https://aicw.io/ai-crawler-bot/adbeat"
 }
 </script>
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ The tool competes with platforms like SEMrush, SpyFu, and Moat, each with differ
   "description": "AdBeat is an advertising intelligence platform that helps marketers understand competitor ad strategies by crawling the web and collecting data on digital ads.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/adbeat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/adbeat" }
 }
 </script>
 <script type="application/ld+json">
@@ -223,13 +223,13 @@ The tool competes with platforms like SEMrush, SpyFu, and Moat, each with differ
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AdBeat",
-      "item": "https://aichatwatch.com/ai-crawler-bot/adbeat"
+      "item": "https://aicw.io/ai-crawler-bot/adbeat"
     }
   ]
 }

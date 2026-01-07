@@ -120,14 +120,14 @@ As AI technology advances, image collection for training is likely to continue a
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/imagesiftbot",
+  "url": "https://aicw.io/ai-crawler-bot/imagesiftbot",
   "mainEntity": {
     "@type": "Article",
     "headline": "What is ImagesiftBot",
     "description": "ImagesiftBot is an image-focused web crawler operated by The Hive, designed to collect images from websites across the internet for AI model training purposes.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/imagesiftbot" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/imagesiftbot" },
     "faqSection": {
       "@type": "FAQPage",
       "mainEntity": [
@@ -201,7 +201,7 @@ As AI technology advances, image collection for training is likely to continue a
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -209,7 +209,7 @@ As AI technology advances, image collection for training is likely to continue a
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/imagesiftbot",
+        "@id": "https://aicw.io/ai-crawler-bot/imagesiftbot",
         "name": "What is ImagesiftBot"
       }
     }

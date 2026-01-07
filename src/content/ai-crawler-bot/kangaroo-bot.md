@@ -164,8 +164,8 @@ The broader context of AI data collection involves ongoing debates about ethics,
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/kangaroo-bot",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/kangaroo-bot" }
+  "url": "https://aicw.io/ai-crawler-bot/kangaroo-bot",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/kangaroo-bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -176,7 +176,7 @@ The broader context of AI data collection involves ongoing debates about ethics,
   "description": "Kangaroo Bot is an AI crawler bot designed for web data collection to train machine learning models, serving as an AI web scraper that automates the data gathering process.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/kangaroo-bot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/kangaroo-bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -252,7 +252,7 @@ The broader context of AI data collection involves ongoing debates about ethics,
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -260,7 +260,7 @@ The broader context of AI data collection involves ongoing debates about ethics,
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/kangaroo-bot",
+        "@id": "https://aicw.io/ai-crawler-bot/kangaroo-bot",
         "name": "Kangaroo Bot"
       }
     }

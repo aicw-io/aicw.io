@@ -116,8 +116,8 @@ Jasper Chat is a content generation AI tool tailored for marketing, helping busi
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/jasper-chat",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-chat-bot/jasper-chat" }
+  "url": "https://aicw.io/ai-chat-bot/jasper-chat",
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-chat-bot/jasper-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ Jasper Chat is a content generation AI tool tailored for marketing, helping busi
   "description": "Jasper Chat enhances content generation for marketing, providing customized brand voice and seamless integration with workflows.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/jasper-chat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/jasper-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,13 +204,13 @@ Jasper Chat is a content generation AI tool tailored for marketing, helping busi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Jasper Chat",
-      "item": "https://aichatwatch.com/ai-chat-bot/jasper-chat"
+      "item": "https://aicw.io/ai-chat-bot/jasper-chat"
     }
   ]
 }

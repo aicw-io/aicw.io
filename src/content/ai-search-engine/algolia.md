@@ -260,8 +260,8 @@ Algolia empowers developers with robust search tools fueled by AI, offering swif
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/algolia",
-  "url": "https://aichatwatch.com/ai-search-engine/algolia",
+  "@id": "https://aicw.io/ai-search-engine/algolia",
+  "url": "https://aicw.io/ai-search-engine/algolia",
   "name": "Algolia: AI-Powered Search API Guide for Developers"
 }
 </script>
@@ -273,7 +273,7 @@ Algolia empowers developers with robust search tools fueled by AI, offering swif
   "description": "A comprehensive guide to integrating and optimizing Algolia's search functionalities for developers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/algolia" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/algolia" }
 }
 </script>
 <script type="application/ld+json">
@@ -349,13 +349,13 @@ Algolia empowers developers with robust search tools fueled by AI, offering swif
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Algolia: AI-Powered Search API Guide for Developers",
-      "item": "https://aichatwatch.com/ai-search-engine/algolia"
+      "item": "https://aicw.io/ai-search-engine/algolia"
     }
   ]
 }

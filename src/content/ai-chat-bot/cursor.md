@@ -151,7 +151,7 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/cursor"
+  "@id": "https://aicw.io/ai-chat-bot/cursor"
 }
 </script>
 <script type="application/ld+json">
@@ -162,7 +162,7 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
   "description": "Cursor AI is a cutting-edge AI code editor that combines GPT-4 and Claude AI capabilities within a familiar VS Code environment.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/cursor" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/cursor" }
 }
 </script>
 <script type="application/ld+json">
@@ -238,7 +238,7 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -246,7 +246,7 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/cursor",
+        "@id": "https://aicw.io/ai-chat-bot/cursor",
         "name": "Cursor"
       }
     }

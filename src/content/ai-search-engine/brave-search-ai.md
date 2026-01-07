@@ -199,7 +199,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/brave-search-ai"
+  "@id": "https://aicw.io/ai-search-engine/brave-search-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -210,7 +210,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
   "description": "Brave Search AI is a privacy-centric search engine with advanced features like AI Summarizer and Brave Leo assistant.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/brave-search-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/brave-search-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -326,7 +326,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -334,7 +334,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/brave-search-ai",
+        "@id": "https://aicw.io/ai-search-engine/brave-search-ai",
         "name": "Brave Search AI"
       }
     }

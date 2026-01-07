@@ -205,7 +205,7 @@ Mojeekbot Crawling Process:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/mojeek",
+  "@id": "https://aicw.io/ai-search-engine/mojeek",
   "name": "Mojeek: The Independent UK Search Engine Explained",
   "description": "In-depth examination of Mojeek, a UK search engine that values user privacy and operates independently."
 }
@@ -218,7 +218,7 @@ Mojeekbot Crawling Process:
   "description": "Mojeek is a UK search engine that values user privacy and operates independently with its unique search index.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/mojeek" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/mojeek" }
 }
 </script>
 <script type="application/ld+json">
@@ -294,7 +294,7 @@ Mojeekbot Crawling Process:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -302,7 +302,7 @@ Mojeekbot Crawling Process:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/mojeek",
+        "@id": "https://aicw.io/ai-search-engine/mojeek",
         "name": "Mojeek: The Independent UK Search Engine Explained"
       }
     }

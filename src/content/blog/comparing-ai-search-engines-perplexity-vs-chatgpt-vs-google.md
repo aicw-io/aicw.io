@@ -180,8 +180,8 @@ AI search engines have changed how we find information online. Perplexity AI, Ch
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google",
-  "mainEntityOfPage": "https://aichatwatch.com/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google"
+  "url": "https://aicw.io/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google",
+  "mainEntityOfPage": "https://aicw.io/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google"
 }
 </script>
 <script type="application/ld+json">
@@ -192,7 +192,7 @@ AI search engines have changed how we find information online. Perplexity AI, Ch
   "description": "An in-depth comparison of three AI search engines: Perplexity, ChatGPT Search, and Google AI Overview, focusing on their unique features, capabilities, and best use cases.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google" }
 }
 </script>
 <script type="application/ld+json">
@@ -268,13 +268,13 @@ AI search engines have changed how we find information online. Perplexity AI, Ch
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Comparing AI Search Engines: Perplexity vs ChatGPT vs Google",
-      "item": "https://aichatwatch.com/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google"
+      "item": "https://aicw.io/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google"
     }
   ]
 }

@@ -133,7 +133,7 @@ GoogleOther represents Google's separation of search indexing from other data co
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/googleother"
+  "@id": "https://aicw.io/ai-crawler-bot/googleother"
 }
 </script>
 <script type="application/ld+json">
@@ -144,7 +144,7 @@ GoogleOther represents Google's separation of search indexing from other data co
   "description": "GoogleOther is a specialized web crawler by Google serving internal research projects, separate from Googlebot which focuses on search indexing.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/googleother" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/googleother" }
 }
 </script>
 <script type="application/ld+json">
@@ -220,13 +220,13 @@ GoogleOther represents Google's separation of search indexing from other data co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "GoogleOther",
-      "item": "https://aichatwatch.com/ai-crawler-bot/googleother"
+      "item": "https://aicw.io/ai-crawler-bot/googleother"
     }
   ]
 }

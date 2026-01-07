@@ -120,8 +120,8 @@ Character.AI represents an evolution in conversational AI, focusing on entertain
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/character-ai",
-  "url": "https://aichatwatch.com/ai-chat-bot/character-ai",
+  "@id": "https://aicw.io/ai-chat-bot/character-ai",
+  "url": "https://aicw.io/ai-chat-bot/character-ai",
   "name": "Understanding Character.AI: A Conversational AI Platform",
   "description": "Explore Character.AI, a platform for chatting with AI-powered characters focused on creative roleplay and character creation."
 }
@@ -134,7 +134,7 @@ Character.AI represents an evolution in conversational AI, focusing on entertain
   "description": "Character.AI is a unique AI chatbot platform focused on character creation and roleplay. Users can engage with distinct personalities while ensuring a secure environment.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/character-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/character-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -210,13 +210,13 @@ Character.AI represents an evolution in conversational AI, focusing on entertain
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Character.AI",
-      "item": "https://aichatwatch.com/ai-chat-bot/character-ai"
+      "item": "https://aicw.io/ai-chat-bot/character-ai"
     }
   ]
 }

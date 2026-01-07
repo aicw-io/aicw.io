@@ -128,7 +128,7 @@ Transition from SGE to AI Overviews:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/google-ai-overviews"
+  "url": "https://aicw.io/ai-search-engine/google-ai-overviews"
 }
 </script>
 <script type="application/ld+json">
@@ -139,7 +139,7 @@ Transition from SGE to AI Overviews:
   "description": "Google AI Overviews represent a significant evolution in search technology, providing AI-generated summaries of search results for complex queries.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/google-ai-overviews" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/google-ai-overviews" }
 }
 </script>
 <script type="application/ld+json">
@@ -215,13 +215,13 @@ Transition from SGE to AI Overviews:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Google AI Overviews",
-      "item": "https://aichatwatch.com/ai-search-engine/google-ai-overviews"
+      "item": "https://aicw.io/ai-search-engine/google-ai-overviews"
     }
   ]
 }

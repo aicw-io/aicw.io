@@ -190,14 +190,14 @@ Liner AI User Flow:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/liner",
+  "url": "https://aicw.io/ai-search-engine/liner",
   "mainEntity": {
     "@type": "Article",
     "headline": "Liner AI Research Tool: Complete Guide for Students",
     "description": "Liner AI is a robust AI research tool designed for students and academics, helping discover, highlight, and organize research efficiently.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/liner" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/liner" }
   }
 }
 </script>
@@ -276,13 +276,13 @@ Liner AI User Flow:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Liner AI Research Tool",
-      "item": "https://aichatwatch.com/ai-search-engine/liner"
+      "item": "https://aicw.io/ai-search-engine/liner"
     }
   ]
 }

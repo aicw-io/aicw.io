@@ -115,7 +115,7 @@ The Perplexity chatbot addresses a significant need in the AI assistant market b
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/perplexity" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/perplexity" }
 }
 </script>
 <script type="application/ld+json">
@@ -126,7 +126,7 @@ The Perplexity chatbot addresses a significant need in the AI assistant market b
   "description": "Discover how Perplexity integrates conversational abilities with real-time web search, offering accurate information with inline citations.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/perplexity" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/perplexity" }
 }
 </script>
 <script type="application/ld+json">
@@ -202,7 +202,7 @@ The Perplexity chatbot addresses a significant need in the AI assistant market b
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -210,7 +210,7 @@ The Perplexity chatbot addresses a significant need in the AI assistant market b
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/perplexity",
+        "@id": "https://aicw.io/ai-chat-bot/perplexity",
         "name": "Perplexity"
       }
     }

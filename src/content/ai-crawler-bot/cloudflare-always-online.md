@@ -166,7 +166,7 @@ Test your cached pages consistently, exclude dynamic content where necessary, an
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/cloudflare-always-online",
+  "@id": "https://aicw.io/ai-crawler-bot/cloudflare-always-online",
   "name": "Cloudflare Always Online",
   "description": "Cloudflare's Always Online feature ensures website availability by serving cached versions during server outages.",
   "publisher": {
@@ -183,7 +183,7 @@ Test your cached pages consistently, exclude dynamic content where necessary, an
   "description": "Cloudflare Always Online ensures availability by serving cached versions of web pages during outages, helping businesses maintain user trust.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/cloudflare-always-online" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/cloudflare-always-online" }
 }
 </script>
 <script type="application/ld+json">
@@ -259,13 +259,13 @@ Test your cached pages consistently, exclude dynamic content where necessary, an
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Cloudflare Always Online",
-      "item": "https://aichatwatch.com/ai-crawler-bot/cloudflare-always-online"
+      "item": "https://aicw.io/ai-crawler-bot/cloudflare-always-online"
     }
   ]
 }

@@ -151,7 +151,7 @@ In conclusion, the **Apple-CloudKit bot** plays an indispensable role in Apple's
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/apple-cloudkit"
+  "@id": "https://aicw.io/ai-crawler-bot/apple-cloudkit"
 }
 </script>
 <script type="application/ld+json">
@@ -162,7 +162,7 @@ In conclusion, the **Apple-CloudKit bot** plays an indispensable role in Apple's
   "description": "A detailed examination of the Apple-CloudKit bot, its functions, and implications for developers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/apple-cloudkit" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/apple-cloudkit" }
 }
 </script>
 <script type="application/ld+json">
@@ -238,13 +238,13 @@ In conclusion, the **Apple-CloudKit bot** plays an indispensable role in Apple's
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Apple CloudKit Bot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/apple-cloudkit"
+      "item": "https://aicw.io/ai-crawler-bot/apple-cloudkit"
     }
   ]
 }

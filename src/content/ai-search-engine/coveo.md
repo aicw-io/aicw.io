@@ -235,11 +235,11 @@ The platform costs more than basic search tools and requires technical knowledge
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/coveo",
-  "url": "https://aichatwatch.com/ai-search-engine/coveo",
+  "@id": "https://aicw.io/ai-search-engine/coveo",
+  "url": "https://aicw.io/ai-search-engine/coveo",
   "name": "Coveo: Complete Guide to AI-Powered Enterprise Search in 2024",
   "description": "An in-depth look at Coveo's AI-driven search platform designed for large enterprises, exploring its features, use cases, and implementation strategies.",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-search-engine/coveo"
+  "mainEntityOfPage": "https://aicw.io/ai-search-engine/coveo"
 }
 </script>
 <script type="application/ld+json">
@@ -250,7 +250,7 @@ The platform costs more than basic search tools and requires technical knowledge
   "description": "An in-depth look at Coveo's AI-driven search platform designed for large enterprises, exploring its features, use cases, and implementation strategies.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/coveo" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/coveo" }
 }
 </script>
 <script type="application/ld+json">
@@ -326,13 +326,13 @@ The platform costs more than basic search tools and requires technical knowledge
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Coveo: Complete Guide to AI-Powered Enterprise Search in 2024",
-      "item": "https://aichatwatch.com/ai-search-engine/coveo"
+      "item": "https://aicw.io/ai-search-engine/coveo"
     }
   ]
 }

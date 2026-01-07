@@ -235,7 +235,7 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/deepseek"
+  "@id": "https://aicw.io/ai-search-engine/deepseek"
 }
 </script>
 <script type="application/ld+json">
@@ -246,7 +246,7 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
   "description": "Discover the innovative features and capabilities of DeepSeek AI, a leading Chinese AI company known for its cutting-edge language models and AI search engine technology.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/deepseek" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/deepseek" }
 }
 </script>
 <script type="application/ld+json">
@@ -362,7 +362,7 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -370,7 +370,7 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/deepseek",
+        "@id": "https://aicw.io/ai-search-engine/deepseek",
         "name": "DeepSeek AI: Complete Guide to Features and Capabilities"
       }
     }

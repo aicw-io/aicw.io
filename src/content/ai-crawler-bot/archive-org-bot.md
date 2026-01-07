@@ -142,7 +142,7 @@ The bot differs from commercial crawlers by focusing on historical preservation 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/archive-org-bot"
+  "@id": "https://aicw.io/ai-crawler-bot/archive-org-bot"
 }
 </script>
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ The bot differs from commercial crawlers by focusing on historical preservation 
   "description": "The Archive.org_bot captures and preserves web content, helping document the internet's evolution for future generations.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/archive-org-bot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/archive-org-bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -229,13 +229,13 @@ The bot differs from commercial crawlers by focusing on historical preservation 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AI Crawler Bot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/archive-org-bot"
+      "item": "https://aicw.io/ai-crawler-bot/archive-org-bot"
     }
   ]
 }

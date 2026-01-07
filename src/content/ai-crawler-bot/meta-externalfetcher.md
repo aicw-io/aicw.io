@@ -134,7 +134,7 @@ Technical considerations are crucial for developers configuring servers and moni
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/meta-externalfetcher"
+  "@id": "https://aicw.io/ai-crawler-bot/meta-externalfetcher"
 }
 </script>
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ Technical considerations are crucial for developers configuring servers and moni
   "description": "Meta-ExternalFetcher enhances user experience on social platforms by generating rich link previews from shared URLs.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/meta-externalfetcher" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/meta-externalfetcher" }
 }
 </script>
 <script type="application/ld+json">
@@ -221,13 +221,13 @@ Technical considerations are crucial for developers configuring servers and moni
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Meta-ExternalFetcher",
-      "item": "https://aichatwatch.com/ai-crawler-bot/meta-externalfetcher"
+      "item": "https://aicw.io/ai-crawler-bot/meta-externalfetcher"
     }
   ]
 }

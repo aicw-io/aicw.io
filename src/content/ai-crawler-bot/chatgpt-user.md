@@ -156,7 +156,7 @@ ChatGPT-User is OpenAI's real-time browsing bot for responding to user queries w
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/chatgpt-user" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/chatgpt-user" }
 }
 </script>
 <script type="application/ld+json">
@@ -167,7 +167,7 @@ ChatGPT-User is OpenAI's real-time browsing bot for responding to user queries w
   "description": "This article explores the ChatGPT-User, a real-time browsing bot by OpenAI that enhances ChatGPT's capabilities by providing current information through web crawling.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/chatgpt-user" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/chatgpt-user" }
 }
 </script>
 <script type="application/ld+json">
@@ -243,13 +243,13 @@ ChatGPT-User is OpenAI's real-time browsing bot for responding to user queries w
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ChatGPT-User",
-      "item": "https://aichatwatch.com/ai-crawler-bot/chatgpt-user"
+      "item": "https://aicw.io/ai-crawler-bot/chatgpt-user"
     }
   ]
 }

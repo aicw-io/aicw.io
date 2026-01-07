@@ -112,7 +112,7 @@ Wolfram Alpha stands out as a powerful computational engine. Offering precise co
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/wolfram-alpha"
+  "@id": "https://aicw.io/ai-search-engine/wolfram-alpha"
 }
 </script>
 <script type="application/ld+json">
@@ -123,7 +123,7 @@ Wolfram Alpha stands out as a powerful computational engine. Offering precise co
   "description": "An in-depth look at Wolfram Alpha, its purpose, features, and its significance in the world of computing and AI.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/wolfram-alpha" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/wolfram-alpha" }
 }
 </script>
 <script type="application/ld+json">
@@ -199,13 +199,13 @@ Wolfram Alpha stands out as a powerful computational engine. Offering precise co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Wolfram Alpha",
-      "item": "https://aichatwatch.com/ai-search-engine/wolfram-alpha"
+      "item": "https://aicw.io/ai-search-engine/wolfram-alpha"
     }
   ]
 }

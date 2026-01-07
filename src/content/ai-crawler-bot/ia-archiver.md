@@ -132,7 +132,7 @@ The ia_archiver represents an important chapter in internet history as one of th
   "description": "A comprehensive guide on the ia_archiver web crawler's significance, operations, and its impact on web archiving provided by AI Chat Watch.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ia-archiver" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/ia-archiver" }
 }
 </script>
 
@@ -210,7 +210,7 @@ The ia_archiver represents an important chapter in internet history as one of th
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -218,7 +218,7 @@ The ia_archiver represents an important chapter in internet history as one of th
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/ia-archiver",
+        "@id": "https://aicw.io/ai-crawler-bot/ia-archiver",
         "name": "ia_archiver"
       }
     }

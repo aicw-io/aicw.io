@@ -144,7 +144,7 @@ With training costs around $5.5 million, DeepSeek challenges the assumption that
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/deepseek"
+  "@id": "https://aicw.io/ai-chat-bot/deepseek"
 }
 </script>
 <script type="application/ld+json">
@@ -155,7 +155,7 @@ With training costs around $5.5 million, DeepSeek challenges the assumption that
   "description": "DeepSeek is revolutionizing the AI industry with open-source large language models that are cost-effective and accessible.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/deepseek" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/deepseek" }
 }
 </script>
 <script type="application/ld+json">
@@ -231,7 +231,7 @@ With training costs around $5.5 million, DeepSeek challenges the assumption that
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -239,7 +239,7 @@ With training costs around $5.5 million, DeepSeek challenges the assumption that
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/deepseek",
+        "@id": "https://aicw.io/ai-chat-bot/deepseek",
         "name": "DeepSeek"
       }
     }

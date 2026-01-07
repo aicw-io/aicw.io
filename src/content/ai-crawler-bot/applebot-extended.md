@@ -140,9 +140,9 @@ Disallow: /". Make sure to test any changes in a staging environment before appl
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/applebot-extended",
+  "@id": "https://aicw.io/ai-crawler-bot/applebot-extended",
   "name": "Applebot-Extended: The AI Training Crawler",
-  "url": "https://aichatwatch.com/ai-crawler-bot/applebot-extended"
+  "url": "https://aicw.io/ai-crawler-bot/applebot-extended"
 }
 </script>
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ Disallow: /". Make sure to test any changes in a staging environment before appl
   "description": "A detailed overview of Applebot-Extended, its purpose, and how it impacts web content management.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/applebot-extended" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/applebot-extended" }
 }
 </script>
 <script type="application/ld+json">
@@ -230,7 +230,7 @@ Disallow: /'. Make sure to test any changes in a staging environment before appl
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -238,7 +238,7 @@ Disallow: /'. Make sure to test any changes in a staging environment before appl
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/applebot-extended",
+        "@id": "https://aicw.io/ai-crawler-bot/applebot-extended",
         "name": "Applebot-Extended"
       }
     }

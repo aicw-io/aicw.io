@@ -129,8 +129,8 @@ Writesonic provides AI content generation tools for businesses and content creat
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/writesonic",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-chat-bot/writesonic"
+  "url": "https://aicw.io/ai-chat-bot/writesonic",
+  "mainEntityOfPage": "https://aicw.io/ai-chat-bot/writesonic"
 }
 </script>
 <script type="application/ld+json">
@@ -141,7 +141,7 @@ Writesonic provides AI content generation tools for businesses and content creat
   "description": "Writesonic helps businesses and content creators generate quality content efficiently using AI, including blog posts, marketing copy, and more.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/writesonic" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/writesonic" }
 }
 </script>
 <script type="application/ld+json">
@@ -217,13 +217,13 @@ Writesonic provides AI content generation tools for businesses and content creat
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Writesonic",
-      "item": "https://aichatwatch.com/ai-chat-bot/writesonic"
+      "item": "https://aicw.io/ai-chat-bot/writesonic"
     }
   ]
 }

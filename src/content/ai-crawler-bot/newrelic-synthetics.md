@@ -131,11 +131,11 @@ New Relic Synthetics offers comprehensive performance monitoring with automated 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics",
-  "url": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics",
+  "@id": "https://aicw.io/ai-crawler-bot/newrelic-synthetics",
+  "url": "https://aicw.io/ai-crawler-bot/newrelic-synthetics",
   "name": "New Relic Synthetics",
   "description": "A comprehensive overview of New Relic Synthetics, a performance monitoring tool that simulates user interactions with websites and applications to identify issues before real users encounter them.",
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/newrelic-synthetics"}
 }
 </script>
 <script type="application/ld+json">
@@ -146,7 +146,7 @@ New Relic Synthetics offers comprehensive performance monitoring with automated 
   "description": "Explore how New Relic Synthetics provides essential performance monitoring tools that simulate user interactions with websites to catch issues early.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/newrelic-synthetics"}
 }
 </script>
 <script type="application/ld+json">
@@ -222,13 +222,13 @@ New Relic Synthetics offers comprehensive performance monitoring with automated 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "New Relic Synthetics",
-      "item": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics"
+      "item": "https://aicw.io/ai-crawler-bot/newrelic-synthetics"
     }
   ]
 }

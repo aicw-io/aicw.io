@@ -174,7 +174,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/claude-user",
+  "@id": "https://aicw.io/ai-crawler-bot/claude-user",
   "name": "Claude-User Explained",
   "description": "An informative article discussing the Claude-User web request agent, its functionality and importance in real-time content access for AI conversations.",
   "publisher": {
@@ -191,7 +191,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
   "description": "Explore how Claude-User operates as an AI fetch agent, fetching real-time data on demand to enhance user interactions.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claude-user" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/claude-user" }
 }
 </script>
 <script type="application/ld+json">
@@ -267,7 +267,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -275,7 +275,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/claude-user",
+        "@id": "https://aicw.io/ai-crawler-bot/claude-user",
         "name": "Claude-User"
       }
     }

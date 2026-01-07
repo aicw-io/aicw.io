@@ -24,7 +24,7 @@ export async function GET(context: APIContext) {
   return rss({
     title: 'AI Chat Watch Blog',
     description: 'Insights on AI visibility, competitive intelligence, and how to optimize your brand for AI discovery',
-    site: context.site?.toString() || 'https://www.aichatwatch.com',
+    site: context.site?.toString() || 'https://www.aicw.io',
     items: itemsWithAuthors,
     customData: `<language>en-us</language>`,
   });

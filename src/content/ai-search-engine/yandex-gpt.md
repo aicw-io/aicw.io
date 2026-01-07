@@ -155,11 +155,11 @@ Yandex holds a 60-65% market share in Russian search, with YandexGPT integrated 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/yandex-gpt",
-  "url": "https://aichatwatch.com/ai-search-engine/yandex-gpt",
+  "@id": "https://aicw.io/ai-search-engine/yandex-gpt",
+  "url": "https://aicw.io/ai-search-engine/yandex-gpt",
   "name": "YandexGPT AI Engine: Features, Capabilities & Comparison",
   "description": "Explore YandexGPT, the AI language model from Yandex, focusing on its capabilities, features, and market position.",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-search-engine/yandex-gpt"
+  "mainEntityOfPage": "https://aicw.io/ai-search-engine/yandex-gpt"
 }
 </script>
 <script type="application/ld+json">
@@ -170,7 +170,7 @@ Yandex holds a 60-65% market share in Russian search, with YandexGPT integrated 
   "description": "Explore YandexGPT, the AI language model from Yandex, focusing on its capabilities, features, and market position.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/yandex-gpt" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/yandex-gpt" }
 }
 </script>
 <script type="application/ld+json">
@@ -246,13 +246,13 @@ Yandex holds a 60-65% market share in Russian search, with YandexGPT integrated 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "YandexGPT AI Engine: Features, Capabilities & Comparison",
-      "item": "https://aichatwatch.com/ai-search-engine/yandex-gpt"
+      "item": "https://aicw.io/ai-search-engine/yandex-gpt"
     }
   ]
 }

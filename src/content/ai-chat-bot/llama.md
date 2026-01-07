@@ -221,8 +221,8 @@ For production, incorporate monitoring, caching, and fallback strategies, ensuri
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/llama",
-  "url": "https://aichatwatch.com/ai-chat-bot/llama",
+  "@id": "https://aicw.io/ai-chat-bot/llama",
+  "url": "https://aicw.io/ai-chat-bot/llama",
   "name": "What is Meta Llama",
   "description": "A detailed overview of Meta Llama, its versions, capabilities, and applications in business.",
   "mainEntity": {
@@ -231,7 +231,7 @@ For production, incorporate monitoring, caching, and fallback strategies, ensuri
     "description": "Discover the Meta Llama family of AI models, their history, versions, and business applications.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/llama" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/llama" }
   }
 }
 </script>
@@ -310,13 +310,13 @@ For production, incorporate monitoring, caching, and fallback strategies, ensuri
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Llama",
-      "item": "https://aichatwatch.com/ai-chat-bot/llama"
+      "item": "https://aicw.io/ai-chat-bot/llama"
     }
   ]
 }

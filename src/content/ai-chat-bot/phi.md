@@ -170,7 +170,7 @@ Though Phi models have limits compared to larger systems, they excel at many com
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/phi",
+  "url": "https://aicw.io/ai-chat-bot/phi",
   "name": "What Are Small Language Models and Why Microsoft Built Phi"
 }
 </script>
@@ -182,7 +182,7 @@ Though Phi models have limits compared to larger systems, they excel at many com
   "description": "Exploring the significance of Microsoft's Phi models and why small language models are pivotal for businesses.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/phi"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/phi"}
 }
 </script>
 <script type="application/ld+json">
@@ -258,13 +258,13 @@ Though Phi models have limits compared to larger systems, they excel at many com
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Phi",
-      "item": "https://aichatwatch.com/ai-chat-bot/phi"
+      "item": "https://aicw.io/ai-chat-bot/phi"
     }
   ]
 }

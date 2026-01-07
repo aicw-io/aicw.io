@@ -125,7 +125,7 @@ Qwantify is the web crawler for Qwant, the French privacy-focused search engine.
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/qwantify"
+  "@id": "https://aicw.io/ai-crawler-bot/qwantify"
 }
 </script>
 <script type="application/ld+json">
@@ -136,7 +136,7 @@ Qwantify is the web crawler for Qwant, the French privacy-focused search engine.
   "description": "Qwantify is a crawler developed by Qwant, operating under strict EU privacy regulations and focusing on user privacy.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/qwantify" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/qwantify" }
 }
 </script>
 <script type="application/ld+json">
@@ -212,7 +212,7 @@ Qwantify is the web crawler for Qwant, the French privacy-focused search engine.
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -220,7 +220,7 @@ Qwantify is the web crawler for Qwant, the French privacy-focused search engine.
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/qwantify",
+        "@id": "https://aicw.io/ai-crawler-bot/qwantify",
         "name": "Qwantify: A Privacy-Focused Search Crawler"
       }
     }

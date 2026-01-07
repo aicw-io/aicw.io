@@ -227,7 +227,7 @@ The **heritage anthropic-ai crawler** symbolizes a significant phase in AI devel
   "description": "An overview of the Anthropic-AI Legacy Crawler, its functions, and the transition to ClaudeBot, including ethical implications and how to manage AI crawlers through robots.txt.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/anthropic-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/anthropic-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -303,7 +303,7 @@ The **heritage anthropic-ai crawler** symbolizes a significant phase in AI devel
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -311,7 +311,7 @@ The **heritage anthropic-ai crawler** symbolizes a significant phase in AI devel
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/anthropic-ai",
+        "@id": "https://aicw.io/ai-crawler-bot/anthropic-ai",
         "name": "Anthropic-AI Crawler"
       }
     }

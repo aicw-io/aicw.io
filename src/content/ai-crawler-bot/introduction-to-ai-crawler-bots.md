@@ -132,7 +132,7 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawler-bots"
+  "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawler-bots"
 }
 </script>
 <script type="application/ld+json">
@@ -143,7 +143,7 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
   "description": "AI crawler bots are automated programs that collect data for AI training purposes, essential for developing and improving AI models.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawler-bots" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawler-bots" }
 }
 </script>
 <script type="application/ld+json">
@@ -219,7 +219,7 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -227,7 +227,7 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawler-bots",
+        "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawler-bots",
         "name": "Introduction to AI Crawler Bots"
       }
     }

@@ -107,7 +107,7 @@ Qwant offers a unique, privacy-centered search experience. Complying with GDPR a
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/qwant-french-privacy"
+  "url": "https://aicw.io/ai-search-engine/qwant-french-privacy"
 }
 </script>
 <script type="application/ld+json">
@@ -118,7 +118,7 @@ Qwant offers a unique, privacy-centered search experience. Complying with GDPR a
   "description": "An overview of Qwant, a privacy-focused search engine based in France, exploring its features and commitment to user privacy.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/qwant-french-privacy" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/qwant-french-privacy" }
 }
 </script>
 <script type="application/ld+json">
@@ -194,7 +194,7 @@ Qwant offers a unique, privacy-centered search experience. Complying with GDPR a
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -202,7 +202,7 @@ Qwant offers a unique, privacy-centered search experience. Complying with GDPR a
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/qwant-french-privacy",
+        "@id": "https://aicw.io/ai-search-engine/qwant-french-privacy",
         "name": "Qwant: The French Privacy Search Engine Explained"
       }
     }

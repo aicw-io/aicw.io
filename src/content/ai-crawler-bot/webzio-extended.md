@@ -205,11 +205,11 @@ The wider landscape of AI training crawlers includes many similar bots from vari
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/webzio-extended",
+  "@id": "https://aicw.io/ai-crawler-bot/webzio-extended",
   "name": "Webzio Extended Crawler Bot",
   "description": "An in-depth look at the webzio-extended crawler operated by Webz.io, its purpose, data collection methods, and its impact on AI training datasets.",
   "breadcrumb": {
-    "@id": "https://aichatwatch.com/ai-crawler-bot/webzio-extended"
+    "@id": "https://aicw.io/ai-crawler-bot/webzio-extended"
   }
 }
 </script>
@@ -229,7 +229,7 @@ The wider landscape of AI training crawlers includes many similar bots from vari
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aichatwatch.com/ai-crawler-bot/webzio-extended"
+    "@id": "https://aicw.io/ai-crawler-bot/webzio-extended"
   }
 }
 </script>
@@ -306,7 +306,7 @@ The wider landscape of AI training crawlers includes many similar bots from vari
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -314,7 +314,7 @@ The wider landscape of AI training crawlers includes many similar bots from vari
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/webzio-extended",
+        "@id": "https://aicw.io/ai-crawler-bot/webzio-extended",
         "name": "Webzio Extended Crawler Bot"
       }
     }

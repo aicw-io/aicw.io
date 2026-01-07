@@ -175,7 +175,7 @@ ChatGPT transformed the AI landscape upon its November 2022 launch, quickly beco
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/chatgpt"
+  "@id": "https://aicw.io/ai-chat-bot/chatgpt"
 }
 </script>
 <script type="application/ld+json">
@@ -186,7 +186,7 @@ ChatGPT transformed the AI landscape upon its November 2022 launch, quickly beco
   "description": "ChatGPT, developed by OpenAI, is an AI chatbot that quickly became the fastest-growing application in history, reaching 100 million users within two months of launch.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/chatgpt" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/chatgpt" }
 }
 </script>
 <script type="application/ld+json">
@@ -262,13 +262,13 @@ ChatGPT transformed the AI landscape upon its November 2022 launch, quickly beco
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ChatGPT",
-      "item": "https://aichatwatch.com/ai-chat-bot/chatgpt"
+      "item": "https://aicw.io/ai-chat-bot/chatgpt"
     }
   ]
 }

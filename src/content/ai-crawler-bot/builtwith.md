@@ -180,8 +180,8 @@ While technology detection is not perfect and raises some privacy considerations
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/builtwith",
-  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-crawler-bot/builtwith"}
+  "url": "https://aicw.io/ai-crawler-bot/builtwith",
+  "mainEntityOfPage": {"@id": "https://aicw.io/ai-crawler-bot/builtwith"}
 }
 </script>
 <script type="application/ld+json">
@@ -192,7 +192,7 @@ While technology detection is not perfect and raises some privacy considerations
   "description": "Learn how BuiltWith technology detection service works and why it matters for sales intelligence and market research.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/builtwith"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/builtwith"}
 }
 </script>
 <script type="application/ld+json">
@@ -268,13 +268,13 @@ While technology detection is not perfect and raises some privacy considerations
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "BuiltWith",
-      "item": "https://aichatwatch.com/ai-crawler-bot/builtwith"
+      "item": "https://aicw.io/ai-crawler-bot/builtwith"
     }
   ]
 }

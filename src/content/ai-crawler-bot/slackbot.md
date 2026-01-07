@@ -184,7 +184,7 @@ Understanding Slackbot is important for developers improving websites for previe
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/slackbot"
+  "@id": "https://aicw.io/ai-crawler-bot/slackbot"
 }
 </script>
 <script type="application/ld+json">
@@ -195,7 +195,7 @@ Understanding Slackbot is important for developers improving websites for previe
   "description": "Explore how Slackbot automates link unfurling in Slack, enriching team communication with informative previews.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/slackbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/slackbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -271,13 +271,13 @@ Understanding Slackbot is important for developers improving websites for previe
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Slackbot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/slackbot"
+      "item": "https://aicw.io/ai-crawler-bot/slackbot"
     }
   ]
 }

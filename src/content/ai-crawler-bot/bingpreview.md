@@ -229,14 +229,14 @@ For businesses that rely on Bing for traffic, allowing BingPreview makes sense. 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/bingpreview",
+  "@id": "https://aicw.io/ai-crawler-bot/bingpreview",
   "mainEntity": {
     "@type": "Article",
     "headline": "What is BingPreview?",
     "description": "BingPreview is a web crawler by Microsoft that generates visual snapshots for Bing search results.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bingpreview" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/bingpreview" }
   }
 }
 </script>
@@ -315,13 +315,13 @@ For businesses that rely on Bing for traffic, allowing BingPreview makes sense. 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "BingPreview",
-      "item": "https://aichatwatch.com/ai-crawler-bot/bingpreview"
+      "item": "https://aicw.io/ai-crawler-bot/bingpreview"
     }
   ]
 }

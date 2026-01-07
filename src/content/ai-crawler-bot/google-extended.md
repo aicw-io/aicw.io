@@ -288,7 +288,7 @@ The landscape of AI crawlers continues expanding. Google-Extended joins GPTBot, 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/google-extended"
+  "@id": "https://aicw.io/ai-crawler-bot/google-extended"
 }
 </script>
 <script type="application/ld+json">
@@ -299,7 +299,7 @@ The landscape of AI crawlers continues expanding. Google-Extended joins GPTBot, 
   "description": "Google-Extended is a web crawler that Google utilizes specifically for AI training purposes, collecting data from websites to enhance Google's AI models.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/google-extended" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/google-extended" }
 }
 </script>
 <script type="application/ld+json">
@@ -375,13 +375,13 @@ The landscape of AI crawlers continues expanding. Google-Extended joins GPTBot, 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Google-Extended",
-      "item": "https://aichatwatch.com/ai-crawler-bot/google-extended"
+      "item": "https://aicw.io/ai-crawler-bot/google-extended"
     }
   ]
 }

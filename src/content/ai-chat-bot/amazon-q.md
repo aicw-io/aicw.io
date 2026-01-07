@@ -113,9 +113,9 @@ Amazon Q is AWS's venture into enterprise AI assistants with products for develo
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/amazon-q",
+  "@id": "https://aicw.io/ai-chat-bot/amazon-q",
   "name": "Amazon Q: AWS's AI Assistant for Business and Developers",
-  "url": "https://aichatwatch.com/ai-chat-bot/amazon-q"
+  "url": "https://aicw.io/ai-chat-bot/amazon-q"
 }
 </script>
 <script type="application/ld+json">
@@ -126,7 +126,7 @@ Amazon Q is AWS's venture into enterprise AI assistants with products for develo
   "description": "Amazon Q is AWS's AI assistant designed for businesses and developers, offering deep AWS integration and secure data querying.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/amazon-q" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/amazon-q" }
 }
 </script>
 <script type="application/ld+json">
@@ -202,13 +202,13 @@ Amazon Q is AWS's venture into enterprise AI assistants with products for develo
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Amazon Q",
-      "item": "https://aichatwatch.com/ai-chat-bot/amazon-q"
+      "item": "https://aicw.io/ai-chat-bot/amazon-q"
     }
   ]
 }

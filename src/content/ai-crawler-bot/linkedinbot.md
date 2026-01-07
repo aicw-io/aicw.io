@@ -148,7 +148,7 @@ The platform's professional focus makes it especially valuable for B2B companies
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/linkedinbot"
+  "@id": "https://aicw.io/ai-crawler-bot/linkedinbot"
 }
 </script>
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ The platform's professional focus makes it especially valuable for B2B companies
   "description": "Learn about the LinkedIn bot, how it fetches metadata and generates link previews, and its importance for content visibility on LinkedIn.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/linkedinbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/linkedinbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -171,13 +171,13 @@ The platform's professional focus makes it especially valuable for B2B companies
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "LinkedInBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/linkedinbot"
+      "item": "https://aicw.io/ai-crawler-bot/linkedinbot"
     }
   ]
 }

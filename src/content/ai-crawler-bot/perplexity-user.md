@@ -205,14 +205,14 @@ For businesses and content creators, Perplexity-User presents both opportunities
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/perplexity-user",
+  "url": "https://aicw.io/ai-crawler-bot/perplexity-user",
   "mainEntity": {
     "@type": "Article",
     "headline": "What is Perplexity-User and Why It Matters",
     "description": "An in-depth look at Perplexity-User, a bot that fetches real-time information for Perplexity AI, addressing its impact on web content and visibility for website owners.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/perplexity-user" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/perplexity-user" }
   }
 }
 </script>
@@ -289,13 +289,13 @@ For businesses and content creators, Perplexity-User presents both opportunities
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Perplexity User",
-      "item": "https://aichatwatch.com/ai-crawler-bot/perplexity-user"
+      "item": "https://aicw.io/ai-crawler-bot/perplexity-user"
     }
   ]
 }

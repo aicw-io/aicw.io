@@ -126,7 +126,7 @@ DotBot serves as the backbone of Moz's SEO intelligence platform by continuously
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/dotbot"
+  "@id": "https://aicw.io/ai-crawler-bot/dotbot"
 }
 </script>
 <script type="application/ld+json">
@@ -137,7 +137,7 @@ DotBot serves as the backbone of Moz's SEO intelligence platform by continuously
   "description": "Explore how DotBot crawls and collects web data for SEO analysis tools like Domain Authority and Spam Score.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/dotbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/dotbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -212,12 +212,12 @@ DotBot serves as the backbone of Moz's SEO intelligence platform by continuously
     {
       "@type": "ListItem",
       "position": 1,
-      "item": { "@id": "https://aichatwatch.com/", "name": "Home" }
+      "item": { "@id": "https://aicw.io/", "name": "Home" }
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "item": { "@id": "https://aichatwatch.com/ai-crawler-bot/dotbot", "name": "DotBot" }
+      "item": { "@id": "https://aicw.io/ai-crawler-bot/dotbot", "name": "DotBot" }
     }
   ]
 }

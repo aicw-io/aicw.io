@@ -118,8 +118,8 @@ Yi AI by 01.AI is a robust solution for bilingual English-Chinese language proce
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/yi",
-  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-chat-bot/yi"}
+  "url": "https://aicw.io/ai-chat-bot/yi",
+  "mainEntityOfPage": {"@id": "https://aicw.io/ai-chat-bot/yi"}
 }
 </script>
 <script type="application/ld+json">
@@ -130,7 +130,7 @@ Yi AI by 01.AI is a robust solution for bilingual English-Chinese language proce
   "description": "Yi AI provides advanced language processing for English and Chinese, developed by 01.AI.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/yi" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/yi" }
 }
 </script>
 <script type="application/ld+json">
@@ -206,13 +206,13 @@ Yi AI by 01.AI is a robust solution for bilingual English-Chinese language proce
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Yi AI",
-      "item": "https://aichatwatch.com/ai-chat-bot/yi"
+      "item": "https://aicw.io/ai-chat-bot/yi"
     }
   ]
 }

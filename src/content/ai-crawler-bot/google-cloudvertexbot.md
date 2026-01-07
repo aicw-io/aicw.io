@@ -149,8 +149,8 @@ Google-CloudVertexBot serves a specific role in the Vertex AI ecosystem, crawlin
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/google-cloudvertexbot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/google-cloudvertexbot",
+  "@id": "https://aicw.io/ai-crawler-bot/google-cloudvertexbot",
+  "url": "https://aicw.io/ai-crawler-bot/google-cloudvertexbot",
   "name": "Google-CloudVertexBot",
   "description": "Google-CloudVertexBot collects web content for Vertex AI services, enhancing AI responses with real-time information."
 }
@@ -164,7 +164,7 @@ Google-CloudVertexBot serves a specific role in the Vertex AI ecosystem, crawlin
   "description": "Google-CloudVertexBot is a web crawler that helps enterprises build AI-powered search experiences by indexing content for Google's Vertex AI services.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/google-cloudvertexbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/google-cloudvertexbot" }
 }
 </script>
 
@@ -242,13 +242,13 @@ Google-CloudVertexBot serves a specific role in the Vertex AI ecosystem, crawlin
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Google-CloudVertexBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/google-cloudvertexbot"
+      "item": "https://aicw.io/ai-crawler-bot/google-cloudvertexbot"
     }
   ]
 }
@@ -259,7 +259,7 @@ Google-CloudVertexBot serves a specific role in the Vertex AI ecosystem, crawlin
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aichatwatch.com"
+  "url": "https://aicw.io"
 }
 </script>
 

@@ -110,7 +110,7 @@ Tencent Hunyuan embodies a major stride in Chinese AI by leveraging Tencent's so
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/tencent-hunyuan"
+  "@id": "https://aicw.io/ai-chat-bot/tencent-hunyuan"
 }
 </script>
 <script type="application/ld+json">
@@ -121,7 +121,7 @@ Tencent Hunyuan embodies a major stride in Chinese AI by leveraging Tencent's so
   "description": "Explore Tencent Hunyuan, its integration within WeChat, and its capabilities for businesses.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/tencent-hunyuan" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/tencent-hunyuan" }
 }
 </script>
 <script type="application/ld+json">
@@ -197,7 +197,7 @@ Tencent Hunyuan embodies a major stride in Chinese AI by leveraging Tencent's so
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -205,7 +205,7 @@ Tencent Hunyuan embodies a major stride in Chinese AI by leveraging Tencent's so
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/tencent-hunyuan",
+        "@id": "https://aicw.io/ai-chat-bot/tencent-hunyuan",
         "name": "Tencent Hunyuan"
       }
     }

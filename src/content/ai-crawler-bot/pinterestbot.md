@@ -127,8 +127,8 @@ Pinterest Bot plays an important role in content discovery for millions of users
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/pinterestbot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/pinterestbot",
+  "@id": "https://aicw.io/ai-crawler-bot/pinterestbot",
+  "url": "https://aicw.io/ai-crawler-bot/pinterestbot",
   "name": "Pinterest Bot Overview",
   "description": "An article about how the Pinterest Bot works and how to optimize for it."
 }
@@ -141,7 +141,7 @@ Pinterest Bot plays an important role in content discovery for millions of users
   "description": "This article explores the workings of the Pinterest Bot and strategies for optimizing content to enhance visibility on Pinterest.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/pinterestbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/pinterestbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -217,13 +217,13 @@ Pinterest Bot plays an important role in content discovery for millions of users
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Pinterest Bot Overview",
-      "item": "https://aichatwatch.com/ai-crawler-bot/pinterestbot"
+      "item": "https://aicw.io/ai-crawler-bot/pinterestbot"
     }
   ]
 }

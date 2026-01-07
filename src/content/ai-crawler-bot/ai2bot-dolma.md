@@ -66,7 +66,7 @@ Data Collection Approach Comparison:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot-dolma"
+  "@id": "https://aicw.io/ai-crawler-bot/ai2bot-dolma"
 }
 </script>
 <script type="application/ld+json">
@@ -77,7 +77,7 @@ Data Collection Approach Comparison:
   "description": "AI2Bot-Dolma is a web crawler by the Allen Institute for AI that collects data for the Dolma dataset.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot-dolma" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/ai2bot-dolma" }
 }
 </script>
 <script type="application/ld+json">
@@ -153,13 +153,13 @@ Data Collection Approach Comparison:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AI2Bot-Dolma",
-      "item": "https://aichatwatch.com/ai-crawler-bot/ai2bot-dolma"
+      "item": "https://aicw.io/ai-crawler-bot/ai2bot-dolma"
     }
   ]
 }
