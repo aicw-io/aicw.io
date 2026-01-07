@@ -99,9 +99,9 @@ Both platforms offer similar AI capabilities but differ in user experience and c
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai",
+  "@id": "https://aicw.io/ai-search-engine/westlaw-edge-ai",
   "name": "Comprehensive Guide to Westlaw Edge AI by Thomson Reuters",
-  "url": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai"
+  "url": "https://aicw.io/ai-search-engine/westlaw-edge-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -112,7 +112,7 @@ Both platforms offer similar AI capabilities but differ in user experience and c
   "description": "Explore Westlaw Edge AI, a powerful tool for legal research that enhances efficiency through AI features like Litigation Analytics and KeyCite.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/westlaw-edge-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -188,13 +188,13 @@ Both platforms offer similar AI capabilities but differ in user experience and c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Westlaw Edge AI",
-      "item": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai"
+      "item": "https://aicw.io/ai-search-engine/westlaw-edge-ai"
     }
   ]
 }

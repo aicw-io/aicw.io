@@ -169,7 +169,7 @@ The crawler operates similarly to other search engine bots, respecting standard 
   "description": "Explore Daumoa, the web crawler used by Kakao Corporation for Daum search engine indexing, its functions, and its comparison with other crawlers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/daumoa" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/daumoa" }
 }
 </script>
 
@@ -247,13 +247,13 @@ The crawler operates similarly to other search engine bots, respecting standard 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Daumoa",
-      "item": "https://aichatwatch.com/ai-crawler-bot/daumoa"
+      "item": "https://aicw.io/ai-crawler-bot/daumoa"
     }
   ]
 }

@@ -212,7 +212,7 @@ Users seeking private AI chat should try it. The service demonstrates that AI ca
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/duckduckgo-ai-chat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/duckduckgo-ai-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -223,7 +223,7 @@ Users seeking private AI chat should try it. The service demonstrates that AI ca
   "description": "DuckDuckGo AI Chat offers privacy-focused AI conversations without storing user data.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/duckduckgo-ai-chat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/duckduckgo-ai-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -299,13 +299,13 @@ Users seeking private AI chat should try it. The service demonstrates that AI ca
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "DuckDuckGo AI Chat",
-      "item": "https://aichatwatch.com/ai-search-engine/duckduckgo-ai-chat"
+      "item": "https://aicw.io/ai-search-engine/duckduckgo-ai-chat"
     }
   ]
 }

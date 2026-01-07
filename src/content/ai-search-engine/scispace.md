@@ -113,15 +113,15 @@ SciSpace transforms how we approach research papers by offering tools that simpl
   "description": "This article highlights the key features and practical applications of SciSpace, an AI-powered tool designed to simplify research papers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/scispace" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/scispace" }
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/scispace",
-  "url": "https://aichatwatch.com/ai-search-engine/scispace",
+  "@id": "https://aicw.io/ai-search-engine/scispace",
+  "url": "https://aicw.io/ai-search-engine/scispace",
   "name": "Understanding SciSpace: An AI Tool for Demystifying Research Papers"
 }
 </script>
@@ -198,13 +198,13 @@ SciSpace transforms how we approach research papers by offering tools that simpl
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Understanding SciSpace",
-      "item": "https://aichatwatch.com/ai-search-engine/scispace"
+      "item": "https://aicw.io/ai-search-engine/scispace"
     }
   ]
 }

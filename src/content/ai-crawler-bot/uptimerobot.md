@@ -182,8 +182,8 @@ You should generally not block the crawler if you use UptimeRobot for monitoring
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/uptimerobot",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/uptimerobot" }
+  "url": "https://aicw.io/ai-crawler-bot/uptimerobot",
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/uptimerobot" }
 }
 </script>
 <script type="application/ld+json">
@@ -194,7 +194,7 @@ You should generally not block the crawler if you use UptimeRobot for monitoring
   "description": "Learn how UptimeRobot monitors website uptime effectively, ensuring your site remains operational.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/uptimerobot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/uptimerobot" }
 }
 </script>
 <script type="application/ld+json">
@@ -270,13 +270,13 @@ You should generally not block the crawler if you use UptimeRobot for monitoring
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "UptimeRobot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/uptimerobot"
+      "item": "https://aicw.io/ai-crawler-bot/uptimerobot"
     }
   ]
 }

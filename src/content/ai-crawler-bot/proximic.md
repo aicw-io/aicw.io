@@ -147,7 +147,7 @@ Competitors like Oracle, IBM, and DoubleVerify offer similar services, all servi
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/proximic" }
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/proximic" }
 }
 </script>
 <script type="application/ld+json">
@@ -158,7 +158,7 @@ Competitors like Oracle, IBM, and DoubleVerify offer similar services, all servi
   "description": "Proximic is a crucial web crawler operated by Comscore for contextual targeting and brand safety in advertising.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/proximic" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/proximic" }
 }
 </script>
 <script type="application/ld+json">
@@ -234,13 +234,13 @@ Competitors like Oracle, IBM, and DoubleVerify offer similar services, all servi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Proximic",
-      "item": "https://aichatwatch.com/ai-crawler-bot/proximic"
+      "item": "https://aicw.io/ai-crawler-bot/proximic"
     }
   ]
 }

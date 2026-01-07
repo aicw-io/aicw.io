@@ -132,7 +132,7 @@ Proper tag setup ensures appealing Snapchat link previews. Crawler access can be
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/snapchat",
+  "url": "https://aicw.io/ai-crawler-bot/snapchat",
   "name": "What Is Snapchat's Link Preview Crawler"
 }
 </script>
@@ -144,7 +144,7 @@ Proper tag setup ensures appealing Snapchat link previews. Crawler access can be
   "description": "Understanding Snapchat's link preview crawler, its functionality, and how it impacts link sharing.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/snapchat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/snapchat" }
 }
 </script>
 <script type="application/ld+json">
@@ -220,13 +220,13 @@ Proper tag setup ensures appealing Snapchat link previews. Crawler access can be
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Snapchat",
-      "item": "https://aichatwatch.com/ai-crawler-bot/snapchat"
+      "item": "https://aicw.io/ai-crawler-bot/snapchat"
     }
   ]
 }

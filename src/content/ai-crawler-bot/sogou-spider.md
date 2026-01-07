@@ -123,8 +123,8 @@ Sogou Spider functions as the web crawler for Sogou Search, a significant player
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/sogou-spider",
-  "url": "https://aichatwatch.com/ai-crawler-bot/sogou-spider",
+  "@id": "https://aicw.io/ai-crawler-bot/sogou-spider",
+  "url": "https://aicw.io/ai-crawler-bot/sogou-spider",
   "name": "Sogou Spider: Understanding the Chinese Search Engine Crawler",
   "description": "An overview of Sogou Spider, the web crawler for Sogou Search, including its role and significance in the Chinese search market."
 }
@@ -137,7 +137,7 @@ Sogou Spider functions as the web crawler for Sogou Search, a significant player
   "description": "An overview of Sogou Spider, the web crawler for Sogou Search, including its role and significance in the Chinese search market.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/sogou-spider" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/sogou-spider" }
 }
 </script>
 <script type="application/ld+json">
@@ -213,13 +213,13 @@ Sogou Spider functions as the web crawler for Sogou Search, a significant player
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Sogou Spider",
-      "item": "https://aichatwatch.com/ai-crawler-bot/sogou-spider"
+      "item": "https://aicw.io/ai-crawler-bot/sogou-spider"
     }
   ]
 }

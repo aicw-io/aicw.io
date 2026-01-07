@@ -158,7 +158,7 @@ Kagi AI Features:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/kagi-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/kagi-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -169,7 +169,7 @@ Kagi AI Features:
   "description": "Kagi Search is a paid search engine that stands out as a Google alternative due to its ad-free experience and commitment to user privacy.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/kagi-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/kagi-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -245,13 +245,13 @@ Kagi AI Features:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Kagi Search",
-      "item": "https://aichatwatch.com/ai-search-engine/kagi-search"
+      "item": "https://aicw.io/ai-search-engine/kagi-search"
     }
   ]
 }

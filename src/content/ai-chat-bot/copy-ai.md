@@ -174,8 +174,8 @@ Data privacy considerations matter, especially for businesses handling sensitive
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/copy-ai",
-  "url": "https://aichatwatch.com/ai-chat-bot/copy-ai",
+  "@id": "https://aicw.io/ai-chat-bot/copy-ai",
+  "url": "https://aicw.io/ai-chat-bot/copy-ai",
   "name": "What Copy.ai Does for Modern Marketing"
 }
 </script>
@@ -187,7 +187,7 @@ Data privacy considerations matter, especially for businesses handling sensitive
   "description": "Copy.ai is an AI copywriting tool that helps marketers and businesses create content faster.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/copy-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/copy-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -263,7 +263,7 @@ Data privacy considerations matter, especially for businesses handling sensitive
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -271,7 +271,7 @@ Data privacy considerations matter, especially for businesses handling sensitive
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/copy-ai",
+        "@id": "https://aicw.io/ai-chat-bot/copy-ai",
         "name": "What Copy.ai Does for Modern Marketing"
       }
     }

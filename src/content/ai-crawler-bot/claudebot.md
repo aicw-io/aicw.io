@@ -249,8 +249,8 @@ As AI technology continues advancing, web crawlers like ClaudeBot will remain ne
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/claudebot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/claudebot",
+  "@id": "https://aicw.io/ai-crawler-bot/claudebot",
+  "url": "https://aicw.io/ai-crawler-bot/claudebot",
   "name": "ClaudeBot: Overview and Implications",
   "description": "An article discussing ClaudeBot, Anthropic's web crawler designed for training AI models, its operations, and implications for website owners.",
   "mainEntity": {
@@ -259,7 +259,7 @@ As AI technology continues advancing, web crawlers like ClaudeBot will remain ne
     "description": "An article discussing ClaudeBot, Anthropic's web crawler designed for training AI models, its operations, and implications for website owners.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claudebot" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/claudebot" }
   },
   "breadcrumb": {
     "@type": "BreadcrumbList",
@@ -267,12 +267,12 @@ As AI technology continues advancing, web crawlers like ClaudeBot will remain ne
       {
         "@type": "ListItem",
         "position": 1,
-        "item": { "@id": "https://aichatwatch.com/", "name": "Home" }
+        "item": { "@id": "https://aicw.io/", "name": "Home" }
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "item": { "@id": "https://aichatwatch.com/ai-crawler-bot/claudebot", "name": "ClaudeBot: Overview and Implications" }
+        "item": { "@id": "https://aicw.io/ai-crawler-bot/claudebot", "name": "ClaudeBot: Overview and Implications" }
       }
     ]
   }

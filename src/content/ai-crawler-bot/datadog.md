@@ -114,7 +114,7 @@ Datadog Synthetics offers robust synthetic monitoring within a comprehensive obs
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/datadog"
+  "@id": "https://aicw.io/ai-crawler-bot/datadog"
 }
 </script>
 <script type="application/ld+json">
@@ -125,7 +125,7 @@ Datadog Synthetics offers robust synthetic monitoring within a comprehensive obs
   "description": "Datadog Synthetics is a powerful monitoring tool that automatically conducts synthetic testing of your websites and APIs, ensuring uptime and maintaining performance standards.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/datadog" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/datadog" }
 }
 </script>
 <script type="application/ld+json">
@@ -201,13 +201,13 @@ Datadog Synthetics offers robust synthetic monitoring within a comprehensive obs
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Datadog",
-      "item": "https://aichatwatch.com/ai-crawler-bot/datadog"
+      "item": "https://aicw.io/ai-crawler-bot/datadog"
     }
   ]
 }

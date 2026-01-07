@@ -117,10 +117,10 @@ Cohere's **training data crawler** reflects standard AI industry practices, coll
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Cohere Training Data Crawler",
-  "url": "https://aichatwatch.com/ai-crawler-bot/cohere-training-data-crawler",
+  "url": "https://aicw.io/ai-crawler-bot/cohere-training-data-crawler",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aichatwatch.com/ai-crawler-bot/cohere-training-data-crawler"
+    "@id": "https://aicw.io/ai-crawler-bot/cohere-training-data-crawler"
   }
 }
 </script>
@@ -132,7 +132,7 @@ Cohere's **training data crawler** reflects standard AI industry practices, coll
   "description": "Cohere's training data crawler collects bulk text data for AI models, essential for training purposes.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/cohere-training-data-crawler" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/cohere-training-data-crawler" }
 }
 </script>
 <script type="application/ld+json">
@@ -208,7 +208,7 @@ Cohere's **training data crawler** reflects standard AI industry practices, coll
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -216,7 +216,7 @@ Cohere's **training data crawler** reflects standard AI industry practices, coll
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/cohere-training-data-crawler",
+        "@id": "https://aicw.io/ai-crawler-bot/cohere-training-data-crawler",
         "name": "Cohere Training Data Crawler"
       }
     }

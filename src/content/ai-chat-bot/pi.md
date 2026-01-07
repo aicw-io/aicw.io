@@ -150,8 +150,8 @@ Privacy considerations remain paramount, given the personal nature of conversati
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/pi",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-chat-bot/pi" }
+  "url": "https://aicw.io/ai-chat-bot/pi",
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-chat-bot/pi" }
 }
 </script>
 <script type="application/ld+json">
@@ -162,7 +162,7 @@ Privacy considerations remain paramount, given the personal nature of conversati
   "description": "An overview of Pi AI, a personal chatbot focused on empathy and conversation, its features, and its unique approach to AI interaction.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/pi" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/pi" }
 }
 </script>
 <script type="application/ld+json">
@@ -238,7 +238,7 @@ Privacy considerations remain paramount, given the personal nature of conversati
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -246,7 +246,7 @@ Privacy considerations remain paramount, given the personal nature of conversati
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/pi",
+        "@id": "https://aicw.io/ai-chat-bot/pi",
         "name": "Pi AI"
       }
     }

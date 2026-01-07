@@ -171,7 +171,7 @@ Compared to established crawlers like Googlebot, YouBot is newer and likely cove
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/youbot"
+  "@id": "https://aicw.io/ai-crawler-bot/youbot"
 }
 </script>
 <script type="application/ld+json">
@@ -182,7 +182,7 @@ Compared to established crawlers like Googlebot, YouBot is newer and likely cove
   "description": "YouBot is an automated web crawler developed by You.com to build and maintain its AI-powered search index.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/youbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/youbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -254,8 +254,8 @@ Compared to established crawlers like Googlebot, YouBot is newer and likely cove
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "@id": "https://aichatwatch.com/", "name": "Home" } },
-    { "@type": "ListItem", "position": 2, "item": { "@id": "https://aichatwatch.com/ai-crawler-bot/youbot", "name": "YouBot" } }
+    { "@type": "ListItem", "position": 1, "item": { "@id": "https://aicw.io/", "name": "Home" } },
+    { "@type": "ListItem", "position": 2, "item": { "@id": "https://aicw.io/ai-crawler-bot/youbot", "name": "YouBot" } }
   ]
 }
 </script>

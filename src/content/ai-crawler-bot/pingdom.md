@@ -124,8 +124,8 @@ The Pingdom bot, a crucial website performance crawler, functions as a website m
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/pingdom",
-  "url": "https://aichatwatch.com/ai-crawler-bot/pingdom",
+  "@id": "https://aicw.io/ai-crawler-bot/pingdom",
+  "url": "https://aicw.io/ai-crawler-bot/pingdom",
   "name": "Pingdom Bot: Website Monitoring Tool",
   "description": "Explore how the Pingdom bot monitors website performance and uptime, offering essential insights for businesses to maintain their online presence.",
   "breadcrumb": {
@@ -135,7 +135,7 @@ The Pingdom bot, a crucial website performance crawler, functions as a website m
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://aichatwatch.com/",
+          "@id": "https://aicw.io/",
           "name": "Home"
         }
       },
@@ -143,7 +143,7 @@ The Pingdom bot, a crucial website performance crawler, functions as a website m
         "@type": "ListItem",
         "position": 2,
         "item": {
-          "@id": "https://aichatwatch.com/ai-crawler-bot/pingdom",
+          "@id": "https://aicw.io/ai-crawler-bot/pingdom",
           "name": "Pingdom"
         }
       }
@@ -159,7 +159,7 @@ The Pingdom bot, a crucial website performance crawler, functions as a website m
   "description": "Explore how the Pingdom bot monitors website performance and uptime, offering essential insights for businesses to maintain their online presence.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/pingdom" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/pingdom" }
 }
 </script>
 <script type="application/ld+json">

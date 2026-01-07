@@ -191,7 +191,7 @@ Compared to other crawlers like Googlebot and GPTBot, Amazonbot serves specific 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/amazonbot"
+  "@id": "https://aicw.io/ai-crawler-bot/amazonbot"
 }
 </script>
 <script type="application/ld+json">
@@ -202,7 +202,7 @@ Compared to other crawlers like Googlebot and GPTBot, Amazonbot serves specific 
   "description": "Amazonbot is Amazon's official web crawler that indexes websites to support Alexa and other services.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/amazonbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/amazonbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -278,13 +278,13 @@ Compared to other crawlers like Googlebot and GPTBot, Amazonbot serves specific 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Amazonbot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/amazonbot"
+      "item": "https://aicw.io/ai-crawler-bot/amazonbot"
     }
   ]
 }

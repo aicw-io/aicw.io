@@ -116,8 +116,8 @@ Baiduspider serves as Baidu's eyes on the web, continuously crawling and indexin
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/baiduspider",
-  "url": "https://aichatwatch.com/ai-crawler-bot/baiduspider",
+  "@id": "https://aicw.io/ai-crawler-bot/baiduspider",
+  "url": "https://aicw.io/ai-crawler-bot/baiduspider",
   "name": "Baiduspider: The Crawler for Baidu",
   "description": "An in-depth overview of Baiduspider, its role in web crawling, and its connection to Baidu's AI systems.",
   "mainEntity": {
@@ -126,7 +126,7 @@ Baiduspider serves as Baidu's eyes on the web, continuously crawling and indexin
     "description": "An overview of Baiduspider, its functioning, and its significance for businesses targeting the Chinese market.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/baiduspider" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/baiduspider" }
   },
   "breadcrumb": {
     "@type": "BreadcrumbList",
@@ -135,13 +135,13 @@ Baiduspider serves as Baidu's eyes on the web, continuously crawling and indexin
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://aichatwatch.com/"
+        "item": "https://aicw.io/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Baiduspider",
-        "item": "https://aichatwatch.com/ai-crawler-bot/baiduspider"
+        "item": "https://aicw.io/ai-crawler-bot/baiduspider"
       }
     ]
   },

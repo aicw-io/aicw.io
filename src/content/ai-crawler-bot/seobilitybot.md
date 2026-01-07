@@ -116,11 +116,11 @@ SeobilityBot is a practical SEO crawler that makes website auditing accessible t
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/seobilitybot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/seobilitybot",
+  "@id": "https://aicw.io/ai-crawler-bot/seobilitybot",
+  "url": "https://aicw.io/ai-crawler-bot/seobilitybot",
   "name": "SeobilityBot",
   "description": "An overview of SeobilityBot and its significance in SEO analysis and auditing.",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-crawler-bot/seobilitybot"
+  "mainEntityOfPage": "https://aicw.io/ai-crawler-bot/seobilitybot"
 }
 </script>
 <script type="application/ld+json">
@@ -131,7 +131,7 @@ SeobilityBot is a practical SEO crawler that makes website auditing accessible t
   "description": "SeobilityBot is an automated web crawler that scans websites for SEO analysis and auditing purposes.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/seobilitybot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/seobilitybot" }
 }
 </script>
 <script type="application/ld+json">
@@ -207,13 +207,13 @@ SeobilityBot is a practical SEO crawler that makes website auditing accessible t
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "SeobilityBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/seobilitybot"
+      "item": "https://aicw.io/ai-crawler-bot/seobilitybot"
     }
   ]
 }

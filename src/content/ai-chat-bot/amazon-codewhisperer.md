@@ -123,7 +123,7 @@ Amazon CodeWhisperer represents a significant step in AI-powered coding tools. I
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/amazon-codewhisperer"
+  "@id": "https://aicw.io/ai-chat-bot/amazon-codewhisperer"
 }
 </script>
 
@@ -135,7 +135,7 @@ Amazon CodeWhisperer represents a significant step in AI-powered coding tools. I
   "description": "Amazon CodeWhisperer is an AI-powered code generation tool designed to help developers write code faster.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/amazon-codewhisperer" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/amazon-codewhisperer" }
 }
 </script>
 
@@ -213,13 +213,13 @@ Amazon CodeWhisperer represents a significant step in AI-powered coding tools. I
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Amazon CodeWhisperer",
-      "item": "https://aichatwatch.com/ai-chat-bot/amazon-codewhisperer"
+      "item": "https://aicw.io/ai-chat-bot/amazon-codewhisperer"
     }
   ]
 }

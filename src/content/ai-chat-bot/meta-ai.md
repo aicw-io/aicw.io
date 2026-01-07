@@ -131,7 +131,7 @@ Meta AI employs the Llama 3.2 model to bring artificial intelligence directly in
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/meta-ai",
+  "url": "https://aicw.io/ai-chat-bot/meta-ai",
   "name": "What is Meta AI"
 }
 </script>
@@ -143,7 +143,7 @@ Meta AI employs the Llama 3.2 model to bring artificial intelligence directly in
   "description": "Meta AI is a virtual assistant by Meta, integrated into platforms like Facebook and WhatsApp, leveraging the Llama model to enhance user engagement and reduce friction in accessing information.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/meta-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/meta-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -219,13 +219,13 @@ Meta AI employs the Llama 3.2 model to bring artificial intelligence directly in
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "What is Meta AI",
-      "item": "https://aichatwatch.com/ai-chat-bot/meta-ai"
+      "item": "https://aicw.io/ai-chat-bot/meta-ai"
     }
   ]
 }

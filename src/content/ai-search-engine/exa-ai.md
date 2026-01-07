@@ -261,7 +261,7 @@ Exa AI offers powerful neural search capabilities through a user-friendly AI API
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/exa-ai"
+  "@id": "https://aicw.io/ai-search-engine/exa-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -272,7 +272,7 @@ Exa AI offers powerful neural search capabilities through a user-friendly AI API
   "description": "Explore Exa AI, a powerful neural search engine, its features, use cases, pricing, and integration for developers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/exa-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/exa-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -348,13 +348,13 @@ Exa AI offers powerful neural search capabilities through a user-friendly AI API
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Exa AI",
-      "item": "https://aichatwatch.com/ai-search-engine/exa-ai"
+      "item": "https://aicw.io/ai-search-engine/exa-ai"
     }
   ]
 }

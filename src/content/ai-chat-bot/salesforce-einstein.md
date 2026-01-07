@@ -168,7 +168,7 @@ Salesforce Einstein serves as a comprehensive AI layer for CRM automation and in
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/salesforce-einstein",
+  "url": "https://aicw.io/ai-chat-bot/salesforce-einstein",
   "name": "Salesforce Einstein"
 }
 </script>
@@ -180,7 +180,7 @@ Salesforce Einstein serves as a comprehensive AI layer for CRM automation and in
   "description": "Explore how Salesforce Einstein integrates AI into CRM workflows for improved sales, service, and marketing.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/salesforce-einstein" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/salesforce-einstein" }
 }
 </script>
 <script type="application/ld+json">
@@ -256,13 +256,13 @@ Salesforce Einstein serves as a comprehensive AI layer for CRM automation and in
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Salesforce Einstein",
-      "item": "https://aichatwatch.com/ai-chat-bot/salesforce-einstein"
+      "item": "https://aicw.io/ai-chat-bot/salesforce-einstein"
     }
   ]
 }

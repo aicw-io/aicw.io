@@ -186,7 +186,7 @@ The lack of transparency around ISSCyborg's operations makes it different from w
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/isscyborg"
+  "@id": "https://aicw.io/ai-crawler-bot/isscyborg"
 }
 </script>
 <script type="application/ld+json">
@@ -197,7 +197,7 @@ The lack of transparency around ISSCyborg's operations makes it different from w
   "description": "ISSCyborg is a web crawler bot operated by ISS Technology which collects data from publicly accessible websites.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/isscyborg" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/isscyborg" }
 }
 </script>
 <script type="application/ld+json">
@@ -273,7 +273,7 @@ The lack of transparency around ISSCyborg's operations makes it different from w
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -281,7 +281,7 @@ The lack of transparency around ISSCyborg's operations makes it different from w
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/isscyborg",
+        "@id": "https://aicw.io/ai-crawler-bot/isscyborg",
         "name": "ISSCyborg"
       }
     }

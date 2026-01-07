@@ -217,7 +217,7 @@ AI and machine learning crawlers represent a significant shift in how web conten
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/ia-gensim"
+  "@id": "https://aicw.io/ai-crawler-bot/ia-gensim"
 }
 </script>
 <script type="application/ld+json">
@@ -228,7 +228,7 @@ AI and machine learning crawlers represent a significant shift in how web conten
   "description": "A comprehensive guide on AI and machine learning crawlers, their purposes, and how to manage them effectively.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ia-gensim" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/ia-gensim" }
 }
 </script>
 <script type="application/ld+json">
@@ -304,7 +304,7 @@ AI and machine learning crawlers represent a significant shift in how web conten
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -312,7 +312,7 @@ AI and machine learning crawlers represent a significant shift in how web conten
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/ia-gensim",
+        "@id": "https://aicw.io/ai-crawler-bot/ia-gensim",
         "name": "AI Crawlers: Overview and Management"
       }
     }

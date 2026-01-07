@@ -141,8 +141,8 @@ AI training crawlers will likely become more common as more companies develop la
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/chatglm-spider",
-  "url": "https://aichatwatch.com/ai-crawler-bot/chatglm-spider",
+  "@id": "https://aicw.io/ai-crawler-bot/chatglm-spider",
+  "url": "https://aicw.io/ai-crawler-bot/chatglm-spider",
   "name": "ChatGLM-Spider"
 }
 </script>
@@ -154,7 +154,7 @@ AI training crawlers will likely become more common as more companies develop la
   "description": "ChatGLM-Spider is a web crawler by Zhipu AI that collects data for training AI language models.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/chatglm-spider" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/chatglm-spider" }
 }
 </script>
 <script type="application/ld+json">
@@ -230,13 +230,13 @@ AI training crawlers will likely become more common as more companies develop la
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ChatGLM-Spider",
-      "item": "https://aichatwatch.com/ai-crawler-bot/chatglm-spider"
+      "item": "https://aicw.io/ai-crawler-bot/chatglm-spider"
     }
   ]
 }

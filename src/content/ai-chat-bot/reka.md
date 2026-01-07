@@ -110,8 +110,8 @@ Developers can access Reka through their API platform, available with detailed d
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/reka",
-  "url": "https://aichatwatch.com/ai-chat-bot/reka",
+  "@id": "https://aicw.io/ai-chat-bot/reka",
+  "url": "https://aicw.io/ai-chat-bot/reka",
   "name": "Reka: Multimodal AI for Enterprises",
   "description": "Discover how Reka AI revolutionizes enterprise AI with advanced multimodal models that process text, images, video, and audio simultaneously.",
   "mainEntity": {
@@ -120,7 +120,7 @@ Developers can access Reka through their API platform, available with detailed d
     "description": "Explore the capabilities of Reka AI and how it offers businesses the tools to analyze and automate diverse formats.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/reka" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/reka" }
   }
 }
 </script>
@@ -197,13 +197,13 @@ Developers can access Reka through their API platform, available with detailed d
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Reka",
-      "item": "https://aichatwatch.com/ai-chat-bot/reka"
+      "item": "https://aicw.io/ai-chat-bot/reka"
     }
   ]
 }

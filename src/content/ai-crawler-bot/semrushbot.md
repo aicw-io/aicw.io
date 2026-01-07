@@ -131,8 +131,8 @@ SemrushBot serves as the backbone crawler for Semrush's complete SEO and marketi
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/semrushbot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/semrushbot",
+  "@id": "https://aicw.io/ai-crawler-bot/semrushbot",
+  "url": "https://aicw.io/ai-crawler-bot/semrushbot",
   "name": "What is SemrushBot and Why It Matters"
 }
 </script>
@@ -144,7 +144,7 @@ SemrushBot serves as the backbone crawler for Semrush's complete SEO and marketi
   "description": "SemrushBot is a web crawler operated by Semrush, used for collecting data for SEO tools.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/semrushbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/semrushbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -220,13 +220,13 @@ SemrushBot serves as the backbone crawler for Semrush's complete SEO and marketi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "SemrushBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/semrushbot"
+      "item": "https://aicw.io/ai-crawler-bot/semrushbot"
     }
   ]
 }

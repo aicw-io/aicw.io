@@ -129,8 +129,8 @@ OAI-SearchBot represents OpenAI's dedicated crawler for ChatGPT Search indexing.
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/oai-searchbot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/oai-searchbot",
+  "@id": "https://aicw.io/ai-crawler-bot/oai-searchbot",
+  "url": "https://aicw.io/ai-crawler-bot/oai-searchbot",
   "name": "OAI-SearchBot and Why It Matters",
   "description": "Explore the OAI-SearchBot, OpenAI's web crawler for ChatGPT Search, its technical aspects, and its impact on website content strategies."
 }
@@ -143,7 +143,7 @@ OAI-SearchBot represents OpenAI's dedicated crawler for ChatGPT Search indexing.
   "description": "A comprehensive guide on OAI-SearchBot, its working process, and implications for web content management and SEO strategies.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/oai-searchbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/oai-searchbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -219,13 +219,13 @@ OAI-SearchBot represents OpenAI's dedicated crawler for ChatGPT Search indexing.
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "OAI-SearchBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/oai-searchbot"
+      "item": "https://aicw.io/ai-crawler-bot/oai-searchbot"
     }
   ]
 }

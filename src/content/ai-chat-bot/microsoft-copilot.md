@@ -110,10 +110,10 @@ Microsoft Copilot, leveraging GPT-4 powered AI, enhances Windows 11 and Microsof
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot",
+  "url": "https://aicw.io/ai-chat-bot/microsoft-copilot",
   "name": "Microsoft Copilot",
   "description": "An overview of Microsoft Copilot, its features, evolution from Bing Chat, and its impact on productivity inside Microsoft 365 applications.",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot" }
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-chat-bot/microsoft-copilot" }
 }
 </script>
 
@@ -125,7 +125,7 @@ Microsoft Copilot, leveraging GPT-4 powered AI, enhances Windows 11 and Microsof
   "description": "A detailed article exploring Microsoft Copilot's features, subscription plans, and data privacy concerns within Microsoft applications.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/microsoft-copilot" }
 }
 </script>
 
@@ -203,13 +203,13 @@ Microsoft Copilot, leveraging GPT-4 powered AI, enhances Windows 11 and Microsof
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Microsoft Copilot",
-      "item": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot"
+      "item": "https://aicw.io/ai-chat-bot/microsoft-copilot"
     }
   ]
 }

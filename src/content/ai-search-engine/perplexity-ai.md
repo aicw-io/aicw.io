@@ -101,7 +101,7 @@ Perplexity AI stands as a significant innovation for research requirements, offe
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/perplexity-ai"
+  "@id": "https://aicw.io/ai-search-engine/perplexity-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -112,7 +112,7 @@ Perplexity AI stands as a significant innovation for research requirements, offe
   "description": "Perplexity AI is transforming the search engine landscape for researchers with its innovative features.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/perplexity-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/perplexity-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -188,7 +188,7 @@ Perplexity AI stands as a significant innovation for research requirements, offe
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -196,7 +196,7 @@ Perplexity AI stands as a significant innovation for research requirements, offe
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/perplexity-ai",
+        "@id": "https://aicw.io/ai-search-engine/perplexity-ai",
         "name": "Perplexity AI"
       }
     }

@@ -195,8 +195,8 @@ The shift toward more transparent crawler operations benefits both AI developers
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/oai-research",
-  "url": "https://aichatwatch.com/ai-crawler-bot/oai-research",
+  "@id": "https://aicw.io/ai-crawler-bot/oai-research",
+  "url": "https://aicw.io/ai-crawler-bot/oai-research",
   "name": "OAI-Research and Why It Matters"
 }
 </script>
@@ -208,7 +208,7 @@ The shift toward more transparent crawler operations benefits both AI developers
   "description": "Explore the evolution of the OAI-Research crawler by OpenAI and its significance in AI training data collection practices.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/oai-research" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/oai-research" }
 }
 </script>
 <script type="application/ld+json">
@@ -284,13 +284,13 @@ The shift toward more transparent crawler operations benefits both AI developers
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "OAI-Reasearch",
-      "item": "https://aichatwatch.com/ai-crawler-bot/oai-research"
+      "item": "https://aicw.io/ai-crawler-bot/oai-research"
     }
   ]
 }

@@ -124,7 +124,7 @@ The cohere-ai crawler is Cohere AI's data collection tool for training enterpris
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/cohere-ai"
+  "@id": "https://aicw.io/ai-crawler-bot/cohere-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -135,7 +135,7 @@ The cohere-ai crawler is Cohere AI's data collection tool for training enterpris
   "description": "An overview of Cohere AI's crawler, its purpose, and how website owners can manage its access and interaction with their content.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/cohere-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/cohere-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -211,13 +211,13 @@ The cohere-ai crawler is Cohere AI's data collection tool for training enterpris
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Cohere AI Crawler",
-      "item": "https://aichatwatch.com/ai-crawler-bot/cohere-ai"
+      "item": "https://aicw.io/ai-crawler-bot/cohere-ai"
     }
   ]
 }
@@ -227,7 +227,7 @@ The cohere-ai crawler is Cohere AI's data collection tool for training enterpris
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aichatwatch.com"
+  "url": "https://aicw.io"
 }
 </script>
 

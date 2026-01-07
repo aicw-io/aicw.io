@@ -204,10 +204,10 @@ Compared to global crawlers like [Googlebot](/ai-crawler-bot/googlebot/), Seznam
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/seznam-bot",
+  "url": "https://aicw.io/ai-crawler-bot/seznam-bot",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aichatwatch.com/ai-crawler-bot/seznam-bot"
+    "@id": "https://aicw.io/ai-crawler-bot/seznam-bot"
   }
 }
 </script>
@@ -227,7 +227,7 @@ Compared to global crawlers like [Googlebot](/ai-crawler-bot/googlebot/), Seznam
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aichatwatch.com/ai-crawler-bot/seznam-bot"
+    "@id": "https://aicw.io/ai-crawler-bot/seznam-bot"
   }
 }
 </script>
@@ -304,7 +304,7 @@ Compared to global crawlers like [Googlebot](/ai-crawler-bot/googlebot/), Seznam
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -312,7 +312,7 @@ Compared to global crawlers like [Googlebot](/ai-crawler-bot/googlebot/), Seznam
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/seznam-bot",
+        "@id": "https://aicw.io/ai-crawler-bot/seznam-bot",
         "name": "SeznamBot"
       }
     }

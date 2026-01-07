@@ -97,7 +97,7 @@ Phind is a valuable AI search engine for developers, standing out by offering pr
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/phind"
+  "@id": "https://aicw.io/ai-search-engine/phind"
 }
 </script>
 <script type="application/ld+json">
@@ -108,7 +108,7 @@ Phind is a valuable AI search engine for developers, standing out by offering pr
   "description": "Phind is an AI-powered search engine designed specifically for developers, offering quick access to coding resources and enhancing productivity.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/phind" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/phind" }
 }
 </script>
 <script type="application/ld+json">
@@ -184,7 +184,7 @@ Phind is a valuable AI search engine for developers, standing out by offering pr
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -192,7 +192,7 @@ Phind is a valuable AI search engine for developers, standing out by offering pr
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/phind",
+        "@id": "https://aicw.io/ai-search-engine/phind",
         "name": "Phind"
       }
     }

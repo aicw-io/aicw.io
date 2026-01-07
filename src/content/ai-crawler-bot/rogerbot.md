@@ -216,7 +216,7 @@ When compared to alternatives like AhrefsBot and SemrushBot, Rogerbot maintains 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-crawler-bot/rogerbot"}
+  "mainEntityOfPage": {"@id": "https://aicw.io/ai-crawler-bot/rogerbot"}
 }
 </script>
 <script type="application/ld+json">
@@ -227,7 +227,7 @@ When compared to alternatives like AhrefsBot and SemrushBot, Rogerbot maintains 
   "description": "Rogerbot is Moz's SEO crawler that plays a crucial role in collecting link analysis data and other SEO-related information from websites.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/rogerbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/rogerbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -303,13 +303,13 @@ When compared to alternatives like AhrefsBot and SemrushBot, Rogerbot maintains 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Rogerbot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/rogerbot"
+      "item": "https://aicw.io/ai-crawler-bot/rogerbot"
     }
   ]
 }

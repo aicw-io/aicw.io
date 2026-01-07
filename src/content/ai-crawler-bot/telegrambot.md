@@ -167,7 +167,7 @@ TelegramBot is Telegram's link preview crawler, visiting websites to generate ri
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-crawler-bot/telegrambot"
+  "mainEntityOfPage": "https://aicw.io/ai-crawler-bot/telegrambot"
 }
 </script>
 <script type="application/ld+json">
@@ -186,7 +186,7 @@ TelegramBot is Telegram's link preview crawler, visiting websites to generate ri
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aichatwatch.com/ai-crawler-bot/telegrambot"
+    "@id": "https://aicw.io/ai-crawler-bot/telegrambot"
   }
 }
 </script>
@@ -263,13 +263,13 @@ TelegramBot is Telegram's link preview crawler, visiting websites to generate ri
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Understanding TelegramBot: Enhancing Link Previews with Web Crawlers",
-      "item": "https://aichatwatch.com/ai-crawler-bot/telegrambot"
+      "item": "https://aicw.io/ai-crawler-bot/telegrambot"
     }
   ]
 }

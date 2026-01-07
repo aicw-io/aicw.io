@@ -133,8 +133,8 @@ FeedlyBot functions as essential infrastructure behind one of the web's most pop
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/feedlybot",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/feedlybot" }
+  "url": "https://aicw.io/ai-crawler-bot/feedlybot",
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/feedlybot" }
 }
 </script>
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ FeedlyBot functions as essential infrastructure behind one of the web's most pop
   "description": "FeedlyBot is a web crawler for Feedly that aggregates content from websites for easy access to new articles and updates.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/feedlybot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/feedlybot" }
 }
 </script>
 <script type="application/ld+json">
@@ -221,7 +221,7 @@ FeedlyBot functions as essential infrastructure behind one of the web's most pop
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -229,7 +229,7 @@ FeedlyBot functions as essential infrastructure behind one of the web's most pop
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/feedlybot",
+        "@id": "https://aicw.io/ai-crawler-bot/feedlybot",
         "name": "FeedlyBot Article"
       }
     }

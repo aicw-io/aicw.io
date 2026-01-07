@@ -124,7 +124,7 @@ Feed Crawler Access Control:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/feedfetcher-google"
+  "@id": "https://aicw.io/ai-crawler-bot/feedfetcher-google"
 }
 </script>
 <script type="application/ld+json">
@@ -135,7 +135,7 @@ Feed Crawler Access Control:
   "description": "FeedFetcher-Google is a specialized bot by Google that fetches and parses RSS and Atom feeds. This article explains how it works and its significance for publishers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/feedfetcher-google" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/feedfetcher-google" }
 }
 </script>
 <script type="application/ld+json">
@@ -211,13 +211,13 @@ Feed Crawler Access Control:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "FeedFetcher-Google",
-      "item": "https://aichatwatch.com/ai-crawler-bot/feedfetcher-google"
+      "item": "https://aicw.io/ai-crawler-bot/feedfetcher-google"
     }
   ]
 }

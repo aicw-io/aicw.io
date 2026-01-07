@@ -158,10 +158,10 @@ iAsk.ai Workflow:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/iask-ai",
+  "@id": "https://aicw.io/ai-search-engine/iask-ai",
   "name": "iAsk.ai Free AI Search Engine Review: Features & Users",
   "description": "A comprehensive review of iAsk.ai, a free AI search engine with natural language processing capabilities and citation-backed answers.",
-  "url": "https://aichatwatch.com/ai-search-engine/iask-ai"
+  "url": "https://aicw.io/ai-search-engine/iask-ai"
 }
 </script>
 
@@ -173,7 +173,7 @@ iAsk.ai Workflow:
   "description": "A comprehensive review of iAsk.ai, a free AI search engine with natural language processing capabilities and citation-backed answers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/iask-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/iask-ai" }
 }
 </script>
 
@@ -251,13 +251,13 @@ iAsk.ai Workflow:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "iAsk.ai Free AI Search Engine Review",
-      "item": "https://aichatwatch.com/ai-search-engine/iask-ai"
+      "item": "https://aicw.io/ai-search-engine/iask-ai"
     }
   ]
 }

@@ -100,8 +100,8 @@ TinEye is a [standout tool in the realm of reverse image searching](https://tine
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/tineye" },
-  "url": "https://aichatwatch.com/ai-search-engine/tineye",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/tineye" },
+  "url": "https://aicw.io/ai-search-engine/tineye",
   "name": "Ultimate Guide to TinEye: The Reverse Image Search Pioneer"
 }
 </script>
@@ -113,7 +113,7 @@ TinEye is a [standout tool in the realm of reverse image searching](https://tine
   "description": "An in-depth look at how TinEye works and its significance in the field of reverse image search.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/tineye" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/tineye" }
 }
 </script>
 <script type="application/ld+json">
@@ -189,13 +189,13 @@ TinEye is a [standout tool in the realm of reverse image searching](https://tine
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "TinEye",
-      "item": "https://aichatwatch.com/ai-search-engine/tineye"
+      "item": "https://aicw.io/ai-search-engine/tineye"
     }
   ]
 }

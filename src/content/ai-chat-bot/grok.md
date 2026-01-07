@@ -140,10 +140,10 @@ Grok represents xAI's entry into the **AI chatbot** market with distinct charact
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/grok",
+  "url": "https://aicw.io/ai-chat-bot/grok",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aichatwatch.com/ai-chat-bot/grok"
+    "@id": "https://aicw.io/ai-chat-bot/grok"
   }
 }
 </script>
@@ -155,7 +155,7 @@ Grok represents xAI's entry into the **AI chatbot** market with distinct charact
   "description": "Grok is an AI chatbot developed by xAI, founded by Elon Musk, focusing on real-time conversational engagement with fewer restrictions.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/grok" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/grok" }
 }
 </script>
 <script type="application/ld+json">
@@ -231,7 +231,7 @@ Grok represents xAI's entry into the **AI chatbot** market with distinct charact
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -239,7 +239,7 @@ Grok represents xAI's entry into the **AI chatbot** market with distinct charact
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/grok",
+        "@id": "https://aicw.io/ai-chat-bot/grok",
         "name": "Grok"
       }
     }

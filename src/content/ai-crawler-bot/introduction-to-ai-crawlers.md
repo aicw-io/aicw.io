@@ -185,7 +185,7 @@ This technology poses significant questions about copyright, fair use, and conte
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawlers"
+  "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawlers"
 }
 </script>
 <script type="application/ld+json">
@@ -196,7 +196,7 @@ This technology poses significant questions about copyright, fair use, and conte
   "description": "Learn about the functionality and importance of AI crawlers in data collection for machine learning.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawlers" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawlers" }
 }
 </script>
 <script type="application/ld+json">
@@ -272,7 +272,7 @@ This technology poses significant questions about copyright, fair use, and conte
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -280,7 +280,7 @@ This technology poses significant questions about copyright, fair use, and conte
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawlers",
+        "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawlers",
         "name": "Introduction to AI Crawlers"
       }
     }

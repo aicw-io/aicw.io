@@ -105,8 +105,8 @@ Scite.ai reshapes how we perceive research impact. By providing context to citat
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/scite-ai",
-  "mainEntity": { "@id": "https://aichatwatch.com/ai-search-engine/scite-ai" }
+  "url": "https://aicw.io/ai-search-engine/scite-ai",
+  "mainEntity": { "@id": "https://aicw.io/ai-search-engine/scite-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -117,7 +117,7 @@ Scite.ai reshapes how we perceive research impact. By providing context to citat
   "description": "Explore the innovative features of Scite.ai, a citation tracking tool that offers insights into research impact.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/scite-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/scite-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -193,13 +193,13 @@ Scite.ai reshapes how we perceive research impact. By providing context to citat
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Scite.ai",
-      "item": "https://aichatwatch.com/ai-search-engine/scite-ai"
+      "item": "https://aicw.io/ai-search-engine/scite-ai"
     }
   ]
 }

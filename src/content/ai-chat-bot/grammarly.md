@@ -116,8 +116,8 @@ Grammarly AI is the leading AI writing assistant, utilized by over 30 million da
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/grammarly",
-  "mainEntityOfPage": "https://aichatwatch.com/ai-chat-bot/grammarly"
+  "url": "https://aicw.io/ai-chat-bot/grammarly",
+  "mainEntityOfPage": "https://aicw.io/ai-chat-bot/grammarly"
 }
 </script>
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ Grammarly AI is the leading AI writing assistant, utilized by over 30 million da
   "description": "Grammarly AI enhances writing with real-time grammar checking, tone detection, and plagiarism detection across various platforms.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/grammarly" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/grammarly" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,13 +204,13 @@ Grammarly AI is the leading AI writing assistant, utilized by over 30 million da
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Grammarly AI",
-      "item": "https://aichatwatch.com/ai-chat-bot/grammarly"
+      "item": "https://aicw.io/ai-chat-bot/grammarly"
     }
   ]
 }

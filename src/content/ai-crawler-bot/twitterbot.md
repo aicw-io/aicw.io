@@ -162,8 +162,8 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/twitterbot",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/twitterbot" }
+  "url": "https://aicw.io/ai-crawler-bot/twitterbot",
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/twitterbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -174,7 +174,7 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
   "description": "A comprehensive look at Twitterbot's role in generating link previews on X, including how it works and why it's essential for businesses and developers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/twitterbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/twitterbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -250,7 +250,7 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -258,7 +258,7 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/twitterbot",
+        "@id": "https://aicw.io/ai-crawler-bot/twitterbot",
         "name": "Twitterbot"
       }
     }

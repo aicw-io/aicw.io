@@ -114,8 +114,8 @@ Tongyi Qianwen marks Alibaba's significant entry into AI assistants, combining c
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen",
-  "url": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen",
+  "@id": "https://aicw.io/ai-chat-bot/tongyi-qianwen",
+  "url": "https://aicw.io/ai-chat-bot/tongyi-qianwen",
   "name": "Tongyi Qianwen: Alibaba's AI Assistant",
   "description": "Explore Tongyi Qianwen, Alibaba's advanced AI assistant designed for the Chinese market, focusing on its features and integrations."
 }
@@ -128,7 +128,7 @@ Tongyi Qianwen marks Alibaba's significant entry into AI assistants, combining c
   "description": "Explore Tongyi Qianwen, Alibaba's advanced AI assistant designed for the Chinese market, focusing on its features and integrations.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/tongyi-qianwen" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,13 +204,13 @@ Tongyi Qianwen marks Alibaba's significant entry into AI assistants, combining c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tongyi Qianwen",
-      "item": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen"
+      "item": "https://aicw.io/ai-chat-bot/tongyi-qianwen"
     }
   ]
 }

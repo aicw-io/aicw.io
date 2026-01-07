@@ -185,8 +185,8 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/naverbot",
-  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-crawler-bot/naverbot"}
+  "url": "https://aicw.io/ai-crawler-bot/naverbot",
+  "mainEntityOfPage": {"@id": "https://aicw.io/ai-crawler-bot/naverbot"}
 }
 </script>
 
@@ -198,7 +198,7 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
   "description": "Naverbot is the primary web crawler for Naver, South Korea's leading search engine, indexing Korean language content and aiding AI training.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/naverbot"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/naverbot"}
 }
 </script>
 
@@ -276,7 +276,7 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -284,7 +284,7 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/naverbot",
+        "@id": "https://aicw.io/ai-crawler-bot/naverbot",
         "name": "Naverbot"
       }
     }

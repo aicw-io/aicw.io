@@ -116,7 +116,7 @@ Woebot represents a significant development in mental health AI technology. The 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/woebot"
+  "@id": "https://aicw.io/ai-chat-bot/woebot"
 }
 </script>
 <script type="application/ld+json">
@@ -127,7 +127,7 @@ Woebot represents a significant development in mental health AI technology. The 
   "description": "Woebot is a mental health chatbot designed to support users in managing anxiety and depression through cognitive behavioral therapy techniques.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/woebot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/woebot" }
 }
 </script>
 <script type="application/ld+json">
@@ -203,13 +203,13 @@ Woebot represents a significant development in mental health AI technology. The 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Woebot",
-      "item": "https://aichatwatch.com/ai-chat-bot/woebot"
+      "item": "https://aicw.io/ai-chat-bot/woebot"
     }
   ]
 }

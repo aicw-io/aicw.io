@@ -99,8 +99,8 @@ Multilingual Search Process:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/felo-ai",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-search-engine/felo-ai" }
+  "url": "https://aicw.io/ai-search-engine/felo-ai",
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-search-engine/felo-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -111,7 +111,7 @@ Multilingual Search Process:
   "description": "Felo AI is a multilingual AI search engine that breaks down language barriers through real-time translation and cross-language search capabilities.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/felo-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/felo-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -187,13 +187,13 @@ Multilingual Search Process:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Felo AI Multilingual Search: Complete Guide & Features",
-      "item": "https://aichatwatch.com/ai-search-engine/felo-ai"
+      "item": "https://aicw.io/ai-search-engine/felo-ai"
     }
   ]
 }

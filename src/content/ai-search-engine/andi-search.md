@@ -179,7 +179,7 @@ The streamlined interface and reader mode enhance focus, while Andi's privacy me
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/andi-search"
+  "@id": "https://aicw.io/ai-search-engine/andi-search"
 }
 </script>
 <script type="application/ld+json">
@@ -190,7 +190,7 @@ The streamlined interface and reader mode enhance focus, while Andi's privacy me
   "description": "Discover the power of Andi Search, the groundbreaking AI search engine that offers ad-free search and unparalleled privacy.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/andi-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/andi-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -290,13 +290,13 @@ The streamlined interface and reader mode enhance focus, while Andi's privacy me
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Andi Search",
-      "item": "https://aichatwatch.com/ai-search-engine/andi-search"
+      "item": "https://aicw.io/ai-search-engine/andi-search"
     }
   ]
 }

@@ -163,9 +163,9 @@ For businesses operating within China, ERNIE epitomizes a robust AI solution adh
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/baidu-ernie",
+  "url": "https://aicw.io/ai-search-engine/baidu-ernie",
   "name": "Baidu ERNIE: How China's Leading AI Search Model Works",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-search-engine/baidu-ernie" }
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-search-engine/baidu-ernie" }
 }
 </script>
 <script type="application/ld+json">
@@ -176,7 +176,7 @@ For businesses operating within China, ERNIE epitomizes a robust AI solution adh
   "description": "Baidu ERNIE is a powerful AI language model designed to enhance Chinese and English language processing for Baidu search and other services.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/baidu-ernie" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/baidu-ernie" }
 }
 </script>
 <script type="application/ld+json">
@@ -236,7 +236,7 @@ For businesses operating within China, ERNIE epitomizes a robust AI solution adh
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -244,7 +244,7 @@ For businesses operating within China, ERNIE epitomizes a robust AI solution adh
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/baidu-ernie",
+        "@id": "https://aicw.io/ai-search-engine/baidu-ernie",
         "name": "Baidu ERNIE: How China's Leading AI Search Model Works"
       }
     }

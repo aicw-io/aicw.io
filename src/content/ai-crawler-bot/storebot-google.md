@@ -197,7 +197,7 @@ As Google continues improving crawler capabilities, staying informed about updat
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/storebot-google"
+  "@id": "https://aicw.io/ai-crawler-bot/storebot-google"
 }
 </script>
 <script type="application/ld+json">
@@ -208,7 +208,7 @@ As Google continues improving crawler capabilities, staying informed about updat
   "description": "Understanding the role of Storebot-Google as an e-commerce crawler that validates product data for Google Shopping.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/storebot-google" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/storebot-google" }
 }
 </script>
 <script type="application/ld+json">
@@ -284,13 +284,13 @@ As Google continues improving crawler capabilities, staying informed about updat
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Storebot-Google",
-      "item": "https://aichatwatch.com/ai-crawler-bot/storebot-google"
+      "item": "https://aicw.io/ai-crawler-bot/storebot-google"
     }
   ]
 }

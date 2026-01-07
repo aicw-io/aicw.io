@@ -85,7 +85,7 @@ The AI21 Jamba model provides a unique solution to the long context challenge. I
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/ai21-jamba",
+  "url": "https://aicw.io/ai-chat-bot/ai21-jamba",
   "name": "AI21 Jamba Model",
   "description": "An overview of AI21 Labs' Jamba model, a production-grade large language model with a 256K token context window."
 }
@@ -98,7 +98,7 @@ The AI21 Jamba model provides a unique solution to the long context challenge. I
   "description": "AI21 Labs released the Jamba model, a hybrid system excelled in processing extensive text inputs efficiently.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/ai21-jamba" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/ai21-jamba" }
 }
 </script>
 <script type="application/ld+json">
@@ -174,13 +174,13 @@ The AI21 Jamba model provides a unique solution to the long context challenge. I
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AI21 Jamba Model",
-      "item": "https://aichatwatch.com/ai-chat-bot/ai21-jamba"
+      "item": "https://aicw.io/ai-chat-bot/ai21-jamba"
     }
   ]
 }

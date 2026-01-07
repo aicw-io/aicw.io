@@ -93,9 +93,9 @@ SearXNG is an excellent choice for privacy-focused users. Its self-hosting featu
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/searxng",
+  "url": "https://aicw.io/ai-search-engine/searxng",
   "headline": "Comprehensive Guide to SearXNG - The Self-Hosted Metasearch Engine",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-search-engine/searxng" }
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-search-engine/searxng" }
 }
 </script>
 
@@ -107,7 +107,7 @@ SearXNG is an excellent choice for privacy-focused users. Its self-hosting featu
   "description": "SearXNG is an open-source, self-hosted metasearch engine offering user privacy by aggregating results from over 70 search engines.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/searxng" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/searxng" }
 }
 </script>
 
@@ -185,13 +185,13 @@ SearXNG is an excellent choice for privacy-focused users. Its self-hosting featu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "SearXNG",
-      "item": "https://aichatwatch.com/ai-search-engine/searxng"
+      "item": "https://aicw.io/ai-search-engine/searxng"
     }
   ]
 }

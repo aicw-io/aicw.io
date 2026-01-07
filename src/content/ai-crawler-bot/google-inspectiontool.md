@@ -116,7 +116,7 @@ Google-InspectionTool is a crucial **SEO debugging** and testing resource, offer
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/google-inspectiontool",
+  "url": "https://aicw.io/ai-crawler-bot/google-inspectiontool",
   "name": "Google Inspection Tool",
   "description": "An overview of the Google Inspection Tool in Google Search Console, its features, and its significance for SEO testing."
 }
@@ -129,7 +129,7 @@ Google-InspectionTool is a crucial **SEO debugging** and testing resource, offer
   "description": "A detailed examination of Google Inspection Tool and its benefits for SEO professionals and webmasters.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/google-inspectiontool" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/google-inspectiontool" }
 }
 </script>
 <script type="application/ld+json">
@@ -205,13 +205,13 @@ Google-InspectionTool is a crucial **SEO debugging** and testing resource, offer
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Google Inspection Tool",
-      "item": "https://aichatwatch.com/ai-crawler-bot/google-inspectiontool"
+      "item": "https://aicw.io/ai-crawler-bot/google-inspectiontool"
     }
   ]
 }
@@ -221,7 +221,7 @@ Google-InspectionTool is a crucial **SEO debugging** and testing resource, offer
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aichatwatch.com"
+  "url": "https://aicw.io"
 }
 </script>
 

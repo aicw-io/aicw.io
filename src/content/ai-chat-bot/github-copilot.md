@@ -166,8 +166,8 @@ Compared to alternatives like Cursor, Codeium, and Tabnine, GitHub Copilot is co
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/github-copilot",
-  "url": "https://aichatwatch.com/ai-chat-bot/github-copilot",
+  "@id": "https://aicw.io/ai-chat-bot/github-copilot",
+  "url": "https://aicw.io/ai-chat-bot/github-copilot",
   "name": "GitHub Copilot",
   "description": "Explore how GitHub Copilot facilitates real-time coding assistance and boosts developer productivity."
 }
@@ -180,7 +180,7 @@ Compared to alternatives like Cursor, Codeium, and Tabnine, GitHub Copilot is co
   "description": "GitHub Copilot is an AI coding assistant that helps developers write code more efficiently by providing real-time suggestions.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/github-copilot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/github-copilot" }
 }
 </script>
 <script type="application/ld+json">
@@ -256,13 +256,13 @@ Compared to alternatives like Cursor, Codeium, and Tabnine, GitHub Copilot is co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "GitHub Copilot",
-      "item": "https://aichatwatch.com/ai-chat-bot/github-copilot"
+      "item": "https://aicw.io/ai-chat-bot/github-copilot"
     }
   ]
 }

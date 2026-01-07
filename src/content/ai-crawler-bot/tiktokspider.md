@@ -131,8 +131,8 @@ TikTokSpider is ByteDance's specialized web crawler designed for TikTok product 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/tiktokspider",
-  "url": "https://aichatwatch.com/ai-crawler-bot/tiktokspider",
+  "@id": "https://aicw.io/ai-crawler-bot/tiktokspider",
+  "url": "https://aicw.io/ai-crawler-bot/tiktokspider",
   "inLanguage": "en"
 }
 </script>
@@ -144,7 +144,7 @@ TikTokSpider is ByteDance's specialized web crawler designed for TikTok product 
   "description": "TikTokSpider is a web crawler designed by ByteDance for product development and research in the TikTok ecosystem.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/tiktokspider" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/tiktokspider" }
 }
 </script>
 <script type="application/ld+json">
@@ -220,13 +220,13 @@ TikTokSpider is ByteDance's specialized web crawler designed for TikTok product 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "TikTokSpider",
-      "item": "https://aichatwatch.com/ai-crawler-bot/tiktokspider"
+      "item": "https://aicw.io/ai-crawler-bot/tiktokspider"
     }
   ]
 }
@@ -236,7 +236,7 @@ TikTokSpider is ByteDance's specialized web crawler designed for TikTok product 
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aichatwatch.com"
+  "url": "https://aicw.io"
 }
 </script>
 

@@ -162,7 +162,7 @@ As AI browsing tools become more prevalent, managing these bots will become a st
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/claude-web",
+  "url": "https://aicw.io/ai-crawler-bot/claude-web",
   "name": "Claude-Web: The User-Initiated AI Browsing Bot",
   "description": "This article explains Claude-Web, a browsing tool by Anthropic that allows real-time web access for the Claude AI assistant, its operation, impact on server resources, and privacy considerations."
 }
@@ -175,7 +175,7 @@ As AI browsing tools become more prevalent, managing these bots will become a st
   "description": "Claude-Web is a browsing tool developed by Anthropic that enables real-time AI browsing for the Claude AI assistant, crucial for accessing up-to-date information.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claude-web" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/claude-web" }
 }
 </script>
 <script type="application/ld+json">
@@ -251,13 +251,13 @@ As AI browsing tools become more prevalent, managing these bots will become a st
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Claude-Web",
-      "item": "https://aichatwatch.com/ai-crawler-bot/claude-web"
+      "item": "https://aicw.io/ai-crawler-bot/claude-web"
     }
   ]
 }

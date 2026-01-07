@@ -225,7 +225,7 @@ Website owners should make sure Applebot can access their content unless they sp
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/applebot"
+  "@id": "https://aicw.io/ai-crawler-bot/applebot"
 }
 </script>
 <script type="application/ld+json">
@@ -236,7 +236,7 @@ Website owners should make sure Applebot can access their content unless they sp
   "description": "Applebot is Apple's web crawler that powers search results in Siri and Spotlight, indexing content to provide relevant answers to users.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/applebot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/applebot" }
 }
 </script>
 <script type="application/ld+json">
@@ -312,7 +312,7 @@ Website owners should make sure Applebot can access their content unless they sp
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -320,7 +320,7 @@ Website owners should make sure Applebot can access their content unless they sp
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/applebot",
+        "@id": "https://aicw.io/ai-crawler-bot/applebot",
         "name": "Applebot"
       }
     }

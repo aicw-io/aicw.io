@@ -135,7 +135,7 @@ Bravebot is the web crawler driving Brave Search's independent search index. Ope
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/bravebot"
+  "@id": "https://aicw.io/ai-crawler-bot/bravebot"
 }
 </script>
 <script type="application/ld+json">
@@ -146,7 +146,7 @@ Bravebot is the web crawler driving Brave Search's independent search index. Ope
   "description": "Bravebot is the web crawler powering Brave Search, focusing on privacy and independence from major tech companies.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bravebot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/bravebot" }
 }
 </script>
 <script type="application/ld+json">
@@ -222,7 +222,7 @@ Bravebot is the web crawler driving Brave Search's independent search index. Ope
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -230,7 +230,7 @@ Bravebot is the web crawler driving Brave Search's independent search index. Ope
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/bravebot",
+        "@id": "https://aicw.io/ai-crawler-bot/bravebot",
         "name": "Bravebot"
       }
     }

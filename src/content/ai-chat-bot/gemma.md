@@ -161,7 +161,7 @@ For edge deployment and resource-constrained environments, Gemma represents a st
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "id": "https://aichatwatch.com/ai-chat-bot/gemma"
+  "id": "https://aicw.io/ai-chat-bot/gemma"
 }
 </script>
 <script type="application/ld+json">
@@ -172,7 +172,7 @@ For edge deployment and resource-constrained environments, Gemma represents a st
   "description": "Google's Gemma models fill an important gap in the AI ecosystem, enabling edge deployment for various applications.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/gemma" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/gemma" }
 }
 </script>
 <script type="application/ld+json">
@@ -248,13 +248,13 @@ For edge deployment and resource-constrained environments, Gemma represents a st
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Gemma",
-      "item": "https://aichatwatch.com/ai-chat-bot/gemma"
+      "item": "https://aicw.io/ai-chat-bot/gemma"
     }
   ]
 }

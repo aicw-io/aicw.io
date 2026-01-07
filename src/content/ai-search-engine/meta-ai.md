@@ -144,7 +144,7 @@ Meta AI Workflow:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/meta-ai"
+  "@id": "https://aicw.io/ai-search-engine/meta-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -155,7 +155,7 @@ Meta AI Workflow:
   "description": "Meta AI represents Facebook's big push into conversational AI, serving over 500 million users across multiple platforms.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/meta-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/meta-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -231,7 +231,7 @@ Meta AI Workflow:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -239,7 +239,7 @@ Meta AI Workflow:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-search-engine/meta-ai",
+        "@id": "https://aicw.io/ai-search-engine/meta-ai",
         "name": "Meta AI: A Complete Guide to Facebook's AI Search and Assistant"
       }
     }

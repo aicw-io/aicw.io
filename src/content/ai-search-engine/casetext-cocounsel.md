@@ -263,7 +263,7 @@ Law firms eager to integrate AI should consider CoCounsel for its comprehensive 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/casetext-cocounsel"
+  "@id": "https://aicw.io/ai-search-engine/casetext-cocounsel"
 }
 </script>
 <script type="application/ld+json">
@@ -274,7 +274,7 @@ Law firms eager to integrate AI should consider CoCounsel for its comprehensive 
   "description": "CoCounsel is an innovative AI legal assistant by Casetext enhancing legal research and document review processes.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/casetext-cocounsel" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/casetext-cocounsel" }
 }
 </script>
 <script type="application/ld+json">
@@ -334,13 +334,13 @@ Law firms eager to integrate AI should consider CoCounsel for its comprehensive 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "CoCounsel: Your Guide to AI-Powered Legal Research Tool",
-      "item": "https://aichatwatch.com/ai-search-engine/casetext-cocounsel"
+      "item": "https://aicw.io/ai-search-engine/casetext-cocounsel"
     }
   ]
 }

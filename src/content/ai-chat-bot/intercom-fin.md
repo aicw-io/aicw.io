@@ -114,8 +114,8 @@ Intercom Fin Implementation Workflow:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/intercom-fin",
-  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-chat-bot/intercom-fin"}
+  "url": "https://aicw.io/ai-chat-bot/intercom-fin",
+  "mainEntityOfPage": {"@id": "https://aicw.io/ai-chat-bot/intercom-fin"}
 }
 </script>
 <script type="application/ld+json">
@@ -126,7 +126,7 @@ Intercom Fin Implementation Workflow:
   "description": "Explore how Intercom Fin leverages AI to enhance customer support and reduce operational costs.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/intercom-fin" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/intercom-fin" }
 }
 </script>
 <script type="application/ld+json">
@@ -202,7 +202,7 @@ Intercom Fin Implementation Workflow:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -210,7 +210,7 @@ Intercom Fin Implementation Workflow:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/intercom-fin",
+        "@id": "https://aicw.io/ai-chat-bot/intercom-fin",
         "name": "Intercom Fin"
       }
     }

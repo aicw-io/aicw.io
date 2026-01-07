@@ -224,7 +224,7 @@ The machine learning industry's data needs won't disappear. Crawlers like MLBot 
   "description": "MLBot is designed primarily for collecting training data for machine learning models by scraping content from websites.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/mlbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/mlbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -300,13 +300,13 @@ The machine learning industry's data needs won't disappear. Crawlers like MLBot 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com"
+      "item": "https://aicw.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "MLBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/mlbot"
+      "item": "https://aicw.io/ai-crawler-bot/mlbot"
     }
   ]
 }

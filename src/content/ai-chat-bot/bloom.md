@@ -117,7 +117,7 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/bloom"
+  "@id": "https://aicw.io/ai-chat-bot/bloom"
 }
 </script>
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
   "description": "BLOOM is a massive multilingual language model created by BigScience, featuring 176 billion parameters, open access, and support for 46 natural languages.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/bloom" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/bloom" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,7 +204,7 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -212,7 +212,7 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/bloom",
+        "@id": "https://aicw.io/ai-chat-bot/bloom",
         "name": "BLOOM"
       }
     }

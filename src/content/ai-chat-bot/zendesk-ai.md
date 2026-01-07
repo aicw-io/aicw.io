@@ -117,7 +117,7 @@ AI Agent Implementation Stages:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/zendesk-ai"
+  "@id": "https://aicw.io/ai-chat-bot/zendesk-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ AI Agent Implementation Stages:
   "description": "A comprehensive guide on Zendesk AI, its features, and how businesses can leverage it for customer service automation.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/zendesk-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/zendesk-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,7 +204,7 @@ AI Agent Implementation Stages:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -212,7 +212,7 @@ AI Agent Implementation Stages:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/zendesk-ai",
+        "@id": "https://aicw.io/ai-chat-bot/zendesk-ai",
         "name": "Zendesk AI"
       }
     }

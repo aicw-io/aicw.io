@@ -158,9 +158,9 @@ Facebookexternalhit is Facebook's key tool for generating link previews during U
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/facebookexternalhit",
+  "@id": "https://aicw.io/ai-crawler-bot/facebookexternalhit",
   "name": "What Is facebookexternalhit",
-  "url": "https://aichatwatch.com/ai-crawler-bot/facebookexternalhit",
+  "url": "https://aicw.io/ai-crawler-bot/facebookexternalhit",
   "description": "Learn about Facebook's web crawler, facebookexternalhit, and its role in generating link previews on the platform.",
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" }
 }
@@ -173,7 +173,7 @@ Facebookexternalhit is Facebook's key tool for generating link previews during U
   "description": "Learn about Facebook's web crawler, facebookexternalhit, and its role in generating link previews on the platform.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/facebookexternalhit" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/facebookexternalhit" }
 }
 </script>
 <script type="application/ld+json">
@@ -249,13 +249,13 @@ Facebookexternalhit is Facebook's key tool for generating link previews during U
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "What Is facebookexternalhit",
-      "item": "https://aichatwatch.com/ai-crawler-bot/facebookexternalhit"
+      "item": "https://aicw.io/ai-crawler-bot/facebookexternalhit"
     }
   ]
 }

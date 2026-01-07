@@ -162,7 +162,7 @@ Compared to alternatives like AhrefsBot and SEMrushBot, SerpstatBot offers simil
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/serpstatbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/serpstatbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -173,7 +173,7 @@ Compared to alternatives like AhrefsBot and SEMrushBot, SerpstatBot offers simil
   "description": "SerpstatBot is a web crawler operated by Serpstat, an all-in-one SEO platform that launched in 2013, collecting data for various SEO tools.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/serpstatbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/serpstatbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -249,13 +249,13 @@ Compared to alternatives like AhrefsBot and SEMrushBot, SerpstatBot offers simil
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "SerpstatBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/serpstatbot"
+      "item": "https://aicw.io/ai-crawler-bot/serpstatbot"
     }
   ]
 }

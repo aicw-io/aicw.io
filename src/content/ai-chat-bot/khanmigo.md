@@ -131,8 +131,8 @@ Safety features, including conversation monitoring and content filters, address 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Khanmigo: AI-Powered Education Tool",
-  "url": "https://aichatwatch.com/ai-chat-bot/khanmigo",
-  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-chat-bot/khanmigo"}
+  "url": "https://aicw.io/ai-chat-bot/khanmigo",
+  "mainEntityOfPage": {"@id": "https://aicw.io/ai-chat-bot/khanmigo"}
 }</script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -141,7 +141,7 @@ Safety features, including conversation monitoring and content filters, address 
   "description": "Khanmigo is an AI-powered tutoring assistant created by Khan Academy, enhancing K-12 education with personalized learning experiences.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/khanmigo"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/khanmigo"}
 }</script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -213,13 +213,13 @@ Safety features, including conversation monitoring and content filters, address 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Khanmigo",
-      "item": "https://aichatwatch.com/ai-chat-bot/khanmigo"
+      "item": "https://aicw.io/ai-chat-bot/khanmigo"
     }
   ]
 }</script>

@@ -201,7 +201,7 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/poe"
+  "@id": "https://aicw.io/ai-chat-bot/poe"
 }
 </script>
 <script type="application/ld+json">
@@ -212,7 +212,7 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
   "description": "Explore Poe, the all-in-one AI chat platform that centralizes multiple AI models for seamless user interaction.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/poe" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/poe" }
 }
 </script>
 <script type="application/ld+json">
@@ -288,7 +288,7 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -296,7 +296,7 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/poe",
+        "@id": "https://aicw.io/ai-chat-bot/poe",
         "name": "Poe"
       }
     }

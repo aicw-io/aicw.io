@@ -127,8 +127,8 @@ Yep is ambitiously reshaping search engine norms through privacy and revenue sha
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/yep-search",
-  "url": "https://aichatwatch.com/ai-search-engine/yep-search",
+  "@id": "https://aicw.io/ai-search-engine/yep-search",
+  "url": "https://aicw.io/ai-search-engine/yep-search",
   "name": "Yep Search Engine: A Game-Changer in Privacy and Revenue Sharing"
 }
 </script>
@@ -140,7 +140,7 @@ Yep is ambitiously reshaping search engine norms through privacy and revenue sha
   "description": "Yep is a privacy-focused search engine launched by Ahrefs in 2022, offering a 90/10 revenue-sharing model.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/yep-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/yep-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -216,13 +216,13 @@ Yep is ambitiously reshaping search engine norms through privacy and revenue sha
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Yep Search",
-      "item": "https://aichatwatch.com/ai-search-engine/yep-search"
+      "item": "https://aicw.io/ai-search-engine/yep-search"
     }
   ]
 }

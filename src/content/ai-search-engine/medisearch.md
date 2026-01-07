@@ -116,8 +116,8 @@ Peer-Reviewed Sources and AI Usage Flow:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/medisearch",
-  "url": "https://aichatwatch.com/ai-search-engine/medisearch",
+  "@id": "https://aicw.io/ai-search-engine/medisearch",
+  "url": "https://aicw.io/ai-search-engine/medisearch",
   "name": "MediSearch: Your Guide to Trustworthy Medical AI Search",
   "description": "MediSearch is an AI medical search engine designed to provide reliable health information directly from peer-reviewed medical sources.",
   "mainEntity": {
@@ -126,7 +126,7 @@ Peer-Reviewed Sources and AI Usage Flow:
     "description": "MediSearch is an AI medical search engine designed to provide reliable health information directly from peer-reviewed medical sources.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/medisearch" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/medisearch" }
   }
 }
 </script>
@@ -205,13 +205,13 @@ Peer-Reviewed Sources and AI Usage Flow:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "MediSearch",
-      "item": "https://aichatwatch.com/ai-search-engine/medisearch"
+      "item": "https://aicw.io/ai-search-engine/medisearch"
     }
   ]
 }

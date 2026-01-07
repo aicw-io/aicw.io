@@ -193,7 +193,7 @@ As search evolves, Googlebot will continue advancing. Staying informed about cra
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/googlebot"
+  "@id": "https://aicw.io/ai-crawler-bot/googlebot"
 }
 </script>
 <script type="application/ld+json">
@@ -204,7 +204,7 @@ As search evolves, Googlebot will continue advancing. Staying informed about cra
   "description": "An overview of Googlebot, the primary crawler for Google's search indexing, and its impact on SEO and website visibility.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/googlebot"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/googlebot"}
 }
 </script>
 <script type="application/ld+json">
@@ -280,7 +280,7 @@ As search evolves, Googlebot will continue advancing. Staying informed about cra
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -288,7 +288,7 @@ As search evolves, Googlebot will continue advancing. Staying informed about cra
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/googlebot",
+        "@id": "https://aicw.io/ai-crawler-bot/googlebot",
         "name": "What is Googlebot and Why It Matters"
       }
     }

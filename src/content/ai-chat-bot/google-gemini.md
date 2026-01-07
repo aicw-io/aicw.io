@@ -162,7 +162,7 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/google-gemini",
+  "url": "https://aicw.io/ai-chat-bot/google-gemini",
   "name": "Google Gemini"
 }
 </script>
@@ -174,7 +174,7 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
   "description": "Google Gemini is Google's AI chatbot and assistant, offering advanced features and integration with Google services. This article explores its capabilities and subscription plans.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/google-gemini" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/google-gemini" }
 }
 </script>
 <script type="application/ld+json">
@@ -250,7 +250,7 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -258,7 +258,7 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/google-gemini",
+        "@id": "https://aicw.io/ai-chat-bot/google-gemini",
         "name": "Google Gemini"
       }
     }

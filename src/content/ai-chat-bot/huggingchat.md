@@ -160,8 +160,8 @@ HuggingChat represents a significant step toward democratizing access to AI chat
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/huggingchat",
-  "url": "https://aichatwatch.com/ai-chat-bot/huggingchat",
+  "@id": "https://aicw.io/ai-chat-bot/huggingchat",
+  "url": "https://aicw.io/ai-chat-bot/huggingchat",
   "name": "HuggingChat",
   "description": "Learn about HuggingChat, an open-source AI chatbot platform providing various language models and emphasizing user privacy."
 }
@@ -174,7 +174,7 @@ HuggingChat represents a significant step toward democratizing access to AI chat
   "description": "HuggingChat is a free AI chatbot that is both open-source and offered by Hugging Face AI, providing users with various large language models at no cost.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/huggingchat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/huggingchat" }
 }
 </script>
 <script type="application/ld+json">
@@ -250,13 +250,13 @@ HuggingChat represents a significant step toward democratizing access to AI chat
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "HuggingChat",
-      "item": "https://aichatwatch.com/ai-chat-bot/huggingchat"
+      "item": "https://aicw.io/ai-chat-bot/huggingchat"
     }
   ]
 }
@@ -266,7 +266,7 @@ HuggingChat represents a significant step toward democratizing access to AI chat
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aichatwatch.com"
+  "url": "https://aicw.io"
 }
 </script>
 

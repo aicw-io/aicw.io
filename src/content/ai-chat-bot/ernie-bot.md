@@ -123,8 +123,8 @@ ERNIE Bot signifies Baidu's venture into the generative AI chatbot market, empha
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/ernie-bot",
-  "url": "https://aichatwatch.com/ai-chat-bot/ernie-bot",
+  "@id": "https://aicw.io/ai-chat-bot/ernie-bot",
+  "url": "https://aicw.io/ai-chat-bot/ernie-bot",
   "name": "ERNIE Bot: Baidu's Chinese AI Chatbot",
   "description": "An overview of ERNIE Bot, Baidu's AI chatbot designed for Chinese language users, its features, and market positioning."
 }
@@ -137,7 +137,7 @@ ERNIE Bot signifies Baidu's venture into the generative AI chatbot market, empha
   "description": "An overview of ERNIE Bot, Baidu's AI chatbot designed for Chinese language users, its features, and market positioning.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/ernie-bot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/ernie-bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -213,13 +213,13 @@ ERNIE Bot signifies Baidu's venture into the generative AI chatbot market, empha
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ERNIE Bot",
-      "item": "https://aichatwatch.com/ai-chat-bot/ernie-bot"
+      "item": "https://aicw.io/ai-chat-bot/ernie-bot"
     }
   ]
 }

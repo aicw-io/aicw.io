@@ -138,7 +138,7 @@ Cohere Command R+ stands out as a robust enterprise AI chatbot, tailored for ret
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/cohere-command",
+  "@id": "https://aicw.io/ai-chat-bot/cohere-command",
   "name": "Cohere Command R+ - AI Chat Watch",
   "description": "Cohere Command R+ serves as a powerful enterprise AI chatbot tailored for businesses requiring sophisticated language processing capabilities.",
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"}
@@ -152,7 +152,7 @@ Cohere Command R+ stands out as a robust enterprise AI chatbot, tailored for ret
   "description": "Cohere Command R+ is an AI chatbot designed for enterprise applications, providing multilingual support and RAG capabilities.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/cohere-command"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/cohere-command"}
 }
 </script>
 <script type="application/ld+json">
@@ -228,13 +228,13 @@ Cohere Command R+ stands out as a robust enterprise AI chatbot, tailored for ret
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Cohere Command",
-      "item": "https://aichatwatch.com/ai-chat-bot/cohere-command"
+      "item": "https://aicw.io/ai-chat-bot/cohere-command"
     }
   ]
 }

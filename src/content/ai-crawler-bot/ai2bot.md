@@ -198,10 +198,10 @@ Disallow: /</code>.</p>
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-crawler-bot/ai2bot",
+  "url": "https://aicw.io/ai-crawler-bot/ai2bot",
   "name": "AI2Bot: The Open Source AI Web Crawler",
   "description": "An exploration of AI2Bot's role in open-source AI research and data collection.",
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot" }
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/ai2bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -212,7 +212,7 @@ Disallow: /</code>.</p>
   "description": "An exploration of AI2Bot's role in open-source AI research and data collection.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/ai2bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -267,7 +267,7 @@ Disallow: /</code>.</p>
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -275,7 +275,7 @@ Disallow: /</code>.</p>
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot",
+        "@id": "https://aicw.io/ai-crawler-bot/ai2bot",
         "name": "AI2Bot: The Open Source AI Web Crawler"
       }
     }

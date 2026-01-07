@@ -122,7 +122,7 @@ StableLM signifies Stability AI's commitment to open language models, offering v
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/stablelm"
+  "@id": "https://aicw.io/ai-chat-bot/stablelm"
 }
 </script>
 
@@ -134,7 +134,7 @@ StableLM signifies Stability AI's commitment to open language models, offering v
   "description": "StableLM is an integral part of the open-source AI movement, providing robust tools for developers and researchers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-chat-bot/stablelm" }
+  "mainEntityOfPage": { "@id": "https://aicw.io/ai-chat-bot/stablelm" }
 }
 </script>
 
@@ -212,13 +212,13 @@ StableLM signifies Stability AI's commitment to open language models, offering v
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "StableLM",
-      "item": "https://aichatwatch.com/ai-chat-bot/stablelm"
+      "item": "https://aicw.io/ai-chat-bot/stablelm"
     }
   ]
 }

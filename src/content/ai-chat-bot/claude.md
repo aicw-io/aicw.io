@@ -155,8 +155,8 @@ Claude Pro offers power users higher limits, while the Claude API serves develop
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/claude",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/claude" }
+  "url": "https://aicw.io/ai-chat-bot/claude",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/claude" }
 }
 </script>
 <script type="application/ld+json">
@@ -167,7 +167,7 @@ Claude Pro offers power users higher limits, while the Claude API serves develop
   "description": "Claude is a versatile AI chatbot developed by Anthropic, focusing on safety, ethical interactions, and a 200K token context window.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/claude" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/claude" }
 }
 </script>
 <script type="application/ld+json">
@@ -243,7 +243,7 @@ Claude Pro offers power users higher limits, while the Claude API serves develop
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -251,7 +251,7 @@ Claude Pro offers power users higher limits, while the Claude API serves develop
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/claude",
+        "@id": "https://aicw.io/ai-chat-bot/claude",
         "name": "Claude AI"
       }
     }

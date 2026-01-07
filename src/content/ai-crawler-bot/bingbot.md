@@ -116,10 +116,10 @@ Bingbot is Microsoft's primary tool for content discovery and indexing, driving 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/bingbot",
+  "@id": "https://aicw.io/ai-crawler-bot/bingbot",
   "name": "Bingbot: Understanding Microsoft's Web Crawler",
   "description": "Learn how Bingbot operates to enhance your website's visibility in Bing search engine.",
-  "url": "https://aichatwatch.com/ai-crawler-bot/bingbot"
+  "url": "https://aicw.io/ai-crawler-bot/bingbot"
 }
 </script>
 <script type="application/ld+json">
@@ -130,7 +130,7 @@ Bingbot is Microsoft's primary tool for content discovery and indexing, driving 
   "description": "Learn how Bingbot operates to enhance your website's visibility in Bing search engine.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bingbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/bingbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -206,13 +206,13 @@ Bingbot is Microsoft's primary tool for content discovery and indexing, driving 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Bingbot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/bingbot"
+      "item": "https://aicw.io/ai-crawler-bot/bingbot"
     }
   ]
 }

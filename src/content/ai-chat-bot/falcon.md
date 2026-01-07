@@ -118,14 +118,14 @@ Falcon LLM stands as a pivotal open-source AI contribution from the UAE's Techno
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/falcon",
+  "url": "https://aicw.io/ai-chat-bot/falcon",
   "mainEntity": {
     "@type": "Article",
     "headline": "Falcon LLM: A Leading Open-Source AI Model by TII",
     "description": "Falcon LLM is a remarkable family of open-source large language models crafted by TII.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/falcon" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/falcon" }
   }
 }
 </script>
@@ -202,7 +202,7 @@ Falcon LLM stands as a pivotal open-source AI contribution from the UAE's Techno
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -210,7 +210,7 @@ Falcon LLM stands as a pivotal open-source AI contribution from the UAE's Techno
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-chat-bot/falcon",
+        "@id": "https://aicw.io/ai-chat-bot/falcon",
         "name": "Falcon"
       }
     }

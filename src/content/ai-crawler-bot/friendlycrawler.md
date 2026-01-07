@@ -192,7 +192,7 @@ Understanding these tools helps you make informed decisions about content access
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/friendlycrawler"
+  "@id": "https://aicw.io/ai-crawler-bot/friendlycrawler"
 }
 </script>
 <script type="application/ld+json">
@@ -203,7 +203,7 @@ Understanding these tools helps you make informed decisions about content access
   "description": "This article covers what Friendly Crawler is, its purpose, how to identify it in server logs, and methods to block it if needed.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/friendlycrawler" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/friendlycrawler" }
 }
 </script>
 <script type="application/ld+json">
@@ -279,13 +279,13 @@ Understanding these tools helps you make informed decisions about content access
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Friendly Crawler",
-      "item": "https://aichatwatch.com/ai-crawler-bot/friendlycrawler"
+      "item": "https://aicw.io/ai-crawler-bot/friendlycrawler"
     }
   ]
 }

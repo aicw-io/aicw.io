@@ -40,7 +40,7 @@ You get the insights you need without compromising your visitors' privacy.
 
 ## See It In Action
 
-Check out our [live public demo](https://app.aichatwatch.com/public/aichatwatch.com) to see real AI traffic data for aichatwatch.com.
+Check out our [live public demo](https://app.aicw.io/public/aicw.io) to see real AI traffic data for aicw.io.
 
 ## Who Should Use AI Chat Watch?
 
@@ -60,7 +60,7 @@ See the real impact of AI recommendations on your website traffic.
 
 Setup takes 60 seconds:
 
-1. Sign up at [app.aichatwatch.com](https://app.aichatwatch.com)
+1. Sign up at [app.aicw.io](https://app.aicw.io)
 2. Add one line of tracking code to your website
 3. Start seeing AI traffic data immediately
 
@@ -77,4 +77,4 @@ We'll be sharing:
 
 ---
 
-**Ready to track your AI traffic?** [Start your free trial](https://app.aichatwatch.com) or view our [live demo](https://app.aichatwatch.com/public/aichatwatch.com).
+**Ready to track your AI traffic?** [Start your free trial](https://app.aicw.io) or view our [live demo](https://app.aicw.io/public/aicw.io).

@@ -227,7 +227,7 @@ Compared to other AI crawlers like [GPTBot](/ai-crawler-bot/gptbot/), [ClaudeBot
   "description": "Explore PerplexityBot, the web crawler by Perplexity AI, its purpose, operations, and its impact on web content access.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/perplexitybot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/perplexitybot" }
 }
 </script>
 <script type="application/ld+json">
@@ -303,13 +303,13 @@ Compared to other AI crawlers like [GPTBot](/ai-crawler-bot/gptbot/), [ClaudeBot
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "PerplexityBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/perplexitybot"
+      "item": "https://aicw.io/ai-crawler-bot/perplexitybot"
     }
   ]
 }

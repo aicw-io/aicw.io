@@ -223,14 +223,14 @@ Users looking for direct purchases must still visit seller websites, as the syst
   "description": "Explore the complete guide to ChatGPT Shopping features, their functionality, and a comparison with other AI shopping platforms.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-shopping" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/chatgpt-shopping" }
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-search-engine/chatgpt-shopping",
+  "url": "https://aicw.io/ai-search-engine/chatgpt-shopping",
   "name": "ChatGPT Shopping Features: Complete Guide and Comparison"
 }
 </script>
@@ -307,13 +307,13 @@ Users looking for direct purchases must still visit seller websites, as the syst
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ChatGPT Shopping Features",
-      "item": "https://aichatwatch.com/ai-search-engine/chatgpt-shopping"
+      "item": "https://aicw.io/ai-search-engine/chatgpt-shopping"
     }
   ]
 }

@@ -160,8 +160,8 @@ Users should remember that while Replika can provide emotional support, it is no
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aichatwatch.com/ai-chat-bot/replika",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/replika" }
+  "url": "https://aicw.io/ai-chat-bot/replika",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/replika" }
 }
 </script>
 
@@ -173,7 +173,7 @@ Users should remember that while Replika can provide emotional support, it is no
   "description": "Replika is an AI companion app designed to provide emotional support and friendship through conversations, adapting to users' communication styles.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/replika" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/replika" }
 }
 </script>
 
@@ -251,13 +251,13 @@ Users should remember that while Replika can provide emotional support, it is no
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Replika",
-      "item": "https://aichatwatch.com/ai-chat-bot/replika"
+      "item": "https://aicw.io/ai-chat-bot/replika"
     }
   ]
 }

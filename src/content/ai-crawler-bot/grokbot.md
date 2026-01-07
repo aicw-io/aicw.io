@@ -154,8 +154,8 @@ GrokBot represents xAI's entry into the competitive field of AI training data co
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/grokbot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/grokbot",
+  "@id": "https://aicw.io/ai-crawler-bot/grokbot",
+  "url": "https://aicw.io/ai-crawler-bot/grokbot",
   "name": "GrokBot: Understanding xAI's Web Crawler",
   "description": "Explore GrokBot, an automated crawler by xAI designed for data collection to train AI models, and understand its implications for webmasters."
 }
@@ -176,7 +176,7 @@ GrokBot represents xAI's entry into the competitive field of AI training data co
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aichatwatch.com/ai-crawler-bot/grokbot"
+    "@id": "https://aicw.io/ai-crawler-bot/grokbot"
   }
 }
 </script>
@@ -253,13 +253,13 @@ GrokBot represents xAI's entry into the competitive field of AI training data co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "GrokBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/grokbot"
+      "item": "https://aicw.io/ai-crawler-bot/grokbot"
     }
   ]
 }

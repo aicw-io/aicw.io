@@ -187,8 +187,8 @@ Perplexity-Ads-Bot is an advertising crawler operated by Perplexity AI to suppor
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/perplexity-ads-bot" },
-  "url": "https://aichatwatch.com/ai-crawler-bot/perplexity-ads-bot",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/perplexity-ads-bot" },
+  "url": "https://aicw.io/ai-crawler-bot/perplexity-ads-bot",
   "name": "What is Perplexity-Ads-Bot"
 }
 </script>
@@ -200,7 +200,7 @@ Perplexity-Ads-Bot is an advertising crawler operated by Perplexity AI to suppor
   "description": "Perplexity-Ads-Bot is a web crawler operated by Perplexity AI, designed for advertising purposes. It gathers data to support the advertising operations within the Perplexity platform.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/perplexity-ads-bot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/perplexity-ads-bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -276,7 +276,7 @@ Perplexity-Ads-Bot is an advertising crawler operated by Perplexity AI to suppor
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aichatwatch.com/",
+        "@id": "https://aicw.io/",
         "name": "Home"
       }
     },
@@ -284,7 +284,7 @@ Perplexity-Ads-Bot is an advertising crawler operated by Perplexity AI to suppor
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aichatwatch.com/ai-crawler-bot/perplexity-ads-bot",
+        "@id": "https://aicw.io/ai-crawler-bot/perplexity-ads-bot",
         "name": "What is Perplexity-Ads-Bot"
       }
     }

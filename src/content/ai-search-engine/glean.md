@@ -199,8 +199,8 @@ Companies considering Glean should evaluate their current information access pro
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-search-engine/glean",
-  "url": "https://aichatwatch.com/ai-search-engine/glean",
+  "@id": "https://aicw.io/ai-search-engine/glean",
+  "url": "https://aicw.io/ai-search-engine/glean",
   "name": "Glean Enterprise AI Search Platform Guide for 2024",
   "description": "Guide to Glean, an enterprise AI search platform improving information access across workplace applications."
 }
@@ -213,7 +213,7 @@ Companies considering Glean should evaluate their current information access pro
   "description": "Explore Glean's capabilities in streamlining enterprise search and enhancing information access across applications.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/glean" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/glean" }
 }
 </script>
 <script type="application/ld+json">
@@ -289,13 +289,13 @@ Companies considering Glean should evaluate their current information access pro
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Glean Enterprise AI Search Platform Guide for 2024",
-      "item": "https://aichatwatch.com/ai-search-engine/glean"
+      "item": "https://aicw.io/ai-search-engine/glean"
     }
   ]
 }

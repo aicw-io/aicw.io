@@ -193,8 +193,8 @@ Priority support provides faster response times and dedicated success managers, 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-chat-bot/codeium",
-  "url": "https://aichatwatch.com/ai-chat-bot/codeium",
+  "@id": "https://aicw.io/ai-chat-bot/codeium",
+  "url": "https://aicw.io/ai-chat-bot/codeium",
   "name": "Codeium: Free AI-Powered Code Completion for Developers"
 }
 </script>
@@ -207,7 +207,7 @@ Priority support provides faster response times and dedicated success managers, 
   "description": "Codeium is a free AI-powered code assistant that enhances productivity for developers with intelligent code suggestions and seamless IDE integration.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/codeium" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/codeium" }
 }
 </script>
 
@@ -285,13 +285,13 @@ Priority support provides faster response times and dedicated success managers, 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Codeium",
-      "item": "https://aichatwatch.com/ai-chat-bot/codeium"
+      "item": "https://aicw.io/ai-chat-bot/codeium"
     }
   ]
 }

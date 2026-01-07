@@ -116,14 +116,14 @@ MojeekBot is an essential part of independent search infrastructure, operating o
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aichatwatch.com/ai-crawler-bot/mojeekbot",
-  "url": "https://aichatwatch.com/ai-crawler-bot/mojeekbot",
+  "@id": "https://aicw.io/ai-crawler-bot/mojeekbot",
+  "url": "https://aicw.io/ai-crawler-bot/mojeekbot",
   "name": "MojeekBot: The Independent Search Engine Crawler",
   "description": "Explore MojeekBot, an independent search engine crawler that respects user privacy while providing alternative search visibility.",
   "publisher": {
     "@type": "Organization",
     "name": "AI Chat Watch",
-    "url": "https://aichatwatch.com"
+    "url": "https://aicw.io"
   }
 }
 </script>
@@ -135,7 +135,7 @@ MojeekBot is an essential part of independent search infrastructure, operating o
   "description": "Discover how MojeekBot operates as a unique and privacy-respecting alternative to mainstream search crawlers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/mojeekbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/mojeekbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -211,13 +211,13 @@ MojeekBot is an essential part of independent search infrastructure, operating o
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aichatwatch.com/"
+      "item": "https://aicw.io/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "MojeekBot",
-      "item": "https://aichatwatch.com/ai-crawler-bot/mojeekbot"
+      "item": "https://aicw.io/ai-crawler-bot/mojeekbot"
     }
   ]
 }
