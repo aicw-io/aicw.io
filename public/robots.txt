@@ -1,9 +1,9 @@
-# robots.txt for aichatwatch.com
+# robots.txt for aicw.io
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.aichatwatch.com/sitemap-index.xml
+Sitemap: https://aicw.io/sitemap-index.xml
 
 # AI crawlers - explicitly allowed
 User-agent: GPTBot
@@ -24,4 +24,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# See also: https://www.aichatwatch.com/llms.txt
+# See also: https://aicw.io/llms.txt
