@@ -106,10 +106,10 @@ The tool itself is completely free. AI model costs are typically minimal:
 - No monthly fees or subscriptions
 
 ## Links & Resources
-- Website: https://aichatwatch.com
+- Website: https://aicw.io
 - GitHub Repository: https://github.com/aichatwatch/aicw
 - NPM Package: https://www.npmjs.com/package/@aichatwatch/aicw
-- Sample Reports: https://aichatwatch.com/demo/reports/
+- Sample Reports: https://aicw.io/rankings/
 - Report Issues: https://github.com/aichatwatch/aicw/issues
 
 ## License & Contributing

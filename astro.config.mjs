@@ -1,7 +1,34 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import { existsSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
+
+// Safe redirects loader - won't break build if file is missing/invalid
+function loadRedirects() {
+  const redirectsPath = './redirects.json';
+  try {
+    if (!existsSync(redirectsPath)) {
+      console.warn('⚠️  redirects.json not found, skipping redirects');
+      return {};
+    }
+    const content = readFileSync(redirectsPath, 'utf-8');
+    const parsed = JSON.parse(content);
+
+    // Validate it's an object
+    if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) {
+      console.warn('⚠️  redirects.json must be an object, skipping redirects');
+      return {};
+    }
+
+    console.log(`✓ Loaded ${Object.keys(parsed).length} redirect(s)`);
+    return parsed;
+  } catch (error) {
+    console.warn(`⚠️  Error loading redirects.json: ${error.message}`);
+    return {};
+  }
+}
+
+const redirects = loadRedirects();
 
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
@@ -32,8 +59,9 @@ function servePublicDirectoryIndex() {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.aichatwatch.com',
+  site: 'https://aicw.io',
   trailingSlash: 'always',
+  redirects,
   vite: {
     plugins: [tailwindcss(), servePublicDirectoryIndex()],
     ssr: { external: ['@resvg/resvg-js'] },
