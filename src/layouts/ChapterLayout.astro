@@ -1,0 +1,188 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+import SocialShareButtons from '../components/SocialShareButtons.astro';
+import ImageLightbox from '../components/ImageLightbox.astro';
+import type { CollectionEntry } from 'astro:content';
+
+export interface Props {
+  chapter: CollectionEntry<'book-chapters'>;
+  book: CollectionEntry<'books'>;
+  allChapters: CollectionEntry<'book-chapters'>[];
+}
+
+const { chapter, book, allChapters } = Astro.props;
+const { Content } = await chapter.render();
+const rawContent = chapter.body || '';
+
+const { title, chapterNumber } = chapter.data;
+const bookTitle = book.data.title;
+const bookSlug = book.slug;
+
+// Calculate word count and reading time
+const wordCount = rawContent.split(/\s+/).filter(word => word.length > 0).length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+
+// Get prev/next chapters
+const currentIndex = allChapters.findIndex(c => c.slug === chapter.slug);
+const prevChapter = currentIndex > 0 ? allChapters[currentIndex - 1] : null;
+const nextChapter = currentIndex < allChapters.length - 1 ? allChapters[currentIndex + 1] : null;
+
+// Chapter slug (just the filename part)
+const chapterSlug = chapter.slug.split('/').pop();
+---
+
+<BaseLayout
+  title={`${title} | ${bookTitle} | AI Chat Watch`}
+  description={`Chapter ${chapterNumber}: ${title} from ${bookTitle}`}
+  canonical={`/books/${bookSlug}/${chapterSlug}/`}
+  type="article"
+>
+  <div class="min-h-screen bg-bg-secondary">
+    <Navigation />
+
+    <div class="container mx-auto px-6 py-12">
+      <div class="max-w-7xl mx-auto lg:grid lg:grid-cols-[220px_1fr] lg:gap-8">
+        <!-- Left Sidebar - Chapter List -->
+        <aside class="hidden lg:block">
+          <div class="sticky top-24">
+            <a href={`/books/${bookSlug}/`} class="text-sm text-text-light hover:text-primary-700 mb-4 block">
+              &larr; Back to Book
+            </a>
+            <h3 class="font-semibold text-text-primary mb-3 text-sm">Chapters</h3>
+            <nav class="space-y-1 text-sm max-h-[60vh] overflow-y-auto pr-2">
+              {allChapters.map((ch) => {
+                const slug = ch.slug.split('/').pop();
+                const isActive = ch.slug === chapter.slug;
+                return (
+                  <a
+                    href={`/books/${bookSlug}/${slug}/`}
+                    class={`block py-1.5 px-2 rounded transition-colors ${
+                      isActive
+                        ? 'bg-primary-100 text-primary-700 font-medium'
+                        : 'text-text-light hover:text-text-primary hover:bg-bg-primary'
+                    }`}
+                  >
+                    <span class="text-xs text-text-light mr-1">{ch.data.chapterNumber}.</span>
+                    <span class="line-clamp-1">{ch.data.title.replace(/^Chapter \d+:\s*/, '').substring(0, 30)}</span>
+                  </a>
+                );
+              })}
+            </nav>
+          </div>
+        </aside>
+
+        <!-- Main Content -->
+        <article class="max-w-4xl">
+          <!-- Header -->
+          <header class="mb-8">
+            <!-- Breadcrumb -->
+            <nav class="flex items-center gap-2 text-sm text-text-light mb-4 flex-wrap">
+              <a href="/" class="hover:text-primary-700 transition-colors">Home</a>
+              <span>/</span>
+              <a href="/books/" class="hover:text-primary-700 transition-colors">Books</a>
+              <span>/</span>
+              <a href={`/books/${bookSlug}/`} class="hover:text-primary-700 transition-colors truncate max-w-[200px]">{bookTitle}</a>
+              <span>/</span>
+              <span class="text-text-secondary">Chapter {chapterNumber}</span>
+            </nav>
+
+            <!-- Chapter number badge -->
+            <div class="text-sm text-primary-600 font-medium mb-2">
+              Chapter {chapterNumber} of {allChapters.length}
+            </div>
+
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 text-text-primary font-heading">
+              {title}
+            </h1>
+
+            <!-- Meta -->
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-light">
+              <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>{readingTime} min read</span>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                </svg>
+                <span>{wordCount.toLocaleString()} words</span>
+              </div>
+            </div>
+          </header>
+
+          <!-- Content -->
+          <div class="prose prose-lg max-w-none
+            prose-headings:font-heading prose-headings:text-text-primary
+            prose-h1:text-2xl prose-h1:mt-8 prose-h1:mb-4
+            prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-4
+            prose-h3:text-lg prose-h3:mt-8 prose-h3:mb-3
+            prose-p:text-text-secondary prose-p:leading-relaxed prose-p:mb-6
+            prose-a:text-primary-700 prose-a:no-underline hover:prose-a:underline
+            prose-strong:text-text-primary prose-strong:font-semibold
+            prose-pre:bg-dark-900 prose-pre:border prose-pre:border-border
+            prose-img:rounded-lg prose-img:shadow-lg prose-img:mx-auto prose-img:w-full prose-img:max-w-2xl prose-img:max-h-[500px] prose-img:object-contain prose-img:cursor-zoom-in
+            prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:bg-bg-secondary prose-blockquote:py-1
+            prose-ul:text-text-secondary prose-ol:text-text-secondary
+            prose-li:mb-2
+            mb-12"
+          >
+            <Content />
+          </div>
+
+          <!-- Chapter Navigation -->
+          <nav class="flex flex-col sm:flex-row gap-4 border-t border-border pt-8 mt-8">
+            {prevChapter ? (
+              <a
+                href={`/books/${bookSlug}/${prevChapter.slug.split('/').pop()}/`}
+                class="flex-1 group p-4 rounded-lg border border-border hover:border-primary-300 hover:bg-bg-primary transition-all"
+              >
+                <div class="text-xs text-text-light mb-1">&larr; Previous</div>
+                <div class="font-medium text-text-primary group-hover:text-primary-700 transition-colors line-clamp-1">
+                  {prevChapter.data.title}
+                </div>
+              </a>
+            ) : (
+              <div class="flex-1"></div>
+            )}
+            {nextChapter ? (
+              <a
+                href={`/books/${bookSlug}/${nextChapter.slug.split('/').pop()}/`}
+                class="flex-1 group p-4 rounded-lg border border-border hover:border-primary-300 hover:bg-bg-primary transition-all text-right"
+              >
+                <div class="text-xs text-text-light mb-1">Next &rarr;</div>
+                <div class="font-medium text-text-primary group-hover:text-primary-700 transition-colors line-clamp-1">
+                  {nextChapter.data.title}
+                </div>
+              </a>
+            ) : (
+              <div class="flex-1"></div>
+            )}
+          </nav>
+
+          <!-- Social Share -->
+          <div class="mt-8">
+            <SocialShareButtons title={`${title} - ${bookTitle}`} url={`/books/${bookSlug}/${chapterSlug}/`} />
+          </div>
+
+          <!-- Back to Book -->
+          <div class="border-t border-border pt-8 mt-8">
+            <a
+              href={`/books/${bookSlug}/`}
+              class="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 transition-colors"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              Back to {bookTitle}
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <ImageLightbox />
+  </div>
+</BaseLayout>

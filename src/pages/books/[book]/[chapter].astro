@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import ChapterLayout from '../../../layouts/ChapterLayout.astro';
+
+export async function getStaticPaths() {
+  const chapters = await getCollection('book-chapters');
+  const books = await getCollection('books');
+
+  return chapters.map((chapter) => {
+    const bookSlug = chapter.data.book;
+    const book = books.find(b => b.slug === bookSlug);
+    const bookChapters = chapters
+      .filter(c => c.data.book === bookSlug)
+      .sort((a, b) => a.data.chapterNumber - b.data.chapterNumber);
+
+    // Get just the chapter filename (e.g., "00-introduction" from "ai-seo-guide/00-introduction")
+    const chapterSlug = chapter.slug.split('/').pop();
+
+    return {
+      params: {
+        book: bookSlug,
+        chapter: chapterSlug,
+      },
+      props: { chapter, book, allChapters: bookChapters },
+    };
+  });
+}
+
+const { chapter, book, allChapters } = Astro.props;
+---
+
+<ChapterLayout chapter={chapter} book={book} allChapters={allChapters} />

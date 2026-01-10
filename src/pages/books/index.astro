@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navigation from '../../components/Navigation.astro';
+
+const books = await getCollection('books');
+const sortedBooks = books.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="Books & Guides | AI Chat Watch"
+  description="Free books and guides on AI visibility, AI SEO, and optimizing content for AI search engines like ChatGPT, Perplexity, and Claude."
+  canonical="/books/"
+>
+  <div class="min-h-screen bg-bg-secondary">
+    <Navigation />
+
+    <!-- Header -->
+    <header class="gradient-dark py-16">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4 text-white font-heading">
+          Books & Guides
+        </h1>
+        <p class="text-lg text-white/70 max-w-2xl mx-auto">
+          In-depth resources on AI visibility and search optimization. Free to read online or download.
+        </p>
+      </div>
+    </header>
+
+    <!-- Books Grid -->
+    <div class="container mx-auto px-6 py-12">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        {sortedBooks.map((book) => (
+          <article class="bg-bg-primary rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
+            <!-- Cover Image -->
+            <a href={`/books/${book.slug}/`} class="block aspect-[3/4] overflow-hidden bg-bg-secondary">
+              <img
+                src={book.data.coverImage}
+                alt={book.data.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </a>
+
+            <!-- Content -->
+            <div class="p-6">
+              <a href={`/books/${book.slug}/`}>
+                <h2 class="text-xl font-bold text-text-primary mb-2 group-hover:text-primary-700 transition-colors line-clamp-2">
+                  {book.data.title}
+                </h2>
+              </a>
+
+              {book.data.subtitle && (
+                <p class="text-sm text-text-light mb-3 line-clamp-2">
+                  {book.data.subtitle}
+                </p>
+              )}
+
+              <p class="text-text-secondary text-sm mb-4 line-clamp-3">
+                {book.data.description}
+              </p>
+
+              <!-- Meta -->
+              <div class="flex items-center gap-4 text-xs text-text-light mb-4">
+                <span>By {book.data.author}</span>
+                {book.data.pageCount && (
+                  <span>{book.data.pageCount} pages</span>
+                )}
+              </div>
+
+              <!-- Actions -->
+              <div class="flex flex-wrap gap-2">
+                <a
+                  href={`/books/${book.slug}/`}
+                  class="inline-flex items-center gap-1 px-4 py-2 bg-primary-600 text-white rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
+                >
+                  Read Online
+                </a>
+                {book.data.downloads && book.data.downloads.length > 0 && (
+                  <a
+                    href={book.data.downloads[0].url}
+                    class="inline-flex items-center gap-1 px-4 py-2 border border-border text-text-secondary rounded-lg text-sm font-medium hover:bg-bg-secondary transition-colors"
+                    download
+                  >
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    Download
+                  </a>
+                )}
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>
