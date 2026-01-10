@@ -53,6 +53,42 @@ const blog = defineCollection({
   }),
 });
 
+// Books collection - book metadata and landing page content
+const books = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    subtitle: z.string().optional(),
+    description: z.string(),
+    date: z.coerce.date(),
+    author: z.string(),
+    coverImage: z.string(),
+    pageCount: z.number().optional(),
+    downloads: z.array(z.object({
+      format: z.enum(['pdf', 'epub']),
+      url: z.string(),
+      size: z.string().optional(),
+    })).optional(),
+    purchaseLinks: z.array(z.object({
+      store: z.enum(['amazon', 'kindle', 'gumroad', 'other']),
+      label: z.string(),
+      url: z.string(),
+    })).optional(),
+    chapters: z.array(z.string()),
+    featured: z.boolean().default(false),
+  }),
+});
+
+// Book chapters collection
+const bookChapters = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    chapterNumber: z.number(),
+    book: z.string(),
+  }),
+});
+
 // Guides collection schema (shared for ai-search-engine, ai-crawler-bot, ai-chat-bot)
 const guides = defineCollection({
   type: 'content',
@@ -82,6 +118,8 @@ const guides = defineCollection({
 export const collections = {
   blog,
   authors,
+  books,
+  'book-chapters': bookChapters,
   'ai-search-engine': guides,
   'ai-crawler-bot': guides,
   'ai-chat-bot': guides,
