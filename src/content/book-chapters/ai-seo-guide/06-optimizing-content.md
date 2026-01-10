@@ -117,7 +117,15 @@ Creating FAQ sections is the strategic approach that moves beyond *simple* keywo
 ## Checklist 1: Content Optimization for AI Understanding
 Purpose: check that content aligns with AI priorities:
 
-| \[ \] Clearly defined primary user intent (informational, transactional, navigational, problem-solving) \[ \] Titles clearly signal user intent (e.g., "How to...", "Guide to...") \[ \] Integrated long-tail keywords relevant to nuanced user needs \[ \] Included conversational language and natural questions users type or speak. \[ \] Semantic keywords (related terms, synonyms, entities) integrated \[ \] Content structured around clear questions and answers (headings) \[ \] FAQ/PAA sections implemented   |
-| ----- |
+```
+[ ] Clearly defined primary user intent (informational, transactional,
+    navigational, problem-solving)
+[ ] Titles clearly signal user intent (e.g., "How to...", "Guide to...")
+[ ] Integrated long-tail keywords relevant to nuanced user needs
+[ ] Included conversational language and natural questions users type or speak
+[ ] Semantic keywords (related terms, synonyms, entities) integrated
+[ ] Content structured around clear questions and answers (headings)
+[ ] FAQ/PAA sections implemented
+```
 
 #

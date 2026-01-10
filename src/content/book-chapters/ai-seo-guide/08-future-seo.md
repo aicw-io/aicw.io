@@ -78,7 +78,16 @@ First, don’t forget about “traditional” tools because the majority of sear
 
 ## **Checklist 4: Ongoing AI Search Strategy & MonitoringPurpose:** Maintain continuous improvements and adaptability in optimizing your content and website for AI search engines.
 
-| \[ \] Regularly monitor content visibility in AI Overviews and chatbots. \[ \] Analyze frequently cited AI sources in your niche (competitors, Reddit, Quora). \[ \] Consistently track organic traffic, click-through rates, and conversions correlated with AI changes. \[ \] Update and refresh content based on performance data and AI evolution. \[ \] Regularly follow trusted industry news sources on AI search updates and best practices. \[ \] Conduct ongoing experimentation with new content formats and technical strategies to adapt to AI trends. |
-| :---- |
+```
+[ ] Regularly monitor content visibility in AI Overviews and chatbots
+[ ] Analyze frequently cited AI sources in your niche (competitors, Reddit, Quora)
+[ ] Consistently track organic traffic, click-through rates, and conversions
+    correlated with AI changes
+[ ] Update and refresh content based on performance data and AI evolution
+[ ] Regularly follow trusted industry news sources on AI search updates and
+    best practices
+[ ] Conduct ongoing experimentation with new content formats and technical
+    strategies to adapt to AI trends
+```
 
 #

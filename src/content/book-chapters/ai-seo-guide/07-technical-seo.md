@@ -303,8 +303,15 @@ If you publish media content (video, images) then note that AI and search engine
 
 ## **Checklist 2: Implementing JSON-LDPurpose:** to successfully implement JSON-LD for your website to improve its accessibility and visibility to AI.
 
-| \[ \] Review your website and determine the priority and secondary schema types (Article, HowTo, FAQ) to be used  \[ \] Setup and use plugins for your website’s CMS to include JSON-LD data into pages (or add JSON-LD snippets manually into HTML) \[ \] Validate the JSON-LD markup in your website  using Schema Markup Validator or Google's Rich Results Test. \[ \] Monitor indexing improvements in website analytics  |
-| :---- |
+```
+[ ] Review your website and determine the priority and secondary schema types
+    (Article, HowTo, FAQ) to be used
+[ ] Setup and use plugins for your website's CMS to include JSON-LD data into
+    pages (or add JSON-LD snippets manually into HTML)
+[ ] Validate the JSON-LD markup in your website using Schema Markup Validator
+    or Google's Rich Results Test
+[ ] Monitor indexing improvements in website analytics
+```
 
 ## 
 
@@ -402,7 +409,17 @@ There is no official way to index websites for Perplexity AI’s index yet but y
 
 ## **Checklist 3: Technical SEO Essentials For AI CrawlersPurpose:** check that AI crawlers can efficiently access, render, read and understand your content.
 
-| \[ \] /robots.txt reviewed and tested \[ \] /sitemap.xml reviewed and tested \[ \] Large websites: sitemap frequency/priority tags (\<changefreq\>, \<priority\>) logically implemented \[ \] Server-Side Rendering (SSR)implemented \[ \] Page load speeds optimized (image compression, code minification, core web vitals) \[ \] JSON-LD structured data with the main content added \[ \] JSON-LD structured data with content of FAQ/PPA sections added too \[ \] Sitemap and website submitted to engines  |
-| :---- |
+```
+[ ] /robots.txt reviewed and tested
+[ ] /sitemap.xml reviewed and tested
+[ ] Large websites: sitemap frequency/priority tags (<changefreq>, <priority>)
+    logically implemented
+[ ] Server-Side Rendering (SSR) implemented
+[ ] Page load speeds optimized (image compression, code minification, 
+    core web vitals)
+[ ] JSON-LD structured data with the main content added
+[ ] JSON-LD structured data with content of FAQ/PAA sections added too
+[ ] Sitemap and website submitted to engines
+```
 
 #
