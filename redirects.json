@@ -53,5 +53,18 @@
   "/reports/Open%20Source%20Projects": "/ranking/Open%20Source%20Projects/",
   "/reports/Open%20Sources%20Projects": "/ranking/Open%20Source%20Projects/",
   "/reports/Project%20Management": "/ranking/Project%20Management/",
-  "/reports/Video%20Conferencing": "/ranking/Video%20Conferencing/"
+  "/reports/Video%20Conferencing": "/ranking/Video%20Conferencing/",
+
+  "/books/": "/ai-seo-guide-book/",
+  "/books/ai-seo-guide/": "/ai-seo-guide-book/",
+  "/books/ai-seo-guide/00-introduction": "/ai-seo-guide-book/00-introduction/",
+  "/books/ai-seo-guide/01-beyond-keywords": "/ai-seo-guide-book/01-beyond-keywords/",
+  "/books/ai-seo-guide/02-how-big-is-ai-search": "/ai-seo-guide-book/02-how-big-is-ai-search/",
+  "/books/ai-seo-guide/03-under-the-hood": "/ai-seo-guide-book/03-under-the-hood/",
+  "/books/ai-seo-guide/04-llms-knowledge-base": "/ai-seo-guide-book/04-llms-knowledge-base/",
+  "/books/ai-seo-guide/05-knowledge-sources": "/ai-seo-guide-book/05-knowledge-sources/",
+  "/books/ai-seo-guide/06-optimizing-content": "/ai-seo-guide-book/06-optimizing-content/",
+  "/books/ai-seo-guide/07-technical-seo": "/ai-seo-guide-book/07-technical-seo/",
+  "/books/ai-seo-guide/08-future-seo": "/ai-seo-guide-book/08-future-seo/",
+  "/books/ai-seo-guide/09-appendix": "/ai-seo-guide-book/09-appendix/"
 }
