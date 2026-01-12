@@ -3032,39 +3032,61 @@ By accessing or using this report, you acknowledge that you have read, understoo
     if (!hash) return;
 
     var hashContent = hash.substring(1); // Remove #
-    var prefix, slugs;
+    var prefix, scrollTarget, highlightSlugs;
 
-    // Parse prefix and slugs (supports comma-separated: #brand-chatgpt,openai)
+    // Determine prefix and extract content
     if (hashContent.startsWith('brand-')) {
       prefix = 'brand';
-      slugs = hashContent.substring(6).split(','); // Remove "brand-" prefix
+      hashContent = hashContent.substring(6); // Remove "brand-" prefix
       switchToTab('panel-brands');
     } else if (hashContent.startsWith('source-')) {
       prefix = 'source';
-      slugs = hashContent.substring(7).split(','); // Remove "source-" prefix
+      hashContent = hashContent.substring(7); // Remove "source-" prefix
       switchToTab('panel-sources');
     } else {
       return; // Unknown prefix
     }
 
+    // Check for new ,, separator format: scrollTarget,,highlight1,highlight2,...
+    var sepIndex = hashContent.indexOf(',,');
+    var useNewFormat = sepIndex !== -1;
+
+    if (useNewFormat) {
+      // New format: separate scroll target from highlight list
+      scrollTarget = hashContent.substring(0, sepIndex);
+      highlightSlugs = hashContent.substring(sepIndex + 2).split(',');
+    } else {
+      // Legacy format: slug1,slug2,... (scroll to first, highlight all same style)
+      highlightSlugs = hashContent.split(',');
+      scrollTarget = highlightSlugs[0];
+    }
+
     // Clear previous highlights
     clearHighlights();
 
-    // Find and highlight all matching rows
-    var firstElement = null;
-    slugs.forEach(function(slug) {
+    // Highlight all items
+    // New format: first is main (vivid), rest are competitors (subtle)
+    // Legacy format: all use same default style
+    var isFirst = true;
+    highlightSlugs.forEach(function(slug) {
       var id = prefix + '-' + slug.trim();
       var element = document.getElementById(id);
       if (element) {
-        highlightRow(element);
-        if (!firstElement) firstElement = element;
+        if (useNewFormat) {
+          highlightRow(element, isFirst ? 'main' : 'competitor');
+        } else {
+          highlightRow(element, 'legacy');
+        }
+        isFirst = false;
       }
     });
 
-    // Scroll to first matched element
-    if (firstElement) {
+    // Scroll to target (may be different from highlighted items)
+    var scrollId = prefix + '-' + scrollTarget.trim();
+    var scrollElement = document.getElementById(scrollId);
+    if (scrollElement) {
       setTimeout(function() {
-        firstElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        scrollElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }, 100);
     }
   }
@@ -3080,14 +3102,34 @@ By accessing or using this report, you acknowledge that you have read, understoo
     currentHighlightedRows.forEach(function(row) {
       row.style.backgroundColor = '';
       row.style.fontWeight = '';
+      row.style.borderLeft = '';
+      row.classList.remove('aicw-highlight-main', 'aicw-highlight-competitor', 'aicw-highlight-legacy');
     });
     currentHighlightedRows = [];
   }
 
-  function highlightRow(row) {
-    row.style.transition = 'background-color 0.3s';
-    row.style.backgroundColor = '#fef3c7'; // Yellow highlight
-    row.style.fontWeight = 'bold';         // Bold text
+  function highlightRow(row, type) {
+    row.style.transition = 'all 0.3s';
+
+    if (type === 'main') {
+      // Main brand - vivid amber/gold highlight
+      row.style.backgroundColor = '#fef3c7';  // amber-100
+      row.style.borderLeft = '4px solid #f59e0b';  // amber-500
+      row.style.fontWeight = 'bold';
+      row.classList.add('aicw-highlight-main');
+    } else if (type === 'competitor') {
+      // Competitor brand - subtle sky/blue highlight
+      row.style.backgroundColor = '#e0f2fe';  // sky-100
+      row.style.borderLeft = '3px solid #38bdf8';  // sky-400
+      row.style.fontWeight = '600';
+      row.classList.add('aicw-highlight-competitor');
+    } else {
+      // Legacy format - original yellow highlight for all
+      row.style.backgroundColor = '#fef3c7';  // Yellow highlight
+      row.style.fontWeight = 'bold';
+      row.classList.add('aicw-highlight-legacy');
+    }
+
     currentHighlightedRows.push(row);
     // Permanent highlight - no setTimeout to remove
   }
