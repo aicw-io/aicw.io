@@ -10,7 +10,9 @@ Special thanks for reviewing the draft of this book and making valuable suggesti
 1. Mariia Mironicheva  
 2. Zac Clifton [https://www.linkedin.com/in/cliftonz/](https://www.linkedin.com/in/cliftonz/)
 
-# **About the authorEugene Mironichev** is an experienced technical entrepreneur and the founder of the free,  open-source tool AI Chat Watch. A core part of Eugene's work since 2023 involves deeply researching how major AI engines are influencing user choices through brand and solution recommendations. This unique insight drives Eugene's passion for understanding the deep technical workings and strategic impact of AI technologies. 
+# About the author
+
+Eugene Mironichev is an experienced technical entrepreneur and the founder of the free, open-source tool AI Chat Watch. A core part of Eugene's work since 2023 involves deeply researching how major AI engines are influencing user choices through brand and solution recommendations. This unique insight drives Eugene's passion for understanding the deep technical workings and strategic impact of AI technologies.
 
 You can reach out to Eugene on LinkedIn: [**www.linkedin.com/in/mironic/**](https://www.linkedin.com/in/mironic/) or by scanning the QR Code.
 

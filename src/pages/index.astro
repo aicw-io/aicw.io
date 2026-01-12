@@ -12,6 +12,9 @@ import botsImg from '../assets/screenshots/aicw-cloud-dashboard-bots.png';
 // Screenshots for How It Works section
 import dashboardImg from '../assets/screenshots/aicw-cloud-dashboard.png';
 import topPagesImg from '../assets/screenshots/aicw-cloud-dashboard-top-pages.png';
+
+// Hero screenshot preview
+import heroPreviewImg from '../assets/screenshots/aicw-cloud-dashboard.png';
 ---
 
 <BaseLayout>
@@ -31,29 +34,55 @@ import topPagesImg from '../assets/screenshots/aicw-cloud-dashboard-top-pages.pn
     <div class="container mx-auto px-6 relative z-10">
       <div class="max-w-4xl mx-auto text-center">
         <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white font-heading tracking-tight">
-          Monitor AI Visibility. Track AI Referrals.
+          AICW — Your AI Visibility Toolkit
         </h1>
 
-        <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-          Check if ChatGPT, Perplexity, and Claude can find your website. Track the visitors they send you. Get actionable recommendations to improve — all privacy-first, no cookie banner required.
-        </p>
+        <!-- Rotating tagline -->
+        <div class="text-2xl md:text-3xl text-white/90 mb-8 max-w-3xl mx-auto">
+          <span class="inline-flex items-center justify-center gap-1">
+            <span>Track</span>
+            <span class="relative inline-block h-[1.5em] overflow-hidden min-w-[280px] md:min-w-[320px]">
+              <span class="slot-machine-text absolute left-0 w-full">
+                <span class="block h-[1.5em] leading-[1.5em] text-primary-300 font-semibold">AI Visibility Score</span>
+                <span class="block h-[1.5em] leading-[1.5em] text-primary-300 font-semibold">Brand Rankings</span>
+                <span class="block h-[1.5em] leading-[1.5em] text-primary-300 font-semibold">AI Traffic Sources</span>
+                <span class="block h-[1.5em] leading-[1.5em] text-primary-300 font-semibold">AI Bots</span>
+                <span class="block h-[1.5em] leading-[1.5em] text-primary-300 font-semibold">Visitor Channels</span>
+                <span class="block h-[1.5em] leading-[1.5em] text-primary-300 font-semibold">AI Referrals</span>
+                <span class="block h-[1.5em] leading-[1.5em] text-primary-300 font-semibold">AI Summaries</span>
+              </span>
+            </span>
+          </span>
+        </div>
 
-        <!-- Trust Badges -->
-        <div class="flex flex-wrap gap-4 justify-center mb-8">
-          <span class="px-4 py-2 bg-white/10 backdrop-blur border border-white/20 rounded-full text-white/90 text-sm">
-            Free 90-Day Trial
-          </span>
-          <span class="px-4 py-2 bg-white/10 backdrop-blur border border-white/20 rounded-full text-white/90 text-sm">
-            No Credit Card Required
-          </span>
+        <!-- Dashboard Preview (above buttons) -->
+        <div class="relative max-w-3xl mx-auto mb-8">
+          <div class="rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-white/5 backdrop-blur">
+            <Image
+              src={heroPreviewImg}
+              alt="AICW Dashboard showing AI traffic analytics"
+              width={800}
+              class="w-full h-auto"
+              loading="eager"
+            />
+          </div>
+          <!-- Subtle glow effect -->
+          <div class="absolute -inset-4 bg-primary-500/20 rounded-2xl blur-2xl -z-10"></div>
         </div>
 
         <!-- Dual CTA Buttons -->
         <div class="flex flex-wrap gap-4 justify-center">
-          <a href="https://app.aicw.io" class="px-8 py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-lg">
+          <a href="https://app.aicw.io" class="inline-flex items-center gap-2 px-8 py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-lg">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
             Start Free Trial
           </a>
-          <a href="https://app.aicw.io/public/aicw.io?utm_campaign=main_landing" class="px-8 py-4 bg-white/10 backdrop-blur border-2 border-white/30 rounded-xl text-white font-semibold hover:bg-white/20 transition-all text-lg">
+          <a href="https://app.aicw.io/public/aicw.io?utm_campaign=main_landing" class="inline-flex items-center gap-2 px-8 py-4 bg-white/10 backdrop-blur border-2 border-white/30 rounded-xl text-white font-semibold hover:bg-white/20 transition-all text-lg">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
             See Live Demo
           </a>
         </div>
@@ -108,9 +137,9 @@ import topPagesImg from '../assets/screenshots/aicw-cloud-dashboard-top-pages.pn
   <section id="features" class="py-24 bg-bg-secondary">
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4">Everything You Need to Improve AI Visibility</h2>
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">The Complete AI Visibility Toolkit</h2>
         <p class="text-xl text-text-secondary max-w-3xl mx-auto">
-          Audit your AI accessibility, track AI-referred visitors, and engage users with AI-powered tools.
+          Four integrated tools to audit, track, rank, and engage — everything you need to get found by AI.
         </p>
       </div>
 
@@ -184,25 +213,25 @@ import topPagesImg from '../assets/screenshots/aicw-cloud-dashboard-top-pages.pn
           </div>
         </div>
 
-        <!-- Pillar 4: Brand Ranking (Coming Soon) -->
+        <!-- Pillar 4: Brand & Source Rankings -->
         <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
           <div class="absolute top-4 right-4">
-            <span class="px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-xs font-semibold">Coming Soon</span>
+            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold">18 Categories</span>
           </div>
-          <div class="w-14 h-14 bg-amber-100 rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-7 h-7 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
             </svg>
           </div>
-          <h3 class="text-2xl font-bold mb-3">Track Your Brand in AI Answers</h3>
+          <h3 class="text-2xl font-bold mb-3">Brand & Source Rankings</h3>
           <p class="text-text-secondary mb-4">
-            Monitor when and where your brand appears in AI responses. Track competitive positioning over time and see how you rank against competitors.
+            See where your brand ranks when AI answers category questions. Track your domain as a cited source. Monitor competitive positioning across ChatGPT, Claude, Gemini, and Perplexity.
           </p>
-          <div class="bg-gray-50 rounded-lg p-4 border border-gray-100 opacity-75">
+          <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
             <div class="space-y-3">
               <div class="flex items-center justify-between">
                 <span class="text-sm font-medium">Your Brand</span>
-                <div class="w-32 h-2 bg-primary-200 rounded-full"></div>
+                <div class="w-32 h-2 bg-green-400 rounded-full"></div>
               </div>
               <div class="flex items-center justify-between">
                 <span class="text-sm text-text-secondary">Competitor A</span>
@@ -262,69 +291,82 @@ import topPagesImg from '../assets/screenshots/aicw-cloud-dashboard-top-pages.pn
     </div>
   </section>
 
-  <!-- How It Works Section -->
-  <section id="how-it-works" class="py-24 bg-white">
+  <!-- CTA Section -->
+  <section class="py-16 bg-white">
     <div class="container mx-auto px-6">
-      <div class="text-center mb-12">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4">See Your Analytics in Action</h2>
-        <p class="text-xl text-text-secondary">
-          Real insights into your AI-driven traffic.
-        </p>
-      </div>
-
-      <!-- Screenshot Gallery -->
-      <div class="grid md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
-        <!-- Main Analytics Screenshot -->
-        <div class="bg-bg-secondary rounded-2xl p-4 shadow-lg">
-          <div class="rounded-lg overflow-hidden">
-            <Image
-              src={dashboardImg}
-              alt="Main Analytics Dashboard showing traffic trends and visitor breakdown"
-              width={800}
-              class="w-full h-auto"
-              loading="lazy"
-            />
-          </div>
-          <p class="text-center mt-4 font-medium">Main Analytics Dashboard</p>
-        </div>
-
-        <!-- Top Pages Screenshot -->
-        <div class="bg-bg-secondary rounded-2xl p-4 shadow-lg">
-          <div class="rounded-lg overflow-hidden">
-            <Image
-              src={topPagesImg}
-              alt="Top Pages showing AI referral percentages by page"
-              width={800}
-              class="w-full h-auto"
-              loading="lazy"
-            />
-          </div>
-          <p class="text-center mt-4 font-medium">Top Pages with AI Traffic</p>
-        </div>
-      </div>
-
-      <!-- Dual CTA Buttons -->
       <div class="text-center flex flex-wrap gap-4 justify-center">
-        <a href="https://app.aicw.io" class="inline-block px-8 py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-lg">
+        <a href="https://app.aicw.io" class="inline-flex items-center gap-2 px-8 py-4 gradient-primary rounded-xl text-white font-semibold hover:shadow-xl transition-all text-lg">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+          </svg>
           Start Free Trial
         </a>
-        <a href="https://app.aicw.io/public/aicw.io?utm_campaign=main_landing" class="inline-block px-8 py-4 bg-white border-2 border-primary-500 rounded-xl text-primary-600 font-semibold hover:bg-primary-50 transition-all text-lg">
+        <a href="https://app.aicw.io/public/aicw.io?utm_campaign=main_landing" class="inline-flex items-center gap-2 px-8 py-4 bg-white border-2 border-primary-500 rounded-xl text-primary-600 font-semibold hover:bg-primary-50 transition-all text-lg">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
           See Live Demo
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Blog CTA Section -->
+  <!-- Learn About AI Visibility Section -->
   <section class="py-24 gradient-primary">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Learn About AI Visibility</h2>
-      <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-        Tips and strategies to improve how AI chatbots discover and recommend your website.
-      </p>
-      <a href="/blog" class="inline-block px-8 py-4 bg-white rounded-xl text-primary-700 font-semibold hover:shadow-xl transition-all">
-        Read Our Blog
-      </a>
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Learn About AI Visibility</h2>
+        <p class="text-xl text-white/90 max-w-2xl mx-auto">
+          Free guides to help you understand and improve your AI presence.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <!-- AI SEO Guide Book -->
+        <a href="/ai-seo-guide-book/" class="bg-white/10 backdrop-blur rounded-xl p-6 hover:bg-white/20 transition-all group">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">AI SEO Guide</h3>
+          <p class="text-white/70 text-sm">Complete guide to optimizing for AI search</p>
+        </a>
+
+        <!-- AI Search Engines -->
+        <a href="/ai-search-engine/" class="bg-white/10 backdrop-blur rounded-xl p-6 hover:bg-white/20 transition-all group">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">AI Search Engines</h3>
+          <p class="text-white/70 text-sm">How ChatGPT, Perplexity & others work</p>
+        </a>
+
+        <!-- AI Chatbots -->
+        <a href="/ai-chat-bot/" class="bg-white/10 backdrop-blur rounded-xl p-6 hover:bg-white/20 transition-all group">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">AI Chatbots</h3>
+          <p class="text-white/70 text-sm">Understanding major AI assistants</p>
+        </a>
+
+        <!-- AI Crawler Bots -->
+        <a href="/ai-crawler-bot/" class="bg-white/10 backdrop-blur rounded-xl p-6 hover:bg-white/20 transition-all group">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">AI Crawlers</h3>
+          <p class="text-white/70 text-sm">Bots that index your site for AI</p>
+        </a>
+      </div>
     </div>
   </section>
 </BaseLayout>

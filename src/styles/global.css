@@ -130,6 +130,38 @@ h1, h2, h3, h4, h5, h6 {
   animation: float 20s ease-in-out infinite;
 }
 
+/* Slot machine text animation for 7 items */
+@keyframes slot-machine {
+  0%, 12% {
+    transform: translateY(0);
+  }
+  14.3%, 26.3% {
+    transform: translateY(-1.5em);
+  }
+  28.6%, 40.6% {
+    transform: translateY(-3em);
+  }
+  42.9%, 54.9% {
+    transform: translateY(-4.5em);
+  }
+  57.1%, 69.1% {
+    transform: translateY(-6em);
+  }
+  71.4%, 83.4% {
+    transform: translateY(-7.5em);
+  }
+  85.7%, 97.7% {
+    transform: translateY(-9em);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slot-machine-text {
+  animation: slot-machine 17.5s ease-in-out infinite;
+}
+
 /* Emoji rendering fix */
 .emoji {
   font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
