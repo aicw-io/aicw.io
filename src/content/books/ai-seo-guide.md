@@ -8,10 +8,10 @@ coverImage: "/assets/book/ai-seo-guide/images/cover.png"
 pageCount: 84
 downloads:
   - format: pdf
-    url: "/assets/book/ai-seo-guide/AI Search Engine Optimization Guide.pdf"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfo2TGEEU71V1Sqyr1Mo-7sUy7LenvZsvkeQX_GbMX-Eg7WrQ/viewform?usp=header"
     size: "11 MB"
   - format: epub
-    url: "/assets/book/ai-seo-guide/AI Search Engine Optimization Guide.epub"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfo2TGEEU71V1Sqyr1Mo-7sUy7LenvZsvkeQX_GbMX-Eg7WrQ/viewform?usp=header"
     size: "12 MB"
 purchaseLinks:
   - store: amazon

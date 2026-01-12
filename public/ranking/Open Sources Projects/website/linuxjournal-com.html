@@ -1548,7 +1548,8 @@ Modern software development and open source coverage.
  * Client-side blur for ranking reports
  * Features:
  * - URL param ?unlock=1 disables blur (for app dashboard links)
- * - Anchor links #brand-<name> and #source-<name>
+ * - Anchor links #brand-<name> and #source-<name> with permanent highlight
+ * - Multi-selection: #brand-<name1>,<name2> or #source-<domain1>,<domain2>
  * - Auto tab switching based on anchor
  * - Session-based random blur
  * - Google crawlers see full content (no JS execution)
@@ -1557,6 +1558,7 @@ Modern software development and open source coverage.
   var SIGNUP_URL = 'https://app.aicw.io/auth?utm_source=ranking&utm_content=blurred';
   var BLUR_PERCENTAGE = 0.40;
   var TOP_N_ALWAYS_BLUR = 3;
+  var currentHighlightedRows = []; // Track highlighted rows for cleanup
 
   // Check for unlock parameter
   function isUnlocked() {
@@ -1636,22 +1638,42 @@ Modern software development and open source coverage.
     var hash = window.location.hash;
     if (!hash) return;
 
-    var id = hash.substring(1); // Remove #
-    var element = document.getElementById(id);
-    if (!element) return;
+    var hashContent = hash.substring(1); // Remove #
+    var prefix, slugs;
 
-    // Determine which tab to show
-    if (id.startsWith('brand-')) {
+    // Parse prefix and slugs (supports comma-separated: #brand-chatgpt,openai)
+    if (hashContent.startsWith('brand-')) {
+      prefix = 'brand';
+      slugs = hashContent.substring(6).split(','); // Remove "brand-" prefix
       switchToTab('panel-brands');
-    } else if (id.startsWith('source-')) {
+    } else if (hashContent.startsWith('source-')) {
+      prefix = 'source';
+      slugs = hashContent.substring(7).split(','); // Remove "source-" prefix
       switchToTab('panel-sources');
+    } else {
+      return; // Unknown prefix
     }
 
-    // Scroll to element with slight delay for tab switch
-    setTimeout(function() {
-      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      highlightRow(element);
-    }, 100);
+    // Clear previous highlights
+    clearHighlights();
+
+    // Find and highlight all matching rows
+    var firstElement = null;
+    slugs.forEach(function(slug) {
+      var id = prefix + '-' + slug.trim();
+      var element = document.getElementById(id);
+      if (element) {
+        highlightRow(element);
+        if (!firstElement) firstElement = element;
+      }
+    });
+
+    // Scroll to first matched element
+    if (firstElement) {
+      setTimeout(function() {
+        firstElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+    }
   }
 
   function switchToTab(panelId) {
@@ -1661,12 +1683,20 @@ Modern software development and open source coverage.
     }
   }
 
+  function clearHighlights() {
+    currentHighlightedRows.forEach(function(row) {
+      row.style.backgroundColor = '';
+      row.style.fontWeight = '';
+    });
+    currentHighlightedRows = [];
+  }
+
   function highlightRow(row) {
     row.style.transition = 'background-color 0.3s';
     row.style.backgroundColor = '#fef3c7'; // Yellow highlight
-    setTimeout(function() {
-      row.style.backgroundColor = '';
-    }, 2000);
+    row.style.fontWeight = 'bold';         // Bold text
+    currentHighlightedRows.push(row);
+    // Permanent highlight - no setTimeout to remove
   }
 
   function applyBlur() {
