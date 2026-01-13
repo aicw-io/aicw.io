@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navigation from '../../components/Navigation.astro';
+import { SitemapGenerator } from '../../components/seo-tools/sitemap/SitemapGenerator';
+---
+
+<BaseLayout
+  title="Sitemap Generator - Free XML Sitemap Creator | AICW.io"
+  description="Generate XML sitemaps for free. Add URLs, set priority and change frequency, and download your sitemap.xml file. Perfect for SEO."
+  keywords="sitemap generator, XML sitemap, sitemap creator, SEO tool, website sitemap, sitemap.xml"
+>
+  <Navigation />
+
+  <main class="container mx-auto px-4 py-8 max-w-7xl">
+    <div class="mb-8">
+      <nav class="flex text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-gray-700">Home</a>
+        <span class="mx-2">/</span>
+        <a href="/tools/" class="hover:text-gray-700">Tools</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-900">Sitemap Generator</span>
+      </nav>
+
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Sitemap Generator</h1>
+      <p class="text-lg text-gray-600 max-w-3xl">
+        Create XML sitemaps for your website. Add URLs manually or in bulk, set priority and
+        change frequency, and download your sitemap.xml file.
+      </p>
+    </div>
+
+    <SitemapGenerator client:load />
+
+    <section class="mt-12 prose prose-gray max-w-none">
+      <h2>About XML Sitemaps</h2>
+      <p>
+        An XML sitemap is a file that lists all important pages of your website, helping search
+        engines discover and index your content more efficiently. It's an essential part of
+        technical SEO.
+      </p>
+
+      <h3>Sitemap Best Practices</h3>
+      <ul>
+        <li><strong>Keep it under 50,000 URLs:</strong> Google and other search engines limit sitemaps to 50,000 URLs</li>
+        <li><strong>File size under 50MB:</strong> Uncompressed sitemap files should be under 50MB</li>
+        <li><strong>Use absolute URLs:</strong> Always include the full URL including protocol</li>
+        <li><strong>Update lastmod:</strong> Keep the last modified date accurate for better crawling</li>
+        <li><strong>Submit to Search Console:</strong> After creating your sitemap, submit it to Google Search Console</li>
+      </ul>
+
+      <h3>Priority and Change Frequency</h3>
+      <p>
+        <strong>Priority</strong> indicates the relative importance of pages (0.0 to 1.0). Note that
+        search engines may ignore this hint.
+      </p>
+      <p>
+        <strong>Change frequency</strong> tells crawlers how often the page typically changes. Options
+        include: always, hourly, daily, weekly, monthly, yearly, and never.
+      </p>
+    </section>
+  </main>
+</BaseLayout>

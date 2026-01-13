@@ -1,0 +1,1 @@
+export { SitemapGenerator } from './SitemapGenerator';
