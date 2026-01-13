@@ -1,7 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import { existsSync, readFileSync } from 'fs';
-import { join } from 'path';
+import { join, resolve } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
 // Safe redirects loader - won't break build if file is missing/invalid
 function loadRedirects() {
@@ -32,8 +35,8 @@ const redirects = loadRedirects();
 
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
-
 import mdx from '@astrojs/mdx';
+import react from '@astrojs/react';
 
 // Vite plugin to serve index.html for directories in public/
 function servePublicDirectoryIndex() {
@@ -64,10 +67,15 @@ export default defineConfig({
   redirects,
   vite: {
     plugins: [tailwindcss(), servePublicDirectoryIndex()],
+    resolve: {
+      alias: {
+        '@': resolve(__dirname, './src')
+      }
+    },
     ssr: { external: ['@resvg/resvg-js'] },
     build: { rollupOptions: { external: ['@resvg/resvg-js'] } },
     optimizeDeps: { exclude: ['@resvg/resvg-js'] }
   },
 
-  integrations: [sitemap(), mdx()]
+  integrations: [sitemap(), mdx(), react()]
 });

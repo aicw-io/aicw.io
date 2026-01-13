@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navigation from '../../components/Navigation.astro';
+import { RobotsTester } from '../../components/seo-tools/robots/RobotsTester';
+---
+
+<BaseLayout
+  title="Robots.txt Tester - Free Online Validator Tool | AICW.io"
+  description="Test and validate your robots.txt file for free. Check URL access for Googlebot, GPTBot, Claude, Bingbot, and 20+ crawlers. Instant syntax validation and bot testing."
+  keywords="robots.txt tester, robots.txt validator, robots.txt checker, SEO tool, crawler access, Googlebot, GPTBot"
+>
+  <Navigation />
+
+  <main class="container mx-auto px-4 py-8 max-w-7xl">
+    <div class="mb-8">
+      <nav class="flex text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-gray-700">Home</a>
+        <span class="mx-2">/</span>
+        <a href="/tools/" class="hover:text-gray-700">Tools</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-900">Robots.txt Tester</span>
+      </nav>
+
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Robots.txt Tester</h1>
+      <p class="text-lg text-gray-600 max-w-3xl">
+        Validate your robots.txt syntax and test URL access for different search engine and AI crawlers.
+        Supports 20+ bots including Googlebot, GPTBot, Claude-Web, and more.
+      </p>
+    </div>
+
+    <RobotsTester client:load />
+
+    <section class="mt-12 prose prose-gray max-w-none">
+      <h2>How to Use This Tool</h2>
+      <p>
+        Paste your robots.txt content in the editor on the left, or load one of the preset templates.
+        The tool will automatically validate the syntax and show any errors or warnings.
+      </p>
+
+      <h3>Features</h3>
+      <ul>
+        <li><strong>Syntax Validation:</strong> Checks for proper formatting and valid directives</li>
+        <li><strong>URL Testing:</strong> Test if specific URLs are allowed or blocked</li>
+        <li><strong>Bot Testing:</strong> See access status for 20+ search engines and AI crawlers</li>
+        <li><strong>Templates:</strong> Quick-start templates for common configurations</li>
+        <li><strong>Local Storage:</strong> Your content is saved automatically in your browser</li>
+      </ul>
+
+      <h3>About robots.txt</h3>
+      <p>
+        The robots.txt file tells search engine crawlers which URLs they can access on your site.
+        It's placed at the root of your domain (e.g., https://example.com/robots.txt) and uses
+        simple directives like <code>User-agent</code>, <code>Allow</code>, and <code>Disallow</code>.
+      </p>
+
+      <h3>AI Crawlers</h3>
+      <p>
+        Many AI companies use web crawlers to gather training data. Common AI crawlers include:
+      </p>
+      <ul>
+        <li><strong>GPTBot:</strong> OpenAI's crawler for ChatGPT training</li>
+        <li><strong>Claude-Web:</strong> Anthropic's crawler for Claude</li>
+        <li><strong>Google-Extended:</strong> Google's AI training crawler (separate from Googlebot)</li>
+        <li><strong>CCBot:</strong> Common Crawl's crawler used by many AI companies</li>
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

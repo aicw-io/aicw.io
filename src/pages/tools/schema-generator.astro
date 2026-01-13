@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navigation from '../../components/Navigation.astro';
+import { SchemaGenerator } from '../../components/seo-tools/schema/SchemaGenerator';
+---
+
+<BaseLayout
+  title="Schema Generator - Free JSON-LD Structured Data Creator | AICW.io"
+  description="Generate JSON-LD structured data for free. Support for Article, Product, Organization, FAQ, LocalBusiness, and more schema types."
+  keywords="schema generator, JSON-LD generator, structured data, schema.org, SEO tool, rich snippets"
+>
+  <Navigation />
+
+  <main class="container mx-auto px-4 py-8 max-w-7xl">
+    <div class="mb-8">
+      <nav class="flex text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-gray-700">Home</a>
+        <span class="mx-2">/</span>
+        <a href="/tools/" class="hover:text-gray-700">Tools</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-900">Schema Generator</span>
+      </nav>
+
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Schema Generator</h1>
+      <p class="text-lg text-gray-600 max-w-3xl">
+        Create JSON-LD structured data markup for your website. Support for Article, Product,
+        Organization, FAQ, LocalBusiness, Breadcrumb, and more schema types.
+      </p>
+    </div>
+
+    <SchemaGenerator client:load />
+
+    <section class="mt-12 prose prose-gray max-w-none">
+      <h2>About Structured Data</h2>
+      <p>
+        Structured data helps search engines understand your content better and can enable rich
+        results (rich snippets) in search results. JSON-LD is the recommended format by Google.
+      </p>
+
+      <h3>Supported Schema Types</h3>
+      <ul>
+        <li><strong>Article:</strong> Blog posts, news articles, and other written content</li>
+        <li><strong>Product:</strong> Products with pricing, availability, and reviews</li>
+        <li><strong>Organization:</strong> Company or business information</li>
+        <li><strong>Person:</strong> Individual profile information</li>
+        <li><strong>LocalBusiness:</strong> Local business with address and contact info</li>
+        <li><strong>FAQPage:</strong> Frequently asked questions</li>
+        <li><strong>BreadcrumbList:</strong> Navigation breadcrumbs</li>
+      </ul>
+
+      <h3>How to Use</h3>
+      <ol>
+        <li>Select a schema type from the dropdown</li>
+        <li>Fill in the required fields (marked with *)</li>
+        <li>Copy the JSON-LD code or script tag</li>
+        <li>Paste it into the <code>&lt;head&gt;</code> section of your HTML</li>
+      </ol>
+
+      <h3>Testing Your Schema</h3>
+      <p>
+        After adding structured data to your page, test it with
+        <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener">
+          Google's Rich Results Test
+        </a>
+        to ensure it's valid and eligible for rich results.
+      </p>
+    </section>
+  </main>
+</BaseLayout>
