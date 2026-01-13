@@ -1,0 +1,79 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navigation from '../../components/Navigation.astro';
+
+const docs = await getCollection('docs', ({ data }) => !data.draft);
+const sortedDocs = docs.sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+---
+
+<BaseLayout
+  title="Documentation | AI Chat Watch"
+  description="AICW documentation and configuration guides. Learn how to configure the tracking widget and integrate with your website."
+>
+  <div class="min-h-screen bg-bg-secondary">
+    <Navigation />
+
+    <!-- Header -->
+    <header class="gradient-dark py-10">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-3xl md:text-4xl font-bold mb-2 text-white font-heading">
+          Documentation
+        </h1>
+        <p class="text-base text-white/70 max-w-2xl mx-auto">
+          Configuration guides and technical documentation for AICW
+        </p>
+      </div>
+    </header>
+
+    <!-- Docs Grid -->
+    <div class="container mx-auto px-6 py-12">
+      {sortedDocs.length === 0 ? (
+        <div class="text-center py-20">
+          <div class="text-6xl mb-4">📚</div>
+          <h2 class="text-2xl font-bold mb-3">No documentation yet</h2>
+          <p class="text-text-secondary">
+            Check back soon for documentation!
+          </p>
+        </div>
+      ) : (
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          {sortedDocs.map((doc) => (
+            <article class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div class="p-6">
+                <h2 class="text-2xl font-bold mb-3 hover:text-primary-700 transition-colors">
+                  <a href={`/docs/${doc.slug}/`}>
+                    {doc.data.title}
+                  </a>
+                </h2>
+
+                <p class="text-text-secondary mb-4 line-clamp-3">
+                  {doc.data.description}
+                </p>
+
+                <a
+                  href={`/docs/${doc.slug}/`}
+                  class="inline-flex items-center gap-2 mt-4 text-primary-700 hover:text-primary-800 font-semibold transition-colors"
+                >
+                  Read Documentation
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
