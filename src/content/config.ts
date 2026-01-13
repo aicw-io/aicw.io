@@ -89,6 +89,20 @@ const bookChapters = defineCollection({
   }),
 });
 
+// Documentation collection - technical docs with simple schema
+const docs = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z.coerce.date(),
+    date_updated_at: z.coerce.date().optional(),
+    order: z.number().optional(),
+    keywords: z.string().optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
 // Guides collection schema (shared for ai-search-engine, ai-crawler-bot, ai-chat-bot)
 const guides = defineCollection({
   type: 'content',
@@ -119,6 +133,7 @@ export const collections = {
   blog,
   authors,
   books,
+  docs,
   'book-chapters': bookChapters,
   'ai-search-engine': guides,
   'ai-crawler-bot': guides,

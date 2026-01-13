@@ -9,8 +9,8 @@ import ImageLightbox from '../components/ImageLightbox.astro';
 import type { CollectionEntry } from 'astro:content';
 
 export interface Props {
-  guide: CollectionEntry<'ai-search-engine'> | CollectionEntry<'ai-crawler-bot'> | CollectionEntry<'ai-chat-bot'>;
-  collection: 'ai-search-engine' | 'ai-crawler-bot' | 'ai-chat-bot';
+  guide: CollectionEntry<'ai-search-engine'> | CollectionEntry<'ai-crawler-bot'> | CollectionEntry<'ai-chat-bot'> | CollectionEntry<'docs'>;
+  collection: 'ai-search-engine' | 'ai-crawler-bot' | 'ai-chat-bot' | 'docs';
 }
 
 const { guide, collection } = Astro.props;
@@ -54,6 +54,7 @@ const collectionNames: Record<string, string> = {
   'ai-search-engine': 'AI Search Engines',
   'ai-crawler-bot': 'AI Crawler Bots',
   'ai-chat-bot': 'AI Chat Bots',
+  'docs': 'Documentation',
 };
 const collectionName = collectionNames[collection] || collection;
 ---
