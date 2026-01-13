@@ -64,8 +64,6 @@ Setup takes 60 seconds:
 2. Add one line of tracking code to your website
 3. Start seeing AI traffic data immediately
 
-**Free 90-day trial. No credit card required.**
-
 ## What's Coming on This Blog
 
 We'll be sharing:
@@ -77,4 +75,4 @@ We'll be sharing:
 
 ---
 
-**Ready to track your AI traffic?** [Start your free trial](https://app.aicw.io) or view our [live demo](https://app.aicw.io/public/aicw.io).
+**Ready to track your AI traffic?** [Create your account](https://app.aicw.io) or view our [live demo](https://app.aicw.io/public/aicw.io).

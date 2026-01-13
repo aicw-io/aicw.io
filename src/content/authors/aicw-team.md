@@ -32,4 +32,4 @@ We believe analytics shouldn't come at the cost of user privacy. That's why AI C
 
 ## Get Started
 
-Try our [live demo](https://app.aicw.io/public/aicw.io) to see AI Chat Watch in action, or start your free 90-day trial at [app.aicw.io](https://app.aicw.io).
+Try our [live demo](https://app.aicw.io/public/aicw.io) to see AI Chat Watch in action, or [create your account](https://app.aicw.io).
