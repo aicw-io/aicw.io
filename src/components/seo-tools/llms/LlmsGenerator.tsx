@@ -8,6 +8,7 @@ import {
   ValidationResult,
   DownloadButton,
 } from '../shared';
+import { AiAssistBanner } from '../ai';
 import {
   generateLlmsTxt,
   validateLlmsData,
@@ -28,6 +29,17 @@ export function LlmsGenerator() {
   const [newLinkName, setNewLinkName] = useState('');
   const [newLinkUrl, setNewLinkUrl] = useState('');
   const [newLinkCategory, setNewLinkCategory] = useState('primary');
+  const [aiGeneratedContent, setAiGeneratedContent] = useState<string | null>(null);
+
+  // Handle AI-generated llms.txt content
+  const handleAiGenerate = useCallback((result: string) => {
+    setAiGeneratedContent(result);
+  }, []);
+
+  // Clear AI-generated content
+  const clearAiContent = useCallback(() => {
+    setAiGeneratedContent(null);
+  }, []);
 
   // Load from localStorage
   useEffect(() => {
@@ -68,6 +80,7 @@ export function LlmsGenerator() {
           id: l.id || crypto.randomUUID(),
         })),
       });
+      setAiGeneratedContent(null);
     }
   }, []);
 
@@ -146,6 +159,7 @@ export function LlmsGenerator() {
   const handleClear = useCallback(() => {
     if (confirm('Are you sure you want to clear all data?')) {
       setData(createEmptyLlmsData());
+      setAiGeneratedContent(null);
     }
   }, []);
 
@@ -164,7 +178,11 @@ export function LlmsGenerator() {
   );
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div className="space-y-6">
+      {/* AI Assist Banner */}
+      <AiAssistBanner tool="llms" onGenerate={handleAiGenerate} />
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       {/* Left Column - Form */}
       <div className="space-y-6">
         {/* Toolbar */}
@@ -333,30 +351,54 @@ export function LlmsGenerator() {
         <div className="flex items-center justify-between">
           <h3 className="font-semibold text-gray-900">Preview</h3>
           <DownloadButton
-            content={output}
+            content={aiGeneratedContent || output}
             filename="llms.txt"
             mimeType="text/plain"
             label="Download llms.txt"
           />
         </div>
 
-        <ValidationResult
-          isValid={validation.isValid}
-          errors={validation.errors}
-          warnings={validation.warnings}
-        />
+        {aiGeneratedContent ? (
+          <div className="space-y-4">
+            <div className="flex items-center gap-2 text-sm text-purple-700">
+              <span>&#10024;</span>
+              <span>AI Generated</span>
+              <button
+                onClick={clearAiContent}
+                className="text-gray-500 hover:text-gray-700 text-xs underline ml-auto"
+              >
+                Clear
+              </button>
+            </div>
+            <CodePreview
+              code={aiGeneratedContent}
+              language="txt"
+              filename="llms.txt"
+              showDownload={true}
+            />
+          </div>
+        ) : (
+          <>
+            <ValidationResult
+              isValid={validation.isValid}
+              errors={validation.errors}
+              warnings={validation.warnings}
+            />
 
-        <div className="text-sm text-gray-600">
-          {validation.stats.wordCount} words | {validation.stats.characterCount} characters |{' '}
-          {validation.stats.sectionCount} sections | {validation.stats.linkCount} links
-        </div>
+            <div className="text-sm text-gray-600">
+              {validation.stats.wordCount} words | {validation.stats.characterCount} characters |{' '}
+              {validation.stats.sectionCount} sections | {validation.stats.linkCount} links
+            </div>
 
-        <CodePreview
-          code={output}
-          language="txt"
-          filename="llms.txt"
-          showDownload={true}
-        />
+            <CodePreview
+              code={output}
+              language="txt"
+              filename="llms.txt"
+              showDownload={true}
+            />
+          </>
+        )}
+      </div>
       </div>
     </div>
   );

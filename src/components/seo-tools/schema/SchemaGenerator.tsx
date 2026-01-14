@@ -9,6 +9,7 @@ import {
   TabPanel,
   Badge,
 } from '../shared';
+import { AiAssistBanner } from '../ai';
 import { generateJsonLd, generateFaqSchema } from '@/lib/seo-tools/services';
 import { SCHEMA_TYPES, SCHEMA_CATEGORIES } from '@/lib/seo-tools/constants';
 import type { SchemaData } from '@/lib/seo-tools/types';
@@ -94,6 +95,33 @@ export function SchemaGenerator() {
     { name: '', url: '' },
   ]);
   const [activeTab, setActiveTab] = useState('form');
+  const [aiGeneratedSchema, setAiGeneratedSchema] = useState<string | null>(null);
+
+  // Handle AI-generated schema output
+  const handleAiGenerate = useCallback((result: string) => {
+    // Try to extract JSON from the result (AI might include extra text)
+    let jsonStr = result;
+    const jsonMatch = result.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      jsonStr = jsonMatch[0];
+    }
+
+    try {
+      // Validate it's valid JSON
+      JSON.parse(jsonStr);
+      setAiGeneratedSchema(jsonStr);
+      setActiveTab('preview');
+    } catch {
+      // If parsing fails, store as-is and let user see it
+      setAiGeneratedSchema(result);
+      setActiveTab('preview');
+    }
+  }, []);
+
+  // Clear AI-generated schema when user makes manual changes
+  const clearAiSchema = useCallback(() => {
+    setAiGeneratedSchema(null);
+  }, []);
 
   // Build schema output
   const schemaOutput = useMemo(() => {
@@ -196,6 +224,7 @@ export function SchemaGenerator() {
 
   const handleFieldChange = useCallback((name: string, value: string) => {
     setFormData((prev) => ({ ...prev, [name]: value }));
+    setAiGeneratedSchema(null); // Clear AI schema on manual edit
   }, []);
 
   const handleTypeChange = useCallback((type: SchemaTypeId) => {
@@ -203,6 +232,7 @@ export function SchemaGenerator() {
     setFormData({});
     setFaqItems([{ question: '', answer: '' }]);
     setBreadcrumbs([{ name: '', url: '' }]);
+    setAiGeneratedSchema(null); // Clear AI schema on type change
   }, []);
 
   const handleAddFaqItem = useCallback(() => {
@@ -214,6 +244,7 @@ export function SchemaGenerator() {
       setFaqItems((prev) =>
         prev.map((item, i) => (i === index ? { ...item, [field]: value } : item))
       );
+      setAiGeneratedSchema(null);
     },
     []
   );
@@ -231,6 +262,7 @@ export function SchemaGenerator() {
       setBreadcrumbs((prev) =>
         prev.map((item, i) => (i === index ? { ...item, [field]: value } : item))
       );
+      setAiGeneratedSchema(null);
     },
     []
   );
@@ -254,6 +286,9 @@ export function SchemaGenerator() {
 
   return (
     <div className="space-y-6">
+      {/* AI Assist Banner */}
+      <AiAssistBanner tool="schema" onGenerate={handleAiGenerate} />
+
       {/* Schema Type Selector */}
       <div className="flex flex-wrap gap-4 items-center">
         <Select
@@ -417,7 +452,26 @@ export function SchemaGenerator() {
           </TabPanel>
 
           <TabPanel isActive={activeTab === 'preview'} className="pt-4">
-            {schemaOutput ? (
+            {aiGeneratedSchema ? (
+              <div className="space-y-2">
+                <div className="flex items-center gap-2 text-sm text-purple-700">
+                  <span>&#10024;</span>
+                  <span>AI Generated</span>
+                  <button
+                    onClick={clearAiSchema}
+                    className="text-gray-500 hover:text-gray-700 text-xs underline ml-auto"
+                  >
+                    Clear
+                  </button>
+                </div>
+                <CodePreview
+                  code={aiGeneratedSchema}
+                  language="json"
+                  filename="schema.json"
+                  showDownload={true}
+                />
+              </div>
+            ) : schemaOutput ? (
               <CodePreview
                 code={schemaOutput.json}
                 language="json"
@@ -432,7 +486,26 @@ export function SchemaGenerator() {
           </TabPanel>
 
           <TabPanel isActive={activeTab === 'script'} className="pt-4">
-            {schemaOutput ? (
+            {aiGeneratedSchema ? (
+              <div className="space-y-2">
+                <div className="flex items-center gap-2 text-sm text-purple-700">
+                  <span>&#10024;</span>
+                  <span>AI Generated</span>
+                  <button
+                    onClick={clearAiSchema}
+                    className="text-gray-500 hover:text-gray-700 text-xs underline ml-auto"
+                  >
+                    Clear
+                  </button>
+                </div>
+                <CodePreview
+                  code={`<script type="application/ld+json">\n${aiGeneratedSchema}\n</script>`}
+                  language="html"
+                  filename="schema.html"
+                  showDownload={true}
+                />
+              </div>
+            ) : schemaOutput ? (
               <CodePreview
                 code={schemaOutput.scriptTag}
                 language="html"
