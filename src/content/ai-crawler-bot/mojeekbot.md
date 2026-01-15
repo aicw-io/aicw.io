@@ -14,7 +14,7 @@ keywords: "MojeekBot, independent search engine, UK search crawler, search index
 
 ## What MojeekBot Is and Why It Matters
 
-MojeekBot is the web crawler that powers [Mojeek](/ai-search-engine/mojeek/), a UK-based [independent search engine](https://www.mojeek.com/). As a rare independent search crawler, MojeekBot builds its index from scratch, unlike other engines relying on Google or Bing. This makes it a key player in decentralized search indexing. MojeekBot visits websites, reads their content, and adds this information to Mojeek's search database. For web developers and SEO experts, MojeekBot is a new search bot that operates differently from major tech crawlers. Small business owners can benefit by gaining search visibility outside the Google ecosystem. The privacy search approach ensures no tracking of user searches, catering to ethical alternatives sought by content marketers. MojeekBot signifies a shift toward independent crawlers and data independence.
+MojeekBot is the web crawler that powers Mojeek, a UK-based [independent search engine](https://www.mojeek.com/). As a rare independent search crawler, MojeekBot builds its index from scratch, unlike other engines relying on Google or Bing. This makes it a key player in decentralized search indexing. MojeekBot visits websites, reads their content, and adds this information to Mojeek's search database. For web developers and SEO experts, MojeekBot is a new search bot that operates differently from major tech crawlers. Small business owners can benefit by gaining search visibility outside the Google ecosystem. The privacy search approach ensures no tracking of user searches, catering to ethical alternatives sought by content marketers. MojeekBot signifies a shift toward independent crawlers and data independence.
 
 ## The Purpose Behind MojeekBot
 
@@ -116,14 +116,14 @@ MojeekBot is an essential part of independent search infrastructure, operating o
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/mojeekbot",
-  "url": "https://aicw.io/ai-crawler-bot/mojeekbot",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/mojeekbot",
+  "url": "https://aichatwatch.com/ai-crawler-bot/mojeekbot",
   "name": "MojeekBot: The Independent Search Engine Crawler",
   "description": "Explore MojeekBot, an independent search engine crawler that respects user privacy while providing alternative search visibility.",
   "publisher": {
     "@type": "Organization",
     "name": "AI Chat Watch",
-    "url": "https://aicw.io"
+    "url": "https://aichatwatch.com"
   }
 }
 </script>
@@ -135,7 +135,7 @@ MojeekBot is an essential part of independent search infrastructure, operating o
   "description": "Discover how MojeekBot operates as a unique and privacy-respecting alternative to mainstream search crawlers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/mojeekbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/mojeekbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -211,13 +211,13 @@ MojeekBot is an essential part of independent search infrastructure, operating o
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "MojeekBot",
-      "item": "https://aicw.io/ai-crawler-bot/mojeekbot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/mojeekbot"
     }
   ]
 }

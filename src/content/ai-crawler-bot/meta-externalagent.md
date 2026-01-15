@@ -14,7 +14,7 @@ keywords: "Meta-ExternalAgent, Meta AI crawler, Facebook external agent, Meta bo
 
 ## Introduction
 
-Meta-ExternalAgent, a web crawler operated by Meta (formerly Facebook), plays a [crucial role in the company's AI development and training processes](https://fortune.com/2024/08/20/meta-external-agent-new-web-crawler-bot-scrape-data-train-ai-models-llama/). This [Meta AI](/ai-chat-bot/meta-ai/) crawler is distinct from [FacebookBot](/ai-crawler-bot/facebookbot/), which focuses on content previews and social media features, as it specifically targets data collection for AI training. Web developers and site owners should be aware of this Meta bot, as it regularly accesses their content to gather training data for large language models. Understanding Meta-ExternalAgent helps you control what data is collected from your website, especially if you manage content-heavy or proprietary sites. Although the crawler respects standard web protocols, it frequently visits sites to collect fresh data.
+Meta-ExternalAgent, a web crawler operated by Meta (formerly Facebook), plays a [crucial role in the company's AI development and training processes](https://fortune.com/2024/08/20/meta-external-agent-new-web-crawler-bot-scrape-data-train-ai-models-llama/). This Meta AI crawler is distinct from FacebookBot, which focuses on content previews and social media features, as it specifically targets data collection for AI training. Web developers and site owners should be aware of this Meta bot, as it regularly accesses their content to gather training data for large language models. Understanding Meta-ExternalAgent helps you control what data is collected from your website, especially if you manage content-heavy or proprietary sites. Although the crawler respects standard web protocols, it frequently visits sites to collect fresh data.
 
 ## What is Meta-ExternalAgent?
 
@@ -146,8 +146,8 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/meta-externalagent",
-  "mainEntityOfPage": "https://aicw.io/ai-crawler-bot/meta-externalagent"
+  "url": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent",
+  "mainEntityOfPage": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent"
 }
 </script>
 <script type="application/ld+json">
@@ -158,7 +158,7 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
   "description": "A comprehensive overview of Meta-ExternalAgent and its role in AI data collection.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/meta-externalagent" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent" }
 }
 </script>
 <script type="application/ld+json">
@@ -234,13 +234,13 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Meta-ExternalAgent",
-      "item": "https://aicw.io/ai-crawler-bot/meta-externalagent"
+      "item": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent"
     }
   ]
 }
@@ -250,7 +250,7 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aicw.io"
+  "url": "https://aichatwatch.com"
 }
 </script>
 

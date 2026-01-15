@@ -57,10 +57,10 @@ The platform doesn't offer end-to-end encryption, and users should avoid sharing
 Several platforms offer similar character-based AI exchanges, each with unique features:
 
 - **Character.AI:** Focuses on roleplay with strong content filters and an extensive library of pre-made characters.
-- **[Replika](/ai-chat-bot/replika/):** Companion chatbots with moderate filters, emphasizing ongoing relationships.
+- **Replika:** Companion chatbots with moderate filters, emphasizing ongoing relationships.
 - **Chai:** Story-based chat with character variety.
 - **Janitor AI:** Unfiltered roleplay for users seeking fewer content restrictions.
-- **[ChatGPT](/ai-chat-bot/chatgpt/):** General-purpose with limited persona customization.
+- **ChatGPT:** General-purpose with limited persona customization.
 
 Character.AI Usage Flow:
 ![Character.AI Compared to Chatbot Alternatives Diagram](/assets/ai-chat-bot/character-ai/access-platform-user.png)
@@ -120,8 +120,8 @@ Character.AI represents an evolution in conversational AI, focusing on entertain
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/character-ai",
-  "url": "https://aicw.io/ai-chat-bot/character-ai",
+  "@id": "https://aichatwatch.com/ai-chat-bot/character-ai",
+  "url": "https://aichatwatch.com/ai-chat-bot/character-ai",
   "name": "Understanding Character.AI: A Conversational AI Platform",
   "description": "Explore Character.AI, a platform for chatting with AI-powered characters focused on creative roleplay and character creation."
 }
@@ -134,7 +134,7 @@ Character.AI represents an evolution in conversational AI, focusing on entertain
   "description": "Character.AI is a unique AI chatbot platform focused on character creation and roleplay. Users can engage with distinct personalities while ensuring a secure environment.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/character-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/character-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -210,13 +210,13 @@ Character.AI represents an evolution in conversational AI, focusing on entertain
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Character.AI",
-      "item": "https://aicw.io/ai-chat-bot/character-ai"
+      "item": "https://aichatwatch.com/ai-chat-bot/character-ai"
     }
   ]
 }

@@ -53,7 +53,7 @@ Microsoft Copilot Subscription Tiers:
 
 ## Comparison with Alternative AI Assistants
 
-Microsoft Copilot offers deep integration with Windows and Office apps, beneficial for businesses invested in the Microsoft ecosystem. Alternative options like [ChatGPT Plus](/ai-chat-bot/chatgpt/), Google [Gemini Advanced](/ai-chat-bot/google-gemini/), [Claude](/ai-chat-bot/claude/) Pro, and [GitHub Copilot](/ai-chat-bot/github-copilot/) provide AI capabilities but lack Microsoft Copilot's level of integration. For coding tasks, developers often choose between Microsoft Copilot and GitHub Copilot, both leveraging similar technology.
+Microsoft Copilot offers deep integration with Windows and Office apps, beneficial for businesses invested in the Microsoft ecosystem. Alternative options like ChatGPT Plus, Google Gemini Advanced, Claude Pro, and GitHub Copilot provide AI capabilities but lack Microsoft Copilot's level of integration. For coding tasks, developers often choose between Microsoft Copilot and GitHub Copilot, both leveraging similar technology.
 
 ## Privacy and Data Usage Concerns
 
@@ -110,10 +110,10 @@ Microsoft Copilot, leveraging GPT-4 powered AI, enhances Windows 11 and Microsof
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/microsoft-copilot",
+  "url": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot",
   "name": "Microsoft Copilot",
   "description": "An overview of Microsoft Copilot, its features, evolution from Bing Chat, and its impact on productivity inside Microsoft 365 applications.",
-  "mainEntityOfPage": { "@id": "https://aicw.io/ai-chat-bot/microsoft-copilot" }
+  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot" }
 }
 </script>
 
@@ -125,7 +125,7 @@ Microsoft Copilot, leveraging GPT-4 powered AI, enhances Windows 11 and Microsof
   "description": "A detailed article exploring Microsoft Copilot's features, subscription plans, and data privacy concerns within Microsoft applications.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/microsoft-copilot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot" }
 }
 </script>
 
@@ -203,13 +203,13 @@ Microsoft Copilot, leveraging GPT-4 powered AI, enhances Windows 11 and Microsof
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Microsoft Copilot",
-      "item": "https://aicw.io/ai-chat-bot/microsoft-copilot"
+      "item": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot"
     }
   ]
 }

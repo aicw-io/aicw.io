@@ -37,7 +37,7 @@ DeepMind, a subsidiary of Alphabet Inc., is a leading AI company known for devel
 
 ![DeepSeek Search: The Future of AI Search Engines Diagram](/assets/ai-search-engine/deepseek/deepseek-products-deepseek.png)
 
-Google's [Gemini](/ai-chat-bot/google-gemini/) 3, released in November 2025, is an AI-powered search engine that leverages [advanced AI models to deliver precise and relevant search results](https://apnews.com/article/9d584d1be428bf5d0a98ecd411c6d23e). Its efficiency in understanding and generating text sets it apart as a leader in the field of AI search.
+Google's Gemini 3, released in November 2025, is an AI-powered search engine that leverages [advanced AI models to deliver precise and relevant search results](https://apnews.com/article/9d584d1be428bf5d0a98ecd411c6d23e). Its efficiency in understanding and generating text sets it apart as a leader in the field of AI search.
 
 <a id="deepseeks-key-ai-models"></a>
 
@@ -235,7 +235,7 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/deepseek"
+  "@id": "https://aichatwatch.com/ai-search-engine/deepseek"
 }
 </script>
 <script type="application/ld+json">
@@ -246,7 +246,7 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
   "description": "Discover the innovative features and capabilities of DeepSeek AI, a leading Chinese AI company known for its cutting-edge language models and AI search engine technology.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/deepseek" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/deepseek" }
 }
 </script>
 <script type="application/ld+json">
@@ -362,7 +362,7 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -370,7 +370,7 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-search-engine/deepseek",
+        "@id": "https://aichatwatch.com/ai-search-engine/deepseek",
         "name": "DeepSeek AI: Complete Guide to Features and Capabilities"
       }
     }

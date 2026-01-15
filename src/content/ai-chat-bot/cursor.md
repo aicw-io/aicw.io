@@ -17,7 +17,7 @@ keywords: "Cursor AI, AI code editor, Cursor Composer, GitHub Copilot alternativ
 Cursor is an [AI-first code editor](https://www.cursor.com/) that integrates advanced GPT-4 and Claude models directly into your development workflow. Built on top of Visual Studio Code, it exceeds the capabilities of simple autocomplete tools, offering features like [multi-file editing](https://www.cursor.com/features) and [context-aware code suggestions](https://www.cursor.com/features). If you're a developer seeking an AI coding assistant that comprehends your entire codebase, not just the current file, Cursor AI is designed for you. With modern complex codebases, having an AI that can read and understand thousands of files simultaneously changes the way you code.
 
 ## TL;DR
-Cursor AI is a cutting-edge AI code editor that combines GPT-4 and Claude AI capabilities within a familiar VS Code environment. The Composer tool supports multi-file edits, providing deep codebase understanding, inline AI chat, and smart code generation. Cursor is an ideal [GitHub Copilot](/ai-chat-bot/github-copilot/) alternative, offering superior codebase awareness and AI pair programming.
+Cursor AI is a cutting-edge AI code editor that combines GPT-4 and Claude AI capabilities within a familiar VS Code environment. The Composer tool supports multi-file edits, providing deep codebase understanding, inline AI chat, and smart code generation. Cursor is an ideal GitHub Copilot alternative, offering superior codebase awareness and AI pair programming.
 
 ## What is Cursor AI Code Editor?
 
@@ -59,9 +59,9 @@ Cursor AI stands as a prominent GitHub Copilot alternative, alongside other AI c
 
 - **Cursor AI**: Offers full project indexing, multi-file edits (via Composer), uses GPT-4 and Claude, priced at $20/month.
 - **GitHub Copilot**: Limits its understanding to open files, lacks multi-file editing, uses GPT-4, priced at $10/month.
-- **[Tabnine](/ai-chat-bot/tabnine/)**: Focuses on privacy and operates locally, custom models, priced at $12/month.
-- **[Codeium](/ai-chat-bot/codeium/)**: Provides basic context, uses custom models, free or $10/month.
-- **[Amazon CodeWhisperer](/ai-chat-bot/amazon-codewhisperer/)**: Tailored for AWS, free for individuals.
+- **Tabnine**: Focuses on privacy and operates locally, custom models, priced at $12/month.
+- **Codeium**: Provides basic context, uses custom models, free or $10/month.
+- **Amazon CodeWhisperer**: Tailored for AWS, free for individuals.
 
 
 AI Code Editor Comparison:
@@ -78,7 +78,7 @@ Understand your company's policies regarding cloud AI features if dealing with p
 
 Download Cursor from the official site and install it like any other application. On launch, it resembles VS Code due to its architecture. Import existing VS Code settings and extensions effortlessly, making the transition painless.
 
-Sign up for an account to access AI features. The free tier offers limited AI requests monthly, while the Pro plan at $20/month provides unlimited slow requests and 500 fast premium requests. These use advanced models like GPT-4 and [Claude 3.5 Sonnet](/ai-chat-bot/claude/).
+Sign up for an account to access AI features. The free tier offers limited AI requests monthly, while the Pro plan at $20/month provides unlimited slow requests and 500 fast premium requests. These use advanced models like GPT-4 and Claude 3.5 Sonnet.
 
 Open your project folder post-setup, and indexing begins immediately. For large codebases, indexing takes a few minutes. Once complete, AI features become available. Press Ctrl+K (or Cmd+K on Mac) for inline chat or Ctrl+Shift+L for Composer.
 
@@ -151,7 +151,7 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/cursor"
+  "@id": "https://aichatwatch.com/ai-chat-bot/cursor"
 }
 </script>
 <script type="application/ld+json">
@@ -162,7 +162,7 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
   "description": "Cursor AI is a cutting-edge AI code editor that combines GPT-4 and Claude AI capabilities within a familiar VS Code environment.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/cursor" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/cursor" }
 }
 </script>
 <script type="application/ld+json">
@@ -238,7 +238,7 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -246,7 +246,7 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-chat-bot/cursor",
+        "@id": "https://aichatwatch.com/ai-chat-bot/cursor",
         "name": "Cursor"
       }
     }

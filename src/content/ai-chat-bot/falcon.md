@@ -30,7 +30,7 @@ The Technology Innovation Institute created Falcon to support open AI research a
 
 ## Falcon Model Versions and Evolution
 
-Falcon's evolution includes several versions with varying capabilities. Initial releases featured Falcon-7B and Falcon-40B, noted for their effective deployment. Falcon-40B excelled on benchmarks, momentarily topping the Open LLM Leaderboard. In September 2023, TII unveiled Falcon-180B, boasting 180 billion parameters and competing with Meta's [Llama 2](/ai-chat-bot/llama/) 70B. TII also developed Falcon-Instruct, designed for following user commands. The models enhance inference speed with multi-query attention, and leverage the high-quality RefinedWeb dataset.
+Falcon's evolution includes several versions with varying capabilities. Initial releases featured Falcon-7B and Falcon-40B, noted for their effective deployment. Falcon-40B excelled on benchmarks, momentarily topping the Open LLM Leaderboard. In September 2023, TII unveiled Falcon-180B, boasting 180 billion parameters and competing with Meta's Llama 2 70B. TII also developed Falcon-Instruct, designed for following user commands. The models enhance inference speed with multi-query attention, and leverage the high-quality RefinedWeb dataset.
 
 ## Deploying Falcon Models
 
@@ -48,7 +48,7 @@ Falcon's capabilities are measured against standard benchmarks like MMLU and Hel
 |---------------|------------|------------|--------------|-----------------|--------------|
 | Falcon-180B   | 180B       | ~68%       | Apache 2.0   | 3.5T            | Sept 2023    |
 | Llama 2 70B   | 70B        | ~69%       | Custom       | 2T              | July 2023    |
-| [Mistral 7B](/ai-chat-bot/mistral/)    | 7B         | ~62%       | Apache 2.0   | Unknown         | Sept 2023    |
+| Mistral 7B    | 7B         | ~62%       | Apache 2.0   | Unknown         | Sept 2023    |
 | Falcon-40B    | 40B        | 60.6%      | Apache 2.0   | 1T              | May 2023     |
 
 Falcon Deployment Options:
@@ -118,14 +118,14 @@ Falcon LLM stands as a pivotal open-source AI contribution from the UAE's Techno
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/falcon",
+  "url": "https://aichatwatch.com/ai-chat-bot/falcon",
   "mainEntity": {
     "@type": "Article",
     "headline": "Falcon LLM: A Leading Open-Source AI Model by TII",
     "description": "Falcon LLM is a remarkable family of open-source large language models crafted by TII.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/falcon" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/falcon" }
   }
 }
 </script>
@@ -202,7 +202,7 @@ Falcon LLM stands as a pivotal open-source AI contribution from the UAE's Techno
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -210,7 +210,7 @@ Falcon LLM stands as a pivotal open-source AI contribution from the UAE's Techno
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-chat-bot/falcon",
+        "@id": "https://aichatwatch.com/ai-chat-bot/falcon",
         "name": "Falcon"
       }
     }

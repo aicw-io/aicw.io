@@ -64,9 +64,9 @@ Understanding different platform crawlers helps optimize cross-platform content.
 | Platform  | Primary User-Agent        | Metadata Preference       | Image Requirements       | Refresh Rate        |
 |-----------|---------------------------|---------------------------|--------------------------|---------------------|
 | Snapchat  | Snapchat Ads/1.0          | Open Graph, Twitter Cards | 1200x630px minimum       | On-demand, cached   |
-| Facebook  | [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/)       | Open Graph                | 1200x630px recommended   | Every 30 days       |
-| Twitter   | [Twitterbot](/ai-crawler-bot/twitterbot/)                | Twitter Cards, Open Graph | 800x418px minimum        | On-demand, cached   |
-| LinkedIn  | [LinkedInBot](/ai-crawler-bot/linkedinbot/)               | Open Graph                | 1200x627px recommended   | Every 7 days        |
+| Facebook  | facebookexternalhit       | Open Graph                | 1200x630px recommended   | Every 30 days       |
+| Twitter   | Twitterbot                | Twitter Cards, Open Graph | 800x418px minimum        | On-demand, cached   |
+| LinkedIn  | LinkedInBot               | Open Graph                | 1200x627px recommended   | Every 7 days        |
 | WhatsApp  | WhatsApp                  | Open Graph                | 300x200px minimum        | Real-time, minimal  |
 
 Facebook's crawler updates caches aggressively and offers a cache refresh tool. Twitter prioritizes Twitter Card tags but falls back on Open Graph. LinkedIn refreshes more often than most platforms. WhatsApp's real-time previews can increase server load. Snapchat's approach balances freshness and server efficiency. All crawlers respect robots.txt and meta robots tags, looking for similar metadata while prioritizing different formats. Using the largest recommended image size (1200x630px) ensures good cross-platform display. Platforms often extract favicon images for additional branding in previews.
@@ -132,7 +132,7 @@ Proper tag setup ensures appealing Snapchat link previews. Crawler access can be
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/snapchat",
+  "url": "https://aichatwatch.com/ai-crawler-bot/snapchat",
   "name": "What Is Snapchat's Link Preview Crawler"
 }
 </script>
@@ -144,7 +144,7 @@ Proper tag setup ensures appealing Snapchat link previews. Crawler access can be
   "description": "Understanding Snapchat's link preview crawler, its functionality, and how it impacts link sharing.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/snapchat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/snapchat" }
 }
 </script>
 <script type="application/ld+json">
@@ -220,13 +220,13 @@ Proper tag setup ensures appealing Snapchat link previews. Crawler access can be
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Snapchat",
-      "item": "https://aicw.io/ai-crawler-bot/snapchat"
+      "item": "https://aichatwatch.com/ai-crawler-bot/snapchat"
     }
   ]
 }

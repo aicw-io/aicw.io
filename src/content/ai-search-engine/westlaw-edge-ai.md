@@ -47,7 +47,7 @@ Typical Workflow for Law Firms:
 ![Key Features and Comparisons Diagram](/assets/ai-search-engine/westlaw-edge-ai/legal-question-assisted.png)
 
 
-| Features           | Westlaw Edge AI  | [Lexis+ AI](/ai-search-engine/lexis-plus-ai/)       |
+| Features           | Westlaw Edge AI  | Lexis+ AI       |
 |--------------------|-----------------|-----------------|
 | AI-Assistance      | Yes             | Yes             |
 | Citation Analysis  | Yes (KeyCite)   | Yes             |
@@ -99,9 +99,9 @@ Both platforms offer similar AI capabilities but differ in user experience and c
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/westlaw-edge-ai",
+  "@id": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai",
   "name": "Comprehensive Guide to Westlaw Edge AI by Thomson Reuters",
-  "url": "https://aicw.io/ai-search-engine/westlaw-edge-ai"
+  "url": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -112,7 +112,7 @@ Both platforms offer similar AI capabilities but differ in user experience and c
   "description": "Explore Westlaw Edge AI, a powerful tool for legal research that enhances efficiency through AI features like Litigation Analytics and KeyCite.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/westlaw-edge-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -188,13 +188,13 @@ Both platforms offer similar AI capabilities but differ in user experience and c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Westlaw Edge AI",
-      "item": "https://aicw.io/ai-search-engine/westlaw-edge-ai"
+      "item": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai"
     }
   ]
 }

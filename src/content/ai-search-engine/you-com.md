@@ -14,7 +14,7 @@ keywords: "You.com, YouChat, AI search engine, YouWrite, YouImagine, YouCode, AI
 
 # You.com: An AI Search Engine with Specialized AI Modes
 
-You.com is a cutting-edge AI-powered search engine and assistant platform that merges traditional web search with conversational AI capabilities. After a Series C funding round, the company reached unicorn status with a valuation of around $2.5 billion. You.com offers multiple specialized AI modes for various tasks, including YouChat, YouWrite, YouImagine, and YouCode, making it a versatile choice. The platform is designed to give users more control over their search experience while maintaining privacy standards that distinguish it from traditional search engines. For developers and businesses, You.com provides API access to integrate its capabilities into custom applications, positioning itself as a ChatGPT alternative and [Perplexity AI](/ai-chat-bot/perplexity/) competitor by offering a search-first approach combined with AI assistance.
+You.com is a cutting-edge AI-powered search engine and assistant platform that merges traditional web search with conversational AI capabilities. After a Series C funding round, the company reached unicorn status with a valuation of around $2.5 billion. You.com offers multiple specialized AI modes for various tasks, including YouChat, YouWrite, YouImagine, and YouCode, making it a versatile choice. The platform is designed to give users more control over their search experience while maintaining privacy standards that distinguish it from traditional search engines. For developers and businesses, You.com provides API access to integrate its capabilities into custom applications, positioning itself as a ChatGPT alternative and Perplexity AI competitor by offering a search-first approach combined with AI assistance.
 
 ## What is You.com and How It Works
 
@@ -62,7 +62,7 @@ You.com competes with several AI platforms, most directly with ChatGPT and Perpl
 
 | Feature | You.com | ChatGPT | Perplexity |
 |---------|---------|---------|------------|
-| Search Combining | Native web search with AI | No native search ([ChatGPT Plus](/ai-chat-bot/chatgpt/) includes browsing) | Native web search with citations |
+| Search Combining | Native web search with AI | No native search (ChatGPT Plus includes browsing) | Native web search with citations |
 | Specialized Modes | YouChat, YouWrite, YouImagine, YouCode | Single chat interface | Focus on research and citations |
 | Image Generation | Yes (YouImagine) | Yes (DALL-E integration) | No |
 | Code Assistance | Yes (YouCode mode) | Yes (built-in) | Limited |
@@ -222,7 +222,7 @@ Competing with ChatGPT and Perplexity, You.com distinguishes itself through mult
   "description": "Discover You.com, a versatile AI search engine offering specialized modes like YouChat, YouWrite, and YouCode, focused on user privacy and functionality.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/you-com" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/you-com" }
 }
 </script>
 
@@ -300,13 +300,13 @@ Competing with ChatGPT and Perplexity, You.com distinguishes itself through mult
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "You.com",
-      "item": "https://aicw.io/ai-search-engine/you-com"
+      "item": "https://aichatwatch.com/ai-search-engine/you-com"
     }
   ]
 }

@@ -16,7 +16,7 @@ keywords: "Kagi Search, ad-free search engine, privacy search, paid search engin
 
 ## What Is Kagi Search
 
-Launched in 2022 by Vladimir Prelovac, Kagi Search is a Palo Alto-based paid search engine that emphasizes user privacy by offering ad-free search. The name "Kagi," meaning "key" in Japanese, reflects its mission to unlock a private search experience. Users pay a subscription fee to receive search results without advertisements, tracking cookies, or data collection. This privacy search engine targets users frustrated with ad-heavy results on platforms like Google and [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/). Kagi has gained traction, now serving over 100,000 users who perform millions of monthly searches across desktop and mobile browsers, integrating seamlessly with Kagi's Orion browser.
+Launched in 2022 by Vladimir Prelovac, Kagi Search is a Palo Alto-based paid search engine that emphasizes user privacy by offering ad-free search. The name "Kagi," meaning "key" in Japanese, reflects its mission to unlock a private search experience. Users pay a subscription fee to receive search results without advertisements, tracking cookies, or data collection. This privacy search engine targets users frustrated with ad-heavy results on platforms like Google and DuckDuckGo. Kagi has gained traction, now serving over 100,000 users who perform millions of monthly searches across desktop and mobile browsers, integrating seamlessly with Kagi's Orion browser.
 
 <a id="why-paid-search-exists-and-kagis-purpose"></a>
 
@@ -158,7 +158,7 @@ Kagi AI Features:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/kagi-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/kagi-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -169,7 +169,7 @@ Kagi AI Features:
   "description": "Kagi Search is a paid search engine that stands out as a Google alternative due to its ad-free experience and commitment to user privacy.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/kagi-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/kagi-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -245,13 +245,13 @@ Kagi AI Features:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Kagi Search",
-      "item": "https://aicw.io/ai-search-engine/kagi-search"
+      "item": "https://aichatwatch.com/ai-search-engine/kagi-search"
     }
   ]
 }

@@ -14,7 +14,7 @@ keywords: "DuckAssistBot, DuckDuckGo AI, AI-powered answers, DuckAssist crawler,
 
 ## What DuckAssistBot Does for DuckDuckGo Search
 
-DuckAssistBot is the web crawler behind DuckDuckGo's AI-generated answers feature, [DuckAssist](https://duckduckgo.com/duckduckgo-help-pages/results/duckassist/). Within the first 100 words, it's essential to understand that DuckAssistBot powers [DuckDuckGo AI](/ai-search-engine/duckduckgo-ai-chat/) by crawling websites to collect data for the AI-powered answers shown directly in search results. Unlike traditional search engines that merely display links, DuckAssist provides direct answers from trusted sources like Wikipedia. This aligns with DuckDuckGo's privacy-focused AI philosophy by respecting user privacy and standard blocking mechanisms like robots.txt. For webmasters, it's crucial to understand how the DuckAssist crawler operates for effective server resource management.
+DuckAssistBot is the web crawler behind DuckDuckGo's AI-generated answers feature, [DuckAssist](https://duckduckgo.com/duckduckgo-help-pages/results/duckassist/). Within the first 100 words, it's essential to understand that DuckAssistBot powers DuckDuckGo AI by crawling websites to collect data for the AI-powered answers shown directly in search results. Unlike traditional search engines that merely display links, DuckAssist provides direct answers from trusted sources like Wikipedia. This aligns with DuckDuckGo's privacy-focused AI philosophy by respecting user privacy and standard blocking mechanisms like robots.txt. For webmasters, it's crucial to understand how the DuckAssist crawler operates for effective server resource management.
 
 ## Understanding DuckDuckGo's Background and AI Strategy
 
@@ -65,10 +65,10 @@ Multiple search engines employ specialized crawlers for AI features. Here's how 
 | Crawler        | Company    | Use               | Privacy Focus | Blocking Method              |
 |----------------|------------|-------------------|---------------|------------------------------|
 | DuckAssistBot  | DuckDuckGo | AI answers        | High          | robots.txt, server config    |
-| [Google-Extended](/ai-crawler-bot/google-extended/)| Google     | [AI overviews](/ai-search-engine/google-ai-overviews/)      | Low           | robots.txt (limited)         |
-| [GPTBot](/ai-crawler-bot/gptbot/)         | OpenAI     | Training data     | Medium        | robots.txt, user-agent block |
-| [Bingbot](/ai-crawler-bot/bingbot/)        | Microsoft  | AI chat, answers  | Low           | robots.txt, server config    |
-| CCBot          | [Common Crawl](/ai-crawler-bot/ccbot/) | Dataset creation | Low           | robots.txt, IP blocking      |
+| Google-Extended| Google     | AI overviews      | Low           | robots.txt (limited)         |
+| GPTBot         | OpenAI     | Training data     | Medium        | robots.txt, user-agent block |
+| Bingbot        | Microsoft  | AI chat, answers  | Low           | robots.txt, server config    |
+| CCBot          | Common Crawl | Dataset creation | Low           | robots.txt, IP blocking      |
 
 DuckAssistBot's main differentiator is its dedication to privacy and its specific use case for generating search answers.
 
@@ -123,8 +123,8 @@ DuckAssistBot is pivotal for DuckDuckGo's AI-powered search answers, closely ali
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/duckassistbot",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/duckassistbot" }
+  "url": "https://aichatwatch.com/ai-crawler-bot/duckassistbot",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/duckassistbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -135,7 +135,7 @@ DuckAssistBot is pivotal for DuckDuckGo's AI-powered search answers, closely ali
   "description": "DuckAssistBot powers DuckDuckGo AI-generated answers by crawling websites to collect data for search results.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/duckassistbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/duckassistbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -211,13 +211,13 @@ DuckAssistBot is pivotal for DuckDuckGo's AI-powered search answers, closely ali
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "DuckAssistBot",
-      "item": "https://aicw.io/ai-crawler-bot/duckassistbot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/duckassistbot"
     }
   ]
 }

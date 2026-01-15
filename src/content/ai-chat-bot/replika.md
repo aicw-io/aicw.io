@@ -73,7 +73,7 @@ Several AI companion apps compete with Replika in the market, each offering diff
 | App Name | Key Features | Pricing Model | Main Difference |
 |----------|--------------|---------------|-----------------|
 | Replika | Personalization, voice calls, AR features | Free + $19.99/month Pro | Strong focus on relationship building |
-| [Character.AI](/ai-chat-bot/character-ai/) | Multiple AI characters, community-created bots | Free with limited features | Wide variety of character personalities |
+| Character.AI | Multiple AI characters, community-created bots | Free with limited features | Wide variety of character personalities |
 | Anima | Romantic focus, roleplay, selfies | Free + $9.99/month premium | Emphasis on romantic relationships |
 | Chai | Multiple bots, swipe interface | Free + $13.99/month premium | Social feed with various AI personalities |
 
@@ -160,8 +160,8 @@ Users should remember that while Replika can provide emotional support, it is no
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/replika",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/replika" }
+  "url": "https://aichatwatch.com/ai-chat-bot/replika",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/replika" }
 }
 </script>
 
@@ -173,7 +173,7 @@ Users should remember that while Replika can provide emotional support, it is no
   "description": "Replika is an AI companion app designed to provide emotional support and friendship through conversations, adapting to users' communication styles.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/replika" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/replika" }
 }
 </script>
 
@@ -251,13 +251,13 @@ Users should remember that while Replika can provide emotional support, it is no
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Replika",
-      "item": "https://aicw.io/ai-chat-bot/replika"
+      "item": "https://aichatwatch.com/ai-chat-bot/replika"
     }
   ]
 }

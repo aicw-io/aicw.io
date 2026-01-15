@@ -38,7 +38,7 @@ Link Preview Enhancement Process:
 
 ## Meta-ExternalFetcher vs. Training Crawlers
 
-Understanding the differences between Meta-ExternalFetcher and AI training crawlers is crucial. Meta-ExternalFetcher operates on user demand, visiting URLs shared by real users on Meta platforms. Conversely, training crawlers like [Meta-ExternalAgent](/ai-crawler-bot/meta-externalagent/) are proactive, scanning the web to collect AI training data without needing link shares. User-agent strings differ, allowing recognition in server logs. Meta-ExternalFetcher visits occur when content is shared, whereas training crawlers systematically scrape data.
+Understanding the differences between Meta-ExternalFetcher and AI training crawlers is crucial. Meta-ExternalFetcher operates on user demand, visiting URLs shared by real users on Meta platforms. Conversely, training crawlers like Meta-ExternalAgent are proactive, scanning the web to collect AI training data without needing link shares. User-agent strings differ, allowing recognition in server logs. Meta-ExternalFetcher visits occur when content is shared, whereas training crawlers systematically scrape data.
 
 The visit frequency is disparate, with Meta-ExternalFetcher visiting occasionally based on sharing activity, while training crawlers could visit numerous pages rapidly. Their purposes diverge: Meta-ExternalFetcher generates social media previews, and training crawlers build AI model datasets. Website owners can allow the fetcher for social sharing benefits while blocking training crawlers to protect content, managing crawler permissions via user-agent distinctions.
 
@@ -49,10 +49,10 @@ Here's how Meta-ExternalFetcher stacks up against other social media fetchers:
 | Platform             | User-Agent               | Trigger Method                | Cache Duration   | Special Features             |
 |----------------------|--------------------------|-------------------------------|------------------|------------------------------|
 | Meta-ExternalFetcher | Meta-ExternalFetcher/1.1 | User-initiated sharing        | Varies by platform | Supports Open Graph, security scanning |
-| [Twitterbot](/ai-crawler-bot/twitterbot/)           | Twitterbot/1.0           | User shares or tweets         | 7 days typical   | Prefers Twitter Card tags    |
-| [LinkedInBot](/ai-crawler-bot/linkedinbot/)          | LinkedInBot/1.0          | User posts link               | Variable         | Business-focused metadata    |
-| [TelegramBot](/ai-crawler-bot/telegrambot/)          | TelegramBot              | User shares in chat           | Permanent in most cases | Instant preview generation |
-| [Slackbot](/ai-crawler-bot/slackbot/)             | Slackbot-LinkExpanding   | Posted in channels            | 24 hours default | Unfurling customization options |
+| Twitterbot           | Twitterbot/1.0           | User shares or tweets         | 7 days typical   | Prefers Twitter Card tags    |
+| LinkedInBot          | LinkedInBot/1.0          | User posts link               | Variable         | Business-focused metadata    |
+| TelegramBot          | TelegramBot              | User shares in chat           | Permanent in most cases | Instant preview generation |
+| Slackbot             | Slackbot-LinkExpanding   | Posted in channels            | 24 hours default | Unfurling customization options |
 
 Meta-ExternalFetcher vs AI Training Crawlers:
 ![Comparison with Alternative Social Media Fetchers Diagram](/assets/ai-crawler-bot/meta-externalfetcher/types-meta-externalfetcher.png)
@@ -134,7 +134,7 @@ Technical considerations are crucial for developers configuring servers and moni
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/meta-externalfetcher"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/meta-externalfetcher"
 }
 </script>
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ Technical considerations are crucial for developers configuring servers and moni
   "description": "Meta-ExternalFetcher enhances user experience on social platforms by generating rich link previews from shared URLs.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/meta-externalfetcher" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/meta-externalfetcher" }
 }
 </script>
 <script type="application/ld+json">
@@ -221,13 +221,13 @@ Technical considerations are crucial for developers configuring servers and moni
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io"
+      "item": "https://aichatwatch.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Meta-ExternalFetcher",
-      "item": "https://aicw.io/ai-crawler-bot/meta-externalfetcher"
+      "item": "https://aichatwatch.com/ai-crawler-bot/meta-externalfetcher"
     }
   ]
 }

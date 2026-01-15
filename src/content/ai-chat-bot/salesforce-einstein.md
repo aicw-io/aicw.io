@@ -83,7 +83,7 @@ Marketing Cloud Einstein introduces AI into email marketing, advertising, and cu
 - **Engagement Scoring:** Identifies highly engaged subscribers for prioritized marketing.
 - **Content Selection:** Personalizes emails by selecting the best content variation for each recipient.
 - **Ad Budget Recommendation:** Analyzes campaign performance to suggest budget reallocations.
-- **Einstein [Copilot](/ai-chat-bot/microsoft-copilot/):** Aids in generating campaign briefs and audience descriptions via generative AI.
+- **Einstein Copilot:** Aids in generating campaign briefs and audience descriptions via generative AI.
 
 ## Pricing and Licensing Structure
 
@@ -168,7 +168,7 @@ Salesforce Einstein serves as a comprehensive AI layer for CRM automation and in
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/salesforce-einstein",
+  "url": "https://aichatwatch.com/ai-chat-bot/salesforce-einstein",
   "name": "Salesforce Einstein"
 }
 </script>
@@ -180,7 +180,7 @@ Salesforce Einstein serves as a comprehensive AI layer for CRM automation and in
   "description": "Explore how Salesforce Einstein integrates AI into CRM workflows for improved sales, service, and marketing.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/salesforce-einstein" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/salesforce-einstein" }
 }
 </script>
 <script type="application/ld+json">
@@ -256,13 +256,13 @@ Salesforce Einstein serves as a comprehensive AI layer for CRM automation and in
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Salesforce Einstein",
-      "item": "https://aicw.io/ai-chat-bot/salesforce-einstein"
+      "item": "https://aichatwatch.com/ai-chat-bot/salesforce-einstein"
     }
   ]
 }

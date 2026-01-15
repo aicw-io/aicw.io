@@ -18,7 +18,7 @@ Poe is an AI chat platform owned and operated by Quora, designed to [provide sea
 
 ## What is Poe and How Does It Work?
 
-Poe AI does not stand for any specific acronym, but its core functionality is the aggregation of multiple AI language models into a unified interface. Upon opening Quora Poe, users are presented with a list of available AI models for selection. Notably, the platform provides access to OpenAI models, including GPT-4 and GPT-3.5, Anthropic's Claude models, Meta's [Llama 3.1](/ai-chat-bot/llama/) and Llama 3.2, and Google's [Gemini](/ai-chat-bot/google-gemini/) models.
+Poe AI does not stand for any specific acronym, but its core functionality is the aggregation of multiple AI language models into a unified interface. Upon opening Quora Poe, users are presented with a list of available AI models for selection. Notably, the platform provides access to OpenAI models, including GPT-4 and GPT-3.5, Anthropic's Claude models, Meta's Llama 3.1 and Llama 3.2, and Google's Gemini models.
 
 
 Poe Platform Architecture:
@@ -60,7 +60,7 @@ SEO experts turn to Poe AI for keyword variation research and content ideation, 
 
 ## Poe Pricing Model and Features
 
-Poe offers both free and paid tiers to accommodate different user needs. The free tier allows limited access to AI models, permitting a certain number of daily messages to premium models like GPT-4 and [Claude 3.5 Sonnet](/ai-chat-bot/claude/). Basic models, such as GPT-3.5 and Claude Instant, often provide higher or unlimited message allowances on the free tier.
+Poe offers both free and paid tiers to accommodate different user needs. The free tier allows limited access to AI models, permitting a certain number of daily messages to premium models like GPT-4 and Claude 3.5 Sonnet. Basic models, such as GPT-3.5 and Claude Instant, often provide higher or unlimited message allowances on the free tier.
 
 For those requiring more robust access, the Poe Subscription is available at $19.99 per month or $199 per year, with regional pricing variations. Subscribers enjoy significantly expanded message limits, priority access during peak times, and exclusive premium model availability.
 
@@ -78,10 +78,10 @@ In the landscape of AI chat platforms, several alternatives vie for attention. H
 | Platform | Models Available | Free Tier | Paid Tier Price | Bot Creation | Key Difference |
 |----------|-----------------|-----------|-----------------|--------------|----------------|
 | Poe | GPT-4o, Claude 3.5 Sonnet, Llama 3.1, Gemini | Limited messages | $19.99/month | Yes | Multi-model aggregation focus |
-| [ChatGPT Plus](/ai-chat-bot/chatgpt/) | GPT-4o, GPT-4o mini, o1 | GPT-4o mini unlimited | $20/month | GPTs | OpenAI models only |
+| ChatGPT Plus | GPT-4o, GPT-4o mini, o1 | GPT-4o mini unlimited | $20/month | GPTs | OpenAI models only |
 | Claude Pro | Claude 3.5 Sonnet, Claude 3.5 Haiku, Opus 4 | 5x free tier | $20/month | Projects | Anthropic models only |
-| [Hugging Chat](/ai-chat-bot/huggingchat/) | Open-source models | Unlimited | Free | No | Open source focus |
-| [Perplexity](/ai-chat-bot/perplexity/) Pro | Sonar Large, Llama 3.1 405B, Claude 3.5 Sonnet | Limited | $20/month | No | Search-focused answers |
+| Hugging Chat | Open-source models | Unlimited | Free | No | Open source focus |
+| Perplexity Pro | Sonar Large, Llama 3.1 405B, Claude 3.5 Sonnet | Limited | $20/month | No | Search-focused answers |
 
 ChatGPT Plus focuses deep within OpenAI's ecosystem but limits model diversity, driving the need for separate subscriptions for other models such as Claude AI or Llama. Poe bridges this gap by bundling offerings from multiple providers.
 
@@ -201,7 +201,7 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/poe"
+  "@id": "https://aichatwatch.com/ai-chat-bot/poe"
 }
 </script>
 <script type="application/ld+json">
@@ -212,7 +212,7 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
   "description": "Explore Poe, the all-in-one AI chat platform that centralizes multiple AI models for seamless user interaction.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/poe" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/poe" }
 }
 </script>
 <script type="application/ld+json">
@@ -288,7 +288,7 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -296,7 +296,7 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-chat-bot/poe",
+        "@id": "https://aichatwatch.com/ai-chat-bot/poe",
         "name": "Poe"
       }
     }

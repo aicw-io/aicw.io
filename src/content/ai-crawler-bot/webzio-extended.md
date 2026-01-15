@@ -14,7 +14,7 @@ keywords: "webzio-extended, Webz.io AI bot, web data AI training, AI crawler, da
 
 ## Introduction
 
-The **webzio-extended** crawler is a specialized web bot operated by Webz.io for collecting web data, crucial for AI training datasets. Part of Webz.io's broader infrastructure, it provides structured web data to companies building AI models. Web crawlers like webzio-extended exist because AI models need massive amounts of text data to train effectively, as highlighted in [Appen's AI data collection services](https://www.appen.com/ai-data/data-collection/). These bots visit websites automatically, extracting content that later gets packaged into datasets for machine learning purposes. Specifically, the webzio-extended bot focuses on extended web data collection beyond the standard [Omgilibot](/ai-crawler-bot/omgilibot/) crawler's tasks. Website owners and developers must understand how this crawler operates, what data it collects, and how to manage its access to their sites.
+The **webzio-extended** crawler is a specialized web bot operated by Webz.io for collecting web data, crucial for AI training datasets. Part of Webz.io's broader infrastructure, it provides structured web data to companies building AI models. Web crawlers like webzio-extended exist because AI models need massive amounts of text data to train effectively, as highlighted in [Appen's AI data collection services](https://www.appen.com/ai-data/data-collection/). These bots visit websites automatically, extracting content that later gets packaged into datasets for machine learning purposes. Specifically, the webzio-extended bot focuses on extended web data collection beyond the standard Omgilibot crawler's tasks. Website owners and developers must understand how this crawler operates, what data it collects, and how to manage its access to their sites.
 
 ## What is webzio-extended
 
@@ -110,9 +110,9 @@ The **webzio-extended** operates in a crowded market of web crawlers collecting 
 |------------------|--------------|-----------------------------------------------|---------------------|---------------------------|
 | webzio-extended   | Webz.io      | Extended web data collection for AI training  | Yes                 | Commercial licensing      |
 | Omgilibot        | Webz.io      | General web data collection                    | Yes                 | Commercial licensing      |
-| CCBot            | [Common Crawl](/ai-crawler-bot/ccbot/) | Building free web archive for AI training     | Yes                 | Free public dataset      |
-| [GPTBot](/ai-crawler-bot/gptbot/)           | OpenAI       | Training [ChatGPT](/ai-chat-bot/chatgpt/) and GPT models               | Yes                 | Internal use only        |
-| [Google-Extended](/ai-crawler-bot/google-extended/)   | Google       | Training Bard and AI models                   | Yes                 | Internal use only        |
+| CCBot            | Common Crawl | Building free web archive for AI training     | Yes                 | Free public dataset      |
+| GPTBot           | OpenAI       | Training ChatGPT and GPT models               | Yes                 | Internal use only        |
+| Google-Extended   | Google       | Training Bard and AI models                   | Yes                 | Internal use only        |
 
 **webzio-extended** differs from Omgilibot despite being a Webz.io product. While Omgilibot manages primary web crawling operations, webzio-extended is meant for specialized or extended data collection tasks. Website administrators should block both crawlers if preventing all Webz.io data collection is their goal.
 
@@ -122,7 +122,7 @@ GPTBot and Google-Extended are operated by major tech companies for internal AI 
 
 All these crawlers claim adherence to robots.txt directives, but enforcement varies. Some crawlers are more aggressive in terms of crawl frequency. **webzio-extended** generally receives fewer complaints about excessive crawling than other commercial data collectors.
 
-The commercial data collection market includes multiple players beyond those listed. Firms like [Diffbot](/ai-crawler-bot/diffbot/) and Import.io operate their crawlers, each with different technical characteristics and models. To prevent content from entering commercial datasets, multiple crawler blocks may be necessary.
+The commercial data collection market includes multiple players beyond those listed. Firms like Diffbot and Import.io operate their crawlers, each with different technical characteristics and models. To prevent content from entering commercial datasets, multiple crawler blocks may be necessary.
 
 ## Data Licensing and Legal Considerations
 
@@ -205,11 +205,11 @@ The wider landscape of AI training crawlers includes many similar bots from vari
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/webzio-extended",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/webzio-extended",
   "name": "Webzio Extended Crawler Bot",
   "description": "An in-depth look at the webzio-extended crawler operated by Webz.io, its purpose, data collection methods, and its impact on AI training datasets.",
   "breadcrumb": {
-    "@id": "https://aicw.io/ai-crawler-bot/webzio-extended"
+    "@id": "https://aichatwatch.com/ai-crawler-bot/webzio-extended"
   }
 }
 </script>
@@ -229,7 +229,7 @@ The wider landscape of AI training crawlers includes many similar bots from vari
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aicw.io/ai-crawler-bot/webzio-extended"
+    "@id": "https://aichatwatch.com/ai-crawler-bot/webzio-extended"
   }
 }
 </script>
@@ -306,7 +306,7 @@ The wider landscape of AI training crawlers includes many similar bots from vari
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -314,7 +314,7 @@ The wider landscape of AI training crawlers includes many similar bots from vari
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/webzio-extended",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/webzio-extended",
         "name": "Webzio Extended Crawler Bot"
       }
     }

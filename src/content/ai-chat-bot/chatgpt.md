@@ -90,7 +90,7 @@ ChatGPT Subscription Tiers:
 
 Several AI chatbots compete with ChatGPT:
 
-| Feature | ChatGPT | [Claude](/ai-chat-bot/claude/) | [Gemini](/ai-chat-bot/google-gemini/) | [Copilot](/ai-chat-bot/microsoft-copilot/) | [Perplexity](/ai-chat-bot/perplexity/) |
+| Feature | ChatGPT | Claude | Gemini | Copilot | Perplexity |
 |---------|---------|--------|--------|---------|------------|
 | Free Tier | GPT-3.5, GPT-4o mini | Limited messages | Yes | Limited | Yes |
 | Paid Price | $20/month | $20/month | $20/month | $20/month | $20/month |
@@ -175,7 +175,7 @@ ChatGPT transformed the AI landscape upon its November 2022 launch, quickly beco
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/chatgpt"
+  "@id": "https://aichatwatch.com/ai-chat-bot/chatgpt"
 }
 </script>
 <script type="application/ld+json">
@@ -186,7 +186,7 @@ ChatGPT transformed the AI landscape upon its November 2022 launch, quickly beco
   "description": "ChatGPT, developed by OpenAI, is an AI chatbot that quickly became the fastest-growing application in history, reaching 100 million users within two months of launch.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/chatgpt" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/chatgpt" }
 }
 </script>
 <script type="application/ld+json">
@@ -262,13 +262,13 @@ ChatGPT transformed the AI landscape upon its November 2022 launch, quickly beco
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ChatGPT",
-      "item": "https://aicw.io/ai-chat-bot/chatgpt"
+      "item": "https://aichatwatch.com/ai-chat-bot/chatgpt"
     }
   ]
 }

@@ -14,11 +14,11 @@ keywords: "Tongyi Qianwen, Alibaba AI assistant, Qwen model, Chinese AI ecosyste
 
 ## Introduction
 
-[Tongyi Qianwen](https://www.alibabacloud.com/press-room/alibaba-cloud-unveils-new-ai-model-to-support) launched in April 2023 as Alibaba's AI assistant powered by large language models, responding to the growing AI chatbot market. This powerful tool helps users with text generation, question answering, code writing, and content creation. Think of it as Alibaba's version of [ChatGPT](/ai-chat-bot/chatgpt/), but specifically built for the Chinese market and deeply integrated into the Alibaba ecosystem. The AI assistant operates on the Qwen model family, which Alibaba Cloud developed. Supporting multiple languages, including Chinese and English, it serves companies needing AI assistants that understand Chinese nuances and comply with local regulations. Moreover, Alibaba has released several Qwen models as open source, empowering developers to create custom AI applications, with models available under the Apache 2.0 license.
+[Tongyi Qianwen](https://www.alibabacloud.com/press-room/alibaba-cloud-unveils-new-ai-model-to-support) launched in April 2023 as Alibaba's AI assistant powered by large language models, responding to the growing AI chatbot market. This powerful tool helps users with text generation, question answering, code writing, and content creation. Think of it as Alibaba's version of ChatGPT, but specifically built for the Chinese market and deeply integrated into the Alibaba ecosystem. The AI assistant operates on the Qwen model family, which Alibaba Cloud developed. Supporting multiple languages, including Chinese and English, it serves companies needing AI assistants that understand Chinese nuances and comply with local regulations. Moreover, Alibaba has released several Qwen models as open source, empowering developers to create custom AI applications, with models available under the Apache 2.0 license.
 
 ## What is Tongyi Qianwen
 
-Tongyi Qianwen translates to "truth from a thousand questions" in English, reflecting its design to handle diverse queries. It's a conversational AI assistant accessible through web interfaces or mobile apps. Understanding natural language queries, it generates human-like responses. You can ask it to write emails, summarize documents, answer questions, or assist with coding tasks. The technology behind it is the Qwen model series—transformer-based large language models trained on massive datasets, with Qwen2.5-Max outperforming other foundation models in key benchmarks. Alibaba released several versions, including Qwen-7B, Qwen-14B, and [Qwen-72B](/ai-chat-bot/qwen/), with numbers indicating billions of parameters in each model. Larger models typically perform better but demand more computing power. The assistant works in multiple languages, processing text inputs and producing text outputs, supporting 119 languages and dialects. Some versions also handle images, analyzing visual content. Integration into Alibaba services like DingTalk and Tmall makes it easily accessible for existing users.
+Tongyi Qianwen translates to "truth from a thousand questions" in English, reflecting its design to handle diverse queries. It's a conversational AI assistant accessible through web interfaces or mobile apps. Understanding natural language queries, it generates human-like responses. You can ask it to write emails, summarize documents, answer questions, or assist with coding tasks. The technology behind it is the Qwen model series—transformer-based large language models trained on massive datasets, with Qwen2.5-Max outperforming other foundation models in key benchmarks. Alibaba released several versions, including Qwen-7B, Qwen-14B, and Qwen-72B, with numbers indicating billions of parameters in each model. Larger models typically perform better but demand more computing power. The assistant works in multiple languages, processing text inputs and producing text outputs, supporting 119 languages and dialects. Some versions also handle images, analyzing visual content. Integration into Alibaba services like DingTalk and Tmall makes it easily accessible for existing users.
 
 Tongyi Qianwen Model Architecture:
 ![What is Tongyi Qianwen Diagram](/assets/ai-chat-bot/tongyi-qianwen/user-input-qwen.png)
@@ -26,7 +26,7 @@ Tongyi Qianwen Model Architecture:
 
 ## Why Tongyi Qianwen Exists
 
-Alibaba created Tongyi Qianwen to compete in the AI assistant market. Following ChatGPT's surge in popularity in late 2022, Chinese tech firms rushed to develop similar tools. Baidu launched [ERNIE Bot](/ai-chat-bot/ernie-bot/), Tencent released their AI assistant, and Alibaba introduced Tongyi Qianwen. Alibaba needed a solution that performed well with the Chinese language and culture, given differences in grammatical structures and contextual meanings compared to English. Foreign AI services face restrictions in China, making local alternatives necessary. Alibaba also wanted to keep user data within their ecosystem and comply with Chinese data regulations. Combining AI with its e-commerce platforms, cloud services, and software, Alibaba enhances these products, aiding sellers on Taobao in writing product descriptions, automating customer service, and more. The open-source approach fosters a developer community and sparks new ideas on their platform.
+Alibaba created Tongyi Qianwen to compete in the AI assistant market. Following ChatGPT's surge in popularity in late 2022, Chinese tech firms rushed to develop similar tools. Baidu launched ERNIE Bot, Tencent released their AI assistant, and Alibaba introduced Tongyi Qianwen. Alibaba needed a solution that performed well with the Chinese language and culture, given differences in grammatical structures and contextual meanings compared to English. Foreign AI services face restrictions in China, making local alternatives necessary. Alibaba also wanted to keep user data within their ecosystem and comply with Chinese data regulations. Combining AI with its e-commerce platforms, cloud services, and software, Alibaba enhances these products, aiding sellers on Taobao in writing product descriptions, automating customer service, and more. The open-source approach fosters a developer community and sparks new ideas on their platform.
 
 ## How Businesses Use Tongyi Qianwen
 
@@ -40,7 +40,7 @@ Alibaba AI Ecosystem Integration:
 
 Several AI assistants compete in the Chinese and global markets. Here's a comparison of Tongyi Qianwen with major alternatives.
 
-| Feature | Tongyi Qianwen | ERNIE Bot | ChatGPT | [Claude](/ai-chat-bot/claude/) | [Gemini](/ai-chat-bot/google-gemini/) |
+| Feature | Tongyi Qianwen | ERNIE Bot | ChatGPT | Claude | Gemini |
 |---------|----------------|-----------|---------|--------|--------|
 | Company | Alibaba | Baidu | OpenAI | Anthropic | Google |
 | Launch Date | April 2023 | March 2023 | November 2022 | March 2023 | December 2023 |
@@ -114,8 +114,8 @@ Tongyi Qianwen marks Alibaba's significant entry into AI assistants, combining c
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/tongyi-qianwen",
-  "url": "https://aicw.io/ai-chat-bot/tongyi-qianwen",
+  "@id": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen",
+  "url": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen",
   "name": "Tongyi Qianwen: Alibaba's AI Assistant",
   "description": "Explore Tongyi Qianwen, Alibaba's advanced AI assistant designed for the Chinese market, focusing on its features and integrations."
 }
@@ -128,7 +128,7 @@ Tongyi Qianwen marks Alibaba's significant entry into AI assistants, combining c
   "description": "Explore Tongyi Qianwen, Alibaba's advanced AI assistant designed for the Chinese market, focusing on its features and integrations.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/tongyi-qianwen" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,13 +204,13 @@ Tongyi Qianwen marks Alibaba's significant entry into AI assistants, combining c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tongyi Qianwen",
-      "item": "https://aicw.io/ai-chat-bot/tongyi-qianwen"
+      "item": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen"
     }
   ]
 }

@@ -153,7 +153,7 @@ The technology might expand beyond traditional advertising. Content recommendati
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/grapeshot"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/grapeshot"
 }
 </script>
 <script type="application/ld+json">
@@ -164,7 +164,7 @@ The technology might expand beyond traditional advertising. Content recommendati
   "description": "Grapeshot is a web crawler that scans websites to categorize content for advertising purposes.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/grapeshot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/grapeshot" }
 }
 </script>
 <script type="application/ld+json">
@@ -240,7 +240,7 @@ The technology might expand beyond traditional advertising. Content recommendati
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -248,7 +248,7 @@ The technology might expand beyond traditional advertising. Content recommendati
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/grapeshot",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/grapeshot",
         "name": "What is Grapeshot and Why Should You Care"
       }
     }

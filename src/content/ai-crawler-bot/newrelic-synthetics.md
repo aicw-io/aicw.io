@@ -48,7 +48,7 @@ New Relic Synthetics operates as part of the broader New Relic observability pla
 
 Several alternatives offer synthetic monitoring capabilities. Here's how New Relic Synthetics compares to major options:
 
-| Feature                 | New Relic Synthetics | [Datadog](/ai-crawler-bot/datadog/) Synthetics | [Pingdom](/ai-crawler-bot/pingdom/) | Uptime Robot | StatusCake |
+| Feature                 | New Relic Synthetics | Datadog Synthetics | Pingdom | Uptime Robot | StatusCake |
 |-------------------------|----------------------|-------------------|---------|--------------|------------|
 | Scripted Browser Tests  | Yes                  | Yes               | Limited | No           | No         |
 | API Monitoring          | Yes                  | Yes               | Yes     | Yes          | Yes        |
@@ -131,11 +131,11 @@ New Relic Synthetics offers comprehensive performance monitoring with automated 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/newrelic-synthetics",
-  "url": "https://aicw.io/ai-crawler-bot/newrelic-synthetics",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics",
+  "url": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics",
   "name": "New Relic Synthetics",
   "description": "A comprehensive overview of New Relic Synthetics, a performance monitoring tool that simulates user interactions with websites and applications to identify issues before real users encounter them.",
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/newrelic-synthetics"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics"}
 }
 </script>
 <script type="application/ld+json">
@@ -146,7 +146,7 @@ New Relic Synthetics offers comprehensive performance monitoring with automated 
   "description": "Explore how New Relic Synthetics provides essential performance monitoring tools that simulate user interactions with websites to catch issues early.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/newrelic-synthetics"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics"}
 }
 </script>
 <script type="application/ld+json">
@@ -222,13 +222,13 @@ New Relic Synthetics offers comprehensive performance monitoring with automated 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "New Relic Synthetics",
-      "item": "https://aicw.io/ai-crawler-bot/newrelic-synthetics"
+      "item": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics"
     }
   ]
 }

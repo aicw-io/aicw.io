@@ -99,8 +99,8 @@ Semantic Scholar redefines academic search. Its AI features and extensive databa
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/semantic-scholar",
-  "url": "https://aicw.io/ai-search-engine/semantic-scholar",
+  "@id": "https://aichatwatch.com/ai-search-engine/semantic-scholar",
+  "url": "https://aichatwatch.com/ai-search-engine/semantic-scholar",
   "name": "Semantic Scholar - AI Chat Watch",
   "description": "An overview of Semantic Scholar, an AI-powered academic search engine designed to assist researchers in finding relevant papers quickly and efficiently."
 }
@@ -113,7 +113,7 @@ Semantic Scholar redefines academic search. Its AI features and extensive databa
   "description": "Discover how Semantic Scholar, an AI-powered search engine, is revolutionizing academic research with advanced features and vast database access.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/semantic-scholar" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/semantic-scholar" }
 }
 </script>
 <script type="application/ld+json">
@@ -189,13 +189,13 @@ Semantic Scholar redefines academic search. Its AI features and extensive databa
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Semantic Scholar",
-      "item": "https://aicw.io/ai-search-engine/semantic-scholar"
+      "item": "https://aichatwatch.com/ai-search-engine/semantic-scholar"
     }
   ]
 }

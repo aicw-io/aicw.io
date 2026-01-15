@@ -50,7 +50,7 @@ How Link Explorer Uses Rogerbot Data:
 
 ## Rogerbot's Relationship with DotBot
 
-Moz employs two distinct web crawlers: Rogerbot and [DotBot](/ai-crawler-bot/dotbot/), each serving unique roles. DotBot, the newer and faster crawler, handles the bulk of Moz's web crawling operations, using modern technology for efficient data processing.
+Moz employs two distinct web crawlers: Rogerbot and DotBot, each serving unique roles. DotBot, the newer and faster crawler, handles the bulk of Moz's web crawling operations, using modern technology for efficient data processing.
 
 Rogerbot, while still operational, focuses on niche roles within the crawling strategy. Both contribute to Moz's extensive link databases but differ in execution. DotBot manages most web crawling, and Rogerbot supports specific functions, ensuring comprehensive coverage.
 
@@ -124,8 +124,8 @@ Comparison of Rogerbot with other major SEO crawlers highlights their unique fea
 | Crawler           | Company       | Main Use            | Index Size        | Frequency       |
 |-------------------|---------------|---------------------|-------------------|-----------------|
 | Rogerbot/DotBot   | Moz           | Link Explorer       | 40+ billion URLs  | Continuous      |
-| [AhrefsBot](/ai-crawler-bot/ahrefsbot/)         | Ahrefs        | Site Explorer       | 400+ billion pages| 15-30 min       |
-| [SemrushBot](/ai-crawler-bot/semrushbot/)        | Semrush       | Backlink analysis   | 43+ trillion URLs | Daily           |
+| AhrefsBot         | Ahrefs        | Site Explorer       | 400+ billion pages| 15-30 min       |
+| SemrushBot        | Semrush       | Backlink analysis   | 43+ trillion URLs | Daily           |
 | Majestic          | Majestic SEO  | Link intelligence   | 400+ billion URLs | Continuous      |
 | BLEXBot           | WebMeUp       | Backlink discovery  | Not disclosed     | Continuous      |
 
@@ -216,7 +216,7 @@ When compared to alternatives like AhrefsBot and SemrushBot, Rogerbot maintains 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": {"@id": "https://aicw.io/ai-crawler-bot/rogerbot"}
+  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-crawler-bot/rogerbot"}
 }
 </script>
 <script type="application/ld+json">
@@ -227,7 +227,7 @@ When compared to alternatives like AhrefsBot and SemrushBot, Rogerbot maintains 
   "description": "Rogerbot is Moz's SEO crawler that plays a crucial role in collecting link analysis data and other SEO-related information from websites.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/rogerbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/rogerbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -303,13 +303,13 @@ When compared to alternatives like AhrefsBot and SemrushBot, Rogerbot maintains 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Rogerbot",
-      "item": "https://aicw.io/ai-crawler-bot/rogerbot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/rogerbot"
     }
   ]
 }

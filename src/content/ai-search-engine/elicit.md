@@ -89,7 +89,7 @@ With Elicit AI, researchers access practical solutions that elevate the efficien
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/elicit"
+  "@id": "https://aichatwatch.com/ai-search-engine/elicit"
 }
 </script>
 <script type="application/ld+json">
@@ -100,7 +100,7 @@ With Elicit AI, researchers access practical solutions that elevate the efficien
   "description": "Elicit AI is revolutionizing the field of academic research by offering a robust suite of tools designed to enhance literature reviews, assist researchers, and automate paper analysis.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/elicit" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/elicit" }
 }
 </script>
 <script type="application/ld+json">
@@ -176,7 +176,7 @@ With Elicit AI, researchers access practical solutions that elevate the efficien
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -184,7 +184,7 @@ With Elicit AI, researchers access practical solutions that elevate the efficien
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-search-engine/elicit",
+        "@id": "https://aichatwatch.com/ai-search-engine/elicit",
         "name": "Elicit"
       }
     }

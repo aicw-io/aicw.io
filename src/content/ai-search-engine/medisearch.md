@@ -38,7 +38,7 @@ Peer-reviewed sources form the backbone of MediSearch’s strategy. When scienti
 
 ## Citation Strategy and Transparency
 
-Transparency distinguishes MediSearch from typical AI chatbots. Every claim in an answer is linked directly to a specific scientific paper. Citations are visible with the text, not buried at the bottom of a page. When MediSearch states a fact, you can click the citation number to see the exact study it originated from. This approach addresses a major issue with AI-generated content—the lack of verifiable sources. Many AI tools generate confident-sounding answers without showing where the information originated. MediSearch reverses this trend by making citations a central feature. The citation format includes the paper title, authors, journal name, and publication year. When available, you get a direct link to the abstract or full paper. This is significant because not all medical studies are created equal. A randomized controlled trial with 10,000 participants carries more weight than a case study with 5 people. By showing citations, MediSearch lets you judge the quality of evidence yourself. The system typically provides multiple sources for each major claim, indicating [consensus](/ai-search-engine/consensus/) across various studies. If research is limited or conflicting, MediSearch states this clearly rather than giving a false sense of certainty.
+Transparency distinguishes MediSearch from typical AI chatbots. Every claim in an answer is linked directly to a specific scientific paper. Citations are visible with the text, not buried at the bottom of a page. When MediSearch states a fact, you can click the citation number to see the exact study it originated from. This approach addresses a major issue with AI-generated content—the lack of verifiable sources. Many AI tools generate confident-sounding answers without showing where the information originated. MediSearch reverses this trend by making citations a central feature. The citation format includes the paper title, authors, journal name, and publication year. When available, you get a direct link to the abstract or full paper. This is significant because not all medical studies are created equal. A randomized controlled trial with 10,000 participants carries more weight than a case study with 5 people. By showing citations, MediSearch lets you judge the quality of evidence yourself. The system typically provides multiple sources for each major claim, indicating consensus across various studies. If research is limited or conflicting, MediSearch states this clearly rather than giving a false sense of certainty.
 
 <a id="limitations-and-not-a-medical-professional-substitute"></a>
 
@@ -116,8 +116,8 @@ Peer-Reviewed Sources and AI Usage Flow:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/medisearch",
-  "url": "https://aicw.io/ai-search-engine/medisearch",
+  "@id": "https://aichatwatch.com/ai-search-engine/medisearch",
+  "url": "https://aichatwatch.com/ai-search-engine/medisearch",
   "name": "MediSearch: Your Guide to Trustworthy Medical AI Search",
   "description": "MediSearch is an AI medical search engine designed to provide reliable health information directly from peer-reviewed medical sources.",
   "mainEntity": {
@@ -126,7 +126,7 @@ Peer-Reviewed Sources and AI Usage Flow:
     "description": "MediSearch is an AI medical search engine designed to provide reliable health information directly from peer-reviewed medical sources.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/medisearch" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/medisearch" }
   }
 }
 </script>
@@ -205,13 +205,13 @@ Peer-Reviewed Sources and AI Usage Flow:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "MediSearch",
-      "item": "https://aicw.io/ai-search-engine/medisearch"
+      "item": "https://aichatwatch.com/ai-search-engine/medisearch"
     }
   ]
 }

@@ -38,7 +38,7 @@ The purpose of Wolfram Alpha is to make computational knowledge accessible. Inst
 
 ## How Businesses Use Wolfram Alpha
 
-Businesses leverage Wolfram Alpha for data-driven ideas, financial calculations, and forecasting. Researchers and developers benefit from its extensive computation capabilities. Combined with [ChatGPT](/ai-chat-bot/chatgpt/) integration, users can engage in natural conversations to uncover computed data.
+Businesses leverage Wolfram Alpha for data-driven ideas, financial calculations, and forecasting. Researchers and developers benefit from its extensive computation capabilities. Combined with ChatGPT integration, users can engage in natural conversations to uncover computed data.
 
 <a id="key-features-and-comparisons"></a>
 
@@ -112,7 +112,7 @@ Wolfram Alpha stands out as a powerful computational engine. Offering precise co
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/wolfram-alpha"
+  "@id": "https://aichatwatch.com/ai-search-engine/wolfram-alpha"
 }
 </script>
 <script type="application/ld+json">
@@ -123,7 +123,7 @@ Wolfram Alpha stands out as a powerful computational engine. Offering precise co
   "description": "An in-depth look at Wolfram Alpha, its purpose, features, and its significance in the world of computing and AI.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/wolfram-alpha" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/wolfram-alpha" }
 }
 </script>
 <script type="application/ld+json">
@@ -199,13 +199,13 @@ Wolfram Alpha stands out as a powerful computational engine. Offering precise co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Wolfram Alpha",
-      "item": "https://aicw.io/ai-search-engine/wolfram-alpha"
+      "item": "https://aichatwatch.com/ai-search-engine/wolfram-alpha"
     }
   ]
 }

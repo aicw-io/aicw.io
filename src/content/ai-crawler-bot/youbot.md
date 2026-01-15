@@ -14,7 +14,7 @@ keywords: "YouBot, You.com crawler, AI search engine indexing, You.com search bo
 
 ## Introduction
 
-YouBot is the web crawler that powers [You.com](/ai-search-engine/you-com/), an AI-powered search engine. As an AI search engine indexing tool, web crawlers like YouBot are automated programs that visit websites and collect information to build search indexes. Think of them as digital scouts that help search engines understand what content exists on the internet. YouBot specifically serves You.com, which launched in 2021 and aims to provide more personalized and AI-enhanced search results. The You.com crawler, YouBot, visits web pages, reads their content, and adds this information to You.com's database. This allows the search engine to return relevant results when users perform searches. Unlike traditional search crawlers, YouBot also collects data that feeds into You.com's AI systems. The company behind You.com is focused on creating a next-generation search experience that combines traditional web indexing with AI capabilities.
+YouBot is the web crawler that powers You.com, an AI-powered search engine. As an AI search engine indexing tool, web crawlers like YouBot are automated programs that visit websites and collect information to build search indexes. Think of them as digital scouts that help search engines understand what content exists on the internet. YouBot specifically serves You.com, which launched in 2021 and aims to provide more personalized and AI-enhanced search results. The You.com crawler, YouBot, visits web pages, reads their content, and adds this information to You.com's database. This allows the search engine to return relevant results when users perform searches. Unlike traditional search crawlers, YouBot also collects data that feeds into You.com's AI systems. The company behind You.com is focused on creating a next-generation search experience that combines traditional web indexing with AI capabilities.
 
 ## What is YouBot and How Does It Work
 
@@ -63,11 +63,11 @@ Several companies operate web crawlers for search and AI purposes. Here is how Y
 | Crawler Name | Company      | Primary Purpose       | Blocking User-Agent | Launch Period |
 |--------------|--------------|-----------------------|---------------------|---------------|
 | YouBot       | You.com      | AI search indexing    | YouBot              | 2021-2022     |
-| [Googlebot](/ai-crawler-bot/googlebot/)    | Google       | Search indexing       | Googlebot           | 1996          |
-| [Bingbot](/ai-crawler-bot/bingbot/)      | Microsoft    | Search indexing       | Bingbot             | 2010          |
-| CCBot        | [Common Crawl](/ai-crawler-bot/ccbot/) | Open dataset creation | CCBot               | 2011          |
-| [GPTBot](/ai-crawler-bot/gptbot/)       | OpenAI       | AI training data      | GPTBot              | 2023          |
-| [ClaudeBot](/ai-crawler-bot/claudebot/)    | Anthropic    | AI training data      | ClaudeBot           | 2023          |
+| Googlebot    | Google       | Search indexing       | Googlebot           | 1996          |
+| Bingbot      | Microsoft    | Search indexing       | Bingbot             | 2010          |
+| CCBot        | Common Crawl | Open dataset creation | CCBot               | 2011          |
+| GPTBot       | OpenAI       | AI training data      | GPTBot              | 2023          |
+| ClaudeBot    | Anthropic    | AI training data      | ClaudeBot           | 2023          |
 
 YouBot is newer compared to traditional search crawlers like Googlebot and Bingbot, which have been operating for decades and crawl far more of the web. YouBot likely has a smaller crawl budget and covers less total content. Compared to AI-focused crawlers like GPTBot and ClaudeBot, YouBot serves a dual purpose. It needs to both build a search index and gather AI training data. GPTBot and ClaudeBot focus primarily on collecting training data for large language models. CCBot creates an open dataset that researchers and companies can use. YouBot's data stays within You.com's ecosystem.
 
@@ -122,9 +122,9 @@ Some web servers let you block crawlers based on user-agent strings in the serve
 
 You.com launched as a search engine with AI capabilities built in from the start. The platform was founded by former Salesforce executives Richard Socher and Bryan McCann and went public in late 2021. The company positions itself as a privacy-focused alternative to traditional search engines.
 
-You.com offers several features beyond basic web search. YouChat is an AI assistant similar to [ChatGPT](/ai-chat-bot/chatgpt/) that can answer questions and help with tasks. YouWrite assists with content creation. YouCode helps developers find programming solutions. YouImagine generates images from text descriptions. All these features rely on the underlying index that YouBot creates.
+You.com offers several features beyond basic web search. YouChat is an AI assistant similar to ChatGPT that can answer questions and help with tasks. YouWrite assists with content creation. YouCode helps developers find programming solutions. YouImagine generates images from text descriptions. All these features rely on the underlying index that YouBot creates.
 
-The platform also offers customizable search experiences, allowing users to prioritize certain sources. You.com has raised significant funding to compete in the search market. The company faces competition from established players like Google and Bing, as well as newer AI-focused search engines like [Perplexity](/ai-chat-bot/perplexity/). The search market is difficult to break into because it requires massive infrastructure and comprehensive web indexes. YouBot plays an important role in building that index and keeping it current.
+The platform also offers customizable search experiences, allowing users to prioritize certain sources. You.com has raised significant funding to compete in the search market. The company faces competition from established players like Google and Bing, as well as newer AI-focused search engines like Perplexity. The search market is difficult to break into because it requires massive infrastructure and comprehensive web indexes. YouBot plays an important role in building that index and keeping it current.
 
 ## Conclusion
 
@@ -171,7 +171,7 @@ Compared to established crawlers like Googlebot, YouBot is newer and likely cove
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/youbot"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/youbot"
 }
 </script>
 <script type="application/ld+json">
@@ -182,7 +182,7 @@ Compared to established crawlers like Googlebot, YouBot is newer and likely cove
   "description": "YouBot is an automated web crawler developed by You.com to build and maintain its AI-powered search index.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/youbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/youbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -254,8 +254,8 @@ Compared to established crawlers like Googlebot, YouBot is newer and likely cove
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "@id": "https://aicw.io/", "name": "Home" } },
-    { "@type": "ListItem", "position": 2, "item": { "@id": "https://aicw.io/ai-crawler-bot/youbot", "name": "YouBot" } }
+    { "@type": "ListItem", "position": 1, "item": { "@id": "https://aichatwatch.com/", "name": "Home" } },
+    { "@type": "ListItem", "position": 2, "item": { "@id": "https://aichatwatch.com/ai-crawler-bot/youbot", "name": "YouBot" } }
   ]
 }
 </script>

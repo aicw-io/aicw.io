@@ -60,7 +60,7 @@ The highlighting feature uses browser storage to save your selections. When you 
 
 You can organize highlights with tags and folders, aiding your work on multiple research projects. The search function allows you to find specific highlights by keyword, and the tool also supports PDF highlighting via the browser extension.
 
-The search utilizes a large language model akin to [ChatGPT](/ai-chat-bot/chatgpt/), with the key difference being the source citation system. Every AI response includes clickable references back to the source web pages and documents.
+The search utilizes a large language model akin to ChatGPT, with the key difference being the source citation system. Every AI response includes clickable references back to the source web pages and documents.
 
 Liner AI claims to prioritize *trusted sources AI* in responses, filtering results to favor academic papers, established news outlets, and verified websites. This feature is crucial for researchers needing reliable information.
 
@@ -190,14 +190,14 @@ Liner AI User Flow:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-search-engine/liner",
+  "url": "https://aichatwatch.com/ai-search-engine/liner",
   "mainEntity": {
     "@type": "Article",
     "headline": "Liner AI Research Tool: Complete Guide for Students",
     "description": "Liner AI is a robust AI research tool designed for students and academics, helping discover, highlight, and organize research efficiently.",
     "author": { "@type": "Organization", "name": "AI Chat Watch" },
     "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/liner" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/liner" }
   }
 }
 </script>
@@ -276,13 +276,13 @@ Liner AI User Flow:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Liner AI Research Tool",
-      "item": "https://aicw.io/ai-search-engine/liner"
+      "item": "https://aichatwatch.com/ai-search-engine/liner"
     }
   ]
 }

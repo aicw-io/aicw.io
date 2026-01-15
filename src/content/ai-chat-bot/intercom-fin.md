@@ -44,7 +44,7 @@ Intercom reports that Fin can resolve up to 50% of customer queries autonomously
 
 Several AI customer service tools compete in this space, each with different strengths and approaches. Here's how Intercom Fin compares to major alternatives:
 
-| Feature | Intercom Fin | [Zendesk AI](/ai-chat-bot/zendesk-ai/) | Freshdesk Freddy AI | Ada | Ultimate.ai |
+| Feature | Intercom Fin | Zendesk AI | Freshdesk Freddy AI | Ada | Ultimate.ai |
 |---------|--------------|------------|---------------------|-----|-------------|
 | Autonomous Resolution | Yes, up to 50% | Yes, varies | Yes, up to 40% | Yes, up to 70% | Yes, up to 60% |
 | Knowledge Base Integration | Native to Intercom | Native to Zendesk | Native to Freshdesk | Multi-platform | Multi-platform |
@@ -114,8 +114,8 @@ Intercom Fin Implementation Workflow:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/intercom-fin",
-  "mainEntityOfPage": {"@id": "https://aicw.io/ai-chat-bot/intercom-fin"}
+  "url": "https://aichatwatch.com/ai-chat-bot/intercom-fin",
+  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-chat-bot/intercom-fin"}
 }
 </script>
 <script type="application/ld+json">
@@ -126,7 +126,7 @@ Intercom Fin Implementation Workflow:
   "description": "Explore how Intercom Fin leverages AI to enhance customer support and reduce operational costs.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/intercom-fin" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/intercom-fin" }
 }
 </script>
 <script type="application/ld+json">
@@ -202,7 +202,7 @@ Intercom Fin Implementation Workflow:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -210,7 +210,7 @@ Intercom Fin Implementation Workflow:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-chat-bot/intercom-fin",
+        "@id": "https://aichatwatch.com/ai-chat-bot/intercom-fin",
         "name": "Intercom Fin"
       }
     }

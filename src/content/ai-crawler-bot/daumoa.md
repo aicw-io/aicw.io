@@ -26,7 +26,7 @@ Web Crawling Process Overview:
 ![The Purpose and Function of Daumoa Crawler Diagram](/assets/ai-crawler-bot/daumoa/daumoa-crawler-visit.png)
 
 
-The crawler works automatically and continuously, following a schedule to revisit websites based on their frequency of content updates, similar to how [Googlebot](https://www.youtube.com/watch?v=I8CC-bvOoyY) works for Google or [Bingbot](/ai-crawler-bot/bingbot/) for Microsoft Bing. Sites publishing new material daily are crawled more often than static ones. This process is similar to how [Googlebot](/ai-crawler-bot/googlebot/) works for Google or Bingbot for Microsoft Bing.
+The crawler works automatically and continuously, following a schedule to revisit websites based on their frequency of content updates, similar to how [Googlebot](https://www.youtube.com/watch?v=I8CC-bvOoyY) works for Google or Bingbot for Microsoft Bing. Sites publishing new material daily are crawled more often than static ones. This process is similar to how Googlebot works for Google or Bingbot for Microsoft Bing.
 
 For website owners in South Korea or those targeting Korean audiences, having Daumoa successfully crawl your site means your content can appear in Daum search results. The Korean search market is distinct from Western markets; while Google dominates globally, South Korea has strong domestic search engines preferred by many users.
 
@@ -71,7 +71,7 @@ Different search engines use various crawlers, each with its own characteristics
 | Googlebot | Google | Global | Googlebot | ~90% globally |
 | Yeti | Naver | South Korea | Yeti | ~65-70% in Korea |
 | Bingbot | Microsoft Bing | Global (Western) | bingbot | ~3% globally |
-| [Baiduspider](/ai-crawler-bot/baiduspider/) | Baidu | China | Baiduspider | ~70% in China |
+| Baiduspider | Baidu | China | Baiduspider | ~70% in China |
 
 Crawler Access Control Methods:
 ![Daumoa Compared to Other Search Crawlers Diagram](/assets/ai-crawler-bot/daumoa/website-owner-robots.png)
@@ -169,7 +169,7 @@ The crawler operates similarly to other search engine bots, respecting standard 
   "description": "Explore Daumoa, the web crawler used by Kakao Corporation for Daum search engine indexing, its functions, and its comparison with other crawlers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/daumoa" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/daumoa" }
 }
 </script>
 
@@ -247,13 +247,13 @@ The crawler operates similarly to other search engine bots, respecting standard 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io"
+      "item": "https://aichatwatch.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Daumoa",
-      "item": "https://aicw.io/ai-crawler-bot/daumoa"
+      "item": "https://aichatwatch.com/ai-crawler-bot/daumoa"
     }
   ]
 }

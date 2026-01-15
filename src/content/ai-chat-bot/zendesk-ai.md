@@ -51,9 +51,9 @@ Several platforms compete with **Zendesk AI** in the **customer service automati
 | Platform | Starting Price | AI Capabilities | Best For | Key Difference |
 |----------|---------------|-----------------|----------|----------------|
 | Zendesk AI | $55/agent/month | Intelligent triage, routing, bots, sentiment analysis | Mid to large businesses | Complete platform with deep customization |
-| [Intercom Fin](/ai-chat-bot/intercom-fin/) AI | $74/seat/month | GPT-4 powered answers, resolution bot | SaaS companies | Uses advanced language models for more natural responses |
+| Intercom Fin AI | $74/seat/month | GPT-4 powered answers, resolution bot | SaaS companies | Uses advanced language models for more natural responses |
 | Freshdesk | $15/agent/month (Starter plan) | Basic bots, ticket automation | Small businesses | Lower cost entry point |
-| Salesforce Service Cloud | Starting at $25/user/month (Growth edition) | [Einstein AI](/ai-chat-bot/salesforce-einstein/), predictive routing | Enterprise organizations | Deep CRM combination |
+| Salesforce Service Cloud | Starting at $25/user/month (Growth edition) | Einstein AI, predictive routing | Enterprise organizations | Deep CRM combination |
 | Help Scout | $20/user/month (Standard plan) | Limited automation, saved replies | Small teams | Simple interface, fewer AI features |
 | Kustomer | Custom pricing | AI routing, timeline view | E-commerce | Customer context across channels |
 
@@ -117,7 +117,7 @@ AI Agent Implementation Stages:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/zendesk-ai"
+  "@id": "https://aichatwatch.com/ai-chat-bot/zendesk-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ AI Agent Implementation Stages:
   "description": "A comprehensive guide on Zendesk AI, its features, and how businesses can leverage it for customer service automation.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/zendesk-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/zendesk-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,7 +204,7 @@ AI Agent Implementation Stages:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -212,7 +212,7 @@ AI Agent Implementation Stages:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-chat-bot/zendesk-ai",
+        "@id": "https://aichatwatch.com/ai-chat-bot/zendesk-ai",
         "name": "Zendesk AI"
       }
     }

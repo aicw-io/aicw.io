@@ -14,7 +14,7 @@ keywords: "Applebot-Extended, Apple AI training, AI training crawler, Applebot u
 
 # Introduction
 
-Apple launched **[Applebot](/ai-crawler-bot/applebot/)-Extended** in 2025 to advance their efforts in artificial intelligence. This **AI training crawler** is specifically designed to gather training data for **Apple Intelligence** and other AI features. Unlike the original Applebot, which supports Siri and Spotlight search results, Applebot-Extended focuses on gathering content for machine learning models. This distinction allows website owners to block **Applebot-Extended** for AI training while still permitting their content to appear in Apple search features. Understanding how these crawlers operate helps developers and site owners make informed content decisions. Separating search indexing from AI training marks a significant shift in major tech companies' data collection strategies.
+Apple launched **Applebot-Extended** in 2025 to advance their efforts in artificial intelligence. This **AI training crawler** is specifically designed to gather training data for **Apple Intelligence** and other AI features. Unlike the original Applebot, which supports Siri and Spotlight search results, Applebot-Extended focuses on gathering content for machine learning models. This distinction allows website owners to block **Applebot-Extended** for AI training while still permitting their content to appear in Apple search features. Understanding how these crawlers operate helps developers and site owners make informed content decisions. Separating search indexing from AI training marks a significant shift in major tech companies' data collection strategies.
 
 ## What is Applebot-Extended
 
@@ -68,10 +68,10 @@ Blocking Configuration Flow:
 | Crawler              | Company      | User-Agent Token      | Blockable via robots.txt | Separate from Search |
 |---------------------|--------------|-----------------------|-------------------------|---------------------|
 | Applebot-Extended    | Apple        | Applebot-Extended     | Yes                     | Yes                 |
-| [GPTBot](/ai-crawler-bot/gptbot/)              | OpenAI       | GPTBot                | Yes                     | Yes                 |
-| [Google-Extended](/ai-crawler-bot/google-extended/)     | Google       | Google-Extended       | Yes                     | Yes                 |
-| CCBot               | [Common Crawl](/ai-crawler-bot/ccbot/) | CCBot                 | Yes                     | N/A                 |
-| [FacebookBot](/ai-crawler-bot/facebookbot/)         | Meta         | FacebookBot           | Yes                     | No                  |
+| GPTBot              | OpenAI       | GPTBot                | Yes                     | Yes                 |
+| Google-Extended     | Google       | Google-Extended       | Yes                     | Yes                 |
+| CCBot               | Common Crawl | CCBot                 | Yes                     | N/A                 |
+| FacebookBot         | Meta         | FacebookBot           | Yes                     | No                  |
 
 Separated crawlers give webmasters more control compared to unified approaches. Most modern AI training crawlers respect robots.txt directives after industry pressure, allowing blocking without affecting search visibility.
 
@@ -140,9 +140,9 @@ Disallow: /". Make sure to test any changes in a staging environment before appl
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/applebot-extended",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/applebot-extended",
   "name": "Applebot-Extended: The AI Training Crawler",
-  "url": "https://aicw.io/ai-crawler-bot/applebot-extended"
+  "url": "https://aichatwatch.com/ai-crawler-bot/applebot-extended"
 }
 </script>
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ Disallow: /". Make sure to test any changes in a staging environment before appl
   "description": "A detailed overview of Applebot-Extended, its purpose, and how it impacts web content management.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/applebot-extended" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/applebot-extended" }
 }
 </script>
 <script type="application/ld+json">
@@ -230,7 +230,7 @@ Disallow: /'. Make sure to test any changes in a staging environment before appl
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -238,7 +238,7 @@ Disallow: /'. Make sure to test any changes in a staging environment before appl
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/applebot-extended",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/applebot-extended",
         "name": "Applebot-Extended"
       }
     }

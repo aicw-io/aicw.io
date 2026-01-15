@@ -45,7 +45,7 @@ The StableLM models include several releases that cater to varied needs based on
 StableLM Model Family Evolution:
 ![Licensing and Commercial Use Diagram](/assets/ai-chat-bot/stablelm/stablelm-alpha-stablelm.png)
 
-StableLM's open language models employ different licensing schemes. Most releases fall under the Creative Commons CC BY-SA-4.0 license, allowing commercial use provided that modifications and attribution are shared accordingly. Some versions of StableLM 2 use the Stability AI Non-Commercial Research Community License, with commercial versions offered under separate agreements, underscoring the diverse AI model licensing landscape. This flexible licensing appeals to businesses eager to create commercial solutions without royalties, differing from more restrictive open-source alternatives. A comprehensive understanding of licensing, like [Mistral](/ai-chat-bot/mistral/)'s Apache 2.0 or LLaMA's non-commercial terms, is crucial for production deployment.
+StableLM's open language models employ different licensing schemes. Most releases fall under the Creative Commons CC BY-SA-4.0 license, allowing commercial use provided that modifications and attribution are shared accordingly. Some versions of StableLM 2 use the Stability AI Non-Commercial Research Community License, with commercial versions offered under separate agreements, underscoring the diverse AI model licensing landscape. This flexible licensing appeals to businesses eager to create commercial solutions without royalties, differing from more restrictive open-source alternatives. A comprehensive understanding of licensing, like Mistral's Apache 2.0 or LLaMA's non-commercial terms, is crucial for production deployment.
 
 ## Performance and Benchmarks
 
@@ -56,9 +56,9 @@ The performance of StableLM's open language models varies depending on size and 
 | Model     | Size Range | License Type               | Training Data | Best Use Case                 |
 |-----------|------------|----------------------------|---------------|-------------------------------|
 | StableLM  | 1.6B-65B   | CC BY-SA-4.0 / Custom      | 1.5T tokens   | General purpose, fine-tuning  |
-| [LLaMA 2](/ai-chat-bot/llama/)   | 7B-70B     | Custom commercial          | 2T tokens     | Commercial applications       |
+| LLaMA 2   | 7B-70B     | Custom commercial          | 2T tokens     | Commercial applications       |
 | Mistral   | 7B         | Apache 2.0                 | Undisclosed   | Effective, deployment         |
-| [Falcon](/ai-chat-bot/falcon/)    | 7B-180B    | Apache 2.0                 | 1.5T tokens   | High-performance tasks        |
+| Falcon    | 7B-180B    | Apache 2.0                 | 1.5T tokens   | High-performance tasks        |
 | MPT       | 7B-30B     | Apache 2.0                 | 1T tokens     | Commercial products           |
 
 StableLM is a direct competitor in the open language models arena, offering a variety of sizes and specialized versions. While LLaMA 2 from Meta sometimes surpasses StableLM on benchmarks, it involves complex licensing for larger deployments. Mistral and Falcon extend competition with their Apache 2.0 licensing, though Falcon's larger models demand extensive hardware. MPT models excel at inference speed, catering to commercial aims. StableLM distinguishes itself with versatile size options and ready-to-use fine-tunes like Stable Beluga.
@@ -122,7 +122,7 @@ StableLM signifies Stability AI's commitment to open language models, offering v
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/stablelm"
+  "@id": "https://aichatwatch.com/ai-chat-bot/stablelm"
 }
 </script>
 
@@ -134,7 +134,7 @@ StableLM signifies Stability AI's commitment to open language models, offering v
   "description": "StableLM is an integral part of the open-source AI movement, providing robust tools for developers and researchers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@id": "https://aicw.io/ai-chat-bot/stablelm" }
+  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-chat-bot/stablelm" }
 }
 </script>
 
@@ -212,13 +212,13 @@ StableLM signifies Stability AI's commitment to open language models, offering v
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "StableLM",
-      "item": "https://aicw.io/ai-chat-bot/stablelm"
+      "item": "https://aichatwatch.com/ai-chat-bot/stablelm"
     }
   ]
 }

@@ -50,10 +50,10 @@ Several models compete in the long context space, each employing distinct method
 | Model | Max Context | Architecture | Memory Efficiency | Availability |
 |-------|-------------|--------------|-------------------|-------------|
 | AI21 Jamba | 256K tokens | Mamba-Transformer hybrid | High | API, limited self-hosting |
-| Anthropic [Claude 3.5 Sonnet](/ai-chat-bot/claude/) | 200K tokens | Transformer | Medium | API only |
+| Anthropic Claude 3.5 Sonnet | 200K tokens | Transformer | Medium | API only |
 | GPT-4o | 128K tokens | Transformer | Medium | API only |
-| [Google Gemini](/ai-chat-bot/google-gemini/) 1.5 Pro | 1M tokens | Transformer-based | Medium-High | API only |
-| [Mistral Large](/ai-chat-bot/mistral/) | 32K tokens | Transformer | Medium | API and self-hosting |
+| Google Gemini 1.5 Pro | 1M tokens | Transformer-based | Medium-High | API only |
+| Mistral Large | 32K tokens | Transformer | Medium | API and self-hosting |
 
 Jamba offers significant memory efficiency compared to pure Transformer models, ideal for self-hosting or latency-sensitive applications. While Gemini 1.5 Pro provides the longest context at 1M tokens, Jamba's hybrid architecture strikes a balance between efficiency and context length.
 
@@ -85,7 +85,7 @@ The AI21 Jamba model provides a unique solution to the long context challenge. I
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/ai21-jamba",
+  "url": "https://aichatwatch.com/ai-chat-bot/ai21-jamba",
   "name": "AI21 Jamba Model",
   "description": "An overview of AI21 Labs' Jamba model, a production-grade large language model with a 256K token context window."
 }
@@ -98,7 +98,7 @@ The AI21 Jamba model provides a unique solution to the long context challenge. I
   "description": "AI21 Labs released the Jamba model, a hybrid system excelled in processing extensive text inputs efficiently.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/ai21-jamba" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/ai21-jamba" }
 }
 </script>
 <script type="application/ld+json">
@@ -174,13 +174,13 @@ The AI21 Jamba model provides a unique solution to the long context challenge. I
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AI21 Jamba Model",
-      "item": "https://aicw.io/ai-chat-bot/ai21-jamba"
+      "item": "https://aichatwatch.com/ai-chat-bot/ai21-jamba"
     }
   ]
 }

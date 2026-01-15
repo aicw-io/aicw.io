@@ -75,9 +75,9 @@ Slackbot isn't the only link preview crawler out there. Many messaging and socia
 | Service          | User-Agent                           | JavaScript Support | Customization          | Preview Format        |
 |------------------|--------------------------------------|--------------------|------------------------|------------------------|
 | Slackbot         | Slackbot-LinkExpanding 1.0           | No                 | Workspace admin controls | Rich cards with images |
-| Discord          | Mozilla/5.0 (compatible; [Discordbot](/ai-crawler-bot/discordbot/)/2.0) | Limited            | Server permissions      | Embed cards            |
+| Discord          | Mozilla/5.0 (compatible; Discordbot/2.0) | Limited            | Server permissions      | Embed cards            |
 | Microsoft Teams  | Microsoft Teams                      | No                 | Admin policies          | Cards with metadata    |
-| Telegram         | [TelegramBot](/ai-crawler-bot/telegrambot/)                          | No                 | None                   | Simple preview         |
+| Telegram         | TelegramBot                          | No                 | None                   | Simple preview         |
 | WhatsApp         | WhatsApp/2.0                         | No                 | None                   | Basic title and image  |
 
 Slackbot offers more strong customization options compared to WhatsApp or Telegram. Workspace administrators can control unfurling behavior at the domain level and even disable it for specific channels. Discord and Microsoft Teams offer similar flexibility but with different interface approaches.
@@ -184,7 +184,7 @@ Understanding Slackbot is important for developers improving websites for previe
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/slackbot"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/slackbot"
 }
 </script>
 <script type="application/ld+json">
@@ -195,7 +195,7 @@ Understanding Slackbot is important for developers improving websites for previe
   "description": "Explore how Slackbot automates link unfurling in Slack, enriching team communication with informative previews.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/slackbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/slackbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -271,13 +271,13 @@ Understanding Slackbot is important for developers improving websites for previe
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io"
+      "item": "https://aichatwatch.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Slackbot",
-      "item": "https://aicw.io/ai-crawler-bot/slackbot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/slackbot"
     }
   ]
 }

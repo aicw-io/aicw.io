@@ -77,9 +77,9 @@ Brave Search's privacy features ensure:
 | Search Engine | Own Index | AI Features | Privacy Level  |
 |---------------|-----------|-------------|---------------|
 | Brave Search  | Yes       | Full set    | Very High     |
-| [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/)    | No        | Limited     | High          |
-| [Startpage](/ai-search-engine/startpage/)     | No        | Limited     | High          |
-| [Qwant](/ai-search-engine/qwant-french-privacy/)         | Partial   | Basic       | High          |
+| DuckDuckGo    | No        | Limited     | High          |
+| Startpage     | No        | Limited     | High          |
+| Qwant         | Partial   | Basic       | High          |
 
 <a id="independent-search-index"></a>
 
@@ -159,7 +159,25 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
 
 <a id="faqs"></a>
 
-<h2>Frequently Asked Questions</h2>
+### FAQs
+
+**What is Brave Leo?**
+Brave Leo is an AI assistant feature in Brave Search AI that provides chat-based help, answering questions and assisting with research tasks.
+
+**How does Brave Search protect my privacy?**
+Brave Search prioritizes privacy by not tracking IP addresses, storing search histories, or collecting personal data.
+
+![FAQs Diagram](/assets/ai-search-engine/brave-search-ai/usertype-user-type.png)
+
+**What makes Brave's search index independent?**
+Brave's search index is independent because it uses its own web crawlers and does not rely on data from major search engines like Google or Bing.
+
+**What are the benefits of using Brave Talk?**
+Brave Talk is a built-in feature within Brave Search AI that allows users to make private video calls without compromising on privacy.
+
+**How does the AI Summarizer work?**
+The AI Summarizer quickly provides article overviews, helping users to identify key points and save time when navigating search results.
+## Frequently Asked Questions
 
 <details>
   <summary>How can I maximize my use of Brave Search AI?</summary>
@@ -199,7 +217,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/brave-search-ai"
+  "@id": "https://aichatwatch.com/ai-search-engine/brave-search-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -210,7 +228,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
   "description": "Brave Search AI is a privacy-centric search engine with advanced features like AI Summarizer and Brave Leo assistant.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/brave-search-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/brave-search-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -326,7 +344,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -334,7 +352,7 @@ Brave Search AI, launched in June 2022, effectively blends robust privacy measur
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-search-engine/brave-search-ai",
+        "@id": "https://aichatwatch.com/ai-search-engine/brave-search-ai",
         "name": "Brave Search AI"
       }
     }

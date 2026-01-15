@@ -20,7 +20,7 @@ The bot automatically visits landing pages associated with ad campaigns to verif
 
 ## Technical Details of AdIdxBot
 
-AdIdxBot operates as part of Microsoft's broader crawling infrastructure but serves a very specific purpose in [landing page validation](https://learn.microsoft.com/en-us/advertising/pos-feed/validate-pos-feed). Unlike [Bingbot](/ai-crawler-bot/bingbot/), which crawls the web for search indexing, AdIdxBot focuses exclusively on advertising-related tasks.
+AdIdxBot operates as part of Microsoft's broader crawling infrastructure but serves a very specific purpose in [landing page validation](https://learn.microsoft.com/en-us/advertising/pos-feed/validate-pos-feed). Unlike Bingbot, which crawls the web for search indexing, AdIdxBot focuses exclusively on advertising-related tasks.
 
 The user-agent string for AdIdxBot typically appears as: `Mozilla/5.0 (compatible; adidxbot/1.1; +http://www.bing.com/bingbot.htm)`. It references the Bingbot documentation URL because AdIdxBot shares technical infrastructure with Bingbot and follows similar crawling protocols. However, the distinct identifier "adidxbot" in the user-agent string allows webmasters to differentiate it from regular Bingbot activity in their server logs.
 
@@ -54,9 +54,9 @@ Microsoft's AdIdxBot is not unique in its purpose. Other major advertising platf
 |-------------------------|------------------------|---------------------------------------------|-------------------------------|---------------------|
 | AdIdxBot                | Microsoft Advertising   | Landing page validation and ad quality      | adidxbot/1.1                  | Yes                 |
 | AdsBot-Google           | Google Ads              | Ad quality verification and rendering       | AdsBot-Google                 | Yes                 |
-| [FacebookExternalHit](/ai-crawler-bot/facebookexternalhit/)     | Meta Ads               | Link preview and content validation         | facebookexternalhit           | Partial             |
-| [LinkedInBot](/ai-crawler-bot/linkedinbot/)             | LinkedIn Ads           | Content preview and validation              | LinkedInBot                   | Yes                 |
-| [PinterestBot](/ai-crawler-bot/pinterestbot/)            | Pinterest Ads          | Pin validation and content quality          | Pinterestbot                  | Yes                 |
+| FacebookExternalHit     | Meta Ads               | Link preview and content validation         | facebookexternalhit           | Partial             |
+| LinkedInBot             | LinkedIn Ads           | Content preview and validation              | LinkedInBot                   | Yes                 |
+| PinterestBot            | Pinterest Ads          | Pin validation and content quality          | Pinterestbot                  | Yes                 |
 
 These crawlers serve similar functions but differ in setup details. AdIdxBot shares infrastructure with Bingbot, benefiting from Microsoft's search crawling technology. Google's AdsBot-Google includes multiple variants for different ad types, including mobile ads. Facebook's crawler focuses heavily on Open Graph metadata for generating link previews in ad content.
 
@@ -164,7 +164,7 @@ The bot shares infrastructure with Bingbot but serves a distinct advertising-foc
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/adidxbot"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/adidxbot"
 }
 </script>
 <script type="application/ld+json">
@@ -175,7 +175,7 @@ The bot shares infrastructure with Bingbot but serves a distinct advertising-foc
   "description": "AdIdxBot is Microsoft's web crawler for advertising quality verification and landing page validation.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/adidxbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/adidxbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -251,7 +251,7 @@ The bot shares infrastructure with Bingbot but serves a distinct advertising-foc
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -259,7 +259,7 @@ The bot shares infrastructure with Bingbot but serves a distinct advertising-foc
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/adidxbot",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/adidxbot",
         "name": "AdIdxBot"
       }
     }

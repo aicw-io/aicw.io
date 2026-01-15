@@ -20,7 +20,7 @@ AdBeat serves both agencies and in-house marketing teams that need **competitive
 
 ## How AdBeat's Crawler Works
 
-The AdBeat crawler is a bot that visits websites to record advertising data. It works similarly to how search engine crawlers like [Googlebot](/ai-crawler-bot/googlebot/) visit sites to index content. The **ad crawler** identifies itself through specific user-agent strings in its HTTP requests. When AdBeat's bot visits a webpage, it loads the page just like a regular browser would. The system then captures screenshots and records details about the ads that appear on that page. This includes the ad creative, the advertiser, the ad network being used, and placement information. 
+The AdBeat crawler is a bot that visits websites to record advertising data. It works similarly to how search engine crawlers like Googlebot visit sites to index content. The **ad crawler** identifies itself through specific user-agent strings in its HTTP requests. When AdBeat's bot visits a webpage, it loads the page just like a regular browser would. The system then captures screenshots and records details about the ads that appear on that page. This includes the ad creative, the advertiser, the ad network being used, and placement information. 
 
 
 AdBeat Data Collection Process:
@@ -136,7 +136,7 @@ The tool competes with platforms like SEMrush, SpyFu, and Moat, each with differ
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/adbeat"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/adbeat"
 }
 </script>
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ The tool competes with platforms like SEMrush, SpyFu, and Moat, each with differ
   "description": "AdBeat is an advertising intelligence platform that helps marketers understand competitor ad strategies by crawling the web and collecting data on digital ads.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/adbeat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/adbeat" }
 }
 </script>
 <script type="application/ld+json">
@@ -223,13 +223,13 @@ The tool competes with platforms like SEMrush, SpyFu, and Moat, each with differ
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AdBeat",
-      "item": "https://aicw.io/ai-crawler-bot/adbeat"
+      "item": "https://aichatwatch.com/ai-crawler-bot/adbeat"
     }
   ]
 }

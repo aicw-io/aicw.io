@@ -37,7 +37,7 @@ The layout differs vastly from traditional search engines: no ads, just concise 
 
 Andi AI understands and interprets natural language questions, scanning various web pages to synthesize accurate responses, utilizing state-of-the-art AI technologies.
 
-It employs its proprietary technology to continuously discover and filter high-quality websites, ensuring users receive reliable information minus spam, similar to the approach of [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/).
+It employs its proprietary technology to continuously discover and filter high-quality websites, ensuring users receive reliable information minus spam, similar to the approach of DuckDuckGo.
 
 ### Andi Handles Questions About:
 - Current news and trends
@@ -116,12 +116,12 @@ Andi Search comes packed with smart tools, extending beyond standard search capa
 
 Explore other AI-powered search engines that offer unique features, such as DuckDuckGo
 
-**[You.com](/ai-search-engine/you-com/):**
+**You.com:**
 - AI-driven answers
 - Coding assistance
 - Limited ads presence
 
-**[Perplexity AI](/ai-chat-bot/perplexity/):**
+**Perplexity AI:**
 - Conversational search
 - Ideal for research
 - Free with advanced paid features
@@ -132,13 +132,26 @@ Explore other AI-powered search engines that offer unique features, such as Duck
 - Not tracking searches for building profile of a user
 - Limited ads presence
 
+<a id="faq"></a>
+
+## FAQ
+
+**Q: What makes Andi Search different?**
+A: Andi Search uses AI to provide direct, ad-free search results with enhanced privacy.
+
+**Q: Is Andi Search completely ad-free?**
+A: Yes, Andi Search ensures an ad-free experience by design.
+
+**Q: Does Andi Search track or store my information?**
+A: No, Andi Search prioritizes your privacy and does not track or store your data.
+
+<a id="summary"></a>
+
 ## Summary
 
 Andi Search transforms traditional web searching by integrating AI to provide direct answers while safeguarding your privacy. This ad-free search engine eliminates the intrusion of ads and potential tracking, making it a top choice for privacy-conscious users.
 
 The streamlined interface and reader mode enhance focus, while Andi's privacy measures offer a refreshing alternative to conventional search tools. If privacy is your priority, andi search and its efficient AI might just be your next go-to search engine.
-
-<a id="faq"></a>
 <h2>Frequently Asked Questions</h2>
 
 <details>
@@ -179,7 +192,7 @@ The streamlined interface and reader mode enhance focus, while Andi's privacy me
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/andi-search"
+  "@id": "https://aichatwatch.com/ai-search-engine/andi-search"
 }
 </script>
 <script type="application/ld+json">
@@ -190,7 +203,7 @@ The streamlined interface and reader mode enhance focus, while Andi's privacy me
   "description": "Discover the power of Andi Search, the groundbreaking AI search engine that offers ad-free search and unparalleled privacy.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/andi-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/andi-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -290,13 +303,13 @@ The streamlined interface and reader mode enhance focus, while Andi's privacy me
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Andi Search",
-      "item": "https://aicw.io/ai-search-engine/andi-search"
+      "item": "https://aichatwatch.com/ai-search-engine/andi-search"
     }
   ]
 }

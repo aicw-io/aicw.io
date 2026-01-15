@@ -112,8 +112,8 @@ Screaming Frog SEO Spider maintains its position as the preferred desktop crawle
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/screaming-frog",
-  "url": "https://aicw.io/ai-crawler-bot/screaming-frog",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/screaming-frog",
+  "url": "https://aichatwatch.com/ai-crawler-bot/screaming-frog",
   "name": "Screaming Frog SEO Spider",
   "description": "A detailed exploration of Screaming Frog SEO Spider and its capabilities in technical SEO audits."
 }
@@ -126,7 +126,7 @@ Screaming Frog SEO Spider maintains its position as the preferred desktop crawle
   "description": "Discover the powerful features and use cases of Screaming Frog SEO Spider for SEO professionals and developers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/screaming-frog" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/screaming-frog" }
 }
 </script>
 <script type="application/ld+json">
@@ -202,13 +202,13 @@ Screaming Frog SEO Spider maintains its position as the preferred desktop crawle
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Screaming Frog",
-      "item": "https://aicw.io/ai-crawler-bot/screaming-frog"
+      "item": "https://aichatwatch.com/ai-crawler-bot/screaming-frog"
     }
   ]
 }

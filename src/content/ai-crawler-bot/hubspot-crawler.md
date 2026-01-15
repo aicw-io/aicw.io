@@ -66,7 +66,7 @@ Understanding how HubSpot Crawler compares with others aids bot management decis
 |----------------|---------------|-----------------------------------|-----------------------------------|------------------|
 | HubSpot Crawler| HubSpot CRM   | Link previews, content tracking   | Affects HubSpot link sharing     | Medium to High    |
 | Salesforce Bot | Salesforce    | CRM enrichment, social monitoring | Reduces CRM data quality          | Medium            |
-| [LinkedInBot](/ai-crawler-bot/linkedinbot/)    | LinkedIn      | Link previews, content cards      | Breaks LinkedIn previews          | Very High         |
+| LinkedInBot    | LinkedIn      | Link previews, content cards      | Breaks LinkedIn previews          | Very High         |
 | Marketo Bot    | Adobe Marketo | Email previews, analytics         | Impacts email campaign visuals    | Low to Medium     |
 | Mailchimp Bot  | Mailchimp     | Link preview generation           | Removes automatic previews        | Medium            |
 
@@ -123,7 +123,7 @@ HubSpot Crawler is vital for modern marketing automation and CRM systems. It ena
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/hubspot-crawler",
+  "url": "https://aichatwatch.com/ai-crawler-bot/hubspot-crawler",
   "name": "What is HubSpot Crawler and Why It Matters"
 }
 </script>
@@ -135,7 +135,7 @@ HubSpot Crawler is vital for modern marketing automation and CRM systems. It ena
   "description": "HubSpot Crawler is a web bot that scans websites and collects data for HubSpot's marketing automation platform.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/hubspot-crawler" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/hubspot-crawler" }
 }
 </script>
 <script type="application/ld+json">
@@ -211,7 +211,7 @@ HubSpot Crawler is vital for modern marketing automation and CRM systems. It ena
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -219,7 +219,7 @@ HubSpot Crawler is vital for modern marketing automation and CRM systems. It ena
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/hubspot-crawler",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/hubspot-crawler",
         "name": "What is HubSpot Crawler and Why It Matters"
       }
     }

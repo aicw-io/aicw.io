@@ -145,13 +145,13 @@ The SecurityTrails security research crawler plays a crucial role in modern cybe
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/securitytrails",
-  "url": "https://aicw.io/ai-crawler-bot/securitytrails",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/securitytrails",
+  "url": "https://aichatwatch.com/ai-crawler-bot/securitytrails",
   "name": "SecurityTrails Crawler",
   "description": "A specialized web crawler designed for security research and intelligence gathering.",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aicw.io/ai-crawler-bot/securitytrails"
+    "@id": "https://aichatwatch.com/ai-crawler-bot/securitytrails"
   }
 }
 </script>
@@ -163,7 +163,7 @@ The SecurityTrails security research crawler plays a crucial role in modern cybe
   "description": "The SecurityTrails crawler is a specialized web crawler designed for security research and intelligence gathering.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/securitytrails" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/securitytrails" }
 }
 </script>
 <script type="application/ld+json">
@@ -239,13 +239,13 @@ The SecurityTrails security research crawler plays a crucial role in modern cybe
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "SecurityTrails",
-      "item": "https://aicw.io/ai-crawler-bot/securitytrails"
+      "item": "https://aichatwatch.com/ai-crawler-bot/securitytrails"
     }
   ]
 }

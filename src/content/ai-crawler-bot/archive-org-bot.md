@@ -61,10 +61,10 @@ Several organizations operate web crawlers for different purposes. Understanding
 | Crawler         | Primary Purpose    | Commercial | Respect robots.txt | Public Access |
 |-----------------|--------------------|------------|--------------------|---------------|
 | Archive.org_bot | Web preservation    | No         | Yes                | Yes           |
-| [Googlebot](/ai-crawler-bot/googlebot/)       | Search indexing     | Yes        | Yes                | No            |
-| [Bingbot](/ai-crawler-bot/bingbot/)         | Search indexing     | Yes        | Yes                | No            |
-| [Common Crawl](/ai-crawler-bot/ccbot/)    | Dataset creation    | No         | Yes                | Yes           |
-| [Applebot](/ai-crawler-bot/applebot/)        | Search indexing     | Yes        | Yes                | No            |
+| Googlebot       | Search indexing     | Yes        | Yes                | No            |
+| Bingbot         | Search indexing     | Yes        | Yes                | No            |
+| Common Crawl    | Dataset creation    | No         | Yes                | Yes           |
+| Applebot        | Search indexing     | Yes        | Yes                | No            |
 
 **Googlebot** and **Bingbot** crawl the web to build search engine indexes. They focus on current content rather than historical preservation. These crawlers visit sites more frequently than Archive.org_bot to keep search results fresh. The crawled data remains proprietary and serves commercial search products. 
 
@@ -142,7 +142,7 @@ The bot differs from commercial crawlers by focusing on historical preservation 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/archive-org-bot"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/archive-org-bot"
 }
 </script>
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ The bot differs from commercial crawlers by focusing on historical preservation 
   "description": "The Archive.org_bot captures and preserves web content, helping document the internet's evolution for future generations.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/archive-org-bot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/archive-org-bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -229,13 +229,13 @@ The bot differs from commercial crawlers by focusing on historical preservation 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AI Crawler Bot",
-      "item": "https://aicw.io/ai-crawler-bot/archive-org-bot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/archive-org-bot"
     }
   ]
 }

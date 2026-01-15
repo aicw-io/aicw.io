@@ -55,7 +55,7 @@ Numerous tools compete in the technology detection domain, each with unique stre
 | Tool         | Free Tier | Technologies Detected | API Access | Browser Extension | Best For                  |
 |--------------|-----------|-----------------------|------------|-------------------|---------------------------|
 | Wappalyzer   | Yes       | 5,000+                | Paid plans | Yes               | General tech profiling    |
-| [BuiltWith](/ai-crawler-bot/builtwith/)    | Limited   | 130,000+              | Paid only  | Yes               | Deep historical data      |
+| BuiltWith    | Limited   | 130,000+              | Paid only  | Yes               | Deep historical data      |
 | WhatRuns     | Yes       | 10,000+               | No         | Yes               | Quick browser checks      |
 | SimilarTech  | Trial only| 7,000+                | Paid plans | No                | Market share analysis     |
 | NerdyData    | No        | Source code search    | Paid only  | No                | HTML/CSS pattern matching |
@@ -130,10 +130,10 @@ Wappalyzer offers accessible technology profiling to businesses of all sizes. Th
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/wappalyzer",
+  "url": "https://aichatwatch.com/ai-crawler-bot/wappalyzer",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aicw.io/ai-crawler-bot/wappalyzer"
+    "@id": "https://aichatwatch.com/ai-crawler-bot/wappalyzer"
   }
 }
 </script>
@@ -145,7 +145,7 @@ Wappalyzer offers accessible technology profiling to businesses of all sizes. Th
   "description": "Wappalyzer identifies the tech stack of websites, aiding businesses in competitive analysis and tech profiling.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/wappalyzer" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/wappalyzer" }
 }
 </script>
 <script type="application/ld+json">
@@ -221,13 +221,13 @@ Wappalyzer offers accessible technology profiling to businesses of all sizes. Th
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Wappalyzer",
-      "item": "https://aicw.io/ai-crawler-bot/wappalyzer"
+      "item": "https://aichatwatch.com/ai-crawler-bot/wappalyzer"
     }
   ]
 }

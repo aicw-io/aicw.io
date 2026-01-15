@@ -16,7 +16,7 @@ keywords: "Wysa, mental health chatbot, anxiety AI, emotional support AI, AI the
 
 Mental health chatbots are changing how people access emotional support. These AI-powered tools provide immediate help for anxiety, depression, and stress. They're available 24/7 and don't require appointments or insurance. Wysa, a leading mental health chatbot, uses evidence-based therapy techniques such as [AI therapy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11304096/), CBT, and DBT therapy.
 
-Wysa launched in 2017 as an AI-driven mental health companion. The platform combines cognitive behavioral therapy (CBT) and dialectical behavior therapy (DBT) into conversational exchanges. Users can chat anonymously without creating accounts or sharing personal information. The chatbot responds to emotional states and guides users through therapeutic exercises, making it a strong [Woebot](/ai-chat-bot/woebot/) alternative.
+Wysa launched in 2017 as an AI-driven mental health companion. The platform combines cognitive behavioral therapy (CBT) and dialectical behavior therapy (DBT) into conversational exchanges. Users can chat anonymously without creating accounts or sharing personal information. The chatbot responds to emotional states and guides users through therapeutic exercises, making it a strong Woebot alternative.
 
 The service operates on both free and premium models. Free users get access to the mental health chatbot for basic support. Premium subscribers can connect with human therapists and access advanced features. Wysa also offers B2B solutions for employers and healthcare providers, making it more than just an emotional support AI. The company reports over 5 million users across 95 countries, and clinical studies have validated its effectiveness in reducing anxiety and depression symptoms, including a [randomized controlled trial](https://pubmed.ncbi.nlm.nih.gov/38814681/) demonstrating significant improvements.
 
@@ -72,7 +72,7 @@ Several mental health chatbots compete in the same space as Wysa. Here's a quick
 |--------------|--------------------------------------|---------------------------|-----------------------------|------------------------------------------|
 | Wysa         | CBT and DBT techniques               | Freemium with B2B options | Multiple RCTs, FDA approved | Anonymous use, no account required        |
 | Woebot       | CBT-focused conversations            | Subscription-based        | Peer-reviewed studies       | More structured therapy programs          |
-| [Replika](/ai-chat-bot/replika/)      | Companionship and conversation       | Freemium                  | Limited clinical research   | Focus on emotional connection             |
+| Replika      | Companionship and conversation       | Freemium                  | Limited clinical research   | Focus on emotional connection             |
 | Youper       | CBT with mood tracking               | Subscription-based        | Clinical trials published   | Detailed mood analytics                   |
 | Tess         | University-based research            | B2B only                  | Academic research backing   | Available via institutions                |
 
@@ -144,8 +144,8 @@ Wysa represents a significant development in accessible mental health support, u
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/wysa",
-  "mainEntityOfPage": {"@id": "https://aicw.io/ai-chat-bot/wysa"}
+  "url": "https://aichatwatch.com/ai-chat-bot/wysa",
+  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-chat-bot/wysa"}
 }
 </script>
 <script type="application/ld+json">
@@ -156,7 +156,7 @@ Wysa represents a significant development in accessible mental health support, u
   "description": "An in-depth look at Wysa, the mental health AI chatbot changing access to emotional support.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/wysa"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/wysa"}
 }
 </script>
 <script type="application/ld+json">
@@ -232,13 +232,13 @@ Wysa represents a significant development in accessible mental health support, u
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Wysa",
-      "item": "https://aicw.io/ai-chat-bot/wysa"
+      "item": "https://aichatwatch.com/ai-chat-bot/wysa"
     }
   ]
 }

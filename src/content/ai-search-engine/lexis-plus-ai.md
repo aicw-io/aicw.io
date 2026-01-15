@@ -40,7 +40,7 @@ A significant concern with AI systems is hallucination, where the AI generates f
 
 ## Comparing Lexis+ AI to Casetext
 
-Casetext is a major competitor offering an AI legal research tool called [CoCounsel](/ai-search-engine/casetext-cocounsel/). Thomson Reuters acquired Casetext in 2023 for $650 million, signaling strong market validation for AI legal research. CoCounsel is powered by GPT-4 technology from OpenAI, focusing heavily on document review and brief generation, in addition to research. Both platforms provide conversational AI interfaces for legal research. However, Casetext built its product as AI-first from the beginning, while LexisNexis added AI to its existing database infrastructure. Casetext's database is smaller than LexisNexis but still covers primary legal sources comprehensively. CoCounsel is often praised for its document review capabilities, which can analyze contracts or discovery materials. Lexis+ AI boasts deeper integration with the broader LexisNexis ecosystem, including practice area-specific tools and content. Pricing differs significantly. Casetext is generally more accessible to smaller firms and solo practitioners compared to LexisNexis's enterprise focus.
+Casetext is a major competitor offering an AI legal research tool called CoCounsel. Thomson Reuters acquired Casetext in 2023 for $650 million, signaling strong market validation for AI legal research. CoCounsel is powered by GPT-4 technology from OpenAI, focusing heavily on document review and brief generation, in addition to research. Both platforms provide conversational AI interfaces for legal research. However, Casetext built its product as AI-first from the beginning, while LexisNexis added AI to its existing database infrastructure. Casetext's database is smaller than LexisNexis but still covers primary legal sources comprehensively. CoCounsel is often praised for its document review capabilities, which can analyze contracts or discovery materials. Lexis+ AI boasts deeper integration with the broader LexisNexis ecosystem, including practice area-specific tools and content. Pricing differs significantly. Casetext is generally more accessible to smaller firms and solo practitioners compared to LexisNexis's enterprise focus.
 
 <a id="comparing-lexis-ai-to-westlaw"></a>
 
@@ -113,7 +113,7 @@ Lexis+ AI Hallucination Protection:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/lexis-plus-ai"
+  "@id": "https://aichatwatch.com/ai-search-engine/lexis-plus-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -124,7 +124,7 @@ Lexis+ AI Hallucination Protection:
   "description": "Explore Lexis+ AI, a powerful legal research platform with 83 million documents and AI-driven insights for legal professionals.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/lexis-plus-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/lexis-plus-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -200,7 +200,7 @@ Lexis+ AI Hallucination Protection:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -208,7 +208,7 @@ Lexis+ AI Hallucination Protection:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-search-engine/lexis-plus-ai",
+        "@id": "https://aichatwatch.com/ai-search-engine/lexis-plus-ai",
         "name": "Lexis+ AI Legal Research Platform Complete Guide"
       }
     }

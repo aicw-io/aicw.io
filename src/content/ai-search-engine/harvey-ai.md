@@ -44,7 +44,7 @@ Allen & Overy used Harvey AI for contract analysis, regulatory research, and leg
 
 OpenAI made a strategic investment in Harvey AI in 2022. This was notable as OpenAI rarely invests in application-layer companies. The investment signals that OpenAI sees legal AI as a significant enterprise market. Harvey AI uses OpenAI models as its foundation but adds substantial customization layers.
 
-The platform takes base models like GPT-4 and fine-tunes them on firm-specific legal documents. This creates models that understand a particular firm's language, precedents, and client matters. The OpenAI investment also gives Harvey AI early access to new model capabilities and dedicated support. However, Harvey AI is not just a wrapper around [ChatGPT](/ai-chat-bot/chatgpt/). The company builds custom training pipelines, security infrastructure, and legal-specific features. The relationship with OpenAI gives Harvey AI a competitive edge in accessing advanced language models while maintaining the customization that law firms require.
+The platform takes base models like GPT-4 and fine-tunes them on firm-specific legal documents. This creates models that understand a particular firm's language, precedents, and client matters. The OpenAI investment also gives Harvey AI early access to new model capabilities and dedicated support. However, Harvey AI is not just a wrapper around ChatGPT. The company builds custom training pipelines, security infrastructure, and legal-specific features. The relationship with OpenAI gives Harvey AI a competitive edge in accessing advanced language models while maintaining the customization that law firms require.
 
 <a id="how-harvey-ai-works-and-workflow-integration"></a>
 
@@ -72,7 +72,7 @@ The platform also includes access controls so firms can limit which lawyers see 
 
 Several legal AI tools exist in the market with different approaches. Tools like LexisNexis and Westlaw have added AI features to their legal research platforms. They use publicly available case law and statutes as training data. While these work well for general legal research, they don't understand firm-specific practice.
 
-Tools like Casetext [CoCounsel](/ai-search-engine/casetext-cocounsel/) use similar foundation models but focus on individual lawyer productivity instead of enterprise customization. Harvey AI stands out by offering firm-specific model training and enterprise deployment. This comes at a higher cost and longer setup time.
+Tools like Casetext CoCounsel use similar foundation models but focus on individual lawyer productivity instead of enterprise customization. Harvey AI stands out by offering firm-specific model training and enterprise deployment. This comes at a higher cost and longer setup time.
 
 Smaller firms or solo practitioners likely choose general legal AI tools that are ready to use immediately. Harvey AI targets Am Law 100 and large international firms with the resources for custom implementation. The trade-off is between immediate availability with general tools versus customized capability with Harvey AI. Some firms use both types of tools: general tools for research and Harvey AI for firm-specific document work. The legal tech and AI for lawyers market is evolving quickly. Different tools serve different segments of the legal profession.
 
@@ -142,7 +142,7 @@ Technology and Security Layer:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/harvey-ai",
+  "@id": "https://aichatwatch.com/ai-search-engine/harvey-ai",
   "name": "Harvey AI: Custom AI Solution for Large Law Firms Explained",
   "description": "Explore how Harvey AI tailors its services for large law firms, focusing on customized AI models and security measures.",
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" }
@@ -156,7 +156,7 @@ Technology and Security Layer:
   "description": "Explore how Harvey AI tailors its services for large law firms, focusing on customized AI models and security measures.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/harvey-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/harvey-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -232,7 +232,7 @@ Technology and Security Layer:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -240,7 +240,7 @@ Technology and Security Layer:
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-search-engine/harvey-ai",
+        "@id": "https://aichatwatch.com/ai-search-engine/harvey-ai",
         "name": "Harvey AI: Custom AI Solution for Large Law Firms Explained"
       }
     }

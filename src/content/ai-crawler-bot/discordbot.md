@@ -63,10 +63,10 @@ Understanding differences among web crawlers can improve content optimization ac
 | Crawler | User-Agent Identifier | Primary Tags | Image Size Recommendation | Special Features |
 |---------|------------------------|--------------|---------------------------|------------------|
 | Discordbot | Discordbot/2.0 | Open Graph, Twitter Cards | 1200x630px | Respects theme-color tag |
-| [Facebookbot](/ai-crawler-bot/facebookbot/) | [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/) | Open Graph | 1200x630px | Video preview support |
-| [Twitterbot](/ai-crawler-bot/twitterbot/) | Twitterbot | Twitter Cards, Open Graph | 1200x675px | Player cards for media |
-| [LinkedInBot](/ai-crawler-bot/linkedinbot/) | LinkedInBot | Open Graph | 1200x627px | Article-specific metadata |
-| [Slackbot](/ai-crawler-bot/slackbot/) | Slackbot-LinkExpanding | Open Graph, oEmbed | 560px width | oEmbed protocol support |
+| Facebookbot | facebookexternalhit | Open Graph | 1200x630px | Video preview support |
+| Twitterbot | Twitterbot | Twitter Cards, Open Graph | 1200x675px | Player cards for media |
+| LinkedInBot | LinkedInBot | Open Graph | 1200x627px | Article-specific metadata |
+| Slackbot | Slackbot-LinkExpanding | Open Graph, oEmbed | 560px width | oEmbed protocol support |
 
 Discordbot is lightweight compared to Facebookbot, making fewer requests with aggressive caching. Although Twitterbot has stricter Twitter Card validation requirements, LinkedInBot focuses on professional content. Slackbot supports the oEmbed protocol for more interactive embeds, a feature Discordbot currently lacks.
 
@@ -202,7 +202,7 @@ For developers and website owners, optimizing for Discord is important. Properly
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/discordbot"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/discordbot"
 }
 </script>
 
@@ -214,7 +214,7 @@ For developers and website owners, optimizing for Discord is important. Properly
   "description": "Explore how Discordbot improves link sharing and user engagement on Discord by generating visually appealing previews for shared URLs.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/discordbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/discordbot" }
 }
 </script>
 
@@ -292,7 +292,7 @@ For developers and website owners, optimizing for Discord is important. Properly
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -300,7 +300,7 @@ For developers and website owners, optimizing for Discord is important. Properly
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/discordbot",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/discordbot",
         "name": "Discordbot"
       }
     }
