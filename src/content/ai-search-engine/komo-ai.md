@@ -52,7 +52,7 @@ Privacy is a core tenet of Komo AI, setting it apart from many search engines th
 
 ## Comparing Komo AI to Perplexity and ChatGPT Search
 
-Komo AI competes with [Perplexity AI](/ai-chat-bot/perplexity/) and [ChatGPT](/ai-chat-bot/chatgpt/)T Search](/ai-search-engine/chatgpt-search/), standing out through its emphasis on speed and minimalist design. While Perplexity AI and ChatGPT Search offer extensive features, Komo AI appeals to users seeking a straightforward and efficient search tool. Its approach is particularly beneficial for those who prioritize ease of use and want to avoid complex interfaces.
+Komo AI competes with Perplexity AI and ChatGPT Search, standing out through its emphasis on speed and minimalist design. While Perplexity AI and ChatGPT Search offer extensive features, Komo AI appeals to users seeking a straightforward and efficient search tool. Its approach is particularly beneficial for those who prioritize ease of use and want to avoid complex interfaces.
 
 <a id="use-cases-for-komo-ai-search"></a>
 
@@ -125,7 +125,7 @@ Komo AI Features Overview:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/komo-ai"
+  "@id": "https://aichatwatch.com/ai-search-engine/komo-ai"
 }
 </script>
 <script type="application/ld+json">
@@ -136,7 +136,7 @@ Komo AI Features Overview:
   "description": "Komo AI offers a fast, ad-free, and privacy-focused search experience, providing direct answers and enhancing user convenience.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/komo-ai" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/komo-ai" }
 }
 </script>
 <script type="application/ld+json">
@@ -212,13 +212,13 @@ Komo AI Features Overview:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Komo AI Search Engine",
-      "item": "https://aicw.io/ai-search-engine/komo-ai"
+      "item": "https://aichatwatch.com/ai-search-engine/komo-ai"
     }
   ]
 }

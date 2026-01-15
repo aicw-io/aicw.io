@@ -52,7 +52,7 @@ With GPT-4 integration, Consensus AI assists users in comprehending complex rese
 **Diagram: GPT-4 Integration Benefits**
 ![Research Copilot Diagram](/assets/ai-search-engine/consensus/summarize-papers-answer.png)
 
-The Consensus [Copilot](/ai-chat-bot/microsoft-copilot/) feature acts as a smart research assistant, delving deeper into research topics. It can:
+The Consensus Copilot feature acts as a smart research assistant, delving deeper into research topics. It can:
 
 * Find related studies
 * Clarify complex terms
@@ -113,7 +113,7 @@ This is how Consensus AI stands against other research tools:
 * Fewer AI features
 * No consensus analysis
 
-**[Semantic Scholar](/ai-search-engine/semantic-scholar/):**
+**Semantic Scholar:**
 
 * Comparable paper database
 * Superior citation tracking
@@ -207,8 +207,8 @@ For researchers, students, and professionals needing rapid insights into scienti
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-search-engine/consensus",
-  "mainEntityOfPage": { "@id": "https://aicw.io/ai-search-engine/consensus" }
+  "url": "https://aichatwatch.com/ai-search-engine/consensus",
+  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-search-engine/consensus" }
 }
 </script>
 <script type="application/ld+json">
@@ -219,7 +219,7 @@ For researchers, students, and professionals needing rapid insights into scienti
   "description": "Consensus AI is a revolutionary search engine tailored for scientific research, offering AI-powered academic search capabilities to help users discover peer-reviewed papers swiftly.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/consensus" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/consensus" }
 }
 </script>
 <script type="application/ld+json">
@@ -295,13 +295,13 @@ For researchers, students, and professionals needing rapid insights into scienti
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Consensus AI",
-      "item": "https://aicw.io/ai-search-engine/consensus"
+      "item": "https://aichatwatch.com/ai-search-engine/consensus"
     }
   ]
 }

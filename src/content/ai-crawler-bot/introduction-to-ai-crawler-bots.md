@@ -32,7 +32,7 @@ Collected data gets cleaned and formatted before use in AI training. Duplicate c
 
 ## Why AI Companies Need Crawler Technology
 
-AI models learn patterns from vast amounts of data. Building a good language model requires more than a few thousand examples. Companies need billions of text samples to train models like GPT-4 or [Claude](/ai-chat-bot/claude/). Crawler technology provides the most efficient way to gather this data at scale. Manual data collection would take years and cost millions in labor.
+AI models learn patterns from vast amounts of data. Building a good language model requires more than a few thousand examples. Companies need billions of text samples to train models like GPT-4 or Claude. Crawler technology provides the most efficient way to gather this data at scale. Manual data collection would take years and cost millions in labor.
 
 Web crawling automates the data gathering process and operates 24/7 without breaks. Data diversity is also crucial. AI data scraping allows crawlers to visit millions of websites across various topics and languages. This variety helps AI systems understand different writing styles and subject matters. Without web crawlers, AI systems would have limited knowledge and poor performance.
 
@@ -46,7 +46,7 @@ The economic impact of crawler technology is substantial. AI crawler bots dramat
 
 ## Common AI Crawler Bots and Their Characteristics
 
-Several major AI companies operate their own crawler bots, each with different behaviors and purposes. [GPTBot](/ai-crawler-bot/gptbot/) belongs to OpenAI and gathers AI training data for [ChatGPT](/ai-chat-bot/chatgpt/). Google uses [GoogleBot](/ai-crawler-bot/googlebot/) for search and [Google-Extended](/ai-crawler-bot/google-extended/) for AI training. Anthropic runs [ClaudeBot](/ai-crawler-bot/claudebot/) for Claude models. Meta operates [Meta-ExternalAgent](/ai-crawler-bot/meta-externalagent/) for AI projects. 
+Several major AI companies operate their own crawler bots, each with different behaviors and purposes. GPTBot belongs to OpenAI and gathers AI training data for ChatGPT. Google uses GoogleBot for search and Google-Extended for AI training. Anthropic runs ClaudeBot for Claude models. Meta operates Meta-ExternalAgent for AI projects. 
 
 These bots have distinct user-agent strings that identify them in server logs. Website administrators can block specific bots using robots.txt or server configurations. Crawling frequency varies. Some bots visit sites daily, others weekly or monthly. Respect for website rules also varies. Most major company bots honor robots.txt, but some smaller operations ignore it completely.
 
@@ -57,7 +57,7 @@ Performance impact on servers depends on crawl rate. Aggressive bots can slow do
 | GPTBot                | OpenAI     | Training data for ChatGPT          | Yes                 | robots.txt, User-Agent   |
 | Google-Extended       | Google     | AI model training                  | Yes                 | robots.txt               |
 | ClaudeBot             | Anthropic  | Training data for Claude           | Yes                 | robots.txt, User-Agent   |
-| CCBot                 | [Common Crawl](/ai-crawler-bot/ccbot/)| Open dataset creation              | Yes                 | robots.txt               |
+| CCBot                 | Common Crawl| Open dataset creation              | Yes                 | robots.txt               |
 | Meta-ExternalAgent    | Meta       | AI research and training           | Yes                 | robots.txt               |
 
 ## Impact on Website Owners and Content Creators
@@ -132,7 +132,7 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawler-bots"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawler-bots"
 }
 </script>
 <script type="application/ld+json">
@@ -143,7 +143,7 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
   "description": "AI crawler bots are automated programs that collect data for AI training purposes, essential for developing and improving AI models.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawler-bots" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawler-bots" }
 }
 </script>
 <script type="application/ld+json">
@@ -219,7 +219,7 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -227,7 +227,7 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/introduction-to-ai-crawler-bots",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawler-bots",
         "name": "Introduction to AI Crawler Bots"
       }
     }

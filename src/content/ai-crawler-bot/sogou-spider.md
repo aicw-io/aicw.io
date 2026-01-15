@@ -65,10 +65,10 @@ Here's a comparison of Sogou Spider with other major search engine crawlers:
 | Crawler       | Owner     | Primary Market | User-Agent Identifier       | Robots.txt Support | Market Position      |
 |---------------|-----------|----------------|-----------------------------|---------------------|----------------------|
 | Sogou Spider  | Tencent   | China          | Sogou web spider            | Yes                 | 3rd-4th in China     |
-| [Baiduspider](/ai-crawler-bot/baiduspider/)   | Baidu     | China          | Baiduspider                 | Yes                 | 1st in China         |
-| [Googlebot](/ai-crawler-bot/googlebot/)     | Google    | Global         | Googlebot                   | Yes                 | 1st globally         |
-| [Bingbot](/ai-crawler-bot/bingbot/)       | Microsoft | Global         | bingbot                     | Yes                 | 2nd globally         |
-| [Yandex Bot](/ai-crawler-bot/yandexbot/)    | Yandex    | Russia/CIS     | YandexBot                   | Yes                 | 1st in Russia        |
+| Baiduspider   | Baidu     | China          | Baiduspider                 | Yes                 | 1st in China         |
+| Googlebot     | Google    | Global         | Googlebot                   | Yes                 | 1st globally         |
+| Bingbot       | Microsoft | Global         | bingbot                     | Yes                 | 2nd globally         |
+| Yandex Bot    | Yandex    | Russia/CIS     | YandexBot                   | Yes                 | 1st in Russia        |
 
 Each crawler has unique crawling patterns and priorities. Sogou Spider focuses on Chinese language content and websites crucial for Chinese users, while Baiduspider has aggressive crawl rates due to Baidu's dominance. Googlebot and Bingbot show less activity on Chinese-language sites targeting mainland China. Crawlers differ in handling JavaScript, revisiting pages, and content prioritization signals. Sogou Spider shares technical similarities with other modern crawlers but is specifically optimized for the Chinese web ecosystem.
 
@@ -123,8 +123,8 @@ Sogou Spider functions as the web crawler for Sogou Search, a significant player
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/sogou-spider",
-  "url": "https://aicw.io/ai-crawler-bot/sogou-spider",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/sogou-spider",
+  "url": "https://aichatwatch.com/ai-crawler-bot/sogou-spider",
   "name": "Sogou Spider: Understanding the Chinese Search Engine Crawler",
   "description": "An overview of Sogou Spider, the web crawler for Sogou Search, including its role and significance in the Chinese search market."
 }
@@ -137,7 +137,7 @@ Sogou Spider functions as the web crawler for Sogou Search, a significant player
   "description": "An overview of Sogou Spider, the web crawler for Sogou Search, including its role and significance in the Chinese search market.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/sogou-spider" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/sogou-spider" }
 }
 </script>
 <script type="application/ld+json">
@@ -213,13 +213,13 @@ Sogou Spider functions as the web crawler for Sogou Search, a significant player
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Sogou Spider",
-      "item": "https://aicw.io/ai-crawler-bot/sogou-spider"
+      "item": "https://aichatwatch.com/ai-crawler-bot/sogou-spider"
     }
   ]
 }

@@ -69,10 +69,10 @@ The SEO industry relies on multiple crawler bots, each serving different platfor
 | Crawler       | Platform       | Primary Purpose                 | Database Size          | Crawl Frequency    |
 |---------------|----------------|---------------------------------|------------------------|--------------------|
 | SemrushBot    | Semrush        | Backlinks, site audits, SEO data| 43 trillion backlinks  | Daily              |
-| [AhrefsBot](/ai-crawler-bot/ahrefsbot/)     | Ahrefs         | Backlink index, SEO metrics     | 35 trillion links      | Every 15-30 min    |
-| Moz [DotBot](/ai-crawler-bot/dotbot/)    | Moz            | Domain authority, link data     | 40 trillion links      | Weekly             |
+| AhrefsBot     | Ahrefs         | Backlink index, SEO metrics     | 35 trillion links      | Every 15-30 min    |
+| Moz DotBot    | Moz            | Domain authority, link data     | 40 trillion links      | Weekly             |
 | BLEXBot       | BLEX/Majestic  | Link intelligence               | 15 trillion URLs       | Continuous         |
-| [Screaming Frog](/ai-crawler-bot/screaming-frog/)| Desktop tool   | Site audits, technical SEO      | N/A (on-demand)        | User-controlled    |
+| Screaming Frog| Desktop tool   | Site audits, technical SEO      | N/A (on-demand)        | User-controlled    |
 
 AhrefsBot is SemrushBot's biggest competitor with faster update speeds, offering more integrated marketing tools beyond SEO. Moz focuses on Domain Authority, while BLEXBot emphasizes link discovery. Screaming Frog is a desktop application for manual site audits.
 
@@ -131,8 +131,8 @@ SemrushBot serves as the backbone crawler for Semrush's complete SEO and marketi
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/semrushbot",
-  "url": "https://aicw.io/ai-crawler-bot/semrushbot",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/semrushbot",
+  "url": "https://aichatwatch.com/ai-crawler-bot/semrushbot",
   "name": "What is SemrushBot and Why It Matters"
 }
 </script>
@@ -144,7 +144,7 @@ SemrushBot serves as the backbone crawler for Semrush's complete SEO and marketi
   "description": "SemrushBot is a web crawler operated by Semrush, used for collecting data for SEO tools.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/semrushbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/semrushbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -220,13 +220,13 @@ SemrushBot serves as the backbone crawler for Semrush's complete SEO and marketi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "SemrushBot",
-      "item": "https://aicw.io/ai-crawler-bot/semrushbot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/semrushbot"
     }
   ]
 }

@@ -88,13 +88,13 @@ GitHub Copilot accelerates coding tasks, such as:
 
 ## Comparison with Alternative AI Coding Assistants
 
-Here's how GitHub Copilot compares to alternatives like Cursor, [Codeium](/ai-chat-bot/codeium/), [Tabnine](/ai-chat-bot/tabnine/), and [Amazon CodeWhisperer](/ai-chat-bot/amazon-codewhisperer/):
+Here's how GitHub Copilot compares to alternatives like Cursor, Codeium, Tabnine, and Amazon CodeWhisperer:
 
 | Feature | GitHub Copilot | Cursor | Codeium | Tabnine | Amazon CodeWhisperer |
 |---------|---------------|---------|----------|----------|----------------------|
 | Base Model | GPT-4/Codex | GPT-4 | Proprietary | Proprietary | CodeWhisperer |
 | Monthly Cost | $10 | $20 | Free tier, $12 Pro | Free tier, $12 Pro | Free |
-| IDE Support | VS Code, JetBrains, Neovim | [Cursor IDE](/ai-chat-bot/cursor/) only | VS Code, JetBrains, many others | VS Code, JetBrains, many others | VS Code, JetBrains, AWS Cloud9 |
+| IDE Support | VS Code, JetBrains, Neovim | Cursor IDE only | VS Code, JetBrains, many others | VS Code, JetBrains, many others | VS Code, JetBrains, AWS Cloud9 |
 | Chat Feature | Yes | Yes | Yes | Yes (Pro) | Yes |
 | Enterprise Option | Yes ($39) | Yes (custom) | Yes (custom) | Yes (custom) | Yes (custom) |
 | Offline Mode | No | No | No | Yes (Pro) | No |
@@ -166,8 +166,8 @@ Compared to alternatives like Cursor, Codeium, and Tabnine, GitHub Copilot is co
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/github-copilot",
-  "url": "https://aicw.io/ai-chat-bot/github-copilot",
+  "@id": "https://aichatwatch.com/ai-chat-bot/github-copilot",
+  "url": "https://aichatwatch.com/ai-chat-bot/github-copilot",
   "name": "GitHub Copilot",
   "description": "Explore how GitHub Copilot facilitates real-time coding assistance and boosts developer productivity."
 }
@@ -180,7 +180,7 @@ Compared to alternatives like Cursor, Codeium, and Tabnine, GitHub Copilot is co
   "description": "GitHub Copilot is an AI coding assistant that helps developers write code more efficiently by providing real-time suggestions.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/github-copilot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/github-copilot" }
 }
 </script>
 <script type="application/ld+json">
@@ -256,13 +256,13 @@ Compared to alternatives like Cursor, Codeium, and Tabnine, GitHub Copilot is co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "GitHub Copilot",
-      "item": "https://aicw.io/ai-chat-bot/github-copilot"
+      "item": "https://aichatwatch.com/ai-chat-bot/github-copilot"
     }
   ]
 }

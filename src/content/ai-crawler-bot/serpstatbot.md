@@ -83,10 +83,10 @@ Multiple SEO platforms operate similar crawlers for data collection. Here's how 
 | Crawler Name | Parent Company | Primary Purpose | Respects Robots.txt | Notable Features |
 |--------------|----------------|-----------------|---------------------|------------------|
 | SerpstatBot | Serpstat | Site audits, backlink analysis | Yes | Affordable platform, good for small businesses |
-| [AhrefsBot](/ai-crawler-bot/ahrefsbot/) | Ahrefs | Backlink index building | Yes | Largest backlink database, very active crawler |
-| [SEMrushBot](/ai-crawler-bot/semrushbot/) | Semrush | SEO data collection, site audit | Yes | Complete toolkit, enterprise features |
-| [MJ12bot](/ai-crawler-bot/mj12bot-majestic-seo-crawler/) | Majestic | Link intelligence | Yes | Focuses heavily on backlink data |
-| [DotBot](/ai-crawler-bot/dotbot/) | Moz | Link index, site data | Yes | Part of established SEO tool suite |
+| AhrefsBot | Ahrefs | Backlink index building | Yes | Largest backlink database, very active crawler |
+| SEMrushBot | Semrush | SEO data collection, site audit | Yes | Complete toolkit, enterprise features |
+| MJ12bot | Majestic | Link intelligence | Yes | Focuses heavily on backlink data |
+| DotBot | Moz | Link index, site data | Yes | Part of established SEO tool suite |
 
 AhrefsBot is probably the most aggressive crawler, visiting sites very frequently to maintain fresh backlink data. Their index contains over 30 trillion links. SEMrushBot serves a platform with over 7 million users and offers more marketing features beyond SEO.
 
@@ -162,7 +162,7 @@ Compared to alternatives like AhrefsBot and SEMrushBot, SerpstatBot offers simil
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/serpstatbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/serpstatbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -173,7 +173,7 @@ Compared to alternatives like AhrefsBot and SEMrushBot, SerpstatBot offers simil
   "description": "SerpstatBot is a web crawler operated by Serpstat, an all-in-one SEO platform that launched in 2013, collecting data for various SEO tools.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/serpstatbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/serpstatbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -249,13 +249,13 @@ Compared to alternatives like AhrefsBot and SEMrushBot, SerpstatBot offers simil
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "SerpstatBot",
-      "item": "https://aicw.io/ai-crawler-bot/serpstatbot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/serpstatbot"
     }
   ]
 }

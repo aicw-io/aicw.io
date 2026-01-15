@@ -93,9 +93,9 @@ SISTRIX compares favorably with other SEO tools in both European and global mark
 | Tool | Primary Market | Crawler Name | Key Metric | European Focus |
 |------|---------------|--------------|------------|----------------|
 | SISTRIX | Germany/Europe | SISTRIX Crawler | Visibility Index | Very Strong |
-| SEMrush | Global/USA | [SEMrushBot](/ai-crawler-bot/semrushbot/) | Traffic Score | Moderate |
-| Ahrefs | Global | [AhrefsBot](/ai-crawler-bot/ahrefsbot/) | Domain Rating | Moderate |
-| Moz | USA/Global | [rogerbot](/ai-crawler-bot/rogerbot/)/[dotbot](/ai-crawler-bot/dotbot/) | Domain Authority | Weak |
+| SEMrush | Global/USA | SEMrushBot | Traffic Score | Moderate |
+| Ahrefs | Global | AhrefsBot | Domain Rating | Moderate |
+| Moz | USA/Global | rogerbot/dotbot | Domain Authority | Weak |
 | Searchmetrics | Germany/Global | Searchmetrics Bot | Search Experience | Strong |
 
 SISTRIX stands out for its deep European market data and trusted SEO visibility index, making it particularly useful for businesses focused on German-language SEO.
@@ -161,8 +161,8 @@ The SISTRIX Crawler is foundational for one of Europe's most trusted SEO analysi
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/sistrix-crawler",
-  "url": "https://aicw.io/ai-crawler-bot/sistrix-crawler",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/sistrix-crawler",
+  "url": "https://aichatwatch.com/ai-crawler-bot/sistrix-crawler",
   "name": "SISTRIX Crawler",
   "description": "Learn about the SISTRIX Crawler, its purpose in SEO, and how it operates across European markets."
 }
@@ -176,7 +176,7 @@ The SISTRIX Crawler is foundational for one of Europe's most trusted SEO analysi
   "description": "The SISTRIX Crawler is vital for SEO data collection in European markets, focusing on German-language websites.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/sistrix-crawler" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/sistrix-crawler" }
 }
 </script>
 
@@ -254,7 +254,7 @@ The SISTRIX Crawler is foundational for one of Europe's most trusted SEO analysi
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -262,7 +262,7 @@ The SISTRIX Crawler is foundational for one of Europe's most trusted SEO analysi
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/sistrix-crawler",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/sistrix-crawler",
         "name": "SISTRIX Crawler"
       }
     }

@@ -16,7 +16,7 @@ keywords: "SciSpace, AI tools, research papers, Copilot, AI research"
 
 ## Introduction
 
-Research papers can be difficult to understand, but SciSpace aims to simplify this challenge. As an AI tool for researchers and students, SciSpace incorporates AI tools like the [Copilot](/ai-chat-bot/microsoft-copilot/) Q&A function and advanced literature review tools. SciSpace also features show-and-explain and paper formatting tools, making research more accessible. This article highlights the key features and practical applications of SciSpace.
+Research papers can be difficult to understand, but SciSpace aims to simplify this challenge. As an AI tool for researchers and students, SciSpace incorporates AI tools like the Copilot Q&A function and advanced literature review tools. SciSpace also features show-and-explain and paper formatting tools, making research more accessible. This article highlights the key features and practical applications of SciSpace.
 
 <a id="what-is-scispace"></a>
 
@@ -51,7 +51,7 @@ SciSpace User Workflow:
 
 
 - **Fact**: SciSpace offers a unique combination of tools for research assistance. 
-- Compared to AI research tools like [ChatGPT](/ai-chat-bot/chatgpt/), SciSpace specializes in academic papers.
+- Compared to AI research tools like ChatGPT, SciSpace specializes in academic papers.
 
 Here's a brief comparison:
 
@@ -113,15 +113,15 @@ SciSpace transforms how we approach research papers by offering tools that simpl
   "description": "This article highlights the key features and practical applications of SciSpace, an AI-powered tool designed to simplify research papers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/scispace" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/scispace" }
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/scispace",
-  "url": "https://aicw.io/ai-search-engine/scispace",
+  "@id": "https://aichatwatch.com/ai-search-engine/scispace",
+  "url": "https://aichatwatch.com/ai-search-engine/scispace",
   "name": "Understanding SciSpace: An AI Tool for Demystifying Research Papers"
 }
 </script>
@@ -198,13 +198,13 @@ SciSpace transforms how we approach research papers by offering tools that simpl
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Understanding SciSpace",
-      "item": "https://aicw.io/ai-search-engine/scispace"
+      "item": "https://aichatwatch.com/ai-search-engine/scispace"
     }
   ]
 }

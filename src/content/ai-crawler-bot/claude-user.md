@@ -14,7 +14,7 @@ keywords: "Claude-User, Anthropic user agent, Claude browsing, AI crawler bot, r
 
 ## What is Claude-User and Why It Matters
 
-[Claude-User](https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/web-search-tool) is a web request agent created by Anthropic. Unlike typical web crawlers, it only fetches content when a real user asks [Claude](/ai-chat-bot/claude/) to access a specific webpage. This means Claude-User doesn't crawl websites randomly like search engine bots. It acts on behalf of actual users who need Claude to read and analyze web content during their conversations. The Anthropic user agent plays a crucial role here.
+[Claude-User](https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/web-search-tool) is a web request agent created by Anthropic. Unlike typical web crawlers, it only fetches content when a real user asks Claude to access a specific webpage. This means Claude-User doesn't crawl websites randomly like search engine bots. It acts on behalf of actual users who need Claude to read and analyze web content during their conversations. The Anthropic user agent plays a crucial role here.
 
 The purpose of Claude-User is straightforward. When you're chatting with Claude and ask it to read a webpage, the AI needs a way to fetch that content. That's where Claude-User comes in. It makes HTTP requests to websites, grabs the content, and brings it back so Claude can analyze it and respond to your questions. This real-time fetching capability makes Claude much more useful for tasks that require current information from the web.
 
@@ -26,7 +26,7 @@ Claude-User Request Flow:
 ![Understanding How Claude-User Actually Works Diagram](/assets/ai-crawler-bot/claude-user/user-asks-claude.png)
 
 
-Claude-User operates as a fetch agent rather than a traditional crawler. The key difference is timing and purpose. Traditional crawlers like [Googlebot](/ai-crawler-bot/googlebot/) constantly scan the web to index content. Claude-User only makes requests when a specific user asks Claude to access a particular URL during their conversation. This makes it event-driven and user-specific.
+Claude-User operates as a fetch agent rather than a traditional crawler. The key difference is timing and purpose. Traditional crawlers like Googlebot constantly scan the web to index content. Claude-User only makes requests when a specific user asks Claude to access a particular URL during their conversation. This makes it event-driven and user-specific.
 
 The technical setup is simple. When you ask Claude to read a webpage, the system sends an HTTP request identifying itself as Claude-User. The request headers include standard information that web servers use to identify and log the bot. According to [Anthropic's support documentation](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler), Claude-User respects standard web protocols, including robots.txt directives.
 
@@ -68,10 +68,10 @@ Several AI companies have deployed web crawlers and fetch agents. Each has diffe
 | Agent Name       | Company      | Type             | Frequency                  | Purpose                                                 |
 |------------------|--------------|------------------|----------------------------|---------------------------------------------------------|
 | Claude-User      | Anthropic    | Fetch agent      | User-initiated only        | Real-time content access for conversations                |
-| [GPTBot](/ai-crawler-bot/gptbot/)           | OpenAI       | Crawler          | Continuous                 | Training data collection for AI models                    |
-| [Google-Extended](/ai-crawler-bot/google-extended/)  | Google       | Crawler          | Continuous                 | AI training data separate from search                     |
-| CCBot            | [Common Crawl](/ai-crawler-bot/ccbot/) | Crawler          | Periodic                   | Open dataset creation for research                        |
-| [Applebot](/ai-crawler-bot/applebot/)t-Extended](/ai-crawler-bot/applebot-extended/)| Apple        | Crawler          | Continuous                 | AI feature training and development                       |
+| GPTBot           | OpenAI       | Crawler          | Continuous                 | Training data collection for AI models                    |
+| Google-Extended  | Google       | Crawler          | Continuous                 | AI training data separate from search                     |
+| CCBot            | Common Crawl | Crawler          | Periodic                   | Open dataset creation for research                        |
+| Applebot-Extended| Apple        | Crawler          | Continuous                 | AI feature training and development                       |
 
 The main distinction is between fetch agents and crawlers. Claude-User is a fetch agent that only acts when users make specific requests. GPTBot, Google-Extended, and similar tools are traditional crawlers that systematically scan websites to collect training data. This makes Claude-User much lighter in terms of server impact.
 
@@ -174,7 +174,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/claude-user",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/claude-user",
   "name": "Claude-User Explained",
   "description": "An informative article discussing the Claude-User web request agent, its functionality and importance in real-time content access for AI conversations.",
   "publisher": {
@@ -191,7 +191,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
   "description": "Explore how Claude-User operates as an AI fetch agent, fetching real-time data on demand to enhance user interactions.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/claude-user" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claude-user" }
 }
 </script>
 <script type="application/ld+json">
@@ -267,7 +267,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -275,7 +275,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/claude-user",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/claude-user",
         "name": "Claude-User"
       }
     }

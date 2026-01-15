@@ -43,10 +43,10 @@ Several AI companies operate crawlers to collect data for training purposes. The
 | Crawler Name         | Organization   | Type          | Robots.txt Support | Blockchain Technology | Primary Purpose                  |
 |----------------------|----------------|---------------|-------------------|----------------------|---------------------------------|
 | Timpibot             | Timpi          | Decentralized | Yes               | Yes                  | Decentralized search and AI     |
-| [GPTBot](/ai-crawler-bot/gptbot/)               | OpenAI         | Centralized   | Yes               | No                   | AI model training               |
-| CCBot                | [Common Crawl](/ai-crawler-bot/ccbot/)   | Non-profit    | Yes               | No                   | Open web archive                |
-| [Googlebot](/ai-crawler-bot/googlebot/)            | Google         | Centralized   | Yes               | No                   | Search indexing and AI          |
-| [Applebot](/ai-crawler-bot/applebot/)t-Extended](/ai-crawler-bot/applebot-extended/)    | Apple          | Centralized   | Yes               | No                   | AI training                     |
+| GPTBot               | OpenAI         | Centralized   | Yes               | No                   | AI model training               |
+| CCBot                | Common Crawl   | Non-profit    | Yes               | No                   | Open web archive                |
+| Googlebot            | Google         | Centralized   | Yes               | No                   | Search indexing and AI          |
+| Applebot-Extended    | Apple          | Centralized   | Yes               | No                   | AI training                     |
 
 Timpibot stands out for its blockchain AI integration, unlike Common Crawl, which provides open datasets without blockchain verification. GPTBot and Applebot-Extended follow traditional corporate AI data collection approaches. All these crawlers respect robots.txt directives when configured correctly. Website owners can choose which crawlers to allow or block based on preferences. The decentralized nature of Timpibot means data distribution differs from centralized alternatives, but the crawling behavior is similar technically to other web crawlers.
 
@@ -106,8 +106,8 @@ Timpibot offers a novel approach to web crawling for AI and search applications.
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/timpibot",
-  "url": "https://aicw.io/ai-crawler-bot/timpibot",
+  "@id": "https://aichatwatch.com/ai-crawler-bot/timpibot",
+  "url": "https://aichatwatch.com/ai-crawler-bot/timpibot",
   "name": "What is Timpibot and Why It Matters",
   "description": "Timpibot is a Web3 crawler created by Timpi, focusing on decentralized AI data collection.",
   "mainEntity": {
@@ -198,7 +198,7 @@ Timpibot offers a novel approach to web crawling for AI and search applications.
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -206,7 +206,7 @@ Timpibot offers a novel approach to web crawling for AI and search applications.
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/timpibot",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/timpibot",
         "name": "What is Timpibot and Why It Matters"
       }
     }

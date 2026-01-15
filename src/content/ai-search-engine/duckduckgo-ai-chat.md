@@ -63,9 +63,9 @@ This differentiates it from [other AI chat services, which often save chats and 
 DuckDuckGo AI Chat operates with several AI models:
 
 * GPT-4
-* [Claude 3](/ai-chat-bot/claude/)
-* [Llama](/ai-chat-bot/llama/)
-* [Mistral](/ai-chat-bot/mistral/)
+* Claude 3
+* Llama
+* Mistral
 * Anthropic models
 
 The service [automatically selects the best model for each query, simplifying usage](https://duckduckgo.com/duckduckgo-help-pages/duckai/chat-models).
@@ -129,7 +129,7 @@ These limits contribute to the service's simplicity and [privacy](https://duckdu
 
 How does it compare to others? Here's a brief comparison:
 
-[ChatGPT](/ai-chat-bot/chatgpt/):
+ChatGPT:
 
 * Stores chat history.
 * Requires an account.
@@ -143,7 +143,7 @@ Claude:
 * Better context.
 * Less private.
 
-[Perplexity](/ai-chat-bot/perplexity/):
+Perplexity:
 
 * Stores searches.
 * Links to sources.
@@ -212,7 +212,7 @@ Users seeking private AI chat should try it. The service demonstrates that AI ca
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/duckduckgo-ai-chat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/duckduckgo-ai-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -223,7 +223,7 @@ Users seeking private AI chat should try it. The service demonstrates that AI ca
   "description": "DuckDuckGo AI Chat offers privacy-focused AI conversations without storing user data.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/duckduckgo-ai-chat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/duckduckgo-ai-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -299,13 +299,13 @@ Users seeking private AI chat should try it. The service demonstrates that AI ca
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "DuckDuckGo AI Chat",
-      "item": "https://aicw.io/ai-search-engine/duckduckgo-ai-chat"
+      "item": "https://aichatwatch.com/ai-search-engine/duckduckgo-ai-chat"
     }
   ]
 }

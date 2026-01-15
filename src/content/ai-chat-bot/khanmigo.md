@@ -62,7 +62,7 @@ Several AI tutoring platforms have emerged alongside Khanmigo, each with a disti
 | Khanmigo | GPT-4 | $44/year | Socratic method, teacher tools, safety monitoring | K-12 students and teachers |
 | Tutor.AI | GPT-3.5/4 | Free tier, $10/month premium | Subject-specific tutoring, instant answers | High school and college |
 | Quizlet Q-Chat | GPT-4 | Included in Quizlet Plus ($35.99/year) | Study help based on flashcard sets | High school and college |
-| [Duolingo Max](/ai-chat-bot/duolingo-max/) | GPT-4 | $29.99/month | Language learning with AI explanations | Language learners of all ages |
+| Duolingo Max | GPT-4 | $29.99/month | Language learning with AI explanations | Language learners of all ages |
 | Brainly Tutor | Proprietary AI | $24/month | Homework help with step-by-step solutions | Middle and high school |
 | Photomath | Proprietary AI | Free basic, $9.99/month premium | Math problem solving via photo | K-12 math students |
 
@@ -131,8 +131,8 @@ Safety features, including conversation monitoring and content filters, address 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Khanmigo: AI-Powered Education Tool",
-  "url": "https://aicw.io/ai-chat-bot/khanmigo",
-  "mainEntityOfPage": {"@id": "https://aicw.io/ai-chat-bot/khanmigo"}
+  "url": "https://aichatwatch.com/ai-chat-bot/khanmigo",
+  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-chat-bot/khanmigo"}
 }</script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -141,7 +141,7 @@ Safety features, including conversation monitoring and content filters, address 
   "description": "Khanmigo is an AI-powered tutoring assistant created by Khan Academy, enhancing K-12 education with personalized learning experiences.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/khanmigo"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/khanmigo"}
 }</script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -213,13 +213,13 @@ Safety features, including conversation monitoring and content filters, address 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Khanmigo",
-      "item": "https://aicw.io/ai-chat-bot/khanmigo"
+      "item": "https://aichatwatch.com/ai-chat-bot/khanmigo"
     }
   ]
 }</script>

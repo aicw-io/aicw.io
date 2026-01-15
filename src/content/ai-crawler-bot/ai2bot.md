@@ -65,10 +65,10 @@ Several organizations operate web crawlers for AI training purposes, each with d
 | Crawler | Organization | Primary Purpose | Opt-Out Method | Open-Source Models |
 |---------|--------------|-----------------|----------------|--------------------|
 | AI2Bot | Allen Institute for AI | Training OLMo and research | robots.txt, contact form | Yes |
-| CCBot | [Common Crawl](/ai-crawler-bot/ccbot/) | Public dataset creation | robots.txt | N/A (dataset only) |
-| [GPTBot](/ai-crawler-bot/gptbot/) | OpenAI | Training GPT models | robots.txt | No |
-| [Google-Extended](/ai-crawler-bot/google-extended/) | Google | Training Bard/[Gemini](/ai-chat-bot/google-gemini/) | robots.txt | No |
-| [ClaudeBot](/ai-crawler-bot/claudebot/) | Anthropic | Training Claude | robots.txt | No |
+| CCBot | Common Crawl | Public dataset creation | robots.txt | N/A (dataset only) |
+| GPTBot | OpenAI | Training GPT models | robots.txt | No |
+| Google-Extended | Google | Training Bard/Gemini | robots.txt | No |
+| ClaudeBot | Anthropic | Training Claude | robots.txt | No |
 
 OLMo Development Pipeline:
 ![AI2Bot Compared to Other AI Crawlers Diagram](/assets/ai-crawler-bot/ai2bot/content-dolma-dataset.png)
@@ -80,7 +80,7 @@ GPTBot from OpenAI collects data specifically for training GPT models. OpenAI pr
 
 Google-Extended crawls content for training Google's AI products like Bard and Gemini. Google keeps training data and model architectures proprietary. The company does offer some AI tools publicly, but not the underlying models themselves.
 
-ClaudeBot supports Anthropic's [Claude AI](/ai-chat-bot/claude/) assistant development. Like OpenAI and Google, Anthropic maintains privacy around training data specifics. The company emphasizes AI safety research but does not release open-source versions of Claude.
+ClaudeBot supports Anthropic's Claude AI assistant development. Like OpenAI and Google, Anthropic maintains privacy around training data specifics. The company emphasizes AI safety research but does not release open-source versions of Claude.
 
 AI2Bot stands out for its commitment to full transparency and open-source release. Website owners who allow AI2Bot access contribute to publicly available AI research rather than exclusively commercial products.
 
@@ -198,10 +198,10 @@ Disallow: /</code>.</p>
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/ai2bot",
+  "url": "https://aichatwatch.com/ai-crawler-bot/ai2bot",
   "name": "AI2Bot: The Open Source AI Web Crawler",
   "description": "An exploration of AI2Bot's role in open-source AI research and data collection.",
-  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/ai2bot" }
+  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -212,7 +212,7 @@ Disallow: /</code>.</p>
   "description": "An exploration of AI2Bot's role in open-source AI research and data collection.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/ai2bot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot" }
 }
 </script>
 <script type="application/ld+json">
@@ -267,7 +267,7 @@ Disallow: /</code>.</p>
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -275,7 +275,7 @@ Disallow: /</code>.</p>
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/ai2bot",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot",
         "name": "AI2Bot: The Open Source AI Web Crawler"
       }
     }

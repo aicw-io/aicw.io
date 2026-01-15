@@ -97,10 +97,10 @@ Different search engines operate distinct crawlers, each with varying behaviors.
 | Crawler | Company | Market Focus | Crawl Frequency | AI Training Use |
 |---------|---------|--------------|-----------------|-----------------|
 | YandexBot | Yandex | Russia, CIS countries | Medium-High | Yes |
-| [Googlebot](/ai-crawler-bot/googlebot/) | Google | Global | High | Yes |
-| [Bingbot](/ai-crawler-bot/bingbot/) | Microsoft | Global, English-focused | Medium | Yes |
-| [Baiduspider](/ai-crawler-bot/baiduspider/) | Baidu | China | High (for Chinese sites) | Yes |
-| DuckDuckBot | [DuckDuckGo](/ai-search-engine/duckduckgo-ai-chat/) | Global, privacy-focused | Low-Medium | Limited |
+| Googlebot | Google | Global | High | Yes |
+| Bingbot | Microsoft | Global, English-focused | Medium | Yes |
+| Baiduspider | Baidu | China | High (for Chinese sites) | Yes |
+| DuckDuckBot | DuckDuckGo | Global, privacy-focused | Low-Medium | Limited |
 
 YandexBot aggressively targets Russian-language content. Comparing crawler frequency, Googlebot often has the highest rate, with Bingbot improving significantly.
 
@@ -180,10 +180,10 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/yandexbot",
+  "url": "https://aichatwatch.com/ai-crawler-bot/yandexbot",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aicw.io/ai-crawler-bot/yandexbot"
+    "@id": "https://aichatwatch.com/ai-crawler-bot/yandexbot"
   }
 }
 </script>
@@ -195,7 +195,7 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
   "description": "YandexBot is a web crawler operated by Yandex, the largest search engine and tech company in Russia.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/yandexbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/yandexbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -271,7 +271,7 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -279,7 +279,7 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/yandexbot",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/yandexbot",
         "name": "YandexBot"
       }
     }

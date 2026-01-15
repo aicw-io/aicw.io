@@ -71,7 +71,7 @@ Several services compete with BuiltWith in the technology detection space, each 
 | Tool       | Primary Focus                 | Coverage            | Key Differentiator                                 |
 |------------|-------------------------------|---------------------|----------------------------------------------------|
 | BuiltWith  | Complete tech profiling       | 50+ million sites   | Extensive historical data and trends               |
-| [Wappalyzer](/ai-crawler-bot/wappalyzer/) | Browser extension and API     | Real-time detection | Easy browser-based detection                       |
+| Wappalyzer | Browser extension and API     | Real-time detection | Easy browser-based detection                       |
 | SimilarTech| Sales intelligence            | 100+ million sites  | Deep sales and marketing features                  |
 | Datanyze   | B2B sales prospecting         | 50+ million sites   | CRM combining focus                                |
 | WhatRuns   | Browser extension             | On-demand detection | Free browser extension                             |
@@ -180,8 +180,8 @@ While technology detection is not perfect and raises some privacy considerations
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/builtwith",
-  "mainEntityOfPage": {"@id": "https://aicw.io/ai-crawler-bot/builtwith"}
+  "url": "https://aichatwatch.com/ai-crawler-bot/builtwith",
+  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-crawler-bot/builtwith"}
 }
 </script>
 <script type="application/ld+json">
@@ -192,7 +192,7 @@ While technology detection is not perfect and raises some privacy considerations
   "description": "Learn how BuiltWith technology detection service works and why it matters for sales intelligence and market research.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/builtwith"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/builtwith"}
 }
 </script>
 <script type="application/ld+json">
@@ -268,13 +268,13 @@ While technology detection is not perfect and raises some privacy considerations
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "BuiltWith",
-      "item": "https://aicw.io/ai-crawler-bot/builtwith"
+      "item": "https://aichatwatch.com/ai-crawler-bot/builtwith"
     }
   ]
 }

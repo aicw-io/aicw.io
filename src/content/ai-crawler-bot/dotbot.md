@@ -65,9 +65,9 @@ Several companies operate similar crawlers for SEO analysis purposes. Here's how
 | Crawler | Company | Primary Use | Index Size | User-Agent |
 |---------|---------|-------------|------------|------------|
 | DotBot | Moz | Link analysis, DA calculation | 43+ billion URLs | DotBot/1.2 |
-| [AhrefsBot](/ai-crawler-bot/ahrefsbot/) | Ahrefs | Backlink index, SEO metrics | 400+ billion pages | AhrefsBot |
-| [SemrushBot](/ai-crawler-bot/semrushbot/) | Semrush | SEO analysis, competitor research | 43+ billion URLs | SemrushBot |
-| [MJ12bot](/ai-crawler-bot/mj12bot-majestic-seo-crawler/) | Majestic | Link intelligence, Trust Flow | 400+ billion URLs | MJ12bot |
+| AhrefsBot | Ahrefs | Backlink index, SEO metrics | 400+ billion pages | AhrefsBot |
+| SemrushBot | Semrush | SEO analysis, competitor research | 43+ billion URLs | SemrushBot |
+| MJ12bot | Majestic | Link intelligence, Trust Flow | 400+ billion URLs | MJ12bot |
 | BLEXBot | BLEXBot/Webmeup | Backlink analysis | Not disclosed | BLEXBot |
 
 Managing DotBot Access:
@@ -126,7 +126,7 @@ DotBot serves as the backbone of Moz's SEO intelligence platform by continuously
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/dotbot"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/dotbot"
 }
 </script>
 <script type="application/ld+json">
@@ -137,7 +137,7 @@ DotBot serves as the backbone of Moz's SEO intelligence platform by continuously
   "description": "Explore how DotBot crawls and collects web data for SEO analysis tools like Domain Authority and Spam Score.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/dotbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/dotbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -212,12 +212,12 @@ DotBot serves as the backbone of Moz's SEO intelligence platform by continuously
     {
       "@type": "ListItem",
       "position": 1,
-      "item": { "@id": "https://aicw.io/", "name": "Home" }
+      "item": { "@id": "https://aichatwatch.com/", "name": "Home" }
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "item": { "@id": "https://aicw.io/ai-crawler-bot/dotbot", "name": "DotBot" }
+      "item": { "@id": "https://aichatwatch.com/ai-crawler-bot/dotbot", "name": "DotBot" }
     }
   ]
 }

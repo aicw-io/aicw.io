@@ -79,7 +79,7 @@ Algolia [supports multiple programming languages for ease of site search impleme
 <a id="diagram-3-algolia-vs-alternatives"></a>
 
 ## Algolia vs. Alternatives
-Visualize the comparison of Algolia with [Elasticsearch](/ai-search-engine/elasticsearch/), Typesense, and Meilisearch in terms of hosting and setup complexity.
+Visualize the comparison of Algolia with Elasticsearch, Typesense, and Meilisearch in terms of hosting and setup complexity.
 ![Algolia vs. Alternatives Diagram](/assets/ai-search-engine/algolia/algolia-self-hosting.png)
 
 
@@ -260,8 +260,8 @@ Algolia empowers developers with robust search tools fueled by AI, offering swif
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/algolia",
-  "url": "https://aicw.io/ai-search-engine/algolia",
+  "@id": "https://aichatwatch.com/ai-search-engine/algolia",
+  "url": "https://aichatwatch.com/ai-search-engine/algolia",
   "name": "Algolia: AI-Powered Search API Guide for Developers"
 }
 </script>
@@ -273,7 +273,7 @@ Algolia empowers developers with robust search tools fueled by AI, offering swif
   "description": "A comprehensive guide to integrating and optimizing Algolia's search functionalities for developers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/algolia" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/algolia" }
 }
 </script>
 <script type="application/ld+json">
@@ -349,13 +349,13 @@ Algolia empowers developers with robust search tools fueled by AI, offering swif
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Algolia: AI-Powered Search API Guide for Developers",
-      "item": "https://aicw.io/ai-search-engine/algolia"
+      "item": "https://aichatwatch.com/ai-search-engine/algolia"
     }
   ]
 }

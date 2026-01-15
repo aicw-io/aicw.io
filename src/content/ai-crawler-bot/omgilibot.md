@@ -58,12 +58,12 @@ Omgilibot operates in a competitive space alongside other data resale crawlers. 
 | Crawler   | Company     | Primary Use            | Respectfulness     | Data Focus            |
 |-----------|-------------|------------------------|--------------------|-----------------------|
 | Omgilibot | Webz.io     | Data resale, APIs      | Identifies clearly | Blogs, forums, news   |
-| CCBot     | [Common Crawl](/ai-crawler-bot/ccbot/) | Open datasets        | Respects robots.txt | General web content   |
-| [GPTBot](/ai-crawler-bot/gptbot/)    | OpenAI      | AI training           | Blockable via robots.txt | Text content       |
-| [Bytespider](/ai-crawler-bot/bytespider/) | ByteDance  | Search, AI training   | Mixed reports       | General web           |
-| [Amazonbot](/ai-crawler-bot/amazonbot/) | Amazon      | Search, product data  | Generally respectful| Product pages, reviews|
+| CCBot     | Common Crawl | Open datasets        | Respects robots.txt | General web content   |
+| GPTBot    | OpenAI      | AI training           | Blockable via robots.txt | Text content       |
+| Bytespider | ByteDance  | Search, AI training   | Mixed reports       | General web           |
+| Amazonbot | Amazon      | Search, product data  | Generally respectful| Product pages, reviews|
 
-While Webz.io distinguishes itself by offering commercial data rather than free public datasets like Common Crawl, its data is sold via subscriptions and API access, unlike open initiatives. Omgilibot collects content for diverse business applications, unlike bots like GPTBot that focus on AI training data. The key distinction with search engine crawlers like [Googlebot](/ai-crawler-bot/googlebot/) is the purpose—data resale crawlers like Omgilibot sell packaged content to third parties, rather than indexing for search visibility. This distinction is crucial when deciding on crawl permissions. Each crawler's compliance with blocking requests and business model can vary.
+While Webz.io distinguishes itself by offering commercial data rather than free public datasets like Common Crawl, its data is sold via subscriptions and API access, unlike open initiatives. Omgilibot collects content for diverse business applications, unlike bots like GPTBot that focus on AI training data. The key distinction with search engine crawlers like Googlebot is the purpose—data resale crawlers like Omgilibot sell packaged content to third parties, rather than indexing for search visibility. This distinction is crucial when deciding on crawl permissions. Each crawler's compliance with blocking requests and business model can vary.
 
 
 Bot Blocking Decision Flow:
@@ -136,7 +136,7 @@ Understanding how Omgilibot functions aids informed decisions about allowing or 
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/omgilibot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/omgilibot" }
 }</script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -145,7 +145,7 @@ Understanding how Omgilibot functions aids informed decisions about allowing or 
   "description": "Omgilibot is a crucial web crawler operated by Webz.io that plays a significant role in data collection for businesses.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/omgilibot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/omgilibot" }
 }</script>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -216,12 +216,12 @@ Understanding how Omgilibot functions aids informed decisions about allowing or 
     {
       "@type": "ListItem",
       "position": 1,
-      "item": { "@id": "https://aicw.io/", "name": "Home" }
+      "item": { "@id": "https://aichatwatch.com/", "name": "Home" }
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "item": { "@id": "https://aicw.io/ai-crawler-bot/omgilibot", "name": "Omgilibot" }
+      "item": { "@id": "https://aichatwatch.com/ai-crawler-bot/omgilibot", "name": "Omgilibot" }
     }
   ]
 }</script>

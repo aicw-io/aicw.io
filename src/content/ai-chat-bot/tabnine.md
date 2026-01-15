@@ -44,7 +44,7 @@ Tabnine offers several pricing tiers to accommodate various user needs. The Star
 
 Several AI code completion tools compete with Tabnine, each with different strengths. Here's how Tabnine compares to five major alternatives.
 
-| Feature                  | Tabnine | [GitHub Copilot](/ai-chat-bot/github-copilot/) | [Amazon CodeWhisperer](/ai-chat-bot/amazon-codewhisperer/) | [Codeium](/ai-chat-bot/codeium/) | Replit Ghostwriter |
+| Feature                  | Tabnine | GitHub Copilot | Amazon CodeWhisperer | Codeium | Replit Ghostwriter |
 |--------------------------|---------|----------------|----------------------|---------|--------------------|
 | On-Premise Deployment    | Yes     | No             | No                   | No      | No                 |
 | SOC 2 Certified          | Yes     | Yes            | Yes                  | No      | No                 |
@@ -125,10 +125,10 @@ Tabnine stands out as a privacy-focused AI code completion tool with strong ente
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/tabnine",
+  "url": "https://aichatwatch.com/ai-chat-bot/tabnine",
   "name": "Tabnine: The AI-Powered Code Completion Tool",
   "description": "An overview of Tabnine, its features, and how it benefits developers and enterprises.",
-  "mainEntityOfPage": "https://aicw.io/ai-chat-bot/tabnine"
+  "mainEntityOfPage": "https://aichatwatch.com/ai-chat-bot/tabnine"
 }
 </script>
 <script type="application/ld+json">
@@ -139,7 +139,7 @@ Tabnine stands out as a privacy-focused AI code completion tool with strong ente
   "description": "An overview of Tabnine, its features, and how it benefits developers and enterprises.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/tabnine" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/tabnine" }
 }
 </script>
 <script type="application/ld+json">
@@ -215,13 +215,13 @@ Tabnine stands out as a privacy-focused AI code completion tool with strong ente
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tabnine",
-      "item": "https://aicw.io/ai-chat-bot/tabnine"
+      "item": "https://aichatwatch.com/ai-chat-bot/tabnine"
     }
   ]
 }
@@ -231,7 +231,7 @@ Tabnine stands out as a privacy-focused AI code completion tool with strong ente
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AI Chat Watch",
-  "url": "https://aicw.io"
+  "url": "https://aichatwatch.com"
 }
 </script>
 

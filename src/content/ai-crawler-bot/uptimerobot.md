@@ -85,7 +85,7 @@ Several services compete with UptimeRobot in the uptime monitoring space. Here's
 | Service          | Free Plan      | Min Check Interval | Monitors on Free Plan | User-Agent Format   | Locations |
 |------------------|----------------|-------------------|---------------------|---------------------|----------|
 | UptimeRobot       | Yes            | 5 min free, 1 min paid | 50                  | UptimeRobot/2.0    | 10+      |
-| [Pingdom](/ai-crawler-bot/pingdom/)           | Trial only     | 1 min             | N/A                 | Pingdom.com agent    | 100+     |
+| Pingdom           | Trial only     | 1 min             | N/A                 | Pingdom.com agent    | 100+     |
 | StatusCake        | Yes            | 5 min free        | 10                  | StatusCake          | 30+      |
 | Better Uptime     | Yes            | 3 min free, 30 sec paid | 10                  | BetterUptime        | 20+      |
 | Freshping         | Yes            | 2 min             | 50                  | Freshping           | 10+      |
@@ -182,8 +182,8 @@ You should generally not block the crawler if you use UptimeRobot for monitoring
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/uptimerobot",
-  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/uptimerobot" }
+  "url": "https://aichatwatch.com/ai-crawler-bot/uptimerobot",
+  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/uptimerobot" }
 }
 </script>
 <script type="application/ld+json">
@@ -194,7 +194,7 @@ You should generally not block the crawler if you use UptimeRobot for monitoring
   "description": "Learn how UptimeRobot monitors website uptime effectively, ensuring your site remains operational.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/uptimerobot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/uptimerobot" }
 }
 </script>
 <script type="application/ld+json">
@@ -270,13 +270,13 @@ You should generally not block the crawler if you use UptimeRobot for monitoring
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "UptimeRobot",
-      "item": "https://aicw.io/ai-crawler-bot/uptimerobot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/uptimerobot"
     }
   ]
 }

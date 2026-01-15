@@ -141,13 +141,13 @@ How Coveo compares to other tools:
 
 ### Coveo vs Glean:
 * Coveo focuses more on customer-facing search  
-* [Glean](/ai-search-engine/glean/) specializes in workplace search  
+* Glean specializes in workplace search  
 * Coveo offers more commerce features  
 * Glean excels in desktop search  
 
 ### Coveo vs Algolia:
 * Coveo targets larger enterprises  
-* [Algolia](/ai-search-engine/algolia/) suits smaller companies  
+* Algolia suits smaller companies  
 * Coveo offers more AI features  
 * Algolia is easier to set up  
 
@@ -235,11 +235,11 @@ The platform costs more than basic search tools and requires technical knowledge
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/coveo",
-  "url": "https://aicw.io/ai-search-engine/coveo",
+  "@id": "https://aichatwatch.com/ai-search-engine/coveo",
+  "url": "https://aichatwatch.com/ai-search-engine/coveo",
   "name": "Coveo: Complete Guide to AI-Powered Enterprise Search in 2024",
   "description": "An in-depth look at Coveo's AI-driven search platform designed for large enterprises, exploring its features, use cases, and implementation strategies.",
-  "mainEntityOfPage": "https://aicw.io/ai-search-engine/coveo"
+  "mainEntityOfPage": "https://aichatwatch.com/ai-search-engine/coveo"
 }
 </script>
 <script type="application/ld+json">
@@ -250,7 +250,7 @@ The platform costs more than basic search tools and requires technical knowledge
   "description": "An in-depth look at Coveo's AI-driven search platform designed for large enterprises, exploring its features, use cases, and implementation strategies.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/coveo" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/coveo" }
 }
 </script>
 <script type="application/ld+json">
@@ -326,13 +326,13 @@ The platform costs more than basic search tools and requires technical knowledge
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Coveo: Complete Guide to AI-Powered Enterprise Search in 2024",
-      "item": "https://aicw.io/ai-search-engine/coveo"
+      "item": "https://aichatwatch.com/ai-search-engine/coveo"
     }
   ]
 }

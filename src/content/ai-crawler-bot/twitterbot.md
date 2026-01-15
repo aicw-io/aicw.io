@@ -62,15 +62,15 @@ Blocking Twitterbot doesn't prevent people from sharing your links. It only prev
 
 ## Twitterbot vs. Similar Social Media Crawlers
 
-Twitterbot isn't the only social media bot out there. Facebook has Facebot, LinkedIn uses [LinkedInBot](/ai-crawler-bot/linkedinbot/), and other platforms have their crawlers. Each serves the same basic purpose, but with platform-specific requirements.
+Twitterbot isn't the only social media bot out there. Facebook has Facebot, LinkedIn uses LinkedInBot, and other platforms have their crawlers. Each serves the same basic purpose, but with platform-specific requirements.
 
 | Crawler       | Platform     | User-Agent                          | Primary Purpose          | Meta Tags                               |
 |---------------|--------------|-------------------------------------|-------------------------|-----------------------------------------|
 | Twitterbot    | X/Twitter    | Twitterbot/1.0                      | Generate Twitter Cards   | twitter:card, twitter:title, twitter:image |
-| Facebot       | Facebook     | [facebookexternalhit](/ai-crawler-bot/facebookexternalhit/)/1.1             | Create link previews     | og:title, og:description, og:image        |
+| Facebot       | Facebook     | facebookexternalhit/1.1             | Create link previews     | og:title, og:description, og:image        |
 | LinkedInBot   | LinkedIn     | LinkedInBot/1.0                     | Generate post previews   | og:title, og:description, og:image        |
-| [Slackbot](/ai-crawler-bot/slackbot/)      | Slack        | Slackbot-LinkExpanding              | Unfurl links in chats    | og:title, og:description, og:image        |
-| [Discordbot](/ai-crawler-bot/discordbot/)    | Discord      | Mozilla/5.0 (compatible; Discordbot/2.0) | Embed link previews      | og:title, og:description, og:image        |
+| Slackbot      | Slack        | Slackbot-LinkExpanding              | Unfurl links in chats    | og:title, og:description, og:image        |
+| Discordbot    | Discord      | Mozilla/5.0 (compatible; Discordbot/2.0) | Embed link previews      | og:title, og:description, og:image        |
 
 Most social crawlers prefer Open Graph tags since they're more universal. Twitterbot accepts both Twitter Card tags and Open Graph tags. If you want maximum compatibility across platforms, implement both tag types. They can coexist on the same page without conflicts.
 
@@ -162,8 +162,8 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/twitterbot",
-  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/twitterbot" }
+  "url": "https://aichatwatch.com/ai-crawler-bot/twitterbot",
+  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/twitterbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -174,7 +174,7 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
   "description": "A comprehensive look at Twitterbot's role in generating link previews on X, including how it works and why it's essential for businesses and developers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/twitterbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/twitterbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -250,7 +250,7 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -258,7 +258,7 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/twitterbot",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/twitterbot",
         "name": "Twitterbot"
       }
     }

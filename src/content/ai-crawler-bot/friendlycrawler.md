@@ -108,15 +108,15 @@ Several web crawlers compete in the AI training data space. Here's how **Friendl
 | Crawler Name     | Primary Purpose    | Respects Robots.txt | Transparency | Dataset Usage         |
 |------------------|--------------------|---------------------|--------------|------------------------|
 | Friendly Crawler  | AI training data    | Yes                 | Moderate     | Internal/Licensed      |
-| [Common Crawl](/ai-crawler-bot/ccbot/)      | Public web archive   | Yes                 | High         | Publicly available      |
-| [GPTBot](/ai-crawler-bot/gptbot/)            | OpenAI training      | Yes                 | High         | OpenAI models           |
+| Common Crawl      | Public web archive   | Yes                 | High         | Publicly available      |
+| GPTBot            | OpenAI training      | Yes                 | High         | OpenAI models           |
 | CCBot             | Common Crawl         | Yes                 | High         | Public datasets         |
-| [Anthropic-AI](/ai-crawler-bot/anthropic-ai/)      | [Claude](/ai-chat-bot/claude/) training      | Yes                 | High         | Anthropic models        |
-| [Google-Extended](/ai-crawler-bot/google-extended/)    | AI training        | Yes                 | High         | Google AI products      |
+| Anthropic-AI      | Claude training      | Yes                 | High         | Anthropic models        |
+| Google-Extended    | AI training        | Yes                 | High         | Google AI products      |
 
 Common Crawl differs significantly because it makes collected data publicly available for research. Anyone can download Common Crawl datasets, which makes it more transparent than commercial crawlers. 
 
-GPTBot specifically collects data for OpenAI's models and provides clear documentation on blocking methods. CCBot powers Common Crawl and follows strict ethical guidelines around crawling. Anthropic-AI crawler gathers data exclusively for Claude and related Anthropic products. Google-Extended is separate from [Googlebot](/ai-crawler-bot/googlebot/) and focuses only on AI training, not search indexing.
+GPTBot specifically collects data for OpenAI's models and provides clear documentation on blocking methods. CCBot powers Common Crawl and follows strict ethical guidelines around crawling. Anthropic-AI crawler gathers data exclusively for Claude and related Anthropic products. Google-Extended is separate from Googlebot and focuses only on AI training, not search indexing.
 
 
 Server Monitoring Strategy:
@@ -192,7 +192,7 @@ Understanding these tools helps you make informed decisions about content access
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/friendlycrawler"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/friendlycrawler"
 }
 </script>
 <script type="application/ld+json">
@@ -203,7 +203,7 @@ Understanding these tools helps you make informed decisions about content access
   "description": "This article covers what Friendly Crawler is, its purpose, how to identify it in server logs, and methods to block it if needed.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/friendlycrawler" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/friendlycrawler" }
 }
 </script>
 <script type="application/ld+json">
@@ -279,13 +279,13 @@ Understanding these tools helps you make informed decisions about content access
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Friendly Crawler",
-      "item": "https://aicw.io/ai-crawler-bot/friendlycrawler"
+      "item": "https://aichatwatch.com/ai-crawler-bot/friendlycrawler"
     }
   ]
 }

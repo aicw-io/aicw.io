@@ -134,8 +134,8 @@ Here's how Arc Search measures against other AI search tools:
 | Tool        | Main Feature   | Best For           |
 |-------------|----------------|--------------------|
 | Arc Search  | Auto browsing  | Quick summaries    |
-| [Perplexity](/ai-chat-bot/perplexity/)  | Direct answers | Deep research      |
-| [You.com](/ai-search-engine/you-com/)     | Chat search    | General use        |
+| Perplexity  | Direct answers | Deep research      |
+| You.com     | Chat search    | General use        |
 | Neeva       | No ads         | Privacy focus      |
 
 <a id="latest-updates"></a>
@@ -238,7 +238,7 @@ The integration of powerful AI and user-friendly design makes Arc Search an esse
   "description": "This guide explores Arc Search, an AI tool designed for enhanced web browsing, providing quick summaries and streamlined information retrieval.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/arc-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/arc-search" }
 }
 </script>
 
@@ -316,13 +316,13 @@ The integration of powerful AI and user-friendly design makes Arc Search an esse
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Arc Search",
-      "item": "https://aicw.io/ai-search-engine/arc-search"
+      "item": "https://aichatwatch.com/ai-search-engine/arc-search"
     }
   ]
 }

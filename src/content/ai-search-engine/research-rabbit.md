@@ -42,7 +42,7 @@ Users start by creating accounts to begin adding papers to collections. When con
 ResearchRabbit Integration Ecosystem:
 ![How Do Users Use ResearchRabbit? Diagram](/assets/ai-search-engine/research-rabbit/researchrabbit-zotero-library.png)
 
-| Feature | ResearchRabbit | [Connected Papers](/ai-search-engine/connected-papers/) | [Semantic Scholar](/ai-search-engine/semantic-scholar/) |
+| Feature | ResearchRabbit | Connected Papers | Semantic Scholar |
 |---------|----------------|------------------|------------------|
 | Free Access | Yes | Yes | Yes |
 | Zotero integration | Yes | No | No |
@@ -93,7 +93,7 @@ ResearchRabbit is crucial for researchers to find research papers effortlessly. 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/research-rabbit"
+  "@id": "https://aichatwatch.com/ai-search-engine/research-rabbit"
 }
 </script>
 <script type="application/ld+json">
@@ -104,7 +104,7 @@ ResearchRabbit is crucial for researchers to find research papers effortlessly. 
   "description": "ResearchRabbit is an AI-powered literature discovery platform that assists researchers in finding and staying updated with academic research papers.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/research-rabbit" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/research-rabbit" }
 }
 </script>
 <script type="application/ld+json">
@@ -180,13 +180,13 @@ ResearchRabbit is crucial for researchers to find research papers effortlessly. 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Discovering Research Papers with ResearchRabbit: A Comprehensive Guide",
-      "item": "https://aicw.io/ai-search-engine/research-rabbit"
+      "item": "https://aichatwatch.com/ai-search-engine/research-rabbit"
     }
   ]
 }

@@ -91,14 +91,14 @@ PetalBot competes with other web crawlers. Comparison provides context to its op
 | Crawler | Owner | Primary Purpose | Respects robots.txt | Known for AI Training |
 |---------|-------|-----------------|--------------------|-----------------------|
 | PetalBot | Huawei | Petal Search, AI research | Yes | Yes |
-| [Googlebot](/ai-crawler-bot/googlebot/) | Google | Google Search | Yes | Yes |
-| [Bingbot](/ai-crawler-bot/bingbot/) | Microsoft | Bing Search | Yes | Yes |
-| [YandexBot](/ai-crawler-bot/yandexbot/) | Yandex | Yandex Search | Yes | Limited |
-| [Baiduspider](/ai-crawler-bot/baiduspider/) | Baidu | Baidu Search | Yes | Limited |
+| Googlebot | Google | Google Search | Yes | Yes |
+| Bingbot | Microsoft | Bing Search | Yes | Yes |
+| YandexBot | Yandex | Yandex Search | Yes | Limited |
+| Baiduspider | Baidu | Baidu Search | Yes | Limited |
 
 Controlling PetalBot Access:
 ![Comparing PetalBot to Other Web Crawlers Diagram](/assets/ai-crawler-bot/petalbot/website-owner-allow.png)
-| [GPTBot](/ai-crawler-bot/gptbot/) | OpenAI | AI training data | Yes | Yes |
+| GPTBot | OpenAI | AI training data | Yes | Yes |
 
 Googlebot, with extensive refinement, is the most common crawler. PetalBot is newer and less established, with varied crawling refinement.
 
@@ -201,8 +201,8 @@ Allowing PetalBot hinges on audience location, AI data stance, and server capaci
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/petalbot" },
-  "url": "https://aicw.io/ai-crawler-bot/petalbot",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/petalbot" },
+  "url": "https://aichatwatch.com/ai-crawler-bot/petalbot",
   "name": "PetalBot: Huawei's Web Crawler",
   "description": "Explore PetalBot, Huawei's web crawler designed for Petal Search and AI projects, including its operations, purposes, and impact on web owners."
 }
@@ -215,7 +215,7 @@ Allowing PetalBot hinges on audience location, AI data stance, and server capaci
   "description": "Explore PetalBot, a web crawler by Huawei Technologies supporting Petal Search and AI projects. Learn about its functions and how to manage its access.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/petalbot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/petalbot" }
 }
 </script>
 <script type="application/ld+json">
@@ -291,13 +291,13 @@ Allowing PetalBot hinges on audience location, AI data stance, and server capaci
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "PetalBot",
-      "item": "https://aicw.io/ai-crawler-bot/petalbot"
+      "item": "https://aichatwatch.com/ai-crawler-bot/petalbot"
     }
   ]
 }

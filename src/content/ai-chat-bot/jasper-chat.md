@@ -51,9 +51,9 @@ Jasper Chat faces competition from other AI writing and marketing tools. Here's 
 | Tool          | Primary Focus       | Brand Voice     | Team Features | Pricing Range    |
 |---------------|---------------------|-----------------|---------------|------------------|
 | Jasper Chat   | Marketing content   | Yes, customizable| Yes, multi-user| $49-$125+/month  |
-| [ChatGPT Plus](/ai-chat-bot/chatgpt/)  | General purpose     | No, general tone| No team features| $20/month       |
-| [Copy.ai](/ai-chat-bot/copy-ai/)       | Marketing copy      | Limited         | Yes, workspaces| $36-$186/month  |
-| [Writesonic](/ai-chat-bot/writesonic/)    | Content writing     | Yes, brand voice| Yes, team plans| $16-$79/month   |
+| ChatGPT Plus  | General purpose     | No, general tone| No team features| $20/month       |
+| Copy.ai       | Marketing copy      | Limited         | Yes, workspaces| $36-$186/month  |
+| Writesonic    | Content writing     | Yes, brand voice| Yes, team plans| $16-$79/month   |
 | Rytr          | General writing     | Tone options    | Limited        | $9-$29/month    |
 
 Brand Voice Customization Process:
@@ -116,8 +116,8 @@ Jasper Chat is a content generation AI tool tailored for marketing, helping busi
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/jasper-chat",
-  "mainEntityOfPage": { "@id": "https://aicw.io/ai-chat-bot/jasper-chat" }
+  "url": "https://aichatwatch.com/ai-chat-bot/jasper-chat",
+  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-chat-bot/jasper-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ Jasper Chat is a content generation AI tool tailored for marketing, helping busi
   "description": "Jasper Chat enhances content generation for marketing, providing customized brand voice and seamless integration with workflows.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/jasper-chat" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/jasper-chat" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,13 +204,13 @@ Jasper Chat is a content generation AI tool tailored for marketing, helping busi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io"
+      "item": "https://aichatwatch.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Jasper Chat",
-      "item": "https://aicw.io/ai-chat-bot/jasper-chat"
+      "item": "https://aichatwatch.com/ai-chat-bot/jasper-chat"
     }
   ]
 }

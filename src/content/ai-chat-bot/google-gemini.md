@@ -22,7 +22,7 @@ Google Gemini Architecture Overview:
 
 ## Why Google Gemini Exists
 
-Google developed Gemini as a strategy to compete in the AI assistant market. With OpenAI's launch of [ChatGPT](/ai-chat-bot/chatgpt/) in late 2022, conversational AI quickly became significant. Needing a public-facing AI product, Google strategically positioned Gemini to offer users access to its advanced AI research through a simple chat interface. Millions of interactions with Google Gemini provide real-world feedback, accelerating model improvements beyond what lab testing alone could achieve. Additionally, from a business standpoint, AI assistants are seen as future revenue streams through potential paid services and advertising platforms beyond traditional search ads.
+Google developed Gemini as a strategy to compete in the AI assistant market. With OpenAI's launch of ChatGPT in late 2022, conversational AI quickly became significant. Needing a public-facing AI product, Google strategically positioned Gemini to offer users access to its advanced AI research through a simple chat interface. Millions of interactions with Google Gemini provide real-world feedback, accelerating model improvements beyond what lab testing alone could achieve. Additionally, from a business standpoint, AI assistants are seen as future revenue streams through potential paid services and advertising platforms beyond traditional search ads.
 
 ## How Users and Businesses Use Google Gemini
 
@@ -69,9 +69,9 @@ In the AI assistant space, noticeable comparisons can be made with competitors l
 
 - **Google Gemini**: Known for its integration with Google services and substantial context window.
 - **ChatGPT**: Recognized for its plugin ecosystem and broader third-party applications.
-- **[Claude](/ai-chat-bot/claude/)**: Excelled in safe, extended document handling with a then-leading 200K context window.
-- **[Microsoft Copilot](/ai-chat-bot/microsoft-copilot/)**: Deeply integrated with Microsoft products, making it preferable for those ecosystems.
-- **[Perplexity AI](/ai-chat-bot/perplexity/)**: Focused on specialized search tasks, distinct from general chat capabilities.
+- **Claude**: Excelled in safe, extended document handling with a then-leading 200K context window.
+- **Microsoft Copilot**: Deeply integrated with Microsoft products, making it preferable for those ecosystems.
+- **Perplexity AI**: Focused on specialized search tasks, distinct from general chat capabilities.
 
 Google Gemini Service Tiers:
 ![Google Gemini vs Competitors Diagram](/assets/ai-chat-bot/google-gemini/free-tier-gemini.png)
@@ -162,7 +162,7 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-chat-bot/google-gemini",
+  "url": "https://aichatwatch.com/ai-chat-bot/google-gemini",
   "name": "Google Gemini"
 }
 </script>
@@ -174,7 +174,7 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
   "description": "Google Gemini is Google's AI chatbot and assistant, offering advanced features and integration with Google services. This article explores its capabilities and subscription plans.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/google-gemini" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/google-gemini" }
 }
 </script>
 <script type="application/ld+json">
@@ -250,7 +250,7 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -258,7 +258,7 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-chat-bot/google-gemini",
+        "@id": "https://aichatwatch.com/ai-chat-bot/google-gemini",
         "name": "Google Gemini"
       }
     }

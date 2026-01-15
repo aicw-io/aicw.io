@@ -127,7 +127,7 @@ Cloud vs Self-Hosted Deployment:
 
 Here's a comparison of Elasticsearch with similar tools:
 
-**Elasticsearch vs [Algolia](/ai-search-engine/algolia/):**
+**Elasticsearch vs Algolia:**
 - **Elasticsearch:** Offers greater flexibility but requires more complex setup.
 - **Algolia:** User-friendly but more expensive.
 
@@ -247,8 +247,8 @@ Whether you require basic search capabilities or advanced AI features, Elasticse
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/elasticsearch",
-  "url": "https://aicw.io/ai-search-engine/elasticsearch",
+  "@id": "https://aichatwatch.com/ai-search-engine/elasticsearch",
+  "url": "https://aichatwatch.com/ai-search-engine/elasticsearch",
   "name": "Elasticsearch Guide: The Open Source AI Search Engine",
   "description": "A comprehensive guide on Elasticsearch, an open-source search engine for large datasets, covering its features, deployment options, and FAQs."
 }
@@ -261,7 +261,7 @@ Whether you require basic search capabilities or advanced AI features, Elasticse
   "description": "A comprehensive guide on Elasticsearch, an open-source search engine for large datasets, discussing its features and implementation.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/elasticsearch" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/elasticsearch" }
 }
 </script>
 <script type="application/ld+json">
@@ -337,13 +337,13 @@ Whether you require basic search capabilities or advanced AI features, Elasticse
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Elasticsearch Guide: The Open Source AI Search Engine",
-      "item": "https://aicw.io/ai-search-engine/elasticsearch"
+      "item": "https://aichatwatch.com/ai-search-engine/elasticsearch"
     }
   ]
 }

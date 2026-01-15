@@ -54,8 +54,8 @@ Several mental health chatbots compete in this space with different approaches. 
 | Tool   | Therapy Approach        | FDA Status                     | Cost Model                     | Key Difference                                |
 |--------|-------------------------|--------------------------------|--------------------------------|------------------------------------------------|
 | Woebot | CBT focused             | Breakthrough Device designation | Subscription or enterprise     | Strong clinical research backing               |
-| [Wysa](/ai-chat-bot/wysa/)   | CBT, DBT, meditation    | No FDA designation             | Freemium with paid coaching    | Includes human coach option                    |
-| [Replika](/ai-chat-bot/replika/)| Conversational AI       | No FDA designation             | Freemium                       | Social companion, not therapy focused          |
+| Wysa   | CBT, DBT, meditation    | No FDA designation             | Freemium with paid coaching    | Includes human coach option                    |
+| Replika| Conversational AI       | No FDA designation             | Freemium                       | Social companion, not therapy focused          |
 | Youper | CBT with mood tracking  | No FDA designation             | Freemium                       | Emphasis on emotional health tracking          |
 | Tess   | Multiple therapy models | No FDA designation             | Enterprise only                | Integrates with existing care systems          |
 
@@ -116,7 +116,7 @@ Woebot represents a significant development in mental health AI technology. The 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/woebot"
+  "@id": "https://aichatwatch.com/ai-chat-bot/woebot"
 }
 </script>
 <script type="application/ld+json">
@@ -127,7 +127,7 @@ Woebot represents a significant development in mental health AI technology. The 
   "description": "Woebot is a mental health chatbot designed to support users in managing anxiety and depression through cognitive behavioral therapy techniques.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/woebot" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/woebot" }
 }
 </script>
 <script type="application/ld+json">
@@ -203,13 +203,13 @@ Woebot represents a significant development in mental health AI technology. The 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Woebot",
-      "item": "https://aicw.io/ai-chat-bot/woebot"
+      "item": "https://aichatwatch.com/ai-chat-bot/woebot"
     }
   ]
 }

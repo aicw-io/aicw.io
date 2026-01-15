@@ -12,7 +12,7 @@ things: "YandexGPT, Yandex AI, Russian AI model, Alice assistant, Yandex search,
 keywords: "YandexGPT, Yandex AI, Russian AI model, Alice assistant, Yandex search, AI language model, Russian language AI, YandexGPT features, AI chatbot Russia"
 ---
 
-YandexGPT, the large AI language model developed by Yandex, fuels various Yandex services, including the popular Yandex search engine and the Alice assistant. The Alice ("Alisa") assistant was upgraded from custom NLP (Natural Language Processing) to Yandex GPT in April 2024 to be fully powered by a large language model, [enabling it to explain complex concepts and understand conversational context](https://yandex.com/company/news/01-19-04-2024). This Russian AI model is designed primarily for Russian language processing, making it particularly effective for Russian-speaking users. Competing with systems like [ChatGPT](/ai-chat-bot/chatgpt/) and [Claude](/ai-chat-bot/claude/), YandexGPT focuses on Russian [language understanding and generation, demonstrating significant potential in this area](https://www.tasnimnews.com/en/news/2023/09/10/2954153/yandex-s-russian-ai-bot-shows-promise-in-rivalry-with-us-based-chatgpt). Key features include conversational AI capabilities, text generation, and seamless integration across Yandex's product ecosystem, with the latest version, YandexGPT 4, offering smarter reasoning and [the ability to process up to four times more text](https://yandex.com/company/news/24-10-2024).
+YandexGPT, the large AI language model developed by Yandex, fuels various Yandex services, including the popular Yandex search engine and the Alice assistant. The Alice ("Alisa") assistant was upgraded from custom NLP (Natural Language Processing) to Yandex GPT in April 2024 to be fully powered by a large language model, [enabling it to explain complex concepts and understand conversational context](https://yandex.com/company/news/01-19-04-2024). This Russian AI model is designed primarily for Russian language processing, making it particularly effective for Russian-speaking users. Competing with systems like ChatGPT and Claude, YandexGPT focuses on Russian [language understanding and generation, demonstrating significant potential in this area](https://www.tasnimnews.com/en/news/2023/09/10/2954153/yandex-s-russian-ai-bot-shows-promise-in-rivalry-with-us-based-chatgpt). Key features include conversational AI capabilities, text generation, and seamless integration across Yandex's product ecosystem, with the latest version, YandexGPT 4, offering smarter reasoning and [the ability to process up to four times more text](https://yandex.com/company/news/24-10-2024).
 
 ## What is YandexGPT
 
@@ -62,7 +62,7 @@ Yandex Cloud offers YandexGPT API access based on usage. It provides various mod
 
 Several AI language models compete in the Russian and global markets. Here is a comparison of YandexGPT with major alternatives:
 
-| Feature | YandexGPT | ChatGPT | GigaChat | Claude | [Gemini](/ai-chat-bot/google-gemini/) |
+| Feature | YandexGPT | ChatGPT | GigaChat | Claude | Gemini |
 |---------|-----------|---------|----------|--------|--------|
 | Primary Language | Russian | English | Russian | English | English |
 | Russian Language Quality | Excellent | Good | Excellent | Good | Good |
@@ -155,11 +155,11 @@ Yandex holds a 60-65% market share in Russian search, with YandexGPT integrated 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/yandex-gpt",
-  "url": "https://aicw.io/ai-search-engine/yandex-gpt",
+  "@id": "https://aichatwatch.com/ai-search-engine/yandex-gpt",
+  "url": "https://aichatwatch.com/ai-search-engine/yandex-gpt",
   "name": "YandexGPT AI Engine: Features, Capabilities & Comparison",
   "description": "Explore YandexGPT, the AI language model from Yandex, focusing on its capabilities, features, and market position.",
-  "mainEntityOfPage": "https://aicw.io/ai-search-engine/yandex-gpt"
+  "mainEntityOfPage": "https://aichatwatch.com/ai-search-engine/yandex-gpt"
 }
 </script>
 <script type="application/ld+json">
@@ -170,7 +170,7 @@ Yandex holds a 60-65% market share in Russian search, with YandexGPT integrated 
   "description": "Explore YandexGPT, the AI language model from Yandex, focusing on its capabilities, features, and market position.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/yandex-gpt" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/yandex-gpt" }
 }
 </script>
 <script type="application/ld+json">
@@ -246,13 +246,13 @@ Yandex holds a 60-65% market share in Russian search, with YandexGPT integrated 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "YandexGPT AI Engine: Features, Capabilities & Comparison",
-      "item": "https://aicw.io/ai-search-engine/yandex-gpt"
+      "item": "https://aichatwatch.com/ai-search-engine/yandex-gpt"
     }
   ]
 }

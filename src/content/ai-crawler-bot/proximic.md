@@ -77,7 +77,7 @@ Proximic is not the only player in this space. Here's a comparison:
 | Crawler | Owner | Primary Purpose | Brand Safety Focus | Market Position |
 |---------|-------|-----------------|-------------------|-----------------|
 | Proximic | Comscore | Content classification, contextual targeting | High | Strong in US and Europe |
-| [Grapeshot](/ai-crawler-bot/grapeshot/) | Oracle | Contextual intelligence, brand safety | High | Integrated with Oracle Advertising |
+| Grapeshot | Oracle | Contextual intelligence, brand safety | High | Integrated with Oracle Advertising |
 | Peer39 | Peer39 (acquired by Oracle) | Page-level targeting, brand safety | Very High | Enterprise-focused |
 | DoubleVerify Bot | DoubleVerify | Brand safety verification | Very High | Verification leader |
 | IAS Bot | Integral Ad Science | Quality and safety measurement | Very High | Competes with DoubleVerify |
@@ -147,7 +147,7 @@ Competitors like Oracle, IBM, and DoubleVerify offer similar services, all servi
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "mainEntityOfPage": { "@id": "https://aicw.io/ai-crawler-bot/proximic" }
+  "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-crawler-bot/proximic" }
 }
 </script>
 <script type="application/ld+json">
@@ -158,7 +158,7 @@ Competitors like Oracle, IBM, and DoubleVerify offer similar services, all servi
   "description": "Proximic is a crucial web crawler operated by Comscore for contextual targeting and brand safety in advertising.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/proximic" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/proximic" }
 }
 </script>
 <script type="application/ld+json">
@@ -234,13 +234,13 @@ Competitors like Oracle, IBM, and DoubleVerify offer similar services, all servi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Proximic",
-      "item": "https://aicw.io/ai-crawler-bot/proximic"
+      "item": "https://aichatwatch.com/ai-crawler-bot/proximic"
     }
   ]
 }

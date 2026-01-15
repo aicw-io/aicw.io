@@ -14,7 +14,7 @@ keywords: "BLOOM AI model, BigScience BLOOM, multilingual AI, 176B parameters, R
 
 ## Introduction
 
-BLOOM is a massive multilingual language model created by [BigScience](https://bigscience.huggingface.co/). Note: The article being fact-checked discusses BLOOM, not [Claude](/ai-chat-bot/claude/). The search results provided are about Claude and Anthropic, which are different AI systems. This BLOOM AI model packs 176 billion parameters and can work with 46 natural languages plus 13 programming languages. Released in July 2023, it represents one of the biggest collaborative AI research projects in history. What makes BLOOM special is its open access approach through the RAIL license and its hosting on Hugging Face. Tools like BLOOM exist to give researchers and developers access to powerful AI without being locked into proprietary systems controlled by big tech companies. The model can generate text, translate between languages, answer questions, and assist with coding tasks, as detailed in [BigScience's official release](https://www.fondcnrs.fr/en/press/release-largest-trained-open-science-multilingual-language-model-ever). Unlike closed models from major corporations, BLOOM allows anyone to use it for research and development under specific ethical guidelines, as outlined in the [RAIL License](https://huggingface.co/docs/hub/repositories-licenses).
+BLOOM is a massive multilingual language model created by [BigScience](https://bigscience.huggingface.co/). Note: The article being fact-checked discusses BLOOM, not Claude. The search results provided are about Claude and Anthropic, which are different AI systems. This BLOOM AI model packs 176 billion parameters and can work with 46 natural languages plus 13 programming languages. Released in July 2023, it represents one of the biggest collaborative AI research projects in history. What makes BLOOM special is its open access approach through the RAIL license and its hosting on Hugging Face. Tools like BLOOM exist to give researchers and developers access to powerful AI without being locked into proprietary systems controlled by big tech companies. The model can generate text, translate between languages, answer questions, and assist with coding tasks, as detailed in [BigScience's official release](https://www.fondcnrs.fr/en/press/release-largest-trained-open-science-multilingual-language-model-ever). Unlike closed models from major corporations, BLOOM allows anyone to use it for research and development under specific ethical guidelines, as outlined in the [RAIL License](https://huggingface.co/docs/hub/repositories-licenses).
 
 ## What is BLOOM
 
@@ -26,7 +26,7 @@ BLOOM stands for BigScience Large Open-science Open-access Multilingual Language
 BLOOM Architecture Overview:
 ![Why BLOOM Was Created Diagram](/assets/ai-chat-bot/bloom/text-input-transformer.png)
 
-BigScience started the BLOOM project to tackle a significant problem in AI research. Most powerful language models were controlled by private companies. OpenAI has GPT models, Google has PaLM and [Gemini](/ai-chat-bot/google-gemini/), and Meta has LLaMA. These companies decide access terms, limiting researchers outside these organizations from studying or building on these models. The cost of training massive AI models also makes them inaccessible to most universities and research labs. Training BLOOM cost an estimated 2 to 5 million euros in compute alone. BigScience aimed to create a powerful model that was openly available, including model weights, training process, and dataset documentation. This transparency allows researchers to understand exactly how the model was built. The multilingual focus was intentional, addressing AI's English domination while serving billions of people who speak other languages. BLOOM targets speakers of Arabic, Spanish, Chinese, French, Hindi, and dozens of other languages.
+BigScience started the BLOOM project to tackle a significant problem in AI research. Most powerful language models were controlled by private companies. OpenAI has GPT models, Google has PaLM and Gemini, and Meta has LLaMA. These companies decide access terms, limiting researchers outside these organizations from studying or building on these models. The cost of training massive AI models also makes them inaccessible to most universities and research labs. Training BLOOM cost an estimated 2 to 5 million euros in compute alone. BigScience aimed to create a powerful model that was openly available, including model weights, training process, and dataset documentation. This transparency allows researchers to understand exactly how the model was built. The multilingual focus was intentional, addressing AI's English domination while serving billions of people who speak other languages. BLOOM targets speakers of Arabic, Spanish, Chinese, French, Hindi, and dozens of other languages.
 
 ## RAIL License Explained
 
@@ -52,10 +52,10 @@ Several large language models compete with or complement BLOOM, differing in lic
 |-------|-----------|-----------|--------------|--------|
 | BLOOM | 176B | 46+ languages | RAIL (restricted open) | Free via Hugging Face |
 | GPT-3 | 175B | Primarily English | Proprietary | Paid API only |
-| [LLaMA 2](/ai-chat-bot/llama/) | Up to 70B | Primarily English | Custom open license | Free download |
+| LLaMA 2 | Up to 70B | Primarily English | Custom open license | Free download |
 | PaLM 2 | Undisclosed | 100+ languages | Proprietary | Limited API access |
 | GPT-J | 6B | Primarily English | Apache 2.0 | Fully open |
-| [Falcon](/ai-chat-bot/falcon/) | Up to 180B | Primarily English | Apache 2.0 | Free via Hugging Face |
+| Falcon | Up to 180B | Primarily English | Apache 2.0 | Free via Hugging Face |
 
 BLOOM offers more language diversity than most alternatives. GPT-3 and GPT-4 from OpenAI are proprietary and require paid API access. You cannot download the weights or see the training data. LLaMA 2 from Meta is available for download but focuses mainly on English with some multilingual capabilities. Its license is more permissive than BLOOM's RAIL license for most uses. PaLM 2 from Google is closed source with limited API access. GPT-J is smaller but fully open under the Apache license without use restrictions. Falcon from TII compares in size to BLOOM and uses a fully open Apache 2.0 license. BLOOM remains advantageous in its strong multilingual performance and detailed documentation of its training process.
 
@@ -117,7 +117,7 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-chat-bot/bloom"
+  "@id": "https://aichatwatch.com/ai-chat-bot/bloom"
 }
 </script>
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
   "description": "BLOOM is a massive multilingual language model created by BigScience, featuring 176 billion parameters, open access, and support for 46 natural languages.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-chat-bot/bloom" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/bloom" }
 }
 </script>
 <script type="application/ld+json">
@@ -204,7 +204,7 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -212,7 +212,7 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-chat-bot/bloom",
+        "@id": "https://aichatwatch.com/ai-chat-bot/bloom",
         "name": "BLOOM"
       }
     }

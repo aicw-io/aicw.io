@@ -24,7 +24,7 @@ Web Crawler Basic Function:
 ![What is ISSCyborg and Why It Exists Diagram](/assets/ai-crawler-bot/isscyborg/crawler-visit-website.png)
 
 
-ISSCyborg appears in website access logs alongside other common crawlers like [Googlebot](/ai-crawler-bot/googlebot/) or [Bingbot](/ai-crawler-bot/bingbot/). However, unlike major search engine crawlers, there is less public documentation about ISSCyborg's specific purposes and data usage practices.
+ISSCyborg appears in website access logs alongside other common crawlers like Googlebot or Bingbot. However, unlike major search engine crawlers, there is less public documentation about ISSCyborg's specific purposes and data usage practices.
 
 ## How to Identify ISSCyborg in Your Server Logs
 
@@ -186,7 +186,7 @@ The lack of transparency around ISSCyborg's operations makes it different from w
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/isscyborg"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/isscyborg"
 }
 </script>
 <script type="application/ld+json">
@@ -197,7 +197,7 @@ The lack of transparency around ISSCyborg's operations makes it different from w
   "description": "ISSCyborg is a web crawler bot operated by ISS Technology which collects data from publicly accessible websites.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/isscyborg" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/isscyborg" }
 }
 </script>
 <script type="application/ld+json">
@@ -273,7 +273,7 @@ The lack of transparency around ISSCyborg's operations makes it different from w
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -281,7 +281,7 @@ The lack of transparency around ISSCyborg's operations makes it different from w
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/isscyborg",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/isscyborg",
         "name": "ISSCyborg"
       }
     }

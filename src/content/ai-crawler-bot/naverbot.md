@@ -73,10 +73,10 @@ Different search engines and services operate their own web crawlers. Here's how
 | Crawler | Company | Primary Market | AI Training Use | Market Share |
 |---------|---------|----------------|-----------------|---------------|
 | Naverbot (Yeti) | Naver | South Korea | HyperCLOVA | 50%+ in South Korea |
-| [Googlebot](/ai-crawler-bot/googlebot/) | Google | Global | [Gemini](/ai-chat-bot/google-gemini/), other models | 90%+ globally |
-| [Bingbot](/ai-crawler-bot/bingbot/) | Microsoft | Global | Models via OpenAI partnership | 3% globally |
-| [Yandex Bot](/ai-crawler-bot/yandexbot/) | Yandex | Russia, CIS | [YandexGPT](/ai-search-engine/yandex-gpt/) | 60%+ in Russia |
-| [Baiduspider](/ai-crawler-bot/baiduspider/) | Baidu | China | [ERNIE](/ai-chat-bot/ernie-bot/) | 70%+ in China |
+| Googlebot | Google | Global | Gemini, other models | 90%+ globally |
+| Bingbot | Microsoft | Global | Models via OpenAI partnership | 3% globally |
+| Yandex Bot | Yandex | Russia, CIS | YandexGPT | 60%+ in Russia |
+| Baiduspider | Baidu | China | ERNIE | 70%+ in China |
 
 Managing Naverbot with robots.txt:
 ![Comparing Naverbot to Alternative Crawlers Diagram](/assets/ai-crawler-bot/naverbot/website-robots-check.png)
@@ -185,8 +185,8 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-crawler-bot/naverbot",
-  "mainEntityOfPage": {"@id": "https://aicw.io/ai-crawler-bot/naverbot"}
+  "url": "https://aichatwatch.com/ai-crawler-bot/naverbot",
+  "mainEntityOfPage": {"@id": "https://aichatwatch.com/ai-crawler-bot/naverbot"}
 }
 </script>
 
@@ -198,7 +198,7 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
   "description": "Naverbot is the primary web crawler for Naver, South Korea's leading search engine, indexing Korean language content and aiding AI training.",
   "author": {"@type": "Organization", "name": "AI Chat Watch"},
   "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/naverbot"}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/naverbot"}
 }
 </script>
 
@@ -276,7 +276,7 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -284,7 +284,7 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-crawler-bot/naverbot",
+        "@id": "https://aichatwatch.com/ai-crawler-bot/naverbot",
         "name": "Naverbot"
       }
     }

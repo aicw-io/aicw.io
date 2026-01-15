@@ -14,7 +14,7 @@ keywords: "AI2Bot-Dolma, Dolma dataset, Allen AI dataset crawler"
 
 ## Introduction
 
-[AI2Bot](/ai-crawler-bot/ai2bot/)-Dolma is a web crawler created by the [Allen Institute for AI](https://allenai.org/). Its primary task is to collect data for the [Dolma dataset](https://allenai.org/blog/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64), which is utilized to train large language models. The crawler navigates websites across the internet, gathering text content, adhering to [robots.txt](https://crawlercheck.com/directory/ai-bots/ai2bot-dolma) directives to ensure ethical data collection practices. This content is then incorporated into an open-source dataset that researchers and developers can use for AI training, as part of AI2's commitment to [open research](https://allenai.org/blog/making-a-switch-dolma-moves-to-odc-by-8f0e73852f44). The bot identifies itself transparently through its user-agent string, ensuring clear data collection practices, and provides contact information for site owners who have questions or concerns. Unlike many commercial AI crawlers, Dolma focuses on creating publicly available datasets. This approach supports open research in artificial intelligence. The crawler respects website rules set in robots.txt files and provides contact information for site owners who have questions or concerns.
+AI2Bot-Dolma is a web crawler created by the [Allen Institute for AI](https://allenai.org/). Its primary task is to collect data for the [Dolma dataset](https://allenai.org/blog/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64), which is utilized to train large language models. The crawler navigates websites across the internet, gathering text content, adhering to [robots.txt](https://crawlercheck.com/directory/ai-bots/ai2bot-dolma) directives to ensure ethical data collection practices. This content is then incorporated into an open-source dataset that researchers and developers can use for AI training, as part of AI2's commitment to [open research](https://allenai.org/blog/making-a-switch-dolma-moves-to-odc-by-8f0e73852f44). The bot identifies itself transparently through its user-agent string, ensuring clear data collection practices, and provides contact information for site owners who have questions or concerns. Unlike many commercial AI crawlers, Dolma focuses on creating publicly available datasets. This approach supports open research in artificial intelligence. The crawler respects website rules set in robots.txt files and provides contact information for site owners who have questions or concerns.
 
 
 AI2Bot-Dolma Web Crawling Process:
@@ -66,7 +66,7 @@ Data Collection Approach Comparison:
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-crawler-bot/ai2bot-dolma"
+  "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot-dolma"
 }
 </script>
 <script type="application/ld+json">
@@ -77,7 +77,7 @@ Data Collection Approach Comparison:
   "description": "AI2Bot-Dolma is a web crawler by the Allen Institute for AI that collects data for the Dolma dataset.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-crawler-bot/ai2bot-dolma" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot-dolma" }
 }
 </script>
 <script type="application/ld+json">
@@ -153,13 +153,13 @@ Data Collection Approach Comparison:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AI2Bot-Dolma",
-      "item": "https://aicw.io/ai-crawler-bot/ai2bot-dolma"
+      "item": "https://aichatwatch.com/ai-crawler-bot/ai2bot-dolma"
     }
   ]
 }

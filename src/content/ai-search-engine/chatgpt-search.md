@@ -16,7 +16,7 @@ keywords: "chatgpt search, openai search, gpt-5.2, search capabilities, ai searc
 
 ## What is ChatGPT Search?
 
-ChatGPT Search merges traditional web search with cutting-edge AI search engine features. Initially offered to [ChatGPT Plus](/ai-chat-bot/chatgpt/) and Team subscribers, it became available to all users on December 16, 2024. By integrating **real-time web access** and AI-driven answer generation, users receive concise and direct answers to natural language queries, not just a list of links.
+ChatGPT Search merges traditional web search with cutting-edge AI search engine features. Initially offered to ChatGPT Plus and Team subscribers, it became available to all users on December 16, 2024. By integrating **real-time web access** and AI-driven answer generation, users receive concise and direct answers to natural language queries, not just a list of links.
 
 <a id="key-features"></a>
 
@@ -230,7 +230,24 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
 
 <a id="faqs-about-chatgpt-search"></a>
 
-<h2>Frequently Asked Questions</h2>
+## FAQs About ChatGPT Search
+
+### What is ChatGPT Search?
+ChatGPT Search is an AI-powered search engine feature by OpenAI, leveraging GPT-5 to offer enhanced web search capabilities.
+
+### How does ChatGPT Search compare to Google?
+While Google offers a larger index and traditional link-based search, ChatGPT Search provides conversational and AI-enhanced responses.
+
+### Can I use ChatGPT Search for free?
+Yes, ChatGPT Search is available for free, with additional features accessible through ChatGPT Plus and Pro subscriptions.
+
+### How does ChatGPT Search ensure accuracy?
+By providing source links, ChatGPT Search allows users to verify the credibility of the AI-generated answers.
+
+### What are the current limitations of ChatGPT Search?
+Limitations include restricted website access, occasional slow speeds, and limited language support. Updates continue to address these issues.
+
+## Frequently Asked Questions
 
 <details>
   <summary>What are the best use cases for ChatGPT Search?</summary>
@@ -270,8 +287,8 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "url": "https://aicw.io/ai-search-engine/chatgpt-search",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/chatgpt-search" }
+  "url": "https://aichatwatch.com/ai-search-engine/chatgpt-search",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -282,7 +299,7 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
   "description": "ChatGPT Search is a revolutionary AI-powered search capability developed by OpenAI, leveraging the advanced features of GPT-5.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/chatgpt-search" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-search" }
 }
 </script>
 <script type="application/ld+json">
@@ -342,7 +359,7 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://aicw.io/",
+        "@id": "https://aichatwatch.com/",
         "name": "Home"
       }
     },
@@ -350,7 +367,7 @@ Most users will find the complimentary version of ChatGPT Search sufficient for 
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://aicw.io/ai-search-engine/chatgpt-search",
+        "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-search",
         "name": "ChatGPT Search"
       }
     }

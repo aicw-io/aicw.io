@@ -105,7 +105,7 @@ OpenEvidence by Mayo Clinic is tailored for clinicians as an advanced tool backe
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aicw.io/ai-search-engine/open-evidence"
+  "@id": "https://aichatwatch.com/ai-search-engine/open-evidence"
 }
 </script>
 <script type="application/ld+json">
@@ -116,7 +116,7 @@ OpenEvidence by Mayo Clinic is tailored for clinicians as an advanced tool backe
   "description": "Exploring OpenEvidence, an AI tool by Mayo Clinic designed for clinical decision support to assist healthcare professionals.",
   "author": { "@type": "Organization", "name": "AI Chat Watch" },
   "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aicw.io/ai-search-engine/open-evidence" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/open-evidence" }
 }
 </script>
 <script type="application/ld+json">
@@ -192,13 +192,13 @@ OpenEvidence by Mayo Clinic is tailored for clinicians as an advanced tool backe
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aicw.io/"
+      "item": "https://aichatwatch.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "OpenEvidence",
-      "item": "https://aicw.io/ai-search-engine/open-evidence"
+      "item": "https://aichatwatch.com/ai-search-engine/open-evidence"
     }
   ]
 }
