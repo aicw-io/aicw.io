@@ -4,7 +4,6 @@ import Navigation from '../components/Navigation.astro';
 import BlogPostSchema from '../components/BlogPostSchema.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 import StickyTableOfContents from '../components/StickyTableOfContents.astro';
-import SocialShareButtons from '../components/SocialShareButtons.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import GuideCTA from '../components/GuideCTA.astro';
 import ImageLightbox from '../components/ImageLightbox.astro';
@@ -63,7 +62,7 @@ const formattedUpdatedDate = date_updated_at
 ---
 
 <BaseLayout
-  title={`${title} | AI Chat Watch Blog`}
+  title={`${title} | AICW Blog`}
   description={description}
   canonical={`/blog/${post.slug}/`}
   image={heroImage}
@@ -183,9 +182,6 @@ const formattedUpdatedDate = date_updated_at
           >
             <Content />
           </div>
-
-          <!-- Social Share Buttons (Bottom) -->
-          <SocialShareButtons title={title} url={`/blog/${post.slug}/`} />
 
           <!-- Related Posts -->
           <RelatedPosts currentPost={post} />

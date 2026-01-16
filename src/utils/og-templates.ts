@@ -39,7 +39,7 @@ function getCollectionLabel(collection: string): string {
 export function blogTemplate(options: OgImageOptions) {
   const title = truncate(options.title, 80);
   const description = options.description ? truncate(options.description, 140) : '';
-  const author = options.author || 'AI Chat Watch Team';
+  const author = options.author || 'AICW Team';
   const date = options.date ? formatDate(options.date) : '';
 
   return {
@@ -171,7 +171,7 @@ export function blogTemplate(options: OgImageOptions) {
                     fontSize: '24px',
                     fontWeight: 700,
                   },
-                  children: 'AI Chat Watch',
+                  children: 'AICW.io',
                 },
               },
             ],
@@ -285,7 +285,7 @@ export function guideTemplate(options: OgImageOptions) {
                     fontSize: '24px',
                     fontWeight: 700,
                   },
-                  children: 'AI Chat Watch',
+                  children: 'AICW.io',
                 },
               },
             ],

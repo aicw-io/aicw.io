@@ -1,13 +1,13 @@
 ---
-name: "AI Chat Watch Team"
+name: "AICW Team"
 title: "AI Traffic Analytics & Privacy Experts"
-bio: "The AI Chat Watch team builds privacy-focused web analytics that help businesses understand traffic from AI chatbots. We track visits from ChatGPT, Claude, Perplexity, and other AI sources while respecting user privacy—no cookies, no IP storage, fully GDPR compliant."
+bio: "The AICW team builds privacy-focused web analytics that help businesses understand traffic from AI chatbots. We track visits from ChatGPT, Claude, Perplexity, and other AI sources while respecting user privacy—no cookies, no IP storage, fully GDPR compliant."
 avatar: "/assets/images/authors/author.jpg"
 github: "https://github.com/aichatwatch"
 website: "https://www.aicw.io"
 ---
 
-The AI Chat Watch team combines expertise in web analytics, privacy engineering, and AI systems to create tools for the AI traffic era. As AI chatbots become primary discovery channels, businesses need to understand how these systems drive real traffic and conversions.
+The AICW team combines expertise in web analytics, privacy engineering, and AI systems to create tools for the AI traffic era. As AI chatbots become primary discovery channels, businesses need to understand how these systems drive real traffic and conversions.
 
 Our platform helps you:
 - Track visits from ChatGPT, Claude, Perplexity, Gemini, and other AI chatbots
@@ -24,7 +24,7 @@ Our platform helps you:
 
 ## Why Privacy Matters
 
-We believe analytics shouldn't come at the cost of user privacy. That's why AI Chat Watch:
+We believe analytics shouldn't come at the cost of user privacy. That's why AICW:
 - Uses no cookies or tracking pixels
 - Never stores IP addresses
 - Is fully GDPR and CCPA compliant
