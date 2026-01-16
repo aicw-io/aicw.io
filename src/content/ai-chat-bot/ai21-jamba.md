@@ -96,8 +96,8 @@ The AI21 Jamba model provides a unique solution to the long context challenge. I
   "@type": "Article",
   "headline": "AI21 Jamba Model: A Breakthrough in Long Context Language Processing",
   "description": "AI21 Labs released the Jamba model, a hybrid system excelled in processing extensive text inputs efficiently.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/ai21-jamba" }
 }
 </script>

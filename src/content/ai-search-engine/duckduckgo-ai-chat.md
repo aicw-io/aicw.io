@@ -221,8 +221,8 @@ Users seeking private AI chat should try it. The service demonstrates that AI ca
   "@type": "Article",
   "headline": "DuckDuckGo AI Chat: Private AI Conversations With No Data Storage",
   "description": "DuckDuckGo AI Chat offers privacy-focused AI conversations without storing user data.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/duckduckgo-ai-chat" }
 }
 </script>

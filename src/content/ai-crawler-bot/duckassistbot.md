@@ -133,8 +133,8 @@ DuckAssistBot is pivotal for DuckDuckGo's AI-powered search answers, closely ali
   "@type": "Article",
   "headline": "What DuckAssistBot Does for DuckDuckGo Search",
   "description": "DuckAssistBot powers DuckDuckGo AI-generated answers by crawling websites to collect data for search results.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/duckassistbot" }
 }
 </script>

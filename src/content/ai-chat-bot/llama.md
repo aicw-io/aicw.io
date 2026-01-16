@@ -229,8 +229,8 @@ For production, incorporate monitoring, caching, and fallback strategies, ensuri
     "@type": "Article",
     "headline": "Understanding Meta Llama: Open-Source AI Models",
     "description": "Discover the Meta Llama family of AI models, their history, versions, and business applications.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/llama" }
   }
 }

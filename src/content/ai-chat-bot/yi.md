@@ -128,8 +128,8 @@ Yi AI by 01.AI is a robust solution for bilingual English-Chinese language proce
   "@type": "Article",
   "headline": "Yi: Bilingual AI Models by 01.AI for English and Chinese",
   "description": "Yi AI provides advanced language processing for English and Chinese, developed by 01.AI.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/yi" }
 }
 </script>

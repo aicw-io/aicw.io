@@ -143,8 +143,8 @@ FeedlyBot functions as essential infrastructure behind one of the web's most pop
   "@type": "Article",
   "headline": "What is FeedlyBot and Why It Matters",
   "description": "FeedlyBot is a web crawler for Feedly that aggregates content from websites for easy access to new articles and updates.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/feedlybot" }
 }
 </script>

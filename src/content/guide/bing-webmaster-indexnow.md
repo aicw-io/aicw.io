@@ -261,8 +261,8 @@ For developers and marketers, these tools offer substantial benefits with minima
   "@type": "Article",
   "headline": "Bing Webmaster Tools and IndexNow Guide",
   "description": "A comprehensive guide on Bing Webmaster Tools and the IndexNow protocol, explaining their importance and how to set them up.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/guide/bing-webmaster-indexnow" }
 }
 </script>

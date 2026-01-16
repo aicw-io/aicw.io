@@ -110,8 +110,8 @@ Both platforms offer similar AI capabilities but differ in user experience and c
   "@type": "Article",
   "headline": "Comprehensive Guide to Westlaw Edge AI by Thomson Reuters",
   "description": "Explore Westlaw Edge AI, a powerful tool for legal research that enhances efficiency through AI features like Litigation Analytics and KeyCite.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/westlaw-edge-ai" }
 }
 </script>

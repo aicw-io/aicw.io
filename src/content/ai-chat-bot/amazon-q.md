@@ -124,8 +124,8 @@ Amazon Q is AWS's venture into enterprise AI assistants with products for develo
   "@type": "Article",
   "headline": "Amazon Q: AWS's AI Assistant for Business and Developers",
   "description": "Amazon Q is AWS's AI assistant designed for businesses and developers, offering deep AWS integration and secure data querying.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/amazon-q" }
 }
 </script>

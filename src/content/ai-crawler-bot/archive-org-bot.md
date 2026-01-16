@@ -151,8 +151,8 @@ The bot differs from commercial crawlers by focusing on historical preservation 
   "@type": "Article",
   "headline": "Understanding the Archive.org_bot and Its Web Preservation Mission",
   "description": "The Archive.org_bot captures and preserves web content, helping document the internet's evolution for future generations.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/archive-org-bot" }
 }
 </script>

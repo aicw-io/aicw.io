@@ -168,8 +168,8 @@ Yandex holds a 60-65% market share in Russian search, with YandexGPT integrated 
   "@type": "Article",
   "headline": "YandexGPT AI Engine: Features, Capabilities & Comparison",
   "description": "Explore YandexGPT, the AI language model from Yandex, focusing on its capabilities, features, and market position.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/yandex-gpt" }
 }
 </script>

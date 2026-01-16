@@ -166,8 +166,8 @@ CCBot powers Common Crawl datasets, extensively used in AI training, crawling 3 
   "@type": "Article",
   "headline": "Understanding CCBot and Its Role in AI Training Data",
   "description": "Learn about CCBot, the web crawler operated by Common Crawl, and its significance in AI training data.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ccbot" }
 }
 </script>

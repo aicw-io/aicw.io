@@ -135,8 +135,8 @@ ERNIE Bot signifies Baidu's venture into the generative AI chatbot market, empha
   "@type": "Article",
   "headline": "ERNIE Bot: Baidu's Chinese AI Chatbot",
   "description": "An overview of ERNIE Bot, Baidu's AI chatbot designed for Chinese language users, its features, and market positioning.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/ernie-bot" }
 }
 </script>

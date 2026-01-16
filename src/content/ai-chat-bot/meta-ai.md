@@ -141,8 +141,8 @@ Meta AI employs the Llama 3.2 model to bring artificial intelligence directly in
   "@type": "Article",
   "headline": "What is Meta AI: Overview, Features, and Future Development",
   "description": "Meta AI is a virtual assistant by Meta, integrated into platforms like Facebook and WhatsApp, leveraging the Llama model to enhance user engagement and reduce friction in accessing information.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/meta-ai" }
 }
 </script>

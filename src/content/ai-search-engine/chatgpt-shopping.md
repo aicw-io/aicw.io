@@ -221,8 +221,8 @@ Users looking for direct purchases must still visit seller websites, as the syst
   "@type": "Article",
   "headline": "ChatGPT Shopping Features: Complete Guide and Comparison",
   "description": "Explore the complete guide to ChatGPT Shopping features, their functionality, and a comparison with other AI shopping platforms.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-shopping" }
 }
 </script>

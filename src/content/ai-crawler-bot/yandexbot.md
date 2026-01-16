@@ -193,8 +193,8 @@ YandexBot acts as Yandex's primary web crawler, pivotal for search indexing and 
   "@type": "Article",
   "headline": "What is YandexBot?",
   "description": "YandexBot is a web crawler operated by Yandex, the largest search engine and tech company in Russia.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/yandexbot" }
 }
 </script>

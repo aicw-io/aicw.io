@@ -121,8 +121,8 @@ Qwen represents Alibaba's significant foray into open source AI. It competes eff
   "@type": "Article",
   "headline": "Qwen: Alibaba's Open Source AI Model for Developers and Businesses",
   "description": "Qwen is Alibaba Cloud's family of open source AI models designed for developers and researchers seeking robust language processing capabilities without vendor lock-in.",
-  "author": {"@type": "Organization", "name": "AI Chat Watch"},
-  "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
+  "author": {"@type": "Organization", "name": "AICW"},
+  "publisher": {"@type": "Organization", "name": "AICW"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/qwen"}
 }
 </script>

@@ -133,8 +133,8 @@ Amazon CodeWhisperer represents a significant step in AI-powered coding tools. I
   "@type": "Article",
   "headline": "Amazon CodeWhisperer: Your AI Code Assistant",
   "description": "Amazon CodeWhisperer is an AI-powered code generation tool designed to help developers write code faster.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/amazon-codewhisperer" }
 }
 </script>

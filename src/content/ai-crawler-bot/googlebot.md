@@ -202,8 +202,8 @@ As search evolves, Googlebot will continue advancing. Staying informed about cra
   "@type": "Article",
   "headline": "What is Googlebot and Why It Matters",
   "description": "An overview of Googlebot, the primary crawler for Google's search indexing, and its impact on SEO and website visibility.",
-  "author": {"@type": "Organization", "name": "AI Chat Watch"},
-  "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
+  "author": {"@type": "Organization", "name": "AICW"},
+  "publisher": {"@type": "Organization", "name": "AICW"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/googlebot"}
 }
 </script>

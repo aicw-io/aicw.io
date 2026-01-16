@@ -210,8 +210,8 @@ Disallow: /</code>.</p>
   "@type": "Article",
   "headline": "AI2Bot: The Open Source AI Web Crawler",
   "description": "An exploration of AI2Bot's role in open-source AI research and data collection.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot" }
 }
 </script>

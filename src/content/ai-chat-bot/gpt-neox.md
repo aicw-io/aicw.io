@@ -117,8 +117,8 @@ GPT-NeoX marks a significant achievement in open-source AI development. Eleuther
   "@type": "Article",
   "headline": "An In-Depth Look at GPT-NeoX: A Game-Changer in Open-Source AI",
   "description": "This article explores the development, purpose, and impact of GPT-NeoX, an open-source language model by EleutherAI.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/gpt-neox" }
 }
 </script>

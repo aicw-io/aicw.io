@@ -190,8 +190,8 @@ While technology detection is not perfect and raises some privacy considerations
   "@type": "Article",
   "headline": "Understanding BuiltWith: Technology Detection and Its Importance",
   "description": "Learn how BuiltWith technology detection service works and why it matters for sales intelligence and market research.",
-  "author": {"@type": "Organization", "name": "AI Chat Watch"},
-  "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
+  "author": {"@type": "Organization", "name": "AICW"},
+  "publisher": {"@type": "Organization", "name": "AICW"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/builtwith"}
 }
 </script>

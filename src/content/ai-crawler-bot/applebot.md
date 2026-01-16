@@ -234,8 +234,8 @@ Website owners should make sure Applebot can access their content unless they sp
   "@type": "Article",
   "headline": "What is Applebot?",
   "description": "Applebot is Apple's web crawler that powers search results in Siri and Spotlight, indexing content to provide relevant answers to users.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/applebot" }
 }
 </script>

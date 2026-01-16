@@ -180,8 +180,8 @@ As Vietnam's internet market grows, CocCocBot will remain relevant with Coc Coc'
   "@type": "Article",
   "headline": "Understanding CocCocBot: Vietnam's Key Web Crawler",
   "description": "CocCocBot is the web crawler for Vietnam's popular search engine, impacting Vietnamese website traffic.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/coccocbot" }
 }
 </script>

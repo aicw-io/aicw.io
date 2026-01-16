@@ -271,8 +271,8 @@ Algolia empowers developers with robust search tools fueled by AI, offering swif
   "@type": "Article",
   "headline": "Algolia: AI-Powered Search API Guide for Developers",
   "description": "A comprehensive guide to integrating and optimizing Algolia's search functionalities for developers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/algolia" }
 }
 </script>

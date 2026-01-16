@@ -212,8 +212,8 @@ For developers and website owners, optimizing for Discord is important. Properly
   "@type": "Article",
   "headline": "Understanding the Role of Discordbot in Enhancing User Engagement",
   "description": "Explore how Discordbot improves link sharing and user engagement on Discord by generating visually appealing previews for shared URLs.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/discordbot" }
 }
 </script>

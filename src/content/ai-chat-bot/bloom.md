@@ -126,8 +126,8 @@ BLOOM represents a major achievement in open and collaborative AI research. The 
   "@type": "Article",
   "headline": "BLOOM: The Open Multilingual Language Model",
   "description": "BLOOM is a massive multilingual language model created by BigScience, featuring 176 billion parameters, open access, and support for 46 natural languages.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/bloom" }
 }
 </script>

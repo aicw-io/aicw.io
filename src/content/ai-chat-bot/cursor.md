@@ -160,8 +160,8 @@ Cursor AI represents a new era of AI-first code editors, transcending simple aut
   "@type": "Article",
   "headline": "Cursor AI: Revolutionizing AI-First Code Editing with GPT-4 and Claude",
   "description": "Cursor AI is a cutting-edge AI code editor that combines GPT-4 and Claude AI capabilities within a familiar VS Code environment.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/cursor" }
 }
 </script>

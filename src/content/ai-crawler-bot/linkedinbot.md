@@ -157,8 +157,8 @@ The platform's professional focus makes it especially valuable for B2B companies
   "@type": "Article",
   "headline": "What is LinkedInBot and Why It Matters",
   "description": "Learn about the LinkedIn bot, how it fetches metadata and generates link previews, and its importance for content visibility on LinkedIn.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/linkedinbot" }
 }
 </script>

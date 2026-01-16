@@ -162,7 +162,7 @@ Facebookexternalhit is Facebook's key tool for generating link previews during U
   "name": "What Is facebookexternalhit",
   "url": "https://aichatwatch.com/ai-crawler-bot/facebookexternalhit",
   "description": "Learn about Facebook's web crawler, facebookexternalhit, and its role in generating link previews on the platform.",
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" }
+  "publisher": { "@type": "Organization", "name": "AICW" }
 }
 </script>
 <script type="application/ld+json">
@@ -171,8 +171,8 @@ Facebookexternalhit is Facebook's key tool for generating link previews during U
   "@type": "Article",
   "headline": "What Is facebookexternalhit",
   "description": "Learn about Facebook's web crawler, facebookexternalhit, and its role in generating link previews on the platform.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/facebookexternalhit" }
 }
 </script>

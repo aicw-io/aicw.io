@@ -134,8 +134,8 @@ Qwantify is the web crawler for Qwant, the French privacy-focused search engine.
   "@type": "Article",
   "headline": "Qwantify: A Privacy-Focused Search Crawler",
   "description": "Qwantify is a crawler developed by Qwant, operating under strict EU privacy regulations and focusing on user privacy.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/qwantify" }
 }
 </script>

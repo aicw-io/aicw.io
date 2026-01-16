@@ -106,8 +106,8 @@ PimEyes is a unique AI tool for face recognition, with significant applications 
   "@type": "Article",
   "headline": "PimEyes: AI-Powered Face Recognition Search",
   "description": "PimEyes is an AI-based face recognition search engine that helps users track their online image presence.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/pimeyes" }
 }
 </script>

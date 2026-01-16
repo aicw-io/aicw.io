@@ -195,8 +195,8 @@ The lack of transparency around ISSCyborg's operations makes it different from w
   "@type": "Article",
   "headline": "What is ISSCyborg and Why It Exists",
   "description": "ISSCyborg is a web crawler bot operated by ISS Technology which collects data from publicly accessible websites.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/isscyborg" }
 }
 </script>

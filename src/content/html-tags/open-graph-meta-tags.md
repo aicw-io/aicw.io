@@ -140,8 +140,8 @@ Open Graph meta tags determine how your content is presented when shared on soci
   "@type": "Article",
   "headline": "What Are Open Graph Meta Tags",
   "description": "Open Graph meta tags enhance content sharing on social media by providing essential information for previews.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/open-graph-meta-tags" }
 }
 </script>

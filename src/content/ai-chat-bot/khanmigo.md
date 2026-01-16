@@ -139,8 +139,8 @@ Safety features, including conversation monitoring and content filters, address 
   "@type": "Article",
   "headline": "Khanmigo: AI-Powered Education Tool",
   "description": "Khanmigo is an AI-powered tutoring assistant created by Khan Academy, enhancing K-12 education with personalized learning experiences.",
-  "author": {"@type": "Organization", "name": "AI Chat Watch"},
-  "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
+  "author": {"@type": "Organization", "name": "AICW"},
+  "publisher": {"@type": "Organization", "name": "AICW"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/khanmigo"}
 }</script>
 <script type="application/ld+json">{

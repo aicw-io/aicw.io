@@ -316,8 +316,8 @@ Understand the difference between noindex and blocking in robots.txt. Use meta r
   "@type": "Article",
   "headline": "Understanding Meta Robots Tags",
   "description": "Learn how the meta robots tag controls search engine indexing and optimize your web pages for SEO.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/meta-robots" }
 }
 </script>

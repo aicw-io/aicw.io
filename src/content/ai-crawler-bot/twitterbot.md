@@ -172,8 +172,8 @@ Blocking Twitterbot removes your ability to show rich previews, significantly hu
   "@type": "Article",
   "headline": "Understanding Twitterbot and Its Importance for Link Previews",
   "description": "A comprehensive look at Twitterbot's role in generating link previews on X, including how it works and why it's essential for businesses and developers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/twitterbot" }
 }
 </script>

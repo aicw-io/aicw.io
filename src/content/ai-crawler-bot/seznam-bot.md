@@ -219,11 +219,11 @@ Compared to global crawlers like Googlebot, SeznamBot has a narrower focus but a
   "description": "Understanding SeznamBot, the Czech search engine crawler, its operations, and tips for website optimization.",
   "author": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",

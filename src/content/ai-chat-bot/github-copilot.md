@@ -178,8 +178,8 @@ Compared to alternatives like Cursor, Codeium, and Tabnine, GitHub Copilot is co
   "@type": "Article",
   "headline": "Understanding GitHub Copilot: An AI Coding Assistant",
   "description": "GitHub Copilot is an AI coding assistant that helps developers write code more efficiently by providing real-time suggestions.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/github-copilot" }
 }
 </script>

@@ -278,8 +278,8 @@ Don't waste time adding meta keywords to new pages. Don't worry about removing t
   "@type": "Article",
   "headline": "Understanding Meta Keywords in SEO: A Historical Overview",
   "description": "Explore the history and efficacy of meta keywords in SEO practices, their decline in relevance, and best practices for modern SEO techniques.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/meta-keywords" }
 }
 </script>

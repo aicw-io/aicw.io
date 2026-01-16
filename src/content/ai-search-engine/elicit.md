@@ -98,8 +98,8 @@ With Elicit AI, researchers access practical solutions that elevate the efficien
   "@type": "Article",
   "headline": "Elicit AI: Transforming Academic Research with Advanced Tools",
   "description": "Elicit AI is revolutionizing the field of academic research by offering a robust suite of tools designed to enhance literature reviews, assist researchers, and automate paper analysis.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/elicit" }
 }
 </script>

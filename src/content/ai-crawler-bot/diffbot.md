@@ -157,7 +157,7 @@ For developers and businesses needing web data at scale, Diffbot reduces enginee
   "@id": "https://aichatwatch.com/ai-crawler-bot/diffbot",
   "name": "Diffbot: AI-Powered Data Extraction",
   "description": "An overview of Diffbot and its capabilities for automated data extraction from various web sources.",
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" }
+  "publisher": { "@type": "Organization", "name": "AICW" }
 }
 </script>
 
@@ -167,8 +167,8 @@ For developers and businesses needing web data at scale, Diffbot reduces enginee
   "@type": "Article",
   "headline": "What is Diffbot and Why Data Extraction Matters",
   "description": "Diffbot is an automated data extraction service that transforms unstructured web content into structured data, making data gathering scalable and efficient.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/diffbot" }
 }
 </script>

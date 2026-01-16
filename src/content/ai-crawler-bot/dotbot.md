@@ -135,8 +135,8 @@ DotBot serves as the backbone of Moz's SEO intelligence platform by continuously
   "@type": "Article",
   "headline": "Understanding DotBot: Moz's SEO Analysis Bot",
   "description": "Explore how DotBot crawls and collects web data for SEO analysis tools like Domain Authority and Spam Score.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/dotbot" }
 }
 </script>

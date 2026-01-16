@@ -122,7 +122,7 @@ MojeekBot is an essential part of independent search infrastructure, operating o
   "description": "Explore MojeekBot, an independent search engine crawler that respects user privacy while providing alternative search visibility.",
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch",
+    "name": "AICW",
     "url": "https://aichatwatch.com"
   }
 }
@@ -133,8 +133,8 @@ MojeekBot is an essential part of independent search infrastructure, operating o
   "@type": "Article",
   "headline": "MojeekBot: The Independent Search Engine Crawler",
   "description": "Discover how MojeekBot operates as a unique and privacy-respecting alternative to mainstream search crawlers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/mojeekbot" }
 }
 </script>

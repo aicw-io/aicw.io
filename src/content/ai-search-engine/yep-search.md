@@ -138,8 +138,8 @@ Yep is ambitiously reshaping search engine norms through privacy and revenue sha
   "@type": "Article",
   "headline": "Yep Search Engine: A Game-Changer in Privacy and Revenue Sharing",
   "description": "Yep is a privacy-focused search engine launched by Ahrefs in 2022, offering a 90/10 revenue-sharing model.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/yep-search" }
 }
 </script>

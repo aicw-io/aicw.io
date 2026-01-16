@@ -171,8 +171,8 @@ iAsk.ai Workflow:
   "@type": "Article",
   "headline": "iAsk.ai Free AI Search Engine Review: Features & Users",
   "description": "A comprehensive review of iAsk.ai, a free AI search engine with natural language processing capabilities and citation-backed answers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/iask-ai" }
 }
 </script>

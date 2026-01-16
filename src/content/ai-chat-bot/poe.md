@@ -210,8 +210,8 @@ Relative to alternatives like ChatGPT Plus or Claude Pro, Poe offers broader acc
   "@type": "Article",
   "headline": "Poe: The Ultimate AI Chat Aggregator",
   "description": "Explore Poe, the all-in-one AI chat platform that centralizes multiple AI models for seamless user interaction.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/poe" }
 }
 </script>

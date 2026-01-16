@@ -190,8 +190,8 @@ Allow: /</code></p>
   "@type": "Article",
   "headline": "Understanding OpenAI's GPTBot: The Web Crawler for AI Training",
   "description": "A comprehensive guide to OpenAI's GPTBot, its functionality, and how to manage it through robots.txt.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/gptbot" }
 }
 </script>

@@ -145,7 +145,7 @@ Technology and Security Layer:
   "@id": "https://aichatwatch.com/ai-search-engine/harvey-ai",
   "name": "Harvey AI: Custom AI Solution for Large Law Firms Explained",
   "description": "Explore how Harvey AI tailors its services for large law firms, focusing on customized AI models and security measures.",
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" }
+  "publisher": { "@type": "Organization", "name": "AICW" }
 }
 </script>
 <script type="application/ld+json">
@@ -154,8 +154,8 @@ Technology and Security Layer:
   "@type": "Article",
   "headline": "Harvey AI: Custom AI Solution for Large Law Firms Explained",
   "description": "Explore how Harvey AI tailors its services for large law firms, focusing on customized AI models and security measures.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/harvey-ai" }
 }
 </script>

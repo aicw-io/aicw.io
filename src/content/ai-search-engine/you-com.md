@@ -220,8 +220,8 @@ Competing with ChatGPT and Perplexity, You.com distinguishes itself through mult
   "@type": "Article",
   "headline": "You.com: An AI Search Engine with Specialized AI Modes",
   "description": "Discover You.com, a versatile AI search engine offering specialized modes like YouChat, YouWrite, and YouCode, focused on user privacy and functionality.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/you-com" }
 }
 </script>

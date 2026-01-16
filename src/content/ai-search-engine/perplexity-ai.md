@@ -110,8 +110,8 @@ Perplexity AI stands as a significant innovation for research requirements, offe
   "@type": "Article",
   "headline": "How Perplexity AI Transforms Research",
   "description": "Perplexity AI is transforming the search engine landscape for researchers with its innovative features.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/perplexity-ai" }
 }
 </script>

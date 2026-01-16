@@ -142,8 +142,8 @@ GoogleOther represents Google's separation of search indexing from other data co
   "@type": "Article",
   "headline": "Understanding GoogleOther: Google's Research and Development Web Crawler",
   "description": "GoogleOther is a specialized web crawler by Google serving internal research projects, separate from Googlebot which focuses on search indexing.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/googleother" }
 }
 </script>

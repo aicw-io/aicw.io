@@ -179,7 +179,7 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
   "description": "An informative article discussing the Claude-User web request agent, its functionality and importance in real-time content access for AI conversations.",
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   }
 }
 </script>
@@ -189,8 +189,8 @@ The key points to remember are that Claude-User is a fetch agent, not a crawler.
   "@type": "Article",
   "headline": "Understanding Claude-User: The Fetch Agent for AI Conversations",
   "description": "Explore how Claude-User operates as an AI fetch agent, fetching real-time data on demand to enhance user interactions.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claude-user" }
 }
 </script>

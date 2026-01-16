@@ -153,8 +153,8 @@ Grok represents xAI's entry into the **AI chatbot** market with distinct charact
   "@type": "Article",
   "headline": "Exploring Grok: The Real-Time AI Chatbot by xAI",
   "description": "Grok is an AI chatbot developed by xAI, founded by Elon Musk, focusing on real-time conversational engagement with fewer restrictions.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/grok" }
 }
 </script>

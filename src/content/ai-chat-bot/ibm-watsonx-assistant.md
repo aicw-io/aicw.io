@@ -177,8 +177,8 @@ IBM watsonx Assistant provides enterprise-grade conversational AI for customer s
   "@type": "Article",
   "headline": "IBM watsonx Assistant: Elevate Your Customer Support Efforts",
   "description": "Explore how IBM watsonx Assistant automated customer service using AI-driven chatbot technology.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/ibm-watsonx-assistant" }
 }
 </script>

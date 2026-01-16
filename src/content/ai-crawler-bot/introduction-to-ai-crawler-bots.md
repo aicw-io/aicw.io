@@ -141,8 +141,8 @@ AI crawler bots are foundational for modern AI systems by gathering the massive 
   "@type": "Article",
   "headline": "Introduction to AI Crawler Bots",
   "description": "AI crawler bots are automated programs that collect data for AI training purposes, essential for developing and improving AI models.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawler-bots" }
 }
 </script>

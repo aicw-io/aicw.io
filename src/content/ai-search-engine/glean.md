@@ -211,8 +211,8 @@ Companies considering Glean should evaluate their current information access pro
   "@type": "Article",
   "headline": "Glean Enterprise AI Search Platform Guide for 2024",
   "description": "Explore Glean's capabilities in streamlining enterprise search and enhancing information access across applications.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/glean" }
 }
 </script>

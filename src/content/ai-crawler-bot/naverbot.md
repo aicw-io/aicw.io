@@ -196,8 +196,8 @@ Naverbot serves as the web crawler for South Korea's leading search engine. It i
   "@type": "Article",
   "headline": "Understanding Naverbot: The Korean Web Crawler",
   "description": "Naverbot is the primary web crawler for Naver, South Korea's leading search engine, indexing Korean language content and aiding AI training.",
-  "author": {"@type": "Organization", "name": "AI Chat Watch"},
-  "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
+  "author": {"@type": "Organization", "name": "AICW"},
+  "publisher": {"@type": "Organization", "name": "AICW"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/naverbot"}
 }
 </script>

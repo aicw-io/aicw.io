@@ -122,8 +122,8 @@ Lexis+ AI Hallucination Protection:
   "@type": "Article",
   "headline": "Lexis+ AI Legal Research Platform Complete Guide",
   "description": "Explore Lexis+ AI, a powerful legal research platform with 83 million documents and AI-driven insights for legal professionals.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/lexis-plus-ai" }
 }
 </script>

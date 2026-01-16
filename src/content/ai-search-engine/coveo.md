@@ -248,8 +248,8 @@ The platform costs more than basic search tools and requires technical knowledge
   "@type": "Article",
   "headline": "Coveo: Complete Guide to AI-Powered Enterprise Search in 2024",
   "description": "An in-depth look at Coveo's AI-driven search platform designed for large enterprises, exploring its features, use cases, and implementation strategies.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/coveo" }
 }
 </script>

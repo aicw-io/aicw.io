@@ -216,8 +216,8 @@ Mojeekbot Crawling Process:
   "@type": "Article",
   "headline": "Mojeek: The Independent UK Search Engine Explained",
   "description": "Mojeek is a UK search engine that values user privacy and operates independently with its unique search index.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/mojeek" }
 }
 </script>

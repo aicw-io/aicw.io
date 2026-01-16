@@ -137,8 +137,8 @@ Transition from SGE to AI Overviews:
   "@type": "Article",
   "headline": "Google AI Overviews Guide: SGE Search Summaries Explained",
   "description": "Google AI Overviews represent a significant evolution in search technology, providing AI-generated summaries of search results for complex queries.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/google-ai-overviews" }
 }
 </script>

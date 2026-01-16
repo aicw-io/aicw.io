@@ -111,8 +111,8 @@ Tavily is a robust AI search API designed for modern AI applications. By concent
   "@type": "Article",
   "headline": "Exploring Tavily: The AI Search API Optimized for LLM Applications",
   "description": "Tavily is an AI search API designed for large language models. It enhances LLM applications through structured search results and integrates seamlessly with LangChain.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/tavily" }
 }
 </script>

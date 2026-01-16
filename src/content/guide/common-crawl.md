@@ -172,8 +172,8 @@ Common Crawl maintains a vast archive exceeding 300 billion pages, crucial for L
   "@type": "Article",
   "headline": "What is Common Crawl and Why It Matters",
   "description": "A comprehensive overview of Common Crawl, its significance, and its operations in web crawling and data usage for AI models.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/guide/common-crawl" }
 }
 </script>

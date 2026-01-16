@@ -119,8 +119,8 @@ Tencent Hunyuan embodies a major stride in Chinese AI by leveraging Tencent's so
   "@type": "Article",
   "headline": "Tencent Hunyuan: Tencent's Cutting-Edge AI Model Insights",
   "description": "Explore Tencent Hunyuan, its integration within WeChat, and its capabilities for businesses.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/tencent-hunyuan" }
 }
 </script>

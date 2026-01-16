@@ -178,8 +178,8 @@ Salesforce Einstein serves as a comprehensive AI layer for CRM automation and in
   "@type": "Article",
   "headline": "Understanding Salesforce Einstein: AI for CRM Automation",
   "description": "Explore how Salesforce Einstein integrates AI into CRM workflows for improved sales, service, and marketing.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/salesforce-einstein" }
 }
 </script>

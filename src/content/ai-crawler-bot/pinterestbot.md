@@ -139,8 +139,8 @@ Pinterest Bot plays an important role in content discovery for millions of users
   "@type": "Article",
   "headline": "Understanding the Pinterest Bot for SEO Optimization",
   "description": "This article explores the workings of the Pinterest Bot and strategies for optimizing content to enhance visibility on Pinterest.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/pinterestbot" }
 }
 </script>

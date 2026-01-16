@@ -174,8 +174,8 @@ The SISTRIX Crawler is foundational for one of Europe's most trusted SEO analysi
   "@type": "Article",
   "headline": "Understanding the SISTRIX Crawler's Role in SEO",
   "description": "The SISTRIX Crawler is vital for SEO data collection in European markets, focusing on German-language websites.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/sistrix-crawler" }
 }
 </script>

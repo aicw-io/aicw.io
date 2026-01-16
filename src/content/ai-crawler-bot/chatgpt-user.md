@@ -165,8 +165,8 @@ ChatGPT-User is OpenAI's real-time browsing bot for responding to user queries w
   "@type": "Article",
   "headline": "Understanding the ChatGPT-User: OpenAI's Real-Time Browsing Bot",
   "description": "This article explores the ChatGPT-User, a real-time browsing bot by OpenAI that enhances ChatGPT's capabilities by providing current information through web crawling.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/chatgpt-user" }
 }
 </script>

@@ -145,8 +145,8 @@ Mistral Le Chat represents Europe's solution to the US-dominated AI chatbot mark
   "@type": "Article",
   "headline": "Mistral Le Chat: The European AI Chatbot for All",
   "description": "Mistral Le Chat is a GDPR-compliant AI chatbot developed by Mistral AI that offers multilingual services while ensuring EU data sovereignty.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/mistral-le-chat" }
 }
 </script>

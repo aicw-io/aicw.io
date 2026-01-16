@@ -167,8 +167,8 @@ Duolingo Max integrates GPT-4 powered AI to enhance language learning with tools
   "@type": "Article",
   "headline": "Duolingo Max: AI Language Learning with GPT-4",
   "description": "Duolingo Max represents the premium tier of the popular language learning platform, offering advanced AI language learning features powered by GPT-4.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/duolingo-max" }
 }
 </script>

@@ -89,8 +89,8 @@ Undermind.ai is an important tool for exhaustive literature exploration. It stan
   "@type": "Article",
   "headline": "A Comprehensive Guide to Undermind.ai for Exhaustive AI Literature Searches",
   "description": "Understanding the vast amount of AI literature can be daunting. At the core of addressing this challenge is Undermind.ai, built for exhaustive AI literature searches.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/undermind-ai" }
 }
 </script>

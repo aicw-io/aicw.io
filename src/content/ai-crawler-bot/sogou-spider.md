@@ -135,8 +135,8 @@ Sogou Spider functions as the web crawler for Sogou Search, a significant player
   "@type": "Article",
   "headline": "Sogou Spider: Understanding the Chinese Search Engine Crawler",
   "description": "An overview of Sogou Spider, the web crawler for Sogou Search, including its role and significance in the Chinese search market.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/sogou-spider" }
 }
 </script>

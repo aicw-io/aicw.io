@@ -259,8 +259,8 @@ Whether you require basic search capabilities or advanced AI features, Elasticse
   "@type": "Article",
   "headline": "Elasticsearch Guide: The Open Source AI Search Engine",
   "description": "A comprehensive guide on Elasticsearch, an open-source search engine for large datasets, discussing its features and implementation.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/elasticsearch" }
 }
 </script>

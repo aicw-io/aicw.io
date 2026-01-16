@@ -168,11 +168,11 @@ GrokBot represents xAI's entry into the competitive field of AI training data co
   "description": "Explore GrokBot, an automated crawler by xAI designed for data collection to train AI models, and understand its implications for webmasters.",
   "author": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",

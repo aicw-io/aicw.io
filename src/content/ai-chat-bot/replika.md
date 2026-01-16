@@ -171,8 +171,8 @@ Users should remember that while Replika can provide emotional support, it is no
   "@type": "Article",
   "headline": "What is Replika and Why It Matters",
   "description": "Replika is an AI companion app designed to provide emotional support and friendship through conversations, adapting to users' communication styles.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/replika" }
 }
 </script>

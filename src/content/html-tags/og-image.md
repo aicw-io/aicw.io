@@ -126,8 +126,8 @@ The **og:image** meta tag is essential for controlling how your content appears 
   "@type": "Article",
   "headline": "Understanding the og:image Meta Tag: Its Importance and Implementation",
   "description": "Learn how the og:image meta tag enhances social media sharing, increases engagement, and how to effectively implement it on your website.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/og-image" }
 }
 </script>

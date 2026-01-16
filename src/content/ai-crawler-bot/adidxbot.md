@@ -173,8 +173,8 @@ The bot shares infrastructure with Bingbot but serves a distinct advertising-foc
   "@type": "Article",
   "headline": "What is AdIdxBot and Why It Matters",
   "description": "AdIdxBot is Microsoft's web crawler for advertising quality verification and landing page validation.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/adidxbot" }
 }
 </script>

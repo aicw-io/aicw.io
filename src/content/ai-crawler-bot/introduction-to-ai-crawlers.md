@@ -194,8 +194,8 @@ This technology poses significant questions about copyright, fair use, and conte
   "@type": "Article",
   "headline": "Introduction to AI Crawlers",
   "description": "Learn about the functionality and importance of AI crawlers in data collection for machine learning.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/introduction-to-ai-crawlers" }
 }
 </script>

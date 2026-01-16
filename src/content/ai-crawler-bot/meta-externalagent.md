@@ -156,8 +156,8 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
   "@type": "Article",
   "headline": "Meta-ExternalAgent: Understanding Meta's AI Crawler",
   "description": "A comprehensive overview of Meta-ExternalAgent and its role in AI data collection.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/meta-externalagent" }
 }
 </script>
@@ -249,7 +249,7 @@ Disallow: /</pre> This directive informs the crawler that it is not permitted to
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

@@ -201,8 +201,8 @@ Understanding these tools helps you make informed decisions about content access
   "@type": "Article",
   "headline": "Understanding Friendly Crawler: An AI Data Collection Tool",
   "description": "This article covers what Friendly Crawler is, its purpose, how to identify it in server logs, and methods to block it if needed.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/friendlycrawler" }
 }
 </script>

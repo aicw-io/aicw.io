@@ -172,8 +172,8 @@ HuggingChat represents a significant step toward democratizing access to AI chat
   "@type": "Article",
   "headline": "What is HuggingChat",
   "description": "HuggingChat is a free AI chatbot that is both open-source and offered by Hugging Face AI, providing users with various large language models at no cost.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/huggingchat" }
 }
 </script>
@@ -265,7 +265,7 @@ HuggingChat represents a significant step toward democratizing access to AI chat
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

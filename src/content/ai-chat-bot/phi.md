@@ -180,8 +180,8 @@ Though Phi models have limits compared to larger systems, they excel at many com
   "@type": "Article",
   "headline": "What Are Small Language Models and Why Microsoft Built Phi",
   "description": "Exploring the significance of Microsoft's Phi models and why small language models are pivotal for businesses.",
-  "author": {"@type": "Organization", "name": "AI Chat Watch"},
-  "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
+  "author": {"@type": "Organization", "name": "AICW"},
+  "publisher": {"@type": "Organization", "name": "AICW"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/phi"}
 }
 </script>

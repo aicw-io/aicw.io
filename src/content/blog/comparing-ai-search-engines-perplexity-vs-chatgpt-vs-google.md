@@ -190,8 +190,8 @@ AI search engines have changed how we find information online. Perplexity AI, Ch
   "@type": "Article",
   "headline": "Comparing AI Search Engines: Perplexity vs ChatGPT vs Google",
   "description": "An in-depth comparison of three AI search engines: Perplexity, ChatGPT Search, and Google AI Overview, focusing on their unique features, capabilities, and best use cases.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/blog/comparing-ai-search-engines-perplexity-vs-chatgpt-vs-google" }
 }
 </script>

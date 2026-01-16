@@ -116,11 +116,11 @@ Timpibot offers a novel approach to web crawling for AI and search applications.
     "description": "Timpibot is a Web3 crawler created by Timpi, focusing on decentralized AI data collection.",
     "author": {
       "@type": "Organization",
-      "name": "AI Chat Watch"
+      "name": "AICW"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "AI Chat Watch"
+      "name": "AICW"
     }
   }
 }

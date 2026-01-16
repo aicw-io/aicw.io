@@ -226,8 +226,8 @@ The AI Summarizer quickly provides article overviews, helping users to identify 
   "@type": "Article",
   "headline": "Brave Search AI: Complete Guide to Privacy-Focused Search Features",
   "description": "Brave Search AI is a privacy-centric search engine with advanced features like AI Summarizer and Brave Leo assistant.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/brave-search-ai" }
 }
 </script>

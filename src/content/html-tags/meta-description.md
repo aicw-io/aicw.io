@@ -216,8 +216,8 @@ The meta description is your elevator pitch to searchers. Make it count.
   "@type": "Article",
   "headline": "What Is a Meta Description Tag",
   "description": "The meta description tag is a snippet of HTML that summarizes the webpage and influences click-through rates.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/meta-description" }
 }
 </script>

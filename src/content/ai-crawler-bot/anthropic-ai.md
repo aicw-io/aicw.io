@@ -225,8 +225,8 @@ The **heritage anthropic-ai crawler** symbolizes a significant phase in AI devel
   "@type": "Article",
   "headline": "The Legacy of Anthropic-AI Crawler and Its Transition to ClaudeBot",
   "description": "An overview of the Anthropic-AI Legacy Crawler, its functions, and the transition to ClaudeBot, including ethical implications and how to manage AI crawlers through robots.txt.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/anthropic-ai" }
 }
 </script>

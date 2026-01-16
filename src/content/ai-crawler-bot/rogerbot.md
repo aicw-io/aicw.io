@@ -225,8 +225,8 @@ When compared to alternatives like AhrefsBot and SemrushBot, Rogerbot maintains 
   "@type": "Article",
   "headline": "Understanding Rogerbot: Moz's SEO Crawler and Its Importance",
   "description": "Rogerbot is Moz's SEO crawler that plays a crucial role in collecting link analysis data and other SEO-related information from websites.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/rogerbot" }
 }
 </script>

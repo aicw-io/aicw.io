@@ -195,8 +195,8 @@ While GPT-4 excels in global applications woth multilingual support, ERNIE is ta
   "@type": "Article",
   "headline": "Baidu ERNIE: How China's Leading AI Search Model Works",
   "description": "Baidu ERNIE is a powerful AI language model designed to enhance Chinese and English language processing for Baidu search and other services.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/baidu-ernie" }
 }
 </script>

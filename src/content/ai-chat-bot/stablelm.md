@@ -132,8 +132,8 @@ StableLM signifies Stability AI's commitment to open language models, offering v
   "@type": "Article",
   "headline": "Exploring the StableLM Models: Open-Source AI from Stability AI",
   "description": "StableLM is an integral part of the open-source AI movement, providing robust tools for developers and researchers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@id": "https://aichatwatch.com/ai-chat-bot/stablelm" }
 }
 </script>

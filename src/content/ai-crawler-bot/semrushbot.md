@@ -142,8 +142,8 @@ SemrushBot serves as the backbone crawler for Semrush's complete SEO and marketi
   "@type": "Article",
   "headline": "What is SemrushBot and Why It Matters",
   "description": "SemrushBot is a web crawler operated by Semrush, used for collecting data for SEO tools.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/semrushbot" }
 }
 </script>

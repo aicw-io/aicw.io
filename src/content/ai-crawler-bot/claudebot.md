@@ -274,8 +274,8 @@ Anthropic operates multiple crawlers for different purposes. **ClaudeBot** colle
   "@type": "Article",
   "headline": "ClaudeBot: Understanding Anthropic's Web Crawlers",
   "description": "This article explains the various crawlers and bots operated by Anthropic and their functions in data collection for Claude AI models.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claudebot" }
 }
 </script>

@@ -217,8 +217,8 @@ For researchers, students, and professionals needing rapid insights into scienti
   "@type": "Article",
   "headline": "Consensus AI: AI-Powered Search Engine for Scientific Research",
   "description": "Consensus AI is a revolutionary search engine tailored for scientific research, offering AI-powered academic search capabilities to help users discover peer-reviewed papers swiftly.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/consensus" }
 }
 </script>

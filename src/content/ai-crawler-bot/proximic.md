@@ -156,8 +156,8 @@ Competitors like Oracle, IBM, and DoubleVerify offer similar services, all servi
   "@type": "Article",
   "headline": "What is Proximic and Why Does it Matter",
   "description": "Proximic is a crucial web crawler operated by Comscore for contextual targeting and brand safety in advertising.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/proximic" }
 }
 </script>

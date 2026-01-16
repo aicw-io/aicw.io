@@ -236,8 +236,8 @@ The integration of powerful AI and user-friendly design makes Arc Search an esse
   "@type": "Article",
   "headline": "Arc Search: The Complete Guide to AI-Powered Web Browsing",
   "description": "This guide explores Arc Search, an AI tool designed for enhanced web browsing, providing quick summaries and streamlined information retrieval.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/arc-search" }
 }
 </script>

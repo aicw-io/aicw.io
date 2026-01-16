@@ -180,8 +180,8 @@ Compared to established crawlers like Googlebot, YouBot is newer and likely cove
   "@type": "Article",
   "headline": "YouBot: The AI-Powered Web Crawler for You.com",
   "description": "YouBot is an automated web crawler developed by You.com to build and maintain its AI-powered search index.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/youbot" }
 }
 </script>

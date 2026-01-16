@@ -143,8 +143,8 @@ Understanding how Omgilibot functions aids informed decisions about allowing or 
   "@type": "Article",
   "headline": "What is Omgilibot and Why Does It Matter",
   "description": "Omgilibot is a crucial web crawler operated by Webz.io that plays a significant role in data collection for businesses.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/omgilibot" }
 }</script>
 <script type="application/ld+json">{

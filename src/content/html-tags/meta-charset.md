@@ -158,8 +158,8 @@ Proper **HTML character encoding** prevents garbled text and broken special char
   "@type": "Article",
   "headline": "What Is the Meta Charset Tag and Why It Matters",
   "description": "The meta charset tag is crucial for informing web browsers how to read and display text properly on webpages, ensuring multilingual content displays correctly.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/meta-charset" }
 }
 </script>

@@ -124,8 +124,8 @@ The Perplexity chatbot addresses a significant need in the AI assistant market b
   "@type": "Article",
   "headline": "Perplexity: The AI Chatbot Reimagining Real-Time Search",
   "description": "Discover how Perplexity integrates conversational abilities with real-time web search, offering accurate information with inline citations.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/perplexity" }
 }
 </script>

@@ -153,8 +153,8 @@ Claude-SearchBot is Anthropic's specialized crawler for building a search index 
   "@type": "Article",
   "headline": "Understanding Claude-SearchBot: Anthropic's AI Crawler",
   "description": "Claude-SearchBot is Anthropic's specialized crawler for building a search index used by the Claude AI assistant.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claude-searchbot" }
 }
 </script>

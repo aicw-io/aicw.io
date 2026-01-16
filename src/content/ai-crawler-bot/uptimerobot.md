@@ -192,8 +192,8 @@ You should generally not block the crawler if you use UptimeRobot for monitoring
   "@type": "Article",
   "headline": "Understanding UptimeRobot: A Comprehensive Guide to Monitoring Crawlers",
   "description": "Learn how UptimeRobot monitors website uptime effectively, ensuring your site remains operational.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/uptimerobot" }
 }
 </script>

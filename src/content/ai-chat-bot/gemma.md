@@ -170,8 +170,8 @@ For edge deployment and resource-constrained environments, Gemma represents a st
   "@type": "Article",
   "headline": "Google Gemma: Lightweight AI Models for Edge AI Deployment",
   "description": "Google's Gemma models fill an important gap in the AI ecosystem, enabling edge deployment for various applications.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/gemma" }
 }
 </script>

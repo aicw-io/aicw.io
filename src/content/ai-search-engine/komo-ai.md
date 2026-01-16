@@ -134,8 +134,8 @@ Komo AI Features Overview:
   "@type": "Article",
   "headline": "Komo AI Search Engine: Fast, Ad-Free Search Experience",
   "description": "Komo AI offers a fast, ad-free, and privacy-focused search experience, providing direct answers and enhancing user convenience.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/komo-ai" }
 }
 </script>

@@ -141,8 +141,8 @@ OAI-SearchBot represents OpenAI's dedicated crawler for ChatGPT Search indexing.
   "@type": "Article",
   "headline": "Understanding OAI-SearchBot for Enhanced ChatGPT Search Functionality",
   "description": "A comprehensive guide on OAI-SearchBot, its working process, and implications for web content management and SEO strategies.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/oai-searchbot" }
 }
 </script>

@@ -200,8 +200,8 @@ Compared to other crawlers like Googlebot and GPTBot, Amazonbot serves specific 
   "@type": "Article",
   "headline": "What is Amazonbot?"
   "description": "Amazonbot is Amazon's official web crawler that indexes websites to support Alexa and other services.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/amazonbot" }
 }
 </script>

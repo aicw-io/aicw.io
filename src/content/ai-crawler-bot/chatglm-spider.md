@@ -152,8 +152,8 @@ AI training crawlers will likely become more common as more companies develop la
   "@type": "Article",
   "headline": "Understanding ChatGLM-Spider: A Web Crawler for AI Models",
   "description": "ChatGLM-Spider is a web crawler by Zhipu AI that collects data for training AI language models.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/chatglm-spider" }
 }
 </script>

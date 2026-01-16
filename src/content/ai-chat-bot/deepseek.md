@@ -153,8 +153,8 @@ With training costs around $5.5 million, DeepSeek challenges the assumption that
   "@type": "Article",
   "headline": "DeepSeek: Open Source AI Models Revolutionizing the Industry",
   "description": "DeepSeek is revolutionizing the AI industry with open-source large language models that are cost-effective and accessible.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/deepseek" }
 }
 </script>

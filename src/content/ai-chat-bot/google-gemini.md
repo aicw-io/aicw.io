@@ -172,8 +172,8 @@ Google Gemini is a robust AI assistant, especially advantageous to users within 
   "@type": "Article",
   "headline": "What is Google Gemini: Overview of Features and Pricing",
   "description": "Google Gemini is Google's AI chatbot and assistant, offering advanced features and integration with Google services. This article explores its capabilities and subscription plans.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/google-gemini" }
 }
 </script>

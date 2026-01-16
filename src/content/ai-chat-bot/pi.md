@@ -160,8 +160,8 @@ Privacy considerations remain paramount, given the personal nature of conversati
   "@type": "Article",
   "headline": "What Is Pi AI and Why It Matters",
   "description": "An overview of Pi AI, a personal chatbot focused on empathy and conversation, its features, and its unique approach to AI interaction.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/pi" }
 }
 </script>

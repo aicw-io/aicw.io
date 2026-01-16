@@ -174,8 +174,8 @@ The broader context of AI data collection involves ongoing debates about ethics,
   "@type": "Article",
   "headline": "Kangaroo Bot: AI Crawler for Data Training",
   "description": "Kangaroo Bot is an AI crawler bot designed for web data collection to train machine learning models, serving as an AI web scraper that automates the data gathering process.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/kangaroo-bot" }
 }
 </script>

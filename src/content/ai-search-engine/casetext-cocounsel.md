@@ -288,8 +288,8 @@ CoCounsel ensures data protection through encryption, secure servers, access con
   "@type": "Article",
   "headline": "CoCounsel: Your Guide to AI-Powered Legal Research Tool",
   "description": "CoCounsel is an innovative AI legal assistant by Casetext enhancing legal research and document review processes.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/casetext-cocounsel" }
 }
 </script>

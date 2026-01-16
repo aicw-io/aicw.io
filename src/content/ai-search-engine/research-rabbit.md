@@ -102,8 +102,8 @@ ResearchRabbit is crucial for researchers to find research papers effortlessly. 
   "@type": "Article",
   "headline": "Discovering Research Papers with ResearchRabbit: A Comprehensive Guide",
   "description": "ResearchRabbit is an AI-powered literature discovery platform that assists researchers in finding and staying updated with academic research papers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/research-rabbit" }
 }
 </script>

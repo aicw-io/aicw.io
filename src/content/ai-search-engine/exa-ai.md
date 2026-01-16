@@ -270,8 +270,8 @@ Exa AI offers powerful neural search capabilities through a user-friendly AI API
   "@type": "Article",
   "headline": "Exa AI: Complete Guide to the Neural Search Engine for Developers",
   "description": "Explore Exa AI, a powerful neural search engine, its features, use cases, pricing, and integration for developers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/exa-ai" }
 }
 </script>

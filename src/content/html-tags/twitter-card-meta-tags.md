@@ -266,8 +266,8 @@ For web developers and marketers, Twitter Cards are vital, boosting click-throug
   "@type": "Article",
   "headline": "Understanding Twitter Card Meta Tags",
   "description": "Learn about Twitter Card meta tags, their purpose, types, and how to implement them effectively for your web content.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/twitter-card-meta-tags" }
 }
 </script>

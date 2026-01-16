@@ -266,8 +266,8 @@ Modern alternatives like structured data markup and visible bylines offer superi
   "@type": "Article",
   "headline": "Understanding Meta Author and Meta Generator HTML Tags",
   "description": "Explore the significance of meta author and generator tags, their purpose, and their implications for SEO and security.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/meta-author-generator" }
 }
 </script>

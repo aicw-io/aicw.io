@@ -144,8 +144,8 @@ New Relic Synthetics offers comprehensive performance monitoring with automated 
   "@type": "Article",
   "headline": "New Relic Synthetics: Performance Monitoring for Websites",
   "description": "Explore how New Relic Synthetics provides essential performance monitoring tools that simulate user interactions with websites to catch issues early.",
-  "author": {"@type": "Organization", "name": "AI Chat Watch"},
-  "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
+  "author": {"@type": "Organization", "name": "AICW"},
+  "publisher": {"@type": "Organization", "name": "AICW"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/newrelic-synthetics"}
 }
 </script>

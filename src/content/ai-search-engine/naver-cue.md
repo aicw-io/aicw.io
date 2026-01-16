@@ -135,8 +135,8 @@ Naver Cue User Workflow:
   "@type": "Article",
   "headline": "Naver Cue: Korean AI Search Powered by HyperCLOVA X",
   "description": "Naver Cue is a revolutionary AI search tool launched in South Korea, optimized for Korean language and culture.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/naver-cue" }
 }
 </script>

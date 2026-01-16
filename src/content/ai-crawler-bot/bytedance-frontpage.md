@@ -152,8 +152,8 @@ Website owners control whether to allow or block the Toutiao crawler. Consider s
   "@type": "Article",
   "headline": "Understanding ByteDance-Frontpage: The AI News Crawler",
   "description": "An article discussing the workings and implications of the ByteDance-Frontpage AI crawler bot used for news aggregation.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bytedance-frontpage" }
 }
 </script>

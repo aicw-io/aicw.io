@@ -125,8 +125,8 @@ Woebot represents a significant development in mental health AI technology. The 
   "@type": "Article",
   "headline": "Understanding Woebot: A Mental Health Chatbot",
   "description": "Woebot is a mental health chatbot designed to support users in managing anxiety and depression through cognitive behavioral therapy techniques.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/woebot" }
 }
 </script>

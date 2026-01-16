@@ -131,8 +131,8 @@ AI user agent management is evolving as technology advances. As more AI services
   "@type": "Article",
   "headline": "OpenAI GPT User Agent: Understanding AI Browsing Activity",
   "description": "The OpenAI-GPT-User agent string is crucial for identifying ChatGPT browsing activity and managing AI bot interactions on websites.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/openai-gpt-user" }
 }
 </script>

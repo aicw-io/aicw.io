@@ -182,8 +182,8 @@ As the open-source AI ecosystem evolves, projects like OpenChat will play an inc
   "@type": "Article",
   "headline": "What OpenChat Is and Why It Matters",
   "description": "OpenChat is an open-source large language model developed by laion.ai, serving as an accessible chatbot alternative using innovative training methods.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/openchat" }
 }
 </script>

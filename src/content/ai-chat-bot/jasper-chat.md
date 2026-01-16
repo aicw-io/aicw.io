@@ -126,8 +126,8 @@ Jasper Chat is a content generation AI tool tailored for marketing, helping busi
   "@type": "Article",
   "headline": "Jasper Chat: The AI-Powered Marketing Tool for Efficient Content Creation",
   "description": "Jasper Chat enhances content generation for marketing, providing customized brand voice and seamless integration with workflows.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/jasper-chat" }
 }
 </script>
