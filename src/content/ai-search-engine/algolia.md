@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Algolia: AI-Powered Search API Guide for Developers"
 description: "Complete guide to implementing Algolia's AI search API. Learn key features, integration steps, pricing, and best practices for adding fast search to your apps."

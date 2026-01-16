@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "GrokBot: xAI's Web Crawler for Training Grok AI Model"
 description: "Learn about xAI's GrokBot web crawler, its purpose, user-agent spoofing issues, and how to block it from accessing your website."

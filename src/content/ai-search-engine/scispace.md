@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "SciSpace Tool: Make Research Papers Easy"
 description: "Discover SciSpace, the AI tool that simplifies research papers with features for Q&A, highlighting, and more."

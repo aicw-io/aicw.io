@@ -2,9 +2,10 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Navigation from '../../components/Navigation.astro';
+import { publishedFilter } from '../../utils/content-helpers';
 
-const books = await getCollection('books');
-const sortedBooks = books.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const books = await getCollection('books', publishedFilter);
+const sortedBooks = books.sort((a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf());
 ---
 
 <BaseLayout

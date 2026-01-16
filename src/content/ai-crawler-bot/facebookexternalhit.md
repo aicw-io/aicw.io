@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding facebookexternalhit: Facebook's Link Crawler"
 description: "Learn what facebookexternalhit is, how it works for Facebook link previews, and best practices for handling this Meta crawler on your website."

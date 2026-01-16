@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Understanding Amazon Q: AWS's AI Assistant for Enterprises and Developers"
 description: "Discover Amazon Q, AWS's AI assistant for businesses and developers, covering its integration with AWS, roles in enterprise and development, and security advantages."

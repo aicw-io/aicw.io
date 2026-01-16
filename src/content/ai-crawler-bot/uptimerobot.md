@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "UptimeRobot's Website Monitoring Crawler Explained"
 description: "Learn about UptimeRobot's monitoring crawler, its user-agent, configurations, and how it compares to alternatives for uptime monitoring."

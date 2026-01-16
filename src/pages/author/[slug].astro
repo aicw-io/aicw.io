@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { publishedFilter } from '../../utils/content-helpers';
 
 export async function getStaticPaths() {
   const authors = await getCollection('authors');
@@ -14,7 +15,7 @@ const { author } = Astro.props;
 const { Content } = await author.render();
 
 // Get all blog posts by this author
-const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const allPosts = await getCollection('blog', publishedFilter);
 // Filter posts by resolving author reference and comparing IDs
 const authorPosts = await Promise.all(
   allPosts.map(async (post) => {
@@ -22,7 +23,7 @@ const authorPosts = await Promise.all(
     return postAuthor.id === author.id ? post : null;
   })
 ).then(posts => posts.filter(p => p !== null));
-const sortedPosts = authorPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const sortedPosts = authorPosts.sort((a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf());
 ---
 
 <BaseLayout
@@ -208,12 +209,12 @@ const sortedPosts = authorPosts.sort((a, b) => b.data.date.valueOf() - a.data.da
 
                       {/* Meta */}
                       <div class="flex items-center justify-between text-sm text-text-light">
-                        <time datetime={post.data.date.toISOString()}>
+                        <time datetime={post.data.published_at.toISOString()}>
                           {new Intl.DateTimeFormat('en-US', {
                             year: 'numeric',
                             month: 'long',
                             day: 'numeric'
-                          }).format(post.data.date)}
+                          }).format(post.data.published_at)}
                         </time>
                         <a
                           href={`/blog/${post.slug}/`}

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Liner AI Research Tool: Complete Guide for Students"
 description: "Complete guide to Liner AI tool for academic research. Learn how to use AI search, highlighting, citations and trusted sources for better research."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "AI Crawler Bots: Understanding Their Role in AI Systems"
 description: "Learn how AI crawler bots gather data for AI systems, their operations, and impact on modern AI data collection and training processes."

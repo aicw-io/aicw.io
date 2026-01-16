@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "HuggingChat: Open-Source Chatbot by Hugging Face"
 description: "HuggingChat is an open-source chatbot interface by Hugging Face. Free access to Llama, Mistral and other models with privacy focus."

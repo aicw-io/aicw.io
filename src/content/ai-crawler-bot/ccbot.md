@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-15
 title: "CCBot Common Crawl: Complete Guide to Block & Control"
 description: "Learn about CCBot crawler, how Common Crawl bot collects AI training data, and how to block CCBot using robots.txt. Complete technical guide."

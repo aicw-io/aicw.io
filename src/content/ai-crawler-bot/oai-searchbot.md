@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding OAI-SearchBot: OpenAI's Search Indexing Crawler"
 description: "Explore OAI-SearchBot's role in indexing for ChatGPT Search, its differences from GPTBot, and how to manage its impact on your site."

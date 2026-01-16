@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Claude-SearchBot Guide: Anthropic's Search Indexing Crawler"
 description: "Learn how Claude-SearchBot indexes web content for Anthropic's search features. User-agent strings, blocking methods, and key distinctions explained."

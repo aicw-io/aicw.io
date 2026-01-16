@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "Meta Viewport Tag: Essential for Mobile-Responsive Websites"
 description: "Learn how the meta viewport tag makes your website mobile-friendly. Understand width, initial-scale, and viewport properties for responsive design."

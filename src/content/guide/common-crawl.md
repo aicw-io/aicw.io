@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-13
 title: "Common Crawl Presence Guide: Check Your Site in AI Data"
 description: "Learn how to check if your website is in Common Crawl's archive, understand CCBot crawling cycles, and decide if presence benefits your business."

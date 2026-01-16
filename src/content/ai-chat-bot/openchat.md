@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "OpenChat: Community Fine-Tuned LLM Guide"
 description: "Explore OpenChat, the open-source chatbot with high-quality responses through efficient C-RLFT training. Compare benchmarks and licensing."

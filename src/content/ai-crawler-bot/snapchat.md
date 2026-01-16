@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "Snapchat's Link Preview Crawler: How It Works & Optimize"
 description: "Learn how Snapchat's link preview crawler works, identify its user-agent, and optimize or block it. Complete guide for developers and marketers."

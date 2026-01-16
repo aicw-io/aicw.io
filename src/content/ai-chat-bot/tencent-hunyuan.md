@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Exploring Tencent Hunyuan: AI Innovations from China's Tech Giant"
 description: "In-depth guide to Tencent Hunyuan, its WeChat integration, Tencent Cloud features, and position in the Chinese AI market compared to competitors."

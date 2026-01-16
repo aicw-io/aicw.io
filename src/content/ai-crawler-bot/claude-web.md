@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Claude-Web: Anthropic's Real-Time Browsing Bot"
 description: "Learn about Claude-Web by Anthropic, its real-time browsing capabilities, user-initiated actions, and key differences from ClaudeBot."

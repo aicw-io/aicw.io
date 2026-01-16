@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "DuckDuckGo AI Chat: Private AI Conversations With No Data Storage"
 description: "Learn about DuckDuckGo's privacy-focused AI chat that uses multiple models like GPT-4, Claude 3 and others while keeping your conversations private."

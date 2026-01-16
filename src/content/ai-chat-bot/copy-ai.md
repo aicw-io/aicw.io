@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Copy.ai Guide: Features, Templates & Marketing Automation"
 description: "Complete guide to Copy.ai's 90+ templates, workflow automation, and brand voice features. Compare with Jasper and other AI writing tools."

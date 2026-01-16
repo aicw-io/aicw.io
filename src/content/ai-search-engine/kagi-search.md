@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Kagi Search Guide: Why 50K+ Users Pay for Ad-Free Search"
 description: "Complete guide to Kagi Search premium features, AI tools, and pricing. Learn why users pay $5-25/month for ad-free, privacy-focused search."

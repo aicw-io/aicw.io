@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "Pingdom Bot Guide: SolarWinds Monitoring Crawler Features"
 description: "Learn how Pingdom bot works for website monitoring. Covers user-agent strings, blocking options, and performance tracking features."

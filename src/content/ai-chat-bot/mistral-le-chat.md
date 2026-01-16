@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Mistral Le Chat: Europe's Leading AI Chatbot Explained"
 description: "Discover Mistral Le Chat, the European AI chatbot with multilingual support, EU data sovereignty, and powerful language models for developers."

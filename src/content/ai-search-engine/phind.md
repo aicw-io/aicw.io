@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Guide to Phind: AI Search for Developers"
 description: "Explore Phind, the AI tool optimized for developers. Compare it with GitHub Copilot and Stack Overflow."

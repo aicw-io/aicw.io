@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Screaming Frog SEO Spider Guide for Technical Audits"
 description: "Complete guide to Screaming Frog SEO Spider desktop crawler. Learn technical SEO audits, user-agent detection, and compare with cloud alternatives."

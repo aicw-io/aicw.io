@@ -1,9 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import GuideLayout from '../../layouts/GuideLayout.astro';
+import { publishedFilter } from '../../utils/content-helpers';
 
 export async function getStaticPaths() {
-  const docs = await getCollection('docs', ({ data }) => !data.draft);
+  const docs = await getCollection('docs', publishedFilter);
   return docs.map((doc) => ({
     params: { slug: doc.slug },
     props: { guide: doc },

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "FeedFetcher-Google: Complete Guide to Google Feed Crawler"
 description: "Learn about FeedFetcher-Google bot, how it crawls RSS feeds for Google services, user-agent details, and blocking considerations for publishers."

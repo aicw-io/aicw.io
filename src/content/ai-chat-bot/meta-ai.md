@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Meta AI Guide: Facebook & Instagram's Virtual Assistant"
 description: "Learn about Meta AI's integration across Facebook, Instagram, and WhatsApp. Explore Llama 4 model features, Imagine image generation, and free access."

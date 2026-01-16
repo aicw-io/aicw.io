@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Lexis+ AI Legal Research Platform Complete Guide"
 description: "Comprehensive guide to Lexis+ AI legal research tool. Learn about its 83M+ document database, hallucination safeguards, and how it compares to competitors."

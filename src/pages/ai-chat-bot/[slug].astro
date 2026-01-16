@@ -1,9 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import GuideLayout from '../../layouts/GuideLayout.astro';
+import { publishedFilter } from '../../utils/content-helpers';
 
 export async function getStaticPaths() {
-  const guides = await getCollection('ai-chat-bot', ({ data }) => !data.draft);
+  const guides = await getCollection('ai-chat-bot', publishedFilter);
   return guides.map((guide) => ({
     params: { slug: guide.slug },
     props: { guide },

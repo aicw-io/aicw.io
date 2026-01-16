@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Qwant: French Privacy Search Engine Insights"
 description: "Explore Qwant, a French privacy-focused search engine, and its features."

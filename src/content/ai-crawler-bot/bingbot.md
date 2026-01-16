@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-15
 title: "Microsoft Bingbot: Complete Guide for Website Owners"
 description: "Everything you need to know about Bingbot, Microsoft's crawler that powers both Bing Search and Copilot AI. Learn user agents, blocking methods, and strategic tradeoffs."

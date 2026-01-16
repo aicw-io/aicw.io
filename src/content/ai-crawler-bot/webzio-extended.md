@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Comprehensive Guide to webzio-extended: Webz.io's AI Crawler"
 description: "Learn about webzio-extended crawler for AI training data, its purpose, user-agent details, blocking methods, and how it differs from Omgilibot."

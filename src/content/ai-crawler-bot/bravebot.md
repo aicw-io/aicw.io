@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Bravebot: Brave Search's Independent Crawler"
 description: "Explore Bravebot, the crawler for Brave Search's privacy-focused engine, covering its purpose, user-agent, and AI features."

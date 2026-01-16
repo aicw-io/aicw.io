@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Exploring Codeium: Your Free AI Code Completion Tool"
 description: "Learn about Codeium, the free AI code assistant. Discover its features, including autocomplete, Windsurf IDE, and how it compares to alternatives."

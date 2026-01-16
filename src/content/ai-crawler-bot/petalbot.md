@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding PetalBot: Huawei's Search & AI Crawler"
 description: "Complete guide to Huawei's PetalBot crawler. Learn its purpose, user-agent string, crawl behavior, and how to block it from your site."

@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-15
 title: "JSON-LD Schema Markup for AI Visibility Guide"
 description: "Learn how to make content machine-readable for AI systems using JSON-LD schema markup. Includes code examples, validation tools, and implementation tips."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Daumoa: Kakao's Search Crawler"
 description: "Learn about Daumoa, Kakao's search bot that indexes Korean web content. Discover its purpose, user-agent string, and blocking options."

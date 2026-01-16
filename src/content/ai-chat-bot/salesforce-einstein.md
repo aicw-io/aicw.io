@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Mastering Salesforce Einstein: AI Innovations for CRM Success"
 description: "Explore Salesforce Einstein's AI-driven tools for CRM automation, featuring Einstein GPT, Bots, and AI-powered solutions for sales and service."

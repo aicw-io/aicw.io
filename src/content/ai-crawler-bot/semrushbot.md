@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Comprehensive Guide to SemrushBot for SEO and Marketing"
 description: "Learn how SemrushBot crawls websites for SEO data, site auditing, and backlink analysis. Blocking options and relationship to Semrush tools explained."

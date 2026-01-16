@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "Understanding FeedlyBot: The Essential Guide for RSS Users"
 description: "Learn about FeedlyBot, its role in feed retrieval, legitimate RSS use, and blocking implications for Feedly users."

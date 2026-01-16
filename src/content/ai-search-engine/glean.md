@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Glean Enterprise AI Search Platform Guide for 2024"
 description: "Complete guide to Glean AI search platform. Learn about $4.6B valuation, 100+ integrations, Fortune 500 clients, security features and pricing."

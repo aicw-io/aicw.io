@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Microsoft Phi Small Language Models: Complete Guide"
 description: "Learn about Microsoft's Phi small language models, their efficiency, Phi-3 variants, and how they enable on-device AI with MIT licensing."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2025-12-31
 title: "Elicit AI: Smart Literature Review Tool for Research"
 description: "Deep dive into Elicit AI - the advanced research assistant that helps extract and analyze scientific papers for faster literature reviews."

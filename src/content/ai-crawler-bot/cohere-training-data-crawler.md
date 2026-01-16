@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Cohere Training Data Crawler for Bulk Data Collection"
 description: "Learn about Cohere's specialized crawler for AI training data collection, how it differs from their chatbot, and how to manage it."

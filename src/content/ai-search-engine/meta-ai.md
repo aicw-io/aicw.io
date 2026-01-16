@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Meta AI Guide: Facebook's Search Assistant Explained"
 description: "Complete guide to Meta AI, Facebook's assistant on WhatsApp, Instagram and Messenger. Learn features, capabilities and how it compares to ChatGPT."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Google Gemini Guide: Features, Integration & Comparison"
 description: "Complete guide to Google Gemini AI chatbot. Learn about features, pricing, Google Workspace integration, and how it compares to ChatGPT and Claude."

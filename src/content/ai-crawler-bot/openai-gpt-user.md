@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "OpenAI-GPT-User Agent: Blocking & Detection Methods"
 description: "Learn about OpenAI-GPT-User agent strings, blocking strategies, IP verification methods and alternative approaches for managing AI bot access."

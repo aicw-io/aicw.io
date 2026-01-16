@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Tongyi Qianwen: Alibaba's AI Assistant Explained"
 description: "Complete guide to Tongyi Qianwen AI assistant. Learn about Qwen models, Alibaba ecosystem integration, ERNIE Bot comparison and more."

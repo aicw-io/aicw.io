@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "Meta Author and Meta Generator Tags in HTML Explained"
 description: "Learn about meta author and meta generator tags in HTML. Understand their purpose, how to use them, and whether they matter for your website today."

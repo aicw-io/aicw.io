@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-03
 title: "YandexGPT AI Engine: Features, Capabilities & Comparison"
 description: "Complete guide to YandexGPT, the AI model powering Russia's leading search engine. Learn about features, Alice assistant, and how it compares to alternatives."

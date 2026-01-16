@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Character.AI Features, Safety & Community Guide"
 description: "Learn about Character.AI's custom character creation, roleplay features, safety measures, and how it compares to AI chatbot alternatives."

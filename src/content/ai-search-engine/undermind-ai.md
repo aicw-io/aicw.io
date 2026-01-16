@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Undermind.ai for Literature Searches"
 description: "Explore how Undermind.ai aids exhaustive AI literature searches and systematic reviews."

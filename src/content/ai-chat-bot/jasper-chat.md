@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Mastering Jasper Chat: The Ultimate AI Tool for Marketing"
 description: "Discover how Jasper Chat enhances marketing with brand voice customization and collaboration features for content teams."

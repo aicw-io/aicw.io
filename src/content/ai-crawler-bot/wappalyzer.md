@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "Wappalyzer: A Comprehensive Guide to Technology Profiling"
 description: "Learn how Wappalyzer identifies website technologies and its comparison with BuiltWith. Complete guide to tech detection tools."

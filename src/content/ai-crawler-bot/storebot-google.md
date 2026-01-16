@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Storebot-Google: The Google Shopping Crawler Explained"
 description: "Technical guide to Storebot-Google crawler, covering its purpose in e-commerce, feed validation, user-agent string and Merchant Center functionality."

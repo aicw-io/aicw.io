@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Woebot Guide: CBT Mental Health Chatbot Features & Facts"
 description: "Learn about Woebot's CBT approach, FDA designation, privacy features, and how this mental health AI chatbot works for therapy support."

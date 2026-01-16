@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Tabnine AI Code Assistant: Privacy-Focused On-Premise Tool"
 description: "Explore Tabnine, the secure AI code assistant with privacy-focused features and on-premise deployment for enterprises seeking advanced coding solutions."

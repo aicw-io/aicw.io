@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Google-InspectionTool: URL Inspection & SEO Debugging Guide"
 description: "Learn how Google-InspectionTool powers Search Console's URL inspection for on-demand crawling, SEO testing, and debugging website issues."

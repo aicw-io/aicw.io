@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Google AI Overviews Guide: SGE Search Summaries Explained"
 description: "Complete guide to Google AI Overviews (formerly SGE). Learn how AI summaries work in search results, opt-out options, and SEO impact for websites."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Baiduspider: Baidu's Search Crawler Explained"
 description: "Explore Baiduspider, Baidu's powerful search crawler. Understand its role in indexing, user-agent strings, and its connection to ERNIE AI."

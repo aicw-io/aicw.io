@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "AdBeat: Advertising Intelligence Crawler Guide"
 description: "Learn about AdBeat's crawler for competitive ad analysis and tracking. Discover user-agent strings, use cases, and blocking options."

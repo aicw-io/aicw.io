@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "DeepSeek Open Source AI Models: China's Impact on AI Industry"
 description: "DeepSeek's open-source AI models are changing the landscape. Learn about their viral growth, model performance, and economic implications."

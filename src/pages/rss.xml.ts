@@ -1,10 +1,11 @@
 import rss from '@astrojs/rss';
 import { getCollection, getEntry } from 'astro:content';
 import type { APIContext } from 'astro';
+import { publishedFilter } from '../utils/content-helpers';
 
 export async function GET(context: APIContext) {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
-  const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const posts = await getCollection('blog', publishedFilter);
+  const sortedPosts = posts.sort((a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf());
 
   // Get author data for each post
   const itemsWithAuthors = await Promise.all(
@@ -13,7 +14,7 @@ export async function GET(context: APIContext) {
       return {
         title: post.data.title,
         description: post.data.description,
-        pubDate: post.data.date,
+        pubDate: post.data.published_at,
         author: author.data.name,
         categories: post.data.categories,
         link: `/blog/${post.slug}/`,

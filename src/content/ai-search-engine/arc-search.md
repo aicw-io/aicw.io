@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2025-12-30
 title: "Arc Search: Complete Guide to AI-Powered Web Browsing"
 description: "Detailed guide to Arc Search - the AI-powered search tool by The Browser Company that helps users find and summarize web content faster and more efficiently."

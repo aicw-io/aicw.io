@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Felo AI Multilingual Search: Complete Guide & Features"
 description: "Discover how Felo AI breaks language barriers with multilingual search, real-time translation, and cross-language capabilities for global users."

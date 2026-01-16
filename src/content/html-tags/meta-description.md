@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:12:26
+published_at: 2026-01-14 18:12:26
 date_updated_at: 2026-01-15
 title: "HTML Meta Description Tag: Write Descriptions That Get Clicks"
 description: "Learn how to write meta descriptions that boost click-through rates. Best practices for length, formatting, and SEO optimization explained."

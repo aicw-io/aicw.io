@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Drift: Unlocking B2B Sales with Conversational AI"
 description: "Comprehensive guide on Drift's conversational AI tools for enhancing B2B sales and marketing strategies efficiently."

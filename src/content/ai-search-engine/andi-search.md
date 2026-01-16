@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2025-12-31
 title: "Andi Search: AI Search Engine with Zero Ads & Full Privacy"
 description: "Complete guide to Andi Search - the AI-powered search engine that blocks ads and protects privacy while providing direct answers to your questions."

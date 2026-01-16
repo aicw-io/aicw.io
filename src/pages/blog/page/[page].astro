@@ -7,13 +7,11 @@ import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Navigation from '../../../components/Navigation.astro';
 import Pagination from '../../../components/Pagination.astro';
+import { publishedFilter } from '../../../utils/content-helpers';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => {
-    if (data.draft) return false;
-    return data.date <= new Date();
-  });
-  const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const posts = await getCollection('blog', publishedFilter);
+  const sortedPosts = posts.sort((a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf());
 
   const postsPerPage = 7;
   const totalPages = Math.ceil(sortedPosts.length / postsPerPage);
@@ -40,10 +38,7 @@ const postsWithAuthors = await Promise.all(
 );
 
 // Get all posts for category filter
-const allPosts = await getCollection('blog', ({ data }) => {
-  if (data.draft) return false;
-  return data.date <= new Date();
-});
+const allPosts = await getCollection('blog', publishedFilter);
 const allCategories = [...new Set(allPosts.flatMap(post => post.data.categories))];
 ---
 
@@ -139,12 +134,12 @@ const allCategories = [...new Set(allPosts.flatMap(post => post.data.categories)
 
                 {/* Meta */}
                 <div class="flex items-center justify-between text-sm text-text-light">
-                  <time datetime={post.data.date.toISOString()}>
+                  <time datetime={post.data.published_at.toISOString()}>
                     {new Intl.DateTimeFormat('en-US', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric'
-                    }).format(post.data.date)}
+                    }).format(post.data.published_at)}
                   </time>
                   <span>{post.authorData.name}</span>
                 </div>

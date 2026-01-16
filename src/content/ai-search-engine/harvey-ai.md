@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Harvey AI: Custom AI Solution for Large Law Firms Explained"
 description: "Learn how Harvey AI provides custom AI models for Am Law 100 firms, its partnership with Allen & Overy, OpenAI investment, and enterprise deployment."

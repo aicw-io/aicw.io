@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "Meta Keywords Tag: History, Usage, and Why Engines Ignore It"
 description: "Learn about the meta keywords tag, its history in SEO, why Google and other search engines stopped using it, and whether you should still use it today."

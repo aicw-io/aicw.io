@@ -1,13 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import BlogLayout from '../../layouts/BlogLayout.astro';
+import { publishedFilter } from '../../utils/content-helpers';
 
 export async function getStaticPaths() {
-  // Filter out drafts and future posts (scheduled posts)
-  const posts = await getCollection('blog', ({ data }) => {
-    if (data.draft) return false;
-    return data.date <= new Date();
-  });
+  const posts = await getCollection('blog', publishedFilter);
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },

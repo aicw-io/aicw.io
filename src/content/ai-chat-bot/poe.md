@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Guide to Poe: Quora's Multi-Model AI Chat Platform"
 description: "Explore Poe by Quora. Discover its multi-model chat capabilities including ChatGPT, Claude, Llama, and custom bots, pricing, and comparison insights."

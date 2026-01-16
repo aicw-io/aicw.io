@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "Understanding BuiltWith's Technology Detection Crawler"
 description: "Learn how BuiltWith's crawler detects website tech stacks, user-agents, and how businesses use it for sales intelligence and market analysis."

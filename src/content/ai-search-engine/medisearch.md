@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "MediSearch Guide: AI Medical Search with Peer-Reviewed Sources"
 description: "Complete guide to MediSearch AI search engine. Learn how it uses peer-reviewed medical sources to provide trustworthy health information."

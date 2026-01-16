@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding YouBot: The AI Search Crawler by You.com"
 description: "Learn about YouBot, You.com's AI search crawler. Discover its purpose, behavior, user-agent details, and how it indexes content for AI search."
