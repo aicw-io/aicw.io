@@ -172,8 +172,8 @@ MJ12bot serves as the data collection engine behind Majestic's backlink intellig
   "@type": "Article",
   "headline": "Understanding MJ12bot: The SEO Crawler Behind Majestic",
   "description": "MJ12bot is Majestic's web crawler used for collecting backlink data crucial for SEO analysis and visibility improvement.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/mj12bot-majestic-seo-crawler" }
 }
 </script>

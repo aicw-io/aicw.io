@@ -162,8 +162,8 @@ The technology might expand beyond traditional advertising. Content recommendati
   "@type": "Article",
   "headline": "What is Grapeshot and Why Should You Care",
   "description": "Grapeshot is a web crawler that scans websites to categorize content for advertising purposes.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/grapeshot" }
 }
 </script>

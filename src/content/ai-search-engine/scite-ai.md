@@ -115,8 +115,8 @@ Scite.ai reshapes how we perceive research impact. By providing context to citat
   "@type": "Article",
   "headline": "Understanding Scite.ai: Smart Citation Analysis Guide",
   "description": "Explore the innovative features of Scite.ai, a citation tracking tool that offers insights into research impact.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/scite-ai" }
 }
 </script>

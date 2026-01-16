@@ -398,8 +398,8 @@ Keep this HTML meta tags list as a reference when building new pages. Copy the t
   "@type": "Article",
   "headline": "HTML Tags and Meta Tags Cheat Sheet",
   "description": "A comprehensive meta tags cheat sheet covering SEO, Open Graph, and Twitter tags with examples.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/meta-tags-cheat-sheet" }
 }
 </script>

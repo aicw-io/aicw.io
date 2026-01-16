@@ -263,8 +263,8 @@ The crawler represents a broader challenge in the AI era where companies aggress
   "@type": "Article",
   "headline": "ByteDance Bytespider: Impacts and Insights on Web Crawling Behavior",
   "description": "Explore the aggressive behavior and implications of ByteDance's web crawler, Bytespider, on website performance and content ownership.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bytespider" }
 }
 </script>
@@ -356,7 +356,7 @@ The crawler represents a broader challenge in the AI era where companies aggress
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

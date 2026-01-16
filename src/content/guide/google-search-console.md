@@ -186,8 +186,8 @@ You can estimate AI-related traffic by filtering for long-tail queries with 10 o
   "@type": "Article",
   "headline": "A Comprehensive Guide to Google Search Console for AI Tracking",
   "description": "Learn how to set up and use Google Search Console to track your website's performance, especially concerning AI-generated content and visibility.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/guide/google-search-console" }
 }
 </script>

@@ -126,8 +126,8 @@ Grammarly AI is the leading AI writing assistant, utilized by over 30 million da
   "@type": "Article",
   "headline": "Grammarly AI: The Leading AI-Powered Writing Assistant",
   "description": "Grammarly AI enhances writing with real-time grammar checking, tone detection, and plagiarism detection across various platforms.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/grammarly" }
 }
 </script>

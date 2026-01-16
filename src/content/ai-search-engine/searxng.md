@@ -105,8 +105,8 @@ SearXNG is an excellent choice for privacy-focused users. Its self-hosting featu
   "@type": "Article",
   "headline": "Comprehensive Guide to SearXNG - The Self-Hosted Metasearch Engine",
   "description": "SearXNG is an open-source, self-hosted metasearch engine offering user privacy by aggregating results from over 70 search engines.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/searxng" }
 }
 </script>

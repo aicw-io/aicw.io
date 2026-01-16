@@ -123,8 +123,8 @@ Microsoft Copilot, leveraging GPT-4 powered AI, enhances Windows 11 and Microsof
   "@type": "Article",
   "headline": "Understanding Microsoft Copilot: The AI Assistant in Windows 11 & 365",
   "description": "A detailed article exploring Microsoft Copilot's features, subscription plans, and data privacy concerns within Microsoft applications.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/microsoft-copilot" }
 }
 </script>

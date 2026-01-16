@@ -154,8 +154,8 @@ Wysa represents a significant development in accessible mental health support, u
   "@type": "Article",
   "headline": "What is Wysa and Why Mental Health AI Matters",
   "description": "An in-depth look at Wysa, the mental health AI chatbot changing access to emotional support.",
-  "author": {"@type": "Organization", "name": "AI Chat Watch"},
-  "publisher": {"@type": "Organization", "name": "AI Chat Watch"},
+  "author": {"@type": "Organization", "name": "AICW"},
+  "publisher": {"@type": "Organization", "name": "AICW"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/wysa"}
 }
 </script>

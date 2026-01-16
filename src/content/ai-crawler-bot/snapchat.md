@@ -142,8 +142,8 @@ Proper tag setup ensures appealing Snapchat link previews. Crawler access can be
   "@type": "Article",
   "headline": "Snapchat Link Preview Crawler Explained",
   "description": "Understanding Snapchat's link preview crawler, its functionality, and how it impacts link sharing.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/snapchat" }
 }
 </script>

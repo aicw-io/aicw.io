@@ -124,8 +124,8 @@ Intercom Fin Implementation Workflow:
   "@type": "Article",
   "headline": "Understanding Intercom Fin: AI Customer Support Automation",
   "description": "Explore how Intercom Fin leverages AI to enhance customer support and reduce operational costs.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/intercom-fin" }
 }
 </script>

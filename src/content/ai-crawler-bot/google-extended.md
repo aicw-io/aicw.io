@@ -153,8 +153,8 @@ Google-Extended provides website owners with precise control over AI training wh
   "@type": "Article",
   "headline": "Understanding Google-Extended: Controlling AI Training Access",
   "description": "Explore Google-Extended, a robots.txt token for managing AI training access to your website content while preserving search visibility.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/google-extended" }
 }
 </script>

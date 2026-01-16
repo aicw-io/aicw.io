@@ -142,8 +142,8 @@ TikTokSpider is ByteDance's specialized web crawler designed for TikTok product 
   "@type": "Article",
   "headline": "Understanding TikTokSpider: The Web Crawler for Product Development",
   "description": "TikTokSpider is a web crawler designed by ByteDance for product development and research in the TikTok ecosystem.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/tiktokspider" }
 }
 </script>
@@ -235,7 +235,7 @@ TikTokSpider is ByteDance's specialized web crawler designed for TikTok product 
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

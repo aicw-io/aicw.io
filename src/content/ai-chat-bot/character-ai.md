@@ -132,8 +132,8 @@ Character.AI represents an evolution in conversational AI, focusing on entertain
   "@type": "Article",
   "headline": "Understanding Character.AI: A Conversational AI Platform",
   "description": "Character.AI is a unique AI chatbot platform focused on character creation and roleplay. Users can engage with distinct personalities while ensuring a secure environment.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/character-ai" }
 }
 </script>

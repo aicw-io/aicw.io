@@ -206,8 +206,8 @@ As Google continues improving crawler capabilities, staying informed about updat
   "@type": "Article",
   "headline": "What is Storebot-Google and Why It Matters",
   "description": "Understanding the role of Storebot-Google as an e-commerce crawler that validates product data for Google Shopping.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/storebot-google" }
 }
 </script>

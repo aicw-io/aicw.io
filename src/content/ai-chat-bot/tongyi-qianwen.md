@@ -126,8 +126,8 @@ Tongyi Qianwen marks Alibaba's significant entry into AI assistants, combining c
   "@type": "Article",
   "headline": "Tongyi Qianwen: Alibaba's AI Assistant",
   "description": "Explore Tongyi Qianwen, Alibaba's advanced AI assistant designed for the Chinese market, focusing on its features and integrations.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/tongyi-qianwen" }
 }
 </script>

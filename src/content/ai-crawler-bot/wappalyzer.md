@@ -143,8 +143,8 @@ Wappalyzer offers accessible technology profiling to businesses of all sizes. Th
   "@type": "Article",
   "headline": "Understanding Wappalyzer: A Comprehensive Technology Detection Tool",
   "description": "Wappalyzer identifies the tech stack of websites, aiding businesses in competitive analysis and tech profiling.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/wappalyzer" }
 }
 </script>

@@ -167,8 +167,8 @@ Kagi AI Features:
   "@type": "Article",
   "headline": "Kagi Search: A Comprehensive Guide to the Premium Ad-Free AI Search Engine",
   "description": "Kagi Search is a paid search engine that stands out as a Google alternative due to its ad-free experience and commitment to user privacy.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/kagi-search" }
 }
 </script>

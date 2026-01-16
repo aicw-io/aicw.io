@@ -162,8 +162,8 @@ Overall, the viewport meta tag is a small yet crucial code piece for modern webs
   "@type": "Article",
   "headline": "Understanding the Viewport Meta Tag for Responsive Design",
   "description": "The viewport meta tag is essential for ensuring mobile websites are displayed correctly on various devices. This article elaborates on its significance in responsive web design.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/meta-viewport" }
 }
 </script>

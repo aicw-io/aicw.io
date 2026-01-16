@@ -125,8 +125,8 @@ As AI technology advances, image collection for training is likely to continue a
     "@type": "Article",
     "headline": "What is ImagesiftBot",
     "description": "ImagesiftBot is an image-focused web crawler operated by The Hive, designed to collect images from websites across the internet for AI model training purposes.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/imagesiftbot" },
     "faqSection": {
       "@type": "FAQPage",

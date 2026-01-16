@@ -198,8 +198,8 @@ Perplexity-Ads-Bot is an advertising crawler operated by Perplexity AI to suppor
   "@type": "Article",
   "headline": "Understanding Perplexity-Ads-Bot and Its Role in Advertising",
   "description": "Perplexity-Ads-Bot is a web crawler operated by Perplexity AI, designed for advertising purposes. It gathers data to support the advertising operations within the Perplexity platform.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/perplexity-ads-bot" }
 }
 </script>

@@ -201,8 +201,8 @@ The streamlined interface and reader mode enhance focus, while Andi's privacy me
   "@type": "Article",
   "headline": "Andi Search: Your AI-Powered Private Search Engine Without Ads",
   "description": "Discover the power of Andi Search, the groundbreaking AI search engine that offers ad-free search and unparalleled privacy.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/andi-search" }
 }
 </script>

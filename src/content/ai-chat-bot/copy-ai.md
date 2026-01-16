@@ -185,8 +185,8 @@ Data privacy considerations matter, especially for businesses handling sensitive
   "@type": "Article",
   "headline": "What Copy.ai Does for Modern Marketing",
   "description": "Copy.ai is an AI copywriting tool that helps marketers and businesses create content faster.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/copy-ai" }
 }
 </script>

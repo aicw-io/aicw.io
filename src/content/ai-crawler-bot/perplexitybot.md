@@ -204,8 +204,8 @@ Understanding how each crawler works helps developers and website owners make in
   "@type": "Article",
   "headline": "Understanding Perplexity AI Crawlers: PerplexityBot and Perplexity-User",
   "description": "Explore the differences between PerplexityBot and Perplexity-User from Perplexity AI, their crawling behaviors, and implications for web developers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/perplexitybot" }
 }
 </script>

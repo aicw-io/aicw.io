@@ -297,8 +297,8 @@ Some crawlers ignore robots.txt directives, requiring server-level or IP-based b
   "@type": "Article",
   "headline": "Guide to Robots.txt for AI Crawlers",
   "description": "Learn how to use robots.txt to control AI crawlers and protect your website content.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/guide/robots-txt-ai-crawlers" }
 }
 </script>

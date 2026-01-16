@@ -171,8 +171,8 @@ Compared to alternatives like AhrefsBot and SEMrushBot, SerpstatBot offers simil
   "@type": "Article",
   "headline": "What is SerpstatBot and Why It Matters",
   "description": "SerpstatBot is a web crawler operated by Serpstat, an all-in-one SEO platform that launched in 2013, collecting data for various SEO tools.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/serpstatbot" }
 }
 </script>

@@ -244,8 +244,8 @@ In conclusion, DeepSeek AI is a major force in AI innovation, with its models ex
   "@type": "Article",
   "headline": "DeepSeek AI: Complete Guide to Features and Capabilities",
   "description": "Discover the innovative features and capabilities of DeepSeek AI, a leading Chinese AI company known for its cutting-edge language models and AI search engine technology.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/deepseek" }
 }
 </script>

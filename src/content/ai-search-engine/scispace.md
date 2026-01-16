@@ -111,8 +111,8 @@ SciSpace transforms how we approach research papers by offering tools that simpl
   "@type": "Article",
   "headline": "Understanding SciSpace: An AI Tool for Demystifying Research Papers",
   "description": "This article highlights the key features and practical applications of SciSpace, an AI-powered tool designed to simplify research papers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/scispace" }
 }
 </script>

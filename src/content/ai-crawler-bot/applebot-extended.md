@@ -151,8 +151,8 @@ Disallow: /". Make sure to test any changes in a staging environment before appl
   "@type": "Article",
   "headline": "Understanding Applebot-Extended: The AI Training Crawler",
   "description": "A detailed overview of Applebot-Extended, its purpose, and how it impacts web content management.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/applebot-extended" }
 }
 </script>

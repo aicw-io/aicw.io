@@ -143,8 +143,8 @@ Technical considerations are crucial for developers configuring servers and moni
   "@type": "Article",
   "headline": "Meta-ExternalFetcher: Enhancing Content Fetching for Social Media",
   "description": "Meta-ExternalFetcher enhances user experience on social platforms by generating rich link previews from shared URLs.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/meta-externalfetcher" }
 }
 </script>

@@ -109,8 +109,8 @@ Multilingual Search Process:
   "@type": "Article",
   "headline": "Felo AI Multilingual Search: Complete Guide & Features",
   "description": "Felo AI is a multilingual AI search engine that breaks down language barriers through real-time translation and cross-language search capabilities.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/felo-ai" }
 }
 </script>

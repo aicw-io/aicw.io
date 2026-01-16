@@ -195,8 +195,8 @@ Liner AI User Flow:
     "@type": "Article",
     "headline": "Liner AI Research Tool: Complete Guide for Students",
     "description": "Liner AI is a robust AI research tool designed for students and academics, helping discover, highlight, and organize research efficiently.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/liner" }
   }
 }

@@ -205,8 +205,8 @@ Priority support provides faster response times and dedicated success managers, 
   "@type": "Article",
   "headline": "Codeium: Free AI-Powered Code Completion for Developers",
   "description": "Codeium is a free AI-powered code assistant that enhances productivity for developers with intelligent code suggestions and seamless IDE integration.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/codeium" }
 }
 </script>

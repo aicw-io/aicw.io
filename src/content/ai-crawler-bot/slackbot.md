@@ -193,8 +193,8 @@ Understanding Slackbot is important for developers improving websites for previe
   "@type": "Article",
   "headline": "Understanding Slackbot: How It Enhances Link Sharing in Team Communication",
   "description": "Explore how Slackbot automates link unfurling in Slack, enriching team communication with informative previews.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/slackbot" }
 }
 </script>

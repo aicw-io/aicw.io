@@ -123,8 +123,8 @@ Datadog Synthetics offers robust synthetic monitoring within a comprehensive obs
   "@type": "Article",
   "headline": "What is Datadog Synthetics?",
   "description": "Datadog Synthetics is a powerful monitoring tool that automatically conducts synthetic testing of your websites and APIs, ensuring uptime and maintaining performance standards.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/datadog" }
 }
 </script>

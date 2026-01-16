@@ -139,8 +139,8 @@ Writesonic provides AI content generation tools for businesses and content creat
   "@type": "Article",
   "headline": "Writesonic: The Ultimate AI Content Generation Platform",
   "description": "Writesonic helps businesses and content creators generate quality content efficiently using AI, including blog posts, marketing copy, and more.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/writesonic" }
 }
 </script>

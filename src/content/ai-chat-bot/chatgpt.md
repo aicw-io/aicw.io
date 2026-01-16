@@ -184,8 +184,8 @@ ChatGPT transformed the AI landscape upon its November 2022 launch, quickly beco
   "@type": "Article",
   "headline": "ChatGPT: The Fastest-Growing AI Chatbot",
   "description": "ChatGPT, developed by OpenAI, is an AI chatbot that quickly became the fastest-growing application in history, reaching 100 million users within two months of launch.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/chatgpt" }
 }
 </script>

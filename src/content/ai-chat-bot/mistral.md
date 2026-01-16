@@ -140,8 +140,8 @@ Mistral AI emerged rapidly as a leader in open-weight language models, demonstra
     "@type": "Article",
     "headline": "What is Mistral AI and Why It Matters",
     "description": "Mistral AI is a pioneering French AI startup building open-weight large language models with a focus on AI efficiency and performance.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/mistral" }
   }
 }

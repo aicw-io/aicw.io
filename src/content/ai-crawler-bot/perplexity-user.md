@@ -210,8 +210,8 @@ For businesses and content creators, Perplexity-User presents both opportunities
     "@type": "Article",
     "headline": "What is Perplexity-User and Why It Matters",
     "description": "An in-depth look at Perplexity-User, a bot that fetches real-time information for Perplexity AI, addressing its impact on web content and visibility for website owners.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/perplexity-user" }
   }
 }

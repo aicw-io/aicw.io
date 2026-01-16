@@ -124,8 +124,8 @@ Screaming Frog SEO Spider maintains its position as the preferred desktop crawle
   "@type": "Article",
   "headline": "Screaming Frog SEO Spider: The Essential Tool for Technical Site Audits",
   "description": "Discover the powerful features and use cases of Screaming Frog SEO Spider for SEO professionals and developers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/screaming-frog" }
 }
 </script>

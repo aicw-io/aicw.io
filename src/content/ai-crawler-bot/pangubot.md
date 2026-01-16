@@ -176,8 +176,8 @@ PanguBot serves as Huawei's dedicated crawler for collecting training data for t
     "@type": "Article",
     "headline": "What is PanguBot and Why Does It Matter",
     "description": "PanguBot is Huawei's specialized web crawler designed to collect training data for the Huawei PanGu large language models.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/pangubot" }
   }
 }

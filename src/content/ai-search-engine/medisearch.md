@@ -124,8 +124,8 @@ Peer-Reviewed Sources and AI Usage Flow:
     "@type": "Article",
     "headline": "MediSearch: Your Guide to Trustworthy Medical AI Search",
     "description": "MediSearch is an AI medical search engine designed to provide reliable health information directly from peer-reviewed medical sources.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/medisearch" }
   }
 }

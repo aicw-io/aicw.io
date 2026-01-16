@@ -220,8 +220,8 @@ Legal and ethical questions surrounding web scraping for AI training remain unre
     "@type": "Article",
     "headline": "What is FacebookBot and Why Should You Care",
     "description": "Meta's web crawler collects data for AI training. Understand its purpose and implications for your website.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/facebookbot" }
   }
 }
@@ -318,7 +318,7 @@ Legal and ethical questions surrounding web scraping for AI training remain unre
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

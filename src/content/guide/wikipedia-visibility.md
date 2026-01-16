@@ -191,8 +191,8 @@ For most small businesses, the better strategy is accepting you won't have Wikip
   "@type": "Article",
   "headline": "Why Wikipedia Matters for AI Systems",
   "description": "This guide explains Wikipedia's influence on AI systems and the notability criteria.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/guide/wikipedia-visibility" }
 }
 </script>

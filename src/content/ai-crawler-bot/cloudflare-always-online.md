@@ -171,7 +171,7 @@ Test your cached pages consistently, exclude dynamic content where necessary, an
   "description": "Cloudflare's Always Online feature ensures website availability by serving cached versions during server outages.",
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   }
 }
 </script>
@@ -181,8 +181,8 @@ Test your cached pages consistently, exclude dynamic content where necessary, an
   "@type": "Article",
   "headline": "Cloudflare Always Online: Ensuring Website Availability During Outages",
   "description": "Cloudflare Always Online ensures availability by serving cached versions of web pages during outages, helping businesses maintain user trust.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/cloudflare-always-online" }
 }
 </script>

@@ -111,8 +111,8 @@ TinEye is a [standout tool in the realm of reverse image searching](https://tine
   "@type": "Article",
   "headline": "Ultimate Guide to TinEye: The Reverse Image Search Pioneer",
   "description": "An in-depth look at how TinEye works and its significance in the field of reverse image search.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/tineye" }
 }
 </script>

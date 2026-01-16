@@ -146,8 +146,8 @@ The canonical tag is essential for managing duplicate content and safeguarding y
   "@type": "Article",
   "headline": "Understanding the Canonical Tag Problem",
   "description": "The canonical tag helps resolve duplicate content issues for better SEO by indicating the preferred version of a webpage.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/html-tags/canonical-tag" }
 }
 </script>

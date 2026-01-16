@@ -160,8 +160,8 @@ DeepSeekBot is DeepSeek's web crawler designed to collect training data for thei
     "@type": "Article",
     "headline": "Understanding DeepSeekBot: The AI Crawler",
     "description": "DeepSeekBot is a web crawler by DeepSeek, collecting vast text data for training AI models.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/deepseekbot" }
   }
 }

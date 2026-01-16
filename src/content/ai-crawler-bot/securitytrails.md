@@ -161,8 +161,8 @@ The SecurityTrails security research crawler plays a crucial role in modern cybe
   "@type": "Article",
   "headline": "What is the SecurityTrails Crawler",
   "description": "The SecurityTrails crawler is a specialized web crawler designed for security research and intelligence gathering.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/securitytrails" }
 }
 </script>

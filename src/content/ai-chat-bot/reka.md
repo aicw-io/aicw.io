@@ -118,8 +118,8 @@ Developers can access Reka through their API platform, available with detailed d
     "@type": "Article",
     "headline": "Reka: Multimodal AI for Enterprises",
     "description": "Explore the capabilities of Reka AI and how it offers businesses the tools to analyze and automate diverse formats.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/reka" }
   }
 }

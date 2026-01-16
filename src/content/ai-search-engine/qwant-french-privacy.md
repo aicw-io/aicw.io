@@ -116,8 +116,8 @@ Qwant offers a unique, privacy-centered search experience. Complying with GDPR a
   "@type": "Article",
   "headline": "Qwant: The French Privacy Search Engine Explained",
   "description": "An overview of Qwant, a privacy-focused search engine based in France, exploring its features and commitment to user privacy.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/qwant-french-privacy" }
 }
 </script>

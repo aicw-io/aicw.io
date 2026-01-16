@@ -153,8 +153,8 @@ Meta AI Workflow:
   "@type": "Article",
   "headline": "Meta AI: A Complete Guide to Facebook's AI Search and Assistant",
   "description": "Meta AI represents Facebook's big push into conversational AI, serving over 500 million users across multiple platforms.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/meta-ai" }
 }
 </script>

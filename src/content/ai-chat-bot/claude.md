@@ -165,8 +165,8 @@ Claude Pro offers power users higher limits, while the Claude API serves develop
   "@type": "Article",
   "headline": "Claude AI: Revolutionizing AI Safety and Assistance",
   "description": "Claude is a versatile AI chatbot developed by Anthropic, focusing on safety, ethical interactions, and a 200K token context window.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/claude" }
 }
 </script>

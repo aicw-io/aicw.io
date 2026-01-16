@@ -129,8 +129,8 @@ SeobilityBot is a practical SEO crawler that makes website auditing accessible t
   "@type": "Article",
   "headline": "What is SeobilityBot and Why It Matters",
   "description": "SeobilityBot is an automated web crawler that scans websites for SEO analysis and auditing purposes.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/seobilitybot" }
 }
 </script>

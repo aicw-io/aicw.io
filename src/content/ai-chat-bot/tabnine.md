@@ -137,8 +137,8 @@ Tabnine stands out as a privacy-focused AI code completion tool with strong ente
   "@type": "Article",
   "headline": "Tabnine: The AI-Powered Code Completion Tool",
   "description": "An overview of Tabnine, its features, and how it benefits developers and enterprises.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/tabnine" }
 }
 </script>
@@ -230,7 +230,7 @@ Tabnine stands out as a privacy-focused AI code completion tool with strong ente
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

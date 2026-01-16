@@ -111,8 +111,8 @@ Semantic Scholar redefines academic search. Its AI features and extensive databa
   "@type": "Article",
   "headline": "Overview of Semantic Scholar: Enhancing Academic Research",
   "description": "Discover how Semantic Scholar, an AI-powered search engine, is revolutionizing academic research with advanced features and vast database access.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/semantic-scholar" }
 }
 </script>

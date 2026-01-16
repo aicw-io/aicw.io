@@ -271,7 +271,7 @@ The specification continues developing and might gain traction if major AI platf
   "description": "A comprehensive guide to understanding and implementing the llms.txt specification for AI systems.",
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch",
+    "name": "AICW",
     "url": "https://aichatwatch.com"
   }
 }
@@ -285,11 +285,11 @@ The specification continues developing and might gain traction if major AI platf
   "description": "A comprehensive guide to understanding and implementing the llms.txt specification for AI systems.",
   "author": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/guide/llms-txt" }
 }

@@ -173,8 +173,8 @@ As AI browsing tools become more prevalent, managing these bots will become a st
   "@type": "Article",
   "headline": "What is Claude-Web and Why It Matters",
   "description": "Claude-Web is a browsing tool developed by Anthropic that enables real-time AI browsing for the Claude AI assistant, crucial for accessing up-to-date information.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/claude-web" }
 }
 </script>

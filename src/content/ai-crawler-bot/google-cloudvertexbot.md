@@ -162,8 +162,8 @@ Google-CloudVertexBot serves a specific role in the Vertex AI ecosystem, crawlin
   "@type": "Article",
   "headline": "What is Google-CloudVertexBot and How It Enhances AI",
   "description": "Google-CloudVertexBot is a web crawler that helps enterprises build AI-powered search experiences by indexing content for Google's Vertex AI services.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/google-cloudvertexbot" }
 }
 </script>
@@ -258,7 +258,7 @@ Google-CloudVertexBot serves a specific role in the Vertex AI ecosystem, crawlin
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

@@ -178,11 +178,11 @@ TelegramBot is Telegram's link preview crawler, visiting websites to generate ri
   "description": "TelegramBot is the official web crawler for generating link previews in Telegram, impacting user engagement and click-through rates.",
   "author": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",

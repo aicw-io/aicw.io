@@ -157,8 +157,8 @@ The Pingdom bot, a crucial website performance crawler, functions as a website m
   "@type": "Article",
   "headline": "Pingdom Bot: Website Monitoring Tool",
   "description": "Explore how the Pingdom bot monitors website performance and uptime, offering essential insights for businesses to maintain their online presence.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/pingdom" }
 }
 </script>

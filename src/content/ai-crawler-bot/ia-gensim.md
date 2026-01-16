@@ -226,8 +226,8 @@ AI and machine learning crawlers represent a significant shift in how web conten
   "@type": "Article",
   "headline": "AI and Machine Learning Crawlers: Overview and Management Strategies",
   "description": "A comprehensive guide on AI and machine learning crawlers, their purposes, and how to manage them effectively.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ia-gensim" }
 }
 </script>

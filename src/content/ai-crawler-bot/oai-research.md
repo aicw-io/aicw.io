@@ -206,8 +206,8 @@ The shift toward more transparent crawler operations benefits both AI developers
   "@type": "Article",
   "headline": "Understanding OAI-Research and Its Impact on AI Development",
   "description": "Explore the evolution of the OAI-Research crawler by OpenAI and its significance in AI training data collection practices.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/oai-research" }
 }
 </script>

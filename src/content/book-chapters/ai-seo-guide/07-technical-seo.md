@@ -134,7 +134,7 @@ Sample JSON-LD for AIChatWatch.com:
 
   "@type": "Organization",
 
-  "name": "AI Chat Watch",
+  "name": "AICW",
 
   "url": "https://aichatwatch.com",
 

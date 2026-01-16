@@ -126,8 +126,8 @@ AI Agent Implementation Stages:
   "@type": "Article",
   "headline": "Understanding Zendesk AI for Customer Service Automation",
   "description": "A comprehensive guide on Zendesk AI, its features, and how businesses can leverage it for customer service automation.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-chat-bot/zendesk-ai" }
 }
 </script>

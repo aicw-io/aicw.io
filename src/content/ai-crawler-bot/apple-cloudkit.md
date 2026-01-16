@@ -160,8 +160,8 @@ In conclusion, the **Apple-CloudKit bot** plays an indispensable role in Apple's
   "@type": "Article",
   "headline": "Understanding the Apple-CloudKit Bot: Functionality and Best Practices",
   "description": "A detailed examination of the Apple-CloudKit bot, its functions, and implications for developers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/apple-cloudkit" }
 }
 </script>

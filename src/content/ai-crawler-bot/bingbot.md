@@ -166,8 +166,8 @@ Bingbot is Microsoft's web crawler enabling both Bing Search and Microsoft Copil
   "@type": "Article",
   "headline": "Bingbot: Understanding Microsoft’s Web Crawler",
   "description": "Bingbot is Microsoft's web crawler used for website indexing on Bing Search and feeds data to Microsoft Copilot.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bingbot" }
 }
 </script>
@@ -263,7 +263,7 @@ Bingbot is Microsoft's web crawler enabling both Bing Search and Microsoft Copil
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

@@ -127,8 +127,8 @@ Google-InspectionTool is a crucial **SEO debugging** and testing resource, offer
   "@type": "Article",
   "headline": "Understanding Google Inspection Tool in SEO",
   "description": "A detailed examination of Google Inspection Tool and its benefits for SEO professionals and webmasters.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/google-inspectiontool" }
 }
 </script>
@@ -220,7 +220,7 @@ Google-InspectionTool is a crucial **SEO debugging** and testing resource, offer
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

@@ -234,8 +234,8 @@ For businesses that rely on Bing for traffic, allowing BingPreview makes sense. 
     "@type": "Article",
     "headline": "What is BingPreview?",
     "description": "BingPreview is a web crawler by Microsoft that generates visual snapshots for Bing search results.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bingpreview" }
   }
 }

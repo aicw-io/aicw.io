@@ -184,8 +184,8 @@ Compared to alternatives like SemrushBot and MJ12bot, AhrefsBot maintains one of
   "@type": "Article",
   "headline": "What is AhrefsBot and Why Does It Matter",
   "description": "AhrefsBot, operated by Ahrefs, is a web crawler that plays a crucial role in SEO data collection and management.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ahrefsbot" }
 }
 </script>

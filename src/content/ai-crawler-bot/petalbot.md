@@ -213,8 +213,8 @@ Allowing PetalBot hinges on audience location, AI data stance, and server capaci
   "@type": "Article",
   "headline": "Understanding PetalBot: Huawei's Web Crawler",
   "description": "Explore PetalBot, a web crawler by Huawei Technologies supporting Petal Search and AI projects. Learn about its functions and how to manage its access.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/petalbot" }
 }
 </script>

@@ -144,8 +144,8 @@ Bravebot is the web crawler driving Brave Search's independent search index. Ope
   "@type": "Article",
   "headline": "Bravebot: The Independent Crawler for Privacy-Focused Search",
   "description": "Bravebot is the web crawler powering Brave Search, focusing on privacy and independence from major tech companies.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/bravebot" }
 }
 </script>

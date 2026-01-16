@@ -130,8 +130,8 @@ Cohere's **training data crawler** reflects standard AI industry practices, coll
   "@type": "Article",
   "headline": "What Is Cohere and Why Training Data Matters",
   "description": "Cohere's training data crawler collects bulk text data for AI models, essential for training purposes.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/cohere-training-data-crawler" }
 }
 </script>

@@ -121,8 +121,8 @@ Wolfram Alpha stands out as a powerful computational engine. Offering precise co
   "@type": "Article",
   "headline": "Exploring Wolfram Alpha: The Computational Knowledge Engine",
   "description": "An in-depth look at Wolfram Alpha, its purpose, features, and its significance in the world of computing and AI.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/wolfram-alpha" }
 }
 </script>

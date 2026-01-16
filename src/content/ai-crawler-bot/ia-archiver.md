@@ -130,8 +130,8 @@ The ia_archiver represents an important chapter in internet history as one of th
   "@type": "Article",
   "headline": "Understanding ia_archiver and Its Role in Web Archiving",
   "description": "A comprehensive guide on the ia_archiver web crawler's significance, operations, and its impact on web archiving provided by AI Chat Watch.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ia-archiver" }
 }
 </script>

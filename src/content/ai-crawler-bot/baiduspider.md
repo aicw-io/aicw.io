@@ -124,8 +124,8 @@ Baiduspider serves as Baidu's eyes on the web, continuously crawling and indexin
     "@type": "Article",
     "headline": "Understanding Baiduspider and Its Importance in the Chinese Search Ecosystem",
     "description": "An overview of Baiduspider, its functioning, and its significance for businesses targeting the Chinese market.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/baiduspider" }
   },
   "breadcrumb": {

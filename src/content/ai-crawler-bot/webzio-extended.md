@@ -221,11 +221,11 @@ The wider landscape of AI training crawlers includes many similar bots from vari
   "description": "An exploration of the webzio-extended crawler's functionality and its role in data collection for AI applications.",
   "author": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AI Chat Watch"
+    "name": "AICW"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",

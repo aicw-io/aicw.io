@@ -114,8 +114,8 @@ OpenEvidence by Mayo Clinic is tailored for clinicians as an advanced tool backe
   "@type": "Article",
   "headline": "Understanding OpenEvidence: Mayo Clinic's AI for Clinical Support",
   "description": "Exploring OpenEvidence, an AI tool by Mayo Clinic designed for clinical decision support to assist healthcare professionals.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/open-evidence" }
 }
 </script>

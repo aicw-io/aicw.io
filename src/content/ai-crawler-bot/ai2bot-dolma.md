@@ -75,8 +75,8 @@ Data Collection Approach Comparison:
   "@type": "Article",
   "headline": "AI2Bot-Dolma: A Transparent Web Crawler for Open Research",
   "description": "AI2Bot-Dolma is a web crawler by the Allen Institute for AI that collects data for the Dolma dataset.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/ai2bot-dolma" }
 }
 </script>

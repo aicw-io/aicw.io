@@ -133,8 +133,8 @@ HubSpot Crawler is vital for modern marketing automation and CRM systems. It ena
   "@type": "Article",
   "headline": "What is HubSpot Crawler and Why It Matters",
   "description": "HubSpot Crawler is a web bot that scans websites and collects data for HubSpot's marketing automation platform.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/hubspot-crawler" }
 }
 </script>

@@ -133,8 +133,8 @@ The cohere-ai crawler is Cohere AI's data collection tool for training enterpris
   "@type": "Article",
   "headline": "Understanding Cohere AI's Crawler: Data Collection and Management",
   "description": "An overview of Cohere AI's crawler, its purpose, and how website owners can manage its access and interaction with their content.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/cohere-ai" }
 }
 </script>
@@ -226,7 +226,7 @@ The cohere-ai crawler is Cohere AI's data collection tool for training enterpris
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AI Chat Watch",
+  "name": "AICW",
   "url": "https://aichatwatch.com"
 }
 </script>

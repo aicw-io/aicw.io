@@ -232,8 +232,8 @@ Connected Papers offers a visual method to explore academic literature, aiding r
   "@type": "Article",
   "headline": "Connected Papers: Visual Research Discovery Tool Guide",
   "description": "Connected Papers helps researchers discover related academic papers using visual citation graphs. This article explains how to leverage Connected Papers for research discovery and thorough literature reviews.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/connected-papers" }
 }
 </script>

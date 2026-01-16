@@ -133,8 +133,8 @@ Feed Crawler Access Control:
   "@type": "Article",
   "headline": "Understanding FeedFetcher-Google: The Google Crawler for RSS Feeds",
   "description": "FeedFetcher-Google is a specialized bot by Google that fetches and parses RSS and Atom feeds. This article explains how it works and its significance for publishers.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/feedfetcher-google" }
 }
 </script>

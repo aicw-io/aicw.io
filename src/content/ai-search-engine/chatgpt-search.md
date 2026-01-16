@@ -297,8 +297,8 @@ Limitations include restricted website access, occasional slow speeds, and limit
   "@type": "Article",
   "headline": "ChatGPT Search: Unlocking AI-Powered Search Capabilities with OpenAI's GPT-5",
   "description": "ChatGPT Search is a revolutionary AI-powered search capability developed by OpenAI, leveraging the advanced features of GPT-5.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/chatgpt-search" }
 }
 </script>

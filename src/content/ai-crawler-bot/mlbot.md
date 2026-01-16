@@ -222,8 +222,8 @@ The machine learning industry's data needs won't disappear. Crawlers like MLBot 
   "@type": "Article",
   "headline": "Understanding MLBot: A Machine Learning Web Crawler",
   "description": "MLBot is designed primarily for collecting training data for machine learning models by scraping content from websites.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/mlbot" }
 }
 </script>

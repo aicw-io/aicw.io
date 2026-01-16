@@ -177,8 +177,8 @@ The tool works best for users who need current information and are already activ
     "@type": "Article",
     "headline": "Grok AI: xAI's Real-Time AI Search Assistant Explained",
     "description": "Explore how Grok, xAI's AI assistant, provides real-time access to current events and conversations through its unique features.",
-    "author": { "@type": "Organization", "name": "AI Chat Watch" },
-    "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+    "author": { "@type": "Organization", "name": "AICW" },
+    "publisher": { "@type": "Organization", "name": "AICW" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-search-engine/grok" }
   },
   "breadcrumb": {

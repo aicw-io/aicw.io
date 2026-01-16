@@ -145,8 +145,8 @@ The tool competes with platforms like SEMrush, SpyFu, and Moat, each with differ
   "@type": "Article",
   "headline": "Understanding AdBeat: The Advertising Intelligence Tool",
   "description": "AdBeat is an advertising intelligence platform that helps marketers understand competitor ad strategies by crawling the web and collecting data on digital ads.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/ai-crawler-bot/adbeat" }
 }
 </script>

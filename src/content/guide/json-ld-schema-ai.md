@@ -311,8 +311,8 @@ As AI systems become more integral to how people find and consume information, p
   "@type": "Article",
   "headline": "Guide to JSON-LD Schema Markup for AI",
   "description": "Learn how to implement JSON-LD schema markup to enhance AI visibility and improve search engine understanding of your content.",
-  "author": { "@type": "Organization", "name": "AI Chat Watch" },
-  "publisher": { "@type": "Organization", "name": "AI Chat Watch" },
+  "author": { "@type": "Organization", "name": "AICW" },
+  "publisher": { "@type": "Organization", "name": "AICW" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://aichatwatch.com/guide/json-ld-schema-ai" }
 }
 </script>
