@@ -2,7 +2,6 @@
 import BaseLayout from './BaseLayout.astro';
 import Navigation from '../components/Navigation.astro';
 import StickyTableOfContents from '../components/StickyTableOfContents.astro';
-import SocialShareButtons from '../components/SocialShareButtons.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 import GuideCTA from '../components/GuideCTA.astro';
 import ImageLightbox from '../components/ImageLightbox.astro';
@@ -60,7 +59,7 @@ const collectionName = collectionNames[collection] || collection;
 ---
 
 <BaseLayout
-  title={`${title} | AI Chat Watch`}
+  title={`${title} | AICW`}
   description={description}
   canonical={`/${collection}/${guide.slug}/`}
   image={heroImage}
@@ -163,9 +162,6 @@ const collectionName = collectionNames[collection] || collection;
             <Content />
           </div>
 
-          <!-- Social Share Buttons (Bottom) -->
-          <SocialShareButtons title={title} url={`/${collection}/${guide.slug}/`} />
-
           <!-- CTA Section -->
           <GuideCTA />
 
@@ -208,7 +204,7 @@ const collectionName = collectionNames[collection] || collection;
     "url": `https://www.aicw.io/${collection}/${guide.slug}/`,
     "publisher": {
       "@type": "Organization",
-      "name": "AI Chat Watch",
+      "name": "AICW",
       "url": "https://www.aicw.io"
     },
     "keywords": keywords,

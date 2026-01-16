@@ -1,7 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Navigation from '../components/Navigation.astro';
-import SocialShareButtons from '../components/SocialShareButtons.astro';
 import ImageLightbox from '../components/ImageLightbox.astro';
 import type { CollectionEntry } from 'astro:content';
 
@@ -33,7 +32,7 @@ const chapterSlug = chapter.slug.split('/').pop();
 ---
 
 <BaseLayout
-  title={`${title} | ${bookTitle} | AI Chat Watch`}
+  title={`${title} | ${bookTitle} | AICW`}
   description={`Chapter ${chapterNumber}: ${title} from ${bookTitle}`}
   canonical={`/books/${bookSlug}/${chapterSlug}/`}
   type="article"
@@ -161,11 +160,6 @@ const chapterSlug = chapter.slug.split('/').pop();
               <div class="flex-1"></div>
             )}
           </nav>
-
-          <!-- Social Share -->
-          <div class="mt-8">
-            <SocialShareButtons title={`${title} - ${bookTitle}`} url={`/books/${bookSlug}/${chapterSlug}/`} />
-          </div>
 
           <!-- Back to Book -->
           <div class="border-t border-border pt-8 mt-8">

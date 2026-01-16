@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Navigation from '../../components/Navigation.astro';
-import SocialShareButtons from '../../components/SocialShareButtons.astro';
 import ImageLightbox from '../../components/ImageLightbox.astro';
 
 export async function getStaticPaths() {
@@ -138,7 +137,7 @@ const breadcrumbJsonLd = {
 ---
 
 <BaseLayout
-  title={`${title} | ${bookTitle} | AI Chat Watch`}
+  title={`${title} | ${bookTitle} | AICW`}
   description={chapterDescription}
   canonical={`${basePath}/${chapterSlug}/`}
   type="article"
@@ -314,11 +313,6 @@ const breadcrumbJsonLd = {
               <div class="flex-1"></div>
             )}
           </nav>
-
-          <!-- Social Share -->
-          <div class="mt-8">
-            <SocialShareButtons title={`${title} - ${bookTitle}`} url={`${basePath}/${chapterSlug}/`} />
-          </div>
 
           <!-- Back to Book -->
           <div class="border-t border-border pt-8 mt-8">
