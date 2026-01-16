@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2025-12-30
 title: "CoCounsel: Complete Guide to AI-Powered Legal Research Tool"
 description: "Learn about CoCounsel, the AI legal assistant from Casetext, its features, Thomson Reuters acquisition, and how it compares to Westlaw and Lexis."

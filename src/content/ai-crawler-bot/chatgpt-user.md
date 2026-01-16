@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding ChatGPT-User: OpenAI's Real-Time Browsing Bot"
 description: "Learn about ChatGPT-User, OpenAI's bot for real-time browsing initiated by users, and how it differs from GPTBot and OAI-SearchBot."

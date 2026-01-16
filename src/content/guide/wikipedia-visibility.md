@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-13
 title: "Wikipedia & AI Visibility: What Businesses Need to Know"
 description: "How Wikipedia shapes AI knowledge and why most businesses won't qualify for a page. Learn notability rules and AI training facts."

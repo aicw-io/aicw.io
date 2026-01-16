@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Claude-User: Anthropic's Fetch Agent"
 description: "Complete guide to Claude-User, Anthropic's user-initiated web request agent. Learn how it works, why it exists, and how to manage it."

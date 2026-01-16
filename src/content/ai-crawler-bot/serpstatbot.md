@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding SerpstatBot: A Comprehensive Guide to Serpstat SEO Crawler"
 description: "Explore SerpstatBot for SEO platform insights, site audits, and backlink analysis crawling. Learn about blocking options and alternatives."

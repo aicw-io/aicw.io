@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Pi AI: Inflection's Empathetic Personal Chatbot Explained"
 description: "Learn about Pi AI from Inflection AI. An emotional chatbot focusing on empathy and conversation rather than productivity tasks."

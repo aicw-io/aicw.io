@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "Meta Charset Tag: Setting Character Encoding for HTML Pages"
 description: "Learn why meta charset tag is crucial for displaying text correctly. Understand UTF-8 encoding and how to properly declare character sets in HTML."

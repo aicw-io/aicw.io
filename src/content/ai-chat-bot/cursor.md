@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Cursor AI Code Editor: Features, Composer & Copilot Compare"
 description: "Cursor AI code editor with GPT-4 and Claude integration. Learn about Composer feature, codebase understanding, and how it compares to GitHub Copilot."

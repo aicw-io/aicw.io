@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "Twitter Card Meta Tags: Optimize Content for X (Twitter)"
 description: "Learn how to implement Twitter Card meta tags for rich previews on X. Covers summary cards, large image cards, and integration with Open Graph."

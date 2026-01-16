@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Guide to SearXNG: Self-Hosted Metasearch"
 description: "Explore SearXNG, a self-hosted metasearch engine, its setup, and unique privacy features."

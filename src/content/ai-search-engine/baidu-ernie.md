@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Baidu ERNIE: How China's Leading AI Search Model Works"
 description: "Deep dive into Baidu's ERNIE AI model powering China's search future. Learn about its features, market impact and how it compares to global competitors."

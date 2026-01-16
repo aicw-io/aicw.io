@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding AI2Bot: Allen Institute's AI Crawler Explained"
 description: "Learn about AI2Bot, Allen Institute's web crawler for open-source AI training. How it works, its purpose, and impact on AI research."

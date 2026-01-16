@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Google-CloudVertexBot: A Vertex AI Crawler Guide"
 description: "Learn about Google-CloudVertexBot features, purposes, blocking methods, and Vertex AI Search integration for developers and businesses."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Exploring Perplexity: AI Chatbot with Real-Time Search"
 description: "Discover Perplexity's capabilities including real-time search, inline citations, and Pro features, compared to ChatGPT for research tasks."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2025-12-30
 title: "ChatGPT Search Guide: Features, Stats & Comparison (2025)"
 description: "Complete guide to ChatGPT Search. Learn about features, capabilities, stats and how it compares to traditional search engines. "

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "CocCocBot: Understanding Vietnam's Premier Search Crawler"
 description: "Learn about CocCocBot's role in Vietnamese search, its user-agent string, indexing capabilities, and how it compares to other search crawlers."

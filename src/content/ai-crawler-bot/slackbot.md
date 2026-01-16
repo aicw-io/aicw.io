@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Slackbot: The Slack Link Preview Crawler"
 description: "Complete guide to Slackbot for link unfurling in Slack. Learn about its user-agent, customization options, and blocking implications."

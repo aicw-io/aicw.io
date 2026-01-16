@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "BLOOM AI Model: BigScience's 176B Parameter Language Tool"
 description: "Learn about BLOOM, the open multilingual AI model with 176B parameters. Hosted on Hugging Face with RAIL license for researchers and developers."

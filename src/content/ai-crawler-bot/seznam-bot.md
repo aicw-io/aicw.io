@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding SeznamBot: AI-Driven Web Crawler Guide"
 description: "Learn about SeznamBot, the AI-enhanced web crawler from Seznam.cz. Covers purpose, features, user-agent strings, and blocking options."

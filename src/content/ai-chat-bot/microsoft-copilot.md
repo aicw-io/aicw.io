@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Microsoft Copilot: Your AI Assistant for Windows & 365"
 description: "Learn about Microsoft Copilot features, GPT-4 integration, subscription plans, and enterprise deployment in Windows 11 and Microsoft 365."

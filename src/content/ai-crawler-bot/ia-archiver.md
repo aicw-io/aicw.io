@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding ia_archiver: The Legacy Internet Archive Crawler"
 description: "Learn about ia_archiver, the legacy Internet Archive bot that powered the Wayback Machine and why it still appears in robots.txt files today."

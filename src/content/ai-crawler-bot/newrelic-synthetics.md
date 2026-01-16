@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "New Relic Synthetics Performance Monitoring Guide"
 description: "Learn New Relic Synthetics for performance monitoring, scripted browser checks, user-agent details, and APM integration. Complete technical guide."

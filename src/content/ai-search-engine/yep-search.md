@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-03
 title: "Yep Search Engine: Privacy & 90/10 Revenue Share Model"
 description: "Yep is Ahrefs privacy search engine with 90/10 revenue sharing for creators. No tracking, independent index, fair compensation model."

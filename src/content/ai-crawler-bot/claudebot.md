@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-13
 title: "Anthropic ClaudeBot, Claude-Web & anthropic-ai: Complete Guide"
 description: "Complete guide to Anthropic's crawlers: ClaudeBot, Claude-User, Claude-SearchBot, Claude-Web & anthropic-ai. Learn how to block or allow them via robots.txt."

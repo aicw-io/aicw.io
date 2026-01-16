@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Elasticsearch Guide: Open Source AI Search Engine Explained"
 description: "Learn how Elasticsearch works as an AI-powered search engine, its vector search capabilities, and how it compares to Algolia and Solr."

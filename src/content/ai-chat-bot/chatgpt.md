@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "ChatGPT Guide: History, Features, Pricing & Alternatives"
 description: "Complete ChatGPT guide covering its history, features like code interpreter and voice mode, pricing tiers, and how it compares to alternatives."

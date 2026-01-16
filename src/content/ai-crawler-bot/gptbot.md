@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:16:49
+published_at: 2026-01-13 18:16:49
 date_updated_at: 2026-01-13
 title: "OpenAI GPTBot, OAI-SearchBot & ChatGPT-User Guide"
 description: "Complete guide to OpenAI's web crawlers: GPTBot for AI training, OAI-SearchBot for ChatGPT Search, and ChatGPT-User. Learn how to block them via robots.txt."

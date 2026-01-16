@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "LinkedInBot Guide: LinkedIn's Preview Crawler Explained"
 description: "Complete guide to LinkedInBot crawler: user-agent strings, link preview generation, blocking implications, and how it works for LinkedIn posts."

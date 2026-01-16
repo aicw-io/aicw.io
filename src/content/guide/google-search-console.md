@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-15
 title: "Google Search Console for AI Visibility Tracking Guide"
 description: "Learn how to use Google Search Console to monitor AI visibility. Setup GSC, track AI traffic patterns, and control content in AI Overviews."

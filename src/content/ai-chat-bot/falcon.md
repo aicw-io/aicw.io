@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Falcon LLM by TII: Open Source AI Models Guide"
 description: "Complete guide to Falcon LLM models by Technology Innovation Institute. Compare Falcon with Llama and Mistral, explore benchmarks and versions."

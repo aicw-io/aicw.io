@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding GoogleOther: Google's R&D Crawler"
 description: "Learn about GoogleOther, Google's internal R&D bot for product development and how it differs from Googlebot for web indexing."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Cohere's AI Training Crawler: cohere-ai"
 description: "Explore Cohere's AI training data crawler, cohere-ai. Learn about user-agent handling, blocking, and its role in AI training."

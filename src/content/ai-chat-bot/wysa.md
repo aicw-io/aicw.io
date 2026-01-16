@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Wysa - The Innovative AI Mental Health Companion"
 description: "Explore Wysa, your AI companion for mental health support using CBT and DBT techniques. Learn about its anonymous features and B2B integration."

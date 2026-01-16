@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Exa AI: Complete Guide to Neural Search Engine for Developers"
 description: "Learn how Exa AI's neural search engine works, its key features, API integration, and how it helps build better AI applications with semantic search."

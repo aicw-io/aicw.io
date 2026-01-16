@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding MSNBot: Microsoft's Legacy Crawler Evolution"
 description: "Learn about MSNBot history, its replacement by Bingbot, user-agent strings, blocking reasons, and how to clean up your robots.txt files."

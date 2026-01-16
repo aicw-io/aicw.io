@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-13
 title: "llms.txt Specification Guide: Format, Implementation & Reality"
 description: "Complete guide to llms.txt specification, format structure, implementation tools, and realistic adoption expectations for AI documentation optimization."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Legacy Anthropic-AI Crawler & ClaudeBot Evolution Guide"
 description: "Learn about the legacy Anthropic-AI crawler, its transition to ClaudeBot, user-agent strings, and how to block it in robots.txt files."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Writesonic Guide: AI Writing and Chatbot Features"
 description: "Complete guide to Writesonic with Chatsonic, GPT-4 integration, content generation tools, pricing details, and SEO optimization features."

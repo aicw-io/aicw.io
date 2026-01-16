@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-13
 title: "PerplexityBot & Perplexity-User: Complete Guide"
 description: "Learn about PerplexityBot and Perplexity-User crawlers, their differences, how they handle robots.txt, and methods to block them using server configuration."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "Understanding Proximic: Comscore's Content Classification Crawler"
 description: "Complete guide on Proximic crawler by Comscore. Learn about content classification, brand safety, blocking methods, and advertising implications."

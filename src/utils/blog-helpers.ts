@@ -1,15 +1,14 @@
 import type { CollectionEntry } from 'astro:content';
+import { isPublished, publishedFilter } from './content-helpers';
+
+// Re-export the generic helpers for convenience
+export { isPublished, publishedFilter };
 
 /**
- * Check if a blog post is published (not draft and date has passed)
+ * Check if a blog post is published (not draft and published_at has passed)
  */
 export function isPostPublished(post: CollectionEntry<'blog'>): boolean {
-  // Filter out drafts
-  if (post.data.draft) return false;
-
-  // Filter out future posts (scheduled posts)
-  const now = new Date();
-  return post.data.date <= now;
+  return isPublished(post.data);
 }
 
 /**

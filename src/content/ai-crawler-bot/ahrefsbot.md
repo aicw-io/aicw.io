@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding AhrefsBot: Guide to the Ahrefs SEO Crawler"
 description: "Learn what makes AhrefsBot one of the most active web crawlers in SEO. Covers backlink analysis, rate limiting, and SEO industry impact."

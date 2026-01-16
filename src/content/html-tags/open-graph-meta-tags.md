@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "Open Graph Meta Tags: Complete Guide to og:title & More"
 description: "Master Open Graph meta tags to control how your content appears on Facebook, LinkedIn, and other social platforms. Learn og:title, og:description, og:url."

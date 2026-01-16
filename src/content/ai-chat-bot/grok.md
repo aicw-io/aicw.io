@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Grok AI Chatbot by xAI: Features, Models & Comparison"
 description: "Complete guide to Grok by xAI. Learn about Grok-3/4 models, real-time X integration, unfiltered responses, and how it compares to other AI chatbots."

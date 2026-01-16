@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Googlebot: Google's Primary Web Crawler and SEO Impact"
 description: "Learn how Googlebot works, its user-agent types, crawl budget management, and relationship to Google-Extended for AI training data collection."

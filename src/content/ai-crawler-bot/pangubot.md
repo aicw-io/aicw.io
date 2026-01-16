@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding PanguBot: Huawei's AI Crawler Explained"
 description: "Complete guide to PanguBot, Huawei's AI crawler for PanGu model training. Learn its purpose, user-agent details, and how to block it."

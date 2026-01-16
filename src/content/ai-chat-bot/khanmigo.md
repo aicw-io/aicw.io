@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Understanding Khanmigo: The AI-Powered Tutor from Khan Academy"
 description: "Learn about Khanmigo, Khan Academy's AI tutor, utilizing GPT-4 for personalized, safe education in K-12."

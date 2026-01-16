@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Komo AI Search Engine: Fast, Ad-Free Search Experience"
 description: "Deep dive into Komo AI search engine. Learn about its speed-focused design, privacy approach, and how it compares to Perplexity and ChatGPT Search."

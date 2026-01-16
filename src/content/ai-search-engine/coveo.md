@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Coveo: Complete Guide to AI-Powered Enterprise Search in 2024"
 description: "Learn how Coveo's AI search platform helps enterprises deliver personalized search experiences across commerce, workplace and customer service."

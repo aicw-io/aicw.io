@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Microsoft Copilot Guide: AI Assistant Features & Pricing"
 description: "Complete guide to Microsoft Copilot covering GPT-4 integration, Windows 11 features, DALL-E image generation, and subscription options for developers."

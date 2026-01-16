@@ -2,9 +2,10 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Navigation from '../../../components/Navigation.astro';
+import { publishedFilter } from '../../../utils/content-helpers';
 
 export async function getStaticPaths() {
-  const books = await getCollection('books');
+  const books = await getCollection('books', publishedFilter);
   return books.map((book) => ({
     params: { book: book.slug },
     props: { book },

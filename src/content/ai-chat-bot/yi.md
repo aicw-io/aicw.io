@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Yi by 01.AI: Bilingual LLM Model Overview & Comparison"
 description: "Explore Yi by 01.AI, the bilingual LLM optimized for English and Chinese. Performance benchmarks, model variants, and comparisons included."

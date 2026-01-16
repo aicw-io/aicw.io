@@ -2,9 +2,10 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Navigation from '../../components/Navigation.astro';
+import { publishedFilter } from '../../utils/content-helpers';
 
-const guides = await getCollection('ai-crawler-bot', ({ data }) => !data.draft);
-const sortedGuides = guides.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const guides = await getCollection('ai-crawler-bot', publishedFilter);
+const sortedGuides = guides.sort((a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf());
 ---
 
 <BaseLayout
@@ -61,12 +62,12 @@ const sortedGuides = guides.sort((a, b) => b.data.date.valueOf() - a.data.date.v
                 </p>
 
                 <div class="flex items-center justify-between text-sm text-text-light">
-                  <time datetime={guide.data.date.toISOString()}>
+                  <time datetime={guide.data.published_at.toISOString()}>
                     {new Intl.DateTimeFormat('en-US', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric'
-                    }).format(guide.data.date)}
+                    }).format(guide.data.published_at)}
                   </time>
                 </div>
 

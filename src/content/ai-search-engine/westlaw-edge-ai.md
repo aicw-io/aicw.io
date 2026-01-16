@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Comprehensive Guide to Westlaw Edge AI"
 description: "Explore Westlaw Edge AI by Thomson Reuters, its features, and comparisons with Lexis+ AI."

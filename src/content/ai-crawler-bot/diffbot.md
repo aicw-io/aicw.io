@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Maximizing Data Extraction with Diffbot: Complete Guide"
 description: "Learn about Diffbot's structured data extraction, AI features, Knowledge Graph, and applications for businesses needing web scraping solutions."

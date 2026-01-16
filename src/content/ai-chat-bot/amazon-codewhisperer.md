@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Amazon CodeWhisperer: AI Coding Assistant Features & Review"
 description: "Comprehensive guide to Amazon CodeWhisperer AI code assistant. Features, AWS integration, security scanning, and comparison with GitHub Copilot."

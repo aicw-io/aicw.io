@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding AI2Bot-Dolma: The Allen AI Dolma Dataset Crawler | AI Chat Watch"
 description: "Explore the purpose and technology behind AI2Bot-Dolma, the crawler for the Dolma dataset by Allen AI, and its role in open AI data initiatives."

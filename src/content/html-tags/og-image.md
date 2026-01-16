@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "og:image Meta Tag: Optimize Social Media Preview Images"
 description: "Learn how to use og:image meta tags for perfect social media previews. Covers sizes, dimensions, and dynamic OG image generation."

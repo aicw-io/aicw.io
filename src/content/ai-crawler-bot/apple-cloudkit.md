@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Apple-CloudKit Bot: Features and Developer Insights"
 description: "Learn about the Apple-CloudKit bot's purpose, user-agent string, developer features, and blocking considerations for web developers."

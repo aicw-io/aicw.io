@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "GPT-NeoX: EleutherAI's Open Source LLM Explained"
 description: "Complete guide to GPT-NeoX and EleutherAI's open-source language models. Learn about Apache 2.0 licensing, The Pile dataset, and alternatives."

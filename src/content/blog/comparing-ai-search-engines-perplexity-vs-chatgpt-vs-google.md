@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 21:40:55
+published_at: 2025-12-23 21:40:55
 date_updated_at: 2026-01-03
 title: "AI Search Engines: Perplexity vs ChatGPT vs Google AI"
 description: "Compare Perplexity, ChatGPT Search, and Google AI Overview. Learn about accuracy, speed, pricing, and best use cases for each AI search engine."

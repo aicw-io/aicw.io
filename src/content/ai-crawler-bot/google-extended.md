@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-13
 title: "Google-Extended: Complete Guide to Blocking AI Crawlers"
 description: "Learn how Google-Extended controls AI training access via robots.txt without affecting search rankings. Block Gemini and Vertex AI crawlers properly."

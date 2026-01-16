@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "Datadog Synthetics Monitoring Crawler Guide"
 description: "Learn how Datadog Synthetics crawler works for synthetic testing and APM. Includes user-agent strings, blocking methods, and platform integration."

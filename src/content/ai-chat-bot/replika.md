@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Replika: AI Companion for Emotional Support and Friendship"
 description: "Explore Replika, the AI companion app offering emotional support and friendship through personalization, relationship building, and more."

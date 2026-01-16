@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Applebot: Apple's Web Crawler Explained"
 description: "Learn how Applebot powers Siri and Spotlight searches. Discover user-agent strings, verification methods, and how it compares to other crawlers."

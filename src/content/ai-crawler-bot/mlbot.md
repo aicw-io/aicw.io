@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "MLBot Guide: ML Training Data Crawler Explained"
 description: "Complete guide to MLBot machine learning crawler. Learn identification methods, user-agent strings, behavior patterns, and blocking options."

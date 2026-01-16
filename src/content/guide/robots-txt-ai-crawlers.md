@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-15
 title: "Robots.txt for AI Crawlers: Complete Guide"
 description: "Learn how to control AI crawler access with robots.txt. Block GPTBot, ClaudeBot, CCBot and other AI bots. Includes exact syntax and validation methods."

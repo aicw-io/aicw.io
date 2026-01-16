@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "GitHub Copilot: AI-Powered Coding Assistant Guide"
 description: "Learn about GitHub Copilot's AI code completion, IDE integrations, pricing and how it compares to Cursor and Codeium for developers."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Mistral AI: European Open-Weight Models Leading Innovation"
 description: "Discover Mistral AI's open-weight models like Mistral 7B and Mixtral 8x7B. Learn about European AI leadership and what makes these models efficient."

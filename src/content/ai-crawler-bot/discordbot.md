@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Discordbot: The Discord Link Preview Crawler"
 description: "Comprehensive guide to Discordbot, the link preview crawler for Discord. Discover its purpose, user-agent string, and customization options."

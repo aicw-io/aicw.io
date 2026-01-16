@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Qwen: Alibaba's Open-Source AI Models Guide"
 description: "Discover Alibaba's Qwen open-source models, covering Qwen 2.5, multilingual support, and Apache 2.0 licensing in this comprehensive guide."

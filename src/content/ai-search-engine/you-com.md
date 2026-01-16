@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-03
 title: "You.com AI Search Assistant: Features, Modes & Privacy"
 description: "Complete guide to You.com's AI search platform. Explore YouChat, YouWrite, YouImagine, YouCode modes, privacy features, and compare with ChatGPT."

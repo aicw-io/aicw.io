@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "PimEyes: AI Face Recognition Guide"
 description: "Explore PimEyes, an AI-powered face recognition tool. Learn its uses, privacy concerns, and competitors."

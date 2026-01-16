@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Mojeek: The Independent UK Search Engine Explained"
 description: "Complete guide to Mojeek search engine. Learn about its independent crawler, privacy features, and how it compares to Google and Brave Search."

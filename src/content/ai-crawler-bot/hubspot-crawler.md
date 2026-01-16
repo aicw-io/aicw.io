@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "HubSpot Crawler: Marketing Automation & CRM Integration"
 description: "Learn how HubSpot Crawler works for marketing automation, CRM integration, and how to manage or block it from your website."

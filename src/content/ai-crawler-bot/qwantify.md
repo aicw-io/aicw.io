@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Qwantify: French EU Privacy Search Crawler Explained"
 description: "Complete guide to Qwantify, the privacy-first French search crawler. Learn its features, purpose, and EU data sovereignty approach."

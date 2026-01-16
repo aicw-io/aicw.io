@@ -2,7 +2,7 @@
 title: "AI Search Engine Optimization Guide"
 subtitle: "The Essential Guide to Optimizing Your Website for Maximum Visibility in AI Search Results"
 description: "A comprehensive 84-page guide to optimizing your content for AI search engines like ChatGPT, Perplexity, and Claude. Learn the fundamentals of AI SEO, understand how LLMs process and cite content, and implement practical strategies to increase your brand's visibility in AI-driven search results."
-date: 2025-01-01
+published_at: 2025-01-01
 author: "Eugene Mironichev"
 coverImage: "/assets/book/ai-seo-guide/images/cover.png"
 pageCount: 84

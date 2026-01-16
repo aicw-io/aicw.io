@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "ByteDance-Frontpage: AI Crawler for News Aggregation"
 description: "Learn about ByteDance-Frontpage crawler for Toutiao news aggregation. Discover its user-agent, blocking methods, and how it collects content."

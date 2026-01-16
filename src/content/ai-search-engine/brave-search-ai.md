@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2025-12-30
 title: "Brave Search AI Guide: Features, Privacy & Comparison (2024)"
 description: "Learn about Brave Search AI's features, privacy-focused approach, and how it compares to other search engines. Detailed guide on its independent search index."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "OpenEvidence: Mayo's AI for Clinical Support"
 description: "Explore OpenEvidence, Mayo's AI for clinicians, focusing on evidence-based support and HIPAA compliance."

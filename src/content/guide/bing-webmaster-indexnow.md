@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13 18:27:41
+published_at: 2026-01-13 18:27:41
 date_updated_at: 2026-01-15
 title: "Bing Webmaster Tools & IndexNow Setup Guide"
 description: "Complete guide to Bing Webmaster Tools and IndexNow protocol. Learn API setup, URL submission methods, WordPress plugins, and Cloudflare integration."

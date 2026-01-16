@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "AI21 Jamba Model: 256K Context Window Architecture Guide"
 description: "Deep dive into AI21 Jamba model's 256K token context window, Mamba-Transformer architecture, efficiency features, and enterprise applications."

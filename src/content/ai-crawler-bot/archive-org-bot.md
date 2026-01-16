@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Archive.org_bot: Wayback Machine Crawler"
 description: "Learn about Archive.org_bot, the Internet Archive crawler that preserves the web. Discover its purpose, how it works, and how to manage it."

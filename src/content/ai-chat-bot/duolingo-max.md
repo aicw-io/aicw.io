@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Duolingo Max GPT-4 Features: Pricing & Language Guide"
 description: "Complete guide to Duolingo Max AI features including GPT-4 integration, Roleplay mode, Explain My Answer, subscription costs, and supported languages."

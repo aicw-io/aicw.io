@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "Meta Robots Tag: Control Search Engine Indexing"
 description: "Learn how to use meta robots tags like noindex and nofollow to control how search engines crawl and index your web pages."

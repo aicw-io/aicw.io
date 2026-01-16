@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Cohere Command R+ Enterprise AI Chatbot Complete Guide"
 description: "Deep dive into Cohere Command R+ chatbot features, 128K context window, RAG optimization, multilingual support, and how it compares to alternatives."

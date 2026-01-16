@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding Perplexity-User: Real-Time Fetching for AI"
 description: "Learn about Perplexity-User bot that enhances AI query results through real-time fetching. Explore user-agent strings, blocking, and behavior patterns."

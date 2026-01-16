@@ -1,5 +1,5 @@
 ---
-date: 2025-12-23 00:24:57
+published_at: 2025-12-23 00:24:57
 date_updated_at: 2026-01-03
 title: "AI Crawlers: How They Work and Why They Matter"
 description: "Learn what AI crawlers are, how they operate, and why they're essential for training AI models. Complete guide for developers and tech professionals."

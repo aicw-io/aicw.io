@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding MojeekBot: UK's Independent Search Crawler"
 description: "Complete guide to MojeekBot covering UK origins, independent search indexing, functionality, and privacy-focused approach compared to alternatives."

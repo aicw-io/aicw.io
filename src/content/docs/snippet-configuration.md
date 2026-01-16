@@ -1,7 +1,7 @@
 ---
 title: "Widget Configuration"
 description: "Complete reference for AICW tracking script data attributes. Learn how to configure the summarize bar, share buttons, and URL filtering."
-date: 2026-01-13
+published_at: 2026-01-13
 order: 1
 keywords: "aicw, widget, configuration, tracking script, data attributes, summarize bar, share buttons"
 ---

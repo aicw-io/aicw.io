@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding ISSCyborg: The Advanced ISS Technology Crawler"
 description: "Discover the ISSCyborg web crawler's purpose, behavior, and how to manage its data collection effectively."

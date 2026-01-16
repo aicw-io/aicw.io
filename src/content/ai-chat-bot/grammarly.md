@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Grammarly AI Writing Assistant: Features & Pricing Guide"
 description: "Complete guide to Grammarly's AI features, pricing tiers, plagiarism detection, and how it compares to other writing tools. Used by 30M+ daily."

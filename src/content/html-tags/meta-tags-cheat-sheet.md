@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14 18:16:06
+published_at: 2026-01-14 18:16:06
 date_updated_at: 2026-01-15
 title: "Complete HTML Meta Tags Cheat Sheet for SEO and Social Media"
 description: "Your ultimate reference guide to all essential HTML meta tags for SEO and social media. Copy-paste ready code snippets with examples."

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding FacebookBot: Meta's Key AI Training Crawler"
 description: "Learn about FacebookBot's role in AI training for Meta's models, user-agent details, documentation, and how to block it from your website."

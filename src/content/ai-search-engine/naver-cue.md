@@ -1,5 +1,5 @@
 ---
-date: 2025-12-21 17:42:58
+published_at: 2025-12-21 17:42:58
 date_updated_at: 2026-01-01
 title: "Naver Cue: Korean AI Search Powered by HyperCLOVA X"
 description: "Deep dive into Naver Cue AI search tool, HyperCLOVA X language model capabilities, and how it competes with Google in South Korea's search market."

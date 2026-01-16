@@ -6,6 +6,7 @@
  */
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
+import { publishedFilter } from '../utils/content-helpers';
 
 interface Props {
   currentPost: CollectionEntry<'blog'>;
@@ -14,10 +15,7 @@ interface Props {
 const { currentPost } = Astro.props;
 
 // Get all published posts
-const allPosts = await getCollection('blog', ({ data }) => {
-  if (data.draft) return false;
-  return data.date <= new Date();
-});
+const allPosts = await getCollection('blog', publishedFilter);
 
 // Get current post's tags and categories
 const currentTags = currentPost.data.tags || [];
@@ -48,7 +46,7 @@ const displayPosts = relatedPosts.length > 0
   ? relatedPosts
   : allPosts
       .filter(post => post.slug !== currentPost.slug)
-      .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+      .sort((a, b) => b.data.published_at.valueOf() - a.data.published_at.valueOf())
       .slice(0, 3);
 ---
 
@@ -80,7 +78,7 @@ const displayPosts = relatedPosts.length > 0
                 year: 'numeric',
                 month: 'short',
                 day: 'numeric'
-              }).format(post.data.date)}
+              }).format(post.data.published_at)}
             </div>
           </article>
         </a>

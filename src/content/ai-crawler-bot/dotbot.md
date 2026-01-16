@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 23:09:57
+published_at: 2025-12-22 23:09:57
 date_updated_at: 2026-01-03
 title: "Understanding DotBot: Moz's SEO Crawler for Domain Authority"
 description: "Explore DotBot, Moz's powerful SEO crawler used in domain authority calculations and link data collection."

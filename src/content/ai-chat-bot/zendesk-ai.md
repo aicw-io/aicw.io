@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Ultimate Guide to Zendesk AI for Customer Service Automation"
 description: "Complete guide on Zendesk AI features, benefits, and comparisons. Learn about intelligent triage, routing, pricing, and alternatives like Intercom Fin."

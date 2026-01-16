@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22 19:22:11
+published_at: 2025-12-22 19:22:11
 date_updated_at: 2026-01-03
 title: "Claude AI by Anthropic: Features, Models & Safety Guide"
 description: "Complete guide to Claude AI - Anthropic's chatbot with 200K context window, multiple models, API access, and safety-focused design for developers."
