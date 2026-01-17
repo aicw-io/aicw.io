@@ -1,7 +1,7 @@
-# AI Chat Watch (AICW)
+# AI Content & Web (AICW, former AI Chat Watch)
 
 ## Overview
-AI Chat Watch (AICW) is a free, open-source command-line tool for monitoring and analyzing how AI chatbots and large language models respond to specific questions over time. It provides comprehensive brand monitoring, competitive intelligence, and AI visibility analysis across 20+ AI models including ChatGPT, Claude, Gemini, Perplexity, and more.
+AI Content & Web (AICW, former AI Chat Watch) is a free, open-source command-line tool for monitoring and analyzing how AI chatbots and large language models respond to specific questions over time. It provides comprehensive brand monitoring, competitive intelligence, and AI visibility analysis across 20+ AI models including ChatGPT, Claude, Gemini, Perplexity, and more.
 
 ## Primary Purpose
 AICW helps marketers, businesses, and researchers:
