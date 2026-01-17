@@ -73,12 +73,14 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Source Domains"
+          "name": "Source Domains",
+          "item": "../index.html#sources"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "joinpavilion.com"
+          "name": "joinpavilion.com",
+          "item": "website/joinpavilion-com.html"
         }
       ]
     },
@@ -1428,13 +1430,13 @@ Industry and practitioner coverage:
  * - Anchor links #brand-<name> and #source-<name> with permanent highlight
  * - Multi-selection: #brand-<name1>,<name2> or #source-<domain1>,<domain2>
  * - Auto tab switching based on anchor
- * - Session-based random blur
+ * - Blurs: Voice, Position, Mentions/Citations values
+ * - Blurs: Source Links table URLs on /mention/ pages
+ * - Blurs: Brands Referenced table on /website/ pages
  * - Google crawlers see full content (no JS execution)
  */
 (function() {
   var SIGNUP_URL = 'https://app.aicw.io/auth?utm_source=ranking&utm_content=blurred';
-  var BLUR_PERCENTAGE = 0.40;
-  var TOP_N_ALWAYS_BLUR = 3;
   var currentHighlightedRows = []; // Track highlighted rows for cleanup
 
   // Check for unlock parameter
@@ -1448,28 +1450,6 @@ Industry and practitioner coverage:
     return text.toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-|-$/g, '');
-  }
-
-  // Seeded random from session
-  function getSessionSeed() {
-    var seed = sessionStorage.getItem('aicw-blur-seed');
-    if (!seed) {
-      seed = Math.random().toString(36).substring(2);
-      sessionStorage.setItem('aicw-blur-seed', seed);
-    }
-    return seed;
-  }
-
-  function seededRandom(seed) {
-    var hash = 0;
-    for (var i = 0; i < seed.length; i++) {
-      hash = ((hash << 5) - hash) + seed.charCodeAt(i);
-      hash |= 0;
-    }
-    return function() {
-      hash = (hash * 1103515245 + 12345) & 0x7fffffff;
-      return hash / 0x7fffffff;
-    };
   }
 
   function init() {
@@ -1577,9 +1557,6 @@ Industry and practitioner coverage:
   }
 
   function applyBlur() {
-    var seed = getSessionSeed() + window.location.pathname;
-    var random = seededRandom(seed);
-
     // Inject blur CSS
     injectBlurStyles();
 
@@ -1590,7 +1567,7 @@ Industry and practitioner coverage:
     } else if (path.includes('/website/')) {
       applyDetailPageBlur('source');
     } else {
-      applyIndexPageBlur(random);
+      applyIndexPageBlur();
     }
   }
 
@@ -1602,20 +1579,6 @@ Industry and practitioner coverage:
         user-select: none;\
         pointer-events: none;\
         transition: filter 0.2s;\
-      }\
-      .aicw-blurred-row {\
-        position: relative;\
-      }\
-      .aicw-blurred-row::after {\
-        content: "\\1F512";\
-        position: absolute;\
-        right: 8px;\
-        top: 50%;\
-        transform: translateY(-50%);\
-        filter: none;\
-        cursor: pointer;\
-        pointer-events: auto;\
-        font-size: 14px;\
       }\
       .aicw-blur-cta {\
         background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);\
@@ -1655,126 +1618,110 @@ Industry and practitioner coverage:
     document.head.appendChild(style);
   }
 
-  // Select exactly which indices to blur for even distribution
-  function selectIndicesToBlur(totalItems, topN, percentage, random) {
-    var indices = new Set();
-
-    // Always blur top N
-    for (var i = 0; i < Math.min(topN, totalItems); i++) {
-      indices.add(i);
-    }
-
-    // For remaining items, select exactly percentage% to blur
-    var remainingItems = totalItems - topN;
-    if (remainingItems > 0) {
-      var numToBlur = Math.round(remainingItems * percentage);
-
-      // Create array of remaining indices
-      var remainingIndices = [];
-      for (var j = topN; j < totalItems; j++) {
-        remainingIndices.push(j);
-      }
-
-      // Fisher-Yates shuffle using seeded random
-      for (var k = remainingIndices.length - 1; k > 0; k--) {
-        var swapIdx = Math.floor(random() * (k + 1));
-        var temp = remainingIndices[k];
-        remainingIndices[k] = remainingIndices[swapIdx];
-        remainingIndices[swapIdx] = temp;
-      }
-
-      // Take first numToBlur items
-      for (var m = 0; m < numToBlur; m++) {
-        indices.add(remainingIndices[m]);
-      }
-    }
-
-    return indices;
-  }
-
-  function applyIndexPageBlur(random) {
-    // Blur brand rows in #panel-brands
-    var brandRows = document.querySelectorAll('#panel-brands tbody tr');
-    var brandIndicesToBlur = selectIndicesToBlur(brandRows.length, TOP_N_ALWAYS_BLUR, BLUR_PERCENTAGE, random);
-    brandRows.forEach(function(row, index) {
-      if (brandIndicesToBlur.has(index)) {
-        blurTableRow(row, 'mention');
-      }
+  function applyIndexPageBlur() {
+    // Blur Voice column (3rd) in all rows - blur the influence-gauge or entire cell
+    document.querySelectorAll('#panel-brands tbody td:nth-child(3), #panel-sources tbody td:nth-child(3)').forEach(function(td) {
+      td.classList.add('aicw-blurred');
     });
 
-    // Blur source rows in #panel-sources
-    var sourceRows = document.querySelectorAll('#panel-sources tbody tr');
-    var sourceIndicesToBlur = selectIndicesToBlur(sourceRows.length, TOP_N_ALWAYS_BLUR, BLUR_PERCENTAGE, random);
-    sourceRows.forEach(function(row, index) {
-      if (sourceIndicesToBlur.has(index)) {
-        blurTableRow(row, 'website');
-      }
+    // Blur Position column (4th) in all rows
+    document.querySelectorAll('#panel-brands tbody td:nth-child(4), #panel-sources tbody td:nth-child(4)').forEach(function(td) {
+      td.classList.add('aicw-blurred');
     });
 
-    // Blur intro section brand mentions
-    blurIntroSection();
-  }
-
-  function blurTableRow(row, type) {
-    // Find the name link
-    var nameLink = row.querySelector('a[href*="' + type + '/"]');
-    if (nameLink) {
-      nameLink.classList.add('aicw-blurred');
-      // Store original href for potential unlock
-      nameLink.dataset.originalHref = nameLink.href;
-      nameLink.href = SIGNUP_URL;
-      nameLink.style.pointerEvents = 'auto';
-    }
-
-    // Blur favicon
-    var favicon = row.querySelector('img');
-    if (favicon) {
-      favicon.classList.add('aicw-blurred');
-    }
-
-    row.classList.add('aicw-blurred-row');
-  }
-
-  function blurIntroSection() {
-    // Blur brand links in report-intro section
-    var introLinks = document.querySelectorAll('.report-intro a[href*="mention/"]');
-    introLinks.forEach(function(link) {
-      link.classList.add('aicw-blurred');
-      link.dataset.originalHref = link.href;
-      link.href = SIGNUP_URL;
-      link.style.pointerEvents = 'auto';
-    });
-
-    // Also blur favicons in intro
-    var introFavicons = document.querySelectorAll('.report-intro img');
-    introFavicons.forEach(function(img) {
-      img.classList.add('aicw-blurred');
+    // Blur Mentions column (5th) in all rows
+    document.querySelectorAll('#panel-brands tbody td:nth-child(5), #panel-sources tbody td:nth-child(5)').forEach(function(td) {
+      td.classList.add('aicw-blurred');
     });
   }
 
   function applyDetailPageBlur(type) {
-    // On detail pages, blur specific high-value sections
-
-    // Blur hero section (name, rank, key metrics)
-    var hero = document.querySelector('.bg-gradient-to-r, .bg-gradient-to-br');
-    if (hero) {
-      // Blur the name
-      var name = hero.querySelector('h1');
-      if (name) name.classList.add('aicw-blurred');
-
-      // Blur rank
-      var rank = hero.querySelector('.font-black');
-      if (rank) rank.classList.add('aicw-blurred');
+    // Blur specific metrics by label text
+    var labelsToBlur = ['Voice', 'Position'];
+    if (type === 'brand') {
+      labelsToBlur.push('Mentions');
+    } else {
+      labelsToBlur.push('Citations');
     }
 
-    // Blur some metrics but not all (teaser effect)
-    var metrics = document.querySelectorAll('.metric-value-sm');
-    metrics.forEach(function(metric, i) {
-      if (i < 2) metric.classList.add('aicw-blurred'); // Blur first 2 metrics
+    document.querySelectorAll('.metric-card-sm').forEach(function(card) {
+      var label = card.querySelector('.metric-label-sm');
+      if (label && labelsToBlur.indexOf(label.textContent.trim()) !== -1) {
+        var value = card.querySelector('.metric-value-sm');
+        if (value) value.classList.add('aicw-blurred');
+      }
     });
 
-    // Keep citations/quotes visible (valuable for user to see format)
-    // Keep source links visible but blur some
+    // Blur hero Share of Voice
+    blurHeroVoice();
+
+    // Page-type specific blurring
+    if (type === 'brand') {
+      blurSourceLinksTable();
+    } else {
+      blurBrandsReferencedTable();
+    }
+  }
+
+  function blurHeroVoice() {
+    // Find hero section and blur the voice percentage
+    var hero = document.querySelector('.bg-gradient-to-r');
+    if (hero) {
+      var voiceContainers = hero.querySelectorAll('.text-right');
+      voiceContainers.forEach(function(container) {
+        var label = container.querySelector('.text-xs');
+        if (label && label.textContent.indexOf('Share of Voice') !== -1) {
+          var value = container.querySelector('.text-lg');
+          if (value) value.classList.add('aicw-blurred');
+        }
+      });
+    }
+  }
+
+  function blurSourceLinksTable() {
+    // Find "Source Links" section by heading text
+    var headings = document.querySelectorAll('h2');
+    headings.forEach(function(h2) {
+      if (h2.textContent.indexOf('Source Links') !== -1) {
+        var container = h2.closest('.bg-white') || h2.closest('[class*="bg-gray"]') || h2.parentElement.parentElement;
+        if (container) {
+          var table = container.querySelector('table');
+          if (table) {
+            // Blur all URL links in the table (visually only, keep href for navigation)
+            table.querySelectorAll('tbody a').forEach(function(link) {
+              link.classList.add('aicw-blurred');
+              // Keep original href - don't redirect to signup, allow navigation to /website/* pages
+            });
+            // Also blur favicons
+            table.querySelectorAll('tbody img').forEach(function(img) {
+              img.classList.add('aicw-blurred');
+            });
+          }
+        }
+      }
+    });
+  }
+
+  function blurBrandsReferencedTable() {
+    // Find "Brands Referenced" section by heading text
+    var headings = document.querySelectorAll('h2');
+    headings.forEach(function(h2) {
+      if (h2.textContent.indexOf('Brands Referenced') !== -1) {
+        var container = h2.closest('.bg-white') || h2.closest('[class*="bg-gray"]') || h2.parentElement.parentElement;
+        if (container) {
+          var table = container.querySelector('table');
+          if (table) {
+            // Blur all content in table body rows (visually only)
+            table.querySelectorAll('tbody tr').forEach(function(row) {
+              row.querySelectorAll('td').forEach(function(td) {
+                td.classList.add('aicw-blurred');
+              });
+            });
+            // Keep original hrefs - don't redirect to signup, allow navigation to /mention/* pages
+          }
+        }
+      }
+    });
   }
 
   function addCtaBanner() {
