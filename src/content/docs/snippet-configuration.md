@@ -14,7 +14,7 @@ Add the AICW tracking script to your website:
 
 ```html
 <script
-  src="https://cdn.aicw.io/aicw-view.min.js"
+  src="https://t.aicw.io/aicw-view.min.js"
   data-key="your-tracking-id"
   data-domain="yoursite.com">
 </script>
@@ -232,7 +232,7 @@ Here's a fully configured widget:
 
 ```html
 <script
-  src="https://cdn.aicw.io/aicw-view.min.js"
+  src="https://t.aicw.io/aicw-view.min.js"
   data-key="your-tracking-id"
   data-domain="example.com,www.example.com"
   data-summarize-bar="true"
