@@ -2,6 +2,24 @@
 title: "Beyond Keywords - Understanding the AI Search Revolution"
 chapterNumber: 1
 book: "ai-seo-guide"
+faq:
+  - question: "How is AI search different from keyword search?"
+    answer: "Traditional search matches your exact words to documents. AI search tries to understand what you actually want, even if you phrase it differently. You get synthesized answers instead of just links, and the AI considers your conversation history."
+  - question: "How does AI figure out what users want?"
+    answer: "It breaks down your question, considers context, and often runs multiple searches behind the scenes. Ask about 'puppy food vs adult' and it might search for nutritional differences, age recommendations, and transition guidelines separately, then combine the results."
+  - question: "Which AI search platforms matter right now?"
+    answer: "ChatGPT Search, Google AI Mode, Perplexity, and Claude are the main ones. Each handles sources differently. ChatGPT uses Bing, Perplexity has its own index, Claude uses Brave Search. They all give conversational answers with citations."
+howTo:
+  name: "How to Identify User Intent for AI Search"
+  description: "Three steps to understand what users actually want when they search."
+  totalTime: "PT15M"
+  steps:
+    - name: "List the questions behind your keywords"
+      text: "For any keyword you target, write out 3-5 questions a user might really be asking. 'Leash training' could mean 'how do I start?', 'why does my dog pull?', or 'which leash is best?'"
+    - name: "Check AI responses for your topic"
+      text: "Search your topic in ChatGPT, Perplexity, and Google. Note what questions the AI answers and what follow-up questions it suggests. These reveal common user intents."
+    - name: "Structure content around those intents"
+      text: "Rewrite your page titles and headings to directly address the intents you found. 'Leash Training' becomes 'How to Leash Train a Puppy That Pulls.'"
 ---
 
 # Chapter 1: Beyond Keywords \- Understanding the AI Search Revolution

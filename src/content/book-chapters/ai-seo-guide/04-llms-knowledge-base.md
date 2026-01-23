@@ -2,6 +2,26 @@
 title: "The Brains of the Operation: LLMs and Their Knowledge Base"
 chapterNumber: 4
 book: "ai-seo-guide"
+faq:
+  - question: "When does AI search the web versus use its training data?"
+    answer: "For factual or current questions, it searches. For creative or conceptual stuff, it often relies on training data. Ask about yesterday's news and it searches. Ask for a joke and it probably doesn't. You can usually tell by whether citations appear."
+  - question: "What's different about AI answers with web search on versus off?"
+    answer: "Web search adds specific numbers, current data, and source citations. Without it, you get more general answers from training data. The core information is often similar, but web search provides the specifics and proof points."
+  - question: "Why does it matter if my brand is in AI training data?"
+    answer: "When AI doesn't search the web, it answers from memory. If you're in that memory, you can get mentioned even without appearing in search results. Many questions get answered without web search ever running."
+howTo:
+  name: "How to Check If Your Brand Is in AI Training Data"
+  description: "Test whether AI knows your brand from training versus web search."
+  totalTime: "PT15M"
+  steps:
+    - name: "Disable web search in ChatGPT"
+      text: "In ChatGPT, don't enable the 'Search' toggle. Ask 'What is [your brand]?' and see if it knows you without searching."
+    - name: "Ask about your founding and products"
+      text: "Without web search, ask specific questions: when was the company founded, what products do they offer, who are competitors. Check accuracy."
+    - name: "Compare with search enabled"
+      text: "Enable web search and ask the same questions. Note what information comes from training data versus live search."
+    - name: "Document gaps"
+      text: "If AI doesn't know you from training, focus on getting mentioned on sites that feed training data: Wikipedia, Reddit threads, industry publications."
 ---
 
 # Chapter 4: The Brains of the Operation: LLMs and Their Knowledge Base

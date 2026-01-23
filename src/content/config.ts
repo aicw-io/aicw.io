@@ -87,6 +87,21 @@ const bookChapters = defineCollection({
     title: z.string(),
     chapterNumber: z.number(),
     book: z.string(),
+    // FAQ for FAQPage schema
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
+    // HowTo for HowTo schema
+    howTo: z.object({
+      name: z.string(),
+      description: z.string(),
+      totalTime: z.string().optional(),
+      steps: z.array(z.object({
+        name: z.string(),
+        text: z.string(),
+      })),
+    }).optional(),
   }),
 });
 

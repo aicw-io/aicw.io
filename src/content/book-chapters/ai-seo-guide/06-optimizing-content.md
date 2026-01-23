@@ -2,6 +2,32 @@
 title: "Optimizing Content for Easy Understanding By AI"
 chapterNumber: 6
 book: "ai-seo-guide"
+faq:
+  - question: "What is intent-based content optimization?"
+    answer: "Instead of matching keywords, you address what users actually want to accomplish. 'Puppy Leash Training' becomes 'How to Leash Train Your Puppy When They Pull or Resist.' Same topic, but written around the problem people are trying to solve."
+  - question: "Why do FAQ sections help with AI search?"
+    answer: "AI can easily extract Q&A formatted content. When your page has clear questions and answers, AI is more likely to pull from it and cite you. It's also easier for readers, which is probably why Google has been showing FAQ results for years."
+  - question: "What are semantic keywords?"
+    answer: "Related terms that help AI understand context. For leash training, that's 'positive reinforcement,' 'loose-leash walking,' 'harness vs collar.' You're building topic coverage, not stuffing keywords."
+  - question: "Should I structure content as questions and answers?"
+    answer: "For informational content, yes. Use question-style headings when they fit naturally: 'When should I start leash training?' rather than 'Optimal timing for leash training initiation.' It matches how people search and makes your content easier to cite."
+howTo:
+  name: "How to Optimize a Page for AI Search"
+  description: "Transform an existing page to be more AI-friendly in six steps."
+  totalTime: "PT45M"
+  steps:
+    - name: "Rewrite the title around user intent"
+      text: "Change 'Puppy Leash Training' to 'How to Leash Train Your Puppy (Even When They Pull).' Address the problem, not just the topic."
+    - name: "Add question-style headings"
+      text: "Convert section headings to questions: 'When should I start leash training?' and 'Why does my puppy pull on the leash?'"
+    - name: "Include long-tail keyword phrases"
+      text: "Add specific phrases like 'how to stop a puppy pulling on walks' naturally in the content. These match conversational AI queries."
+    - name: "Add semantic keywords throughout"
+      text: "Include related terms like 'positive reinforcement,' 'harness vs collar,' 'loose-leash walking' to show topic depth."
+    - name: "Create an FAQ section"
+      text: "Add 3-5 common questions with direct answers at the end of the page. This is easy content for AI to extract and cite."
+    - name: "Test in AI tools"
+      text: "After publishing, search your topic in ChatGPT and Perplexity. Check if your page appears in citations."
 ---
 
 # Chapter 6: Optimizing Content for Easy Understanding By AI

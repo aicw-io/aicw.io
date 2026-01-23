@@ -2,6 +2,26 @@
 title: "Under the Hood: The AI Search Workflow"
 chapterNumber: 3
 book: "ai-seo-guide"
+faq:
+  - question: "What actually happens when you search with AI?"
+    answer: "The AI rewrites your question, sometimes breaks it into sub-queries, searches the web, reads the results, synthesizes an answer with citations, and sometimes suggests follow-up questions. There's also a feedback loop where your thumbs-up or thumbs-down helps improve future responses."
+  - question: "What is query preprocessing?"
+    answer: "Before searching, the AI reformats your question for better results. 'How is puppy food different from adult?' might become three separate searches: one about nutritional differences, one about when to switch, one about why formulas differ. This happens automatically."
+  - question: "How does AI decide which sources to cite?"
+    answer: "Each AI has its own ranking logic. Studies show 33-73% overlap with traditional search results - meaning AI often cites different sources than Google would rank highest. Authority matters, but so do factors we can only guess at."
+howTo:
+  name: "How to Analyze AI Source Selection for Your Topic"
+  description: "See which sources AI picks for your topics and learn from the patterns."
+  totalTime: "PT30M"
+  steps:
+    - name: "Run the same query across 4 AI tools"
+      text: "Search your main topic in ChatGPT, Perplexity, Claude, and Google AI Mode. Copy the queries exactly."
+    - name: "List every source cited"
+      text: "Record every domain that appears in citations across all four tools. Note which appear in multiple tools versus just one."
+    - name: "Identify common patterns"
+      text: "Look for what the cited sources have in common: domain authority, content format, page structure, how they answer the question directly."
+    - name: "Compare to your own content"
+      text: "Check if your pages match those patterns. If cited sources all have FAQ sections and yours doesn't, that's a gap to fix."
 ---
 
 # Chapter 3: Under the Hood: The AI Search Workflow

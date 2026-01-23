@@ -2,6 +2,28 @@
 title: "Charting the Future: SEO in an AI-First World"
 chapterNumber: 8
 book: "ai-seo-guide"
+faq:
+  - question: "What is the zero-click problem?"
+    answer: "Users get their answers in the AI interface and never click through to websites. Gartner predicted 50% traffic loss by 2028. Some news sites already report 75% fewer clicks on certain queries. AI gives complete answers, so users don't need to visit sources."
+  - question: "Does Google penalize AI-generated content?"
+    answer: "No. Google's official position is they reward quality regardless of how content is produced. They care about E-E-A-T (experience, expertise, authority, trust), not whether you used AI. Spam is spam, but using AI tools isn't automatically penalized."
+  - question: "What will SEO look like in an AI-first world?"
+    answer: "Traditional search engines will feed AI systems. Technical basics (fast pages, JSON-LD, server-side rendering) become non-negotiable. Content will need to answer questions directly. AI assists with research, humans provide expertise and judgment."
+  - question: "How do I measure success if AI reduces my click traffic?"
+    answer: "Track brand mentions in AI responses, not just clicks. Use Google Search Console and Bing Webmaster for traditional metrics. For AI visibility, check manually or use monitoring tools like AI Chat Watch. The metric shifts from visits to citations."
+howTo:
+  name: "How to Measure Your AI Search Visibility"
+  description: "Track whether AI is mentioning your brand and citing your content."
+  totalTime: "PT20M"
+  steps:
+    - name: "Set up weekly AI checks"
+      text: "Every week, search your brand name and top 5 topics in ChatGPT, Perplexity, Claude, and Google AI Mode. Note when you appear in citations."
+    - name: "Track referral traffic from AI"
+      text: "In Google Analytics, filter traffic by source. Look for chatgpt.com, perplexity.ai, and similar AI domains. Set up a saved segment."
+    - name: "Monitor competitors too"
+      text: "Search competitor brand names and shared topics. Compare how often they get cited versus you. This shows relative AI visibility."
+    - name: "Use automated monitoring"
+      text: "Tools like AI Chat Watch can automate daily checks across multiple AI platforms and alert you to changes in your brand mentions."
 ---
 
 # Chapter 8: Charting the Future: SEO in an AI-First World

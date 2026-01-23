@@ -2,6 +2,26 @@
 title: "Where Does the LLM's Knowledge Come From?"
 chapterNumber: 5
 book: "ai-seo-guide"
+faq:
+  - question: "What is Common Crawl?"
+    answer: "A nonprofit that crawls the web monthly and makes the data public. It captures over 2 billion pages per crawl - petabytes of data. Most major AI models use it as training data. You can check if your site is included at index.commoncrawl.org."
+  - question: "Where does AI training data actually come from?"
+    answer: "Common Crawl for broad web coverage. Reddit posts that got upvotes. Wikipedia. Books (though some were dropped due to copyright issues). Partnerships with publishers like News Corp and platforms like Stack Overflow. Each source is weighted differently."
+  - question: "How do AI companies filter for quality in training data?"
+    answer: "They use proxies. Reddit upvotes mean humans liked the content. Wikipedia has editorial review. Publisher partnerships provide professionally edited material. It's a mix of broad coverage and curated high-quality sources."
+howTo:
+  name: "How to Check If Your Site Is in Common Crawl"
+  description: "Verify your website is being captured in the main AI training dataset."
+  totalTime: "PT10M"
+  steps:
+    - name: "Go to index.commoncrawl.org"
+      text: "Open the Common Crawl index server at index.commoncrawl.org."
+    - name: "Search your domain"
+      text: "Enter your domain pattern like '*.yoursite.com' and run the search."
+    - name: "Review the results"
+      text: "You'll see a list of captured URLs with timestamps. Check which pages were crawled and when."
+    - name: "Identify gaps"
+      text: "If important pages are missing, check that they're not blocked by robots.txt and that they load without JavaScript."
 ---
 
 # Chapter 5: Where Does the LLM's Knowledge Come From?

@@ -2,6 +2,26 @@
 title: "How Big is AI Search Compared to Google?"
 chapterNumber: 2
 book: "ai-seo-guide"
+faq:
+  - question: "How does ChatGPT traffic compare to Google?"
+    answer: "As of September 2025, ChatGPT gets about 6 billion monthly visits - roughly 6% of Google's 82 billion. That's more monthly visitors than Yahoo. A year ago it was half that, so the growth rate is significant."
+  - question: "Which AI search platforms are growing fastest?"
+    answer: "ChatGPT leads with 75% of AI tool traffic. Perplexity, Claude, Grok, and DeepSeek are all growing but from smaller bases. Google reaches far more people through AI Mode built into regular search, but those numbers are harder to separate out."
+  - question: "Is AI search actually a big deal yet or just hype?"
+    answer: "It's real. ChatGPT alone has more monthly visitors than Bing and Amazon combined. Google shows AI summaries in 200+ countries. Whether this matters for your specific site depends on your industry and how people find you."
+howTo:
+  name: "How to Estimate AI Search Impact for Your Industry"
+  description: "Check how much AI search matters for your specific niche."
+  totalTime: "PT20M"
+  steps:
+    - name: "Search your main topics in AI tools"
+      text: "Enter 5-10 of your key topics into ChatGPT, Perplexity, and Google AI Mode. See if your site or competitors appear in citations."
+    - name: "Check your analytics for AI referrers"
+      text: "Look for traffic from chatgpt.com, perplexity.ai, and similar domains in your analytics. Filter for the past 6 months to spot trends."
+    - name: "Estimate informational query share"
+      text: "What percentage of searches in your industry are informational (how to, what is, why) versus transactional (buy, price, near me)? Higher informational share means more AI impact."
+    - name: "Compare to competitors"
+      text: "Search for your brand and competitors in AI tools. Note who gets mentioned and cited. This shows your current AI visibility relative to others."
 ---
 
 # Chapter 2: How Big is AI Search Compared to Google? Understanding the Landscape
