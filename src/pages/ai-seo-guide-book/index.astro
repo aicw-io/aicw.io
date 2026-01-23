@@ -33,6 +33,57 @@ const {
 // First chapter for "Start Reading" button
 const firstChapter = sortedChapters[0];
 const firstChapterSlug = firstChapter?.slug.split('/').pop();
+
+// JSON-LD Structured Data for Book
+const bookJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "https://www.aicw.io/ai-seo-guide-book/#book",
+  "name": title,
+  "description": description,
+  "author": {
+    "@type": "Person",
+    "name": author,
+    "url": "https://www.linkedin.com/in/mironic/",
+    "jobTitle": "Technical Entrepreneur"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AICW",
+    "url": "https://www.aicw.io"
+  },
+  "image": `https://www.aicw.io${coverImage}`,
+  "url": "https://www.aicw.io/ai-seo-guide-book/",
+  "bookFormat": "https://schema.org/EBook",
+  "numberOfPages": pageCount,
+  "datePublished": "2025-05-05",
+  "dateModified": "2025-10-18",
+  "inLanguage": "en",
+  "hasPart": sortedChapters.map(ch => ({
+    "@type": "Chapter",
+    "position": ch.data.chapterNumber,
+    "name": ch.data.title,
+    "url": `https://www.aicw.io/ai-seo-guide-book/${ch.slug.split('/').pop()}/`
+  }))
+};
+
+const collectionPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `${title} - Table of Contents`,
+  "description": description,
+  "url": "https://www.aicw.io/ai-seo-guide-book/",
+  "mainEntity": { "@id": "https://www.aicw.io/ai-seo-guide-book/#book" }
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.aicw.io" },
+    { "@type": "ListItem", "position": 2, "name": title, "item": "https://www.aicw.io/ai-seo-guide-book/" }
+  ]
+};
 ---
 
 <BaseLayout
@@ -41,6 +92,12 @@ const firstChapterSlug = firstChapter?.slug.split('/').pop();
   canonical="/ai-seo-guide-book/"
   image={coverImage}
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(bookJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  </Fragment>
+
   <div class="min-h-screen bg-bg-secondary">
     <Navigation />
 

@@ -2,6 +2,13 @@
 title: "Appendix: Special Thanks, About the Author, Glossary"
 chapterNumber: 9
 book: "ai-seo-guide"
+faq:
+  - question: "What is GEO (Generative Engine Optimization)?"
+    answer: "GEO is SEO for AI responses. The goal is getting your brand mentioned when people ask ChatGPT or Google AI about your topic. It extends traditional SEO to cover AI synthesis and citation, not just search rankings."
+  - question: "What is E-E-A-T?"
+    answer: "Experience, Expertise, Authoritativeness, Trustworthiness. Google's framework for evaluating content quality. Human raters use it, and the principles shape algorithm design. It matters for AI too - training data quality depends on similar signals."
+  - question: "What's the difference between SSR and CSR for crawlers?"
+    answer: "SSR (server-side rendering) sends complete HTML to crawlers. CSR (client-side rendering) sends minimal HTML and builds the page with JavaScript in the browser. Most AI crawlers can't run JavaScript, so they only see SSR pages properly."
 ---
 
 # Special Thanks

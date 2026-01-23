@@ -2,6 +2,28 @@
 title: "Technical SEO for the AI Era"
 chapterNumber: 7
 book: "ai-seo-guide"
+faq:
+  - question: "What is JSON-LD and why does it matter for AI?"
+    answer: "JSON-LD is structured data embedded in your page that tells crawlers exactly what your content is - an article, a recipe, a product with a price. AI crawlers read it directly instead of parsing your HTML. Almost every top source in AI citations uses it."
+  - question: "Why is server-side rendering important for AI crawlers?"
+    answer: "Most AI crawlers (ChatGPT, Claude, Common Crawl) don't run JavaScript. They only see the raw HTML your server sends. If your content requires JavaScript to appear, these crawlers see a blank page. Server-side rendering fixes that."
+  - question: "How do I get AI to index my website?"
+    answer: "Submit to the search engines that power AI. Google Search Console and Bing Webmaster Tools cover most of it. For Brave Search (which powers Claude and Grok), submit at search.brave.com/submit-url. IndexNow works for Bing but Google ignores it."
+  - question: "Which JSON-LD schema types matter most?"
+    answer: "Article for blog posts, HowTo for tutorials, FAQPage for Q&A content, Product for e-commerce. Using the right specific type (HowTo instead of generic WebPage) gives AI better context about your content."
+howTo:
+  name: "How to Add JSON-LD Structured Data to Your Website"
+  description: "Four steps to implement JSON-LD for better AI crawler visibility."
+  totalTime: "PT30M"
+  steps:
+    - name: "Pick your schema types"
+      text: "Review your content and choose the right types. Blog posts are Article. Tutorials are HowTo. Q&A pages are FAQPage. Check schema.org for the full list."
+    - name: "Add the JSON-LD code"
+      text: "Use your CMS plugin (Yoast, RankMath, etc.) or add script tags manually to your page head. The code is JSON that describes your content."
+    - name: "Test it"
+      text: "Run your pages through validator.schema.org and Google's Rich Results Test. Fix any errors before going live."
+    - name: "Monitor indexing"
+      text: "Check Google Search Console for structured data errors. Watch for rich result appearances over the following weeks."
 ---
 
 # Chapter 7: Technical SEO for the AI Era
