@@ -144,15 +144,13 @@ Privacy considerations, like GDPR, may impact crawler operations. Expect more tr
 
 Core Web Vitals and user experience signals are likely to influence crawling, rewarding better site performance with more crawl budget.
 
-## Conclusion
+## Summary
 
-Googlebot is fundamental to Google Search, building the search index used by billions daily. Understanding its workings can enhance your site’s search visibility. While it comes in multiple variants, the desktop and smartphone versions are most vital for SEO.
+Googlebot builds Google's search index. The desktop and smartphone variants matter most for SEO, with mobile-first indexing making the smartphone crawler particularly important.
 
-Crawl budget affects how much of your site is crawled, influenced by site speed, technical improvements, and smart robots.txt use. The emergence of Google-Extended separates search indexing from AI training, providing more control over data use without impacting search visibility.
+Crawl budget affects how much of your site gets crawled. Improve it with faster page speeds, fewer server errors, and strategic robots.txt rules. Google-Extended is a separate crawler for AI training data, which you can block independently from Googlebot.
 
-Compared to other crawlers, Googlebot offers the largest reach and most sophisticated capabilities. Developers and SEO experts should ensure proper Googlebot handling and monitor crawling activity to quickly address technical issues.
-
-As search evolves, Googlebot will continue advancing. Staying informed about crawler updates is key to maintaining strong search performance.
+Monitor crawling through Google Search Console's Coverage, URL Inspection, and Crawl Stats reports. Fix technical issues promptly since they affect whether your pages get indexed and ranked.
 <h2>Frequently Asked Questions</h2>
 
 <details>
