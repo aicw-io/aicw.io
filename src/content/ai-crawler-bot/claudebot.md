@@ -222,9 +222,11 @@ Hosting provider documentation often includes sections on managing bot traffic a
 
 Browser developer tools and online robots.txt validators help you test your configuration. Google Search Console includes a robots.txt tester, though it's designed for GoogleBot; it validates general syntax too.
 
-## Conclusion
+## Summary
 
-Anthropic operates multiple crawlers for different purposes. **ClaudeBot** collects training data for AI models. **Claude-User** supports real-time user queries. **Claude-SearchBot** enables search features. Two heritage agents, **Claude-Web** and **anthropic-ai**, also exist, though they're not officially documented anymore. Managing these bots happens through your robots.txt file using standard user agent directives. Anthropic doesn't publish IP ranges, so user agent blocking is your primary control method. You can block all Anthropic crawlers, allow all of them, or selectively block training bots while allowing query bots. The choice depends on your content strategy and comfort level with AI data collection. Official documentation lives at https://www.anthropic.com/robots, and you can contact bots@anthropic.com with specific concerns. Understanding these crawlers helps web developers, SEO experts, and site owners make informed decisions about AI access to their content. The scene continues to evolve as AI companies and website owners shape sustainable relationships around content usage and access.
+Anthropic operates multiple crawlers: ClaudeBot (training data), Claude-User (real-time queries), and Claude-SearchBot (search features). Two undocumented heritage agents, Claude-Web and anthropic-ai, also exist. Manage them through robots.txt using user agent directives. Anthropic doesn't publish IP ranges, so user agent blocking is your primary control method.
+
+You can block all Anthropic crawlers, allow all of them, or selectively block training bots while allowing query bots. Official documentation is at https://www.anthropic.com/robots, and you can contact bots@anthropic.com with specific concerns.
 <h2>Frequently Asked Questions</h2>
 <details>
   <summary>What should I do if I want to block Anthropic bots from accessing my site?</summary>
