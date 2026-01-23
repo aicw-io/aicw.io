@@ -114,9 +114,9 @@ While Kagi excels in privacy, it faces limitations in index size, local search c
 
 <a id="end-and-final-thoughts"></a>
 
-## End and Final Thoughts
+## Summary
 
-Kagi Search presents a viable paid search engine with features like FastGPT and Lenses, providing ad-free, private search experiences. While free alternatives exist, Kagi's subscription approach offers a clean, customizable benefit for those valuing privacy over advertisements. Whether Kagi aligns with one's preferences depends on the prioritization of privacy, search needs, and budget considerations in today's digital landscape.
+Kagi is a paid search engine ($5-25/month) that offers ad-free results, no tracking, and features like FastGPT (AI answers with citations) and Lenses (domain filtering). It serves over 100,000 subscribers who value privacy and clean search results. The trade-offs include subscription cost and a smaller index than Google. The 100-search free trial lets you test it before committing.
 Kagi AI Features:
 ![End and Final Thoughts Diagram](/assets/ai-search-engine/kagi-search/user-query-fastgpt.png)
 <h2>Frequently Asked Questions</h2>
