@@ -12,13 +12,11 @@ things: "meta author, meta generator, html author tag, document metadata, meta n
 keywords: "meta author, meta generator, html author tag, document metadata, meta name author, website author meta tag, html meta tags"
 ---
 
-## What Are Meta Author and Meta Generator Tags
+## What are meta author and meta generator tags
 
-Meta author and meta generator tags are HTML elements residing in the head section of your webpage. These tags are key components of document metadata. They inform about who created the page and what software was used to build it. The meta author tag specifies the person or organization that authored the content. The meta generator tag indicates the content management system or web editor that generated the HTML file.
+Meta author and meta generator tags are HTML elements in the head section of your webpage. The meta author tag specifies who created the page. The meta generator tag indicates which content management system or web editor generated the HTML file.
 
-These tags belong to the realm of document metadata. Metadata, in this context, describes your webpage rather than the actual content visitors see. While web developers and content management systems have used these tags for years, their significance has shifted over time.
-
-Most search engines today don't use these tags for ranking. However, they still serve other important purposes like documentation, attribution, and analytics. Small business owners using website builders might notice these tags added automatically. Understanding them helps decide their necessity.
+These tags describe your webpage rather than the content visitors see. While developers and CMS platforms have used them for years, their significance has shifted. Most search engines don't use these tags for ranking, but they still serve purposes like documentation and attribution. If you use a website builder, you may notice these tags added automatically.
 
 Meta Tags Structure Overview:
 ```mermaid

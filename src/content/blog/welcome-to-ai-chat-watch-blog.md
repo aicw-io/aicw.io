@@ -10,69 +10,38 @@ heroImageAlt: "AI Chat Watch Analytics Dashboard"
 featured: true
 ---
 
-Welcome to the AI Chat Watch blog! We're excited to share insights about tracking AI-driven traffic and improving your visibility across AI chatbots—all while respecting user privacy.
+Welcome to the AI Chat Watch blog. Here we'll cover how to track AI-driven traffic and improve your visibility across AI chatbots without compromising user privacy.
 
-## Why AI Traffic Matters
+## Why AI traffic matters
 
-AI chatbots like [ChatGPT](/ai-chat-bot/chatgpt/), [Claude](/ai-chat-bot/claude/), [Perplexity](/ai-chat-bot/perplexity/), and [Gemini](/ai-chat-bot/google-gemini/) are becoming primary discovery channels. When users ask these AI assistants for recommendations, **being visible and getting cited means real traffic to your website**.
+AI chatbots like [ChatGPT](/ai-chat-bot/chatgpt/), [Claude](/ai-chat-bot/claude/), [Perplexity](/ai-chat-bot/perplexity/), and [Gemini](/ai-chat-bot/google-gemini/) are becoming primary discovery channels. When users ask these assistants for recommendations, getting cited can send real traffic to your site.
 
-But how do you know if AI is sending you visitors? Traditional analytics can't tell you which traffic comes from AI chatbot recommendations.
+The problem: traditional analytics can't tell you which visitors came from AI chatbot recommendations.
 
 ## What is AI Chat Watch?
 
-AI Chat Watch is a **privacy-focused web analytics platform** that helps you:
+AI Chat Watch is a web analytics platform that tracks AI referrals. It shows you visitors from ChatGPT, Claude, Perplexity, Gemini, and other AI sources. You can see which pages get AI-driven visits and measure whether AI visibility actually leads to conversions.
 
-- **Track AI Referrals** - See visitors from ChatGPT, Claude, Perplexity, Gemini, and other AI sources
-- **Monitor AI Visibility** - Get a score on how accessible your site is to AI crawlers
-- **Understand Your Traffic** - See which pages get AI-driven visits
-- **Prove ROI** - Demonstrate that AI visibility generates real conversions
+## Privacy-first design
 
-## Privacy-First Design
+Unlike traditional analytics, AI Chat Watch doesn't use cookies or tracking pixels. No IP addresses are stored, all data is anonymized, and it's GDPR and CCPA compliant. You get the traffic insights without the surveillance baggage.
 
-Unlike traditional analytics, AI Chat Watch is built with privacy at its core:
+## See it in action
 
-- No cookies or tracking pixels
-- No IP address storage
-- GDPR and CCPA compliant
-- All data anonymized
+Check out the [live public demo](https://app.aicw.io/public/aicw.io) showing real AI traffic data for aicw.io.
 
-You get the insights you need without compromising your visitors' privacy.
+## Who should use AI Chat Watch?
 
-## See It In Action
+Marketers can see which AI chatbots recommend their brand and track the traffic they generate. SEO professionals can optimize for AI discovery with visibility scores and crawler detection. Product managers can measure whether AI visibility investments lead to actual results. Business owners can see how AI recommendations affect their website traffic.
 
-Check out our [live public demo](https://app.aicw.io/public/aicw.io) to see real AI traffic data for aicw.io.
+## Getting started
 
-## Who Should Use AI Chat Watch?
+Setup is quick: sign up at [app.aicw.io](https://app.aicw.io), add one line of tracking code to your website, and you'll start seeing AI traffic data.
 
-### Marketers
-Understand which AI chatbots recommend your brand and track the traffic they generate.
+## What's coming on this blog
 
-### SEO Professionals
-Optimize for AI discovery with visibility scores and crawler detection.
-
-### Product Managers
-Prove that AI visibility investments generate measurable results.
-
-### Business Owners
-See the real impact of AI recommendations on your website traffic.
-
-## Getting Started
-
-Setup takes 60 seconds:
-
-1. Sign up at [app.aicw.io](https://app.aicw.io)
-2. Add one line of tracking code to your website
-3. Start seeing AI traffic data immediately
-
-## What's Coming on This Blog
-
-We'll be sharing:
-
-- **AI traffic strategies** - How to increase visits from AI chatbots
-- **Privacy insights** - Building analytics that respect users
-- **Case studies** - Real examples of AI-driven traffic growth
-- **Product updates** - New features and improvements
+We'll cover strategies for increasing visits from AI chatbots, how to build privacy-respecting analytics, real examples of AI-driven traffic growth, and product updates as we ship new features.
 
 ---
 
-**Ready to track your AI traffic?** [Create your account](https://app.aicw.io) or view our [live demo](https://app.aicw.io/public/aicw.io).
+[Create your account](https://app.aicw.io) or view the [live demo](https://app.aicw.io/public/aicw.io).
