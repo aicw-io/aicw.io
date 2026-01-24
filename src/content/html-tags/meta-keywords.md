@@ -12,15 +12,13 @@ things: "meta keywords, meta keywords tag, html meta keywords, seo keywords tag,
 keywords: "meta keywords, meta keywords tag, html meta keywords, seo keywords tag, meta keywords example, are meta keywords still used, meta tag keywords, keyword meta tag"
 ---
 
-## What Are Meta Keywords
+## What are meta keywords
 
-The meta keywords tag is an HTML element used to inform search engines about the contents of a webpage. Web developers would include it in the head section of their HTML code, featuring a list of keywords related to the page content.
+The meta keywords tag is an HTML element that was once used to tell search engines what a webpage was about. Developers would include it in the head section with a list of keywords related to the page content.
 
-In the 1990s and early 2000s, this tag was crucial for SEO. Search engines like AltaVista and the early versions of Google considered these keywords when ranking pages. Website owners would list relevant terms they hoped to rank for.
+In the 1990s and early 2000s, this tag mattered for SEO. Search engines like AltaVista and early Google considered these keywords when ranking pages. Website owners would list terms they hoped to rank for.
 
-The basic HTML structure is straightforward. You place it in the head section of your webpage between the opening and closing head tags. The format follows standard meta tag syntax with a name attribute and a content attribute.
-
-Today, the meta keywords tag holds little value for SEO. Google officially ceased its use for rankings [in 2009, and most other major search engines followed suit](https://www.randgroup.com/insights/services/digital-marketing/meta-keywords-is-officially-dead/). Nevertheless, it still appears on older websites and in some CMS templates.
+Today, meta keywords hold almost no value for SEO. Google stopped using them for rankings [in 2009](https://www.randgroup.com/insights/services/digital-marketing/meta-keywords-is-officially-dead/), and most other search engines followed. The tag still appears on older websites and some CMS templates, but it's essentially obsolete.
 
 ## Why the Meta Keywords Tag Was Created
 

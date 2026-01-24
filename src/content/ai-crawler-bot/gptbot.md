@@ -129,9 +129,13 @@ As of mid-2024, data shows that approximately 22% of top-ranked websites block G
 
 Deciding whether to allow or block **OpenAI crawlers** depends on your goals and concerns. Consider blocking GPTBot if you create original content that represents significant investment and you want to prevent AI models from training on it without compensation. Many publishers, writers, and content creators choose this approach. Consider allowing OAI-SearchBot if you want visibility in ChatGPT Search results and the potential referral traffic. This bot does not contribute to training datasets so you get search benefits without enabling AI training. ChatGPT-User is less important to block since it only operates on-demand when users request specific pages. Blocking it prevents ChatGPT from summarizing your pages for users who ask. Some websites allow all three bots because they see AI as a traffic source and discovery channel. Others block all three over concerns about AI's impact on their business model. There is no universal right answer. Review your content strategy, business model, and views on AI to make an informed decision. You can always change your robots.txt rules later if your position changes.
 
-## Conclusion
+## Summary
 
-OpenAI operates three distinct web crawlers for different purposes. GPTBot collects training data for future GPT models and can be blocked to prevent your content from training AI. **OAI-SearchBot** powers ChatGPT Search with real-time results and attribution links without using content for training. **ChatGPT-User** fetches pages on-demand when users request specific information. Each bot respects robots.txt directives and can be controlled independently. As of mid-2024, about 22% of top websites block GPTBot while fewer block the other two bots. You can verify legitimate OpenAI bot requests using the IP ranges published at [openai.com/gptbot.json](http://openai.com/gptbot.json). Traffic from ChatGPT includes the `utm_source=chatgpt.com` parameter for tracking in analytics tools. Website owners can implement selective blocking strategies that prevent AI training while maintaining search visibility. The choice depends on your content strategy and business goals. Understanding how each OpenAI crawler works helps you make informed decisions about managing them on your website.
+OpenAI operates three web crawlers: GPTBot collects training data for future GPT models, OAI-SearchBot powers ChatGPT Search without using content for training, and ChatGPT-User fetches pages on-demand when users request specific URLs.
+
+Each bot respects robots.txt directives and can be blocked independently. As of mid-2024, about 22% of top websites block GPTBot while fewer block the search and on-demand bots. Verify legitimate requests using the IP ranges at [openai.com/gptbot.json](http://openai.com/gptbot.json). Track traffic from ChatGPT using the `utm_source=chatgpt.com` parameter in analytics.
+
+A common approach is blocking GPTBot to prevent AI training while allowing OAI-SearchBot to maintain visibility in ChatGPT Search. The choice depends on your content strategy.
 <h2>Frequently Asked Questions</h2>
 
 <details>

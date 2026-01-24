@@ -121,11 +121,9 @@ Once installed, Copilot automatically assists with code suggestions.
 - Always review suggestions for bugs or security vulnerabilities.
 - The AI works best with popular languages and frameworks.
 
-## Conclusion
+## Summary
 
-GitHub Copilot represents a significant advancement in coding efficiency, backed by the power of OpenAI's GPT-4 and Codex models, offering real-time suggestions and broad IDE integration. Its real-time suggestions and broad IDE integration offer major productivity benefits, though considerations such as cost and data privacy remain crucial for developers.
-
-Compared to alternatives like Cursor, Codeium, and Tabnine, GitHub Copilot is competitive, offering a 30-day free trial for risk-free evaluation, allowing developers to assess its capabilities. For many, the time savings and improved workflow justify the investment in GitHub Copilot, enhancing overall development efficiency.
+GitHub Copilot uses OpenAI's GPT-4 and Codex models to provide real-time code suggestions across major IDEs. Pricing starts at $10/month for individuals, with free access for students and open-source maintainers. The 30-day free trial lets you test it before committing. Compared to alternatives like Cursor, Codeium, and Tabnine, Copilot is competitive on features but consider data privacy implications since code snippets are sent to GitHub's servers by default.
 <h2>Frequently Asked Questions</h2>
 
 <details>

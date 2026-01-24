@@ -12,9 +12,11 @@ things: "og:image, open graph image, social media preview image, og:image size, 
 keywords: "og:image, open graph image, social media preview image, og:image size, facebook share image, og image dimensions, vercel og image"
 ---
 
-## What is the og:image Meta Tag
+## What is the og:image meta tag
 
-The **og:image** meta tag is a piece of HTML code that tells social media [platforms which image to display when someone shares your webpage](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata). Without this tag, links appear plain and unappealing when shared on Facebook, Twitter, LinkedIn, or other social media. The Open Graph protocol was created by Facebook in 2010 to help websites control how their content appears when shared. Nowadays, almost every social platform uses these tags. By adding an **og:image** tag to your page header, social networks can use that specific image as a preview thumbnail. This makes your shared links more clickable and professional-looking. For web developers and marketing professionals, this is a must-have feature. Without it, platforms might select a random image from your page or show no image at all.
+The og:image meta tag tells social media [platforms which image to display when someone shares your webpage](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata). Without it, links appear plain when shared on Facebook, Twitter, LinkedIn, or other platforms.
+
+The Open Graph protocol was created by Facebook in 2010 to let websites control how their content appears when shared. Nowadays, almost every social platform uses these tags. By adding an og:image tag to your page header, social networks use that specific image as a preview thumbnail. Without it, platforms might select a random image from your page or show no image at all.
 
 How og:image Works in Social Media Sharing:
 ![What is the og:image Meta Tag Diagram](/assets/html-tags/og-image/user-shares-link.png)

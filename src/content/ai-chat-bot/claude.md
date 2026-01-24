@@ -12,9 +12,9 @@ things: "Claude AI, Anthropic, Claude chatbot, AI assistant, Claude models, Clau
 keywords: "Claude AI, Anthropic, Claude chatbot, AI assistant, Claude models, Claude API, Claude Pro, AI safety, constitutional AI, large language model, LLM"
 ---
 
-# Claude AI: Revolutionizing AI Safety and Assistance
+# Claude AI: Anthropic's AI assistant
 
-Claude is an AI chatbot and assistant developed by Anthropic. The company was founded in 2021 by former OpenAI researchers determined to build safer AI systems. Claude stands out for its constitutional AI approach, following specific rules and principles during training. This tool handles conversations, writes code, analyzes documents, and assists with various tasks, making it a versatile AI assistant.
+Claude is an AI chatbot developed by Anthropic, a company founded in 2021 by former OpenAI researchers focused on AI safety. Claude uses a constitutional AI approach, following specific rules and principles during training. It handles conversations, writes code, analyzes documents, and assists with various tasks.
 
 Claude is unique for its massive 200K token context window, especially in earlier models like Claude 3.5 Sonnet, allowing you to work with lengthy documents. This service offers free access with additional paid tiers for power users and businesses. Anthropic has released multiple versions of Claude, including Claude 3 Opus, Claude 3 Sonnet, and Claude 3.5 Sonnet, each with distinct performance levels. Developers can access Claude through the Claude API, enabling companies to deploy it for enterprise use.
 

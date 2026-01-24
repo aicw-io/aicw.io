@@ -216,7 +216,7 @@ Anticipated advancements encompass:
 
 ## Summary
 
-ChatGPT Search introduces pioneering AI search features that enhance information discovery and comprehension beyond conventional search engines. Despite existing limitations, ongoing updates continue to improve its functionality.
+ChatGPT Search combines web search with AI-generated answers. It provides direct responses with source links rather than just a list of URLs. Available free to all users since December 2024, with additional features through Plus and Pro subscriptions.
 
 ### Key Takeaways:
 - Launched October 2024
