@@ -301,6 +301,15 @@ const howToJsonLd = chapter.data.howTo ? {
             </div>
           )}
 
+          <!-- Copyright Notice -->
+          <div class="mt-10 mb-8 p-4 bg-bg-secondary rounded-lg border border-border">
+            <p class="text-sm text-text-light text-center">
+              This content is reprinted from <a href="https://www.amazon.com/dp/B0F32H7YSB" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:text-primary-700 underline">{bookTitle}</a> by {book.data.author} with permission.
+              <br />
+              &copy; {new Date().getFullYear()} {book.data.author}. All rights reserved.
+            </p>
+          </div>
+
           <!-- Download/Purchase Block -->
           <div class="bg-gradient-to-r from-primary-50 to-primary-100 rounded-xl p-6 mb-8 border border-primary-200">
             <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">

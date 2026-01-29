@@ -17,6 +17,9 @@ purchaseLinks:
   - store: amazon
     label: "Buy Print on Amazon"
     url: "https://www.amazon.com/dp/B0F32H7YSB"
+  - store: kindle
+    label: "Buy Kindle Edition"
+    url: "https://www.amazon.com/Search-Engine-Optimization-Guide-Optimizing-ebook/dp/B0F2TT1MHR/"
 chapters:
   - "00-introduction"
   - "01-beyond-keywords"
